@@ -1,0 +1,519 @@
+{
+  "lexical_unit": {
+    "id": "lu_verabredung_die",
+    "source_de": {
+      "lu_de_raw": "Verabredung, die",
+      "lu_de_normalized": "Verabredung",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "dejt",
+    "display_sv": "dejt",
+    "name_sv": "dejt",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "dejt",
+      "dejten",
+      "dejter",
+      "dejterna"
+    ],
+    "english_equivalent_en": "date",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "dejt",
+        "def_sg": "dejten",
+        "indef_pl": "dejter",
+        "def_pl": "dejterna",
+        "note_en": "Loanword; plural -er is common."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": null
+    },
+    "derived_words_sv": [
+      {
+        "word": "dejtande",
+        "type_en": "noun",
+        "meaning_en": "dating (activity)"
+      },
+      {
+        "word": "dejtapp",
+        "type_en": "noun",
+        "meaning_en": "dating app"
+      },
+      {
+        "word": "dejtprofil",
+        "type_en": "noun",
+        "meaning_en": "dating profile"
+      },
+      {
+        "word": "dejtpartner",
+        "type_en": "noun",
+        "meaning_en": "date partner; person you go on a date with"
+      }
+    ],
+    "synonyms_sv": [
+      "träff",
+      "möte"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_dating",
+        "frame_name_en": "Dating",
+        "frame_slug": "dating",
+        "sense_id": "lu_verabredung_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_verabredung_die:1",
+        "frame_id": "frame_dating",
+        "meaning_en": "a planned romantic meeting, or the person you go with to an event",
+        "how_to_use_en": [
+          "Use for a romantic meeting: på en dejt, deras dejt.",
+          "Use for a person you bring with you: vara någons dejt, ta med en dejt.",
+          "Often with an ordinal: första/andra/tredje dejt."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "vara någons dejt (på + event)",
+            "note_en": "A person as someone’s companion at an event (e.g., studentbalen)."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "komma till + (deras) dejt",
+            "note_en": "A planned meeting you can come to or miss."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "bjuda ut + någon + på en dejt",
+            "note_en": "Invite/ask someone out on a date."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "gå på + (sin/deras) + (första/andra/tredje) + dejt",
+            "note_en": "Talk about the stage/number of dates."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "ta med + en dejt",
+            "note_en": "Bring a date (a person) to an event."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *dejt* for any meeting (e.g., a work meeting).",
+            "fix": "Use möte/träff for non-romantic meetings.",
+            "explain_en": "In these examples, *dejt* is connected to dating/romance or being someone’s companion at an event."
+          },
+          {
+            "error": "Wrong preposition: *i en dejt*.",
+            "fix": "Say på en dejt / till en dejt / komma till deras dejt.",
+            "explain_en": "The examples show on/to: 'på en dejt', 'komma till deras dejt'."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "4f0fb3720337a0054bf70ffe914668e39ed891ac",
+            "sv": "Han frågar henne om hon vill bli hans dejt på studentbalen.",
+            "en": "He asks her if she wants to be his date at the prom.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "henne"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "på studentbalen"
+              }
+            ],
+            "gloss": "date (person you go with to an event)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Can't Buy Me Love (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Can%27t_Buy_Me_Love_(film)",
+              "sentence_id": "814b5a81",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"dejt\"]"
+            }
+          },
+          {
+            "ex_id": "5e5d998bb93c47117f7ffc3d11193db1660aa84c",
+            "sv": "Han ringer och informerar henne att han inte kan komma till deras dejt.",
+            "en": "He calls and tells her that he cannot come to their date.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "henne"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "deras dejt"
+              }
+            ],
+            "gloss": "date (a planned meeting)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Love Don't Cost a Thing (sång)",
+              "text_url": "https://sv.wikipedia.org/wiki/Love_Don%27t_Cost_a_Thing_(s%C3%A5ng)",
+              "sentence_id": "61c26a87",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"dejt\"]"
+            }
+          },
+          {
+            "ex_id": "912db51a0900ea9ebef2bbb099410e70fb2744ae",
+            "sv": "Ted bjuder ut henne på en dejt, och dejten går bra.",
+            "en": "Ted asks her out on a date, and the date goes well.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Ted"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "henne"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "på en dejt"
+              }
+            ],
+            "gloss": "date (romantic meeting)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Pilot (How I Met Your Mother)",
+              "text_url": "https://sv.wikipedia.org/wiki/Pilot_(How_I_Met_Your_Mother)",
+              "sentence_id": "754071ac",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"dejt\"]"
+            }
+          },
+          {
+            "ex_id": "0a067e0efcd916d440cca7d37e5a45225db10384",
+            "sv": "Elvis krossade Marges hjärta då han inte kom till deras andra dejt.",
+            "en": "Elvis broke Marge's heart because he did not come to their second date.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Elvis"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Marge"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "deras andra dejt"
+              },
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "då han inte kom till deras andra dejt"
+              }
+            ],
+            "gloss": "date (romantic meeting)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Marge Simpson",
+              "text_url": "https://sv.wikipedia.org/wiki/Marge_Simpson",
+              "sentence_id": "b6d6161f",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"dejt\"]"
+            }
+          },
+          {
+            "ex_id": "1345ee5b93ba6902e13e21063c82f7423e5ce5e3",
+            "sv": "Claudia går också med på att Ted får ta med en dejt.",
+            "en": "Claudia also agrees that Ted may bring a date.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Ted"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "en dejt"
+              }
+            ],
+            "gloss": "date (a person you bring with you)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "The Wedding (How I Met Your Mother)",
+              "text_url": "https://sv.wikipedia.org/wiki/The_Wedding_(How_I_Met_Your_Mother)",
+              "sentence_id": "5137c04f",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"dejt\"]"
+            }
+          },
+          {
+            "ex_id": "3912adda29af9b1d9b4874f583e7a9db5d5d4db0",
+            "sv": "Eftersom bröllopet ligger nära i tiden förbjuder hon honom att ta med en dejt.",
+            "en": "Because the wedding is soon, she forbids him to bring a date.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "honom"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "en dejt"
+              },
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "Eftersom bröllopet ligger nära i tiden"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "nära i tiden"
+              }
+            ],
+            "gloss": "date (a person you bring with you)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "The Wedding (How I Met Your Mother)",
+              "text_url": "https://sv.wikipedia.org/wiki/The_Wedding_(How_I_Met_Your_Mother)",
+              "sentence_id": "51347332",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"dejt\"]"
+            }
+          },
+          {
+            "ex_id": "b22acf8eec2cfa0d67c523dfe7496bbc537a0a1f",
+            "sv": "Men när de ska på sin tredje dejt säger Kim att hon har blivit gravid.",
+            "en": "But when they are going on their third date, Kim says that she has become pregnant.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "de"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Kim"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "sin tredje dejt"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "när"
+              }
+            ],
+            "gloss": "date (romantic meeting)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lista över rollfigurer i Scrubs",
+              "text_url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_rollfigurer_i_Scrubs",
+              "sentence_id": "b5803695",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"dejt\"]"
+            }
+          },
+          {
+            "ex_id": "400ff4abd8e6aa12298a28b6f55f65f9f6f129cc",
+            "sv": "Hon träffade Peter Parker på en dejt som deras mostrar hade arrangerat.",
+            "en": "She met Peter Parker on a date that their aunts had arranged.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Peter Parker"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "på en dejt"
+              }
+            ],
+            "gloss": "date (romantic meeting)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mary Jane Watson",
+              "text_url": "https://sv.wikipedia.org/wiki/Mary_Jane_Watson",
+              "sentence_id": "8c0c974c",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"dejt\"]"
+            }
+          },
+          {
+            "ex_id": "5300b0a0a0b1cd4f931d98648b8066ecb1e22dae",
+            "sv": "Chris Parker går med på att sitta barnvakt efter en mindre lyckad dejt.",
+            "en": "Chris Parker agrees to babysit after a less successful date.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Chris Parker"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "efter"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "en mindre lyckad dejt"
+              }
+            ],
+            "gloss": "date (romantic meeting)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "En natt på stan",
+              "text_url": "https://sv.wikipedia.org/wiki/En_natt_p%C3%A5_stan",
+              "sentence_id": "57da415b",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"dejt\"]"
+            }
+          },
+          {
+            "ex_id": "dd96b39b5bdd2ba89df79ff70ac55a3c05e18d1a",
+            "sv": "Magnus och Alecs första dejt, utspelar sig i City of Bones.",
+            "en": "Magnus and Alec's first date takes place in City of Bones.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Magnus"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Alecs"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "första dejt"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i City of Bones"
+              }
+            ],
+            "gloss": "date (romantic meeting)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "The Bane Chronicles",
+              "text_url": "https://sv.wikipedia.org/wiki/The_Bane_Chronicles",
+              "sentence_id": "ebb5c7eb",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"dejt\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": null,
+      "stress_hint": "one syllable; stress on the whole word"
+    },
+    "morphology": {
+      "principal_parts": [
+        "en dejt",
+        "dejten",
+        "dejter",
+        "dejterna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

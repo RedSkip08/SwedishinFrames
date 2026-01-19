@@ -1,0 +1,469 @@
+{
+  "lexical_unit": {
+    "id": "lu_mann_der",
+    "source_de": {
+      "lu_de_raw": "Mann, der",
+      "lu_de_normalized": "Mann",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "make",
+    "display_sv": "make",
+    "name_sv": "make",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "make",
+      "maken",
+      "makar",
+      "makarna"
+    ],
+    "english_equivalent_en": "husband",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "make",
+        "def_sg": "maken",
+        "indef_pl": "makar",
+        "def_pl": "makarna",
+        "note_en": "Often used with possessives: min/sin/hennes/hans make. Plural 'makar' is common in formal style."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": null
+    },
+    "derived_words_sv": [
+      {
+        "word": "maka",
+        "type_en": "noun",
+        "meaning_en": "wife (female spouse)"
+      },
+      {
+        "word": "makar",
+        "type_en": "noun",
+        "meaning_en": "spouses (a married couple)"
+      },
+      {
+        "word": "makarna",
+        "type_en": "noun",
+        "meaning_en": "the spouses / the married couple"
+      },
+      {
+        "word": "blivande make",
+        "type_en": "other",
+        "meaning_en": "future husband"
+      }
+    ],
+    "synonyms_sv": [
+      "man",
+      "äkte man",
+      "gift man"
+    ],
+    "antonyms_sv": [
+      "hustru"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_marriage",
+        "frame_name_en": "Marriage",
+        "frame_slug": "marriage",
+        "sense_id": "lu_mann_der:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_mann_der:1",
+        "frame_id": "frame_marriage",
+        "meaning_en": "a man who is married to a woman; her husband",
+        "how_to_use_en": [
+          "Use for a woman’s husband, often in a formal or written style.",
+          "Common with possessives: min/sin/hennes make.",
+          "Also used in phrases like blivande make (“future husband”)."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "sin/min/hennes/hans + make",
+            "note_en": "Very common in the examples: sin make, Min make, hennes make."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "blivande + make",
+            "note_en": "Used for a future husband: sin blivande make ..."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "tillsammans med + sin make",
+            "note_en": "Used when describing doing something together with the husband."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "träffa + sin make (+ namn)",
+            "note_en": "Used when someone met her husband, sometimes followed by his name."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using make for any man (not necessarily married).",
+            "fix": "Use man/kille for a male person; use make only for a husband.",
+            "explain_en": "Make refers to the marital role in the Marriage frame."
+          },
+          {
+            "error": "Mixing up make and maka.",
+            "fix": "Make = husband; maka = wife.",
+            "explain_en": "They are gendered spouse terms."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "39f25197b8ca0a1dc157658b3d237b122a95de27",
+            "sv": "McGuire följde ofta med sin make på hans uppdrag världen över.",
+            "en": "McGuire often went with her husband on his assignments around the world.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin make"
+              }
+            ],
+            "gloss": "husband",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Dorothy McGuire",
+              "text_url": "https://sv.wikipedia.org/wiki/Dorothy_McGuire",
+              "sentence_id": "bd7f4551",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"make\"]"
+            }
+          },
+          {
+            "ex_id": "ce2c42b596789282202de27fdae629a2b2be2d09",
+            "sv": "Han sade att en make är skyldig att älska sin hustru.",
+            "en": "He said that a husband is obliged to love his wife.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "en make"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin hustru"
+              }
+            ],
+            "gloss": "husband",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Patriarkat (sociologi)",
+              "text_url": "https://sv.wikipedia.org/wiki/Patriarkat_(sociologi)",
+              "sentence_id": "f5e2b7d5",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"make\"]"
+            }
+          },
+          {
+            "ex_id": "c7a2b7002a1f791079c678cc3317ea2b824e604f",
+            "sv": "Min make och jag - även om vi fortfarande är bästa vänner - separerade nyligen.",
+            "en": "My husband and I - even though we are still best friends - separated recently.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "Min make"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "separerade"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "nyligen"
+              }
+            ],
+            "gloss": "husband",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Pulse (album av Toni Braxton)",
+              "text_url": "https://sv.wikipedia.org/wiki/Pulse_(album_av_Toni_Braxton)",
+              "sentence_id": "a26c4ab6",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"make\"]"
+            }
+          },
+          {
+            "ex_id": "f797b40d0097478ed78e2f219110c41f1bb8490a",
+            "sv": "Tillsammans med sin make drev hon under många år Eslövs Advokatbyrå.",
+            "en": "Together with her husband she ran Eslövs Law Firm for many years.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin make"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "under många år"
+              }
+            ],
+            "gloss": "husband",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ester Hofvander-Sandberg",
+              "text_url": "https://sv.wikipedia.org/wiki/Ester_Hofvander-Sandberg",
+              "sentence_id": "3bde8cbc",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"make\"]"
+            }
+          },
+          {
+            "ex_id": "bbdd02e4966acf6e7034265d0322e499756f3b8d",
+            "sv": "Evelyn vill hålla tyst om sin inblandning, men övertygar sin make att försvara kvinnan.",
+            "en": "Evelyn wants to keep quiet about her involvement, but convinces her husband to defend the woman.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin make"
+              }
+            ],
+            "gloss": "husband",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ett farligt möte",
+              "text_url": "https://sv.wikipedia.org/wiki/Ett_farligt_m%C3%B6te",
+              "sentence_id": "7540484e",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"make\"]"
+            }
+          },
+          {
+            "ex_id": "ebab5867a0168aa55ebd12faaa7389d3abdfd9f1",
+            "sv": "I bilen fanns, förutom föraren, Guðrún och hennes make samt två av deras döttrar.",
+            "en": "In the car there were, besides the driver, Guðrún and her husband as well as two of their daughters.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Guðrún"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "hennes make"
+              }
+            ],
+            "gloss": "husband",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Guðrún Lárusdóttir",
+              "text_url": "https://sv.wikipedia.org/wiki/Gu%C3%B0r%C3%BAn_L%C3%A1rusd%C3%B3ttir",
+              "sentence_id": "f809a850",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"make\"]"
+            }
+          },
+          {
+            "ex_id": "1be316e6c466f04f864c4b1a5e41ee3a70465f84",
+            "sv": "Äktenskapet blev dock kortvarigt då hennes make dog redan efter två år.",
+            "en": "The marriage was however short-lived because her husband died already after two years.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "Äktenskapet"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "hennes make"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "dog"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "efter två år"
+              },
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "då hennes make dog"
+              }
+            ],
+            "gloss": "husband",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Maria Anholm",
+              "text_url": "https://sv.wikipedia.org/wiki/Maria_Anholm",
+              "sentence_id": "24628144",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"make\"]"
+            }
+          },
+          {
+            "ex_id": "e0e1acefab93c8f592830e846d9a5c61d3a5b62a",
+            "sv": "Hon har aldrig träffat honom, men vet att han är förutbestämd att bli hennes make.",
+            "en": "She has never met him, but knows that he is destined to become her husband.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "hennes make"
+              }
+            ],
+            "gloss": "husband",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Menglöd",
+              "text_url": "https://sv.wikipedia.org/wiki/Mengl%C3%B6d",
+              "sentence_id": "cb6c7078",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"make\"]"
+            }
+          },
+          {
+            "ex_id": "902d3893510ac4843fe7108f509c1a245ed42468",
+            "sv": "Prinsessan Viktoria mötte sin blivande make Albert av Sachsen-Coburg-Gotha då hon var sexton år gammal.",
+            "en": "Princess Victoria met her future husband Albert of Saxe-Coburg-Gotha when she was sixteen years old.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Prinsessan Viktoria"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin blivande make Albert av Sachsen-Coburg-Gotha"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "då hon var sexton år gammal"
+              }
+            ],
+            "gloss": "husband",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Viktoria av Storbritannien",
+              "text_url": "https://sv.wikipedia.org/wiki/Viktoria_av_Storbritannien",
+              "sentence_id": "12689c22",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"make\"]"
+            }
+          },
+          {
+            "ex_id": "eb804f9b11c309f2e0ae1e176a9a3d09fd1e3cbf",
+            "sv": "Där träffade hon sin make Åke Olhagen, som även han var journalist.",
+            "en": "There she met her husband Åke Olhagen, who was also a journalist.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin make Åke Olhagen"
+              }
+            ],
+            "gloss": "husband",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Brita Olhagen",
+              "text_url": "https://sv.wikipedia.org/wiki/Brita_Olhagen",
+              "sentence_id": "239a792e",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"make\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": null,
+      "stress_hint": "one syllable; long a-sound (like in 'tak')"
+    },
+    "morphology": {
+      "principal_parts": [
+        "en make",
+        "maken",
+        "makar",
+        "makarna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

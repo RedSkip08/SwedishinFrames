@@ -1,0 +1,442 @@
+{
+  "lexical_unit": {
+    "id": "lu_trennen_sich_acc_trennen_von",
+    "source_de": {
+      "lu_de_raw": "trennen: sich (acc.) trennen (von)",
+      "lu_de_normalized": "sich trennen (von)",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "separera",
+    "display_sv": "separera",
+    "name_sv": "separera",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "separera",
+      "separerar",
+      "separerade",
+      "separerat"
+    ],
+    "english_equivalent_en": "separate",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": null
+      },
+      "verb": {
+        "infinitive": "separera",
+        "present": "separerar",
+        "past": "separerade",
+        "supine": "separerat",
+        "imperative": "separera",
+        "present_participle": "separerande",
+        "past_participle": "separerad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Regular verb (group 1): -ar, -ade, -at."
+    },
+    "derived_words_sv": [
+      {
+        "word": "separering",
+        "type_en": "noun",
+        "meaning_en": "separation; the act/process of separating"
+      },
+      {
+        "word": "separerad",
+        "type_en": "adjective",
+        "meaning_en": "separated; kept apart"
+      },
+      {
+        "word": "separat",
+        "type_en": "adjective",
+        "meaning_en": "separate; not together"
+      },
+      {
+        "word": "separationsvägg",
+        "type_en": "noun",
+        "meaning_en": "partition wall; wall that separates spaces"
+      }
+    ],
+    "synonyms_sv": [
+      "skilja",
+      "avskilja",
+      "dela upp",
+      "särskilja",
+      "åtskilja"
+    ],
+    "antonyms_sv": [
+      "förena",
+      "sammanföra",
+      "blanda"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_marriage",
+        "frame_name_en": "Marriage",
+        "frame_slug": "marriage",
+        "sense_id": "lu_trennen_sich_acc_trennen_von:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_trennen_sich_acc_trennen_von:1",
+        "frame_id": "frame_marriage",
+        "meaning_en": "keep things apart by dividing them into different parts or groups.",
+        "how_to_use_en": [
+          "Use when you divide or keep two things/people/areas apart.",
+          "Often used in formal/technical contexts (e.g., traffic, filters, machines).",
+          "Common with “från” to show what is separated from what."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "separera X från Y",
+            "note_en": "Separate one thing from another (e.g., grädde från mjölk; ämnen från en vätska/gas)."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "separera X och Y",
+            "note_en": "Separate two things/areas (e.g., bostadshus och fähus)."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "separera X (igen)",
+            "note_en": "Separate again/return to being separated (e.g., vätskorna igen)."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "separera X i Y",
+            "note_en": "Separate into parts/sections (e.g., avdelningar i en bok)."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "separera X av/av hygieniska skäl / av trafiksäkerhetsskäl",
+            "note_en": "Reason phrase explaining why separation is wanted."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *separera* without saying what is separated from what when it matters.",
+            "fix": "Add “X från Y” or name both parts.",
+            "explain_en": "In many contexts you need to state the two sides to make the meaning clear."
+          },
+          {
+            "error": "Confusing *separera* with relationship separation (couples).",
+            "fix": "For couples, prefer “göra slut” or “separera sig” (not shown in these examples).",
+            "explain_en": "The examples here show general ‘separate’ (sections, traffic, liquids), not specifically a couple breaking up."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "84edade09a6425866fa8b782e24a066448c11d23",
+            "sv": "Tecknet används för att märka ut eller separera avdelningar i en bok.",
+            "en": "The sign is used to mark or separate sections in a book.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "separera"
+              }
+            ],
+            "gloss": "separate",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Asterism (typografi)",
+              "text_url": "https://sv.wikipedia.org/wiki/Asterism_(typografi)",
+              "sentence_id": "60448d6a",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          },
+          {
+            "ex_id": "d03705ffcc02b8ac7523510e94b20bdfe9feb4c7",
+            "sv": "Ofta är det trafiksäkerhetsskäl då man vill separera oskyddade trafikanter från biltrafiken.",
+            "en": "Often it is traffic safety reasons when you want to separate unprotected road users from car traffic.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "separera"
+              },
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "trafiksäkerhetsskäl"
+              }
+            ],
+            "gloss": "separate",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Cykelvägar i Sverige",
+              "text_url": "https://sv.wikipedia.org/wiki/Cykelv%C3%A4gar_i_Sverige",
+              "sentence_id": "2460b213",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          },
+          {
+            "ex_id": "a715ba2f1ae4ee89f5495d6230039dc1fbc0459f",
+            "sv": "Det är därför inte gynnsamt att separera friska barn från modern.",
+            "en": "It is therefore not good to separate healthy children from the mother.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "separera"
+              }
+            ],
+            "gloss": "separate",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Covid-19",
+              "text_url": "https://sv.wikipedia.org/wiki/Covid-19",
+              "sentence_id": "f00cf096",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          },
+          {
+            "ex_id": "9145aec2f61c92ed9ff5801e5e0b8a65a4a7b2ac",
+            "sv": "Om man vill separera vätskorna igen, så måste man tillföra energi.",
+            "en": "If you want to separate the liquids again, then you must add energy.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "separera"
+              }
+            ],
+            "gloss": "separate",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Saltkraft",
+              "text_url": "https://sv.wikipedia.org/wiki/Saltkraft",
+              "sentence_id": "bd09fa2e",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          },
+          {
+            "ex_id": "0bcebc343f4e61c4eb640630110786a3a7a13417",
+            "sv": "Av hygieniska skäl var det dock bättre att separera bostadshus och fähus.",
+            "en": "For hygienic reasons, however, it was better to separate the dwelling house and the cowshed.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "separera"
+              },
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "Av hygieniska skäl"
+              }
+            ],
+            "gloss": "separate",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hus",
+              "text_url": "https://sv.wikipedia.org/wiki/Hus",
+              "sentence_id": "a132970e",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          },
+          {
+            "ex_id": "3108ada462a035c5e9108797b943d0ae30e3902a",
+            "sv": "Pedersens första stora succé var en maskin för att separera grädde från mjölk.",
+            "en": "Pedersen's first big success was a machine to separate cream from milk.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "separera"
+              }
+            ],
+            "gloss": "separate",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Dursley-Pedersencykel",
+              "text_url": "https://sv.wikipedia.org/wiki/Dursley-Pedersencykel",
+              "sentence_id": "48bb0959",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          },
+          {
+            "ex_id": "443eb0fb2ba67766614211ab5909fe5fc5cd88e5",
+            "sv": "Aktivt kol används för att avlägsna eller separera ämnen från en vätska eller gas.",
+            "en": "Activated carbon is used to remove or separate substances from a liquid or gas.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "separera"
+              }
+            ],
+            "gloss": "separate",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Aktivt kol",
+              "text_url": "https://sv.wikipedia.org/wiki/Aktivt_kol",
+              "sentence_id": "143de0ab",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          },
+          {
+            "ex_id": "1a18226fb1edca465277cea83282fee84ad0d3ed",
+            "sv": "Till exempel kan bandpassfilter användas för att separera de olika kanalerna.",
+            "en": "For example, band-pass filters can be used to separate the different channels.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "separera"
+              }
+            ],
+            "gloss": "separate",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Våglängdsmultiplexering",
+              "text_url": "https://sv.wikipedia.org/wiki/V%C3%A5gl%C3%A4ngdsmultiplexering",
+              "sentence_id": "5dc5890c",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          },
+          {
+            "ex_id": "382c9b9911b01a2dcad2b4d915828d5079161246",
+            "sv": "Den andra möjligheten är att tydligt separera styrelsens och revisorns ansvar.",
+            "en": "The other possibility is to clearly separate the board's and the auditor's responsibility.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "separera"
+              }
+            ],
+            "gloss": "separate",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Förväntningsgapet",
+              "text_url": "https://sv.wikipedia.org/wiki/F%C3%B6rv%C3%A4ntningsgapet",
+              "sentence_id": "ef5e941d",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          },
+          {
+            "ex_id": "a52e97f68704054ff401282d5f25897f2f9128a2",
+            "sv": "Detta undveks genom att separera klubbarna och spela som två självständiga lag.",
+            "en": "This was avoided by separating the clubs and playing as two independent teams.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "separera"
+              }
+            ],
+            "gloss": "separate",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Málaga CF",
+              "text_url": "https://sv.wikipedia.org/wiki/M%C3%A1laga_CF",
+              "sentence_id": "4d8e54c4",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": null,
+      "stress_hint": "stress on the last syllable: sepa-RER-a"
+    },
+    "morphology": {
+      "principal_parts": [
+        "separera",
+        "separerar",
+        "separerade",
+        "separerat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

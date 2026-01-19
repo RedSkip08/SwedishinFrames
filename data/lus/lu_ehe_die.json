@@ -1,0 +1,471 @@
+{
+  "lexical_unit": {
+    "id": "lu_ehe_die",
+    "source_de": {
+      "lu_de_raw": "Ehe, die",
+      "lu_de_normalized": "Ehe",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "äktenskap",
+    "display_sv": "äktenskap",
+    "name_sv": "äktenskap",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "ett äktenskap",
+      "äktenskapet",
+      "äktenskap",
+      "äktenskapen"
+    ],
+    "english_equivalent_en": "marriage",
+    "morphology_sv": {
+      "noun": {
+        "gender": "ett",
+        "indef_sg": "äktenskap",
+        "def_sg": "äktenskapet",
+        "indef_pl": "äktenskap",
+        "def_pl": "äktenskapen",
+        "note_en": "Neuter noun. Plural is the same as singular in indefinite form."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": null
+    },
+    "derived_words_sv": [
+      {
+        "word": "äktenskaplig",
+        "type_en": "adjective",
+        "meaning_en": "marital; related to marriage"
+      },
+      {
+        "word": "äktenskapsbrott",
+        "type_en": "noun",
+        "meaning_en": "adultery (breaking marriage vows)"
+      },
+      {
+        "word": "äktenskapsförord",
+        "type_en": "noun",
+        "meaning_en": "prenuptial agreement"
+      },
+      {
+        "word": "äktenskapsrådgivning",
+        "type_en": "noun",
+        "meaning_en": "marriage counselling"
+      },
+      {
+        "word": "äktenskapsproblem",
+        "type_en": "noun",
+        "meaning_en": "marriage problems"
+      }
+    ],
+    "synonyms_sv": [
+      "giftermål",
+      "äktenskaplig förening"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_marriage",
+        "frame_name_en": "Marriage",
+        "frame_slug": "marriage",
+        "sense_id": "lu_ehe_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_ehe_die:1",
+        "frame_id": "frame_marriage",
+        "meaning_en": "a legal and social union between two people as spouses",
+        "how_to_use_en": [
+          "Use for the marriage relationship/status: sitt äktenskap, 44 års äktenskap.",
+          "Use with verbs about starting/ending it: ingå ett äktenskap; (then) skilja sig.",
+          "Often used with time/place phrases: under de första åren; i Sverige."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "ingå (ett) äktenskap",
+            "note_en": "To enter into a marriage (formal/legal)."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "(ett) äktenskap + time expression",
+            "note_en": "Duration/period: '44 års äktenskap', 'ett kort äktenskap', 'under de första åren av sitt äktenskap'."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "ointresserad av äktenskap",
+            "note_en": "To be not interested in marriage (as an institution/idea)."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "deras/sitt + äktenskap",
+            "note_en": "Possessive use for the relationship: 'deras respektive äktenskap', 'sitt äktenskap'."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *en äktenskap*.",
+            "fix": "Say *ett äktenskap*.",
+            "explain_en": "Äktenskap is an ett-word (neuter)."
+          },
+          {
+            "error": "Mixing up *äktenskap* (noun) with *gift* (adjective).",
+            "fix": "Use *gift* for a person’s status and *äktenskap* for the union.",
+            "explain_en": "Examples show both: 'den som redan är gift' vs. 'ingå ett nytt äktenskap'."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "f104a37ffcd6316e4398c7876d27df9a0ef5568e",
+            "sv": "I Sverige får den som redan är gift inte ingå ett nytt äktenskap.",
+            "en": "In Sweden, someone who is already married may not enter into a new marriage.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_place",
+                "span_sv": "I Sverige"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "gift"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "ingå ett nytt äktenskap"
+              }
+            ],
+            "gloss": "marriage",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sharia",
+              "text_url": "https://sv.wikipedia.org/wiki/Sharia",
+              "sentence_id": "a6525a48",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"äktenskap\"]"
+            }
+          },
+          {
+            "ex_id": "44087fad9fd26907b28fbff5b11e94e6b57fe93a",
+            "sv": "Ogifta mödrar innebär att en kvinna fött barn utan att ha ingått ett äktenskap.",
+            "en": "Unmarried mothers mean that a woman has given birth to a child without having entered into a marriage.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "Ogifta"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "ha ingått ett äktenskap"
+              }
+            ],
+            "gloss": "marriage",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ogifta mödrar i Sverige",
+              "text_url": "https://sv.wikipedia.org/wiki/Ogifta_m%C3%B6drar_i_Sverige",
+              "sentence_id": "06b5e8d2",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"äktenskap\"]"
+            }
+          },
+          {
+            "ex_id": "5065a20fc441151a144c16abf29da2bb4fb16fef",
+            "sv": "Han var gift 3 gånger och fick 4 barn i sina två första äktenskap.",
+            "en": "He was married 3 times and had 4 children in his first two marriages.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "gift"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "3 gånger"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "sina två första äktenskap"
+              }
+            ],
+            "gloss": "marriage",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Clas Groschinsky",
+              "text_url": "https://sv.wikipedia.org/wiki/Clas_Groschinsky",
+              "sentence_id": "bfc4da09",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"äktenskap\"]"
+            }
+          },
+          {
+            "ex_id": "23087f1b6fbaa40be2512f5a58ac9f2cddc64c58",
+            "sv": "Grimwalker bytte namn till Jensen, efter ett kort äktenskap vid unga år.",
+            "en": "Grimwalker changed his name to Jensen, after a short marriage when he was young.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "ett kort äktenskap"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "vid unga år"
+              }
+            ],
+            "gloss": "marriage",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Caroline Grimwalker",
+              "text_url": "https://sv.wikipedia.org/wiki/Caroline_Grimwalker",
+              "sentence_id": "64a1c3ca",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"äktenskap\"]"
+            }
+          },
+          {
+            "ex_id": "8ca2f942fd5681f923300034a84b77552f13c958",
+            "sv": "1977 skilde Hergé sig från sin fru Germaine Kieckens, efter sammanlagt 44 års äktenskap.",
+            "en": "In 1977, Hergé divorced his wife Germaine Kieckens, after a total of 44 years of marriage.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1977"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "skilde Hergé sig från sin fru Germaine Kieckens"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "44 års äktenskap"
+              }
+            ],
+            "gloss": "marriage",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hergé",
+              "text_url": "https://sv.wikipedia.org/wiki/Herg%C3%A9",
+              "sentence_id": "55bb2f80",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"äktenskap\"]"
+            }
+          },
+          {
+            "ex_id": "dc06ed65175b839f13265f284b6d057fa3a0fff6",
+            "sv": "Paret vistades ofta i Kastilien under de första åren av sitt äktenskap.",
+            "en": "The couple often stayed in Castile during the first years of their marriage.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Kastilien"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "under de första åren"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "sitt äktenskap"
+              }
+            ],
+            "gloss": "marriage",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Eleonora av Kastilien, drottning av Navarra",
+              "text_url": "https://sv.wikipedia.org/wiki/Eleonora_av_Kastilien,_drottning_av_Navarra",
+              "sentence_id": "c20dd32f",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"äktenskap\"]"
+            }
+          },
+          {
+            "ex_id": "a9dcadbacf86ecf45c815c78c40380f32d155e9b",
+            "sv": "Själv var hon dock ointresserad av äktenskap och ville fortsätta med sina studier.",
+            "en": "However, she herself was not interested in marriage and wanted to continue her studies.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "äktenskap"
+              }
+            ],
+            "gloss": "marriage",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Juana Inés de la Cruz",
+              "text_url": "https://sv.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz",
+              "sentence_id": "7e8a883c",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"äktenskap\"]"
+            }
+          },
+          {
+            "ex_id": "d90d5d40e0ab208680da241ebd21a04e0bce8687",
+            "sv": "Ingrid och Simons affär uppdagas ganska snart och deras respektive äktenskap havererar.",
+            "en": "Ingrid and Simon's affair is revealed quite soon and their respective marriages fall apart.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "deras respektive äktenskap"
+              }
+            ],
+            "gloss": "marriage",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "En förälskelse",
+              "text_url": "https://sv.wikipedia.org/wiki/En_f%C3%B6r%C3%A4lskelse",
+              "sentence_id": "7543b39b",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"äktenskap\"]"
+            }
+          },
+          {
+            "ex_id": "86e38ace0f24ffbe5af9a04b0ae907a61f46b0f1",
+            "sv": "Han gick med på äktenskap och paret vigdes i hemlighet 1616.",
+            "en": "He agreed to marriage and the couple were married in secret in 1616.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "äktenskap"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "äktenskap"
+              }
+            ],
+            "gloss": "marriage",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Camilla Faà",
+              "text_url": "https://sv.wikipedia.org/wiki/Camilla_Fa%C3%A0",
+              "sentence_id": "fe98b536",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"äktenskap\"]"
+            }
+          },
+          {
+            "ex_id": "d54faa6a575832d7b8b0b9b16602da4f0e847a19",
+            "sv": "Som titeln antyder så skildrar den ett äktenskap och dess utmaningar.",
+            "en": "As the title suggests, it describes a marriage and its challenges.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "ett äktenskap"
+              }
+            ],
+            "gloss": "marriage",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Massi Bruhn",
+              "text_url": "https://sv.wikipedia.org/wiki/Massi_Bruhn",
+              "sentence_id": "b29a95fa",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"äktenskap\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈɛkːtɛnˌskɑːp",
+      "stress_hint": "Stress on first part: ÄK-ten-"
+    },
+    "morphology": {
+      "principal_parts": [
+        "ett äktenskap",
+        "äktenskapet",
+        "äktenskap",
+        "äktenskapen"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

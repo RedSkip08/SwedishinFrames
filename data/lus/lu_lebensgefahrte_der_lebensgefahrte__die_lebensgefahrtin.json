@@ -1,0 +1,61 @@
+{
+  "lexical_unit": {
+    "id": "lu_lebensgefahrte_der_lebensgefahrte__die_lebensgefahrtin",
+    "source_de": {
+      "lu_de_raw": "Lebensgefährte: der Lebensgefährte / die Lebensgefährtin",
+      "lu_de_normalized": "Lebensgefährte",
+      "gender_variants_de": [
+        "der Lebensgefährte",
+        "die Lebensgefährtin"
+      ],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "sambo",
+    "display_sv": "sambo",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
+        "sense_id": "lu_lebensgefahrte_der_lebensgefahrte__die_lebensgefahrtin:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_lebensgefahrte_der_lebensgefahrte__die_lebensgefahrtin:1",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": null,
+        "how_to_use_en": [],
+        "patterns": [],
+        "common_errors_en": [],
+        "required_example_count": 10,
+        "examples": []
+      }
+    ],
+    "pronunciation": {
+      "ipa": null,
+      "stress_hint": null
+    },
+    "morphology": {
+      "principal_parts": [],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

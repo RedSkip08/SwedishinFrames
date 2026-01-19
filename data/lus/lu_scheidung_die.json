@@ -1,0 +1,517 @@
+{
+  "lexical_unit": {
+    "id": "lu_scheidung_die",
+    "source_de": {
+      "lu_de_raw": "Scheidung, die",
+      "lu_de_normalized": "Scheidung",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "skilsmässa",
+    "display_sv": "skilsmässa",
+    "name_sv": "skilsmässa",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "en skilsmässa",
+      "skilsmässan",
+      "skilsmässor",
+      "skilsmässorna"
+    ],
+    "english_equivalent_en": "divorce",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "skilsmässa",
+        "def_sg": "skilsmässan",
+        "indef_pl": "skilsmässor",
+        "def_pl": "skilsmässorna",
+        "note_en": "A common noun for the event/status of ending a marriage."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "skilsmässa sig",
+        "type_en": "verb",
+        "meaning_en": "to get divorced (from each other)"
+      },
+      {
+        "word": "skilsmässobarn",
+        "type_en": "noun",
+        "meaning_en": "child of divorced parents"
+      },
+      {
+        "word": "skilsmässopapper",
+        "type_en": "noun",
+        "meaning_en": "divorce papers"
+      },
+      {
+        "word": "skilsmässoprocess",
+        "type_en": "noun",
+        "meaning_en": "divorce process"
+      },
+      {
+        "word": "skilsmässodrama",
+        "type_en": "noun",
+        "meaning_en": "divorce drama (conflict around a divorce)"
+      }
+    ],
+    "synonyms_sv": [
+      "äktenskapsskillnad"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_marriage",
+        "frame_name_en": "Marriage",
+        "frame_slug": "marriage",
+        "sense_id": "lu_scheidung_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_scheidung_die:1",
+        "frame_id": "frame_marriage",
+        "meaning_en": "the legal and social ending of a marriage",
+        "how_to_use_en": [
+          "Use it for the event/status when a married couple ends the marriage.",
+          "Often used with verbs like ansöka om, begära, ta ut, or with innan."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "innan [possessive] skilsmässa",
+            "note_en": "Time relation: something happens before the divorce (e.g., innan deras skilsmässa)."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "ta ut skilsmässa",
+            "note_en": "Fixed expression meaning ‘get a divorce’ (e.g., tog ut skilsmässa)."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "ansöka om skilsmässa",
+            "note_en": "Formal/legal: ‘apply for divorce’ (e.g., ansökte om skilsmässa)."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "begära skilsmässa",
+            "note_en": "Formal: ‘request a divorce’ (e.g., begärde skilsmässa)."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "en anmälan om skilsmässa",
+            "note_en": "A noun phrase for a report/notification connected to divorce (e.g., sin anmälan om skilsmässa)."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *skilsmässa* as a verb: *de skilsmässa*",
+            "fix": "Use a verb phrase: de skiljde sig / de tog ut skilsmässa",
+            "explain_en": "Skilsmässa is a noun; to talk about the action you need a verb expression."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "ecef1bba1ac62480eca8094bf76c4a1cd0a3bc93",
+            "sv": "Ett gift par möts en sista gång på en bar innan deras skilsmässa.",
+            "en": "A married couple meets one last time at a bar before their divorce.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Ett gift par"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "på en bar"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "deras skilsmässa"
+              }
+            ],
+            "gloss": "divorce",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Paris, je t'aime",
+              "text_url": "https://sv.wikipedia.org/wiki/Paris,_je_t%27aime",
+              "sentence_id": "19d2f8d2",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"skilsmässa\"]"
+            }
+          },
+          {
+            "ex_id": "ab501c4e63d64b032e188aab288f4eae6d064a10",
+            "sv": "Makarna separerade 1950 och tog ut skilsmässa den 29 oktober 1951.",
+            "en": "The spouses separated in 1950 and got a divorce on 29 October 1951.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Makarna"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1950"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "skilsmässa"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "den 29 oktober 1951"
+              }
+            ],
+            "gloss": "divorce",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Frank Sinatra",
+              "text_url": "https://sv.wikipedia.org/wiki/Frank_Sinatra",
+              "sentence_id": "cbf7dd20",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"skilsmässa\"]"
+            }
+          },
+          {
+            "ex_id": "40a2e9e0f81a230e720caa55b685d0b7035ea4d5",
+            "sv": "• 8 februari - David Bowie och hans fru Angie ansöker om skilsmässa.",
+            "en": "8 February - David Bowie and his wife Angie apply for divorce.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "8 februari"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "David Bowie"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "hans fru Angie"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "ansöker om skilsmässa"
+              }
+            ],
+            "gloss": "divorce",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Musikåret 1980 i Storbritannien",
+              "text_url": "https://sv.wikipedia.org/wiki/Musik%C3%A5ret_1980_i_Storbritannien",
+              "sentence_id": "8d1d0abc",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"skilsmässa\"]"
+            }
+          },
+          {
+            "ex_id": "84696489c546cacce2b6f217c505969970e0635c",
+            "sv": "Hustrun Hilda ledsnade och flyttade hem till Skien och begärde skilsmässa.",
+            "en": "The wife Hilda got tired and moved back home to Skien and asked for a divorce.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Hustrun Hilda"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "till Skien"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "begärde skilsmässa"
+              }
+            ],
+            "gloss": "divorce",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hjalmar Johansen",
+              "text_url": "https://sv.wikipedia.org/wiki/Hjalmar_Johansen",
+              "sentence_id": "e33727da",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"skilsmässa\"]"
+            }
+          },
+          {
+            "ex_id": "f1381d13db0a49a5ac86ce0ccf190f2af3002611",
+            "sv": "Deras äktenskap varade i åtta månader innan de separerade och så småningom ansökte om skilsmässa.",
+            "en": "Their marriage lasted for eight months before they separated and eventually applied for divorce.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "Deras äktenskap"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "i åtta månader"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "de"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "ansökte om skilsmässa"
+              }
+            ],
+            "gloss": "divorce",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Elisabeth Moss",
+              "text_url": "https://sv.wikipedia.org/wiki/Elisabeth_Moss",
+              "sentence_id": "f316a874",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"skilsmässa\"]"
+            }
+          },
+          {
+            "ex_id": "a158c8105071285771f366c29e3566e2598b4702",
+            "sv": "Endast fyra månader efter bröllopet, i november 2006, ansökte paret om skilsmässa.",
+            "en": "Only four months after the wedding, in November 2006, the couple applied for divorce.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "fyra månader efter bröllopet"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "i november 2006"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "paret"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "ansökte paret om skilsmässa"
+              }
+            ],
+            "gloss": "divorce",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kid Rock",
+              "text_url": "https://sv.wikipedia.org/wiki/Kid_Rock",
+              "sentence_id": "40e8d2ff",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"skilsmässa\"]"
+            }
+          },
+          {
+            "ex_id": "48fa7b9e70e8827621110091b77446e92c43be0e",
+            "sv": "Missförståndet klarades ut och Pauline Strauss tog tillbaka sin anmälan om skilsmässa.",
+            "en": "The misunderstanding was cleared up and Pauline Strauss took back her report of divorce.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Pauline Strauss"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "sin anmälan om skilsmässa"
+              }
+            ],
+            "gloss": "divorce",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Intermezzo (opera)",
+              "text_url": "https://sv.wikipedia.org/wiki/Intermezzo_(opera)",
+              "sentence_id": "2cb2202f",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"skilsmässa\"]"
+            }
+          },
+          {
+            "ex_id": "34f5941b66678b1214d1c58ea3ead43b6e35379b",
+            "sv": "Det skulle emellertid dröja till 1943 innan de tog ut skilsmässa.",
+            "en": "However, it would take until 1943 before they got a divorce.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "till 1943"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "de"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "tog ut skilsmässa"
+              }
+            ],
+            "gloss": "divorce",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jean Renoir",
+              "text_url": "https://sv.wikipedia.org/wiki/Jean_Renoir",
+              "sentence_id": "dd937445",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"skilsmässa\"]"
+            }
+          },
+          {
+            "ex_id": "b6de9640a5d352994d622cb2978b33521f646fde",
+            "sv": "De två gifte sig senare, ett äktenskap som slutade i skilsmässa.",
+            "en": "The two married later, a marriage that ended in divorce.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "De två"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "ett äktenskap"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "skilsmässa"
+              }
+            ],
+            "gloss": "divorce",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ingrid Pitt",
+              "text_url": "https://sv.wikipedia.org/wiki/Ingrid_Pitt",
+              "sentence_id": "83d08cc7",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"skilsmässa\"]"
+            }
+          },
+          {
+            "ex_id": "98a530acf9fd88f94225718669cb8928f2e60502",
+            "sv": "Han tappar lusten för sitt arbete och erbjuder sin fru skilsmässa.",
+            "en": "He loses interest in his work and offers his wife a divorce.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin fru"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "skilsmässa"
+              }
+            ],
+            "gloss": "divorce",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Narkos (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Narkos_(film)",
+              "sentence_id": "369b4795",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"skilsmässa\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": null,
+      "stress_hint": "Stress usually on the first part: SKIL- (skilsmässa)."
+    },
+    "morphology": {
+      "principal_parts": [
+        "skilsmässa (indefinite singular)",
+        "skilsmässan (definite singular)",
+        "skilsmässor (indefinite plural)",
+        "skilsmässorna (definite plural)"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

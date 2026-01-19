@@ -1,0 +1,174 @@
+{
+  "lexical_unit": {
+    "id": "lu_anmachen",
+    "source_de": {
+      "lu_de_raw": "anmachen",
+      "lu_de_normalized": "anmachen",
+      "gender_variants_de": [],
+      "pos_de": ""
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "ragga på",
+    "display_sv": "ragga på",
+    "name_sv": "ragga på",
+    "pos": "multiword",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": "prep_phrase",
+      "components_sv": [
+        "ragga",
+        "på"
+      ],
+      "spacing_notes_en": "Written as two words."
+    },
+    "forms": [
+      "ragga på",
+      "raggar på",
+      "raggade på",
+      "raggat på"
+    ],
+    "english_equivalent_en": "hit on",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": null
+      },
+      "verb": {
+        "infinitive": "ragga på",
+        "present": "raggar på",
+        "past": "raggade på",
+        "supine": "raggat på",
+        "imperative": "ragga på",
+        "present_participle": "raggande",
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword verb: verb + particle/preposition 'på'. The particle stays with the verb (ragga på någon)."
+    },
+    "derived_words_sv": [
+      {
+        "word": "ragga",
+        "type_en": "verb",
+        "meaning_en": "try to find someone to date or have sex with"
+      },
+      {
+        "word": "raggning",
+        "type_en": "noun",
+        "meaning_en": "the act of hitting on people"
+      },
+      {
+        "word": "raggare",
+        "type_en": "noun",
+        "meaning_en": "person who hits on others (also a subculture word)"
+      },
+      {
+        "word": "raggningsreplik",
+        "type_en": "noun",
+        "meaning_en": "pick-up line"
+      }
+    ],
+    "synonyms_sv": [
+      "stöta på",
+      "flirta med"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
+        "sense_id": "lu_anmachen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_anmachen:1",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "try to start romantic or sexual contact with someone, often by flirting.",
+        "how_to_use_en": [
+          "Use about trying to get someone interested in you (dating/sex).",
+          "Often followed by the person: ragga på någon."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X ragga på Y",
+            "note_en": "X = person who flirts/approaches (Partner_1); Y = person(s) being approached (Partner_2)."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *ragga* without på when you mean a specific person.",
+            "fix": "Use ragga på + person.",
+            "explain_en": "In the example, the target person is expressed with 'på': ragga på unga ensamstående mammor."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "6976eac45bbc46e8c71bed386c16fb06a915f86e",
+            "sv": "38-årige Will Freeman har kommit på att man kan ragga på unga ensamstående mammor.",
+            "en": "The 38-year-old Will Freeman has figured out that you can hit on young single mothers.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Will Freeman"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "unga ensamstående mammor"
+              }
+            ],
+            "gloss": "try to start a romantic/sexual contact with someone; hit on",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Om en pojke (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Om_en_pojke_(film)",
+              "sentence_id": "d808ca4a",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"ragga\"][word=\"på\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": null,
+      "stress_hint": "RAG-ga på (stress on first syllable in ragga)"
+    },
+    "morphology": {
+      "principal_parts": [
+        "ragga på",
+        "raggar på",
+        "raggade på",
+        "raggat på"
+      ],
+      "particle_or_reflexive": "på"
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

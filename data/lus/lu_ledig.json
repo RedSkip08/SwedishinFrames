@@ -1,0 +1,422 @@
+{
+  "lexical_unit": {
+    "id": "lu_ledig",
+    "source_de": {
+      "lu_de_raw": "ledig",
+      "lu_de_normalized": "ledig",
+      "gender_variants_de": [],
+      "pos_de": ""
+    },
+    "lu_type": "single",
+    "lemma_sv": "singel",
+    "display_sv": "singel",
+    "name_sv": "singel",
+    "pos": "adjective",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "en singel",
+      "släppa som singel",
+      "ge ut en singel",
+      "spela in en singel",
+      "är en singel"
+    ],
+    "english_equivalent_en": "single (song)",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "singel",
+        "def_sg": "singeln",
+        "indef_pl": "singlar",
+        "def_pl": "singlarna",
+        "note_en": "In the examples, singel is used as a noun meaning a music release (a single)."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": "singel",
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Although the POS input says adjective, the provided examples clearly show the noun use: en singel, som singel."
+    },
+    "derived_words_sv": [
+      {
+        "word": "singelskiva",
+        "type_en": "noun",
+        "meaning_en": "a single record (music release)"
+      },
+      {
+        "word": "singelutgåva",
+        "type_en": "noun",
+        "meaning_en": "single release (as a publication)"
+      },
+      {
+        "word": "singelsläpp",
+        "type_en": "noun",
+        "meaning_en": "release of a single"
+      },
+      {
+        "word": "singelspår",
+        "type_en": "noun",
+        "meaning_en": "a track released as a single"
+      }
+    ],
+    "synonyms_sv": [
+      "singelskiva",
+      "singelutgåva"
+    ],
+    "antonyms_sv": [
+      "album"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
+        "sense_id": "lu_ledig:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_ledig:1",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "a song released as its own music release (not a full album).",
+        "how_to_use_en": [
+          "Use as a noun for a music release: en singel.",
+          "Common with verbs like ge ut, spela in, släppa (som singel).",
+          "Often used in Wikipedia-style descriptions of songs."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X släpptes som singel",
+            "note_en": "Used when a song/track was released as a single."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "ge ut en singel",
+            "note_en": "To release a single."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "spela in en singel",
+            "note_en": "To record a single."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "X är en singel (av Y)",
+            "note_en": "Definition-style: a song X is a single by artist/band Y."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "gavs ut som singel + datum/år",
+            "note_en": "Often followed by a date or year."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using singel here to mean a person without a partner.",
+            "fix": "Use singel about music releases in these patterns; for relationship status, check context and other examples.",
+            "explain_en": "In the provided examples, singel refers to a music single (a release), not relationship status."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "af33221566453b1224e98e817bdf92b57f2de691",
+            "sv": "Låten gavs ut som singel den 3 september 2001 genom Playground Music.",
+            "en": "The song was released as a single on 3 September 2001 through Playground Music.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "Låten"
+              }
+            ],
+            "gloss": "single (music release)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Madness (sång)",
+              "text_url": "https://sv.wikipedia.org/wiki/Madness_(s%C3%A5ng)",
+              "sentence_id": "24b5f599",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"singel\"]"
+            }
+          },
+          {
+            "ex_id": "8dfffdbce717e80581af85929096dfded7de6811",
+            "sv": "De gav ut en singel under det gruppnamnet men slog inte igenom.",
+            "en": "They released a single under that group name but did not break through.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "De"
+              }
+            ],
+            "gloss": "single (music release)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "The Who",
+              "text_url": "https://sv.wikipedia.org/wiki/The_Who",
+              "sentence_id": "f78e1564",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"singel\"]"
+            }
+          },
+          {
+            "ex_id": "23f15a1f46cf277fc370f8c2bbb1bba726757c9c",
+            "sv": "Hon kom med i en musikal i Norrköping och fick spela in en singel.",
+            "en": "She joined a musical in Norrköping and got to record a single.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "Hon"
+              }
+            ],
+            "gloss": "single (music release)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lena Philipsson",
+              "text_url": "https://sv.wikipedia.org/wiki/Lena_Philipsson",
+              "sentence_id": "42809c6e",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"singel\"]"
+            }
+          },
+          {
+            "ex_id": "338ba65676782807601240889409f35d8e731c64",
+            "sv": "Det är den tredje låten på skivan och den släpptes som singel.",
+            "en": "It is the third song on the record and it was released as a single.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "den"
+              }
+            ],
+            "gloss": "single (music release)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "American Ghost Dance",
+              "text_url": "https://sv.wikipedia.org/wiki/American_Ghost_Dance",
+              "sentence_id": "47628afd",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"singel\"]"
+            }
+          },
+          {
+            "ex_id": "99e0298426e286178ecf5e9598c30bb8d273830c",
+            "sv": "\" Långt bort högt upp i det blå \" släpptes som singel.",
+            "en": "\"Far away high up in the blue\" was released as a single.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "\" Långt bort högt upp i det blå \""
+              }
+            ],
+            "gloss": "single (music release)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Thorsten Flinck",
+              "text_url": "https://sv.wikipedia.org/wiki/Thorsten_Flinck",
+              "sentence_id": "8c09ff7c",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"singel\"]"
+            }
+          },
+          {
+            "ex_id": "45c07fe03271a98e636749abe1b6851de5785cc9",
+            "sv": "Den spelades av Lili & Susie och släpptes som singel 1986.",
+            "en": "It was played by Lili & Susie and was released as a single in 1986.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "Den"
+              }
+            ],
+            "gloss": "single (music release)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Samma tid samma plats (sång av Lili & Susie)",
+              "text_url": "https://sv.wikipedia.org/wiki/Samma_tid_samma_plats_(s%C3%A5ng_av_Lili_%26_Susie)",
+              "sentence_id": "9624fbe3",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"singel\"]"
+            }
+          },
+          {
+            "ex_id": "76c021f89a1b7c7be1192379de61b350b9a77963",
+            "sv": "\" Svag \" är en singel av Victor Leksell från januari 2020.",
+            "en": "\"Svag\" is a single by Victor Leksell from January 2020.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "\" Svag \""
+              }
+            ],
+            "gloss": "single (music release)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Svag",
+              "text_url": "https://sv.wikipedia.org/wiki/Svag",
+              "sentence_id": "526317b3",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"singel\"]"
+            }
+          },
+          {
+            "ex_id": "541c74d19918a6184a53e4e03b3f349a4aa9bd4f",
+            "sv": "Bizarre Love Triangle är en singel av New Order som utgavs 1986.",
+            "en": "Bizarre Love Triangle is a single by New Order that was released in 1986.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "Bizarre Love Triangle"
+              }
+            ],
+            "gloss": "single (music release)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bizarre Love Triangle",
+              "text_url": "https://sv.wikipedia.org/wiki/Bizarre_Love_Triangle",
+              "sentence_id": "64a37c9b",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"singel\"]"
+            }
+          },
+          {
+            "ex_id": "1aceb10c770d224c26c275ca894b072dfb1a66d2",
+            "sv": "Gone Away är en singel av det amerikanska punkrockbandet The Offspring.",
+            "en": "Gone Away is a single by the American punk rock band The Offspring.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "Gone Away"
+              }
+            ],
+            "gloss": "single (music release)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gone Away",
+              "text_url": "https://sv.wikipedia.org/wiki/Gone_Away",
+              "sentence_id": "fdbf2953",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"singel\"]"
+            }
+          },
+          {
+            "ex_id": "95b5c24913bb55d50a85e5fc5e0900e53be07b5d",
+            "sv": "Den ingick på albumet Thirsty Work, och släpptes som singel 1994.",
+            "en": "It was included on the album Thirsty Work, and was released as a single in 1994.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "Den"
+              }
+            ],
+            "gloss": "single (music release)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "I Didn't Mean It",
+              "text_url": "https://sv.wikipedia.org/wiki/I_Didn%27t_Mean_It",
+              "sentence_id": "2f7911aa",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"singel\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": null,
+      "stress_hint": "Stress on first syllable: SIN-gel."
+    },
+    "morphology": {
+      "principal_parts": [
+        "singel (noun): singel – singeln – singlar – singlarna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

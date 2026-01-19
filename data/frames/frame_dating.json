@@ -1,0 +1,793 @@
+{
+  "frame": {
+    "id": "frame_dating",
+    "name_en": "Dating",
+    "slug": "dating",
+    "frame_description_en": "This frame describes a romantic situation involving two people, Partner_1 and Partner_2, who are connected by a Relationship. The Relationship can be at a particular Stage (for example, starting to date, being together, or ending the relationship). The situation can be located in Time and may last for a certain Duration, and it can happen in a specific Place. Often there is also a Reason that explains why the partners begin, continue, or end the Relationship at that Stage.",
+    "frame_description_html": "This frame describes a romantic situation involving two people, <span class=\"Partner_1\">Partner_1</span> and <span class=\"Partner_2\">Partner_2</span>, who are connected by a <span class=\"Relationship\">Relationship</span>. The <span class=\"Relationship\">Relationship</span> can be at a particular <span class=\"Stage\">Stage</span> (for example, starting to date, being together, or ending the relationship). The situation can be located in <span class=\"Time\">Time</span> and may last for a certain <span class=\"Duration\">Duration</span>, and it can happen in a specific <span class=\"Place\">Place</span>. Often there is also a <span class=\"Reason\">Reason</span> that explains why the partners begin, continue, or end the <span class=\"Relationship\">Relationship</span> at that <span class=\"Stage\">Stage</span>.",
+    "frame_description_fe_mentions": [
+      {
+        "fe_id": "fe_partner_1",
+        "span_en": "Partner_1"
+      },
+      {
+        "fe_id": "fe_partner_2",
+        "span_en": "Partner_2"
+      },
+      {
+        "fe_id": "fe_relationship",
+        "span_en": "Relationship"
+      },
+      {
+        "fe_id": "fe_stage",
+        "span_en": "Stage"
+      },
+      {
+        "fe_id": "fe_time",
+        "span_en": "Time"
+      },
+      {
+        "fe_id": "fe_duration",
+        "span_en": "Duration"
+      },
+      {
+        "fe_id": "fe_place",
+        "span_en": "Place"
+      },
+      {
+        "fe_id": "fe_reason",
+        "span_en": "Reason"
+      }
+    ],
+    "elements": [
+      {
+        "id": "fe_partner_1",
+        "name": "Partner_1",
+        "published": 1,
+        "description_en": "One of the two people in the romantic situation (the person you talk about as the main one in the sentence).",
+        "description_html": "One of the two people in the romantic situation (the person you talk about as the main one in the sentence)."
+      },
+      {
+        "id": "fe_partner_2",
+        "name": "Partner_2",
+        "published": 1,
+        "description_en": "The other person that Partner_1 is dating, is together with, is in love with, or breaks up with.",
+        "description_html": "The other person that <span class=\"Partner_1\">Partner_1</span> is dating, is together with, is in love with, or breaks up with."
+      },
+      {
+        "id": "fe_relationship",
+        "name": "Relationship",
+        "published": 1,
+        "description_en": "The type or status of the romantic connection between Partner_1 and Partner_2 (e.g., a date, being together, a relationship).",
+        "description_html": "The type or status of the romantic connection between <span class=\"Partner_1\">Partner_1</span> and <span class=\"Partner_2\">Partner_2</span> (e.g., a date, being together, a relationship)."
+      },
+      {
+        "id": "fe_stage",
+        "name": "Stage",
+        "published": 1,
+        "description_en": "The point in the relationship process, such as starting, being together, being former partners, or breaking up.",
+        "description_html": "The point in the relationship process, such as starting, being together, being former partners, or breaking up."
+      },
+      {
+        "id": "fe_time",
+        "name": "Time",
+        "published": 1,
+        "description_en": "When the dating/relationship situation happens or is true.",
+        "description_html": "When the dating/relationship situation happens or is true."
+      },
+      {
+        "id": "fe_duration",
+        "name": "Duration",
+        "published": 1,
+        "description_en": "How long the dating/relationship situation lasts (for example, always, around the clock, since a year).",
+        "description_html": "How long the dating/relationship situation lasts (for example, always, around the clock, since a year)."
+      },
+      {
+        "id": "fe_place",
+        "name": "Place",
+        "published": 1,
+        "description_en": "Where the dating/relationship situation happens.",
+        "description_html": "Where the dating/relationship situation happens."
+      },
+      {
+        "id": "fe_reason",
+        "name": "Reason",
+        "published": 1,
+        "description_en": "What motivates or explains the relationship situation or change (why they start, stay, or end it).",
+        "description_html": "What motivates or explains the relationship situation or change (why they start, stay, or end it)."
+      }
+    ],
+    "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
+    "examples": [
+      {
+        "ex_id": "0e0503f73277f10aba4d18f54b919473c49ffeb9",
+        "sv": "Mary och hennes pojkvän följer också med och kollar på dom i Backstage tillsammans med Jim.",
+        "en": "Mary and her boyfriend also come along and watch them in Backstage together with Jim.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_partner_1",
+            "span_sv": "Mary"
+          },
+          {
+            "fe_id": "fe_partner_2",
+            "span_sv": "hennes pojkvän"
+          },
+          {
+            "fe_id": "fe_place",
+            "span_sv": "i Backstage"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Bohemian Rhapsody (film)",
+          "text_url": "https://sv.wikipedia.org/wiki/Bohemian_Rhapsody_(film)",
+          "sentence_id": "6a5dbbfa",
+          "retrieved_at": "2026-01-17T23:12:59+00:00",
+          "korp_query": "[word=\"pojkvän\"]"
+        }
+      },
+      {
+        "ex_id": "eedc25ee7a02f37c7b94e7c7b2e779d157e97a3a",
+        "sv": "Några månader efter att hon blev klar med boken gifte hon sig med sin pojkvän.",
+        "en": "A few months after she finished the book, she married her boyfriend.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_time",
+            "span_sv": "Några månader efter att hon blev klar med boken"
+          },
+          {
+            "fe_id": "fe_partner_1",
+            "span_sv": "hon"
+          },
+          {
+            "fe_id": "fe_partner_2",
+            "span_sv": "sin pojkvän"
+          },
+          {
+            "fe_id": "fe_stage",
+            "span_sv": "gifte"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "S.E. Hinton",
+          "text_url": "https://sv.wikipedia.org/wiki/S.E._Hinton",
+          "sentence_id": "f72416e6",
+          "retrieved_at": "2026-01-17T23:12:59+00:00",
+          "korp_query": "[word=\"pojkvän\"]"
+        }
+      },
+      {
+        "ex_id": "7c192f0dfffcad496b2986f2a8b339ba80862336",
+        "sv": "Han oroar sig för att hon kommer att göra slut med honom.",
+        "en": "He worries that she will break up with him.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_partner_1",
+            "span_sv": "hon"
+          },
+          {
+            "fe_id": "fe_partner_2",
+            "span_sv": "honom"
+          },
+          {
+            "fe_id": "fe_stage",
+            "span_sv": "göra slut"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Life Among the Gorillas",
+          "text_url": "https://sv.wikipedia.org/wiki/Life_Among_the_Gorillas",
+          "sentence_id": "2a4d57a8",
+          "retrieved_at": "2026-01-17T23:12:59+00:00",
+          "korp_query": "[word=\"göra\"][word=\"slut\"]"
+        }
+      },
+      {
+        "ex_id": "8266890baef46ff23ab8cf7e224e719ad87a7f27",
+        "sv": "När de blivit ett par valde de att vara tillsammans dygnet runt.",
+        "en": "When they had become a couple, they chose to be together around the clock.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_time",
+            "span_sv": "När de blivit ett par"
+          },
+          {
+            "fe_id": "fe_relationship",
+            "span_sv": "ett par"
+          },
+          {
+            "fe_id": "fe_duration",
+            "span_sv": "dygnet runt"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "John Lennon",
+          "text_url": "https://sv.wikipedia.org/wiki/John_Lennon",
+          "sentence_id": "5d4cd28e",
+          "retrieved_at": "2026-01-17T23:12:59+00:00",
+          "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
+        }
+      },
+      {
+        "ex_id": "df22b782edc11a365bd340ba1a20113ecffb8e84",
+        "sv": "Romeo och Julia vill gifta sig för att alltid få vara tillsammans.",
+        "en": "Romeo and Julia want to get married so that they can always be together.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_partner_1",
+            "span_sv": "Romeo"
+          },
+          {
+            "fe_id": "fe_partner_2",
+            "span_sv": "Julia"
+          },
+          {
+            "fe_id": "fe_duration",
+            "span_sv": "alltid"
+          },
+          {
+            "fe_id": "fe_reason",
+            "span_sv": "för att alltid få vara tillsammans"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Romeo och Julia (film, 1968)",
+          "text_url": "https://sv.wikipedia.org/wiki/Romeo_och_Julia_(film,_1968)",
+          "sentence_id": "40d973de",
+          "retrieved_at": "2026-01-17T23:12:59+00:00",
+          "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
+        }
+      },
+      {
+        "ex_id": "daa518bbd2a266f240dd3085272faae39ea2b27f",
+        "sv": "Samantha förstår efter ett tag att hon börjar bli kär i Richard.",
+        "en": "After a while Samantha understands that she is starting to fall in love with Richard.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_partner_1",
+            "span_sv": "Samantha"
+          },
+          {
+            "fe_id": "fe_time",
+            "span_sv": "efter ett tag"
+          },
+          {
+            "fe_id": "fe_stage",
+            "span_sv": "börjar bli kär"
+          },
+          {
+            "fe_id": "fe_partner_2",
+            "span_sv": "Richard"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Sex and the City",
+          "text_url": "https://sv.wikipedia.org/wiki/Sex_and_the_City",
+          "sentence_id": "7e8c582d",
+          "retrieved_at": "2026-01-17T23:12:59+00:00",
+          "korp_query": "[word=\"bli\"][word=\"kär\"]"
+        }
+      },
+      {
+        "ex_id": "84b979a1d1c8999386ac9db00e55b693e7637304",
+        "sv": "Victoria får jobb i Tyskland och Ted är osäker på om han klarar ett distansförhållande.",
+        "en": "Victoria gets a job in Germany, and Ted is unsure if he can manage a long-distance relationship.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_partner_1",
+            "span_sv": "Victoria"
+          },
+          {
+            "fe_id": "fe_partner_2",
+            "span_sv": "Ted"
+          },
+          {
+            "fe_id": "fe_place",
+            "span_sv": "i Tyskland"
+          },
+          {
+            "fe_id": "fe_relationship",
+            "span_sv": "ett distansförhållande"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Cupcake (How I Met Your Mother)",
+          "text_url": "https://sv.wikipedia.org/wiki/Cupcake_(How_I_Met_Your_Mother)",
+          "sentence_id": "9b0e209c",
+          "retrieved_at": "2026-01-17T23:12:59+00:00",
+          "korp_query": "[word=\"distansförhållande\"]"
+        }
+      },
+      {
+        "ex_id": "912db51a0900ea9ebef2bbb099410e70fb2744ae",
+        "sv": "Ted bjuder ut henne på en dejt, och dejten går bra.",
+        "en": "Ted asks her out on a date, and the date goes well.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_partner_1",
+            "span_sv": "Ted"
+          },
+          {
+            "fe_id": "fe_partner_2",
+            "span_sv": "henne"
+          },
+          {
+            "fe_id": "fe_relationship",
+            "span_sv": "på en dejt"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Pilot (How I Met Your Mother)",
+          "text_url": "https://sv.wikipedia.org/wiki/Pilot_(How_I_Met_Your_Mother)",
+          "sentence_id": "754071ac",
+          "retrieved_at": "2026-01-17T23:12:59+00:00",
+          "korp_query": "[word=\"dejt\"]"
+        }
+      }
+    ],
+    "linked_lexical_units": [
+      {
+        "lu_id": "lu_freund_der",
+        "display_sv": "pojkvän",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_freund_der:1"
+      },
+      {
+        "lu_id": "lu_trennen_sich_acc_trennen_von",
+        "display_sv": "göra slut",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_trennen_sich_acc_trennen_von:1"
+      },
+      {
+        "lu_id": "lu_zusammen_sein_mit_jdm_zusammen_sein",
+        "display_sv": "vara tillsammans",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_zusammen_sein_mit_jdm_zusammen_sein:1"
+      },
+      {
+        "lu_id": "lu_geliebte_der_geliebte_ein_geliebter_die_eine_geliebte",
+        "display_sv": "älskare",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_geliebte_der_geliebte_ein_geliebter_die_eine_geliebte:1"
+      },
+      {
+        "lu_id": "lu_schluss_machen_mit",
+        "display_sv": "göra slut",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_schluss_machen_mit:1"
+      },
+      {
+        "lu_id": "lu_verlieben_sich_acc_verlieben_inacc",
+        "display_sv": "bli kär",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_verlieben_sich_acc_verlieben_inacc:1"
+      },
+      {
+        "lu_id": "lu_verliebt_inacc",
+        "display_sv": "kär (i)",
+        "lu_type": "single",
+        "pos": "adjective",
+        "sense_id": "lu_verliebt_inacc:1"
+      },
+      {
+        "lu_id": "lu_fernbeziehung_die",
+        "display_sv": "distansförhållande",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_fernbeziehung_die:1"
+      },
+      {
+        "lu_id": "lu_freundin_die",
+        "display_sv": "flickvän",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_freundin_die:1"
+      },
+      {
+        "lu_id": "lu_verabredung_die",
+        "display_sv": "dejt",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_verabredung_die:1"
+      }
+    ],
+    "confusable_with": []
+  },
+  "constructions": [
+    {
+      "cxn_id": "cxn_1",
+      "cxn_name_linguistic_sv": "SUBJ göra slut (med X)",
+      "cxn_name_user_friendly_en": "Breaking up with someone",
+      "pattern": "SUBJ göra slut (med OBJ)",
+      "meaning_en": "Someone ends a romantic relationship; the other person can be expressed with med + object, or left unspoken.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_partner_1"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_partner_2"
+        }
+      ],
+      "usage_notes_en": [
+        "The other partner is often introduced with \"med\" (\"göra slut med honom/henne/någon/Erik\").",
+        "The other partner can be omitted (\"göra slut\"), when it is understood from context."
+      ],
+      "examples": [
+        {
+          "ex_id": "8ac3b6b31fb9d4866dee68873603c6f5e6ed362d",
+          "sv": "Han vill göra slut men vet inte hur han ska gå till väga.",
+          "en": "He wants to break up but does not know how to do it.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_partner_1",
+              "span_sv": "Han"
+            },
+            {
+              "fe_id": "fe_stage",
+              "span_sv": "göra slut"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Mañana",
+            "text_url": "https://sv.wikipedia.org/wiki/Ma%C3%B1ana",
+            "sentence_id": "be5c141b",
+            "retrieved_at": "2026-01-17T23:12:59+00:00",
+            "korp_query": "[word=\"göra\"][word=\"slut\"]"
+          }
+        },
+        {
+          "ex_id": "7c192f0dfffcad496b2986f2a8b339ba80862336",
+          "sv": "Han oroar sig för att hon kommer att göra slut med honom.",
+          "en": "He worries that she will break up with him.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_partner_1",
+              "span_sv": "hon"
+            },
+            {
+              "fe_id": "fe_partner_2",
+              "span_sv": "honom"
+            },
+            {
+              "fe_id": "fe_stage",
+              "span_sv": "göra slut"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Life Among the Gorillas",
+            "text_url": "https://sv.wikipedia.org/wiki/Life_Among_the_Gorillas",
+            "sentence_id": "2a4d57a8",
+            "retrieved_at": "2026-01-17T23:12:59+00:00",
+            "korp_query": "[word=\"göra\"][word=\"slut\"]"
+          }
+        },
+        {
+          "ex_id": "0662d38bd3ac1ccd48990a7a124672ca28a40e49",
+          "sv": "Han försöker vid flera tillfällen göra slut med Horuss, men lyckas aldrig.",
+          "en": "He tries several times to break up with Horuss, but never succeeds.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_partner_1",
+              "span_sv": "Han"
+            },
+            {
+              "fe_id": "fe_time",
+              "span_sv": "vid flera tillfällen"
+            },
+            {
+              "fe_id": "fe_stage",
+              "span_sv": "göra slut"
+            },
+            {
+              "fe_id": "fe_partner_2",
+              "span_sv": "Horuss"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Homestuck",
+            "text_url": "https://sv.wikipedia.org/wiki/Homestuck",
+            "sentence_id": "fe9aa3b5",
+            "retrieved_at": "2026-01-17T23:12:59+00:00",
+            "korp_query": "[word=\"göra\"][word=\"slut\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_2",
+      "cxn_name_linguistic_sv": "SUBJ vara tillsammans (med X)",
+      "cxn_name_user_friendly_en": "Being together with someone",
+      "pattern": "SUBJ vara tillsammans (med OBJ)",
+      "meaning_en": "Someone is together with someone else (often as a couple, but can also mean being together with family/others).",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_partner_1"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_partner_2"
+        }
+      ],
+      "usage_notes_en": [
+        "The other person/group can be expressed with \"med\" (\"vara tillsammans med Rachel\").",
+        "The other person can be omitted when it is general (\"vara tillsammans dygnet runt\")."
+      ],
+      "examples": [
+        {
+          "ex_id": "6ce6af140e4ceea71fe3a67e75093872108adee1",
+          "sv": "Ross måste bestämma sig för om han vill vara tillsammans med Bonnie eller Rachel.",
+          "en": "Ross must decide whether he wants to be together with Bonnie or Rachel.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_partner_1",
+              "span_sv": "Ross"
+            },
+            {
+              "fe_id": "fe_partner_2",
+              "span_sv": "Bonnie eller Rachel"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Vänner",
+            "text_url": "https://sv.wikipedia.org/wiki/V%C3%A4nner",
+            "sentence_id": "49635973",
+            "retrieved_at": "2026-01-17T23:12:59+00:00",
+            "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
+          }
+        },
+        {
+          "ex_id": "f84157fe1b604cc85ca0ed5a3d554ec92e7c64f9",
+          "sv": "Hon blir arg och säger att hon inte vill vara tillsammans med en tjuv.",
+          "en": "She gets angry and says that she does not want to be together with a thief.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_partner_1",
+              "span_sv": "Hon"
+            },
+            {
+              "fe_id": "fe_partner_2",
+              "span_sv": "en tjuv"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "9 millimeter",
+            "text_url": "https://sv.wikipedia.org/wiki/9_millimeter",
+            "sentence_id": "495865dd",
+            "retrieved_at": "2026-01-17T23:12:59+00:00",
+            "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
+          }
+        },
+        {
+          "ex_id": "8266890baef46ff23ab8cf7e224e719ad87a7f27",
+          "sv": "När de blivit ett par valde de att vara tillsammans dygnet runt.",
+          "en": "When they had become a couple, they chose to be together around the clock.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_time",
+              "span_sv": "När de blivit ett par"
+            },
+            {
+              "fe_id": "fe_relationship",
+              "span_sv": "ett par"
+            },
+            {
+              "fe_id": "fe_duration",
+              "span_sv": "dygnet runt"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "John Lennon",
+            "text_url": "https://sv.wikipedia.org/wiki/John_Lennon",
+            "sentence_id": "5d4cd28e",
+            "retrieved_at": "2026-01-17T23:12:59+00:00",
+            "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_3",
+      "cxn_name_linguistic_sv": "SUBJ bli kär i X",
+      "cxn_name_user_friendly_en": "Falling in love with someone",
+      "pattern": "SUBJ bli kär i OBJ",
+      "meaning_en": "Someone falls in love with someone else.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_partner_1"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_partner_2"
+        }
+      ],
+      "usage_notes_en": [
+        "Often appears with a stage-like modifier such as \"börjar\" (\"börjar bli kär\").",
+        "The person loved is introduced with \"i\"."
+      ],
+      "examples": [
+        {
+          "ex_id": "daa518bbd2a266f240dd3085272faae39ea2b27f",
+          "sv": "Samantha förstår efter ett tag att hon börjar bli kär i Richard.",
+          "en": "After a while Samantha understands that she is starting to fall in love with Richard.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_partner_1",
+              "span_sv": "Samantha"
+            },
+            {
+              "fe_id": "fe_time",
+              "span_sv": "efter ett tag"
+            },
+            {
+              "fe_id": "fe_stage",
+              "span_sv": "börjar bli kär"
+            },
+            {
+              "fe_id": "fe_partner_2",
+              "span_sv": "Richard"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Sex and the City",
+            "text_url": "https://sv.wikipedia.org/wiki/Sex_and_the_City",
+            "sentence_id": "7e8c582d",
+            "retrieved_at": "2026-01-17T23:12:59+00:00",
+            "korp_query": "[word=\"bli\"][word=\"kär\"]"
+          }
+        },
+        {
+          "ex_id": "8d21aa61f7159cf73f6247fd62f2bedc28c51c73",
+          "sv": "Men hon hade inte räknat med att hon skulle bli kär i honom.",
+          "en": "But she had not expected that she would fall in love with him.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_partner_1",
+              "span_sv": "hon"
+            },
+            {
+              "fe_id": "fe_stage",
+              "span_sv": "bli kär"
+            },
+            {
+              "fe_id": "fe_partner_2",
+              "span_sv": "honom"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Äventyraren Thomas Crown (1968)",
+            "text_url": "https://sv.wikipedia.org/wiki/%C3%84ventyraren_Thomas_Crown_(1968)",
+            "sentence_id": "ed53a5ac",
+            "retrieved_at": "2026-01-17T23:12:59+00:00",
+            "korp_query": "[word=\"bli\"][word=\"kär\"]"
+          }
+        },
+        {
+          "ex_id": "b846bc6c9ace0dfa11618c7f47d1a6988dc52bd3",
+          "sv": "Juli (Madeline Carroll) börjar bli kär i sin klasskamrat Bryce (Callan McAuliffe).",
+          "en": "Juli (Madeline Carroll) is starting to fall in love with her classmate Bryce (Callan McAuliffe).",
+          "fe_tags": [
+            {
+              "fe_id": "fe_partner_1",
+              "span_sv": "Juli (Madeline Carroll)"
+            },
+            {
+              "fe_id": "fe_stage",
+              "span_sv": "börjar bli kär"
+            },
+            {
+              "fe_id": "fe_partner_2",
+              "span_sv": "sin klasskamrat Bryce (Callan McAuliffe)"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Flipped",
+            "text_url": "https://sv.wikipedia.org/wiki/Flipped",
+            "sentence_id": "db3208fb",
+            "retrieved_at": "2026-01-17T23:12:59+00:00",
+            "korp_query": "[word=\"bli\"][word=\"kär\"]"
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_examples": 5,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true
+  }
+}

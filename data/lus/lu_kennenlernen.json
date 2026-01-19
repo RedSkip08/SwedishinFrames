@@ -1,0 +1,464 @@
+{
+  "lexical_unit": {
+    "id": "lu_kennenlernen",
+    "source_de": {
+      "lu_de_raw": "kennenlernen",
+      "lu_de_normalized": "kennenlernen",
+      "gender_variants_de": [],
+      "pos_de": ""
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "lära känna",
+    "display_sv": "lära känna",
+    "name_sv": "lära känna",
+    "pos": "multiword",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": "fixed_phrase",
+      "components_sv": [
+        "lära",
+        "känna"
+      ],
+      "spacing_notes_en": "Written as two words; inflects on the verb (lära/lär/lärde/lärt)."
+    },
+    "forms": [
+      "lära känna",
+      "lär känna",
+      "lärde känna",
+      "lärt känna"
+    ],
+    "english_equivalent_en": "get to know",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": null
+      },
+      "verb": {
+        "infinitive": "lära känna",
+        "present": "lär känna",
+        "past": "lärde känna",
+        "supine": "lärt känna",
+        "imperative": "lär känna",
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword verb phrase. Often used with an object (a person/group/thing) or with varandra (each other)."
+    },
+    "derived_words_sv": [
+      {
+        "word": "känna",
+        "type_en": "verb",
+        "meaning_en": "know; feel (basic verb in the phrase)"
+      },
+      {
+        "word": "känna igen",
+        "type_en": "verb",
+        "meaning_en": "recognize"
+      },
+      {
+        "word": "kännedom",
+        "type_en": "noun",
+        "meaning_en": "knowledge; awareness"
+      },
+      {
+        "word": "bekanta sig",
+        "type_en": "verb",
+        "meaning_en": "get acquainted (with)"
+      }
+    ],
+    "synonyms_sv": [
+      "bekanta sig med",
+      "bli bekant med",
+      "lära känna sig"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
+        "sense_id": "lu_kennenlernen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_kennenlernen:1",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "start to know someone or something better through contact and time.",
+        "how_to_use_en": [
+          "Use with a direct object: lära känna + person/thing.",
+          "Use with varandra for mutual getting to know each other.",
+          "Often used with purpose/plan: för att lära känna …"
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X lär känna Y",
+            "note_en": "One person/group becomes familiar with another person/group/thing."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "lära känna varandra",
+            "note_en": "Two or more people/couples get to know each other."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "för att lära känna Y",
+            "note_en": "Purpose: doing something in order to get to know someone/something."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "lära känna Y bättre",
+            "note_en": "With bättre to mean ‘get to know better’."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "möjlighet/chans att lära känna Y",
+            "note_en": "Common with nouns like möjlighet/chans in front."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *känna* when you mean “get to know” (a process).",
+            "fix": "Use lära känna for the process; use känna for already knowing.",
+            "explain_en": "Lära känna focuses on becoming familiar over time, not the state of knowing."
+          },
+          {
+            "error": "Forgetting the object after lära känna.",
+            "fix": "Add who/what: lära känna henne / sin far / kulturen / varandra.",
+            "explain_en": "In the examples, the phrase normally takes an object."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "4946b65b24685103a6b2c93bb7eca292ad11d5f4",
+            "sv": "Daphne bestämmer sig för att rymma till England och äntligen lära känna sin far.",
+            "en": "Daphne decides to run away to England and finally get to know her father.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Daphne"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin far"
+              }
+            ],
+            "gloss": "get to know",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Allt en tjej vill ha",
+              "text_url": "https://sv.wikipedia.org/wiki/Allt_en_tjej_vill_ha",
+              "sentence_id": "c1fe8a4c",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"lära\"][word=\"känna\"]"
+            }
+          },
+          {
+            "ex_id": "a23fc850c5f5603a4996390b262807eb159ade49",
+            "sv": "Inte heller de andra flickorna verkar vara särskilt angelägna att lära känna henne.",
+            "en": "The other girls also do not seem very eager to get to know her.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "de andra flickorna"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "henne"
+              }
+            ],
+            "gloss": "get to know",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Flickan i regnet",
+              "text_url": "https://sv.wikipedia.org/wiki/Flickan_i_regnet",
+              "sentence_id": "b2f26f88",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"lära\"][word=\"känna\"]"
+            }
+          },
+          {
+            "ex_id": "2f0ad36358ca916144b8dd9d11fc508ec0d5c694",
+            "sv": "Jung-Woo och Que-Min ger sig ut för att shoppa och lära känna varandra bättre.",
+            "en": "Jung-Woo and Que-Min go out to shop and get to know each other better.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "Jung-Woo och Que-Min"
+              },
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "varandra"
+              }
+            ],
+            "gloss": "get to know",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kill me, Kiss me",
+              "text_url": "https://sv.wikipedia.org/wiki/Kill_me,_Kiss_me",
+              "sentence_id": "02a541ba",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"lära\"][word=\"känna\"]"
+            }
+          },
+          {
+            "ex_id": "49b89bb336a4c565ba37226ee256922d0ca70440",
+            "sv": "Du får möjlighet att lära känna din klass och träffa dina lärare.",
+            "en": "You get the chance to get to know your class and meet your teachers.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Du"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "din klass"
+              }
+            ],
+            "gloss": "get to know",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Teknologkåren vid Luleå tekniska universitet",
+              "text_url": "https://sv.wikipedia.org/wiki/Teknologk%C3%A5ren_vid_Lule%C3%A5_tekniska_universitet",
+              "sentence_id": "54bd8700",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"lära\"][word=\"känna\"]"
+            }
+          },
+          {
+            "ex_id": "9bb5a416307f91abe98d99d81af6c7e534cb53e9",
+            "sv": "Vid längre resor finns även möjlighet att lära känna kulturen i landet.",
+            "en": "On longer trips there is also a chance to get to know the culture in the country.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "kulturen i landet"
+              }
+            ],
+            "gloss": "get to know",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Språkresa",
+              "text_url": "https://sv.wikipedia.org/wiki/Spr%C3%A5kresa",
+              "sentence_id": "a7db6219",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"lära\"][word=\"känna\"]"
+            }
+          },
+          {
+            "ex_id": "dd4a2ce56d804e96704b13d1908c88ca172d12d1",
+            "sv": "Luke uppmanas att lära känna Miss Yip och försöka övertala henne att sälja sjön.",
+            "en": "Luke is urged to get to know Miss Yip and try to persuade her to sell the lake.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Luke"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Miss Yip"
+              }
+            ],
+            "gloss": "get to know",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Dragons Forever",
+              "text_url": "https://sv.wikipedia.org/wiki/Dragons_Forever",
+              "sentence_id": "0f1a1bf1",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"lära\"][word=\"känna\"]"
+            }
+          },
+          {
+            "ex_id": "c5438859e24f372125f043e0372945e521261c57",
+            "sv": "Familjen Longstreet bjuder på resterna av en smulpaj så att paren kan lära känna varandra.",
+            "en": "The Longstreet family offers the leftovers of a crumble pie so that the couples can get to know each other.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "paren"
+              },
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "varandra"
+              }
+            ],
+            "gloss": "get to know",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Carnage (film, 2011)",
+              "text_url": "https://sv.wikipedia.org/wiki/Carnage_(film,_2011)",
+              "sentence_id": "8d1674de",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"lära\"][word=\"känna\"]"
+            }
+          },
+          {
+            "ex_id": "19505369539823d2a9a18b82f362f2e82275b6e3",
+            "sv": "Monstret vandrar sedan ensam omkring och försöker lära känna människorna och deras vanor.",
+            "en": "Then the monster walks around alone and tries to get to know the people and their habits.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Monstret"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "människorna"
+              }
+            ],
+            "gloss": "get to know",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Frankenstein",
+              "text_url": "https://sv.wikipedia.org/wiki/Frankenstein",
+              "sentence_id": "06b7aeae",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"lära\"][word=\"känna\"]"
+            }
+          },
+          {
+            "ex_id": "ebc3832fccff32a24518d150d2b17e35879139fd",
+            "sv": "Miranda blir genast intresserad och hon tar över intervjun för att lära känna honom mer.",
+            "en": "Miranda becomes interested at once and she takes over the interview to get to know him more.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Miranda"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "honom"
+              }
+            ],
+            "gloss": "get to know",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sex and the City",
+              "text_url": "https://sv.wikipedia.org/wiki/Sex_and_the_City",
+              "sentence_id": "7e8a30c7",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"lära\"][word=\"känna\"]"
+            }
+          },
+          {
+            "ex_id": "a0d716c411c4b9ac641aa886298f1d7d631e8cac",
+            "sv": "Bill hjälper polisen med utredningen och tar över terapigruppen för att lära känna deltagarna.",
+            "en": "Bill helps the police with the investigation and takes over the therapy group to get to know the participants.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Bill"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "deltagarna"
+              }
+            ],
+            "gloss": "get to know",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Color of Night",
+              "text_url": "https://sv.wikipedia.org/wiki/Color_of_Night",
+              "sentence_id": "6e40750d",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"lära\"][word=\"känna\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": null,
+      "stress_hint": "Stress on the main verb: LÄra KÄNna."
+    },
+    "morphology": {
+      "principal_parts": [
+        "lära känna – lär känna – lärde känna – lärt känna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

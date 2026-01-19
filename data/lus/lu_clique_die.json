@@ -1,0 +1,320 @@
+{
+  "lexical_unit": {
+    "id": "lu_clique_die",
+    "source_de": {
+      "lu_de_raw": "Clique, die",
+      "lu_de_normalized": "Clique",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "klick",
+    "display_sv": "klick",
+    "name_sv": "klick",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "ett klick",
+      "två klick",
+      "klicket",
+      "klicken"
+    ],
+    "english_equivalent_en": "click (sound)",
+    "morphology_sv": {
+      "noun": {
+        "gender": "ett",
+        "indef_sg": "klick",
+        "def_sg": "klicket",
+        "indef_pl": "klick",
+        "def_pl": "klicken",
+        "note_en": "Often used for a short, sharp sound."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "klickljud",
+        "type_en": "noun",
+        "meaning_en": "a clicking sound"
+      },
+      {
+        "word": "klicka",
+        "type_en": "verb",
+        "meaning_en": "to make a click; to click (a button)"
+      },
+      {
+        "word": "klickande",
+        "type_en": "other",
+        "meaning_en": "clicking (sound or action)"
+      },
+      {
+        "word": "klickljudseffekt",
+        "type_en": "noun",
+        "meaning_en": "click sound effect"
+      }
+    ],
+    "synonyms_sv": [
+      "knäpp",
+      "klickljud",
+      "knäppning"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_friendship",
+        "frame_name_en": "Friendship",
+        "frame_slug": "friendship",
+        "sense_id": "lu_clique_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_clique_die:1",
+        "frame_id": "frame_friendship",
+        "meaning_en": "a short, sharp sound, like from a lock, device, or mechanism.",
+        "how_to_use_en": [
+          "Use with verbs like höra and låta to describe a sound.",
+          "Often used with an article or number: ett klick, två klick.",
+          "Can be quoted as a sound: \"klick\"."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "Det lät \"klick\".",
+            "note_en": "Sound description with låta."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "Det hördes (ett/två) (kraftiga/snabba) klick.",
+            "note_en": "Sound heard; often with number + adjective."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "På ... hörs ett klick.",
+            "note_en": "Sound heard on a recording."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "ett så kallat klick",
+            "note_en": "Naming/labeling the sound (e.g., a misfire click)."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using klick to mean a friend group (like English clique).",
+            "fix": "Use klick only for the sound here; for a friend group use e.g. \"gäng\".",
+            "explain_en": "Swedish klick can mean a sound; the 'clique' meaning is a different sense."
+          },
+          {
+            "error": "Mixing up klick and klack.",
+            "fix": "Use klick for a sharper click; klack is a different sound word.",
+            "explain_en": "The examples contrast \"klick\" and \"klack\" as two different sounds."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "dfe35ec94066080842584a1763b15c10008e94ad",
+            "sv": "\" Hej det är Nic... klick \" – 02:25 11.",
+            "en": "\"Hi, it is Nic... click\" – 02:25 11.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "klick"
+              }
+            ],
+            "gloss": "click (sound)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hej hej skiva",
+              "text_url": "https://sv.wikipedia.org/wiki/Hej_hej_skiva",
+              "sentence_id": "55bdcd05",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"klick\"]"
+            }
+          },
+          {
+            "ex_id": "0d128bc952b017f6ee4f5407ca1c54534134a6be",
+            "sv": "Det lät \" klick \" åt ena hållet och \" klack \" åt andra hållet.",
+            "en": "It sounded \"click\" in one direction and \"clack\" in the other direction.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "klick"
+              }
+            ],
+            "gloss": "click (sound)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Morsealfabetet",
+              "text_url": "https://sv.wikipedia.org/wiki/Morsealfabetet",
+              "sentence_id": "b6ef51e1",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"klick\"]"
+            }
+          },
+          {
+            "ex_id": "6ec7e2ade019004607327be9dd95bef92de98d72",
+            "sv": "När någon ny person kom in på numret hördes två kraftiga klick.",
+            "en": "When a new person came onto the number, two loud clicks were heard.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "två kraftiga klick"
+              }
+            ],
+            "gloss": "click (sound)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Heta linjen (telekommunikation)",
+              "text_url": "https://sv.wikipedia.org/wiki/Heta_linjen_(telekommunikation)",
+              "sentence_id": "d5bd836f",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"klick\"]"
+            }
+          },
+          {
+            "ex_id": "33639c0c3957762389d1bd018169a12c7a383937",
+            "sv": "• 10:29 – På ljudinspelningen hörs ett klick, och dörren till cockpit går i lås.",
+            "en": "• 10:29 – On the audio recording a click is heard, and the cockpit door locks.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "ett klick"
+              }
+            ],
+            "gloss": "click (sound)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Germanwings Flight 9525",
+              "text_url": "https://sv.wikipedia.org/wiki/Germanwings_Flight_9525",
+              "sentence_id": "a3c2d64b",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"klick\"]"
+            }
+          },
+          {
+            "ex_id": "7a549fa950bb0cbbfa68ee2dc8958fb5a2334916",
+            "sv": "Lätet beskrivs bäst som antingen ett snabbt klick eller skorrande ljud som varierar från råtta till råtta.",
+            "en": "The sound is best described as either a quick click or a scraping sound that varies from rat to rat.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "ett snabbt klick"
+              }
+            ],
+            "gloss": "click (sound)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Brunråtta",
+              "text_url": "https://sv.wikipedia.org/wiki/Brunr%C3%A5tta",
+              "sentence_id": "176b9e20",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"klick\"]"
+            }
+          },
+          {
+            "ex_id": "a2a423995e2c6d39725a49f0fefe7daf1a19df52",
+            "sv": "Det kan också bero på att drivladdningen inte antänder, ett så kallat klick.",
+            "en": "It can also be because the propellant charge does not ignite, a so-called click.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "att drivladdningen inte antänder"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "ett så kallat klick"
+              }
+            ],
+            "gloss": "click (sound; misfire)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Eldavbrott",
+              "text_url": "https://sv.wikipedia.org/wiki/Eldavbrott",
+              "sentence_id": "f8093aa6",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"klick\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "klɪk",
+      "stress_hint": "one syllable; stress on klick"
+    },
+    "morphology": {
+      "principal_parts": [
+        "klick – klicket – klick – klicken"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

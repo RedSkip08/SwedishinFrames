@@ -1,0 +1,266 @@
+{
+  "lexical_unit": {
+    "id": "lu_verknallt_inacc",
+    "source_de": {
+      "lu_de_raw": "verknallt (in+acc.)",
+      "lu_de_normalized": "verknallt (in+acc.)",
+      "gender_variants_de": [],
+      "pos_de": ""
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "vara kär i",
+    "display_sv": "vara kär i",
+    "name_sv": "vara kär i",
+    "pos": "multiword",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": "fixed_phrase",
+      "components_sv": [
+        "vara",
+        "kär",
+        "i"
+      ],
+      "spacing_notes_en": "Copula + adjective + preposition; object typically follows: 'vara kär i någon'."
+    },
+    "forms": [
+      "vara kär i"
+    ],
+    "english_equivalent_en": "be in love with",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": null
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword expression: vara + adjective kär + preposition i. Conjugate vara (är/var/har varit) while kär i stays the same."
+    },
+    "derived_words_sv": [
+      {
+        "word": "kär",
+        "type_en": "adjective",
+        "meaning_en": "in love (with someone)"
+      },
+      {
+        "word": "kärlek",
+        "type_en": "noun",
+        "meaning_en": "love"
+      },
+      {
+        "word": "kärleksbrev",
+        "type_en": "noun",
+        "meaning_en": "love letter"
+      },
+      {
+        "word": "kärleksfull",
+        "type_en": "adjective",
+        "meaning_en": "loving, affectionate"
+      },
+      {
+        "word": "förälskad",
+        "type_en": "adjective",
+        "meaning_en": "in love"
+      }
+    ],
+    "synonyms_sv": [
+      "vara förälskad i",
+      "älska"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
+        "sense_id": "lu_verknallt_inacc:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_verknallt_inacc:1",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "to have romantic love for someone.",
+        "how_to_use_en": [
+          "Use with a person after i: vara kär i någon.",
+          "Often describes a state/feeling, not an action."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "[Partner_1] vara kär i [Partner_2]",
+            "note_en": "Basic pattern with both partners expressed."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "att vara kär i [Partner_2]",
+            "note_en": "Infinitive clause used as a subject or complement."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using wrong preposition: *vara kär på någon",
+            "fix": "Use i: vara kär i någon",
+            "explain_en": "This expression normally takes the preposition i before the person."
+          },
+          {
+            "error": "Forgetting to conjugate vara: *hon vara kär i",
+            "fix": "Conjugate vara: hon är/var/har varit kär i",
+            "explain_en": "Only vara changes with tense/person; kär i stays the same."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "8ddab5e5c4266a35bbfae85c46d80bae37ffa3c9",
+            "sv": "Hon verkar vara kär i Humlon, men om kärleken är besvarad är oklart.",
+            "en": "She seems to be in love with Humlon, but it is unclear if the love is returned.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Humlon"
+              }
+            ],
+            "gloss": "be in love with",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Wuzzlarna",
+              "text_url": "https://sv.wikipedia.org/wiki/Wuzzlarna",
+              "sentence_id": "70b8437e",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"vara\"][word=\"kär\"][word=\"i\"]"
+            }
+          },
+          {
+            "ex_id": "aa79ed0520179de6eaaf4affa32029fda0ef7931",
+            "sv": "Hon brukar vara kär i Egon Spengler och under TV-serien har hon haft olika frisyrer.",
+            "en": "She is usually in love with Egon Spengler, and during the TV series she has had different hairstyles.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Egon Spengler"
+              }
+            ],
+            "gloss": "be in love with",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Janine Melnitz",
+              "text_url": "https://sv.wikipedia.org/wiki/Janine_Melnitz",
+              "sentence_id": "e332ed15",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"vara\"][word=\"kär\"][word=\"i\"]"
+            }
+          },
+          {
+            "ex_id": "54f8f9466473f9190aa7a963ae8b5caf4322a8aa",
+            "sv": "Men att vara kär i en vampyr är farligare än Bella någonsin hade kunnat föreställa sig.",
+            "en": "But to be in love with a vampire is more dangerous than Bella could ever have imagined.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "en vampyr"
+              }
+            ],
+            "gloss": "be in love with",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "The Twilight Saga: New Moon",
+              "text_url": "https://sv.wikipedia.org/wiki/The_Twilight_Saga:_New_Moon",
+              "sentence_id": "6bbac826",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"vara\"][word=\"kär\"][word=\"i\"]"
+            }
+          },
+          {
+            "ex_id": "dc019119db585ac9de7f34eb9a6a50aa22764b15",
+            "sv": "Sången handlar om att bli förälskad i någon som kanske inte är lämplig att vara kär i.",
+            "en": "The song is about becoming in love with someone who maybe is not suitable to be in love with.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "någon"
+              }
+            ],
+            "gloss": "be in love with",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sparks Fly",
+              "text_url": "https://sv.wikipedia.org/wiki/Sparks_Fly",
+              "sentence_id": "0cdd24ed",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"vara\"][word=\"kär\"][word=\"i\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": null,
+      "stress_hint": "Main stress on kär."
+    },
+    "morphology": {
+      "principal_parts": [
+        "vara kär i"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

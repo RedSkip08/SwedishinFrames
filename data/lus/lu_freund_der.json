@@ -1,0 +1,493 @@
+{
+  "lexical_unit": {
+    "id": "lu_freund_der",
+    "source_de": {
+      "lu_de_raw": "Freund, der",
+      "lu_de_normalized": "Freund",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "pojkvän",
+    "display_sv": "pojkvän",
+    "name_sv": "pojkvän",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "pojkvän",
+      "pojkvännen",
+      "pojkvänner",
+      "pojkvännerna"
+    ],
+    "english_equivalent_en": "boyfriend",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "pojkvän",
+        "def_sg": "pojkvännen",
+        "indef_pl": "pojkvänner",
+        "def_pl": "pojkvännerna",
+        "note_en": "Commonly used with possessives: min/sin/hennes/hans pojkvän."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "flickvän",
+        "type_en": "noun",
+        "meaning_en": "girlfriend"
+      },
+      {
+        "word": "pojkvännen",
+        "type_en": "other",
+        "meaning_en": "the boyfriend (definite form)"
+      },
+      {
+        "word": "pojkvänner",
+        "type_en": "other",
+        "meaning_en": "boyfriends (plural)"
+      },
+      {
+        "word": "ex-pojkvän",
+        "type_en": "noun",
+        "meaning_en": "ex-boyfriend"
+      },
+      {
+        "word": "pojkvänsrelation",
+        "type_en": "noun",
+        "meaning_en": "boyfriend relationship (a relationship where someone is your boyfriend)"
+      }
+    ],
+    "synonyms_sv": [
+      "kille",
+      "partner",
+      "pojke"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_dating",
+        "frame_name_en": "Dating",
+        "frame_slug": "dating",
+        "sense_id": "lu_freund_der:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_freund_der:1",
+        "frame_id": "frame_dating",
+        "meaning_en": "a male romantic partner; the man someone is dating or together with",
+        "how_to_use_en": [
+          "Use for a man in a romantic relationship (not necessarily married).",
+          "Often used with a possessive: min/sin/hennes/hans pojkvän.",
+          "Can be used with “en” when the person is not specified: en pojkvän."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X och hennes/hans pojkvän",
+            "note_en": "Two people mentioned together; the boyfriend belongs to X."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "hennes/hans/sin pojkvän",
+            "note_en": "Very common possessive pattern."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "en (ny) pojkvän",
+            "note_en": "Indefinite form, often with an adjective like ny."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "ses tillsammans med en pojkvän",
+            "note_en": "Used when someone is seen together with a boyfriend."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "gifta sig med sin pojkvän",
+            "note_en": "A relationship stage where the boyfriend becomes a husband."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *pojkvän* for a male friend (not romantic).",
+            "fix": "Use vän / kompis for a non-romantic friend.",
+            "explain_en": "Pojkvän normally means a romantic partner, not just a friend."
+          },
+          {
+            "error": "Mixing up sin/hans/hennes with possessives.",
+            "fix": "Use sin when it refers back to the subject; otherwise use hans/hennes.",
+            "explain_en": "In the examples: hon + sin pojkvän; Mary + hennes pojkvän."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "0e0503f73277f10aba4d18f54b919473c49ffeb9",
+            "sv": "Mary och hennes pojkvän följer också med och kollar på dom i Backstage tillsammans med Jim.",
+            "en": "Mary and her boyfriend also come along and watch them in Backstage together with Jim.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Mary"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "hennes pojkvän"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Backstage"
+              }
+            ],
+            "gloss": "boyfriend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bohemian Rhapsody (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Bohemian_Rhapsody_(film)",
+              "sentence_id": "6a5dbbfa",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
+            }
+          },
+          {
+            "ex_id": "f72a1e1eedcc14e7d0b4a243cd64a266a6b01806",
+            "sv": "Freddie träffar Mary och hennes nya pojkvän som kollade på konserten.",
+            "en": "Freddie meets Mary and her new boyfriend who watched the concert.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Mary"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "hennes nya pojkvän"
+              }
+            ],
+            "gloss": "boyfriend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bohemian Rhapsody (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Bohemian_Rhapsody_(film)",
+              "sentence_id": "6a51d2af",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
+            }
+          },
+          {
+            "ex_id": "9b09e5e682daeebfd4f1aa56405af2f0b086c224",
+            "sv": "Hon vill inte prata med honom och han bråkar med hennes pojkvän.",
+            "en": "She does not want to talk to him and he argues with her boyfriend.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "hennes pojkvän"
+              }
+            ],
+            "gloss": "boyfriend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Die Hard 4.0",
+              "text_url": "https://sv.wikipedia.org/wiki/Die_Hard_4.0",
+              "sentence_id": "401c234a",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
+            }
+          },
+          {
+            "ex_id": "b817378f900f6f4985f167e28cc8d54be443d430",
+            "sv": "Hennes pojkvän dyker sedan upp, normal, och räddar henne.",
+            "en": "Her boyfriend then shows up, normal, and saves her.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Hennes pojkvän"
+              },
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "henne"
+              }
+            ],
+            "gloss": "boyfriend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Fly on the Wall (sång)",
+              "text_url": "https://sv.wikipedia.org/wiki/Fly_on_the_Wall_(s%C3%A5ng)",
+              "sentence_id": "8ea6d6b9",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
+            }
+          },
+          {
+            "ex_id": "e967b6baa4f8b3b52e2eaefafd0d9293326cb328",
+            "sv": "Något år senare ses Claire tillsammans med en pojkvän, Thomas.",
+            "en": "Some year later, Claire is seen together with a boyfriend, Thomas.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Något år senare"
+              },
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Claire"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "en pojkvän, Thomas"
+              }
+            ],
+            "gloss": "boyfriend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Huvudroller i Lost",
+              "text_url": "https://sv.wikipedia.org/wiki/Huvudroller_i_Lost",
+              "sentence_id": "ef5cb38e",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
+            }
+          },
+          {
+            "ex_id": "eedc25ee7a02f37c7b94e7c7b2e779d157e97a3a",
+            "sv": "Några månader efter att hon blev klar med boken gifte hon sig med sin pojkvän.",
+            "en": "A few months after she finished the book, she married her boyfriend.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Några månader efter att hon blev klar med boken"
+              },
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin pojkvän"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "gifte"
+              }
+            ],
+            "gloss": "boyfriend",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "S.E. Hinton",
+              "text_url": "https://sv.wikipedia.org/wiki/S.E._Hinton",
+              "sentence_id": "f72416e6",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
+            }
+          },
+          {
+            "ex_id": "cdd3f30c902a7ba73bfeb56983f0527c0cda8b9c",
+            "sv": "Då Alice redan har en pojkvän anser han sig till en början vara chanslös.",
+            "en": "Since Alice already has a boyfriend, he thinks at first that he has no chance.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Alice"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "en pojkvän"
+              }
+            ],
+            "gloss": "boyfriend",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hattmakaren (seriefigur)",
+              "text_url": "https://sv.wikipedia.org/wiki/Hattmakaren_(seriefigur)",
+              "sentence_id": "43cfaf21",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
+            }
+          },
+          {
+            "ex_id": "8a0fd28a66612239a2bb2642b0fadd075c3c3522",
+            "sv": "En pojkvän är en man i kärleksförhållande där parterna inte är gifta eller ingått registrerat partnerskap.",
+            "en": "A boyfriend is a man in a love relationship where the parties are not married or have entered a registered partnership.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "En pojkvän"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "i kärleksförhållande"
+              }
+            ],
+            "gloss": "boyfriend",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Pojkvän",
+              "text_url": "https://sv.wikipedia.org/wiki/Pojkv%C3%A4n",
+              "sentence_id": "94fc17f6",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
+            }
+          },
+          {
+            "ex_id": "42550c652f2adbcbc6f7d6f00ef2d303cd329566",
+            "sv": "Hon förklarar för Anatolij att hon inte låter sin pojkvän behandla henne hursomhelst.",
+            "en": "She explains to Anatolij that she does not let her boyfriend treat her any way he wants.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin pojkvän"
+              }
+            ],
+            "gloss": "boyfriend",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Chess",
+              "text_url": "https://sv.wikipedia.org/wiki/Chess",
+              "sentence_id": "fa10bf34",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
+            }
+          },
+          {
+            "ex_id": "8cb197318f2049f4177cfc96e1886743560cd804",
+            "sv": "Kvinnans pojkvän tar för första gången ensam hand om deras gemensamma åtta månader gamla bebis.",
+            "en": "The woman's boyfriend, for the first time, takes care of their shared eight-month-old baby alone.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Kvinnans pojkvän"
+              },
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Kvinnans"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "för första gången"
+              }
+            ],
+            "gloss": "boyfriend",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Moa & Malte",
+              "text_url": "https://sv.wikipedia.org/wiki/Moa_%26_Malte",
+              "sentence_id": "e6c5ded1",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈpɔjːkˌvɛn",
+      "stress_hint": "Stress on first part: POJK-vän"
+    },
+    "morphology": {
+      "principal_parts": [
+        "en pojkvän",
+        "pojkvännen",
+        "pojkvänner",
+        "pojkvännerna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "lexical_unit": {
+    "id": "lu_geliebte_der_geliebte_ein_geliebter__die_eine_geliebte",
+    "source_de": {
+      "lu_de_raw": "Geliebte: der Geliebte, ein Geliebter / die, eine Geliebte",
+      "lu_de_normalized": "Geliebte/Geliebter",
+      "gender_variants_de": [
+        "der Geliebte",
+        "ein Geliebter",
+        "die Geliebte",
+        "eine Geliebte"
+      ],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "älskare",
+    "display_sv": "älskare",
+    "name_sv": "älskare",
+    "pos": "noun",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "en älskare",
+      "älskaren",
+      "älskare",
+      "älskarna"
+    ],
+    "english_equivalent_en": "lover",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "älskare",
+        "def_sg": "älskaren",
+        "indef_pl": "älskare",
+        "def_pl": "älskarna",
+        "note_en": "Same form in singular and plural indefinite: en älskare, flera älskare."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "älskarinna",
+        "type_en": "noun",
+        "meaning_en": "female lover (often in an affair)"
+      },
+      {
+        "word": "älskarpar",
+        "type_en": "noun",
+        "meaning_en": "a couple of lovers"
+      },
+      {
+        "word": "älskarbrev",
+        "type_en": "noun",
+        "meaning_en": "love letter"
+      },
+      {
+        "word": "älskarinnaförhållande",
+        "type_en": "noun",
+        "meaning_en": "affair with a lover"
+      }
+    ],
+    "synonyms_sv": [
+      "partner",
+      "kärlekspartner",
+      "älskad"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
+        "sense_id": "lu_geliebte_der_geliebte_ein_geliebter__die_eine_geliebte:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_geliebte_der_geliebte_ein_geliebter__die_eine_geliebte:1",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "a person someone has a romantic or sexual relationship with, often secretly",
+        "how_to_use_en": [
+          "Use about a romantic/sexual partner, often outside marriage or a main relationship.",
+          "Often used with a possessive: hans/hennes/sin älskare.",
+          "Can be singular or plural: en älskare, två älskare."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "ha (haft) en älskare",
+            "note_en": "To have/have had a lover."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "hans/hennes/sin älskare",
+            "note_en": "Possessive + älskare is very common."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "bli någons älskare",
+            "note_en": "To become someone’s lover."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "vänta på sin älskare + (namn)",
+            "note_en": "Often followed by a name."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "två älskare",
+            "note_en": "Plural meaning: two people who are lovers."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using älskare for a normal boyfriend/girlfriend in neutral contexts.",
+            "fix": "Use pojkvän/flickvän or partner instead.",
+            "explain_en": "Älskare often suggests an affair or a more secret/sexual relationship."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "2095dcc73e5a3037c6be0394b5c4c30bcc73e982",
+            "sv": "Efter sin mans död upptäcker hustrun att han har haft en älskare.",
+            "en": "After her husband's death, the wife discovers that he has had a lover.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "en älskare"
+              }
+            ],
+            "gloss": "lover (a person someone has a romantic/sexual relationship with, often secretly)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Två kvinnor (1980)",
+              "text_url": "https://sv.wikipedia.org/wiki/Tv%C3%A5_kvinnor_(1980)",
+              "sentence_id": "03a2906d",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"älskare\"]"
+            }
+          },
+          {
+            "ex_id": "385ea195d161962cfce76fbfe106757f7195ff4c",
+            "sv": "Han anlitar en privatdetektiv för att ta reda på vem hennes älskare är.",
+            "en": "He hires a private detective to find out who her lover is.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "hennes"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "hennes älskare"
+              }
+            ],
+            "gloss": "lover",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mannen - hustrun - älskaren",
+              "text_url": "https://sv.wikipedia.org/wiki/Mannen_-_hustrun_-_%C3%A4lskaren",
+              "sentence_id": "88b63069",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"älskare\"]"
+            }
+          },
+          {
+            "ex_id": "68018c60ff87268b2e5edec87f2be95fe3acaba4",
+            "sv": "Hon har tråkigt på landet och skaffar sig därför både älskare och skulder.",
+            "en": "She is bored in the countryside and therefore gets both lovers and debts.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "älskare"
+              }
+            ],
+            "gloss": "lover",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Madame Bovary (film, 1991)",
+              "text_url": "https://sv.wikipedia.org/wiki/Madame_Bovary_(film,_1991)",
+              "sentence_id": "e6c6996d",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"älskare\"]"
+            }
+          },
+          {
+            "ex_id": "735663feb40443f27a694cde40f77be017885448",
+            "sv": "Hon dog ogift, men ska enligt ryktet ha haft älskare.",
+            "en": "She died unmarried, but according to the rumor she is said to have had lovers.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "älskare"
+              }
+            ],
+            "gloss": "lover",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Marie von Stedingk",
+              "text_url": "https://sv.wikipedia.org/wiki/Marie_von_Stedingk",
+              "sentence_id": "cca646f9",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"älskare\"]"
+            }
+          },
+          {
+            "ex_id": "0b7d4e6d490355bdfbffee8a73c38af43b4bba70",
+            "sv": "Christian muntrar upp henne, blir hennes älskare och pappa till hennes barn.",
+            "en": "Christian cheers her up, becomes her lover and the father of her child.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Christian"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "hennes"
+              },
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "hennes älskare"
+              }
+            ],
+            "gloss": "lover",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Préparez vos mouchoirs",
+              "text_url": "https://sv.wikipedia.org/wiki/Pr%C3%A9parez_vos_mouchoirs",
+              "sentence_id": "45c263ee",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"älskare\"]"
+            }
+          },
+          {
+            "ex_id": "704b53a121099a6c3d7e12e8cfd6987eeb5d4256",
+            "sv": "Vid bröllopet upptäcker Isabel att Theresas make är hennes tidigare älskare Oscar.",
+            "en": "At the wedding, Isabel discovers that Theresa's husband is her former lover Oscar.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "hennes"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "hennes tidigare älskare Oscar"
+              }
+            ],
+            "gloss": "lover",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "After the Wedding",
+              "text_url": "https://sv.wikipedia.org/wiki/After_the_Wedding",
+              "sentence_id": "1bd4977e",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"älskare\"]"
+            }
+          },
+          {
+            "ex_id": "61aaf5072299ea64c225243fb39794a373489924",
+            "sv": "Mr Maurrant ertappar sin fru tillsammans med hennes älskare och skjuter dem båda.",
+            "en": "Mr Maurrant catches his wife together with her lover and shoots them both.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "sin fru"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "hennes älskare"
+              }
+            ],
+            "gloss": "lover",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Street Scene (opera)",
+              "text_url": "https://sv.wikipedia.org/wiki/Street_Scene_(opera)",
+              "sentence_id": "54bc3a4c",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"älskare\"]"
+            }
+          },
+          {
+            "ex_id": "a49471f03aaabb84ece8ff6c3c1870b8c2182892",
+            "sv": "Bakom scenen på varietén väntar Zaza på sin älskare Milo Dufresne.",
+            "en": "Behind the stage at the variety show, Zaza is waiting for her lover Milo Dufresne.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Zaza"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin älskare Milo Dufresne"
+              }
+            ],
+            "gloss": "lover",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Zazà",
+              "text_url": "https://sv.wikipedia.org/wiki/Zaz%C3%A0",
+              "sentence_id": "407b0e0d",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"älskare\"]"
+            }
+          },
+          {
+            "ex_id": "1a624de5427ca09ab75fe2fddc201f34c94990d0",
+            "sv": "\" No Me Ames \" handlar om en komplicerad relation mellan två älskare.",
+            "en": "\"No Me Ames\" is about a complicated relationship between two lovers.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "två älskare"
+              }
+            ],
+            "gloss": "lovers (two people in a romantic/sexual relationship)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "No Me Ames",
+              "text_url": "https://sv.wikipedia.org/wiki/No_Me_Ames",
+              "sentence_id": "d80bc01f",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"älskare\"]"
+            }
+          },
+          {
+            "ex_id": "af39c4119d7d482d9dd43a96083156f23139e8f4",
+            "sv": "Pauline och Victoria visar sig inte bara vara bästa vänner utan även älskare.",
+            "en": "Pauline and Victoria turn out to be not only best friends but also lovers.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "Pauline och Victoria"
+              }
+            ],
+            "gloss": "lovers",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lost and Delirious",
+              "text_url": "https://sv.wikipedia.org/wiki/Lost_and_Delirious",
+              "sentence_id": "83ce2965",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"älskare\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈɛlːskarɛ",
+      "stress_hint": "Stress on first syllable: ÄLS-ka-re"
+    },
+    "morphology": {
+      "principal_parts": [
+        "älskare – älskaren – älskare – älskarna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "lexical_unit": {
+    "id": "lu_schluss_machen_mit",
+    "source_de": {
+      "lu_de_raw": "Schluss machen (mit)",
+      "lu_de_normalized": "Schluss machen (mit)",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "göra slut",
+    "display_sv": "göra slut",
+    "name_sv": "göra slut",
+    "pos": "multiword",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": "light_verb",
+      "components_sv": [
+        "göra",
+        "slut"
+      ],
+      "spacing_notes_en": "Written as two words: göra slut."
+    },
+    "forms": [
+      "göra slut",
+      "göra slut med",
+      "göra slut på"
+    ],
+    "english_equivalent_en": "break up",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": null
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword verb phrase. Often used as 'göra slut' (no object) or 'göra slut med + person'. Also occurs as 'göra slut på + relation'."
+    },
+    "derived_words_sv": [
+      {
+        "word": "göra slut med någon",
+        "type_en": "other",
+        "meaning_en": "break up with someone"
+      },
+      {
+        "word": "göra slut på relationen",
+        "type_en": "other",
+        "meaning_en": "end the relationship"
+      },
+      {
+        "word": "göra slut på deras relation",
+        "type_en": "other",
+        "meaning_en": "end their relationship"
+      },
+      {
+        "word": "göra slut på något",
+        "type_en": "other",
+        "meaning_en": "put an end to something"
+      }
+    ],
+    "synonyms_sv": [
+      "göra slut med",
+      "göra slut på relationen",
+      "separera",
+      "göra slut på"
+    ],
+    "antonyms_sv": [
+      "bli ihop"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_dating",
+        "frame_name_en": "Dating",
+        "frame_slug": "dating",
+        "sense_id": "lu_schluss_machen_mit:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_schluss_machen_mit:1",
+        "frame_id": "frame_dating",
+        "meaning_en": "end a romantic relationship; stop being together as a couple.",
+        "how_to_use_en": [
+          "Use without an object when it is clear who the couple is: göra slut.",
+          "Use med + person to say who you break up with: göra slut med honom/henne/någon.",
+          "You can also use på + relation to focus on the relationship: göra slut på deras relation."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X vill göra slut",
+            "note_en": "Partner_1 expresses intention to end the relationship."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "X kommer att göra slut",
+            "note_en": "Future/expected breakup."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "göra slut med + person",
+            "note_en": "Names who Partner_1 breaks up with (Partner_2)."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "försöka göra slut med + person",
+            "note_en": "Attempt to break up."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "göra slut på + relation",
+            "note_en": "Focus on ending the relationship itself."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *göra slut* for finishing an activity (like a book or homework).",
+            "fix": "Use 'göra klart' or 'bli klar (med)' for finishing tasks.",
+            "explain_en": "'Göra slut' in these examples is about ending a romantic relationship."
+          },
+          {
+            "error": "Saying *göra slut honom* without a preposition.",
+            "fix": "Say 'göra slut med honom'.",
+            "explain_en": "The person you break up with is introduced by 'med' in the examples."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "8ac3b6b31fb9d4866dee68873603c6f5e6ed362d",
+            "sv": "Han vill göra slut men vet inte hur han ska gå till väga.",
+            "en": "He wants to break up but does not know how to do it.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "göra slut"
+              }
+            ],
+            "gloss": "end a romantic relationship; break up",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mañana",
+              "text_url": "https://sv.wikipedia.org/wiki/Ma%C3%B1ana",
+              "sentence_id": "be5c141b",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+            }
+          },
+          {
+            "ex_id": "7c192f0dfffcad496b2986f2a8b339ba80862336",
+            "sv": "Han oroar sig för att hon kommer att göra slut med honom.",
+            "en": "He worries that she will break up with him.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "honom"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "göra slut"
+              }
+            ],
+            "gloss": "end a romantic relationship; break up (with someone)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Life Among the Gorillas",
+              "text_url": "https://sv.wikipedia.org/wiki/Life_Among_the_Gorillas",
+              "sentence_id": "2a4d57a8",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+            }
+          },
+          {
+            "ex_id": "0662d38bd3ac1ccd48990a7a124672ca28a40e49",
+            "sv": "Han försöker vid flera tillfällen göra slut med Horuss, men lyckas aldrig.",
+            "en": "He tries several times to break up with Horuss, but never succeeds.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "vid flera tillfällen"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "göra slut"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Horuss"
+              }
+            ],
+            "gloss": "end a romantic relationship; break up with",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Homestuck",
+              "text_url": "https://sv.wikipedia.org/wiki/Homestuck",
+              "sentence_id": "fe9aa3b5",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+            }
+          },
+          {
+            "ex_id": "e986036200108034d12afade03cf17658dbec55c",
+            "sv": "Han inser att det inte finns något bra sätt att göra slut med någon.",
+            "en": "He realizes that there is no good way to break up with someone.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "göra slut"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "någon"
+              }
+            ],
+            "gloss": "end a romantic relationship; break up with someone",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Return of the Shirt",
+              "text_url": "https://sv.wikipedia.org/wiki/Return_of_the_Shirt",
+              "sentence_id": "95a550fa",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+            }
+          },
+          {
+            "ex_id": "f579f2e79850c35fa131cff5abe3dd70c5507b81",
+            "sv": "Vid ett nattklubbsbesök försöker han övertala henne att göra slut med Erik.",
+            "en": "During a nightclub visit he tries to persuade her to break up with Erik.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Vid ett nattklubbsbesök"
+              },
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "henne"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "göra slut"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Erik"
+              }
+            ],
+            "gloss": "end a romantic relationship; break up with",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Landskamp (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Landskamp_(film)",
+              "sentence_id": "81477429",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+            }
+          },
+          {
+            "ex_id": "426965c4ae143e3fe1d66bd641efd6c028834fdf",
+            "sv": "Bart känner sig utanför och bestämmer sig för att göra slut på deras relation.",
+            "en": "Bart feels left out and decides to end their relationship.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Bart"
+              },
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "känner sig utanför"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "göra slut"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "deras relation"
+              }
+            ],
+            "gloss": "end a romantic relationship; break up (end the relationship)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bart's Friend Falls in Love",
+              "text_url": "https://sv.wikipedia.org/wiki/Bart%27s_Friend_Falls_in_Love",
+              "sentence_id": "4beb4057",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+            }
+          },
+          {
+            "ex_id": "56fce8eeb48a8315a8cd8911b37694c5a64b93d7",
+            "sv": "Edna och Seymour berättar för Bart att de kommer att göra slut.",
+            "en": "Edna and Seymour tell Bart that they are going to break up.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Edna"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Seymour"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "göra slut"
+              }
+            ],
+            "gloss": "end a romantic relationship; break up",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Grade School Confidential",
+              "text_url": "https://sv.wikipedia.org/wiki/Grade_School_Confidential",
+              "sentence_id": "c202550d",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+            }
+          },
+          {
+            "ex_id": "ac91b3b2bbb1771d0650241d280536e5452bc351",
+            "sv": "Men precis innan familjerna ska åka så väljer Sophie att göra slut.",
+            "en": "But just before the families are going to leave, Sophie chooses to break up.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "precis innan familjerna ska åka"
+              },
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Sophie"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "göra slut"
+              }
+            ],
+            "gloss": "end a romantic relationship; break up",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sune – Uppdrag midsommar",
+              "text_url": "https://sv.wikipedia.org/wiki/Sune_%E2%80%93_Uppdrag_midsommar",
+              "sentence_id": "5ccb5896",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+            }
+          },
+          {
+            "ex_id": "0e12ede2120a692d2d20ee8d4ba1559c7e6b930b",
+            "sv": "De kommer fram till att de måste göra slut, men tillbringar en sista dag tillsammans.",
+            "en": "They come to the conclusion that they must break up, but spend one last day together.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "De"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "göra slut"
+              }
+            ],
+            "gloss": "end a romantic relationship; break up",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Cupcake (How I Met Your Mother)",
+              "text_url": "https://sv.wikipedia.org/wiki/Cupcake_(How_I_Met_Your_Mother)",
+              "sentence_id": "9b027013",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+            }
+          },
+          {
+            "ex_id": "7ce26732b790d57bb1b267ef67ef7f1bd40898eb",
+            "sv": "Han vill egentligen inte göra slut med henne, så han blir desperat och börjar leta efter något de har gemensamt.",
+            "en": "He actually does not want to break up with her, so he becomes desperate and starts looking for something they have in common.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "göra slut"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "henne"
+              }
+            ],
+            "gloss": "end a romantic relationship; break up with",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Breakfast at Tiffany's (låt)",
+              "text_url": "https://sv.wikipedia.org/wiki/Breakfast_at_Tiffany%27s_(l%C3%A5t)",
+              "sentence_id": "8ae55820",
+              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": null,
+      "stress_hint": "Main stress on SLUT in 'göra slut'."
+    },
+    "morphology": {
+      "principal_parts": [
+        "göra slut"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

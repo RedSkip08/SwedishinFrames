@@ -1,0 +1,340 @@
+{
+  "lexical_unit": {
+    "id": "lu_schlafen_mit_jemandem_schlafen",
+    "source_de": {
+      "lu_de_raw": "schlafen: mit jemandem schlafen",
+      "lu_de_normalized": "mit jemandem schlafen",
+      "gender_variants_de": [],
+      "pos_de": ""
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "ligga med",
+    "display_sv": "ligga med",
+    "name_sv": "ligga med",
+    "pos": "multiword",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": "prep_phrase",
+      "components_sv": [
+        "ligga",
+        "med"
+      ],
+      "spacing_notes_en": "Verb + preposition; object typically follows: 'ligga med någon'."
+    },
+    "forms": [
+      "ligga med",
+      "ligger med",
+      "låg med",
+      "legat med",
+      "ligg med"
+    ],
+    "english_equivalent_en": "sleep with",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "ligga med",
+        "present": "ligger med",
+        "past": "låg med",
+        "supine": "legat med",
+        "imperative": "ligg med",
+        "present_participle": "liggande med",
+        "past_participle": "legat med",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword verb: the verb ligga is inflected; med stays the same."
+    },
+    "derived_words_sv": [
+      {
+        "word": "ligga",
+        "type_en": "verb",
+        "meaning_en": "lie (be in a horizontal position); also used in some fixed expressions"
+      },
+      {
+        "word": "samlag",
+        "type_en": "noun",
+        "meaning_en": "sexual intercourse"
+      },
+      {
+        "word": "samlagspartner",
+        "type_en": "noun",
+        "meaning_en": "sexual partner"
+      },
+      {
+        "word": "sex",
+        "type_en": "noun",
+        "meaning_en": "sex"
+      }
+    ],
+    "synonyms_sv": [
+      "ha sex med",
+      "ha samlag med",
+      "ha sex"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
+        "sense_id": "lu_schlafen_mit_jemandem_schlafen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_schlafen_mit_jemandem_schlafen:1",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "have sex with someone.",
+        "how_to_use_en": [
+          "Use with a person as object: ligga med + honom/henne/dem/vem.",
+          "Common in spoken language; can feel direct or intimate."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X ligger med Y",
+            "note_en": "Present tense; Y is a person (e.g., henne, honom, dem)."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "X har (inte) vågat ligga med Y",
+            "note_en": "With våga to express daring/not daring."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "X vill (inte) ligga med Y",
+            "note_en": "With vilja to express wanting/not wanting."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "X lovar (att) ligga med Y",
+            "note_en": "With lova to promise."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "ligga med vem jag vill",
+            "note_en": "With an open/indefinite partner: 'whoever I want'."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using it to mean only 'sleep in the same bed'.",
+            "fix": "Use sova med (i samma säng) for literal sleeping.",
+            "explain_en": "Ligga med normally means having sex, not just sleeping."
+          },
+          {
+            "error": "Forgetting the preposition med.",
+            "fix": "Say ligga med + person.",
+            "explain_en": "Without med, ligga usually means 'lie down/lie'."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "f3c86c11ec3540c3657c9e4efbf62b9de6021a90",
+            "sv": "\" Jag får väl ligga med vem jag vill \", menar Lars Göran.",
+            "en": "\" I can sleep with whoever I want \", says Lars Göran.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "vem jag vill"
+              }
+            ],
+            "gloss": "sleep with (have sex with)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Starke man",
+              "text_url": "https://sv.wikipedia.org/wiki/Starke_man",
+              "sentence_id": "13c09d22",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"ligga\"][word=\"med\"]"
+            }
+          },
+          {
+            "ex_id": "e6be325e5491fb9a5276f6a7f74953b1bca5040f",
+            "sv": "Kim är kär i Mia (Ulrika Örn), men han har inte vågat ligga med henne.",
+            "en": "Kim is in love with Mia (Ulrika Örn), but he has not dared to sleep with her.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "henne"
+              }
+            ],
+            "gloss": "sleep with (have sex with)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "G – som i gemenskap",
+              "text_url": "https://sv.wikipedia.org/wiki/G_%E2%80%93_som_i_gemenskap",
+              "sentence_id": "dade7c98",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"ligga\"][word=\"med\"]"
+            }
+          },
+          {
+            "ex_id": "c861a6a8de364daa2fc680a806b20fdfc365aecc",
+            "sv": "Jamie lovar Jack att ligga med honom om han låter Claire gå.",
+            "en": "Jamie promises Jack to sleep with him if he lets Claire go.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "honom"
+              }
+            ],
+            "gloss": "sleep with (have sex with)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Främlingen (roman av Diana Gabaldon)",
+              "text_url": "https://sv.wikipedia.org/wiki/Fr%C3%A4mlingen_(roman_av_Diana_Gabaldon)",
+              "sentence_id": "220e2e9c",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"ligga\"][word=\"med\"]"
+            }
+          },
+          {
+            "ex_id": "48d07b027e6a9ca8615a8ce06a99143d425aaece",
+            "sv": "Då han inte vill ligga med henne förstör hon hans saker, däribland hans tavlor.",
+            "en": "When he does not want to sleep with her, she destroys his things, including his paintings.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "henne"
+              }
+            ],
+            "gloss": "sleep with (have sex with)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "En kvinnas slav",
+              "text_url": "https://sv.wikipedia.org/wiki/En_kvinnas_slav",
+              "sentence_id": "491286c2",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"ligga\"][word=\"med\"]"
+            }
+          },
+          {
+            "ex_id": "6e1b538e76e433bd140755fb1553fd20d6f8a7f2",
+            "sv": "Hon skulle dock räkna skulden som tillräckligt gäldad om han blott en enda natt ville ligga med henne.",
+            "en": "However, she would count the debt as paid enough if he, just for one single night, wanted to sleep with her.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "henne"
+              }
+            ],
+            "gloss": "sleep with (have sex with)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hrimgerd",
+              "text_url": "https://sv.wikipedia.org/wiki/Hrimgerd",
+              "sentence_id": "8cbb8f8e",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"ligga\"][word=\"med\"]"
+            }
+          },
+          {
+            "ex_id": "8404146d6a144f0996107170f99d4dd88600586c",
+            "sv": "De gjorde upp att hon skulle ligga med dem en natt var.",
+            "en": "They agreed that she would sleep with them one night each.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "dem"
+              }
+            ],
+            "gloss": "sleep with (have sex with)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Freja",
+              "text_url": "https://sv.wikipedia.org/wiki/Freja",
+              "sentence_id": "77bbc922",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"ligga\"][word=\"med\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": null,
+      "stress_hint": "Stress usually on the verb: LIGGA med."
+    },
+    "morphology": {
+      "principal_parts": [
+        "ligga med – ligger med – låg med – legat med"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

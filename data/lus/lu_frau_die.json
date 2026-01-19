@@ -1,0 +1,499 @@
+{
+  "lexical_unit": {
+    "id": "lu_frau_die",
+    "source_de": {
+      "lu_de_raw": "Frau, die",
+      "lu_de_normalized": "Frau",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "fru",
+    "display_sv": "fru",
+    "name_sv": "fru",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "hans fru",
+      "sin fru",
+      "med fru",
+      "första fru",
+      "är hans fru"
+    ],
+    "english_equivalent_en": "wife",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "fru",
+        "def_sg": "frun",
+        "indef_pl": "fruar",
+        "def_pl": "fruarna",
+        "note_en": "In this sense, fru is used about a man's wife (often with a possessive: hans/sin fru)."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "fru + förnamn",
+        "type_en": "other",
+        "meaning_en": "Mrs + first name (common in biographies: his wife Sigrid/Carlene/Harriet)"
+      },
+      {
+        "word": "fru och barn",
+        "type_en": "other",
+        "meaning_en": "wife and children (family phrase)"
+      },
+      {
+        "word": "första fru",
+        "type_en": "noun",
+        "meaning_en": "first wife"
+      },
+      {
+        "word": "fru + efternamn",
+        "type_en": "other",
+        "meaning_en": "Mrs + surname (formal address)"
+      }
+    ],
+    "synonyms_sv": [
+      "hustru",
+      "maka"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_marriage",
+        "frame_name_en": "Marriage",
+        "frame_slug": "marriage",
+        "sense_id": "lu_frau_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_frau_die:1",
+        "frame_id": "frame_marriage",
+        "meaning_en": "a woman who is married to a man; his wife.",
+        "how_to_use_en": [
+          "Often used with a possessive: hans fru, sin fru.",
+          "Common in factual/biographical style, often followed by her name."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X och hans fru Y",
+            "note_en": "Lists a man and his wife, often with her name."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "X och sin fru Y",
+            "note_en": "Refers back to the subject (X) and his wife."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "gifta sig med sin första fru (Y) + Time",
+            "note_en": "Marriage event with “first wife”, often with a year."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "bo (tillsammans) med (sin) fru + Place",
+            "note_en": "Living with one’s wife, optionally with a place."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "Y är sedan Time hans fru",
+            "note_en": "States marital status since a time point."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using fru for any adult woman (like English “woman/lady”).",
+            "fix": "Use kvinna/dam for “woman/lady”; use fru for “wife” (or as a title).",
+            "explain_en": "In these examples, fru refers to the spouse in a marriage, not just a woman."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "17349211e7e18f7d12e2eba3fd4a9048d6f22a6d",
+            "sv": "Ulla Jacobsson var dotter till Gunnar Jacobsson och hans fru Sigrid.",
+            "en": "Ulla Jacobsson was the daughter of Gunnar Jacobsson and his wife Sigrid.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Gunnar Jacobsson"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "hans fru Sigrid"
+              }
+            ],
+            "gloss": "wife",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ulla Jacobsson",
+              "text_url": "https://sv.wikipedia.org/wiki/Ulla_Jacobsson",
+              "sentence_id": "4db8bcd6",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"fru\"]"
+            }
+          },
+          {
+            "ex_id": "057eaf27427a1fbaa99263681ac1133d8c604b70",
+            "sv": "Företaget grundades 1994 av advokaten Andy Ziegler och hans fru Carlene.",
+            "en": "The company was founded in 1994 by the lawyer Andy Ziegler and his wife Carlene.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1994"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Andy Ziegler"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "hans fru Carlene"
+              }
+            ],
+            "gloss": "wife",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Artisan Partners",
+              "text_url": "https://sv.wikipedia.org/wiki/Artisan_Partners",
+              "sentence_id": "e85b3cb1",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"fru\"]"
+            }
+          },
+          {
+            "ex_id": "5231303d331949f78f50594257f907b975570cd5",
+            "sv": "Carl Larsson träffade sin fru Karin Bergöö när båda vistades i Grez.",
+            "en": "Carl Larsson met his wife Karin Bergöö when both stayed in Grez.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Carl Larsson"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin fru Karin Bergöö"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Grez"
+              }
+            ],
+            "gloss": "wife",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Grez-sur-Loing",
+              "text_url": "https://sv.wikipedia.org/wiki/Grez-sur-Loing",
+              "sentence_id": "6373c194",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"fru\"]"
+            }
+          },
+          {
+            "ex_id": "839c6bd16079d7bc487e164b177dddd37cd72243",
+            "sv": "Väringer bor tillsammans med sin fru i Göteborg och har en dotter.",
+            "en": "Väringer lives together with his wife in Gothenburg and has a daughter.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Väringer"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin fru"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Göteborg"
+              }
+            ],
+            "gloss": "wife",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lars Väringer",
+              "text_url": "https://sv.wikipedia.org/wiki/Lars_V%C3%A4ringer",
+              "sentence_id": "55cc8488",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"fru\"]"
+            }
+          },
+          {
+            "ex_id": "5db9ceec7fde21288a2a9435ea6aa5ac97421f15",
+            "sv": "Honecker och hans fru tog sin tillflykt till prästgården i Lobetal.",
+            "en": "Honecker and his wife took refuge in the vicarage in Lobetal.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Honecker"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "hans fru"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Lobetal"
+              }
+            ],
+            "gloss": "wife",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Margot Honecker",
+              "text_url": "https://sv.wikipedia.org/wiki/Margot_Honecker",
+              "sentence_id": "96276b85",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"fru\"]"
+            }
+          },
+          {
+            "ex_id": "704d522b512ca97b1e80f59a0915ceced973cc0c",
+            "sv": "Han var äldsta barnet till major David Smith och hans fru Harriet.",
+            "en": "He was the oldest child of Major David Smith and his wife Harriet.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "David Smith"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "hans fru Harriet"
+              }
+            ],
+            "gloss": "wife",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "William Alexander Smith",
+              "text_url": "https://sv.wikipedia.org/wiki/William_Alexander_Smith",
+              "sentence_id": "46bc41e5",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"fru\"]"
+            }
+          },
+          {
+            "ex_id": "49669d47150d44ad8b041fd2f2eacf37a83f577d",
+            "sv": "Han bor i Cascais i Portugal med fru och tre barn.",
+            "en": "He lives in Cascais in Portugal with his wife and three children.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "fru"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Cascais i Portugal"
+              }
+            ],
+            "gloss": "wife",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Stefan Schwarz",
+              "text_url": "https://sv.wikipedia.org/wiki/Stefan_Schwarz",
+              "sentence_id": "ee4d7c0d",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"fru\"]"
+            }
+          },
+          {
+            "ex_id": "1188d6fad18df3ee062afb342c7a23a034311b24",
+            "sv": "Nye gifte sig med sin första fru, Judith Pratt, 1959.",
+            "en": "Nye married his first wife, Judith Pratt, in 1959.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Nye"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin första fru, Judith Pratt"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1959"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "gifte sig"
+              }
+            ],
+            "gloss": "wife",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Robert Nye",
+              "text_url": "https://sv.wikipedia.org/wiki/Robert_Nye",
+              "sentence_id": "d1b9bde8",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"fru\"]"
+            }
+          },
+          {
+            "ex_id": "8be167984a9d74ea28afc9d603ff66f994138d09",
+            "sv": "Han gifte sig med sin första fru, Lucy Stringham, 1877.",
+            "en": "He married his first wife, Lucy Stringham, in 1877.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin första fru, Lucy Stringham"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1877"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "gifte sig"
+              }
+            ],
+            "gloss": "wife",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Heber J. Grant",
+              "text_url": "https://sv.wikipedia.org/wiki/Heber_J._Grant",
+              "sentence_id": "5ddef26c",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"fru\"]"
+            }
+          },
+          {
+            "ex_id": "25d4436f77115a77e5ffae9c5aeeabfaf1eced3a",
+            "sv": "En av körsångerskorna, Dana Sondak, är sedan 2004 hans fru.",
+            "en": "One of the choir singers, Dana Sondak, has been his wife since 2004.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "Dana Sondak"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "sedan 2004"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "hans"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "hans fru"
+              }
+            ],
+            "gloss": "wife",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tal Sondak",
+              "text_url": "https://sv.wikipedia.org/wiki/Tal_Sondak",
+              "sentence_id": "94f52b81",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"fru\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "frʉː",
+      "stress_hint": "one syllable; long vowel"
+    },
+    "morphology": {
+      "principal_parts": [
+        "fru – frun – fruar – fruarna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

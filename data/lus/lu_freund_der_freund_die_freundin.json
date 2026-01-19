@@ -1,0 +1,428 @@
+{
+  "lexical_unit": {
+    "id": "lu_freund_der_freund_die_freundin",
+    "source_de": {
+      "lu_de_raw": "Freund: der Freund / die Freundin",
+      "lu_de_normalized": "Freund/Freundin",
+      "gender_variants_de": [
+        "der Freund",
+        "die Freundin"
+      ],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "partner",
+    "display_sv": "partner",
+    "name_sv": "partner",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "en partner",
+      "partnern",
+      "partner",
+      "partnerna"
+    ],
+    "english_equivalent_en": "romantic partner",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "en partner",
+        "def_sg": "partnern",
+        "indef_pl": "partner",
+        "def_pl": "partnerna",
+        "note_en": "Often used gender-neutrally about a person you are in a relationship with."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "livspartner",
+        "type_en": "noun",
+        "meaning_en": "life partner"
+      },
+      {
+        "word": "partnerrelation",
+        "type_en": "noun",
+        "meaning_en": "partner relationship"
+      },
+      {
+        "word": "partnerbyte",
+        "type_en": "noun",
+        "meaning_en": "change of partner"
+      },
+      {
+        "word": "partnerlös",
+        "type_en": "adjective",
+        "meaning_en": "without a partner"
+      }
+    ],
+    "synonyms_sv": [
+      "pojkvän",
+      "flickvän",
+      "sambo",
+      "make",
+      "maka"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
+        "sense_id": "lu_freund_der_freund_die_freundin:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_freund_der_freund_die_freundin:1",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "a person you have a romantic relationship with",
+        "how_to_use_en": [
+          "Use about someone you are together with (often gender-neutral).",
+          "Common with possessives: min/sin/hans/hennes partner.",
+          "Often used with verbs like hitta, sakna, gifta sig med."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "hitta (en) partner",
+            "note_en": "To find a romantic partner."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "ha (en) partner",
+            "note_en": "To have a partner (be in a relationship)."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "sin/min/hans/hennes partner",
+            "note_en": "Very common way to refer to someone’s partner."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "före detta partner",
+            "note_en": "Former partner."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "gifta sig med sin partner",
+            "note_en": "To marry one’s partner."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using partner for a business/work partner in these contexts.",
+            "fix": "Use it mainly for a romantic partner here; for work say affärspartner/samarbetspartner.",
+            "explain_en": "In this frame and the examples, partner refers to a romantic/relationship partner."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "740f42522de6e77d3c606a889fbf8aa83552ee73",
+            "sv": "• Det går åt tid och energi att hitta en partner.",
+            "en": "It takes time and energy to find a partner.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "en partner"
+              }
+            ],
+            "gloss": "partner (romantic partner)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sexuell förökning",
+              "text_url": "https://sv.wikipedia.org/wiki/Sexuell_f%C3%B6r%C3%B6kning",
+              "sentence_id": "36e54566",
+              "retrieved_at": "2026-01-17T22:37:39+00:00",
+              "korp_query": "[word=\"partner\"]"
+            }
+          },
+          {
+            "ex_id": "109ecc3f88e3171f4ca315bf46359cc460520527",
+            "sv": "När hon inte jobbar brukar hon hjälpa folk att hitta en partner.",
+            "en": "When she is not working, she usually helps people to find a partner.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "en partner"
+              }
+            ],
+            "gloss": "partner (romantic partner)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Miss Match",
+              "text_url": "https://sv.wikipedia.org/wiki/Miss_Match",
+              "sentence_id": "0cd054aa",
+              "retrieved_at": "2026-01-17T22:37:39+00:00",
+              "korp_query": "[word=\"partner\"]"
+            }
+          },
+          {
+            "ex_id": "df4590a03fd5d24d09789b2c44f314b6c66fc63d",
+            "sv": "De börjar inleda ett tafatt förhållande; ingen av dem har haft en partner på många år.",
+            "en": "They start to begin an awkward relationship; none of them has had a partner for many years.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "en partner"
+              }
+            ],
+            "gloss": "partner (romantic partner)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bakom blå ögonlock",
+              "text_url": "https://sv.wikipedia.org/wiki/Bakom_bl%C3%A5_%C3%B6gonlock",
+              "sentence_id": "4db79092",
+              "retrieved_at": "2026-01-17T22:37:39+00:00",
+              "korp_query": "[word=\"partner\"]"
+            }
+          },
+          {
+            "ex_id": "63e8b58f2f1e48e2aa33b4bbcc1d379d67313f13",
+            "sv": "Hon menar att allt hon gör fortfarande påminner henne om sin före detta partner.",
+            "en": "She means that everything she does still reminds her of her former partner.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin före detta partner"
+              }
+            ],
+            "gloss": "partner (romantic partner)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Still Reminds Me",
+              "text_url": "https://sv.wikipedia.org/wiki/Still_Reminds_Me",
+              "sentence_id": "5331d8cd",
+              "retrieved_at": "2026-01-17T22:37:39+00:00",
+              "korp_query": "[word=\"partner\"]"
+            }
+          },
+          {
+            "ex_id": "33914e2eb6c6c50a7e190cd46612d97e84a5123e",
+            "sv": "I den befinner framföraren i en långdistansrelation och saknar sin partner.",
+            "en": "In it, the driver is in a long-distance relationship and misses his partner.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin partner"
+              }
+            ],
+            "gloss": "partner (romantic partner)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Long Distance",
+              "text_url": "https://sv.wikipedia.org/wiki/Long_Distance",
+              "sentence_id": "d8021940",
+              "retrieved_at": "2026-01-17T22:37:39+00:00",
+              "korp_query": "[word=\"partner\"]"
+            }
+          },
+          {
+            "ex_id": "0f23daa06625f7b41138e91c168b6ce20141ba48",
+            "sv": "Filmen slutar med att Timmy återfår sin hälsa och Jeremy hittar sig en partner.",
+            "en": "The film ends with Timmy getting his health back and Jeremy finding himself a partner.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "en partner"
+              }
+            ],
+            "gloss": "partner (romantic partner)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Brisby och Nimhs hemlighet",
+              "text_url": "https://sv.wikipedia.org/wiki/Brisby_och_Nimhs_hemlighet",
+              "sentence_id": "2a5c7e8f",
+              "retrieved_at": "2026-01-17T22:37:39+00:00",
+              "korp_query": "[word=\"partner\"]"
+            }
+          },
+          {
+            "ex_id": "ca1f51e9258242fac3af7ddd739695d584e965eb",
+            "sv": "De har bara en partner varje år och förblir trogna denna partner.",
+            "en": "They have only one partner each year and remain faithful to this partner.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "en partner"
+              }
+            ],
+            "gloss": "partner (romantic/sexual partner)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kejsarpingvin",
+              "text_url": "https://sv.wikipedia.org/wiki/Kejsarpingvin",
+              "sentence_id": "88be0fec",
+              "retrieved_at": "2026-01-17T22:37:39+00:00",
+              "korp_query": "[word=\"partner\"]"
+            }
+          },
+          {
+            "ex_id": "a486201ae7639f27cb93ed212d0de2c584c1a875",
+            "sv": "Kvinnor i relationer kan misshandlas av sin partner efter att de blivit offentligt trakasserade av samma anledning.",
+            "en": "Women in relationships can be abused by their partner after they have been publicly harassed for the same reason.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin partner"
+              }
+            ],
+            "gloss": "partner (romantic partner)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Egypten",
+              "text_url": "https://sv.wikipedia.org/wiki/Egypten",
+              "sentence_id": "a760ecd2",
+              "retrieved_at": "2026-01-17T22:37:39+00:00",
+              "korp_query": "[word=\"partner\"]"
+            }
+          },
+          {
+            "ex_id": "0cef3b4496b7d6067e227fb265ad4b2fd21e412d",
+            "sv": "I juli 2009 gifte Robert Redford sig med sin partner sedan länge, Sibylle Szaggars.",
+            "en": "In July 2009, Robert Redford married his long-time partner, Sibylle Szaggars.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin partner sedan länge"
+              }
+            ],
+            "gloss": "partner (romantic partner)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Robert Redford",
+              "text_url": "https://sv.wikipedia.org/wiki/Robert_Redford",
+              "sentence_id": "637155d5",
+              "retrieved_at": "2026-01-17T22:37:39+00:00",
+              "korp_query": "[word=\"partner\"]"
+            }
+          },
+          {
+            "ex_id": "cd16b47271f3b13e816bd8ada35c0477e826c97e",
+            "sv": "År 2012 blev han och hans partner, Neve Campbell, föräldrar till en son.",
+            "en": "In 2012, he and his partner, Neve Campbell, became parents of a son.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "han och hans partner"
+              }
+            ],
+            "gloss": "partner (romantic partner)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "JJ Feild",
+              "text_url": "https://sv.wikipedia.org/wiki/JJ_Feild",
+              "sentence_id": "48ba3ba7",
+              "retrieved_at": "2026-01-17T22:37:39+00:00",
+              "korp_query": "[word=\"partner\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": null,
+      "stress_hint": "Stress on first syllable: PART-ner"
+    },
+    "morphology": {
+      "principal_parts": [
+        "en partner",
+        "partnern",
+        "partner",
+        "partnerna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Swedish in Frames</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <div class="accent-strip" aria-hidden="true"></div>
+
+      <div class="topbar-inner">
+        <div class="brand">
+          <img class="logo" src="SIF_Logo.png" alt="Swedish in Frames logo" />
+          <div>
+            <h1>
+              Swedish in Frames
+              <span class="sub">A Frame Semantics-based trilingualized dictionary for Swedish learners</span>
+            </h1>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <a class="pill" href="#lexicon" data-nav="lexicon">Lexical Units</a>
+          <a class="pill" href="#frames" data-nav="frames">Frames</a>
+          <a class="pill" href="#constructions" data-nav="constructions">Constructions</a>
+          <a class="pill" href="#about" data-nav="about">About</a>
+        </nav>
+      </div>
+
+      <div class="searchbar">
+        <form class="search" role="search" id="searchForm">
+          <input id="q" type="search" placeholder="Search Swedish, English, German, IDs…" aria-label="Search" autocomplete="off" />
+          <button class="btn primary" type="submit">Go</button>
+          <button class="btn" type="button" id="openSearch">Browse / Filters</button>
+        </form>
+        <div class="status" id="status" aria-live="polite"></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" style="padding-top: 18px; padding-bottom: 42px;">
+    <section class="card" aria-label="Entry view">
+      <div class="card-h entry-header">
+        <h2 id="entryTitle">Entry</h2>
+        <span id="entryType" class="entry-type"></span>
+      </div>
+      <div class="card-b">
+        <div id="entry"></div>
+      </div>
+    </section>
+
+    <p class="footer" id="about">
+        <span class="kbd">Swedish in Frames</span> © 2026
+    </p>
+  </main>
+
+  <!-- Global advanced search panel -->
+  <div class="panel-backdrop" id="searchPanel" hidden>
+    <div class="panel" role="dialog" aria-modal="true" aria-label="Search and browse">
+      <div class="panel-h">
+        <div>
+          <div class="small label">Search & Browse</div>
+          <div class="small muted">Use filters to narrow results. Press <span class="kbd">Esc</span> to close.</div>
+        </div>
+        <button class="btn" type="button" id="closeSearch">Close</button>
+      </div>
+
+      <div class="panel-tabs">
+        <button class="tab on" type="button" data-tab="search" aria-selected="true">Search</button>
+        <button class="tab" type="button" data-tab="browse" aria-selected="false">Browse A–Z</button>
+      </div>
+
+      <!-- SEARCH TAB -->
+      <div class="panel-body" data-panel="search">
+        <div class="row">
+          <div class="small label">Search in</div>
+          <div class="chiprow" aria-label="Entity type filters">
+            <button class="chip on" type="button" data-filter="type" data-value="lu">Lexical Units</button>
+            <button class="chip on" type="button" data-filter="type" data-value="construction">Constructions</button>
+            <button class="chip on" type="button" data-filter="type" data-value="frame">Frames</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="small label">Sort</div>
+          <div class="chiprow" aria-label="Sort">
+            <button class="chip on" type="button" data-filter="sort" data-value="relevance">Relevance</button>
+            <button class="chip" type="button" data-filter="sort" data-value="az">A–Z</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="small label">Advanced filters</div>
+          <div class="kv">
+            <div class="k">POS</div>
+            <div class="v"><select id="filterPos" class="select"><option value="">Any</option></select></div>
+
+            <div class="k">Frame</div>
+            <div class="v"><select id="filterFrame" class="select"><option value="">Any</option></select></div>
+          </div>
+          <div class="row-actions">
+            <button class="btn" type="button" id="clearAdv">Clear</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="small label">Results</div>
+          <div class="small muted">Click any result to open it.</div>
+        </div>
+
+        <section class="results" id="results" aria-label="Results"></section>
+      </div>
+
+      <!-- BROWSE TAB -->
+      <div class="panel-body" data-panel="browse" hidden>
+        <div class="row">
+          <div class="small label">Browse</div>
+          <div class="chiprow" aria-label="Browse types">
+            <button class="chip on" type="button" data-browse-type="lu">Lexical Units</button>
+            <button class="chip" type="button" data-browse-type="frame">Frames</button>
+            <button class="chip" type="button" data-browse-type="construction">Constructions</button>
+          </div>
+        </div>
+
+        <div id="browseBar" class="azbar" aria-label="Alphabet"></div>
+        <div id="browseList" class="results" aria-label="Browse results"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

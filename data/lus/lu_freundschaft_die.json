@@ -1,0 +1,495 @@
+{
+  "lexical_unit": {
+    "id": "lu_freundschaft_die",
+    "source_de": {
+      "lu_de_raw": "Freundschaft, die",
+      "lu_de_normalized": "Freundschaft",
+      "gender_variants_de": [],
+      "pos_de": "NOUN"
+    },
+    "lu_type": "single",
+    "lemma_sv": "vänskap",
+    "display_sv": "vänskap",
+    "name_sv": "vänskap",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "vänskap",
+      "vänskapen",
+      "vänskaper",
+      "vänskaperna"
+    ],
+    "english_equivalent_en": "friendship",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "vänskap",
+        "def_sg": "vänskapen",
+        "indef_pl": "vänskaper",
+        "def_pl": "vänskaperna",
+        "note_en": "Often used as an uncountable noun for the general idea, but plural is possible when talking about different friendships."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "vänskaplig",
+        "type_en": "adjective",
+        "meaning_en": "friendly; showing friendship"
+      },
+      {
+        "word": "vänskapsband",
+        "type_en": "noun",
+        "meaning_en": "bond of friendship"
+      },
+      {
+        "word": "vänskapsrelation",
+        "type_en": "noun",
+        "meaning_en": "friendship relationship"
+      },
+      {
+        "word": "vänskapskrets",
+        "type_en": "noun",
+        "meaning_en": "circle of friends"
+      },
+      {
+        "word": "vänskapsmatch",
+        "type_en": "noun",
+        "meaning_en": "friendly match (sports)"
+      }
+    ],
+    "synonyms_sv": [
+      "vänrelation",
+      "kamratskap",
+      "förtrolighet",
+      "vänskaplig relation"
+    ],
+    "antonyms_sv": [
+      "fiendskap"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_friendship",
+        "frame_name_en": "Friendship",
+        "frame_slug": "friendship",
+        "sense_id": "lu_freundschaft_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_freundschaft_die:1",
+        "frame_id": "frame_friendship",
+        "meaning_en": "a close relationship where people like and support each other as friends",
+        "how_to_use_en": [
+          "Use it for the bond/relationship between people (often with med or mellan).",
+          "Common with adjectives like nära and with verbs like uppstå, växa fram, utveckla, vara, fortsätta."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "en (nära/idyllisk) vänskap med [person]",
+            "note_en": "Friendship relation with someone (e.g. 'en nära vänskap med Josefina')."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "en vänskap växer fram (mellan [personer])",
+            "note_en": "Describes friendship developing over time (e.g. 'växer en vänskap fram mellan dem')."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "vänskap uppstår",
+            "note_en": "Friendship begins/arises."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "[någon] utvecklar en (nära) vänskap",
+            "note_en": "Someone develops a friendship (e.g. 'utvecklade en nära vänskap')."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "[deras/X och Y:s] vänskap varar/fortsätter (i [tid]) / (under [tid])",
+            "note_en": "Talks about duration/time span (e.g. 'varade i 60 år', 'under hela deras liv')."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *vänskap* to mean one person (a friend).",
+            "fix": "Use vän (a friend) for a person; use vänskap for the relationship.",
+            "explain_en": "Vänskap names the relationship/bond, not the individual."
+          },
+          {
+            "error": "Saying *vänskap till någon* in this sense.",
+            "fix": "Prefer vänskap med någon or vänskap mellan (två personer).",
+            "explain_en": "The examples show med and mellan for the friendship relation."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "6a0c3bd33f1ea266afe203ea4a91c99991327f8a",
+            "sv": "Emellertid räddar bonden livet på den unge aristokraten och vänskap uppstår.",
+            "en": "However, the farmer saves the life of the young aristocrat and friendship arises.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "bonden"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "den unge aristokraten"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "vänskap"
+              }
+            ],
+            "gloss": "friendship",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sammanbrottet",
+              "text_url": "https://sv.wikipedia.org/wiki/Sammanbrottet",
+              "sentence_id": "407de22b",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vänskap\"]"
+            }
+          },
+          {
+            "ex_id": "66d2d9bf7e9d6dc9d756ce8bbc6f7cb512dd8d4f",
+            "sv": "Hon hade under sina sista år en nära vänskap med Josefina.",
+            "en": "She had, during her last years, a close friendship with Josefina.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "Josefina"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "en nära vänskap"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "under sina sista år"
+              }
+            ],
+            "gloss": "friendship",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sofia Albertina av Sverige",
+              "text_url": "https://sv.wikipedia.org/wiki/Sofia_Albertina_av_Sverige",
+              "sentence_id": "5ddfdf43",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vänskap\"]"
+            }
+          },
+          {
+            "ex_id": "2b8785e34a5e69c142a20bb4fa85bf80fdd64a91",
+            "sv": "Men så småningom växer en vänskap fram mellan dem som sakta utvecklas till en förälskelse.",
+            "en": "But gradually a friendship grows between them that slowly develops into an infatuation.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "en vänskap"
+              },
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "dem"
+              }
+            ],
+            "gloss": "friendship",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Spirited Away",
+              "text_url": "https://sv.wikipedia.org/wiki/Spirited_Away",
+              "sentence_id": "40d1e897",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vänskap\"]"
+            }
+          },
+          {
+            "ex_id": "e8de367b906f4a651712df19d27ef98cedb902e4",
+            "sv": "Det lyckades inte, men deras vänskap varade i 60 år.",
+            "en": "It did not succeed, but their friendship lasted for 60 years.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "deras vänskap"
+              },
+              {
+                "fe_id": "fe_duration",
+                "span_sv": "i 60 år"
+              }
+            ],
+            "gloss": "friendship",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lev Gumiljov",
+              "text_url": "https://sv.wikipedia.org/wiki/Lev_Gumiljov",
+              "sentence_id": "bf9f95cc",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vänskap\"]"
+            }
+          },
+          {
+            "ex_id": "0af5898a7bc095985da3538f49d9222d0ee3f487",
+            "sv": "De två vetenskapsmännen utvecklade en nära vänskap och umgicks även privat.",
+            "en": "The two scientists developed a close friendship and also spent time together privately.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_group",
+                "span_sv": "De två vetenskapsmännen"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "en nära vänskap"
+              }
+            ],
+            "gloss": "friendship",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Max Planck",
+              "text_url": "https://sv.wikipedia.org/wiki/Max_Planck",
+              "sentence_id": "57d8dd89",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vänskap\"]"
+            }
+          },
+          {
+            "ex_id": "14a6e769898806a3684ea58fd1093e2192003c0b",
+            "sv": "Med tiden växte dock en vänskap fram, och de spelade ofta bridge tillsammans.",
+            "en": "With time, however, a friendship grew, and they often played bridge together.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Med tiden"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "en vänskap"
+              },
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "de"
+              }
+            ],
+            "gloss": "friendship",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gustaf V",
+              "text_url": "https://sv.wikipedia.org/wiki/Gustaf_V",
+              "sentence_id": "83d1f433",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vänskap\"]"
+            }
+          },
+          {
+            "ex_id": "d3ccf05ac4c9c1d8a21480950b6a34a3a8742688",
+            "sv": "Trots detta fortsatte Meitner och Hahns vänskap under hela deras liv.",
+            "en": "Despite this, Meitner and Hahn's friendship continued throughout their whole lives.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "Meitner"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "Hahn"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "vänskap"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "under hela deras liv"
+              }
+            ],
+            "gloss": "friendship",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lise Meitner",
+              "text_url": "https://sv.wikipedia.org/wiki/Lise_Meitner",
+              "sentence_id": "be5ba1aa",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vänskap\"]"
+            }
+          },
+          {
+            "ex_id": "44679de4e3197ff35df1ad29ea88164dceb297eb",
+            "sv": "Enligt tradition såldes inte hundarna utan gavs bort som tecken på heder eller vänskap.",
+            "en": "According to tradition, the dogs were not sold but were given away as a sign of honor or friendship.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "vänskap"
+              }
+            ],
+            "gloss": "friendship",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Saluki",
+              "text_url": "https://sv.wikipedia.org/wiki/Saluki",
+              "sentence_id": "250c3a9b",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vänskap\"]"
+            }
+          },
+          {
+            "ex_id": "9d936529fe62bdd44c9b37bca18b72de73edcadd",
+            "sv": "Det visar sig dock vara sant och en idyllisk vänskap tar form.",
+            "en": "However, it turns out to be true and an idyllic friendship takes shape.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "en idyllisk vänskap"
+              }
+            ],
+            "gloss": "friendship",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Signes Äppelträd",
+              "text_url": "https://sv.wikipedia.org/wiki/Signes_%C3%84ppeltr%C3%A4d",
+              "sentence_id": "5130a581",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vänskap\"]"
+            }
+          },
+          {
+            "ex_id": "fb49a6a18e3dc37376da5775a7f7a8b2cdc97016",
+            "sv": "Den lilla sjöjungfrun vinner prinsens vänskap, men han förälskar sig i en jordisk prinsessa.",
+            "en": "The little mermaid wins the prince's friendship, but he falls in love with an earthly princess.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "Den lilla sjöjungfrun"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "prinsen"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "vänskap"
+              }
+            ],
+            "gloss": "friendship",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Den lilla sjöjungfrun (saga)",
+              "text_url": "https://sv.wikipedia.org/wiki/Den_lilla_sj%C3%B6jungfrun_(saga)",
+              "sentence_id": "8a648ee1",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vänskap\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈvɛnːskap",
+      "stress_hint": "Stress on first syllable: VÄN-skap"
+    },
+    "morphology": {
+      "principal_parts": [
+        "en vänskap",
+        "vänskapen",
+        "vänskaper",
+        "vänskaperna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

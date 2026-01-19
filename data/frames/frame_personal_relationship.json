@@ -1,0 +1,783 @@
+{
+  "frame": {
+    "id": "frame_personal_relationship",
+    "name_en": "Personal Relationship",
+    "slug": "personal_relationship",
+    "frame_description_en": "This frame is about a personal relationship between people. It describes situations where two individuals are connected in some social, romantic, sexual, or family way, such as being friends, partners, spouses, or acquaintances, or where their relationship changes (for example, they become close, stay together, or break up). The relationship can be expressed by naming one person as Partner_1 and the other as Partner_2, or by referring to them together as Partners when they are treated as a pair or group in the same relationship.",
+    "frame_description_html": "This frame is about a personal relationship between people. It describes situations where two individuals are connected in some social, romantic, sexual, or family way, such as being friends, partners, spouses, or acquaintances, or where their relationship changes (for example, they become close, stay together, or break up). The relationship can be expressed by naming one person as <span class=\"Partner_1\">Partner_1</span> and the other as <span class=\"Partner_2\">Partner_2</span>, or by referring to them together as <span class=\"Partners\">Partners</span> when they are treated as a pair or group in the same relationship.",
+    "frame_description_fe_mentions": [
+      {
+        "fe_id": "fe_partner_1",
+        "span_en": "Partner_1"
+      },
+      {
+        "fe_id": "fe_partner_2",
+        "span_en": "Partner_2"
+      },
+      {
+        "fe_id": "fe_partners",
+        "span_en": "Partners"
+      }
+    ],
+    "elements": [
+      {
+        "id": "fe_partner_2",
+        "name": "Partner_2",
+        "published": 1,
+        "description_en": "The other person (or group) who is in the relationship with Partner_1.",
+        "description_html": "The other person (or group) who is in the relationship with <span class=\"Partner_1\">Partner_1</span>."
+      },
+      {
+        "id": "fe_partner_1",
+        "name": "Partner_1",
+        "published": 1,
+        "description_en": "One person (or group) who is in a relationship with Partner_2.",
+        "description_html": "One person (or group) who is in a relationship with <span class=\"Partner_2\">Partner_2</span>."
+      },
+      {
+        "id": "fe_partners",
+        "name": "Partners",
+        "published": 1,
+        "description_en": "Both people together (or the whole set of people) when the relationship is talked about as shared or mutual.",
+        "description_html": "Both people together (or the whole set of people) when the relationship is talked about as shared or mutual."
+      }
+    ],
+    "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
+    "examples": [
+      {
+        "ex_id": "70a46f4d5656aa9992afee49d41f79844a00399b",
+        "sv": "Hans vän Max Brod hävdade att Kafka var en religiös diktare.",
+        "en": "His friend Max Brod claimed that Kafka was a religious poet.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_partner_1",
+            "span_sv": "Hans"
+          },
+          {
+            "fe_id": "fe_partner_2",
+            "span_sv": "vän Max Brod"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Förvandlingen",
+          "text_url": "https://sv.wikipedia.org/wiki/F%C3%B6rvandlingen",
+          "sentence_id": "e33a050f",
+          "retrieved_at": "2026-01-17T22:37:39+00:00",
+          "korp_query": "[word=\"vän\"]"
+        }
+      },
+      {
+        "ex_id": "57f3295acc44e348d7d45601b179a88a8e693c61",
+        "sv": "Under sin tid i Tyskland blev han vän med Carl Siegel.",
+        "en": "During his time in Germany he became friends with Carl Siegel.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_partner_1",
+            "span_sv": "han"
+          },
+          {
+            "fe_id": "fe_partner_2",
+            "span_sv": "Carl Siegel"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "André Weil",
+          "text_url": "https://sv.wikipedia.org/wiki/Andr%C3%A9_Weil",
+          "sentence_id": "ba858b6f",
+          "retrieved_at": "2026-01-17T22:37:39+00:00",
+          "korp_query": "[word=\"vän\"]"
+        }
+      },
+      {
+        "ex_id": "8266890baef46ff23ab8cf7e224e719ad87a7f27",
+        "sv": "När de blivit ett par valde de att vara tillsammans dygnet runt.",
+        "en": "When they became a couple, they chose to be together around the clock.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_partners",
+            "span_sv": "de"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "John Lennon",
+          "text_url": "https://sv.wikipedia.org/wiki/John_Lennon",
+          "sentence_id": "5d4cd28e",
+          "retrieved_at": "2026-01-17T22:37:39+00:00",
+          "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
+        }
+      },
+      {
+        "ex_id": "7c192f0dfffcad496b2986f2a8b339ba80862336",
+        "sv": "Han oroar sig för att hon kommer att göra slut med honom.",
+        "en": "He worries that she will break up with him.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_partner_1",
+            "span_sv": "hon"
+          },
+          {
+            "fe_id": "fe_partner_2",
+            "span_sv": "honom"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Life Among the Gorillas",
+          "text_url": "https://sv.wikipedia.org/wiki/Life_Among_the_Gorillas",
+          "sentence_id": "2a4d57a8",
+          "retrieved_at": "2026-01-17T22:37:39+00:00",
+          "korp_query": "[word=\"göra\"][word=\"slut\"]"
+        }
+      },
+      {
+        "ex_id": "2401bc9430c49e4454904171d9539c490cfcc12c",
+        "sv": "Den 8 maj 2008 meddelade Tyler och Langdon att de skulle skilja sig.",
+        "en": "On 8 May 2008, Tyler and Langdon announced that they would get divorced.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_partners",
+            "span_sv": "Tyler och Langdon"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Liv Tyler",
+          "text_url": "https://sv.wikipedia.org/wiki/Liv_Tyler",
+          "sentence_id": "b589f311",
+          "retrieved_at": "2026-01-17T22:37:39+00:00",
+          "korp_query": "[word=\"skilja\"][word=\"sig\"]"
+        }
+      },
+      {
+        "ex_id": "4c9eaa1a062daef91ab0d4491d4c4de0be111267",
+        "sv": "Katy Perry är sedan 14 februari 2019 förlovad med Orlando Bloom.",
+        "en": "Katy Perry has been engaged to Orlando Bloom since 14 February 2019.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_partner_1",
+            "span_sv": "Katy Perry"
+          },
+          {
+            "fe_id": "fe_partner_2",
+            "span_sv": "Orlando Bloom"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Katy Perry",
+          "text_url": "https://sv.wikipedia.org/wiki/Katy_Perry",
+          "sentence_id": "a3c5cefb",
+          "retrieved_at": "2026-01-17T22:37:39+00:00",
+          "korp_query": "[word=\"förlovad\"]"
+        }
+      },
+      {
+        "ex_id": "90b5d0e4290f517908f0072ca366dd84db186da5",
+        "sv": "Steczkowska är gift med musikern Piotr Królik, också han medlem av Indigo.",
+        "en": "Steczkowska is married to the musician Piotr Królik, he is also a member of Indigo.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_partner_1",
+            "span_sv": "Steczkowska"
+          },
+          {
+            "fe_id": "fe_partner_2",
+            "span_sv": "musikern Piotr Królik"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Magda Steczkowska",
+          "text_url": "https://sv.wikipedia.org/wiki/Magda_Steczkowska",
+          "sentence_id": "17694e88",
+          "retrieved_at": "2026-01-17T22:37:40+00:00",
+          "korp_query": "[word=\"gift\"]"
+        }
+      }
+    ],
+    "linked_lexical_units": [
+      {
+        "lu_id": "lu_bekannte_der_bekannte_ein_bekannter__die_eine_bekannte",
+        "display_sv": "bekant (person)",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_bekannte_der_bekannte_ein_bekannter__die_eine_bekannte:1"
+      },
+      {
+        "lu_id": "lu_freund_der",
+        "display_sv": "vän",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_freund_der:1"
+      },
+      {
+        "lu_id": "lu_trennen_sich_acc_trennen_von",
+        "display_sv": "göra slut",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_trennen_sich_acc_trennen_von:1"
+      },
+      {
+        "lu_id": "lu_kumpel_der",
+        "display_sv": "kompis",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_kumpel_der:1"
+      },
+      {
+        "lu_id": "lu_zusammen_sein_mit_jdm_zusammen_sein",
+        "display_sv": "vara tillsammans",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_zusammen_sein_mit_jdm_zusammen_sein:1"
+      },
+      {
+        "lu_id": "lu_scheiden_sich_acc_von_jdm_scheiden_lassen",
+        "display_sv": "skilja sig",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_scheiden_sich_acc_von_jdm_scheiden_lassen:1"
+      },
+      {
+        "lu_id": "lu_geschieden",
+        "display_sv": "skild",
+        "lu_type": "single",
+        "pos": "adjective",
+        "sense_id": "lu_geschieden:1"
+      },
+      {
+        "lu_id": "lu_verloben_sich_acc_verloben_mit",
+        "display_sv": "förlova sig",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_verloben_sich_acc_verloben_mit:1"
+      },
+      {
+        "lu_id": "lu_verlobt",
+        "display_sv": "förlovad",
+        "lu_type": "single",
+        "pos": "adjective",
+        "sense_id": "lu_verlobt:1"
+      },
+      {
+        "lu_id": "lu_freund_der_freund_die_freundin",
+        "display_sv": "partner",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_freund_der_freund_die_freundin:1"
+      },
+      {
+        "lu_id": "lu_geliebte_der_geliebte_ein_geliebter__die_eine_geliebte",
+        "display_sv": "älskare",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_geliebte_der_geliebte_ein_geliebter__die_eine_geliebte:1"
+      },
+      {
+        "lu_id": "lu_ehe_die",
+        "display_sv": "äktenskap",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_ehe_die:1"
+      },
+      {
+        "lu_id": "lu_verheiratet",
+        "display_sv": "gift",
+        "lu_type": "single",
+        "pos": "adjective",
+        "sense_id": "lu_verheiratet:1"
+      },
+      {
+        "lu_id": "lu_partner_der_partner__die_partnerin",
+        "display_sv": "partner",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_partner_der_partner__die_partnerin:1"
+      },
+      {
+        "lu_id": "lu_lebensgefährte_der_lebensgefährte__die_lebensgefährtin",
+        "display_sv": "livspartner",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_lebensgefährte_der_lebensgefährte__die_lebensgefährtin:1"
+      },
+      {
+        "lu_id": "lu_schlafen_mit_jemandem_schlafen",
+        "display_sv": "ligga med",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_schlafen_mit_jemandem_schlafen:1"
+      },
+      {
+        "lu_id": "lu_eheleute_die_pl_der_ehemann__die_ehefrau",
+        "display_sv": "makar",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_eheleute_die_pl_der_ehemann__die_ehefrau:1"
+      },
+      {
+        "lu_id": "lu_witwe_die_witwe__der_witwer",
+        "display_sv": "änka",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_witwe_die_witwe__der_witwer:1"
+      },
+      {
+        "lu_id": "lu_frau_die",
+        "display_sv": "hustru",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_frau_die:1"
+      },
+      {
+        "lu_id": "lu_verknallt_inacc",
+        "display_sv": "vara kär i",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_verknallt_inacc:1"
+      },
+      {
+        "lu_id": "lu_mann_der",
+        "display_sv": "make",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_mann_der:1"
+      },
+      {
+        "lu_id": "lu_befreunden_sich_acc_befreunden_mit",
+        "display_sv": "bli vän med",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_befreunden_sich_acc_befreunden_mit:1"
+      },
+      {
+        "lu_id": "lu_romanze_die",
+        "display_sv": "romans",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_romanze_die:1"
+      },
+      {
+        "lu_id": "lu_schluss_machen_mit",
+        "display_sv": "göra slut",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_schluss_machen_mit:1"
+      },
+      {
+        "lu_id": "lu_junggeselle_der",
+        "display_sv": "ungkarl",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_junggeselle_der:1"
+      },
+      {
+        "lu_id": "lu_single_der",
+        "display_sv": "singel",
+        "lu_type": "single",
+        "pos": "adjective",
+        "sense_id": "lu_single_der:1"
+      },
+      {
+        "lu_id": "lu_ledig",
+        "display_sv": "singel",
+        "lu_type": "single",
+        "pos": "adjective",
+        "sense_id": "lu_ledig:1"
+      },
+      {
+        "lu_id": "lu_verlieben_sich_acc_verlieben_inacc",
+        "display_sv": "bli kär",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_verlieben_sich_acc_verlieben_inacc:1"
+      },
+      {
+        "lu_id": "lu_verliebt_inacc",
+        "display_sv": "kär (i)",
+        "lu_type": "single",
+        "pos": "adjective",
+        "sense_id": "lu_verliebt_inacc:1"
+      },
+      {
+        "lu_id": "lu_flirten",
+        "display_sv": "flirta",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_flirten:1"
+      },
+      {
+        "lu_id": "lu_fernbeziehung_die",
+        "display_sv": "distansförhållande",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_fernbeziehung_die:1"
+      },
+      {
+        "lu_id": "lu_kennenlernen",
+        "display_sv": "lära känna",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_kennenlernen:1"
+      },
+      {
+        "lu_id": "lu_freundin_die",
+        "display_sv": "flickvän",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_freundin_die:1"
+      },
+      {
+        "lu_id": "lu_anmachen",
+        "display_sv": "ragga på",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_anmachen:1"
+      },
+      {
+        "lu_id": "lu_clique_die",
+        "display_sv": "kompisgäng",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_clique_die:1"
+      },
+      {
+        "lu_id": "lu_beziehung_die",
+        "display_sv": "förhållande",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_beziehung_die:1"
+      },
+      {
+        "lu_id": "lu_verhältnis_das",
+        "display_sv": "förhållande",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_verhältnis_das:1"
+      },
+      {
+        "lu_id": "lu_scheidung_die",
+        "display_sv": "skilsmässa",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_scheidung_die:1"
+      },
+      {
+        "lu_id": "lu_verabredung_die",
+        "display_sv": "dejt",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_verabredung_die:1"
+      },
+      {
+        "lu_id": "lu_affäre_die",
+        "display_sv": "kärleksaffär",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_affäre_die:1"
+      },
+      {
+        "lu_id": "lu_befreundet_sein_mit",
+        "display_sv": "vara vän med",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_befreundet_sein_mit:1"
+      },
+      {
+        "lu_id": "lu_freundschaft_die",
+        "display_sv": "vänskap",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_freundschaft_die:1"
+      },
+      {
+        "lu_id": "lu_paar_das",
+        "display_sv": "par",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_paar_das:1"
+      },
+      {
+        "lu_id": "lu_verlobte_der_verlobte_ein_verlobter__die_eine_verlobte",
+        "display_sv": "fästman",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_verlobte_der_verlobte_ein_verlobter__die_eine_verlobte:1"
+      },
+      {
+        "lu_id": "lu_verlobung_die",
+        "display_sv": "förlovning",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_verlobung_die:1"
+      }
+    ],
+    "confusable_with": []
+  },
+  "constructions": [
+    {
+      "cxn_id": "cxn_1",
+      "cxn_name_linguistic_sv": "vara vän med X",
+      "cxn_name_user_friendly_en": "Being friends with someone",
+      "pattern": "SUBJ vara vän med OBJ",
+      "meaning_en": "SUBJ and OBJ are friends (a friendship relationship exists).",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_partner_1"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_partner_2"
+        }
+      ],
+      "usage_notes_en": [
+        "Used to state an existing friendship.",
+        "Often appears with negation (inte) to say someone does not want to be friends."
+      ],
+      "examples": [
+        {
+          "ex_id": "975c59625c900d61d03186f52cc111acbdc1c922",
+          "sv": "Det finns dock ett problem: Kråkan vill inte vara vän med Mamma Mu då han tycker hon är konstig.",
+          "en": "But there is a problem: the Crow does not want to be friends with Mamma Mu because he thinks she is strange.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_partner_1",
+              "span_sv": "Kråkan"
+            },
+            {
+              "fe_id": "fe_partner_2",
+              "span_sv": "Mamma Mu"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Mamma Mu & Kråkan (film)",
+            "text_url": "https://sv.wikipedia.org/wiki/Mamma_Mu_%26_Kr%C3%A5kan_(film)",
+            "sentence_id": "55cb4538",
+            "retrieved_at": "2026-01-17T22:37:40+00:00",
+            "korp_query": "[word=\"vara\"][word=\"vän\"][word=\"med\"]"
+          }
+        },
+        {
+          "ex_id": "fab372538795683d7c1f1a093168fd09bf4b27b7",
+          "sv": "Samantha känner att hon inte är en förhållande-person, och till en början vill hon bara vara vän med Maria.",
+          "en": "Samantha feels that she is not a relationship person, and at first she only wants to be friends with Maria.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_partner_1",
+              "span_sv": "hon"
+            },
+            {
+              "fe_id": "fe_partner_2",
+              "span_sv": "Maria"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Sex and the City",
+            "text_url": "https://sv.wikipedia.org/wiki/Sex_and_the_City",
+            "sentence_id": "7e8cec61",
+            "retrieved_at": "2026-01-17T22:37:40+00:00",
+            "korp_query": "[word=\"vara\"][word=\"vän\"][word=\"med\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_2",
+      "cxn_name_linguistic_sv": "bli vän med X",
+      "cxn_name_user_friendly_en": "Becoming friends with someone",
+      "pattern": "SUBJ bli vän med OBJ",
+      "meaning_en": "SUBJ becomes friends with OBJ (a new friendship starts).",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_partner_1"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_partner_2"
+        }
+      ],
+      "usage_notes_en": [
+        "Used for the start of a friendship (a change into being friends).",
+        "Often used with verbs like försöka/lyckas (try/manage) in the same clause."
+      ],
+      "examples": [
+        {
+          "ex_id": "57f3295acc44e348d7d45601b179a88a8e693c61",
+          "sv": "Under sin tid i Tyskland blev han vän med Carl Siegel.",
+          "en": "During his time in Germany he became friends with Carl Siegel.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_partner_1",
+              "span_sv": "han"
+            },
+            {
+              "fe_id": "fe_partner_2",
+              "span_sv": "Carl Siegel"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "André Weil",
+            "text_url": "https://sv.wikipedia.org/wiki/Andr%C3%A9_Weil",
+            "sentence_id": "ba858b6f",
+            "retrieved_at": "2026-01-17T22:37:39+00:00",
+            "korp_query": "[word=\"vän\"]"
+          }
+        },
+        {
+          "ex_id": "0162813f24c3bf4ebb916a58a8890b6fb7beba18",
+          "sv": "Med hjälp av det kan du bli vän med andra spelare och skicka prylar.",
+          "en": "With the help of that you can become friends with other players and send things.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_partner_1",
+              "span_sv": "du"
+            },
+            {
+              "fe_id": "fe_partner_2",
+              "span_sv": "andra spelare"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Nintendogs",
+            "text_url": "https://sv.wikipedia.org/wiki/Nintendogs",
+            "sentence_id": "8e1834b7",
+            "retrieved_at": "2026-01-17T22:37:40+00:00",
+            "korp_query": "[word=\"bli\"][word=\"vän\"][word=\"med\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_3",
+      "cxn_name_linguistic_sv": "göra slut (med X)",
+      "cxn_name_user_friendly_en": "Breaking up with someone",
+      "pattern": "SUBJ göra slut (med OBJ)",
+      "meaning_en": "SUBJ ends a romantic relationship, optionally specifying the other person as OBJ.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_partner_1"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_partner_2"
+        }
+      ],
+      "usage_notes_en": [
+        "OBJ is expressed with med + pronoun/name when the other partner is mentioned.",
+        "Can also be used without OBJ when the other person is not specified."
+      ],
+      "examples": [
+        {
+          "ex_id": "8ac3b6b31fb9d4866dee68873603c6f5e6ed362d",
+          "sv": "Han vill göra slut men vet inte hur han ska gå till väga.",
+          "en": "He wants to break up but does not know how to do it.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_partner_1",
+              "span_sv": "Han"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Mañana",
+            "text_url": "https://sv.wikipedia.org/wiki/Ma%C3%B1ana",
+            "sentence_id": "be5c141b",
+            "retrieved_at": "2026-01-17T22:37:39+00:00",
+            "korp_query": "[word=\"göra\"][word=\"slut\"]"
+          }
+        },
+        {
+          "ex_id": "7c192f0dfffcad496b2986f2a8b339ba80862336",
+          "sv": "Han oroar sig för att hon kommer att göra slut med honom.",
+          "en": "He worries that she will break up with him.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_partner_1",
+              "span_sv": "hon"
+            },
+            {
+              "fe_id": "fe_partner_2",
+              "span_sv": "honom"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Life Among the Gorillas",
+            "text_url": "https://sv.wikipedia.org/wiki/Life_Among_the_Gorillas",
+            "sentence_id": "2a4d57a8",
+            "retrieved_at": "2026-01-17T22:37:39+00:00",
+            "korp_query": "[word=\"göra\"][word=\"slut\"]"
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_examples": 5,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true
+  }
+}

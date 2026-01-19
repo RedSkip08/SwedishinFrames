@@ -1,0 +1,406 @@
+{
+  "lexical_unit": {
+    "id": "lu_flirten",
+    "source_de": {
+      "lu_de_raw": "flirten",
+      "lu_de_normalized": "flirten",
+      "gender_variants_de": [],
+      "pos_de": ""
+    },
+    "lu_type": "single",
+    "lemma_sv": "flirta",
+    "display_sv": "flirta",
+    "name_sv": "flirta",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "flirta",
+      "flirtar",
+      "flirtade",
+      "flirtat",
+      "flirta tillbaka"
+    ],
+    "english_equivalent_en": "flirt",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": null
+      },
+      "verb": {
+        "infinitive": "flirta",
+        "present": "flirtar",
+        "past": "flirtade",
+        "supine": "flirtat",
+        "imperative": "flirta",
+        "present_participle": "flirtande",
+        "past_participle": "flirtad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": null
+    },
+    "derived_words_sv": [
+      {
+        "word": "flirt",
+        "type_en": "noun",
+        "meaning_en": "a flirt; a flirtatious remark or situation"
+      },
+      {
+        "word": "flirtig",
+        "type_en": "adjective",
+        "meaning_en": "flirtatious"
+      },
+      {
+        "word": "flirtande",
+        "type_en": "adjective",
+        "meaning_en": "flirting (describing someone’s behavior)"
+      },
+      {
+        "word": "flirtare",
+        "type_en": "noun",
+        "meaning_en": "a person who flirts"
+      },
+      {
+        "word": "flirtig blick",
+        "type_en": "other",
+        "meaning_en": "a flirtatious look"
+      }
+    ],
+    "synonyms_sv": [
+      "ragga",
+      "stöta på",
+      "kurtisera"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
+        "sense_id": "lu_flirten:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_flirten:1",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "try to show romantic interest in someone, often playfully and not very seriously.",
+        "how_to_use_en": [
+          "Often used with med + person: flirta med någon.",
+          "Can be used without an object: tycka om/älska att flirta.",
+          "You can add tillbaka when someone responds: flirta tillbaka."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X flirta med Y",
+            "note_en": "Most common pattern: one person shows romantic interest toward another."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "X försöker flirta med Y",
+            "note_en": "Emphasizes an attempt (maybe not successful)."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "X börjar att flirta med Y",
+            "note_en": "Focuses on the start of flirting."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "X väljer att (tydligt) flirta med Y",
+            "note_en": "Highlights a deliberate choice; adverbs like tydligt can be added."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "X vägrar flirta tillbaka",
+            "note_en": "Back-and-forth flirting: someone refuses to respond."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using wrong preposition: *flirta till någon.",
+            "fix": "Use med: flirta med någon.",
+            "explain_en": "In the examples, the person you flirt with is introduced by med."
+          },
+          {
+            "error": "Confusing flirta with dejta.",
+            "fix": "Use dejta for an actual date; use flirta for showing interest.",
+            "explain_en": "Flirta is about behavior/signals; it does not mean you are in a relationship."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "121414f14c3ec30a4aecb3c28a9c9b556b60670d",
+            "sv": "Musse Pigg försöker flirta med Mimmi Pigg, men utan någon större framgång.",
+            "en": "Mickey Mouse tries to flirt with Minnie Mouse, but without much success.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Musse Pigg"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Mimmi Pigg"
+              }
+            ],
+            "gloss": "flirta = try to show romantic interest",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Musse Pigg på vischan",
+              "text_url": "https://sv.wikipedia.org/wiki/Musse_Pigg_p%C3%A5_vischan",
+              "sentence_id": "1f35b9f5",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"flirta\"]"
+            }
+          },
+          {
+            "ex_id": "6a66e315c39484d489803c44ca879b1353f96d12",
+            "sv": "Vid middagen märker dock Britta att Casimir väljer att tydligt flirta med Marianne.",
+            "en": "At dinner, Britta notices that Casimir chooses to clearly flirt with Marianne.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Casimir"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Marianne"
+              }
+            ],
+            "gloss": "flirta = flirt",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "En bröllopsnatt på Stjärnehov",
+              "text_url": "https://sv.wikipedia.org/wiki/En_br%C3%B6llopsnatt_p%C3%A5_Stj%C3%A4rnehov",
+              "sentence_id": "239a8626",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"flirta\"]"
+            }
+          },
+          {
+            "ex_id": "9d47c4057bdeb65baaf5e3af4b99eb5a13662ba1",
+            "sv": "Hon börjar att flirta med Snoop Dogg innan hon hoppar upp i hans armar.",
+            "en": "She starts to flirt with Snoop Dogg before she jumps up into his arms.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Snoop Dogg"
+              }
+            ],
+            "gloss": "flirta = flirt",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Outrageous",
+              "text_url": "https://sv.wikipedia.org/wiki/Outrageous",
+              "sentence_id": "b037f6d7",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"flirta\"]"
+            }
+          },
+          {
+            "ex_id": "e883157b5281e156b92dc0c9d7ab05058f83faab",
+            "sv": "För att hämnas flirtar Nicemis med sin gamle lärare Thespis, men han vägrar flirta tillbaka.",
+            "en": "To get revenge, Nicemis flirts with his old teacher Thespis, but he refuses to flirt back.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Nicemis"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin gamle lärare Thespis"
+              }
+            ],
+            "gloss": "flirta tillbaka = flirt back",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Thespis (operett)",
+              "text_url": "https://sv.wikipedia.org/wiki/Thespis_(operett)",
+              "sentence_id": "526d205f",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"flirta\"]"
+            }
+          },
+          {
+            "ex_id": "9c5e3c13605711684c2719d42d8cfc4b022b9f78",
+            "sv": "När Ross och Chandler ska flirta med tjejer brukar han ofta bli kallad The Funny One.",
+            "en": "When Ross and Chandler are going to flirt with girls, he is often called The Funny One.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "Ross och Chandler"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "tjejer"
+              }
+            ],
+            "gloss": "flirta med = flirt with",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Chandler Bing",
+              "text_url": "https://sv.wikipedia.org/wiki/Chandler_Bing",
+              "sentence_id": "108965e8",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"flirta\"]"
+            }
+          },
+          {
+            "ex_id": "65d1125c7a411d81ccca4bea9836cf48f0a5e653",
+            "sv": "Han skrävlar om vilken glädje det är att jaga och flirta med Nancy.",
+            "en": "He brags about what a joy it is to hunt and flirt with Nancy.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Nancy"
+              }
+            ],
+            "gloss": "flirta = flirt",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Albert Herring",
+              "text_url": "https://sv.wikipedia.org/wiki/Albert_Herring",
+              "sentence_id": "952f9be3",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"flirta\"]"
+            }
+          },
+          {
+            "ex_id": "187d72b675c614453b930b96ebbeca39dfb27994",
+            "sv": "Jean är en livlig och sällskaplig herre som tycker om att flirta och festa.",
+            "en": "Jean is a lively and social man who likes to flirt and party.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Jean"
+              }
+            ],
+            "gloss": "tycka om att flirta = like to flirt",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Den farlige leken",
+              "text_url": "https://sv.wikipedia.org/wiki/Den_farlige_leken",
+              "sentence_id": "6a54cddb",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"flirta\"]"
+            }
+          },
+          {
+            "ex_id": "b22d7e530a25dddf9cb832c26fbb5b4e9e6b70c5",
+            "sv": "Marie beskrivs som en bortskämd, levnadsglad skönhet som älskade att flirta och dansa vid det franska hovet.",
+            "en": "Marie is described as a spoiled, life-loving beauty who loved to flirt and dance at the French court.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Marie"
+              }
+            ],
+            "gloss": "älska att flirta = love to flirt",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Marie av Lorraine",
+              "text_url": "https://sv.wikipedia.org/wiki/Marie_av_Lorraine",
+              "sentence_id": "239474b2",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"flirta\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈflɪr.ta",
+      "stress_hint": "Stress on first syllable: FLIR-ta"
+    },
+    "morphology": {
+      "principal_parts": [
+        "flirta",
+        "flirtar",
+        "flirtade",
+        "flirtat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

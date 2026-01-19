@@ -1,0 +1,445 @@
+{
+  "lexical_unit": {
+    "id": "lu_verhältnis_das",
+    "source_de": {
+      "lu_de_raw": "Verhältnis, das",
+      "lu_de_normalized": "Verhältnis",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "förhållande",
+    "display_sv": "förhållande",
+    "name_sv": "förhållande",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "ett förhållande",
+      "förhållandet",
+      "förhållanden",
+      "förhållandena"
+    ],
+    "english_equivalent_en": "relationship",
+    "morphology_sv": {
+      "noun": {
+        "gender": "ett",
+        "indef_sg": "förhållande",
+        "def_sg": "förhållandet",
+        "indef_pl": "förhållanden",
+        "def_pl": "förhållandena",
+        "note_en": "In this sense it means a personal relationship (often romantic, but also family/social)."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "kärleksförhållande",
+        "type_en": "noun",
+        "meaning_en": "love relationship; romantic affair"
+      },
+      {
+        "word": "parförhållande",
+        "type_en": "noun",
+        "meaning_en": "couple relationship"
+      },
+      {
+        "word": "förhållandevis",
+        "type_en": "adverb",
+        "meaning_en": "relatively (not the personal-relationship sense)"
+      },
+      {
+        "word": "förhållningssätt",
+        "type_en": "noun",
+        "meaning_en": "approach; attitude (how you deal with something)"
+      }
+    ],
+    "synonyms_sv": [
+      "relation",
+      "förbindelse",
+      "kontakt"
+    ],
+    "antonyms_sv": [
+      "brytning"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
+        "sense_id": "lu_verhältnis_das:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_verhältnis_das:1",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "a personal relationship between people, often romantic or within a family",
+        "how_to_use_en": [
+          "Use about two people (or a group) and how they relate to each other.",
+          "Common with verbs like ha, inleda, leva i, avsluta, and with adjectives like stormigt, instabilt, spänt.",
+          "Often followed by a preposition phrase: med + person or till + person."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "ha ett (ADJ) förhållande (med X)",
+            "note_en": "E.g. 'hade ett instabilt förhållande ...', 'har ett förhållande med ...'."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "ha ett (ADJ) förhållande till X",
+            "note_en": "Often for family/social relations: 'ett dåligt förhållande till modern'."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "leva i ett (ADJ) förhållande med X",
+            "note_en": "Describes being in a relationship for a period: 'levde hon i ett stormigt förhållande med ...'."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "inleda ett förhållande",
+            "note_en": "To start a relationship: 'De inleder ett förhållande'."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "avsluta sitt förhållande",
+            "note_en": "To end a relationship: 'avslutade sitt förhållande'."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *förhållande* for a mathematical ratio or general situation in these patterns.",
+            "fix": "Use it for personal relations here; for other meanings, Swedish often uses other patterns/words.",
+            "explain_en": "In the given examples, förhållande is about people’s relationship (not numbers or conditions)."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "f227da22135864d437f2069a5c5799ddd62113d7",
+            "sv": "De har en dotter, född 2006, men avslutade sitt förhållande 2008.",
+            "en": "They have a daughter, born in 2006, but ended their relationship in 2008.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "De"
+              }
+            ],
+            "gloss": "relationship",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mark Allen",
+              "text_url": "https://sv.wikipedia.org/wiki/Mark_Allen",
+              "sentence_id": "15eb5b13",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"förhållande\"]"
+            }
+          },
+          {
+            "ex_id": "b8fcfc22546e56c5baec55c4bd33c2100902ad2a",
+            "sv": "Hon var politiskt aktiv men hade ett instabilt förhållande till maken.",
+            "en": "She was politically active but had an unstable relationship with her husband.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "maken"
+              }
+            ],
+            "gloss": "relationship",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ljubica Vukomanović",
+              "text_url": "https://sv.wikipedia.org/wiki/Ljubica_Vukomanovi%C4%87",
+              "sentence_id": "a2d0c34d",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"förhållande\"]"
+            }
+          },
+          {
+            "ex_id": "3e578b7674fb3aed118a3ec955a956d13bde8a16",
+            "sv": "Sonen hade ett dåligt förhållande till modern och deltog inte vid hennes begravning.",
+            "en": "The son had a bad relationship with his mother and did not take part in her funeral.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Sonen"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "modern"
+              }
+            ],
+            "gloss": "relationship",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Josef Stalin",
+              "text_url": "https://sv.wikipedia.org/wiki/Josef_Stalin",
+              "sentence_id": "9ee1f9cf",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"förhållande\"]"
+            }
+          },
+          {
+            "ex_id": "16a215e2e264663841f84fc40fcdca2a723cc1f0",
+            "sv": "Lenes och Hans förhållande blir alltmer ansträngt under hans korta permissioner.",
+            "en": "Lene's and Hans's relationship becomes more and more strained during his short leaves.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "Lenes och Hans"
+              }
+            ],
+            "gloss": "relationship",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tyskland, bleka moder",
+              "text_url": "https://sv.wikipedia.org/wiki/Tyskland,_bleka_moder",
+              "sentence_id": "a2ca30a5",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"förhållande\"]"
+            }
+          },
+          {
+            "ex_id": "340f0ea0b9c36fc3c4b273ac56021217de1504c4",
+            "sv": "De inleder ett förhållande, men Mays märkliga och bisarra beteende skrämmer bort Adam.",
+            "en": "They start a relationship, but May's strange and bizarre behavior scares Adam away.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "De"
+              }
+            ],
+            "gloss": "relationship",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "May (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/May_(film)",
+              "sentence_id": "42814c5e",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"förhållande\"]"
+            }
+          },
+          {
+            "ex_id": "dc9c1884845d1691b5ea88d2b6d590755a42f663",
+            "sv": "Han hör inte samtalet som avslöjar att Roberto och Nina har ett förhållande.",
+            "en": "He does not hear the conversation that reveals that Roberto and Nina have a relationship.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "Roberto och Nina"
+              }
+            ],
+            "gloss": "relationship",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Barnen ser oss",
+              "text_url": "https://sv.wikipedia.org/wiki/Barnen_ser_oss",
+              "sentence_id": "ad98e0ae",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"förhållande\"]"
+            }
+          },
+          {
+            "ex_id": "e3d8edbd8a1a6820f7743146b6ed59c649531ffe",
+            "sv": "Under sex år levde hon i ett stormigt förhållande med skådespelaren Daniel Day-Lewis.",
+            "en": "For six years she lived in a stormy relationship with the actor Daniel Day-Lewis.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "skådespelaren Daniel Day-Lewis"
+              }
+            ],
+            "gloss": "relationship",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Isabelle Adjani",
+              "text_url": "https://sv.wikipedia.org/wiki/Isabelle_Adjani",
+              "sentence_id": "83cffdb4",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"förhållande\"]"
+            }
+          },
+          {
+            "ex_id": "0c3551b36351331273eb5407673d306b5c637bd6",
+            "sv": "Helen är en skådespelerska som har ett förhållande med sin regissör och motspelare Björn.",
+            "en": "Helen is an actress who has a relationship with her director and co-actor Björn.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Helen"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin regissör och motspelare Björn"
+              }
+            ],
+            "gloss": "relationship",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Utan dig",
+              "text_url": "https://sv.wikipedia.org/wiki/Utan_dig",
+              "sentence_id": "40d40964",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"förhållande\"]"
+            }
+          },
+          {
+            "ex_id": "0c74481e0234d531653605974c0c39a284cad11b",
+            "sv": "Många, till vilka han en tid stått i nära förhållande, bröt sedan fullständigt med honom.",
+            "en": "Many, to whom he for a time had been in a close relationship, then broke completely with him.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Många"
+              }
+            ],
+            "gloss": "relationship",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ludvig Kristensen Daa",
+              "text_url": "https://sv.wikipedia.org/wiki/Ludvig_Kristensen_Daa",
+              "sentence_id": "d803478e",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"förhållande\"]"
+            }
+          },
+          {
+            "ex_id": "26f183c6b97782aa2414fe936249b17ab04b706c",
+            "sv": "Deras inbördes förhållande är mycket spänt, främst på grund av deras skilda karaktärer och bakgrunder.",
+            "en": "Their relationship with each other is very tense, mainly because of their different characters and backgrounds.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "Deras"
+              }
+            ],
+            "gloss": "relationship",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Fyren (opera)",
+              "text_url": "https://sv.wikipedia.org/wiki/Fyren_(opera)",
+              "sentence_id": "77b45595",
+              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "korp_query": "[word=\"förhållande\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "fœrˈhɔlːandɛ",
+      "stress_hint": "Stress on -hål-: för-HÅL-lan-de"
+    },
+    "morphology": {
+      "principal_parts": [
+        "förhållande",
+        "förhållandet",
+        "förhållanden",
+        "förhållandena"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

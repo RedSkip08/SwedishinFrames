@@ -1,0 +1,771 @@
+{
+  "frame": {
+    "id": "frame_friendship",
+    "name_en": "Friendship",
+    "slug": "friendship",
+    "frame_description_en": "This frame is about a social bond where Friend_1 and Friend_2 know each other and have a friendly connection. The Relationship can be described as friendship, being friends, or being acquainted, and it can also involve a Group of people who are friends together. The friendship can be located in a Place, it can start or exist at a particular Time, it can last for a certain Duration, and there may be a Reason why the friendship forms or continues.",
+    "frame_description_html": "This frame is about a social bond where <span class=\"Friend_1\">Friend_1</span> and <span class=\"Friend_2\">Friend_2</span> know each other and have a friendly connection. The <span class=\"Relationship\">Relationship</span> can be described as friendship, being friends, or being acquainted, and it can also involve a <span class=\"Group\">Group</span> of people who are friends together. The friendship can be located in a <span class=\"Place\">Place</span>, it can start or exist at a particular <span class=\"Time\">Time</span>, it can last for a certain <span class=\"Duration\">Duration</span>, and there may be a <span class=\"Reason\">Reason</span> why the friendship forms or continues.",
+    "frame_description_fe_mentions": [
+      {
+        "fe_id": "fe_friend_1",
+        "span_en": "Friend_1"
+      },
+      {
+        "fe_id": "fe_friend_2",
+        "span_en": "Friend_2"
+      },
+      {
+        "fe_id": "fe_relationship",
+        "span_en": "Relationship"
+      },
+      {
+        "fe_id": "fe_group",
+        "span_en": "Group"
+      },
+      {
+        "fe_id": "fe_place",
+        "span_en": "Place"
+      },
+      {
+        "fe_id": "fe_time",
+        "span_en": "Time"
+      },
+      {
+        "fe_id": "fe_duration",
+        "span_en": "Duration"
+      },
+      {
+        "fe_id": "fe_reason",
+        "span_en": "Reason"
+      }
+    ],
+    "elements": [
+      {
+        "id": "fe_friend_1",
+        "name": "Friend_1",
+        "published": 1,
+        "description_en": "One participant in the friendship relation (a person presented as one side of the friendship).",
+        "description_html": "One participant in the friendship relation (a person presented as one side of the friendship)."
+      },
+      {
+        "id": "fe_friend_2",
+        "name": "Friend_2",
+        "published": 1,
+        "description_en": "The other participant in the friendship relation (a person, or sometimes several people).",
+        "description_html": "The other participant in the friendship relation (a person, or sometimes several people)."
+      },
+      {
+        "id": "fe_relationship",
+        "name": "Relationship",
+        "published": 1,
+        "description_en": "The friendship bond being talked about (e.g. friendship, being friends, being acquainted).",
+        "description_html": "The friendship bond being talked about (e.g. friendship, being friends, being acquainted)."
+      },
+      {
+        "id": "fe_group",
+        "name": "Group",
+        "published": 1,
+        "description_en": "A set of people treated as a group in this friendship situation (e.g. viewers, an audience, two scientists).",
+        "description_html": "A set of people treated as a group in this friendship situation (e.g. viewers, an audience, two scientists)."
+      },
+      {
+        "id": "fe_time",
+        "name": "Time",
+        "published": 1,
+        "description_en": "When the friendship exists, begins, or is described as happening.",
+        "description_html": "When the friendship exists, begins, or is described as happening."
+      },
+      {
+        "id": "fe_duration",
+        "name": "Duration",
+        "published": 1,
+        "description_en": "How long the friendship lasts.",
+        "description_html": "How long the friendship lasts."
+      },
+      {
+        "id": "fe_place",
+        "name": "Place",
+        "published": 1,
+        "description_en": "Where the friends meet, live, or where the friendship is situated.",
+        "description_html": "Where the friends meet, live, or where the friendship is situated."
+      },
+      {
+        "id": "fe_reason",
+        "name": "Reason",
+        "published": 1,
+        "description_en": "What explains or motivates the friendship (or why someone wants/does not want to be friends).",
+        "description_html": "What explains or motivates the friendship (or why someone wants/does not want to be friends)."
+      }
+    ],
+    "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
+    "examples": [
+      {
+        "ex_id": "564467da1fb79577b8a5728c3093f789ab62c3b3",
+        "sv": "På tivoliplatsen träffar han Karin, som är en gammal bekant.",
+        "en": "At the amusement park area he meets Karin, who is an old acquaintance.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_friend_1",
+            "span_sv": "han"
+          },
+          {
+            "fe_id": "fe_friend_2",
+            "span_sv": "Karin"
+          },
+          {
+            "fe_id": "fe_relationship",
+            "span_sv": "en gammal bekant"
+          },
+          {
+            "fe_id": "fe_place",
+            "span_sv": "På tivoliplatsen"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Bränningar",
+          "text_url": "https://sv.wikipedia.org/wiki/Br%C3%A4nningar",
+          "sentence_id": "a3c8ef54",
+          "retrieved_at": "2026-01-17T23:07:17+00:00",
+          "korp_query": "[word=\"bekant\"]"
+        }
+      },
+      {
+        "ex_id": "70863a2d4bfd5c6ec1579be38eff501b170cecfd",
+        "sv": "Ensamvargen Seth Cohen får för första gången i sitt liv en kompis.",
+        "en": "The loner Seth Cohen gets a friend for the first time in his life.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_friend_1",
+            "span_sv": "Seth Cohen"
+          },
+          {
+            "fe_id": "fe_friend_2",
+            "span_sv": "en kompis"
+          },
+          {
+            "fe_id": "fe_time",
+            "span_sv": "för första gången i sitt liv"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "OC",
+          "text_url": "https://sv.wikipedia.org/wiki/OC",
+          "sentence_id": "3242ffbb",
+          "retrieved_at": "2026-01-17T23:07:17+00:00",
+          "korp_query": "[word=\"kompis\"]"
+        }
+      },
+      {
+        "ex_id": "27764977233e06c86014c4dd7bed7c697505936f",
+        "sv": "Dök upp 1965 då han blev kompis med Karl på ett sommarkollo.",
+        "en": "It appeared in 1965 when he became friends with Karl at a summer camp.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_time",
+            "span_sv": "1965"
+          },
+          {
+            "fe_id": "fe_friend_1",
+            "span_sv": "han"
+          },
+          {
+            "fe_id": "fe_friend_2",
+            "span_sv": "Karl"
+          },
+          {
+            "fe_id": "fe_place",
+            "span_sv": "på ett sommarkollo"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Snobben",
+          "text_url": "https://sv.wikipedia.org/wiki/Snobben",
+          "sentence_id": "d4a90be7",
+          "retrieved_at": "2026-01-17T23:07:17+00:00",
+          "korp_query": "[word=\"kompis\"]"
+        }
+      },
+      {
+        "ex_id": "419ab23314ade3b5a6f207a39356071bcbc1eb37",
+        "sv": "Bassanio ber sin vän köpmannen Antonio om ett lån för att kunna fria till Portia.",
+        "en": "Bassanio asks his friend, the merchant Antonio, for a loan so that he can propose to Portia.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_friend_1",
+            "span_sv": "Bassanio"
+          },
+          {
+            "fe_id": "fe_friend_2",
+            "span_sv": "sin vän köpmannen Antonio"
+          },
+          {
+            "fe_id": "fe_reason",
+            "span_sv": "för att kunna fria till Portia"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Köpmannen i Venedig",
+          "text_url": "https://sv.wikipedia.org/wiki/K%C3%B6pmannen_i_Venedig",
+          "sentence_id": "4deee158",
+          "retrieved_at": "2026-01-17T23:07:17+00:00",
+          "korp_query": "[word=\"vän\"]"
+        }
+      },
+      {
+        "ex_id": "66d2d9bf7e9d6dc9d756ce8bbc6f7cb512dd8d4f",
+        "sv": "Hon hade under sina sista år en nära vänskap med Josefina.",
+        "en": "She had, during her last years, a close friendship with Josefina.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_friend_1",
+            "span_sv": "Hon"
+          },
+          {
+            "fe_id": "fe_friend_2",
+            "span_sv": "Josefina"
+          },
+          {
+            "fe_id": "fe_relationship",
+            "span_sv": "en nära vänskap"
+          },
+          {
+            "fe_id": "fe_time",
+            "span_sv": "under sina sista år"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Sofia Albertina av Sverige",
+          "text_url": "https://sv.wikipedia.org/wiki/Sofia_Albertina_av_Sverige",
+          "sentence_id": "5ddfdf43",
+          "retrieved_at": "2026-01-17T23:07:17+00:00",
+          "korp_query": "[word=\"vänskap\"]"
+        }
+      },
+      {
+        "ex_id": "e8de367b906f4a651712df19d27ef98cedb902e4",
+        "sv": "Det lyckades inte, men deras vänskap varade i 60 år.",
+        "en": "It did not succeed, but their friendship lasted for 60 years.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_relationship",
+            "span_sv": "deras vänskap"
+          },
+          {
+            "fe_id": "fe_duration",
+            "span_sv": "i 60 år"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Lev Gumiljov",
+          "text_url": "https://sv.wikipedia.org/wiki/Lev_Gumiljov",
+          "sentence_id": "bf9f95cc",
+          "retrieved_at": "2026-01-17T23:07:17+00:00",
+          "korp_query": "[word=\"vänskap\"]"
+        }
+      },
+      {
+        "ex_id": "0af5898a7bc095985da3538f49d9222d0ee3f487",
+        "sv": "De två vetenskapsmännen utvecklade en nära vänskap och umgicks även privat.",
+        "en": "The two scientists developed a close friendship and also spent time together privately.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_group",
+            "span_sv": "De två vetenskapsmännen"
+          },
+          {
+            "fe_id": "fe_relationship",
+            "span_sv": "en nära vänskap"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Max Planck",
+          "text_url": "https://sv.wikipedia.org/wiki/Max_Planck",
+          "sentence_id": "57d8dd89",
+          "retrieved_at": "2026-01-17T23:07:17+00:00",
+          "korp_query": "[word=\"vänskap\"]"
+        }
+      },
+      {
+        "ex_id": "975c59625c900d61d03186f52cc111acbdc1c922",
+        "sv": "Det finns dock ett problem: Kråkan vill inte vara vän med Mamma Mu då han tycker hon är konstig.",
+        "en": "However, there is a problem: the Crow does not want to be friends with Mamma Mu because he thinks she is strange.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_friend_1",
+            "span_sv": "Kråkan"
+          },
+          {
+            "fe_id": "fe_friend_2",
+            "span_sv": "Mamma Mu"
+          },
+          {
+            "fe_id": "fe_reason",
+            "span_sv": "då han tycker hon är konstig"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Mamma Mu & Kråkan (film)",
+          "text_url": "https://sv.wikipedia.org/wiki/Mamma_Mu_%26_Kr%C3%A5kan_(film)",
+          "sentence_id": "55cb4538",
+          "retrieved_at": "2026-01-17T23:07:17+00:00",
+          "korp_query": "[word=\"vara\"][word=\"vän\"][word=\"med\"]"
+        }
+      }
+    ],
+    "linked_lexical_units": [
+      {
+        "lu_id": "lu_bekannte_der_bekannte_ein_bekannter__die_eine_bekannte",
+        "display_sv": "bekant",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_bekannte_der_bekannte_ein_bekannter__die_eine_bekannte:1"
+      },
+      {
+        "lu_id": "lu_kumpel_der",
+        "display_sv": "kompis",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_kumpel_der:1"
+      },
+      {
+        "lu_id": "lu_freund_der_freund__die_freundin",
+        "display_sv": "vän",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_freund_der_freund__die_freundin:1"
+      },
+      {
+        "lu_id": "lu_befreunden_sich_acc_befreunden_mit",
+        "display_sv": "bli vän med",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_befreunden_sich_acc_befreunden_mit:1"
+      },
+      {
+        "lu_id": "lu_clique_die",
+        "display_sv": "klick",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_clique_die:1"
+      },
+      {
+        "lu_id": "lu_befreundet_sein_mit",
+        "display_sv": "vara vän med",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_befreundet_sein_mit:1"
+      },
+      {
+        "lu_id": "lu_freundschaft_die",
+        "display_sv": "vänskap",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_freundschaft_die:1"
+      }
+    ],
+    "confusable_with": []
+  },
+  "constructions": [
+    {
+      "cxn_id": "cxn_1",
+      "cxn_name_linguistic_sv": "X vara vän med Y",
+      "cxn_name_user_friendly_en": "Being friends with someone",
+      "pattern": "SUBJ vara vän med OBJ",
+      "meaning_en": "X and Y are friends (an existing friendship relation).",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_friend_1"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_friend_2"
+        }
+      ],
+      "usage_notes_en": [
+        "Used to state an ongoing friendship relation between two people (or a person and a group like alla).",
+        "The same pattern can appear with negation (inte) and with a reason clause (då ...)."
+      ],
+      "examples": [
+        {
+          "ex_id": "aef22feac44e7f6a091e35c0b17482f460718dc5",
+          "sv": "Adam är vän med Teela, adoptivdotter till hans mentor Duncan.",
+          "en": "Adam is friends with Teela, the adopted daughter of his mentor Duncan.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_friend_1",
+              "span_sv": "Adam"
+            },
+            {
+              "fe_id": "fe_friend_2",
+              "span_sv": "Teela"
+            },
+            {
+              "fe_id": "fe_relationship",
+              "span_sv": "vän med"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "He-Man",
+            "text_url": "https://sv.wikipedia.org/wiki/He-Man",
+            "sentence_id": "6871c7db",
+            "retrieved_at": "2026-01-17T23:07:17+00:00",
+            "korp_query": "[word=\"vän\"]"
+          }
+        },
+        {
+          "ex_id": "975c59625c900d61d03186f52cc111acbdc1c922",
+          "sv": "Det finns dock ett problem: Kråkan vill inte vara vän med Mamma Mu då han tycker hon är konstig.",
+          "en": "However, there is a problem: the Crow does not want to be friends with Mamma Mu because he thinks she is strange.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_friend_1",
+              "span_sv": "Kråkan"
+            },
+            {
+              "fe_id": "fe_friend_2",
+              "span_sv": "Mamma Mu"
+            },
+            {
+              "fe_id": "fe_reason",
+              "span_sv": "då han tycker hon är konstig"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Mamma Mu & Kråkan (film)",
+            "text_url": "https://sv.wikipedia.org/wiki/Mamma_Mu_%26_Kr%C3%A5kan_(film)",
+            "sentence_id": "55cb4538",
+            "retrieved_at": "2026-01-17T23:07:17+00:00",
+            "korp_query": "[word=\"vara\"][word=\"vän\"][word=\"med\"]"
+          }
+        },
+        {
+          "ex_id": "ac46d99175f50a71f75975e32db3050a6a9349c8",
+          "sv": "Amrisen är en idealisk familjehund som vill vara vän med alla och med där det händer något.",
+          "en": "The Amris is an ideal family dog that wants to be friends with everyone and be where something is happening.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_friend_1",
+              "span_sv": "Amrisen"
+            },
+            {
+              "fe_id": "fe_friend_2",
+              "span_sv": "alla"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Amerikansk cocker spaniel",
+            "text_url": "https://sv.wikipedia.org/wiki/Amerikansk_cocker_spaniel",
+            "sentence_id": "6f2f14a5",
+            "retrieved_at": "2026-01-17T23:07:17+00:00",
+            "korp_query": "[word=\"vara\"][word=\"vän\"][word=\"med\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_2",
+      "cxn_name_linguistic_sv": "X bli vän med Y",
+      "cxn_name_user_friendly_en": "Becoming friends with someone",
+      "pattern": "SUBJ bli vän med OBJ",
+      "meaning_en": "X becomes friends with Y (the friendship starts/develops).",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_friend_1"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_friend_2"
+        }
+      ],
+      "usage_notes_en": [
+        "Used for the start of a friendship; often occurs with time or place expressions in the sentence."
+      ],
+      "examples": [
+        {
+          "ex_id": "57f3295acc44e348d7d45601b179a88a8e693c61",
+          "sv": "Under sin tid i Tyskland blev han vän med Carl Siegel.",
+          "en": "During his time in Germany he became friends with Carl Siegel.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_time",
+              "span_sv": "Under sin tid i Tyskland"
+            },
+            {
+              "fe_id": "fe_friend_1",
+              "span_sv": "han"
+            },
+            {
+              "fe_id": "fe_friend_2",
+              "span_sv": "Carl Siegel"
+            },
+            {
+              "fe_id": "fe_relationship",
+              "span_sv": "blev han vän med"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "André Weil",
+            "text_url": "https://sv.wikipedia.org/wiki/Andr%C3%A9_Weil",
+            "sentence_id": "ba858b6f",
+            "retrieved_at": "2026-01-17T23:07:17+00:00",
+            "korp_query": "[word=\"vän\"]"
+          }
+        },
+        {
+          "ex_id": "02faab3e7364cbfa12be1143c0adea22eeb1a6bc",
+          "sv": "Där blir hon vän med en ung flicka som försökte göra inbrott hos henne.",
+          "en": "There she becomes friends with a young girl who tried to break into her home.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_place",
+              "span_sv": "Där"
+            },
+            {
+              "fe_id": "fe_friend_1",
+              "span_sv": "hon"
+            },
+            {
+              "fe_id": "fe_friend_2",
+              "span_sv": "en ung flicka"
+            },
+            {
+              "fe_id": "fe_relationship",
+              "span_sv": "blir hon vän med"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Elektra (film)",
+            "text_url": "https://sv.wikipedia.org/wiki/Elektra_(film)",
+            "sentence_id": "2b7ad459",
+            "retrieved_at": "2026-01-17T23:07:17+00:00",
+            "korp_query": "[word=\"vän\"]"
+          }
+        },
+        {
+          "ex_id": "e404604fa6bb8349eea7c0396d55c52cc1999af9",
+          "sv": "Lisa försöker bli vän med henne men det går inte bra och Francine mobbar Lisa.",
+          "en": "Lisa tries to become friends with her, but it does not go well, and Francine bullies Lisa.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_friend_1",
+              "span_sv": "Lisa"
+            },
+            {
+              "fe_id": "fe_friend_2",
+              "span_sv": "henne"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Bye Bye Nerdie",
+            "text_url": "https://sv.wikipedia.org/wiki/Bye_Bye_Nerdie",
+            "sentence_id": "876fd05c",
+            "retrieved_at": "2026-01-17T23:07:17+00:00",
+            "korp_query": "[word=\"bli\"][word=\"vän\"][word=\"med\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_3",
+      "cxn_name_linguistic_sv": "X vara/bli bekant med Y",
+      "cxn_name_user_friendly_en": "Being acquainted with someone",
+      "pattern": "SUBJ vara/bli bekant med OBJ",
+      "meaning_en": "X knows Y (or gets to know Y); an acquaintance relation rather than close friendship.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_friend_1"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_friend_2"
+        }
+      ],
+      "usage_notes_en": [
+        "bekant med is used with vara for an existing acquaintance and with bli for becoming acquainted.",
+        "In the provided material, bekant med can also be used for being familiar with non-people, but those uses are not included in this construction."
+      ],
+      "examples": [
+        {
+          "ex_id": "32ed7492f4f0fa3988d2e3a6a87d3055bfd9decb",
+          "sv": "Hon var bekant med Madame Guyon, som omvände henne till kvietismen.",
+          "en": "She was acquainted with Madame Guyon, who converted her to quietism.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_friend_1",
+              "span_sv": "Hon"
+            },
+            {
+              "fe_id": "fe_friend_2",
+              "span_sv": "Madame Guyon"
+            },
+            {
+              "fe_id": "fe_relationship",
+              "span_sv": "bekant med"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Marie de Brinon",
+            "text_url": "https://sv.wikipedia.org/wiki/Marie_de_Brinon",
+            "sentence_id": "840d1d4a",
+            "retrieved_at": "2026-01-17T23:07:17+00:00",
+            "korp_query": "[word=\"bekant\"]"
+          }
+        },
+        {
+          "ex_id": "4ecfb562fb4d7bf677487fb145a9b89b52d020f0",
+          "sv": "Eva Bromée, Oves fästmö, anländer till badorten och blir bekant med Greta.",
+          "en": "Eva Bromée, Ove's fiancée, arrives at the resort town and becomes acquainted with Greta.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_friend_1",
+              "span_sv": "Eva Bromée"
+            },
+            {
+              "fe_id": "fe_friend_2",
+              "span_sv": "Greta"
+            },
+            {
+              "fe_id": "fe_relationship",
+              "span_sv": "blir bekant med"
+            },
+            {
+              "fe_id": "fe_place",
+              "span_sv": "till badorten"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Falska Greta",
+            "text_url": "https://sv.wikipedia.org/wiki/Falska_Greta",
+            "sentence_id": "23aa9783",
+            "retrieved_at": "2026-01-17T23:07:17+00:00",
+            "korp_query": "[word=\"bekant\"]"
+          }
+        },
+        {
+          "ex_id": "54901ee35d1da8c71277ff2ab58a841ab8e4cb01",
+          "sv": "Familjen Peirce var nära bekant med familjen James som bodde i samma stadsdel.",
+          "en": "The Peirce family was closely acquainted with the James family who lived in the same district.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_friend_1",
+              "span_sv": "Familjen Peirce"
+            },
+            {
+              "fe_id": "fe_friend_2",
+              "span_sv": "familjen James"
+            },
+            {
+              "fe_id": "fe_relationship",
+              "span_sv": "nära bekant"
+            },
+            {
+              "fe_id": "fe_place",
+              "span_sv": "i samma stadsdel"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Charles Sanders Peirce",
+            "text_url": "https://sv.wikipedia.org/wiki/Charles_Sanders_Peirce",
+            "sentence_id": "bcc584ac",
+            "retrieved_at": "2026-01-17T23:07:17+00:00",
+            "korp_query": "[word=\"bekant\"]"
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_examples": 5,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "lexical_unit": {
+    "id": "lu_witwe_die_witwe__der_witwer",
+    "source_de": {
+      "lu_de_raw": "Witwe: die Witwe / der Witwer",
+      "lu_de_normalized": "Witwe/Witwer",
+      "gender_variants_de": [
+        "die Witwe",
+        "der Witwer"
+      ],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "änka",
+    "display_sv": "änka",
+    "name_sv": "änka",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "änka",
+      "änkan",
+      "änkor",
+      "änkorna"
+    ],
+    "english_equivalent_en": "widow",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "änka",
+        "def_sg": "änkan",
+        "indef_pl": "änkor",
+        "def_pl": "änkorna",
+        "note_en": "A person whose spouse has died (female term)."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": null
+    },
+    "derived_words_sv": [
+      {
+        "word": "änkling",
+        "type_en": "noun",
+        "meaning_en": "widower (male)"
+      },
+      {
+        "word": "änkesäte",
+        "type_en": "noun",
+        "meaning_en": "home/estate for a widow (historical term)"
+      },
+      {
+        "word": "änkepension",
+        "type_en": "noun",
+        "meaning_en": "widow’s pension"
+      },
+      {
+        "word": "änkefru",
+        "type_en": "noun",
+        "meaning_en": "widow (polite/older style)"
+      }
+    ],
+    "synonyms_sv": [],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_marriage",
+        "frame_name_en": "Marriage",
+        "frame_slug": "marriage",
+        "sense_id": "lu_witwe_die_witwe__der_witwer:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_witwe_die_witwe__der_witwer:1",
+        "frame_id": "frame_marriage",
+        "meaning_en": "a woman whose husband has died; her marriage has ended because of death",
+        "how_to_use_en": [
+          "Use as a noun for a woman after her spouse dies.",
+          "Often used with bli: bli änka, and with time words (years).",
+          "Can be used as a status: vara änka."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "bli änka",
+            "note_en": "Very common way to express the change of status."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "bli änka + Time (årtal)",
+            "note_en": "Often followed by a year: e.g., 1932, 1547, 1699, 1956."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "vara änka",
+            "note_en": "Describes current status (not the change)."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "X:s änka",
+            "note_en": "Possessive: ‘his widow’ (Hans änka)."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using änka for a man.",
+            "fix": "Use änkling for a man.",
+            "explain_en": "Änka is female; the male word is änkling."
+          },
+          {
+            "error": "Confusing änka with divorced (skild).",
+            "fix": "Use skild/skilsmässa for divorce; änka is only when the spouse has died.",
+            "explain_en": "In the examples, the status comes after the spouse’s death, not after divorce."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "b7ca540775b61df1614092df021756c5f70cb839",
+            "sv": "Hon blev änka 1932 och gifte 1934 om sig med skådespelaren Ludde Juberg.",
+            "en": "She became a widow in 1932 and in 1934 she married again to the actor Ludde Juberg.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "änka"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1932"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1934"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "skådespelaren Ludde Juberg"
+              }
+            ],
+            "gloss": "widow",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Thyra Janse-Juberg",
+              "text_url": "https://sv.wikipedia.org/wiki/Thyra_Janse-Juberg",
+              "sentence_id": "1b98f9b7",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"änka\"]"
+            }
+          },
+          {
+            "ex_id": "0cc402254841e84447fdfa2863245961213fb3f6",
+            "sv": "Hon blev änka 1547 och fick då titeln hertiginna av Touraine.",
+            "en": "She became a widow in 1547 and then got the title Duchess of Touraine.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "änka"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1547"
+              }
+            ],
+            "gloss": "widow",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Eleonora av Österrike (1498–1558)",
+              "text_url": "https://sv.wikipedia.org/wiki/Eleonora_av_%C3%96sterrike_(1498%E2%80%931558)",
+              "sentence_id": "a76e197c",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"änka\"]"
+            }
+          },
+          {
+            "ex_id": "edb07231078b01fc078c23eef902a8c456c0bec4",
+            "sv": "Hon var gift i Frankrike och blev änka samt fick en son utom äktenskapet.",
+            "en": "She was married in France and became a widow and also had a son outside marriage.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "gift"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Frankrike"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "änka"
+              }
+            ],
+            "gloss": "widow",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ghislaine Dommanget",
+              "text_url": "https://sv.wikipedia.org/wiki/Ghislaine_Dommanget",
+              "sentence_id": "0bf79f5b",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"änka\"]"
+            }
+          },
+          {
+            "ex_id": "ae0c8ee37a3595c163feddb4c95b34c8a9d83753",
+            "sv": "År 1802 köpte han familjens plantage från modern som hade blivit änka.",
+            "en": "In 1802 he bought the family's plantation from his mother, who had become a widow.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "År 1802"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "modern"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "änka"
+              }
+            ],
+            "gloss": "widow",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Armand Beauvais",
+              "text_url": "https://sv.wikipedia.org/wiki/Armand_Beauvais",
+              "sentence_id": "59f83d20",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"änka\"]"
+            }
+          },
+          {
+            "ex_id": "7019918ac97e0ada2d6154dc5a859491066e393b",
+            "sv": "Efter att hon blivit änka 1699 bosatte hon sig på Tyresö slott.",
+            "en": "After she became a widow in 1699, she settled at Tyresö Castle.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "änka"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1699"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "på Tyresö slott"
+              }
+            ],
+            "gloss": "widow",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Maria Gustava Gyllenstierna",
+              "text_url": "https://sv.wikipedia.org/wiki/Maria_Gustava_Gyllenstierna",
+              "sentence_id": "a78dc5b9",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"änka\"]"
+            }
+          },
+          {
+            "ex_id": "15b0023ae0b7b9f21d1f5a2f9e0bab8ec0dd6c15",
+            "sv": "En fattig änka med tre barn har tur: hennes dotter får ett stipendium.",
+            "en": "A poor widow with three children is lucky: her daughter gets a scholarship.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "En fattig änka"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "änka"
+              }
+            ],
+            "gloss": "widow",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Street Scene (opera)",
+              "text_url": "https://sv.wikipedia.org/wiki/Street_Scene_(opera)",
+              "sentence_id": "54bb721b",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"änka\"]"
+            }
+          },
+          {
+            "ex_id": "51ba65b69b1594b9544429afff88807224ef56dd",
+            "sv": "Boutiqueägarinnan Fusako är änka och bor i Yokohama tillsammans med sin 13-årige son Noboru.",
+            "en": "The boutique owner Fusako is a widow and lives in Yokohama together with her 13-year-old son Noboru.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Boutiqueägarinnan Fusako"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "änka"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Yokohama"
+              }
+            ],
+            "gloss": "widow",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Das verratene Meer",
+              "text_url": "https://sv.wikipedia.org/wiki/Das_verratene_Meer",
+              "sentence_id": "8ea093fc",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"änka\"]"
+            }
+          },
+          {
+            "ex_id": "ce404162c703325c3c39c8fd5d7dcfcfaa673812",
+            "sv": "1956 blev Katherine Johnson änka, men gifte om sig med James Johnson år 1959.",
+            "en": "In 1956 Katherine Johnson became a widow, but she married again to James Johnson in 1959.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1956"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Katherine Johnson"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "änka"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "James Johnson"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "år 1959"
+              }
+            ],
+            "gloss": "widow",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Katherine Johnson",
+              "text_url": "https://sv.wikipedia.org/wiki/Katherine_Johnson",
+              "sentence_id": "57d44957",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"änka\"]"
+            }
+          },
+          {
+            "ex_id": "9da1b07ec5bac020626a256b1aba6f1328b4c134",
+            "sv": "Hon blev tidigt änka med fem små barn och fick försörja sig med dagsverken åt bönderna.",
+            "en": "She became a widow early, with five small children, and had to support herself with day work for the farmers.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "änka"
+              }
+            ],
+            "gloss": "widow",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bränntjärnstorpet",
+              "text_url": "https://sv.wikipedia.org/wiki/Br%C3%A4nntj%C3%A4rnstorpet",
+              "sentence_id": "e820650f",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"änka\"]"
+            }
+          },
+          {
+            "ex_id": "0d1d433092866f3d6949424af6ee8c39f6fef765",
+            "sv": "Hans änka och barn flyttade in i byggnadens västra del, resten hyrdes ut.",
+            "en": "His widow and children moved into the western part of the building; the rest was rented out.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Hans änka"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "änka"
+              }
+            ],
+            "gloss": "widow",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Westmanska palatset",
+              "text_url": "https://sv.wikipedia.org/wiki/Westmanska_palatset",
+              "sentence_id": "f8dbdb3f",
+              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "korp_query": "[word=\"änka\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": null,
+      "stress_hint": "Stress on first syllable: ÄN-ka"
+    },
+    "morphology": {
+      "principal_parts": [
+        "änka (indefinite singular)",
+        "änkan (definite singular)",
+        "änkor (indefinite plural)",
+        "änkorna (definite plural)"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

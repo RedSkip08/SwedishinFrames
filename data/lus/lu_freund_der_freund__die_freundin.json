@@ -1,0 +1,522 @@
+{
+  "lexical_unit": {
+    "id": "lu_freund_der_freund__die_freundin",
+    "source_de": {
+      "lu_de_raw": "Freund: der Freund / die Freundin",
+      "lu_de_normalized": "Freund",
+      "gender_variants_de": [
+        "der Freund",
+        "die Freundin"
+      ],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "vän",
+    "display_sv": "vän",
+    "name_sv": "vän",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "en vän",
+      "vännen",
+      "vänner",
+      "vännerna"
+    ],
+    "english_equivalent_en": "friend",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "vän",
+        "def_sg": "vännen",
+        "indef_pl": "vänner",
+        "def_pl": "vännerna",
+        "note_en": "Plural changes vowel: vän → vänner."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": null
+    },
+    "derived_words_sv": [
+      {
+        "word": "vänskap",
+        "type_en": "noun",
+        "meaning_en": "friendship"
+      },
+      {
+        "word": "vänskaplig",
+        "type_en": "adjective",
+        "meaning_en": "friendly; showing friendship"
+      },
+      {
+        "word": "väninna",
+        "type_en": "noun",
+        "meaning_en": "female friend"
+      },
+      {
+        "word": "bästa vän",
+        "type_en": "other",
+        "meaning_en": "best friend"
+      },
+      {
+        "word": "vänkrets",
+        "type_en": "noun",
+        "meaning_en": "circle of friends"
+      }
+    ],
+    "synonyms_sv": [
+      "kompis",
+      "kamrat",
+      "väninna"
+    ],
+    "antonyms_sv": [
+      "fiende"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_friendship",
+        "frame_name_en": "Friendship",
+        "frame_slug": "friendship",
+        "sense_id": "lu_freund_der_freund__die_freundin:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_freund_der_freund__die_freundin:1",
+        "frame_id": "frame_friendship",
+        "meaning_en": "a person you have a friendship relationship with",
+        "how_to_use_en": [
+          "Use as a noun for someone you know well and like: hans vän, sin vän.",
+          "Often with superlatives: bästa vän, bäste vän.",
+          "Use with the construction vara vän med / bli vän med + person."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X:s vän (Name)",
+            "note_en": "Possessive + vän to identify someone as a friend: Hans vän Max Brod; hennes vän Evanna Lynch."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "sin vän",
+            "note_en": "Reflexive possessive when the subject owns the relation: bjuder han ut sin vän."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "bästa vän / bäste vän",
+            "note_en": "Superlative + vän for 'best friend': Min bästa vän; hans pappas bäste vän."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "vara vän med + person",
+            "note_en": "To state an existing friendship: Adam är vän med Teela."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "bli vän med + person",
+            "note_en": "To describe becoming friends (often with time/place): Under sin tid i Tyskland blev han vän med Carl Siegel."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *vän med* alone as a noun phrase (e.g. *min vän med Anna*).",
+            "fix": "Say min vän Anna, or use the verb phrase: jag är vän med Anna.",
+            "explain_en": "vän is a noun; vän med is part of the construction vara/bli vän med."
+          },
+          {
+            "error": "Mixing up bäste and bästa.",
+            "fix": "Use bäste with a male person (hans pappas bäste vän) and bästa more generally (min bästa vän).",
+            "explain_en": "Both occur; bäste is a masculine form used with male referents in some styles."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "70a46f4d5656aa9992afee49d41f79844a00399b",
+            "sv": "Hans vän Max Brod hävdade att Kafka var en religiös diktare.",
+            "en": "His friend Max Brod claimed that Kafka was a religious poet.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "Hans"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "vän Max Brod"
+              }
+            ],
+            "gloss": "vän = friend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Förvandlingen",
+              "text_url": "https://sv.wikipedia.org/wiki/F%C3%B6rvandlingen",
+              "sentence_id": "e33a050f",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vän\"]"
+            }
+          },
+          {
+            "ex_id": "e255bc19d46e0770299baf56217836e3a373c17e",
+            "sv": "Dessutom är han Harrys gudfar och var hans pappas bäste vän.",
+            "en": "Also he is Harry's godfather and was his father's best friend.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "hans pappas"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "bäste vän"
+              }
+            ],
+            "gloss": "bäste vän = best friend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Harry Potter och fången från Azkaban (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Harry_Potter_och_f%C3%A5ngen_fr%C3%A5n_Azkaban_(film)",
+              "sentence_id": "d21d69b3",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vän\"]"
+            }
+          },
+          {
+            "ex_id": "aef22feac44e7f6a091e35c0b17482f460718dc5",
+            "sv": "Adam är vän med Teela, adoptivdotter till hans mentor Duncan.",
+            "en": "Adam is friends with Teela, the adopted daughter of his mentor Duncan.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "Adam"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "Teela"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "vän med"
+              }
+            ],
+            "gloss": "vara vän med = be friends with",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "He-Man",
+              "text_url": "https://sv.wikipedia.org/wiki/He-Man",
+              "sentence_id": "6871c7db",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vän\"]"
+            }
+          },
+          {
+            "ex_id": "57f3295acc44e348d7d45601b179a88a8e693c61",
+            "sv": "Under sin tid i Tyskland blev han vän med Carl Siegel.",
+            "en": "During his time in Germany he became friends with Carl Siegel.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Under sin tid i Tyskland"
+              },
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "Carl Siegel"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "blev han vän med"
+              }
+            ],
+            "gloss": "bli vän med = become friends with",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "André Weil",
+              "text_url": "https://sv.wikipedia.org/wiki/Andr%C3%A9_Weil",
+              "sentence_id": "ba858b6f",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vän\"]"
+            }
+          },
+          {
+            "ex_id": "02faab3e7364cbfa12be1143c0adea22eeb1a6bc",
+            "sv": "Där blir hon vän med en ung flicka som försökte göra inbrott hos henne.",
+            "en": "There she becomes friends with a young girl who tried to break into her home.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_place",
+                "span_sv": "Där"
+              },
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "en ung flicka"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "blir hon vän med"
+              }
+            ],
+            "gloss": "bli vän med = become friends with",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Elektra (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Elektra_(film)",
+              "sentence_id": "2b7ad459",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vän\"]"
+            }
+          },
+          {
+            "ex_id": "f46aaf25b708a1fb6a8e401398d42a3d5c1ece1d",
+            "sv": "En kväll bjuder han ut sin vän på middag i sällskap med några damer.",
+            "en": "One evening he invites his friend out to dinner in the company of some ladies.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "En kväll"
+              },
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "sin vän"
+              }
+            ],
+            "gloss": "vän = friend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Toffelhjältar på vift",
+              "text_url": "https://sv.wikipedia.org/wiki/Toffelhj%C3%A4ltar_p%C3%A5_vift",
+              "sentence_id": "1b9992e4",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vän\"]"
+            }
+          },
+          {
+            "ex_id": "dcb069d9b0a1d55f4190582ef9d054cc7b23b9f9",
+            "sv": "De satt vid stranden, Buckley sjöng och hans vän spelade på en gitarr.",
+            "en": "They sat by the beach, Buckley sang and his friend played a guitar.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_place",
+                "span_sv": "vid stranden"
+              },
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "Buckley"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "hans vän"
+              }
+            ],
+            "gloss": "vän = friend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jeff Buckley",
+              "text_url": "https://sv.wikipedia.org/wiki/Jeff_Buckley",
+              "sentence_id": "bb9ef1c7",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vän\"]"
+            }
+          },
+          {
+            "ex_id": "419ab23314ade3b5a6f207a39356071bcbc1eb37",
+            "sv": "Bassanio ber sin vän köpmannen Antonio om ett lån för att kunna fria till Portia.",
+            "en": "Bassanio asks his friend, the merchant Antonio, for a loan so that he can propose to Portia.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "Bassanio"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "sin vän köpmannen Antonio"
+              },
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "för att kunna fria till Portia"
+              }
+            ],
+            "gloss": "vän = friend",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Köpmannen i Venedig",
+              "text_url": "https://sv.wikipedia.org/wiki/K%C3%B6pmannen_i_Venedig",
+              "sentence_id": "4deee158",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vän\"]"
+            }
+          },
+          {
+            "ex_id": "5b2cdd55d06f4ffe05d50c7d49467e3823bf4aa5",
+            "sv": "Hon fick emellertid inte rollen, utan den gick till hennes vän Evanna Lynch.",
+            "en": "However she did not get the role, but it went to her friend Evanna Lynch.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "hennes"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "vän Evanna Lynch"
+              }
+            ],
+            "gloss": "vän = friend",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Saoirse Ronan",
+              "text_url": "https://sv.wikipedia.org/wiki/Saoirse_Ronan",
+              "sentence_id": "8914c91a",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vän\"]"
+            }
+          },
+          {
+            "ex_id": "7b727e77e9aa9466d51a012aab9fd58fb0793c22",
+            "sv": "Dagen efter hennes död skrev Broun: \" Min bästa vän dog igår.",
+            "en": "The day after her death Broun wrote: \" My best friend died yesterday.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Dagen efter hennes död"
+              },
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "Min"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "bästa vän"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "igår"
+              }
+            ],
+            "gloss": "bästa vän = best friend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ruth Hale",
+              "text_url": "https://sv.wikipedia.org/wiki/Ruth_Hale",
+              "sentence_id": "5e8c93cc",
+              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "korp_query": "[word=\"vän\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": null,
+      "stress_hint": "one syllable; stress on the whole word"
+    },
+    "morphology": {
+      "principal_parts": [
+        "vän",
+        "vännen",
+        "vänner",
+        "vännerna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}
