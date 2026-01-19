@@ -500,3 +500,20 @@ body{
   font-size: 12px;
 }
 .az.on{ background: var(--surface-2); border-color:#b9c6cf; }
+
+
+@media (max-width: 820px){
+  :root{ --gutter: 14px; }
+  .topbar-inner{ flex-direction: column; align-items: flex-start; gap: 12px; }
+  .nav{ justify-content: flex-start; }
+  .searchbar{ justify-content: stretch; }
+  .search{ width: 100%; flex-wrap: wrap; }
+  .search input{ flex: 1 1 100%; }
+  .search .btn{ flex: 1 1 calc(50% - 5px); }
+}
+@media (max-width: 420px){
+  .brand .sub{ display: none; }
+  .brand h1{ font-size: 16px; }
+  .logo{ width: 40px; height: 40px; border-radius: 12px; }
+  .pill{ font-size: 12px; padding: 7px 10px; }
+}
