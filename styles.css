@@ -517,3 +517,26 @@ body{
   .logo{ width: 40px; height: 40px; border-radius: 12px; }
   .pill{ font-size: 12px; padding: 7px 10px; }
 }
+
+/* Mobile hardening */
+#entry, .card, .section, .kv, .v, .ex, .ex-sv, .ex-en, .anno-line, .ex-meta, .li, .meta {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.li > .left { min-width: 0; }
+.r-title { min-width: 0; }
+
+/* for small screens */
+@media (max-width: 520px){
+  .kv{
+    grid-template-columns: 1fr;
+  }
+  .kv .k{
+    font-size: 11px;
+    margin-top: 6px;
+  }
+  .kv .v{
+    margin-bottom: 8px;
+  }
+}

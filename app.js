@@ -604,11 +604,6 @@ function renderPanelResults(rows) {
 
 // Example rendering
 
-function hashHue(str) {
-  let h = 0;
-  for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
-  return h % 360;
-}
 
 function feLabel(frame, fe_id) {
   if (!frame) return fe_id;
@@ -664,7 +659,7 @@ function renderSentenceWithSpans(sentence, fe_tags, frame) {
   for (const r of used) {
     out += esc(text.slice(pos, r.start));
     const label = feLabel(frame, r.fe_id);
-    const hue = hashHue(r.fe_id);
+    const hue = feHue(r.fe_id);
     out += `<span class="fe-span" title="${esc(label)}" data-fe="${esc(r.fe_id)}" style="--fe-h:${hue}">${esc(text.slice(r.start, r.end))}</span>`;
     pos = r.end;
   }
