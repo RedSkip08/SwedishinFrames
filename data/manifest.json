@@ -2,6 +2,7 @@
   "lus": [
     "data/lus/lu_abitur_das_das_abitur_machen.json",
     "data/lus/lu_abiturient_der_abiturient__die_abiturientin.json",
+    "data/lus/lu_abschließen_das_studium_abschließen.json",
     "data/lus/lu_absolvent_der_absolvent__die_absolventin.json",
     "data/lus/lu_abstammen_von.json",
     "data/lus/lu_affare_die.json",
@@ -63,6 +64,7 @@
     "data/lus/lu_klausur_die.json",
     "data/lus/lu_kommen_aus.json",
     "data/lus/lu_kommilitone_der_kommilitone__die_kommilitonin.json",
+    "data/lus/lu_kommilitone_der_kommilitone_die_kommilitonin.json",
     "data/lus/lu_kumpel_der.json",
     "data/lus/lu_kurs_der.json",
     "data/lus/lu_kämmen_die_haare_kämmen.json",
@@ -82,6 +84,7 @@
     "data/lus/lu_partner_der_partner__die_partnerin.json",
     "data/lus/lu_pendeln.json",
     "data/lus/lu_professor_der_professor__die_professorin.json",
+    "data/lus/lu_prufung_die.json",
     "data/lus/lu_prüfung_die.json",
     "data/lus/lu_putzen_die_zähne_putzen.json",
     "data/lus/lu_rasieren.json",
@@ -146,6 +149,7 @@
   "frames": [
     "data/frames/frame_dating.json",
     "data/frames/frame_eating_and_drinking_old.json",
+    "data/frames/frame_education.json",
     "data/frames/frame_friendship.json",
     "data/frames/frame_grooming.json",
     "data/frames/frame_marriage.json",
