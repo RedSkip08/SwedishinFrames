@@ -1440,6 +1440,162 @@ function renderConstruction(cx) {
     });
   });
 }
+function renderSuggestEntry() {
+  setEntryHeader("Suggest an entry", "", "");
+  const entry = $("#entry");
+  if (!entry) return;
+
+  const FORMSPREE_ENDPOINT = "https://formspree.io/f/xaqqjrgy";
+
+  entry.innerHTML = `
+    <div class="hero">
+      <div>
+        <h3>Suggest a lexical unit (word) or construction</h3>
+        <p class="muted">
+          Help improve the dictionary. If a word or phrase is not available here, please let us know.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <form class="suggest-form" action="${FORMSPREE_ENDPOINT}" method="POST">
+        <div class="kv">
+          <div class="k">Type</div>
+          <div class="v">
+            <select name="type" required>
+              <option value="">Choose…</option>
+              <option value="lu">Word (Lexical Unit)</option>
+              <option value="construction">Construction</option>
+              <option value="frame">Frame</option>
+            </select>
+          </div>
+
+          <div class="k">Swedish form</div>
+          <div class="v"><input name="swedish" required placeholder="e.g., vara vän med"></div>
+
+          <div class="k">English meaning</div>
+          <div class="v"><input name="meaning" placeholder="e.g., be friends with"></div>
+
+          <div class="k">Example sentence (SV)</div>
+          <div class="v"><textarea name="example_sv" rows="3" placeholder="Write a natural Swedish example…"></textarea></div>
+
+          <div class="k">Notes</div>
+          <div class="v"><textarea name="notes" rows="4" placeholder="Why should it be included? Any frame idea? Register/CEFR?"></textarea></div>
+
+          <div class="k">Your email (optional)</div>
+          <div class="v"><input type="email" name="email" placeholder="name@example.com"></div>
+        </div>
+
+        <input type="hidden" name="_subject" value="SiF suggestion">
+        <!-- IMPORTANT: make _next local/prod-safe -->
+        <input type="hidden" name="_next" value="${location.origin}/#suggest_thanks">
+
+        <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
+          <button class="btn" type="submit">Send suggestion</button>
+          <button class="btn" type="button" id="suggestCancel">Back</button>
+        </div>
+
+        <div class="small muted" style="margin-top:10px">
+          Submissions are processed manually. Please don’t include sensitive personal information.
+        </div>
+      </form>
+    </div>
+  `;
+
+  bindSuggestHandlers(entry, FORMSPREE_ENDPOINT);
+}
+
+function bindSuggestHandlers(entry, FORMSPREE_ENDPOINT) {
+
+  entry.querySelector("#suggestCancel")?.addEventListener("click", () => history.back());
+
+  const form = entry.querySelector("form.suggest-form");
+  if (!form) return;
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const btn = form.querySelector('button[type="submit"]');
+    const oldLabel = btn?.textContent;
+    if (btn) { btn.disabled = true; btn.textContent = "Sending…"; }
+
+    try {
+      const res = await fetch(FORMSPREE_ENDPOINT, {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: new FormData(form),
+      });
+
+      if (res.ok) {
+        location.hash = "#suggest_thanks";
+      } else {
+        let msg = "Submit failed. Please try again.";
+        try {
+          const data = await res.json();
+          if (data?.errors?.length) msg = data.errors.map(x => x.message).join("\n");
+        } catch {}
+        alert(msg);
+      }
+    } catch {
+      alert("Network error. Please try again.");
+    } finally {
+      if (btn) { btn.disabled = false; btn.textContent = oldLabel || "Send suggestion"; }
+    }
+  });
+}
+
+
+
+function renderAboutEntry() {
+  setEntryHeader("About Swedish in Frames", "", "");
+  const entry = $("#entry");
+  if (!entry) return;
+
+  entry.innerHTML = `
+    <div class="hero">
+      <div>
+        <p>
+          <b>Swedish in Frames</b> is a frame semantics and construction grammar based dictionary for Swedish learners.
+          It provides information on <span class="kbd">lexical units</span>, <span class="kbd">frames</span>, and <span class="kbd">constructions</span>.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h4>Suggest a lexical unit (word) or construction</h4>
+      <p class="muted" style="margin-top:6px">
+        If something is missing, you can propose it via the suggestion form.
+      </p>
+      <div style="margin-top:10px">
+        <a class="btn primary" href="#suggest">Open suggestion form</a>
+      </div>
+    </div>
+  `;
+}
+
+function renderSuggestThanks() {
+  setEntryHeader("Thanks!", "", "");
+  const entry = $("#entry");
+  if (!entry) return;
+
+  entry.innerHTML = `
+    <div class="section">
+      <div class="hero">
+        <div>
+          <h3>Thank you!</h3>
+          <p class="muted">We have received your suggestion. We’ll review it manually.</p>
+          <div style="margin-top:12px;">
+            <button class="btn" type="button" id="thanksBack">Back to search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+
+  entry.querySelector("#thanksBack")?.addEventListener("click", () => {
+    location.hash = "#"; // or whatever your home route is
+  });
+}
 
 function renderSearchEntry(query) {
   setEntryHeader('Search', '', '');
@@ -1479,6 +1635,9 @@ function renderSearchEntry(query) {
 function parseHash() {
   const h = (location.hash || "").replace(/^#/, "").trim();
   if (!h) return { kind: "none" };
+  if (h === "about") return { kind: "about" };
+  if (h === "suggest") return { kind: "suggest" };
+  if (h === "suggest_thanks" || h === "suggest-thanks") return { kind: "suggest_thanks" };
   if (h.startsWith("search:")) return { kind: "search", q: decodeURIComponent(h.slice("search:".length)) };
   const m = h.match(/^(lu|frame|construction):(.+)$/);
   if (!m) return { kind: "none" };
@@ -1504,6 +1663,21 @@ function route() {
   if (parsed.kind === "construction") {
     const cx = state.db.constructionsById.get(parsed.id);
     if (cx) return renderConstruction(cx);
+  }
+
+  if (parsed.kind === "about") {
+  closePanel?.();
+  return renderAboutEntry();
+  }
+
+  if (parsed.kind === "suggest") {
+    closePanel?.();
+    return renderSuggestEntry();
+  }
+
+  if (parsed.kind === "suggest_thanks") {
+  closePanel?.();
+  return renderSuggestThanks();
   }
 
   if (parsed.kind === "search") {

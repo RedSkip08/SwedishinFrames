@@ -561,3 +561,61 @@ body{
   .logo{ width: 40px; height: 40px; border-radius: 12px; }
   .pill{ font-size: 12px; padding: 7px 10px; }
 }
+
+.suggest-form input,
+.suggest-form textarea,
+.suggest-form select{
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.12);
+  background: rgba(255,255,255,0.75);
+  font: inherit;
+}
+
+.suggest-form textarea{
+  resize: vertical;
+}
+
+.suggest-form input:focus,
+.suggest-form textarea:focus,
+.suggest-form select:focus{
+  outline: none;
+  border-color: rgba(0,0,0,0.25);
+}
+
+.footer-link{
+  color: var(--muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.footer-link:hover{
+  color: var(--text);
+}
+
+/* --- Mobile --- */
+@media (max-width: 520px){
+  .suggest-form input,
+  .suggest-form textarea,
+  .suggest-form select{
+    font-size: 16px;
+  }
+
+  .suggest-form textarea{
+    min-height: 96px;
+  }
+}
+
+/* iOS */
+.suggest-form input,
+.suggest-form textarea,
+.suggest-form select{
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.suggest-form button{
+  min-height: 44px;
+}
+
+
