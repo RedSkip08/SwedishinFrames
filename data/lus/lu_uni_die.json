@@ -1,0 +1,485 @@
+{
+  "lexical_unit": {
+    "id": "lu_uni_die",
+    "source_de": {
+      "lu_de_raw": "Uni, die",
+      "lu_de_normalized": "Uni",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "universitet",
+    "display_sv": "universitet",
+    "name_sv": "universitet",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "ett universitet",
+      "universitetet",
+      "universitet",
+      "universiteten"
+    ],
+    "english_equivalent_en": "university",
+    "morphology_sv": {
+      "noun": {
+        "gender": "ett",
+        "indef_sg": "universitet",
+        "def_sg": "universitetet",
+        "indef_pl": "universitet",
+        "def_pl": "universiteten",
+        "note_en": "Neuter noun; singular and plural indefinite are the same form."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "universitetsstudent",
+        "type_en": "noun",
+        "meaning_en": "university student"
+      },
+      {
+        "word": "universitetslärare",
+        "type_en": "noun",
+        "meaning_en": "university teacher/lecturer"
+      },
+      {
+        "word": "universitetsutbildning",
+        "type_en": "noun",
+        "meaning_en": "university education"
+      },
+      {
+        "word": "universitetsstad",
+        "type_en": "noun",
+        "meaning_en": "university town/city"
+      },
+      {
+        "word": "universitetskurs",
+        "type_en": "noun",
+        "meaning_en": "university course"
+      }
+    ],
+    "synonyms_sv": [
+      "lärosäte",
+      "högskola"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_uni_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_uni_die:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a place for higher education and research, where people study and get degrees",
+        "how_to_use_en": [
+          "Use for the institution where someone studies or works.",
+          "Often used with a name: e.g. Uppsala universitet.",
+          "Common with prepositions like vid (“at”)."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "studera vid [Institution]",
+            "meaning_en": "study at a university",
+            "note_en": "Very common with named universities."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "anställd som [yrke] vid [Institution]",
+            "meaning_en": "work at a university",
+            "note_en": "Used for jobs connected to the university."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "professor i [Subject] vid [Institution]",
+            "meaning_en": "professor in a subject at a university",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "en institution vid [Institution]",
+            "meaning_en": "a department at a university",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "från universitet till universitet",
+            "meaning_en": "from one university to another",
+            "note_en": "Fixed repetition pattern for moving between institutions."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using en universitet.",
+            "fix": "Use ett universitet.",
+            "explain_en": "Universitet is a neuter (ett) noun."
+          },
+          {
+            "error": "Mixing up universitet and högskola.",
+            "fix": "Use universitet for a university; högskola can mean college/university college.",
+            "explain_en": "In Swedish, högskola is related but not always the same type of institution."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "129af9106ee71853cde176800b5b8ae2419fc835",
+            "sv": "Han studerade vid Visby läroverk och vid Uppsala universitet från 1832.",
+            "en": "He studied at Visby secondary school and at Uppsala University from 1832.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Visby läroverk"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Uppsala universitet"
+              }
+            ],
+            "gloss": "university",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Carl Johan Laurin",
+              "text_url": "https://sv.wikipedia.org/wiki/Carl_Johan_Laurin",
+              "sentence_id": "2202e5f0",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"universitet\"]"
+            }
+          },
+          {
+            "ex_id": "aab0ed01d099ce03603e0e98650d2f2eaf35ef75",
+            "sv": "Hon studerade vid Uppsala universitet och tog en filosofie kandidatexamen 1954.",
+            "en": "She studied at Uppsala University and took a Bachelor of Arts degree in 1954.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Uppsala universitet"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "en filosofie kandidatexamen"
+              }
+            ],
+            "gloss": "university",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Monica Boëthius",
+              "text_url": "https://sv.wikipedia.org/wiki/Monica_Bo%C3%ABthius",
+              "sentence_id": "4baa0e80",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"universitet\"]"
+            }
+          },
+          {
+            "ex_id": "457b3806763b6c13936ca6248dd9d193eedbfeb3",
+            "sv": "Han är civilingenjör och är anställd som forskningsassistent vid Umeå universitet.",
+            "en": "He is a Master of Science in Engineering and is employed as a research assistant at Umeå University.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Umeå universitet"
+              }
+            ],
+            "gloss": "university",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tor Troéng",
+              "text_url": "https://sv.wikipedia.org/wiki/Tor_Tro%C3%A9ng",
+              "sentence_id": "52648fb2",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"universitet\"]"
+            }
+          },
+          {
+            "ex_id": "b1e329b7a96859f890674180216b620a4db8ad62",
+            "sv": "Senare blev han professor i fonetik vid Umeå universitet (1969 – 1988).",
+            "en": "Later he became a professor of phonetics at Umeå University (1969–1988).",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Umeå universitet"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "fonetik"
+              }
+            ],
+            "gloss": "university",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Claes-Christian Elert",
+              "text_url": "https://sv.wikipedia.org/wiki/Claes-Christian_Elert",
+              "sentence_id": "0836721b",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"universitet\"]"
+            }
+          },
+          {
+            "ex_id": "f2ec7d9e05ebc0756657e9f978907096cccb26c8",
+            "sv": "Institutionen för tillämpad informationsteknologi (ITIT) är en institution vid Göteborgs universitet.",
+            "en": "The Department of Applied Information Technology (ITIT) is a department at the University of Gothenburg.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Göteborgs universitet"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "tillämpad informationsteknologi"
+              }
+            ],
+            "gloss": "university",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Institutionen för tillämpad informationsteknologi (Göteborgs universitet)",
+              "text_url": "https://sv.wikipedia.org/wiki/Institutionen_f%C3%B6r_till%C3%A4mpad_informationsteknologi_(G%C3%B6teborgs_universitet)",
+              "sentence_id": "cbfeb291",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"universitet\"]"
+            }
+          },
+          {
+            "ex_id": "40da213e7f775da11e3cbd2b2b060a2dd35ae4b5",
+            "sv": "Efter ekonomistudier vid Stockholms universitet blev Törnqvist lärling vid oljeföretaget BP.",
+            "en": "After economics studies at Stockholm University, Törnqvist became an apprentice at the oil company BP.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Stockholms universitet"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "ekonomistudier"
+              }
+            ],
+            "gloss": "university",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Torbjörn Törnqvist",
+              "text_url": "https://sv.wikipedia.org/wiki/Torbj%C3%B6rn_T%C3%B6rnqvist",
+              "sentence_id": "2015397c",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"universitet\"]"
+            }
+          },
+          {
+            "ex_id": "ad49db4d5f8c6466755eb3e5332c89aa276924b0",
+            "sv": "Han tvingas flytta från universitet till universitet och stannar aldrig någon längre tid.",
+            "en": "He is forced to move from university to university and never stays for any longer time.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "universitet"
+              }
+            ],
+            "gloss": "university",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Månpalatset",
+              "text_url": "https://sv.wikipedia.org/wiki/M%C3%A5npalatset",
+              "sentence_id": "a26a82d6",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"universitet\"]"
+            }
+          },
+          {
+            "ex_id": "e989e4e90c1bef0c4f060874f40254d12d3c9e20",
+            "sv": "Framgångsrika alumner hjälper ibland sina gamla universitet med pengar och kontakter.",
+            "en": "Successful alumni sometimes help their old universities with money and contacts.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Framgångsrika alumner"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "sina gamla universitet"
+              }
+            ],
+            "gloss": "university",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Alumn",
+              "text_url": "https://sv.wikipedia.org/wiki/Alumn",
+              "sentence_id": "687b3fb3",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"universitet\"]"
+            }
+          },
+          {
+            "ex_id": "7ab660c7bcec854cf4fbaa4bb76e773283d856de",
+            "sv": "Antalet studentexamina och antalet studenter på universitet eller högskola ökade snabbt under 1950-talet.",
+            "en": "The number of student exams and the number of students at university or college increased quickly during the 1950s.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "studenter"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "universitet eller högskola"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "studentexamina"
+              }
+            ],
+            "gloss": "university",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Utbildning i Norrköping",
+              "text_url": "https://sv.wikipedia.org/wiki/Utbildning_i_Norrk%C3%B6ping",
+              "sentence_id": "6addaa51",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"universitet\"]"
+            }
+          },
+          {
+            "ex_id": "99ab39f509e34191260b8e25ba1a19ea026fbfa5",
+            "sv": "I Massachusetts finns flera av USA:s stora lärosäten, däribland ett flertal kända universitet.",
+            "en": "In Massachusetts there are several of the USA's large places of higher education, including a number of well-known universities.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "lärosäten"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "kända universitet"
+              }
+            ],
+            "gloss": "university",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Utbildning i Massachusetts",
+              "text_url": "https://sv.wikipedia.org/wiki/Utbildning_i_Massachusetts",
+              "sentence_id": "d8801bb4",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"universitet\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ʉnɪvɛrˈsɪteːt",
+      "stress_hint": "Stress is on the last part: -te-."
+    },
+    "morphology": {
+      "principal_parts": [
+        "universitet (indefinite singular)",
+        "universitetet (definite singular)",
+        "universitet (indefinite plural)",
+        "universiteten (definite plural)"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "lexical_unit": {
+    "id": "lu_putzen_die_zähne_putzen",
+    "source_de": {
+      "lu_de_raw": "putzen (die Zähne putzen)",
+      "lu_de_normalized": "putzen",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "borsta",
+    "display_sv": "borsta",
+    "name_sv": "borsta",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "borsta",
+      "borstar",
+      "borstade",
+      "borstat"
+    ],
+    "english_equivalent_en": "brush (teeth)",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "borsta",
+        "present": "borstar",
+        "past": "borstade",
+        "supine": "borstat",
+        "imperative": "borsta",
+        "present_participle": "borstande",
+        "past_participle": "borstad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "tandborste",
+        "type_en": "noun",
+        "meaning_en": "toothbrush"
+      },
+      {
+        "word": "tandkräm",
+        "type_en": "noun",
+        "meaning_en": "toothpaste"
+      },
+      {
+        "word": "tandborstning",
+        "type_en": "noun",
+        "meaning_en": "toothbrushing"
+      },
+      {
+        "word": "borstning",
+        "type_en": "noun",
+        "meaning_en": "brushing (the action)"
+      },
+      {
+        "word": "borste",
+        "type_en": "noun",
+        "meaning_en": "brush"
+      }
+    ],
+    "synonyms_sv": [
+      "rengöra",
+      "skrubba",
+      "gnugga"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_putzen_die_zähne_putzen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_putzen_die_zähne_putzen:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "clean a body part by brushing, especially teeth.",
+        "how_to_use_en": [
+          "Often used with a body part as object: borsta tänderna.",
+          "You can add tools/medium with med: med tandborste och tandkräm."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "borsta + Patient",
+            "meaning_en": "brush a body part",
+            "note_en": "Most commonly: borsta tänderna."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "borsta + Patient + med + Instrument (och Medium)",
+            "meaning_en": "brush using a tool/medium",
+            "note_en": "E.g. med tandborste och tandkräm."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *borsta* without an object when you mean teeth.",
+            "fix": "Say: borsta tänderna.",
+            "explain_en": "In this sense, the object (what you brush) is normally stated."
+          },
+          {
+            "error": "Mixing up med (tool/medium) and object.",
+            "fix": "borsta tänderna med tandborste och tandkräm.",
+            "explain_en": "The body part is the direct object; the tool/medium comes with med."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "132cbc497bde1eb3fc6a18abf68d52d574d22bc7",
+            "sv": "Det är ett komplement till att borsta tänderna med tandborste och tandkräm.",
+            "en": "It is a complement to brushing your teeth with a toothbrush and toothpaste.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "tänderna"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tandborste"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tandkräm"
+              }
+            ],
+            "gloss": "borsta = brush (teeth)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Fluorsköljning",
+              "text_url": "https://sv.wikipedia.org/wiki/Fluorsk%C3%B6ljning",
+              "sentence_id": "2f7a7faa",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          },
+          {
+            "ex_id": "614b7fd129507c0d3ab77ba9b9b34af963cd6cf1",
+            "sv": "För att undvika parodontit skall man dagligen borsta tänderna och använda tandtråd.",
+            "en": "To avoid periodontitis, you should brush your teeth daily and use dental floss.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "man"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "tänderna"
+              }
+            ],
+            "gloss": "borsta = brush (teeth)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Parodontit",
+              "text_url": "https://sv.wikipedia.org/wiki/Parodontit",
+              "sentence_id": "b398e0e4",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          },
+          {
+            "ex_id": "051f29c5dc0bb17f548ff54c02e06e6994617ad6",
+            "sv": "Även tandkliniker använder sig av tandtroll som ett verktyg för att barn ska borsta tänderna.",
+            "en": "Dental clinics also use tooth trolls as a tool so that children will brush their teeth.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "barn"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "tänderna"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tandtroll"
+              }
+            ],
+            "gloss": "borsta = brush (teeth)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tandtroll",
+              "text_url": "https://sv.wikipedia.org/wiki/Tandtroll",
+              "sentence_id": "76ff9c5e",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          },
+          {
+            "ex_id": "f4bbcce577a7341e0f3dd433eb2036f840649f66",
+            "sv": "Dålig andedräkt kan motverkas genom att borsta tänderna, suga på zinkpastiller eller använda munspray.",
+            "en": "Bad breath can be counteracted by brushing your teeth, sucking on zinc lozenges, or using mouth spray.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "tänderna"
+              }
+            ],
+            "gloss": "borsta = brush (teeth)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Dålig andedräkt",
+              "text_url": "https://sv.wikipedia.org/wiki/D%C3%A5lig_andedr%C3%A4kt",
+              "sentence_id": "9ee2f8a8",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          },
+          {
+            "ex_id": "e9e3a06e5aff1cee0a2044c511f30b70ba4b9497",
+            "sv": "Alfons kommer sedan på att han glömt att borsta tänderna, och går upp för att göra det.",
+            "en": "Alfons then remembers that he forgot to brush his teeth, and goes up to do it.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "tänderna"
+              }
+            ],
+            "gloss": "borsta = brush (teeth)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "God natt, Alfons Åberg",
+              "text_url": "https://sv.wikipedia.org/wiki/God_natt,_Alfons_%C3%85berg",
+              "sentence_id": "bb0447a6",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          },
+          {
+            "ex_id": "d3226a8da3de278191852d25907cee07d3f2df2f",
+            "sv": "Den har ofta visats i såväl norska som svenska skolor för att förmå barn att borsta tänderna ordentligt.",
+            "en": "It has often been shown in both Norwegian and Swedish schools to get children to brush their teeth properly.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "barn"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "tänderna"
+              }
+            ],
+            "gloss": "borsta = brush (teeth)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Karius och Baktus (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Karius_och_Baktus_(film)",
+              "sentence_id": "ab5fae3a",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          },
+          {
+            "ex_id": "c91740ce32d1ecb4efa6c24449f94ace43481917",
+            "sv": "Exempel: • Man talar om för barn att de ska borsta tänderna för att slippa tandtroll.",
+            "en": "Example: People tell children that they should brush their teeth to avoid tooth trolls.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "barn"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "tänderna"
+              }
+            ],
+            "gloss": "borsta = brush (teeth)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Förstärkning (psykologi)",
+              "text_url": "https://sv.wikipedia.org/wiki/F%C3%B6rst%C3%A4rkning_(psykologi)",
+              "sentence_id": "409d4fe0",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈbɔrsta",
+      "stress_hint": "Stress on the first syllable: BOR-sta.",
+      "audio": {
+        "file": "audio/lu_putzen_die_zähne_putzen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "borsta",
+        "borstar",
+        "borstade",
+        "borstat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

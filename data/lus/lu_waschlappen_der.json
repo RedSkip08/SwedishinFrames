@@ -1,0 +1,140 @@
+{
+  "lexical_unit": {
+    "id": "lu_waschlappen_der",
+    "source_de": {
+      "lu_de_raw": "Waschlappen, der",
+      "lu_de_normalized": "Waschlappen",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "tvättlapp",
+    "display_sv": "tvättlapp",
+    "name_sv": "tvättlapp",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "tvättlapp",
+      "tvättlappen",
+      "tvättlappar",
+      "tvättlapparna"
+    ],
+    "english_equivalent_en": "washcloth",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "tvättlapp",
+        "def_sg": "tvättlappen",
+        "indef_pl": "tvättlappar",
+        "def_pl": "tvättlapparna",
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "tvättlappspaket",
+        "type_en": "noun",
+        "meaning_en": "a pack of washcloths"
+      },
+      {
+        "word": "tvättlappar",
+        "type_en": "noun",
+        "meaning_en": "washcloths (plural form)"
+      },
+      {
+        "word": "tvättlapp i frotté",
+        "type_en": "other",
+        "meaning_en": "a terry washcloth"
+      },
+      {
+        "word": "tvättlapp för ansiktet",
+        "type_en": "other",
+        "meaning_en": "a washcloth for the face"
+      }
+    ],
+    "synonyms_sv": [
+      "tvättduk",
+      "tvättsvamp"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_waschlappen_der:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_waschlappen_der:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "a small cloth used to wash the body or face",
+        "how_to_use_en": [
+          "Use it for washing skin with water (often with soap).",
+          "Common in the bathroom; often used for face or body."
+        ],
+        "patterns": [],
+        "common_errors_en": [
+          {
+            "error": "Using tvättlapp for a towel (handduk).",
+            "fix": "Say handduk for a towel; tvättlapp is a small washing cloth.",
+            "explain_en": "A tvättlapp is for washing; a handduk is mainly for drying."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": []
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈtvɛtːlapː",
+      "stress_hint": "Stress on the first part: TVÄTT-lapp.",
+      "audio": {
+        "file": "audio/lu_waschlappen_der.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "tvättlapp",
+        "tvättlappen",
+        "tvättlappar",
+        "tvättlapparna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "lexical_unit": {
+    "id": "lu_kamm_der",
+    "source_de": {
+      "lu_de_raw": "Kamm, der",
+      "lu_de_normalized": "Kamm",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "kam",
+    "display_sv": "kam",
+    "name_sv": "kam",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "en kam",
+      "kammen",
+      "kammar",
+      "kammarna"
+    ],
+    "english_equivalent_en": "comb",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "kam",
+        "def_sg": "kammen",
+        "indef_pl": "kammar",
+        "def_pl": "kammarna",
+        "note_en": "A common tool for hair; plural is often used for different types of combs."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "hårkam",
+        "type_en": "noun",
+        "meaning_en": "comb for hair"
+      },
+      {
+        "word": "finkam",
+        "type_en": "noun",
+        "meaning_en": "fine-toothed comb"
+      },
+      {
+        "word": "grovkam",
+        "type_en": "noun",
+        "meaning_en": "wide-toothed comb"
+      },
+      {
+        "word": "kamtag",
+        "type_en": "noun",
+        "meaning_en": "comb stroke; a pass with a comb"
+      },
+      {
+        "word": "kamma",
+        "type_en": "verb",
+        "meaning_en": "to comb (hair)"
+      }
+    ],
+    "synonyms_sv": [
+      "hårkam",
+      "kammad"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_kamm_der:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_kamm_der:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "a tool with teeth used to comb hair or arrange something like hair",
+        "how_to_use_en": [
+          "Use it for grooming hair: dra en kam genom håret.",
+          "Often appears with verbs like använda, dra, fästa (i håret) and with hjälp av."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "använda en kam",
+            "meaning_en": "use a comb",
+            "note_en": "Often with other tools listed together."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "en kam som dras genom [håret]",
+            "meaning_en": "a comb pulled through hair",
+            "note_en": "Describes how the comb is used."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "med hjälp av ... kam ...",
+            "meaning_en": "with the help of a comb",
+            "note_en": "Common in explanations/instructions."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "fästas i [håret] med ... kam",
+            "meaning_en": "attach in hair with a comb",
+            "note_en": "Kam can be used as a fastening piece in hair accessories."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using ett: *ett kam*",
+            "fix": "Use en: en kam",
+            "explain_en": "Kam is an en-word (common gender)."
+          },
+          {
+            "error": "Confusing kam (comb) with kam (ridge/crest) in other contexts",
+            "fix": "In grooming contexts, kam means the hair tool",
+            "explain_en": "Swedish kam can also mean a ridge/crest, but the examples here are about grooming tools."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "f8955d9f0a0f6ca60c4a29b8b1293aa2682711cc",
+            "sv": "För att skapa frisyren används en kam som dras genom håret.",
+            "en": "To create the hairstyle, a comb is used that is pulled through the hair.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "en kam"
+              },
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "håret"
+              }
+            ],
+            "gloss": "comb (tool for grooming hair)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Backslick",
+              "text_url": "https://sv.wikipedia.org/wiki/Backslick",
+              "sentence_id": "6098bdec",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kam\"]"
+            }
+          },
+          {
+            "ex_id": "d06ca952524cf2922fb81a51ba8068fa6a187cba",
+            "sv": "Hårklippning är nedkortning av huvudhår och med hjälp av redskap som sax, kam och hårtrimmer.",
+            "en": "Hair cutting is shortening of head hair and with the help of tools like scissors, a comb and a hair trimmer.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "huvudhår"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "sax, kam och hårtrimmer"
+              }
+            ],
+            "gloss": "comb (tool used for grooming/cutting hair)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hårklippning",
+              "text_url": "https://sv.wikipedia.org/wiki/H%C3%A5rklippning",
+              "sentence_id": "4f5bd9ce",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kam\"]"
+            }
+          },
+          {
+            "ex_id": "0acdc1642142627b7a86e074ed60cd71ffe9151d",
+            "sv": "I väskan har förvarats sax alternativt en kam (tillverkad av horn).",
+            "en": "In the bag, scissors or a comb (made of horn) have been stored.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "en kam"
+              }
+            ],
+            "gloss": "comb (grooming tool)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bältesväska",
+              "text_url": "https://sv.wikipedia.org/wiki/B%C3%A4ltesv%C3%A4ska",
+              "sentence_id": "6e46c609",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kam\"]"
+            }
+          },
+          {
+            "ex_id": "20989d6326f8e4e782bbf7ba4b35d0ea704a46b8",
+            "sv": "Den kan ha en minihatt som botten, eller fästas i håret med till exempel kam.",
+            "en": "It can have a mini hat as a base, or be attached in the hair with, for example, a comb.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "håret"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "kam"
+              }
+            ],
+            "gloss": "comb (used to fix something in the hair)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Coiffe",
+              "text_url": "https://sv.wikipedia.org/wiki/Coiffe",
+              "sentence_id": "7ab93d7f",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kam\"]"
+            }
+          },
+          {
+            "ex_id": "45909262b2a2afa3ac1b153f524f02da6eb756b5",
+            "sv": "Kalle tar därför fram en kam och kammar en väg genom gräset så att bollen inte kan missa hålet.",
+            "en": "Kalle therefore takes out a comb and combs a path through the grass so that the ball cannot miss the hole.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "Kalle"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "en kam"
+              }
+            ],
+            "gloss": "comb (used like a tool; not for hair here)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kalle Anka spelar golf",
+              "text_url": "https://sv.wikipedia.org/wiki/Kalle_Anka_spelar_golf",
+              "sentence_id": "637840b5",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kam\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "kɑmː",
+      "stress_hint": "Long m-sound: kamm.",
+      "audio": {
+        "file": "audio/lu_kamm_der.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "kam – kammen – kammar – kammarna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

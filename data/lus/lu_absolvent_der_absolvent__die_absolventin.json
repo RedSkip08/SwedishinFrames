@@ -1,0 +1,508 @@
+{
+  "lexical_unit": {
+    "id": "lu_absolvent_der_absolvent__die_absolventin",
+    "source_de": {
+      "lu_de_raw": "Absolvent: der Absolvent / die Absolventin",
+      "lu_de_normalized": "Absolvent",
+      "gender_variants_de": [
+        "der Absolvent",
+        "die Absolventin"
+      ],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "utexaminerad",
+    "display_sv": "utexaminerad",
+    "name_sv": "utexaminerad",
+    "pos": "adjective",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "utexaminerad",
+      "utexaminerat",
+      "utexaminerade"
+    ],
+    "english_equivalent_en": "graduated",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": "utexaminerad",
+        "comparative": null,
+        "superlative": null,
+        "neuter": "utexaminerat",
+        "plural_def": "utexaminerade"
+      },
+      "note_en": "Often used as a past-participle adjective about someone who has completed an education."
+    },
+    "derived_words_sv": [
+      {
+        "word": "utexaminera",
+        "type_en": "verb",
+        "meaning_en": "award a degree; graduate someone"
+      },
+      {
+        "word": "utexaminering",
+        "type_en": "noun",
+        "meaning_en": "graduation; awarding of a degree"
+      },
+      {
+        "word": "utexaminerad ingenjör",
+        "type_en": "other",
+        "meaning_en": "a graduated engineer"
+      },
+      {
+        "word": "utexaminerad från",
+        "type_en": "other",
+        "meaning_en": "graduated from (an institution)"
+      }
+    ],
+    "synonyms_sv": [
+      "examinerad",
+      "färdigutbildad",
+      "utbildad"
+    ],
+    "antonyms_sv": [
+      "oexaminerad"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_absolvent_der_absolvent__die_absolventin:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_absolvent_der_absolvent__die_absolventin:1",
+        "frame_id": "frame_education",
+        "meaning_en": "having finished an education and received a degree or qualification",
+        "how_to_use_en": [
+          "Use about a person after completing a program or degree.",
+          "Common with a year and/or an institution (från/på).",
+          "Can be followed by a qualification (e.g., tandläkare, doktor)."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X är utexaminerad (årtal) från Y",
+            "meaning_en": "X graduated from Y",
+            "note_en": "Often used in biographies with a year."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "X blev utexaminerad från Y",
+            "meaning_en": "X graduated from Y",
+            "note_en": "Uses blev to mark the graduation event."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "X är/blev utexaminerad som Z",
+            "meaning_en": "X graduated as Z",
+            "note_en": "Z is a qualification/professional title."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "X blev utexaminerad Z",
+            "meaning_en": "X graduated as Z",
+            "note_en": "Z is a qualification; no preposition is used."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "X blev utexaminerad från Y med Z som huvudämne",
+            "meaning_en": "graduated with Z as major",
+            "note_en": "Adds the main subject/major after med."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *utexaminerad* for someone still studying.",
+            "fix": "Use *student* or *studerande* instead.",
+            "explain_en": "Utexaminerad implies the education is completed."
+          },
+          {
+            "error": "Forgetting adjective agreement: *ett barn är utexaminerad*.",
+            "fix": "Say: *ett barn är utexaminerat*.",
+            "explain_en": "Use -t in neuter (ett) and -e in plural/definite."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "b5c95732cca1754a8265eec0ec202b48c623b7ec",
+            "sv": "Reichard är civilingenjör inom energi och miljö utexaminerad 2018 från KTH.",
+            "en": "Reichard is a Master of Science in Engineering in energy and environment, graduated in 2018 from KTH.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Reichard"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "civilingenjör"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "energi och miljö"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "KTH"
+              }
+            ],
+            "gloss": "graduated",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Maja Reichard",
+              "text_url": "https://sv.wikipedia.org/wiki/Maja_Reichard",
+              "sentence_id": "4d875d48",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"utexaminerad\"]"
+            }
+          },
+          {
+            "ex_id": "32cdf0ee7fa57f65d45abdab6165aaf98ebbb54b",
+            "sv": "Hon blev utexaminerad från kameralinjen på Konstindustriella läroverket (Ateneum) år 1970.",
+            "en": "She graduated from the camera program at the Konstindustriella läroverket (Ateneum) in 1970.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "kameralinjen"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Konstindustriella läroverket (Ateneum)"
+              }
+            ],
+            "gloss": "graduated",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Anki Lindquist",
+              "text_url": "https://sv.wikipedia.org/wiki/Anki_Lindquist",
+              "sentence_id": "a22cf778",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"utexaminerad\"]"
+            }
+          },
+          {
+            "ex_id": "5e29e057d1a33540cdc04992e766de8bf21251b9",
+            "sv": "År 1970 blev Hirono utexaminerad från University of Hawaii med psykologi som huvudämne.",
+            "en": "In 1970 Hirono graduated from the University of Hawaii with psychology as the main subject.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Hirono"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "University of Hawaii"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "psykologi"
+              }
+            ],
+            "gloss": "graduated",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mazie Hirono",
+              "text_url": "https://sv.wikipedia.org/wiki/Mazie_Hirono",
+              "sentence_id": "40923cf7",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"utexaminerad\"]"
+            }
+          },
+          {
+            "ex_id": "38050baef7644f0b88bd521826d1c914245cc93e",
+            "sv": "Razmyar är en utbildad kulturproducent och är utexaminerad från Humanistiska yrkeshögskolan.",
+            "en": "Razmyar is a trained cultural producer and has graduated from the Humanistiska yrkeshögskolan.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Razmyar"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "kulturproducent"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Humanistiska yrkeshögskolan"
+              }
+            ],
+            "gloss": "graduated",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Nasima Razmyar",
+              "text_url": "https://sv.wikipedia.org/wiki/Nasima_Razmyar",
+              "sentence_id": "4764164b",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"utexaminerad\"]"
+            }
+          },
+          {
+            "ex_id": "71d88f0c614a2a016201af7384c30a53c9088037",
+            "sv": "År 1987 blev De Sutter utexaminerad som doktor på Gent universitet.",
+            "en": "In 1987 De Sutter graduated as a doctor at Ghent University.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "De Sutter"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "doktor"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Gent universitet"
+              }
+            ],
+            "gloss": "graduated",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Petra De Sutter",
+              "text_url": "https://sv.wikipedia.org/wiki/Petra_De_Sutter",
+              "sentence_id": "5e7c8eb9",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"utexaminerad\"]"
+            }
+          },
+          {
+            "ex_id": "3bf8f997f3369a830b2a813f9e5636bd48664c40",
+            "sv": "Korte är utexaminerad från Helsingfors universitet som magister i teologi år 1989.",
+            "en": "Korte graduated from the University of Helsinki as a Master of Theology in 1989.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Korte"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Helsingfors universitet"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "magister i teologi"
+              }
+            ],
+            "gloss": "graduated",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Juhani Korte",
+              "text_url": "https://sv.wikipedia.org/wiki/Juhani_Korte",
+              "sentence_id": "cb6182e3",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"utexaminerad\"]"
+            }
+          },
+          {
+            "ex_id": "3ab98de989693ee7ed41e790b1a2bfd7fd0fbbee",
+            "sv": "Dvořák blev utexaminerad från orgelskolan 1859 som näst bäst i sin kull.",
+            "en": "Dvořák graduated from the organ school in 1859 as the second best in his class.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Dvořák"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "orgelskolan"
+              }
+            ],
+            "gloss": "graduated",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Antonín Dvořák",
+              "text_url": "https://sv.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k",
+              "sentence_id": "db388da1",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"utexaminerad\"]"
+            }
+          },
+          {
+            "ex_id": "47658e287f724217e3d6cd146d588b1960c1f973",
+            "sv": "Jan Rydh var civilekonom, utexaminerad från Handelshögskolan i Stockholm 1962.",
+            "en": "Jan Rydh was a business economist, graduated from the Stockholm School of Economics in 1962.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Jan Rydh"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "civilekonom"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Handelshögskolan i Stockholm"
+              }
+            ],
+            "gloss": "graduated",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jan Rydh",
+              "text_url": "https://sv.wikipedia.org/wiki/Jan_Rydh",
+              "sentence_id": "b04e2d6a",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"utexaminerad\"]"
+            }
+          },
+          {
+            "ex_id": "a0df607912594d2cf8c9fde9433f68b86ec824bc",
+            "sv": "Leif Panduro blev utexaminerad tandläkare 1947, och 1948 ingick han äktenskap med Esther Larsen.",
+            "en": "Leif Panduro graduated as a dentist in 1947, and in 1948 he married Esther Larsen.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Leif Panduro"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "tandläkare"
+              }
+            ],
+            "gloss": "graduated",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Leif Panduro",
+              "text_url": "https://sv.wikipedia.org/wiki/Leif_Panduro",
+              "sentence_id": "8cb339ec",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"utexaminerad\"]"
+            }
+          },
+          {
+            "ex_id": "8b9c8a8bd497f77b4cc6372defbed492a91e9294",
+            "sv": "Berg är utexaminerad 2002 från Konstindustriella högskolan i Helsingfors (nu Aalto-universitetet).",
+            "en": "Berg graduated in 2002 from the Konstindustriella högskolan in Helsinki (now Aalto University).",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Berg"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Konstindustriella högskolan i Helsingfors (nu Aalto-universitetet)"
+              }
+            ],
+            "gloss": "graduated",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hans-Christian Berg",
+              "text_url": "https://sv.wikipedia.org/wiki/Hans-Christian_Berg",
+              "sentence_id": "908cabba",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"utexaminerad\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ʉːtɛkˈsɑːmɪnɛrad",
+      "stress_hint": "Main stress is on -sam-."
+    },
+    "morphology": {
+      "principal_parts": [
+        "utexaminerad",
+        "utexaminerat",
+        "utexaminerade"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "lexical_unit": {
+    "id": "lu_kurs_der",
+    "source_de": {
+      "lu_de_raw": "Kurs, der",
+      "lu_de_normalized": "Kurs",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "kurs",
+    "display_sv": "kurs",
+    "name_sv": "kurs",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "en kurs",
+      "kursen",
+      "kurser",
+      "kurserna"
+    ],
+    "english_equivalent_en": "course (direction)",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "kurs",
+        "def_sg": "kursen",
+        "indef_pl": "kurser",
+        "def_pl": "kurserna",
+        "note_en": "In this sense it often appears in fixed phrases about travel and navigation."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "kursändring",
+        "type_en": "noun",
+        "meaning_en": "a change of course/direction"
+      },
+      {
+        "word": "kurslinje",
+        "type_en": "noun",
+        "meaning_en": "course line; planned route"
+      },
+      {
+        "word": "kursmål",
+        "type_en": "noun",
+        "meaning_en": "destination/target for the course"
+      },
+      {
+        "word": "kursavvikelse",
+        "type_en": "noun",
+        "meaning_en": "deviation from the course"
+      },
+      {
+        "word": "kursriktning",
+        "type_en": "noun",
+        "meaning_en": "direction of travel"
+      }
+    ],
+    "synonyms_sv": [
+      "riktning",
+      "färdriktning",
+      "väg"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_kurs_der:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_kurs_der:1",
+        "frame_id": "frame_education",
+        "meaning_en": "the direction a vehicle, person, or natural force moves in",
+        "how_to_use_en": [
+          "Use about travel/navigation: ships, vehicles, convoys, storms, rivers.",
+          "Often with verbs like sätta, ha, hålla, behålla and with mot + place."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "ha kurs + (väderstreck)",
+            "meaning_en": "head in a direction",
+            "note_en": "Often with a compass direction like norrut."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "sätta kurs mot + plats",
+            "meaning_en": "set course toward a place",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "med kurs mot + plats",
+            "meaning_en": "with a course toward a place",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "hålla + (adjektiv) kurs",
+            "meaning_en": "keep a (straight) course",
+            "note_en": "Often with rak or a compass adjective like västnordvästlig."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "behålla + X:s kurs",
+            "meaning_en": "maintain someone’s/its course",
+            "note_en": "Common with vehicles: fordonets kurs."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using kurs to mean a school class in these contexts.",
+            "fix": "Use kurs for direction here; use kurs/lektion/utbildning for studying contexts.",
+            "explain_en": "In the examples, kurs is about movement and navigation, not education."
+          },
+          {
+            "error": "Saying *kurs till* instead of kurs mot.",
+            "fix": "Prefer kurs mot + place.",
+            "explain_en": "The examples show mot to express the direction/goal."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "c83b9706afead9e210b1615123ac389f5cb1479b",
+            "sv": "Efter att först ha haft kurs norrut vänder han senare mot söder på grund av vädret.",
+            "en": "After first having a course northwards, he later turns south because of the weather.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "kurs"
+              }
+            ],
+            "gloss": "course (class)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Yñigo Ortiz de Retez",
+              "text_url": "https://sv.wikipedia.org/wiki/Y%C3%B1igo_Ortiz_de_Retez",
+              "sentence_id": "2b8a42f4",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "a56d53db09c67f2a3bb57d4081ffb50634771c96",
+            "sv": "Sedan Lima gått till botten satte livbåten kurs mot kusten, Guldkusten och Elfenbenskusten.",
+            "en": "After Lima sank, the lifeboat set a course toward the coast, the Gold Coast and the Ivory Coast.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "kurs"
+              }
+            ],
+            "gloss": "course (class)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "M/S Lima",
+              "text_url": "https://sv.wikipedia.org/wiki/M/S_Lima",
+              "sentence_id": "83c88a81",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "a9dae481d69d76b1db9e53bacf207b030f2674d8",
+            "sv": "Bagheera tar en motvillig Mowgli med sig på kurs mot Människobyn.",
+            "en": "Bagheera takes a reluctant Mowgli with him on a course toward the Human Village.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "kurs"
+              }
+            ],
+            "gloss": "course (class)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Djungelboken (film, 1967)",
+              "text_url": "https://sv.wikipedia.org/wiki/Djungelboken_(film,_1967)",
+              "sentence_id": "8917684f",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "39232d9cf938a4d766de63cea3664eb3b0bf6b8e",
+            "sv": "Han lämnade sedan Paramaribo den 12 oktober med kurs mot Barbados.",
+            "en": "He then left Paramaribo on 12 October with a course toward Barbados.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "kurs"
+              }
+            ],
+            "gloss": "course (class)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Robin Lee Graham",
+              "text_url": "https://sv.wikipedia.org/wiki/Robin_Lee_Graham",
+              "sentence_id": "2a5cfe82",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "2c0948882e47714c50d333b7ac2484d83e070565",
+            "sv": "Konvojen satte sedan kurs mot Wakeöarna och vidare mot Filippinerna och Borneo.",
+            "en": "The convoy then set a course toward the Wake Islands and further toward the Philippines and Borneo.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "kurs"
+              }
+            ],
+            "gloss": "course (class)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "United States Exploring Expedition",
+              "text_url": "https://sv.wikipedia.org/wiki/United_States_Exploring_Expedition",
+              "sentence_id": "63b9b977",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "85a5a945cfd7c6663dc7e03250a12a559ef8e5f8",
+            "sv": "Expeditionskåren avseglade från Härnösand den 15 augusti och satte kurs mot Ratan.",
+            "en": "The expedition corps sailed from Härnösand on 15 August and set a course toward Ratan.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "kurs"
+              }
+            ],
+            "gloss": "course (class)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Västerbottensexpeditionen",
+              "text_url": "https://sv.wikipedia.org/wiki/V%C3%A4sterbottensexpeditionen",
+              "sentence_id": "3611fd5b",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "41ba2cbe29514e6224f308fe49744853fb43a317",
+            "sv": "Stormen höll västnordvästlig kurs över Atlanten och nådde orkanstyrka 8 september.",
+            "en": "The storm kept a west-northwest course over the Atlantic and reached hurricane strength on 8 September.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "kurs"
+              }
+            ],
+            "gloss": "course (class)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Atlantiska orkansäsongen 2009",
+              "text_url": "https://sv.wikipedia.org/wiki/Atlantiska_orkans%C3%A4songen_2009",
+              "sentence_id": "dbfbb9c7",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "a0b62e78c472dd674fbba62f5a84e66d7d479eac",
+            "sv": "I dessa lägen hjälper det inte att vrida mer på ratten för att behålla fordonets kurs.",
+            "en": "In these situations it does not help to turn the steering wheel more to keep the vehicle's course.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "kurs"
+              }
+            ],
+            "gloss": "course (class)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Elektronisk stabilitetskontroll",
+              "text_url": "https://sv.wikipedia.org/wiki/Elektronisk_stabilitetskontroll",
+              "sentence_id": "704477f1",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "77905f9067ecd10039f39bfaf68640782e404202",
+            "sv": "Den använde gyron för att hålla rak kurs tills den upptäckte en ljudkälla att anfalla.",
+            "en": "It used gyros to keep a straight course until it discovered a sound source to attack.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "kurs"
+              }
+            ],
+            "gloss": "course (class)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mark 37 (torped)",
+              "text_url": "https://sv.wikipedia.org/wiki/Mark_37_(torped)",
+              "sentence_id": "70bb6fd0",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "177f89027e97296ddd95e5411656c957823b473c",
+            "sv": "Genom flodens kurs, delas Uruguay upp i en nordlig och en sydlig del.",
+            "en": "Through the river's course, Uruguay is divided into a northern and a southern part.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "kurs"
+              }
+            ],
+            "gloss": "course (class)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Río Negro, Uruguay",
+              "text_url": "https://sv.wikipedia.org/wiki/R%C3%ADo_Negro,_Uruguay",
+              "sentence_id": "b6debe64",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "/kɵʂ/",
+      "stress_hint": "One syllable; the vowel is like Swedish u in “full”."
+    },
+    "morphology": {
+      "principal_parts": [
+        "kurs",
+        "kursen",
+        "kurser",
+        "kurserna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

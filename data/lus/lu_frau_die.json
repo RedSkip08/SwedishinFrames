@@ -5,7 +5,7 @@
       "lu_de_raw": "Frau, die",
       "lu_de_normalized": "Frau",
       "gender_variants_de": [],
-      "pos_de": ""
+      "pos_de": "noun"
     },
     "lu_type": "single",
     "lemma_sv": "hustru",
@@ -32,7 +32,7 @@
         "def_sg": "hustrun",
         "indef_pl": "hustrur",
         "def_pl": "hustrurna",
-        "note_en": "Often used in more formal or written contexts (e.g., biographies)."
+        "note_en": "Often used in a slightly formal style, especially in writing."
       },
       "verb": {
         "infinitive": null,
@@ -60,9 +60,9 @@
         "meaning_en": "wife abuse; domestic violence against a wife"
       },
       {
-        "word": "hustrutillägg",
+        "word": "hustrumördare",
         "type_en": "noun",
-        "meaning_en": "wife allowance (older term in benefits/pensions)"
+        "meaning_en": "person who kills their wife"
       },
       {
         "word": "hustruns",
@@ -74,88 +74,112 @@
       "fru",
       "maka"
     ],
-    "antonyms_sv": [
-      "make"
-    ],
+    "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_marriage",
+        "frame_name_en": "Marriage",
+        "frame_slug": "marriage",
         "sense_id": "lu_frau_die:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_frau_die:1",
-        "frame_id": "frame_personal_relationship",
-        "meaning_en": "a married woman, in relation to her spouse",
+        "frame_id": "frame_marriage",
+        "meaning_en": "a married woman in relation to her spouse; a wife",
         "how_to_use_en": [
-          "Use for someone’s wife, often in formal or written Swedish.",
-          "Common with possessives: hans/sin + hustru, or with a name after it."
+          "Use for a married woman, often in formal or written style.",
+          "Common with possessives: sin/hans/hennes + hustru, or with a name."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "X:s hustru (Namn)",
-            "meaning_en": "X’s wife (Name)",
-            "note_en": "Common in biographies: a person’s wife is named after the noun."
+            "pattern": "sin/hans/hennes + hustru (+ Namn)",
+            "meaning_en": "someone’s wife",
+            "note_en": "Very common in biographies and news-style writing."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "hans hustru",
-            "meaning_en": "his wife",
-            "note_en": ""
+            "pattern": "X:s hustru, Namn",
+            "meaning_en": "X’s wife (named)",
+            "note_en": "Genitive with -s is common with names: Dieulafoys hustru."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "sin hustru",
-            "meaning_en": "his/her own wife",
-            "note_en": "Sin refers back to the subject of the clause."
-          },
-          {
-            "pattern_id": "pat_4",
-            "pattern": "med hustru och (antal) barn",
-            "meaning_en": "with wife and children",
-            "note_en": ""
-          },
-          {
-            "pattern_id": "pat_5",
-            "pattern": "blivande hustru",
-            "meaning_en": "future wife",
-            "note_en": "Used for someone who will become a spouse later."
+            "pattern": "tredje + hustru (+ Namn)",
+            "meaning_en": "third wife",
+            "note_en": "Ordinal numbers can specify which marriage."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *hustru* for any female partner (not married).",
-            "fix": "Use *partner* or *flickvän* when not married.",
+            "error": "Using hustru for any female partner (not married).",
+            "fix": "Use partner/sambo/flickvän depending on the relationship.",
             "explain_en": "Hustru normally implies marriage."
           },
           {
-            "error": "Mixing up *hustru* and *make*.",
-            "fix": "*hustru* = wife; *make* = husband.",
-            "explain_en": "They are gender-specific spouse terms."
+            "error": "Mixing up sin and hans/hennes before hustru.",
+            "fix": "Use sin hustru when the subject owns the relation; otherwise hans/hennes hustru.",
+            "explain_en": "Sin refers back to the subject; hans/hennes refers to someone else."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "e672da3bb45879e7bc13db750d8f162fb071bdac",
-            "sv": "Han är son till skofabrikören Jaboub Zabounian och hans hustru Marie.",
-            "en": "He is the son of the shoe factory owner Jaboub Zabounian and his wife Marie.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "e38472dc029a3fad9c6dc5cf018411c630b8df84",
+            "sv": "Efter sin hustru Astrids bortgång 1981 bodde Hedlund kvar i villan på Lidingö.",
+            "en": "After his wife Astrid's death in 1981, Hedlund stayed living in the villa on Lidingö.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "skofabrikören Jaboub Zabounian"
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin hustru Astrid"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "hans hustru Marie"
+                "fe_id": "fe_event",
+                "span_sv": "bortgång"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1981"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "på Lidingö"
               }
             ],
-            "gloss": "wife",
+            "gloss": "hustru = wife",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gunnar Hedlund",
+              "text_url": "https://sv.wikipedia.org/wiki/Gunnar_Hedlund",
+              "sentence_id": "7168a008",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"hustru\"]"
+            }
+          },
+          {
+            "ex_id": "e672da3bb45879e7bc13db750d8f162fb071bdac",
+            "sv": "Han är son till skofabrikören Jaboub Zabounian och hans hustru Marie.",
+            "en": "He is the son of the shoe manufacturer Jaboub Zabounian and his wife Marie.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "hans hustru Marie"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "skofabrikören Jaboub Zabounian"
+              }
+            ],
+            "gloss": "hustru = wife",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -166,171 +190,7 @@
               "text_title": "Kévork Zabounian",
               "text_url": "https://sv.wikipedia.org/wiki/K%C3%A9vork_Zabounian",
               "sentence_id": "dd938fc2",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"hustru\"]"
-            }
-          },
-          {
-            "ex_id": "8a406029bab197ec470dcad8bac0d9bac68594a4",
-            "sv": "Författarens hustru är inte helt begeistrad över detta nytillskott till familjen.",
-            "en": "The author's wife is not completely pleased about this new addition to the family.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Författarens hustru"
-              }
-            ],
-            "gloss": "wife",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Livet med en idiot",
-              "text_url": "https://sv.wikipedia.org/wiki/Livet_med_en_idiot",
-              "sentence_id": "40755244",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"hustru\"]"
-            }
-          },
-          {
-            "ex_id": "7d504dd36b073237f6a95a920dee881acf07b70a",
-            "sv": "Han jobbade och bodde i den lilla stugan med hustru och sex barn.",
-            "en": "He worked and lived in the small cabin with his wife and six children.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "hustru"
-              }
-            ],
-            "gloss": "wife",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ulriksdals slotts smedja",
-              "text_url": "https://sv.wikipedia.org/wiki/Ulriksdals_slotts_smedja",
-              "sentence_id": "bd70cacb",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"hustru\"]"
-            }
-          },
-          {
-            "ex_id": "357ae88fae6d7083d0efdcd28f393b27c87b2a1f",
-            "sv": "Paul McCartney träffade sin blivande hustru Linda Eastman där den 15 maj 1967.",
-            "en": "Paul McCartney met his future wife Linda Eastman there on 15 May 1967.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Paul McCartney"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "sin blivande hustru Linda Eastman"
-              }
-            ],
-            "gloss": "wife",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "The Bag O'Nails",
-              "text_url": "https://sv.wikipedia.org/wiki/The_Bag_O%27Nails",
-              "sentence_id": "5dc6aee0",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"hustru\"]"
-            }
-          },
-          {
-            "ex_id": "5f844d0b14f43d53e81ceddffa634e8b9918a920",
-            "sv": "År 1836 avled hans hustru och även hon gravsattes i kapellet.",
-            "en": "In 1836 his wife died, and she was also buried in the chapel.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "hans hustru"
-              }
-            ],
-            "gloss": "wife",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Blistorps kapell",
-              "text_url": "https://sv.wikipedia.org/wiki/Blistorps_kapell",
-              "sentence_id": "6e49353c",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"hustru\"]"
-            }
-          },
-          {
-            "ex_id": "5383cc5f010ffe97124a0b49b9903fb2cfed3e0c",
-            "sv": "Med sig på podiet hade han ett fotografi av sin bortgångna hustru.",
-            "en": "With him on the stage he had a photograph of his deceased wife.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "sin bortgångna hustru"
-              }
-            ],
-            "gloss": "wife",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Matthias Steiner",
-              "text_url": "https://sv.wikipedia.org/wiki/Matthias_Steiner",
-              "sentence_id": "8e155d15",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"hustru\"]"
-            }
-          },
-          {
-            "ex_id": "33a9ca6e198824e3e40d24f40d8d4da327691c06",
-            "sv": "Månader tidigare hade hans hustru dött i en bilolycka, vilket åsamkade Woods depression.",
-            "en": "Months earlier his wife had died in a car accident, which caused Woods depression.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "hans hustru"
-              }
-            ],
-            "gloss": "wife",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ryan Woodie Wood",
-              "text_url": "https://sv.wikipedia.org/wiki/Ryan_Woodie_Wood",
-              "sentence_id": "438a3c28",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"hustru\"]"
             }
           },
@@ -338,18 +198,14 @@
             "ex_id": "c7a9d76667407c6d5194094773e8229c95810cb2",
             "sv": "Hans hustru saknade intresse och förståelse för hans dikter och han misstänkte henne för otrohet.",
             "en": "His wife lacked interest and understanding for his poems, and he suspected her of unfaithfulness.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_spouse_2",
                 "span_sv": "Hans hustru"
               }
             ],
-            "gloss": "wife",
+            "gloss": "hustru = wife",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -360,37 +216,41 @@
               "text_title": "Steen Steensen Blicher",
               "text_url": "https://sv.wikipedia.org/wiki/Steen_Steensen_Blicher",
               "sentence_id": "94c730bd",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"hustru\"]"
             }
           },
           {
-            "ex_id": "90fb4db8ea358fe993f19d704c53efa3b7767849",
-            "sv": "En dag återvänder Mundson från en resa med sin vackra och livfulla nya hustru, Gilda.",
-            "en": "One day Mundson returns from a trip with his beautiful and lively new wife, Gilda.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "8ed8c889fbe9e830999e5d3f82d7822fa9dd388d",
+            "sv": "1913 köptes det dock av Hugo Stinnes som gav det i gåva till sin hustru.",
+            "en": "In 1913 it was bought by Hugo Stinnes, who gave it as a gift to his wife.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Mundson"
+                "fe_id": "fe_time",
+                "span_sv": "1913"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "sin vackra och livfulla nya hustru, Gilda"
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Hugo Stinnes"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin hustru"
               }
             ],
-            "gloss": "wife",
-            "level": "B1",
+            "gloss": "hustru = wife",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Gilda",
-              "text_url": "https://sv.wikipedia.org/wiki/Gilda",
-              "sentence_id": "716c1ffa",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "text_title": "Asa herrgård",
+              "text_url": "https://sv.wikipedia.org/wiki/Asa_herrg%C3%A5rd",
+              "sentence_id": "c1facb67",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"hustru\"]"
             }
           },
@@ -398,14 +258,14 @@
             "ex_id": "3cde5372b673de2144b37272d16b32501bdee101",
             "sv": "Dieulafoys hustru, Jane Dieulafoy, var även hon en känd arkeolog.",
             "en": "Dieulafoy's wife, Jane Dieulafoy, was also a well-known archaeologist.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_spouse_2",
                 "span_sv": "Dieulafoys hustru, Jane Dieulafoy"
               }
             ],
-            "gloss": "wife",
+            "gloss": "hustru = wife",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -416,7 +276,165 @@
               "text_title": "Marcel Dieulafoy",
               "text_url": "https://sv.wikipedia.org/wiki/Marcel_Dieulafoy",
               "sentence_id": "19d02411",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"hustru\"]"
+            }
+          },
+          {
+            "ex_id": "33a9ca6e198824e3e40d24f40d8d4da327691c06",
+            "sv": "Månader tidigare hade hans hustru dött i en bilolycka, vilket åsamkade Woods depression.",
+            "en": "Months earlier his wife had died in a car accident, which caused Woods depression.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Månader tidigare"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "hans hustru"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "dött"
+              }
+            ],
+            "gloss": "hustru = wife",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ryan Woodie Wood",
+              "text_url": "https://sv.wikipedia.org/wiki/Ryan_Woodie_Wood",
+              "sentence_id": "438a3c28",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"hustru\"]"
+            }
+          },
+          {
+            "ex_id": "a1d00a3ca58d40d301dda2ea0e7bf3719ad17cd2",
+            "sv": "Han avled i en trafikolycka tillsammans med sin tredje hustru Marie.",
+            "en": "He died in a traffic accident together with his third wife Marie.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin tredje hustru Marie"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "avled"
+              }
+            ],
+            "gloss": "hustru = wife",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jacques Lusseyran",
+              "text_url": "https://sv.wikipedia.org/wiki/Jacques_Lusseyran",
+              "sentence_id": "398c7871",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"hustru\"]"
+            }
+          },
+          {
+            "ex_id": "5f844d0b14f43d53e81ceddffa634e8b9918a920",
+            "sv": "År 1836 avled hans hustru och även hon gravsattes i kapellet.",
+            "en": "In the year 1836 his wife died, and she was also buried in the chapel.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "År 1836"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "hans hustru"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "avled"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i kapellet"
+              }
+            ],
+            "gloss": "hustru = wife",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Blistorps kapell",
+              "text_url": "https://sv.wikipedia.org/wiki/Blistorps_kapell",
+              "sentence_id": "6e49353c",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"hustru\"]"
+            }
+          },
+          {
+            "ex_id": "5383cc5f010ffe97124a0b49b9903fb2cfed3e0c",
+            "sv": "Med sig på podiet hade han ett fotografi av sin bortgångna hustru.",
+            "en": "With him on the podium he had a photograph of his deceased wife.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_place",
+                "span_sv": "på podiet"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "sin bortgångna hustru"
+              }
+            ],
+            "gloss": "hustru = wife",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Matthias Steiner",
+              "text_url": "https://sv.wikipedia.org/wiki/Matthias_Steiner",
+              "sentence_id": "8e155d15",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"hustru\"]"
+            }
+          },
+          {
+            "ex_id": "8a406029bab197ec470dcad8bac0d9bac68594a4",
+            "sv": "Författarens hustru är inte helt begeistrad över detta nytillskott till familjen.",
+            "en": "The author's wife is not completely pleased about this new addition to the family.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "Författarens hustru"
+              }
+            ],
+            "gloss": "hustru = wife",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Livet med en idiot",
+              "text_url": "https://sv.wikipedia.org/wiki/Livet_med_en_idiot",
+              "sentence_id": "40755244",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"hustru\"]"
             }
           }
@@ -435,10 +453,7 @@
     },
     "morphology": {
       "principal_parts": [
-        "hustru (indefinite singular)",
-        "hustrun (definite singular)",
-        "hustrur (indefinite plural)",
-        "hustrurna (definite plural)"
+        "hustru – hustrun – hustrur – hustrurna"
       ],
       "particle_or_reflexive": null
     }

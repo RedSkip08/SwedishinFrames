@@ -3,7 +3,7 @@
     "id": "lu_bekannte_der_bekannte_ein_bekannter__die_eine_bekannte",
     "source_de": {
       "lu_de_raw": "Bekannte: der Bekannte, ein Bekannter / die, eine Bekannte",
-      "lu_de_normalized": "Bekannte(r)",
+      "lu_de_normalized": "Bekannte",
       "gender_variants_de": [
         "der Bekannte",
         "ein Bekannter",
@@ -36,7 +36,7 @@
         "def_sg": "bekanten",
         "indef_pl": "bekanta",
         "def_pl": "bekanta",
-        "note_en": "As a noun, bekant means a person you know (not necessarily a close friend)."
+        "note_en": "As a noun, bekant refers to a person you know (not necessarily a friend)."
       },
       "verb": {
         "infinitive": null,
@@ -61,86 +61,96 @@
       {
         "word": "bekantskap",
         "type_en": "noun",
-        "meaning_en": "acquaintance; the relationship of knowing someone"
+        "meaning_en": "acquaintance (relationship); also: contacts"
       },
       {
-        "word": "bekantskapskrets",
+        "word": "barndomsbekant",
+        "type_en": "noun",
+        "meaning_en": "someone you knew as a child"
+      },
+      {
+        "word": "gammal bekant",
+        "type_en": "other",
+        "meaning_en": "an old acquaintance"
+      },
+      {
+        "word": "nära bekant",
+        "type_en": "other",
+        "meaning_en": "a close acquaintance"
+      },
+      {
+        "word": "bekantkrets",
         "type_en": "noun",
         "meaning_en": "circle of acquaintances"
-      },
-      {
-        "word": "bekanta sig",
-        "type_en": "verb",
-        "meaning_en": "get acquainted; familiarize oneself"
-      },
-      {
-        "word": "obekant",
-        "type_en": "adjective",
-        "meaning_en": "unknown; unfamiliar"
       }
     ],
     "synonyms_sv": [
       "bekantskap",
-      "kännare",
-      "vän"
+      "kännare"
     ],
     "antonyms_sv": [
       "främling"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_friendship",
+        "frame_name_en": "Friendship",
+        "frame_slug": "friendship",
         "sense_id": "lu_bekannte_der_bekannte_ein_bekannter__die_eine_bekannte:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_bekannte_der_bekannte_ein_bekannter__die_eine_bekannte:1",
-        "frame_id": "frame_personal_relationship",
-        "meaning_en": "a person you know a little, but who is not a close friend",
+        "frame_id": "frame_friendship",
+        "meaning_en": "a person you know, but not a close friend",
         "how_to_use_en": [
-          "Use en bekant to talk about someone you know (often not very well).",
-          "Often used with till: en bekant till X.",
-          "For the relationship, use bekantskap."
+          "Use about someone you have met and know a little.",
+          "Often used with a possessor: en bekant till X / familjens bekant.",
+          "Add an adjective to show closeness or time: nära, gammal."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "en (gammal) bekant",
-            "meaning_en": "an (old) acquaintance",
+            "pattern": "träffa [Person], som är en (gammal) bekant",
+            "meaning_en": "meet someone who is an acquaintance",
             "note_en": "Often used when you meet someone you already know."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "en bekant till + person/NP",
-            "meaning_en": "an acquaintance of",
-            "note_en": "Shows whose acquaintance the person is."
+            "pattern": "en bekant till [Person]",
+            "meaning_en": "an acquaintance of someone",
+            "note_en": "Shows the connection via another person."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "vara bekant med + person/NP",
-            "meaning_en": "be acquainted with someone",
-            "note_en": "Describes an existing relationship of knowing someone."
+            "pattern": "[Någon] var en bekant från [Plats]",
+            "meaning_en": "an acquaintance from a place",
+            "note_en": "Adds where you know the person from."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "bli bekant med + person/NP",
-            "meaning_en": "get acquainted with someone",
-            "note_en": "Focuses on the start of knowing someone."
+            "pattern": "[Någon] var nära bekant med [Någon]",
+            "meaning_en": "be closely acquainted with",
+            "note_en": "This is a stronger relationship than just bekant."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "familjens bekant",
+            "meaning_en": "the family’s acquaintance",
+            "note_en": "Possessive form for a person known by a group."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using bekant as a noun when you mean “familiar” (about a place/thing).",
-            "fix": "Use bekant as an adjective for places/things, or use en bekant only for a person.",
-            "explain_en": "In the examples, bekant can be a noun (a person) or an adjective (familiar)."
+            "error": "Using bekant when you mean a close friend.",
+            "fix": "Use vän (or nära vän) for a real friend.",
+            "explain_en": "Bekant is weaker than vän and often means you only know the person."
           },
           {
-            "error": "Saying *en bekant med någon* for “an acquaintance with someone”.",
-            "fix": "Say en bekant till någon, or use the verb phrase vara/bli bekant med någon.",
-            "explain_en": "With a person as a noun, Swedish typically uses till; med is used in the verb phrase."
+            "error": "Mixing up noun bekant with adjective bekant ('familiar/known').",
+            "fix": "For the person, use en bekant; for 'familiar', use bekant as an adjective (e.g., en bekant plats).",
+            "explain_en": "The same word form can be a noun or an adjective; the article en often signals the noun."
           }
         ],
         "required_example_count": 10,
@@ -148,19 +158,27 @@
           {
             "ex_id": "564467da1fb79577b8a5728c3093f789ab62c3b3",
             "sv": "På tivoliplatsen träffar han Karin, som är en gammal bekant.",
-            "en": "At the amusement park area he meets Karin, who is an old acquaintance.",
-            "frame_id": "frame_personal_relationship",
+            "en": "At the fairground he meets Karin, who is an old acquaintance.",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_place",
+                "span_sv": "På tivoliplatsen"
+              },
+              {
+                "fe_id": "fe_friend_1",
                 "span_sv": "han"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_friend_2",
                 "span_sv": "Karin"
+              },
+              {
+                "fe_id": "fe_duration",
+                "span_sv": "gammal"
               }
             ],
-            "gloss": "bekant = acquaintance (a person you know)",
+            "gloss": "acquaintance",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -171,26 +189,26 @@
               "text_title": "Bränningar",
               "text_url": "https://sv.wikipedia.org/wiki/Br%C3%A4nningar",
               "sentence_id": "a3c8ef54",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
               "korp_query": "[word=\"bekant\"]"
             }
           },
           {
-            "ex_id": "54901ee35d1da8c71277ff2ab58a841ab8e4cb01",
-            "sv": "Familjen Peirce var nära bekant med familjen James som bodde i samma stadsdel.",
-            "en": "The Peirce family was closely acquainted with the James family who lived in the same district.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "39ead9f0b0d12e810b6b08e79837de04818a2665",
+            "sv": "Vergés och Riera var barndomsvänner och Cruells en bekant från grannbyn.",
+            "en": "Vergés and Riera were childhood friends, and Cruells was an acquaintance from the neighboring village.",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Familjen Peirce"
+                "fe_id": "fe_friend_1",
+                "span_sv": "Cruells"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "familjen James"
+                "fe_id": "fe_place",
+                "span_sv": "från grannbyn"
               }
             ],
-            "gloss": "vara bekant med = be acquainted with",
+            "gloss": "acquaintance",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -198,29 +216,29 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Charles Sanders Peirce",
-              "text_url": "https://sv.wikipedia.org/wiki/Charles_Sanders_Peirce",
-              "sentence_id": "bcc584ac",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "text_title": "Els Catarres",
+              "text_url": "https://sv.wikipedia.org/wiki/Els_Catarres",
+              "sentence_id": "7fb21e61",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
               "korp_query": "[word=\"bekant\"]"
             }
           },
           {
-            "ex_id": "32ed7492f4f0fa3988d2e3a6a87d3055bfd9decb",
-            "sv": "Hon var bekant med Madame Guyon, som omvände henne till kvietismen.",
-            "en": "She was acquainted with Madame Guyon, who converted her to quietism.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "e7b686a46c9546e5c958edfb41b73a4e9834806a",
+            "sv": "De behövde en sångare, så en bekant till Pete fick provspela, Joe Elliott.",
+            "en": "They needed a singer, so an acquaintance of Pete got to audition, Joe Elliott.",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Hon"
+                "fe_id": "fe_friend_1",
+                "span_sv": "en bekant"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Madame Guyon"
+                "fe_id": "fe_friend_2",
+                "span_sv": "Pete"
               }
             ],
-            "gloss": "vara bekant med = know / be acquainted with (a person)",
+            "gloss": "acquaintance",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -228,89 +246,25 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Marie de Brinon",
-              "text_url": "https://sv.wikipedia.org/wiki/Marie_de_Brinon",
-              "sentence_id": "840d1d4a",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "text_title": "Rick Savage",
+              "text_url": "https://sv.wikipedia.org/wiki/Rick_Savage",
+              "sentence_id": "f5aac369",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
               "korp_query": "[word=\"bekant\"]"
             }
           },
           {
-            "ex_id": "4ecfb562fb4d7bf677487fb145a9b89b52d020f0",
-            "sv": "Eva Bromée, Oves fästmö, anländer till badorten och blir bekant med Greta.",
-            "en": "Eva Bromée, Ove's fiancée, arrives at the resort and becomes acquainted with Greta.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "dae00a992e04ddfd3f122ac43c670fe0b7d8fc43",
+            "sv": "Sammankomsten avbryts emellertid hastigt då ett bud om hjälp från familjens bekant, Mari, ringer på dörren.",
+            "en": "However, the gathering is suddenly interrupted when a message asking for help from the family's acquaintance, Mari, rings the doorbell.",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Eva Bromée"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Greta"
+                "fe_id": "fe_friend_1",
+                "span_sv": "familjens bekant, Mari"
               }
             ],
-            "gloss": "bli bekant med = get to know (meet and become acquainted)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Falska Greta",
-              "text_url": "https://sv.wikipedia.org/wiki/Falska_Greta",
-              "sentence_id": "23aa9783",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"bekant\"]"
-            }
-          },
-          {
-            "ex_id": "d533df3426338a2e7f8dbe280945c9be640318d9",
-            "sv": "Han blev bekant med Edvard Grieg och flera av hans verk är dedicerade till denne.",
-            "en": "He became acquainted with Edvard Grieg and several of his works are dedicated to him.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Han"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Edvard Grieg"
-              }
-            ],
-            "gloss": "bli bekant med = become acquainted with",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Adolf Thomsen",
-              "text_url": "https://sv.wikipedia.org/wiki/Adolf_Thomsen",
-              "sentence_id": "ad921022",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"bekant\"]"
-            }
-          },
-          {
-            "ex_id": "9024e4323246f198024dc518135e323c2078af06",
-            "sv": "1872 flyttade Boldini till Paris där han bland annat blev bekant med Edgar Degas.",
-            "en": "In 1872 Boldini moved to Paris where he, among other things, became acquainted with Edgar Degas.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Boldini"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Edgar Degas"
-              }
-            ],
-            "gloss": "bli bekant med = get to know",
+            "gloss": "acquaintance",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -318,55 +272,33 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Giovanni Boldini",
-              "text_url": "https://sv.wikipedia.org/wiki/Giovanni_Boldini",
-              "sentence_id": "457df988",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "text_title": "Familjelycka",
+              "text_url": "https://sv.wikipedia.org/wiki/Familjelycka",
+              "sentence_id": "20153e0e",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
               "korp_query": "[word=\"bekant\"]"
             }
           },
           {
-            "ex_id": "e7fae3f0c18c2ec179d673cf40f9c39c782afcef",
-            "sv": "Men en dag tar sig Jonny till babyrytmiken med sin lille son och blir bekant med mammalediga Rebecka.",
-            "en": "But one day Jonny goes to baby rhythm class with his little son and becomes acquainted with Rebecka, who is on maternity leave.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "9d465d7e21d63c0ce1014402790869eb97449a98",
+            "sv": "Omkring 1854 återupptog han sin karriär som konstnär och gifte sig med en bekant till John Rogers Herbert.",
+            "en": "Around 1854 he resumed his career as an artist and married an acquaintance of John Rogers Herbert.",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Jonny"
+                "fe_id": "fe_time",
+                "span_sv": "Omkring 1854"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "mammalediga Rebecka"
-              }
-            ],
-            "gloss": "bli bekant med = become acquainted with (meet and start knowing someone)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Mamma pappa barn (film, 2003)",
-              "text_url": "https://sv.wikipedia.org/wiki/Mamma_pappa_barn_(film,_2003)",
-              "sentence_id": "ab5e4b5b",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"bekant\"]"
-            }
-          },
-          {
-            "ex_id": "dba44a8ec0d6a88129e0bce98dc3df758292013f",
-            "sv": "Niggle cyklar längs en stig tills han kommer till ett ställe som ser bekant ut.",
-            "en": "Niggle cycles along a path until he comes to a place that looks familiar.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
+                "fe_id": "fe_friend_1",
+                "span_sv": "en bekant"
+              },
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Niggle"
+                "fe_id": "fe_friend_2",
+                "span_sv": "John Rogers Herbert"
               }
             ],
-            "gloss": "bekant (om plats) = familiar (not about a person)",
+            "gloss": "acquaintance",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -374,36 +306,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Blad av Niggle",
-              "text_url": "https://sv.wikipedia.org/wiki/Blad_av_Niggle",
-              "sentence_id": "aa9ae960",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"bekant\"]"
-            }
-          },
-          {
-            "ex_id": "1bbfbe02382024a30fa3041d966279dc8071bc7d",
-            "sv": "Kerstin Sundh utgår alltid från en bekant plats när hon skriver.",
-            "en": "Kerstin Sundh always starts from a familiar place when she writes.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Kerstin Sundh"
-              }
-            ],
-            "gloss": "bekant (om plats) = familiar",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Kerstin Sundh",
-              "text_url": "https://sv.wikipedia.org/wiki/Kerstin_Sundh",
-              "sentence_id": "f6746f0e",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "text_title": "James Collinson",
+              "text_url": "https://sv.wikipedia.org/wiki/James_Collinson",
+              "sentence_id": "7ac555f3",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
               "korp_query": "[word=\"bekant\"]"
             }
           },
@@ -411,18 +317,18 @@
             "ex_id": "8be67d646d795d3d6840c0dc0d3236dcc13d107b",
             "sv": "Staden döptes efter general Broadwater, en bekant till en av järnvägens tjänstemän.",
             "en": "The town was named after General Broadwater, an acquaintance of one of the railway employees.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_friend_1",
                 "span_sv": "general Broadwater"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_friend_2",
                 "span_sv": "en av järnvägens tjänstemän"
               }
             ],
-            "gloss": "en bekant till = an acquaintance of",
+            "gloss": "acquaintance",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -433,7 +339,131 @@
               "text_title": "Broadwater, Nebraska",
               "text_url": "https://sv.wikipedia.org/wiki/Broadwater,_Nebraska",
               "sentence_id": "72e4bc59",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
+              "korp_query": "[word=\"bekant\"]"
+            }
+          },
+          {
+            "ex_id": "01c9b56776b4cd63d335cc1af642695136d06c56",
+            "sv": "• Maxine Seagrave (spelad av Natalie Zea), Big Jims affärspartner och bekant till Barbie.",
+            "en": "Maxine Seagrave (played by Natalie Zea), Big Jim's business partner and an acquaintance of Barbie.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "Maxine Seagrave"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "Barbie"
+              }
+            ],
+            "gloss": "acquaintance",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Under the Dome (TV-serie)",
+              "text_url": "https://sv.wikipedia.org/wiki/Under_the_Dome_(TV-serie)",
+              "sentence_id": "55b60581",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
+              "korp_query": "[word=\"bekant\"]"
+            }
+          },
+          {
+            "ex_id": "5086dcf4148639e8dcb383853ff747784195b0bb",
+            "sv": "Sina fyra första tavlor till samlingen fick han hjälp av en bekant arkitekt med att köpa.",
+            "en": "For his first four paintings for the collection, he got help from an architect acquaintance to buy them.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "en bekant arkitekt"
+              }
+            ],
+            "gloss": "acquaintance",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Pontus Fürstenberg",
+              "text_url": "https://sv.wikipedia.org/wiki/Pontus_F%C3%BCrstenberg",
+              "sentence_id": "bd72c4dc",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
+              "korp_query": "[word=\"bekant\"]"
+            }
+          },
+          {
+            "ex_id": "54763524c0a9339c5b862d89499602fa3c6c3661",
+            "sv": "Biografin skrevs troligen av någon som intervjuade Guntlack eller var nära bekant till honom.",
+            "en": "The biography was probably written by someone who interviewed Guntlack or was a close acquaintance of him.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_degree",
+                "span_sv": "nära"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "honom"
+              }
+            ],
+            "gloss": "acquaintance",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jacob Guntlack",
+              "text_url": "https://sv.wikipedia.org/wiki/Jacob_Guntlack",
+              "sentence_id": "36a0620a",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
+              "korp_query": "[word=\"bekant\"]"
+            }
+          },
+          {
+            "ex_id": "54901ee35d1da8c71277ff2ab58a841ab8e4cb01",
+            "sv": "Familjen Peirce var nära bekant med familjen James som bodde i samma stadsdel.",
+            "en": "The Peirce family were closely acquainted with the James family who lived in the same district.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "Familjen Peirce"
+              },
+              {
+                "fe_id": "fe_degree",
+                "span_sv": "nära"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "familjen James"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i samma stadsdel"
+              }
+            ],
+            "gloss": "acquainted (with), close acquaintance",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Charles Sanders Peirce",
+              "text_url": "https://sv.wikipedia.org/wiki/Charles_Sanders_Peirce",
+              "sentence_id": "bcc584ac",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
               "korp_query": "[word=\"bekant\"]"
             }
           }
@@ -442,7 +472,7 @@
     ],
     "pronunciation": {
       "ipa": "bɛˈkant",
-      "stress_hint": "Stress is on the second syllable: be-KANT.",
+      "stress_hint": "Stress is usually on the second syllable: be-KANT.",
       "audio": {
         "file": "audio/lu_bekannte_der_bekannte_ein_bekannter__die_eine_bekannte.mp3",
         "model": "gpt-4o-mini-tts",
@@ -452,7 +482,9 @@
     },
     "morphology": {
       "principal_parts": [
-        "en bekant – bekanten – bekanta – bekanta"
+        "en bekant",
+        "bekanten",
+        "bekanta"
       ],
       "particle_or_reflexive": null
     }

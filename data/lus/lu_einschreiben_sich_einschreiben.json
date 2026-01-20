@@ -1,0 +1,448 @@
+{
+  "lexical_unit": {
+    "id": "lu_einschreiben_sich_einschreiben",
+    "source_de": {
+      "lu_de_raw": "einschreiben: (sich) einschreiben",
+      "lu_de_normalized": "einschreiben (sich einschreiben)",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "skriva in sig",
+    "display_sv": "skriva in sig",
+    "name_sv": "skriva in sig",
+    "pos": "multiword",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": "reflexive_verb",
+      "components_sv": [
+        "skriva",
+        "in",
+        "sig"
+      ],
+      "spacing_notes_en": "Particle verb + reflexive pronoun; written as separate words."
+    },
+    "forms": [
+      "skriva in sig",
+      "skriver in sig",
+      "skrev in sig",
+      "skrivit in sig"
+    ],
+    "english_equivalent_en": "enroll",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword verb phrase. It is used with the reflexive pronoun sig (skriva in sig)."
+    },
+    "derived_words_sv": [
+      {
+        "word": "inskrivning",
+        "type_en": "noun",
+        "meaning_en": "enrollment; registration"
+      },
+      {
+        "word": "inskriven",
+        "type_en": "adjective",
+        "meaning_en": "enrolled; registered"
+      },
+      {
+        "word": "inskrivningsdatum",
+        "type_en": "noun",
+        "meaning_en": "enrollment date"
+      },
+      {
+        "word": "inskrivningsblankett",
+        "type_en": "noun",
+        "meaning_en": "enrollment form"
+      }
+    ],
+    "synonyms_sv": [
+      "anmäla sig",
+      "registrera sig",
+      "inskriva sig"
+    ],
+    "antonyms_sv": [
+      "skriva ut sig"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_einschreiben_sich_einschreiben:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_einschreiben_sich_einschreiben:1",
+        "frame_id": "frame_education",
+        "meaning_en": "register yourself as a student at a school, university, or similar institution.",
+        "how_to_use_en": [
+          "Use it when someone becomes officially registered at an institution.",
+          "Often followed by på/vid + institution name."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X skriver in sig på Y",
+            "meaning_en": "enroll at a school/place",
+            "note_en": "Common with skola and similar places."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "X skriver in sig vid Y",
+            "meaning_en": "enroll at an institution",
+            "note_en": "Often used with universitet and formal institutions."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "X låter skriva in sig (vid/på Y)",
+            "meaning_en": "have oneself enrolled",
+            "note_en": "More formal/older style; someone arranges the enrollment."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "X vägrar att skriva in sig",
+            "meaning_en": "refuse to enroll",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "X hindras/förbjuds att skriva in sig vid Y",
+            "meaning_en": "be prevented from enrolling",
+            "note_en": "Passive meaning: someone else stops the enrollment."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using it without sig: *skriva in på skolan",
+            "fix": "skriva in sig på skolan",
+            "explain_en": "In this sense it is reflexive: the person enrolls themself."
+          },
+          {
+            "error": "Mixing prepositions: *skriva in sig i skolan (in this meaning)",
+            "fix": "skriva in sig på skolan / vid universitetet",
+            "explain_en": "The examples use på (school) and vid (university/institution)."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "1aef38d9c49a0c11171b89edfe92ae56b057163e",
+            "sv": "Han var den yngste eleven någonsin att skriva in sig på skolan.",
+            "en": "He was the youngest student ever to enroll at the school.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skolan"
+              }
+            ],
+            "gloss": "enroll (register as a student)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Timo K. Mukka",
+              "text_url": "https://sv.wikipedia.org/wiki/Timo_K._Mukka",
+              "sentence_id": "726fda5b",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "42abe342457bd3302af624b59fd865c494f7eea5",
+            "sv": "Istället lät han skriva in sig på Filosofiska fakulteten vid Zagrebs universitet.",
+            "en": "Instead he had himself enrolled in the Faculty of Philosophy at the University of Zagreb.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Zagrebs universitet"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "Filosofiska fakulteten"
+              }
+            ],
+            "gloss": "enroll (register as a student)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tin Ujević",
+              "text_url": "https://sv.wikipedia.org/wiki/Tin_Ujevi%C4%87",
+              "sentence_id": "afe267d8",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "cde94a354967cdafd001d01daedb1019c73d0fa4",
+            "sv": "Hoxha vägrade att skriva in sig, och han måste lämna sin läraranställning.",
+            "en": "Hoxha refused to enroll, and he had to leave his teaching job.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Hoxha"
+              }
+            ],
+            "gloss": "enroll (register as a student)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Enver Hoxha",
+              "text_url": "https://sv.wikipedia.org/wiki/Enver_Hoxha",
+              "sentence_id": "f78ba456",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "92649262455af1295854b6d96c2c09cfc7dd9a5a",
+            "sv": "1964 wallraffade en medarbetare vid Stockholmstidningen genom att själv skriva in sig på vårdhemmet.",
+            "en": "In 1964 an employee at Stockholmstidningen did undercover reporting by enrolling himself at the nursing home.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "en medarbetare vid Stockholmstidningen"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "vårdhemmet"
+              }
+            ],
+            "gloss": "enroll (register oneself)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Vårdhemmet Högalid",
+              "text_url": "https://sv.wikipedia.org/wiki/V%C3%A5rdhemmet_H%C3%B6galid",
+              "sentence_id": "a7d3191c",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "94606187eb466f033dc04d14be4d92f89e7a7dbd",
+            "sv": "• 1962 – Den färgade studenten James Meredith hindras att skriva in sig vid University of Mississippi.",
+            "en": "1962 – The Black student James Meredith is prevented from enrolling at the University of Mississippi.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Den färgade studenten James Meredith"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "University of Mississippi"
+              }
+            ],
+            "gloss": "enroll (register as a student)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "20 september",
+              "text_url": "https://sv.wikipedia.org/wiki/20_september",
+              "sentence_id": "aa9dc9ad",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "56fffbf5adf6ecf69788d3ea6d71a328c3078443",
+            "sv": "Petrini lät år 1858 skriva in sig som elev till kronometerfabrikant Söderberg i Stockholm.",
+            "en": "In 1858 Petrini had himself enrolled as a pupil with the chronometer maker Söderberg in Stockholm.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Petrini"
+              },
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "kronometerfabrikant Söderberg"
+              }
+            ],
+            "gloss": "enroll (register as a pupil/apprentice)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hilda Petrini",
+              "text_url": "https://sv.wikipedia.org/wiki/Hilda_Petrini",
+              "sentence_id": "4efa6571",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "7ba2c0a6ad8306d0143919a9b5ba87d52eaf7621",
+            "sv": "Han tog studentexamen i juni 1908, och kunde genom ett stipendium skriva in sig vid Uppsala universitet senare samma år.",
+            "en": "He took his school-leaving exam in June 1908, and with a scholarship he could enroll at Uppsala University later that year.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Uppsala universitet"
+              }
+            ],
+            "gloss": "enroll (register as a student)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Knut Lundmark",
+              "text_url": "https://sv.wikipedia.org/wiki/Knut_Lundmark",
+              "sentence_id": "143d3efb",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "4e2e2373e95712592958f9aa302531d415f23a8e",
+            "sv": "År 1790 lät han dock skriva in sig vid Kanslikollegium i Stockholm, men återvände redan 1791 till Uppsala.",
+            "en": "In 1790, however, he had himself enrolled at the Chancellery College in Stockholm, but already in 1791 he returned to Uppsala.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Kanslikollegium i Stockholm"
+              }
+            ],
+            "gloss": "enroll (register oneself)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Benjamin Höijer",
+              "text_url": "https://sv.wikipedia.org/wiki/Benjamin_H%C3%B6ijer",
+              "sentence_id": "fa19f6f3",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "5040c7e07f1375f3038651c058567baac9c3ea84",
+            "sv": "1938 tog han studenten men förbjöds av myndigheterna att skriva in sig vid Friedrich-Wilhelms-Universität Berlin på grund av sin judiska tillhörighet.",
+            "en": "In 1938 he finished school, but the authorities forbade him to enroll at Friedrich-Wilhelms-Universität Berlin because of his Jewish background.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Friedrich-Wilhelms-Universität Berlin"
+              }
+            ],
+            "gloss": "enroll (register as a student)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Marcel Reich-Ranicki",
+              "text_url": "https://sv.wikipedia.org/wiki/Marcel_Reich-Ranicki",
+              "sentence_id": "f317a779",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈskriːva ˈɪn sɛj",
+      "stress_hint": "Main stress is on skriva; in sig is unstressed."
+    },
+    "morphology": {
+      "principal_parts": [
+        "skriva in sig",
+        "skriver in sig",
+        "skrev in sig",
+        "skrivit in sig"
+      ],
+      "particle_or_reflexive": "sig"
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

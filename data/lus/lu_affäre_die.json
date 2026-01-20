@@ -8,9 +8,9 @@
       "pos_de": "noun"
     },
     "lu_type": "single",
-    "lemma_sv": "kärleksaffär",
-    "display_sv": "kärleksaffär",
-    "name_sv": "kärleksaffär",
+    "lemma_sv": "otrohetsaffär",
+    "display_sv": "otrohetsaffär",
+    "name_sv": "otrohetsaffär",
     "pos": "noun",
     "cefr": "B1",
     "multiword": {
@@ -19,20 +19,20 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "en kärleksaffär",
-      "kärleksaffären",
-      "kärleksaffärer",
-      "kärleksaffärerna"
+      "otrohetsaffär",
+      "otrohetsaffären",
+      "otrohetsaffärer",
+      "otrohetsaffärerna"
     ],
-    "english_equivalent_en": "love affair",
+    "english_equivalent_en": "extramarital affair",
     "morphology_sv": {
       "noun": {
         "gender": "en",
-        "indef_sg": "kärleksaffär",
-        "def_sg": "kärleksaffären",
-        "indef_pl": "kärleksaffärer",
-        "def_pl": "kärleksaffärerna",
-        "note_en": ""
+        "indef_sg": "otrohetsaffär",
+        "def_sg": "otrohetsaffären",
+        "indef_pl": "otrohetsaffärer",
+        "def_pl": "otrohetsaffärerna",
+        "note_en": "A compound noun: otrohet + affär."
       },
       "verb": {
         "infinitive": null,
@@ -55,275 +55,187 @@
     },
     "derived_words_sv": [
       {
-        "word": "kärlek",
+        "word": "otrohet",
         "type_en": "noun",
-        "meaning_en": "love"
+        "meaning_en": "unfaithfulness"
       },
       {
-        "word": "kärleksbrev",
+        "word": "otrohetsdrama",
         "type_en": "noun",
-        "meaning_en": "love letter"
+        "meaning_en": "drama caused by an affair"
       },
       {
-        "word": "kärleksrelation",
+        "word": "otrohetsskandal",
         "type_en": "noun",
-        "meaning_en": "romantic relationship"
+        "meaning_en": "public scandal about an affair"
       },
       {
-        "word": "affär",
+        "word": "otrohetsrykte",
         "type_en": "noun",
-        "meaning_en": "affair (relationship); also 'business/shop' in other contexts"
-      },
-      {
-        "word": "affärspartner",
-        "type_en": "noun",
-        "meaning_en": "partner in an affair"
+        "meaning_en": "rumour about an affair"
       }
     ],
     "synonyms_sv": [
       "affär",
-      "romans",
-      "förhållande",
-      "relation"
+      "otrohet",
+      "snedsteg",
+      "sidoaffär"
     ],
-    "antonyms_sv": [],
+    "antonyms_sv": [
+      "trohet"
+    ],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_marriage",
+        "frame_name_en": "Marriage",
+        "frame_slug": "marriage",
         "sense_id": "lu_affäre_die:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_affäre_die:1",
-        "frame_id": "frame_personal_relationship",
-        "meaning_en": "a romantic relationship, often secret or outside a committed relationship",
+        "frame_id": "frame_marriage",
+        "meaning_en": "a secret romantic or sexual relationship that breaks a committed relationship, often marriage.",
         "how_to_use_en": [
-          "Use about two people who are romantically involved.",
-          "Often used when the relationship is secret or causes problems."
+          "Used about someone having a relationship outside their partner relationship.",
+          "Often appears with verbs like ha, inleda, avslöja, upptäcka.",
+          "Common with time/reason phrases: efter, när, i juli."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "inleda en (kort) kärleksaffär (med NGN)",
-            "meaning_en": "start a (short) love affair",
-            "note_en": "Often used when the affair begins at a specific point in time."
+            "pattern": "ha en otrohetsaffär (med + person)",
+            "meaning_en": "have an affair (with someone)",
+            "note_en": "Often used when someone is already married or partnered."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "ha en (kort) kärleksaffär",
-            "meaning_en": "have a love affair",
-            "note_en": "Describes the existence of the affair."
-          },
-          {
-            "pattern_id": "pat_3",
-            "pattern": "ha en kärleksaffär med NGN",
-            "meaning_en": "have an affair with someone",
+            "pattern": "inleda en otrohetsaffär (med + person)",
+            "meaning_en": "start an affair",
             "note_en": ""
           },
           {
+            "pattern_id": "pat_3",
+            "pattern": "efter en (påstådd) otrohetsaffär",
+            "meaning_en": "after an (alleged) affair",
+            "note_en": "Common as a reason for separation/divorce."
+          },
+          {
             "pattern_id": "pat_4",
-            "pattern": "en kärleksaffär mellan NÅGRA",
-            "meaning_en": "an affair between people",
+            "pattern": "upptäcka/misstänka att X har en otrohetsaffär",
+            "meaning_en": "discover/suspect an affair",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "en otrohetsaffär avslöjas",
+            "meaning_en": "an affair is revealed",
             "note_en": ""
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using kärleksaffär for any long-term, official relationship.",
-            "fix": "Use förhållande/relation for a normal relationship; use kärleksaffär when it is an 'affair'.",
-            "explain_en": "Kärleksaffär often suggests something less official, sometimes secret."
+            "error": "Using affär for this meaning in all contexts.",
+            "fix": "Use otrohetsaffär when you mean cheating; affär often means business/shop.",
+            "explain_en": "Affär is ambiguous; otrohetsaffär is clear about unfaithfulness."
           },
           {
-            "error": "Confusing affär with only 'shop/business'.",
-            "fix": "In relationship contexts, affär/kärleksaffär can mean 'affair'.",
-            "explain_en": "Affär has multiple meanings; kärleksaffär is clearly romantic."
+            "error": "Mixing it up with kärleksaffär (neutral love affair).",
+            "fix": "Use otrohetsaffär when it involves betrayal of a partner.",
+            "explain_en": "Otrohets- signals unfaithfulness in an existing relationship."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "2c7df13884e361dc33eb60ec627f1a5c0335537f",
-            "sv": "Han inleder en kort kärleksaffär med henne, men det leder till ödesdigra konsekvenser.",
-            "en": "He starts a short love affair with her, but it leads to fatal consequences.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "cc4ca2111cc073569df418dd6c6dbc99f0461db0",
+            "sv": "Den 2 juli 2012 begärde de skilsmässa efter hans medialt uppmärksammade otrohetsaffär.",
+            "en": "On 2 July 2012 they asked for a divorce after his much noticed affair.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_time",
+                "span_sv": "Den 2 juli 2012"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "begärde de skilsmässa"
+              },
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "efter hans medialt uppmärksammade otrohetsaffär"
+              }
+            ],
+            "gloss": "an affair (unfaithfulness)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lena Philipsson",
+              "text_url": "https://sv.wikipedia.org/wiki/Lena_Philipsson",
+              "sentence_id": "4285e009",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"otrohetsaffär\"]"
+            }
+          },
+          {
+            "ex_id": "53d6f6fa617473091dee4b5da24bc1055f0a5b7a",
+            "sv": "Webbdesignern Peter upptäcker att hans hustru Lisa har en otrohetsaffär med Ralph.",
+            "en": "The web designer Peter discovers that his wife Lisa has an affair with Ralph.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Peter"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "hans hustru Lisa"
+              }
+            ],
+            "gloss": "an affair (unfaithfulness)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "The Other Man",
+              "text_url": "https://sv.wikipedia.org/wiki/The_Other_Man",
+              "sentence_id": "f678004d",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"otrohetsaffär\"]"
+            }
+          },
+          {
+            "ex_id": "663b1b5c999a312aaeeb705fce886ca07dd1425a",
+            "sv": "Han misstänker även att Monika har en otrohetsaffär och skiljer sig därför från henne.",
+            "en": "He also suspects that Monika has an affair and therefore divorces her.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Han"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "henne"
-              }
-            ],
-            "gloss": "a love affair",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Fallgropen (film, 1948)",
-              "text_url": "https://sv.wikipedia.org/wiki/Fallgropen_(film,_1948)",
-              "sentence_id": "83d9cfa4",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kärleksaffär\"]"
-            }
-          },
-          {
-            "ex_id": "eb5292696e4a4e0a175f57d70afef3b8310416e1",
-            "sv": "Elisabet föreföll vara förälskad i honom, och intrycket var att de hade en kärleksaffär.",
-            "en": "Elisabet seemed to be in love with him, and the impression was that they had a love affair.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "de"
-              }
-            ],
-            "gloss": "a love affair",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Amy Robsart",
-              "text_url": "https://sv.wikipedia.org/wiki/Amy_Robsart",
-              "sentence_id": "1f360d7b",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kärleksaffär\"]"
-            }
-          },
-          {
-            "ex_id": "b81532b0400859f65f20c6eb72a66ef91faf0042",
-            "sv": "Gösta träffar Hjalmars dotter Margit och de har en kort kärleksaffär.",
-            "en": "Gösta meets Hjalmar's daughter Margit and they have a short love affair.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "de"
-              }
-            ],
-            "gloss": "a love affair",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Vad veta väl männen",
-              "text_url": "https://sv.wikipedia.org/wiki/Vad_veta_v%C3%A4l_m%C3%A4nnen",
-              "sentence_id": "e76bcdcc",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kärleksaffär\"]"
-            }
-          },
-          {
-            "ex_id": "6339a281b9c1868366ac06e2a04f00e4d5717ac1",
-            "sv": "Lydia stämmer möte med honom på ett hotell och paret inleder en kärleksaffär.",
-            "en": "Lydia arranges to meet him at a hotel and the couple starts a love affair.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "honom"
+                "fe_id": "fe_spouse_2",
+                "span_sv": "Monika"
               },
               {
-                "fe_id": "fe_partners",
-                "span_sv": "paret"
-              }
-            ],
-            "gloss": "a love affair",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Den allvarsamma leken",
-              "text_url": "https://sv.wikipedia.org/wiki/Den_allvarsamma_leken",
-              "sentence_id": "afe4e8df",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kärleksaffär\"]"
-            }
-          },
-          {
-            "ex_id": "67d600d9551e4b51759c4423cd70c98ddcad5657",
-            "sv": "Hon blir med tiden förälskad i honom, och de två inleder en kärleksaffär.",
-            "en": "With time she falls in love with him, and the two start a love affair.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "de två"
-              }
-            ],
-            "gloss": "a love affair",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Titanic (film, 1997)",
-              "text_url": "https://sv.wikipedia.org/wiki/Titanic_(film,_1997)",
-              "sentence_id": "d21bd23f",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kärleksaffär\"]"
-            }
-          },
-          {
-            "ex_id": "f0320d7da6967125810abe6ba83380cdbbfb39a7",
-            "sv": "Han arbetar ofta sena kvällar och det antyds i romanen att han har en kärleksaffär.",
-            "en": "He often works late evenings and it is hinted in the novel that he has a love affair.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Han"
-              }
-            ],
-            "gloss": "a love affair",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Försoning (roman, 2001)",
-              "text_url": "https://sv.wikipedia.org/wiki/F%C3%B6rsoning_(roman,_2001)",
-              "sentence_id": "908bb50b",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kärleksaffär\"]"
-            }
-          },
-          {
-            "ex_id": "3b8733c49e944a8e52b1ea42ab3a7e5ad5c28989",
-            "sv": "Matuschek misstänker nämligen att Alfred har en kärleksaffär med hans fru och avskedar honom.",
-            "en": "Matuschek suspects that Alfred has a love affair with his wife and fires him.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Alfred"
+                "fe_id": "fe_event",
+                "span_sv": "skiljer sig"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "hans fru"
+                "fe_id": "fe_reason",
+                "span_sv": "därför"
               }
             ],
-            "gloss": "a love affair",
+            "gloss": "an affair (unfaithfulness)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -331,25 +243,33 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Den lilla butiken",
-              "text_url": "https://sv.wikipedia.org/wiki/Den_lilla_butiken",
-              "sentence_id": "d7b2ee9c",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kärleksaffär\"]"
+              "text_title": "Hägring (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/H%C3%A4gring_(film)",
+              "sentence_id": "ae87b36c",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"otrohetsaffär\"]"
             }
           },
           {
-            "ex_id": "00bb3036afe23b8c54aa909b94423b21602efcc1",
-            "sv": "Sharp har samma föräldrar som McEwan men föddes efter en kärleksaffär mellan föräldrarna före giftermålet.",
-            "en": "Sharp has the same parents as McEwan but was born after a love affair between the parents before the marriage.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "1e7d1e8b29e929e8ae60d70a227be0478121aa58",
+            "sv": "Simon inleder där en otrohetsaffär med Ingrid, som är gift med Kurre.",
+            "en": "Simon starts an affair there with Ingrid, who is married to Kurre.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "föräldrarna"
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Ingrid"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "Kurre"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "gift"
               }
             ],
-            "gloss": "a love affair",
+            "gloss": "an affair (unfaithfulness)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -357,19 +277,203 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ian McEwan",
-              "text_url": "https://sv.wikipedia.org/wiki/Ian_McEwan",
-              "sentence_id": "bf9b66b9",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kärleksaffär\"]"
+              "text_title": "En förälskelse",
+              "text_url": "https://sv.wikipedia.org/wiki/En_f%C3%B6r%C3%A4lskelse",
+              "sentence_id": "7544dcd8",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"otrohetsaffär\"]"
+            }
+          },
+          {
+            "ex_id": "be58a4bf1017c88a0b2a470b71de19cd0b3b9763",
+            "sv": "Berättarjaget inleder en otrohetsaffär med honom som sedermera resulterar att hon och Piki gör slut.",
+            "en": "The narrator starts an affair with him, which later results in her and Piki breaking up.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_event",
+                "span_sv": "gör slut"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "Piki"
+              }
+            ],
+            "gloss": "an affair (unfaithfulness)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Baby Jane",
+              "text_url": "https://sv.wikipedia.org/wiki/Baby_Jane",
+              "sentence_id": "ed525bc7",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"otrohetsaffär\"]"
+            }
+          },
+          {
+            "ex_id": "997f0982216570510c063b964e2b2cf727405c09",
+            "sv": "Efter det blev hon husmäklare, men slutade snart eftersom hon inte ville ljuga om sin chefs otrohetsaffär.",
+            "en": "After that she became a real estate agent, but soon quit because she did not want to lie about her boss's affair.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "eftersom hon inte ville ljuga om sin chefs otrohetsaffär"
+              }
+            ],
+            "gloss": "an affair (unfaithfulness)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Phoebe Halliwell",
+              "text_url": "https://sv.wikipedia.org/wiki/Phoebe_Halliwell",
+              "sentence_id": "c71442c4",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"otrohetsaffär\"]"
+            }
+          },
+          {
+            "ex_id": "027a96bf46ce21f645df6776ab3fc536e7bfdb29",
+            "sv": "När hon ertappar sin far med att ha en otrohetsaffär med kammarjungfrun faller hennes tillvaro i bitar.",
+            "en": "When she catches her father having an affair with the maid, her life falls apart.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "När"
+              }
+            ],
+            "gloss": "an affair (unfaithfulness)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Amanda Kerfstedt",
+              "text_url": "https://sv.wikipedia.org/wiki/Amanda_Kerfstedt",
+              "sentence_id": "ad9eb161",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"otrohetsaffär\"]"
+            }
+          },
+          {
+            "ex_id": "d718cf2070da57348c0b62aec35c53b661794886",
+            "sv": "Efter att en otrohetsaffär hade avslöjats meddelade Wrigley att han avstår från att kandidera i guvernörsvalet.",
+            "en": "After an affair had been revealed, Wrigley announced that he will not run in the governor election.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Efter att"
+              }
+            ],
+            "gloss": "an affair (unfaithfulness)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Drew Wrigley",
+              "text_url": "https://sv.wikipedia.org/wiki/Drew_Wrigley",
+              "sentence_id": "23a09a33",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"otrohetsaffär\"]"
+            }
+          },
+          {
+            "ex_id": "8cbd65c2cd00aa9ad0336d8949fca91115eca554",
+            "sv": "Efter en otrohetsaffär med sin sekreterare skilde sig Brandt och Rut och de två återsåg aldrig varandra mer.",
+            "en": "After an affair with his secretary, Brandt and Rut divorced and the two never saw each other again.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Efter"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "skilde sig"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Brandt"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "Rut"
+              }
+            ],
+            "gloss": "an affair (unfaithfulness)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Willy Brandt",
+              "text_url": "https://sv.wikipedia.org/wiki/Willy_Brandt",
+              "sentence_id": "db2586ab",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"otrohetsaffär\"]"
+            }
+          },
+          {
+            "ex_id": "fe2cddda17272d8f5ae21f11b6cfb72ad042aca8",
+            "sv": "I juli 2009 separerade paret efter en påstådd otrohetsaffär från Cibrians sida med sångerskan LeAnn Rimes.",
+            "en": "In July 2009 the couple separated after an alleged affair on Cibrian's side with the singer LeAnn Rimes.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "I juli 2009"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "separerade"
+              },
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "efter en påstådd otrohetsaffär"
+              }
+            ],
+            "gloss": "an affair (unfaithfulness)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Eddie Cibrian",
+              "text_url": "https://sv.wikipedia.org/wiki/Eddie_Cibrian",
+              "sentence_id": "32413f80",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"otrohetsaffär\"]"
             }
           }
         ]
       }
     ],
     "pronunciation": {
-      "ipa": "ˈɕæːr.lɛks.aˌfɛːr",
-      "stress_hint": "Main stress is on the first part: KÄR-leks-affär.",
+      "ipa": "ˈuːtruːhɛts.aˌfɛːr",
+      "stress_hint": "Main stress is on the first part: O-tro-hets-affär.",
       "audio": {
         "file": "audio/lu_affäre_die.mp3",
         "model": "gpt-4o-mini-tts",
@@ -379,10 +483,10 @@
     },
     "morphology": {
       "principal_parts": [
-        "kärleksaffär",
-        "kärleksaffären",
-        "kärleksaffärer",
-        "kärleksaffärerna"
+        "en otrohetsaffär",
+        "otrohetsaffären",
+        "otrohetsaffärer",
+        "otrohetsaffärerna"
       ],
       "particle_or_reflexive": null
     }

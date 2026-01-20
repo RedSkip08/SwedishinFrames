@@ -8,31 +8,31 @@
       "pos_de": "noun"
     },
     "lu_type": "single",
-    "lemma_sv": "gäng",
-    "display_sv": "gäng",
-    "name_sv": "gäng",
+    "lemma_sv": "klick",
+    "display_sv": "klick",
+    "name_sv": "klick",
     "pos": "noun",
-    "cefr": "A2",
+    "cefr": "B1",
     "multiword": {
       "mwe_type": null,
       "components_sv": [],
       "spacing_notes_en": ""
     },
     "forms": [
-      "gäng",
-      "gänget",
-      "gäng",
-      "gängen"
+      "en klick",
+      "klicken",
+      "klickar",
+      "klickarna"
     ],
-    "english_equivalent_en": "group",
+    "english_equivalent_en": "clique",
     "morphology_sv": {
       "noun": {
-        "gender": "ett",
-        "indef_sg": "gäng",
-        "def_sg": "gänget",
-        "indef_pl": "gäng",
-        "def_pl": "gängen",
-        "note_en": "Often used with ett: ett gäng + plural noun (ett gäng ungdomar)."
+        "gender": "en",
+        "indef_sg": "klick",
+        "def_sg": "klicken",
+        "indef_pl": "klickar",
+        "def_pl": "klickarna",
+        "note_en": "Meaning here is 'clique' (not the sound/action of clicking)."
       },
       "verb": {
         "infinitive": null,
@@ -55,183 +55,100 @@
     },
     "derived_words_sv": [
       {
-        "word": "gängkriminalitet",
+        "word": "klickbildning",
         "type_en": "noun",
-        "meaning_en": "gang-related crime"
+        "meaning_en": "forming cliques; clique behavior"
       },
       {
-        "word": "gängvåld",
-        "type_en": "noun",
-        "meaning_en": "gang violence"
+        "word": "klickig",
+        "type_en": "adjective",
+        "meaning_en": "cliquish; closed to outsiders"
       },
       {
-        "word": "gängmedlem",
-        "type_en": "noun",
-        "meaning_en": "gang member"
+        "word": "klickvän",
+        "type_en": "adjective",
+        "meaning_en": "friendly to a certain clique"
       },
       {
-        "word": "gängledare",
+        "word": "hovklick",
         "type_en": "noun",
-        "meaning_en": "gang leader"
+        "meaning_en": "clique at a royal court"
       },
       {
-        "word": "kriminellt gäng",
-        "type_en": "other",
-        "meaning_en": "criminal gang"
+        "word": "partiklick",
+        "type_en": "noun",
+        "meaning_en": "clique within a political party"
       }
     ],
     "synonyms_sv": [
-      "grupp",
-      "gäng människor",
-      "sällskap",
-      "klunga",
-      "bunt"
+      "klickbildning",
+      "innegäng",
+      "kotteri",
+      "gäng",
+      "krets"
     ],
     "antonyms_sv": [
-      "ensam"
+      "allmänhet"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_friendship",
+        "frame_name_en": "Friendship",
+        "frame_slug": "friendship",
         "sense_id": "lu_clique_die:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_clique_die:1",
-        "frame_id": "frame_personal_relationship",
-        "meaning_en": "a group of people (or animals), often seen as a unit; sometimes a criminal gang",
+        "frame_id": "frame_friendship",
+        "meaning_en": "a small, closed group of people who stick together, often around a leader",
         "how_to_use_en": [
-          "Use ett gäng + plural noun to mean “a group of …”.",
-          "Can be neutral (ett gäng ungdomar) or negative (kriminella gäng).",
-          "Often used in everyday, informal style."
+          "Use about a group seen as an in-group, often with a negative tone.",
+          "Often used with an owner: X:s klick / hans klick.",
+          "Common with words like liten and with a description of who they are."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "ett gäng + plural noun",
-            "meaning_en": "a group of people/animals",
-            "note_en": "Very common with people: ett gäng ungdomar, ett gäng nördar."
+            "pattern": "en (liten) klick + [group]",
+            "meaning_en": "a (small) clique of people",
+            "note_en": "Often implies a closed group."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "ett gäng + adjective + plural noun",
-            "meaning_en": "a group described by an adjective",
-            "note_en": "Example type: ett gäng festande seglare; ett gäng busiga slädhundar."
+            "pattern": "[person] och [person-GEN] klick",
+            "meaning_en": "a person and their clique",
+            "note_en": "Used for a group around someone."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "kriminella gäng",
-            "meaning_en": "criminal gangs",
-            "note_en": "Used when talking about crime and violence."
+            "pattern": "tillhöra den klick + [group] + (vid [place])",
+            "meaning_en": "belong to a clique",
+            "note_en": "Often used about social/political circles."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using singular after ett gäng (e.g., *ett gäng ungdom).",
-            "fix": "Use plural: ett gäng ungdomar.",
-            "explain_en": "Gäng refers to a collection, so the following noun is normally plural."
-          },
-          {
-            "error": "Assuming gäng always means criminals.",
-            "fix": "Use context or add kriminellt/kriminella when you mean a criminal gang.",
-            "explain_en": "In many contexts it simply means “group/bunch”."
+            "error": "Using klick when you mean a mouse click or clicking sound.",
+            "fix": "Use klick (sound) or klicka (verb) for clicking; use klick for a clique only in this sense.",
+            "explain_en": "This entry is about a social group, not the action/sound."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "2ddbdc8b1e3d6a42794576a99aa9039227fa19d6",
-            "sv": "Den handlar om ett gäng nördar som lär sig spela fotboll.",
-            "en": "It is about a group of nerds who learn to play football.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "bd8482c6c1bb179ac0a642a162b3b4f956a2810a",
+            "sv": "Han förtydligade senare att han ansåg att det handlade om en liten klick judar.",
+            "en": "He later clarified that he thought it was about a small clique of Jews.",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "ett gäng nördar"
+                "fe_id": "fe_group",
+                "span_sv": "en liten klick judar"
               }
             ],
-            "gloss": "group",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "FC Zulu",
-              "text_url": "https://sv.wikipedia.org/wiki/FC_Zulu",
-              "sentence_id": "908c1b2a",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"gäng\"]"
-            }
-          },
-          {
-            "ex_id": "2688c026d7319f1b59d149f91307ff7036694770",
-            "sv": "Filmen handlar om ett gäng ungdomar som precis har tagit studenten.",
-            "en": "The film is about a group of young people who have just graduated.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "ett gäng ungdomar"
-              }
-            ],
-            "gloss": "group",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Alla var där",
-              "text_url": "https://sv.wikipedia.org/wiki/Alla_var_d%C3%A4r",
-              "sentence_id": "0833106c",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"gäng\"]"
-            }
-          },
-          {
-            "ex_id": "b68d201ccaba9411cb24217ab3ae86b897220f35",
-            "sv": "Nästa dag träffar de på ett gäng festande seglare i en hamn.",
-            "en": "The next day they run into a group of partying sailors in a harbour.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "ett gäng festande seglare"
-              }
-            ],
-            "gloss": "group",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Mälarpirater (film, 1987)",
-              "text_url": "https://sv.wikipedia.org/wiki/M%C3%A4larpirater_(film,_1987)",
-              "sentence_id": "d00850c9",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"gäng\"]"
-            }
-          },
-          {
-            "ex_id": "9ce23dfb403f677bcbf17f0d13e788a45e38b123",
-            "sv": "KIBC bildades 1992 av ett gäng killar som tyckte det var kul att spela innebandy.",
-            "en": "KIBC was formed in 1992 by a group of guys who thought it was fun to play floorball.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "ett gäng killar"
-              }
-            ],
-            "gloss": "group",
+            "gloss": "a small clique; a small group of people",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -239,25 +156,29 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Kvarnsveden IBC",
-              "text_url": "https://sv.wikipedia.org/wiki/Kvarnsveden_IBC",
-              "sentence_id": "06bec94b",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"gäng\"]"
+              "text_title": "Sune Hjorth",
+              "text_url": "https://sv.wikipedia.org/wiki/Sune_Hjorth",
+              "sentence_id": "8189d460",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
+              "korp_query": "[word=\"klick\"]"
             }
           },
           {
-            "ex_id": "decc9ad8fff5bd950f5701b5c4555afcf3712715",
-            "sv": "Men när han kommer fram spricker drömmen - han har ärvt ett gäng busiga slädhundar.",
-            "en": "But when he arrives, the dream breaks — he has inherited a bunch of naughty sled dogs.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "bcb8a7bbedd03215aedf555435a9ec58b76ba7d6",
+            "sv": "Kinas representanter anser att det rör sig om upplopp organiserade av Dalai Lama och hans \" klick \".",
+            "en": "China's representatives think that it is riots organized by the Dalai Lama and his \"clique\".",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "ett gäng busiga slädhundar"
+                "fe_id": "fe_friend_1",
+                "span_sv": "Dalai Lama"
+              },
+              {
+                "fe_id": "fe_group",
+                "span_sv": "hans \" klick \""
               }
             ],
-            "gloss": "bunch; group",
+            "gloss": "clique; a close group around someone",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -265,25 +186,29 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Snow Dogs",
-              "text_url": "https://sv.wikipedia.org/wiki/Snow_Dogs",
-              "sentence_id": "587dcc6d",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"gäng\"]"
+              "text_title": "Autonoma regionen Tibet",
+              "text_url": "https://sv.wikipedia.org/wiki/Autonoma_regionen_Tibet",
+              "sentence_id": "c711e8a1",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
+              "korp_query": "[word=\"klick\"]"
             }
           },
           {
-            "ex_id": "db94f952f199bfcba3238c35983dd7551650757f",
-            "sv": "Huset visar sig vara hemsökt och är bebott av ett gäng skelett.",
-            "en": "The house turns out to be haunted and is inhabited by a group of skeletons.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "bf178a61826be998fd602cb9a021e4df91f1ac8b",
+            "sv": "De tillhörde den klick protestanter vid hovet som gynnade Anne Askew.",
+            "en": "They belonged to the clique of Protestants at court who supported Anne Askew.",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "ett gäng skelett"
+                "fe_id": "fe_group",
+                "span_sv": "den klick protestanter vid hovet"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "vid hovet"
               }
             ],
-            "gloss": "group",
+            "gloss": "clique; an in-group",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -291,25 +216,29 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "The Haunted House (film från 1929)",
-              "text_url": "https://sv.wikipedia.org/wiki/The_Haunted_House_(film_fr%C3%A5n_1929)",
-              "sentence_id": "e0028f1b",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"gäng\"]"
+              "text_title": "Anne Herbert",
+              "text_url": "https://sv.wikipedia.org/wiki/Anne_Herbert",
+              "sentence_id": "476d5b88",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
+              "korp_query": "[word=\"klick\"]"
             }
           },
           {
-            "ex_id": "d9065c7c9f20c0b210deb564ecddc3054680243f",
-            "sv": "När Ali-Baba blir ensam överraskas han av ett gäng maskerade män till häst.",
-            "en": "When Ali-Baba is alone, he is surprised by a group of masked men on horseback.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "0a35b47a78294a7f36cdd3c56f9dbd16225dc3f8",
+            "sv": "Motsättningarna mellan Rimskij-Korsakov (och Balakirevs klick) och Tjajkovskij överdrivs ofta.",
+            "en": "The conflicts between Rimsky-Korsakov (and Balakirev's clique) and Tchaikovsky are often exaggerated.",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "ett gäng maskerade män"
+                "fe_id": "fe_friend_1",
+                "span_sv": "Balakirev"
+              },
+              {
+                "fe_id": "fe_group",
+                "span_sv": "Balakirevs klick"
               }
             ],
-            "gloss": "group",
+            "gloss": "clique; a group of associates",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -317,97 +246,19 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ali-Baba (Lecocq)",
-              "text_url": "https://sv.wikipedia.org/wiki/Ali-Baba_(Lecocq)",
-              "sentence_id": "e00950bb",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"gäng\"]"
-            }
-          },
-          {
-            "ex_id": "65c2ede304c435886bb80a1ae6eb6f2bef43a7d0",
-            "sv": "När de ska visa sitt verk för institutets professor är uppfinningen borta, stulen av ett gäng bovar.",
-            "en": "When they are going to show their work to the institute's professor, the invention is gone, stolen by a gang of thieves.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "ett gäng bovar"
-              }
-            ],
-            "gloss": "gang; group",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Skrattbomben",
-              "text_url": "https://sv.wikipedia.org/wiki/Skrattbomben",
-              "sentence_id": "f6710d07",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"gäng\"]"
-            }
-          },
-          {
-            "ex_id": "54bc940a5e30ed9d8bb157f24c1354c92f389618",
-            "sv": "Staden har under 2000-talet drabbats hårt av våldsamheter mellan polisen och kriminella gäng.",
-            "en": "During the 2000s, the city has been hit hard by violence between the police and criminal gangs.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "kriminella gäng"
-              }
-            ],
-            "gloss": "gang",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Acapulco",
-              "text_url": "https://sv.wikipedia.org/wiki/Acapulco",
-              "sentence_id": "a2214682",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"gäng\"]"
-            }
-          },
-          {
-            "ex_id": "61fe94516759a3ad82eec7711a1d2417d80aab57",
-            "sv": "Våldtäkter, rån och mord är vanliga och stora områden kontrolleras av kriminella gäng.",
-            "en": "Rapes, robberies, and murders are common, and large areas are controlled by criminal gangs.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "kriminella gäng"
-              }
-            ],
-            "gloss": "gang",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Port Moresby",
-              "text_url": "https://sv.wikipedia.org/wiki/Port_Moresby",
-              "sentence_id": "7e887ffa",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"gäng\"]"
+              "text_title": "Nikolaj Rimskij-Korsakov",
+              "text_url": "https://sv.wikipedia.org/wiki/Nikolaj_Rimskij-Korsakov",
+              "sentence_id": "e6ccb756",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
+              "korp_query": "[word=\"klick\"]"
             }
           }
         ]
       }
     ],
     "pronunciation": {
-      "ipa": "jɛŋː",
-      "stress_hint": "The vowel is short and the final consonant is long: -ngg.",
+      "ipa": "klɪkː",
+      "stress_hint": "One syllable; long k-sound at the end.",
       "audio": {
         "file": "audio/lu_clique_die.mp3",
         "model": "gpt-4o-mini-tts",
@@ -417,10 +268,10 @@
     },
     "morphology": {
       "principal_parts": [
-        "ett gäng",
-        "gänget",
-        "gäng",
-        "gängen"
+        "en klick",
+        "klicken",
+        "klickar",
+        "klickarna"
       ],
       "particle_or_reflexive": null
     }

@@ -1,0 +1,186 @@
+{
+  "lexical_unit": {
+    "id": "lu_rasieren",
+    "source_de": {
+      "lu_de_raw": "rasieren",
+      "lu_de_normalized": "rasieren",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "raka",
+    "display_sv": "raka",
+    "name_sv": "raka",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "raka",
+      "rakar",
+      "rakade",
+      "rakat",
+      "rakad"
+    ],
+    "english_equivalent_en": "shave",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "raka",
+        "present": "rakar",
+        "past": "rakade",
+        "supine": "rakat",
+        "imperative": "raka",
+        "present_participle": "rakande",
+        "past_participle": "rakad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "rakning",
+        "type_en": "noun",
+        "meaning_en": "shaving (the activity)"
+      },
+      {
+        "word": "rakhyvel",
+        "type_en": "noun",
+        "meaning_en": "razor"
+      },
+      {
+        "word": "rakapparat",
+        "type_en": "noun",
+        "meaning_en": "electric shaver"
+      },
+      {
+        "word": "raka av",
+        "type_en": "verb",
+        "meaning_en": "shave off (remove hair)"
+      },
+      {
+        "word": "nysrakad",
+        "type_en": "adjective",
+        "meaning_en": "freshly shaved"
+      }
+    ],
+    "synonyms_sv": [
+      "raka av",
+      "snagga"
+    ],
+    "antonyms_sv": [
+      "låta växa"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_rasieren:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_rasieren:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "remove hair from a body part by shaving.",
+        "how_to_use_en": [
+          "Use it for shaving hair on a specific body part.",
+          "Often used with a body-part phrase like på + body part."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "raka sig på + kroppsdel",
+            "meaning_en": "shave a body part",
+            "note_en": "Used when someone shaves themself on a specific body part."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using raka without saying what is shaved when it matters.",
+            "fix": "Add the body part: raka sig på huvudet.",
+            "explain_en": "In this sense, the body part is commonly stated."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "4bffe09341a5cb1f6aeaa11078c9205a0cecf6b4",
+            "sv": "De två jesuiterna beordrades att klä sig i buddhistmunkars kläder och raka sig på huvudet.",
+            "en": "The two Jesuits were ordered to dress in Buddhist monks' clothes and shave their heads.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "De två jesuiterna"
+              },
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "på huvudet"
+              }
+            ],
+            "gloss": "raka = shave",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kristendomens historia i Kina från 1500 till 1644",
+              "text_url": "https://sv.wikipedia.org/wiki/Kristendomens_historia_i_Kina_fr%C3%A5n_1500_till_1644",
+              "sentence_id": "55ce7ac0",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"raka\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈrɑːka",
+      "stress_hint": "Stress on the first syllable: RA-ka.",
+      "audio": {
+        "file": "audio/lu_rasieren.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "raka",
+        "rakar",
+        "rakade",
+        "rakat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

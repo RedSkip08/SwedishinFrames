@@ -1,0 +1,176 @@
+{
+  "lexical_unit": {
+    "id": "lu_klausur_die",
+    "source_de": {
+      "lu_de_raw": "Klausur, die",
+      "lu_de_normalized": "Klausur",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "salstentamen",
+    "display_sv": "salstentamen",
+    "name_sv": "salstentamen",
+    "pos": "noun",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "salstentamen",
+      "salstentamenen",
+      "salstentamina"
+    ],
+    "english_equivalent_en": "in-class exam",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "salstentamen",
+        "def_sg": "salstentamenen",
+        "indef_pl": "salstentamina",
+        "def_pl": "salstentamina",
+        "note_en": "Often used in higher education; plural is uncommon in everyday use."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "salstenta",
+        "type_en": "verb",
+        "meaning_en": "take an in-class exam"
+      },
+      {
+        "word": "salstentera",
+        "type_en": "verb",
+        "meaning_en": "sit an in-class exam (formal)"
+      },
+      {
+        "word": "tentamenssal",
+        "type_en": "noun",
+        "meaning_en": "exam hall"
+      },
+      {
+        "word": "tentamensvakt",
+        "type_en": "noun",
+        "meaning_en": "exam invigilator"
+      },
+      {
+        "word": "omtentamen",
+        "type_en": "noun",
+        "meaning_en": "re-sit exam"
+      }
+    ],
+    "synonyms_sv": [
+      "tentamen",
+      "skrivning",
+      "skrivtentamen"
+    ],
+    "antonyms_sv": [
+      "hemtentamen"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_klausur_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_klausur_die:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a written exam taken in an exam hall at a set time",
+        "how_to_use_en": [
+          "Use for a supervised exam on campus (not at home).",
+          "Often contrasted with hemtentamen (take-home exam) and munta (oral exam)."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "betyg + på + salstentamen",
+            "meaning_en": "a grade on the in-class exam",
+            "note_en": "Used when reporting the result of the exam."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using salstentamen for any exam.",
+            "fix": "Use tentamen for general “exam”, and salstentamen only for an exam in an exam hall.",
+            "explain_en": "Salstentamen specifically means a supervised in-person written exam."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "2e4f05b5c1f10478bfef3694a23a0db9c7506789",
+            "sv": "Munta och / eller hemtentamen förekommer som kompletteringsuppgift vid betyg Fx på salstentamen (European Credit Transfer System).",
+            "en": "Oral and/or take-home exams occur as a supplementary task when you get the grade Fx on the in-class exam (European Credit Transfer System).",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "salstentamen"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "betyg Fx"
+              }
+            ],
+            "gloss": "salstentamen = an exam taken in an exam hall (in-class exam)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tentamen",
+              "text_url": "https://sv.wikipedia.org/wiki/Tentamen",
+              "sentence_id": "3bdbb3ec",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"salstentamen\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈsɑːlsˌtɛnːamɛn",
+      "stress_hint": "Main stress on SALS-, secondary stress on -TEN-."
+    },
+    "morphology": {
+      "principal_parts": [
+        "salstentamen (en)"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

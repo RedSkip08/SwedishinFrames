@@ -1,0 +1,186 @@
+{
+  "lexical_unit": {
+    "id": "lu_durchfallen",
+    "source_de": {
+      "lu_de_raw": "durchfallen",
+      "lu_de_normalized": "durchfallen",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "bli underkänd",
+    "display_sv": "bli underkänd",
+    "name_sv": "bli underkänd",
+    "pos": "multiword",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": "fixed_phrase",
+      "components_sv": [
+        "bli",
+        "underkänd"
+      ],
+      "spacing_notes_en": "Copula + participle; often with 'på': 'bli underkänd på provet'."
+    },
+    "forms": [
+      "bli underkänd",
+      "blir underkänd",
+      "blev underkänd",
+      "blivit underkänd"
+    ],
+    "english_equivalent_en": "fail (a subject)",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword expression: verb bli + adjective underkänd. Inflect bli (blir/blev/blivit) and keep underkänd to agree with the person/thing."
+    },
+    "derived_words_sv": [
+      {
+        "word": "underkänd",
+        "type_en": "adjective",
+        "meaning_en": "failed; not approved (grade/result)"
+      },
+      {
+        "word": "underkänna",
+        "type_en": "verb",
+        "meaning_en": "to fail someone; not approve"
+      },
+      {
+        "word": "underkännande",
+        "type_en": "noun",
+        "meaning_en": "a failing; non-approval"
+      },
+      {
+        "word": "godkänd",
+        "type_en": "adjective",
+        "meaning_en": "approved; passed"
+      }
+    ],
+    "synonyms_sv": [
+      "inte bli godkänd",
+      "få underkänt",
+      "bli kuggad"
+    ],
+    "antonyms_sv": [
+      "bli godkänd",
+      "klara"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_durchfallen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_durchfallen:1",
+        "frame_id": "frame_education",
+        "meaning_en": "not pass a subject or course; get a failing result.",
+        "how_to_use_en": [
+          "Use about a student’s result in a subject/course.",
+          "Often with i + subject (e.g., i idrott).",
+          "Often with nära att when it is almost happening."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "[Student] bli underkänd i [Subject]",
+            "meaning_en": "fail in a subject",
+            "note_en": "The subject is commonly introduced with i."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "[Student] vara nära att bli underkänd i [Subject]",
+            "meaning_en": "be close to failing",
+            "note_en": "Used when someone risks failing."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *bli underkänd* for a test you already failed.",
+            "fix": "Use *bli underkänd* for the result; for the event you can also say *få underkänt*.",
+            "explain_en": "Bli underkänd focuses on the resulting status (being failed)."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "956efd86cda6bcdb41d2f547d2993b5a88a4aa85",
+            "sv": "Lisa får reda på att hon är nära att bli underkänd i idrott.",
+            "en": "Lisa finds out that she is close to being failed in PE.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Lisa"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "idrott"
+              }
+            ],
+            "gloss": "to be failed (not pass)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lisa on Ice",
+              "text_url": "https://sv.wikipedia.org/wiki/Lisa_on_Ice",
+              "sentence_id": "02adc03d",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"bli\"][word=\"underkänd\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "bliː ˈʉnːdɛrˌɕɛnːd",
+      "stress_hint": "Main stress is on underkänd."
+    },
+    "morphology": {
+      "principal_parts": [
+        "bli underkänd",
+        "blir underkänd",
+        "blev underkänd",
+        "blivit underkänd"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

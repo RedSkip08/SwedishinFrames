@@ -1,0 +1,471 @@
+{
+  "lexical_unit": {
+    "id": "lu_seife_die",
+    "source_de": {
+      "lu_de_raw": "Seife, die",
+      "lu_de_normalized": "Seife",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "tvål",
+    "display_sv": "tvål",
+    "name_sv": "tvål",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "tvål",
+      "tvålen",
+      "tvålar",
+      "tvålarna"
+    ],
+    "english_equivalent_en": "soap",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "tvål",
+        "def_sg": "tvålen",
+        "indef_pl": "tvålar",
+        "def_pl": "tvålarna",
+        "note_en": "Usually used as a mass noun (no plural) when talking about soap in general."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "handtvål",
+        "type_en": "noun",
+        "meaning_en": "soap for washing hands"
+      },
+      {
+        "word": "flytande tvål",
+        "type_en": "noun",
+        "meaning_en": "liquid soap"
+      },
+      {
+        "word": "tvålbit",
+        "type_en": "noun",
+        "meaning_en": "a bar/piece of soap"
+      },
+      {
+        "word": "tvålvatten",
+        "type_en": "noun",
+        "meaning_en": "soapy water"
+      },
+      {
+        "word": "tvåla",
+        "type_en": "verb",
+        "meaning_en": "to soap (wash with soap)"
+      }
+    ],
+    "synonyms_sv": [
+      "tvättmedel",
+      "rengöringsmedel"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_seife_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_seife_die:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "a cleaning substance used with water to wash hands, skin, or remove dirt and stains",
+        "how_to_use_en": [
+          "Often used with vatten: tvål och vatten.",
+          "Used as the thing you use for washing (instrument) or as part of the washing mixture (medium).",
+          "Common with adjectives like vanlig or mild."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "tvål och vatten",
+            "meaning_en": "soap and water",
+            "note_en": "Very common fixed pairing for washing and cleaning."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "handtvätt med tvål och vatten",
+            "meaning_en": "hand washing with soap and water",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "tvätt med tvål och vatten",
+            "meaning_en": "washing with soap and water",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "använda (en) mild/vanlig tvål",
+            "meaning_en": "use a mild/ordinary soap",
+            "note_en": "Often with an adjective before tvål."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "sakna tillgång till tvål (och vatten)",
+            "meaning_en": "lack access to soap (and water)",
+            "note_en": ""
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using tvål as if it always needs a plural (tvålar) when you mean soap in general.",
+            "fix": "Use singular: tvål (often with no article) or tvål och vatten.",
+            "explain_en": "In these examples, tvål is typically a mass noun meaning soap in general."
+          },
+          {
+            "error": "Mixing up tvål with schampo for hair washing.",
+            "fix": "Use schampo for hair; use tvål for hands/skin or general washing.",
+            "explain_en": "Tvål is general soap; schampo is specifically for hair."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "176710b68e9af8cfb70054ed9752e44394881803",
+            "sv": "Blodfläckar på kläder tas bort med vanlig tvål och kallt vatten.",
+            "en": "Blood stains on clothes are removed with ordinary soap and cold water.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "Blodfläckar på kläder"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "vanlig tvål och kallt vatten"
+              }
+            ],
+            "gloss": "soap",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Fläckborttagning",
+              "text_url": "https://sv.wikipedia.org/wiki/Fl%C3%A4ckborttagning",
+              "sentence_id": "c2081a12",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvål\"]"
+            }
+          },
+          {
+            "ex_id": "9b79712b98a173e8b33b3fac202cdf1ec86998ef",
+            "sv": "Till handtvätt använder man tvål och vatten; möjligen desinfektionssprit avslutningsvis.",
+            "en": "For hand washing you use soap and water; possibly disinfectant alcohol at the end.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "man"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tvål och vatten"
+              }
+            ],
+            "gloss": "soap",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Personlig hygien",
+              "text_url": "https://sv.wikipedia.org/wiki/Personlig_hygien",
+              "sentence_id": "5d4a20e9",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvål\"]"
+            }
+          },
+          {
+            "ex_id": "6b36f00cfe610d92681e87a366d57a090319bfc0",
+            "sv": "Vid tvätt med tvål och vatten sköljs händerna först enbart i rinnande vatten.",
+            "en": "When washing with soap and water, the hands are first rinsed only in running water.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "händerna"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tvål och vatten"
+              }
+            ],
+            "gloss": "soap",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Handhygien",
+              "text_url": "https://sv.wikipedia.org/wiki/Handhygien",
+              "sentence_id": "7e83fa5e",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvål\"]"
+            }
+          },
+          {
+            "ex_id": "89258e4fb8a4c4f0b84073b5e9b997692249cfbe",
+            "sv": "Folkhälsomyndigheten och 1177 Vårdguiden rekommenderar handtvätt med tvål och vatten när det är möjligt.",
+            "en": "The Public Health Agency and 1177 Vårdguiden recommend hand washing with soap and water when it is possible.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tvål och vatten"
+              }
+            ],
+            "gloss": "soap",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Desinfektionssprit",
+              "text_url": "https://sv.wikipedia.org/wiki/Desinfektionssprit",
+              "sentence_id": "2208d35e",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvål\"]"
+            }
+          },
+          {
+            "ex_id": "a1eeb858827a53b4e8d643d5cf1336b378f4783f",
+            "sv": "Handsprit med minst 60 procent alkohol är däremot lämpligt att använda när det saknas tillgång till tvål och vatten.",
+            "en": "Hand sanitizer with at least 60 percent alcohol is, however, suitable to use when there is no access to soap and water.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tvål och vatten"
+              }
+            ],
+            "gloss": "soap",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Desinfektionssprit",
+              "text_url": "https://sv.wikipedia.org/wiki/Desinfektionssprit",
+              "sentence_id": "220987de",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvål\"]"
+            }
+          },
+          {
+            "ex_id": "c8d438359c284ae9e181d31707a92bdcabd09a88",
+            "sv": "Många offentliga toaletter saknar tvål att tvätta händerna eller handdukar att torka händerna med.",
+            "en": "Many public toilets lack soap to wash the hands or towels to dry the hands with.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tvål"
+              },
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "händerna"
+              }
+            ],
+            "gloss": "soap",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Toaletter i Japan",
+              "text_url": "https://sv.wikipedia.org/wiki/Toaletter_i_Japan",
+              "sentence_id": "bcca83c9",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvål\"]"
+            }
+          },
+          {
+            "ex_id": "cc29100e804b157ef7f25d0d1ffb1ea6a74a0938",
+            "sv": "Använd därefter en mild tvål och spola till sist rent med rinnande vatten.",
+            "en": "Then use a mild soap and finally rinse clean with running water.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "en mild tvål"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "rinnande vatten"
+              }
+            ],
+            "gloss": "soap",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sår",
+              "text_url": "https://sv.wikipedia.org/wiki/S%C3%A5r",
+              "sentence_id": "a262f96a",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvål\"]"
+            }
+          },
+          {
+            "ex_id": "6074512ed5d1520a0256bab0079f93bbb4fe32ae",
+            "sv": "Världshälsoorganisationen (WHO) rekommenderar aska eller sand som alternativ när tvål inte är tillgängligt.",
+            "en": "The World Health Organization (WHO) recommends ash or sand as an alternative when soap is not available.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tvål"
+              }
+            ],
+            "gloss": "soap",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Aska",
+              "text_url": "https://sv.wikipedia.org/wiki/Aska",
+              "sentence_id": "ad9b99e9",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvål\"]"
+            }
+          },
+          {
+            "ex_id": "920b17574558f988744749f63188841b48436346",
+            "sv": "Många bär med sig en näsduk för detta ändamål, och vissa bär även med sig tvål.",
+            "en": "Many carry a handkerchief for this purpose, and some also carry soap.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "vissa"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tvål"
+              }
+            ],
+            "gloss": "soap",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Toaletter i Japan",
+              "text_url": "https://sv.wikipedia.org/wiki/Toaletter_i_Japan",
+              "sentence_id": "bcc213c7",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvål\"]"
+            }
+          },
+          {
+            "ex_id": "94b0c1501ef0140837541c20f32766fac0573777",
+            "sv": "Skulle det ändå bli hudkontakt skall epoxi tvättas bort med tvål och vatten.",
+            "en": "If there is skin contact anyway, epoxy must be washed off with soap and water.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "epoxi"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tvål och vatten"
+              }
+            ],
+            "gloss": "soap",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Epoxi",
+              "text_url": "https://sv.wikipedia.org/wiki/Epoxi",
+              "sentence_id": "2b716954",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvål\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "/tvoːl/",
+      "stress_hint": "Long å-sound: tvål.",
+      "audio": {
+        "file": "audio/lu_seife_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "tvål (en)",
+        "tvålen",
+        "tvålar",
+        "tvålarna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

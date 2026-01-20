@@ -3,7 +3,7 @@
     "id": "lu_verlobte_der_verlobte_ein_verlobter__die_eine_verlobte",
     "source_de": {
       "lu_de_raw": "Verlobte: der Verlobte, ein Verlobter / die, eine Verlobte",
-      "lu_de_normalized": "Verlobte",
+      "lu_de_normalized": "Verlobte(r)",
       "gender_variants_de": [
         "der Verlobte",
         "ein Verlobter",
@@ -37,7 +37,7 @@
         "def_sg": "fästmannen",
         "indef_pl": "fästmän",
         "def_pl": "fästmännen",
-        "note_en": "Irregular plural with vowel change: fästman → fästmän."
+        "note_en": "Plural changes vowel: man → män."
       },
       "verb": {
         "infinitive": null,
@@ -62,7 +62,12 @@
       {
         "word": "fästmö",
         "type_en": "noun",
-        "meaning_en": "female fiancé (woman you are engaged to)"
+        "meaning_en": "fiancée (engaged woman)"
+      },
+      {
+        "word": "förlovning",
+        "type_en": "noun",
+        "meaning_en": "engagement (the event/status)"
       },
       {
         "word": "förlova sig",
@@ -70,79 +75,74 @@
         "meaning_en": "get engaged"
       },
       {
-        "word": "förlovning",
-        "type_en": "noun",
-        "meaning_en": "engagement (the event/period)"
+        "word": "förlovad",
+        "type_en": "adjective",
+        "meaning_en": "engaged"
       },
       {
-        "word": "förlovningsring",
+        "word": "fästmansring",
         "type_en": "noun",
-        "meaning_en": "engagement ring"
-      },
-      {
-        "word": "fästmanskap",
-        "type_en": "noun",
-        "meaning_en": "being someone’s fiancé"
+        "meaning_en": "engagement ring for the fiancé"
       }
     ],
     "synonyms_sv": [
-      "trolovad",
+      "förlovad",
       "blivande make"
     ],
     "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_marriage",
+        "frame_name_en": "Marriage",
+        "frame_slug": "marriage",
         "sense_id": "lu_verlobte_der_verlobte_ein_verlobter__die_eine_verlobte:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_verlobte_der_verlobte_ein_verlobter__die_eine_verlobte:1",
-        "frame_id": "frame_personal_relationship",
-        "meaning_en": "a man someone is engaged to marry.",
+        "frame_id": "frame_marriage",
+        "meaning_en": "a man who is engaged to be married",
         "how_to_use_en": [
-          "Use for an engaged male partner: din/hans/hennes/sin fästman.",
-          "Often followed by a name: hennes fästman Kurre."
+          "Use for an engaged male partner (before the wedding).",
+          "Often used with a possessive: min/sin/hennes/hans fästman."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "X:s fästman (t.ex. hennes fästman)",
-            "meaning_en": "X’s fiancé (male)",
-            "note_en": "Very common with possessives: hans/hennes/sin."
+            "pattern": "X:s fästman (namn)",
+            "meaning_en": "someone’s fiancé (male)",
+            "note_en": "Very common with possessives like hennes/sin."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "X:s fästman + Namn (t.ex. hennes fästman Kurre)",
-            "meaning_en": "X’s fiancé, named Y",
-            "note_en": "Name often comes right after fästman."
+            "pattern": "sin/hennes/hans fästman",
+            "meaning_en": "one’s fiancé (male)",
+            "note_en": "sin refers back to the subject; hans/hennes does not."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "ingen fästman",
-            "meaning_en": "no fiancé",
-            "note_en": "Used to say someone is not engaged."
+            "pattern": "tidigare fästman",
+            "meaning_en": "former fiancé (male)",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "en ny fästman",
-            "meaning_en": "a new fiancé",
-            "note_en": "Indefinite form with adjectives like ny."
+            "pattern": "bli av med (sin) fästman",
+            "meaning_en": "lose one’s fiancé",
+            "note_en": "Means the relationship ended (or the person is gone)."
           }
         ],
         "common_errors_en": [
           {
             "error": "Using fästman for any boyfriend/partner.",
-            "fix": "Use pojkvän/partner if not engaged.",
+            "fix": "Use pojkvän/partner if they are not engaged.",
             "explain_en": "fästman implies an engagement (a plan to marry)."
           },
           {
-            "error": "Wrong plural: *fästmaner.",
-            "fix": "Say fästmän.",
-            "explain_en": "The plural changes vowel: -man → -män."
+            "error": "Mixing up fästman and fästmö.",
+            "fix": "fästman = engaged man; fästmö = engaged woman.",
+            "explain_en": "The words are gender-specific in Swedish."
           }
         ],
         "required_example_count": 10,
@@ -150,19 +150,19 @@
           {
             "ex_id": "27596561a6d9ba7be1fdabb1ee9acdbcafd8f7ac",
             "sv": "Inga jobbar på ett kontor och hennes fästman Kurre på ett lager.",
-            "en": "Inga works at an office and her fiancé Kurre at a warehouse.",
-            "frame_id": "frame_personal_relationship",
+            "en": "Inga works in an office and her fiancé Kurre in a warehouse.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Inga"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_spouse_2",
                 "span_sv": "hennes fästman Kurre"
               }
             ],
-            "gloss": "fästman = fiancé (man you are engaged to)",
+            "gloss": "fiancé (engaged man)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -173,7 +173,7 @@
               "text_title": "Som folk är mest",
               "text_url": "https://sv.wikipedia.org/wiki/Som_folk_%C3%A4r_mest",
               "sentence_id": "7fb63ae4",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"fästman\"]"
             }
           },
@@ -181,18 +181,18 @@
             "ex_id": "0271ed6f9605fc691baef94444526afef52e1188",
             "sv": "Eva ska resa med tåget och hennes fästman Ole vinkar av henne.",
             "en": "Eva will travel by train and her fiancé Ole waves goodbye to her.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Eva"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_spouse_2",
                 "span_sv": "hennes fästman Ole"
               }
             ],
-            "gloss": "fästman = fiancé (man you are engaged to)",
+            "gloss": "fiancé (engaged man)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -203,26 +203,26 @@
               "text_title": "Resan bort",
               "text_url": "https://sv.wikipedia.org/wiki/Resan_bort",
               "sentence_id": "d28d8bbf",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"fästman\"]"
             }
           },
           {
             "ex_id": "5767297e3e470f81f8ce9325846c81e0c1b46d04",
             "sv": "Sophie tänker berätta för sin fästman Sky om sin plan, men vågar inte.",
-            "en": "Sophie plans to tell her fiancé Sky about her plan, but she does not dare.",
-            "frame_id": "frame_personal_relationship",
+            "en": "Sophie plans to tell her fiancé Sky about her plan, but does not dare.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Sophie"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_spouse_2",
                 "span_sv": "sin fästman Sky"
               }
             ],
-            "gloss": "fästman = fiancé (man you are engaged to)",
+            "gloss": "fiancé (engaged man)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -233,7 +233,7 @@
               "text_title": "Mamma Mia! (film)",
               "text_url": "https://sv.wikipedia.org/wiki/Mamma_Mia!_(film)",
               "sentence_id": "6cf0b532",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"fästman\"]"
             }
           },
@@ -241,18 +241,18 @@
             "ex_id": "db432f91894592e78e967558e530938b45633d2a",
             "sv": "De andra syflickorna retas med Louise och ber henne berätta om sin fästman.",
             "en": "The other sewing girls tease Louise and ask her to tell about her fiancé.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Louise"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_spouse_2",
                 "span_sv": "sin fästman"
               }
             ],
-            "gloss": "fästman = fiancé (man you are engaged to)",
+            "gloss": "fiancé (engaged man)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -263,7 +263,7 @@
               "text_title": "Louise (opera)",
               "text_url": "https://sv.wikipedia.org/wiki/Louise_(opera)",
               "sentence_id": "b9df6260",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"fästman\"]"
             }
           },
@@ -271,18 +271,18 @@
             "ex_id": "96b1ba210217c2f57a0795285146e15ef6335a90",
             "sv": "Anne blir snabbt uppskattad och skriver långa brev till sin fästman om allt som händer.",
             "en": "Anne quickly becomes appreciated and writes long letters to her fiancé about everything that happens.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Anne"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_spouse_2",
                 "span_sv": "sin fästman"
               }
             ],
-            "gloss": "fästman = fiancé (man you are engaged to)",
+            "gloss": "fiancé (engaged man)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -293,7 +293,37 @@
               "text_title": "Anne på egen hand",
               "text_url": "https://sv.wikipedia.org/wiki/Anne_p%C3%A5_egen_hand",
               "sentence_id": "d5b539ac",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"fästman\"]"
+            }
+          },
+          {
+            "ex_id": "7b332f7bf46e5e64795c3333ff2440cbfd6fc696",
+            "sv": "Man får veta av hennes väninna Ester att hon blivit av med både fästman och jobb.",
+            "en": "One learns from her friend Ester that she has lost both her fiancé and her job.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "fästman"
+              }
+            ],
+            "gloss": "fiancé (engaged man)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Pojkarna på Storholmen",
+              "text_url": "https://sv.wikipedia.org/wiki/Pojkarna_p%C3%A5_Storholmen",
+              "sentence_id": "bd0f63fd",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"fästman\"]"
             }
           },
@@ -301,18 +331,18 @@
             "ex_id": "669b13387abe4d6b016a4b570cf8767043acf21a",
             "sv": "Men han förälskar sig i en ung kvinna som har problem med sin fästman.",
             "en": "But he falls in love with a young woman who has problems with her fiancé.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "en ung kvinna"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_spouse_2",
                 "span_sv": "sin fästman"
               }
             ],
-            "gloss": "fästman = fiancé (man you are engaged to)",
+            "gloss": "fiancé (engaged man)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -323,52 +353,26 @@
               "text_title": "Sten Stensson kommer till stan",
               "text_url": "https://sv.wikipedia.org/wiki/Sten_Stensson_kommer_till_stan",
               "sentence_id": "34250d1e",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"fästman\"]"
             }
           },
           {
-            "ex_id": "48e39ec0399123338505e40c383a0023cc005e7d",
-            "sv": "Hon har ingen fästman, men svärmar lite för sotaren, som dock redan är gift och har barn.",
-            "en": "She has no fiancé, but she has a small crush on the chimney sweep, who is already married and has children.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "4642caeafa0d243641033f2348a210cf581a85d5",
+            "sv": "Förutom att hon är chefens dotter upptäcker snart David att hennes fästman Rico är otrogen mot henne.",
+            "en": "Besides that she is the boss's daughter, David soon discovers that her fiancé Rico is unfaithful to her.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "ingen fästman"
-              }
-            ],
-            "gloss": "fästman = fiancé (man you are engaged to)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Madicken",
-              "text_url": "https://sv.wikipedia.org/wiki/Madicken",
-              "sentence_id": "61cc8d7a",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"fästman\"]"
-            }
-          },
-          {
-            "ex_id": "915fd00b08047095eedba0c0fa0eb2ef341e1c16",
-            "sv": "Hjalles hushållerska Blända har skaffat en ny fästman, dammsugaragent Gotte Jönshammar.",
-            "en": "Hjalle's housekeeper Blända has got a new fiancé, the vacuum cleaner salesman Gotte Jönshammar.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Blända"
+                "fe_id": "fe_spouse_1",
+                "span_sv": "hon"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "en ny fästman, dammsugaragent Gotte Jönshammar"
+                "fe_id": "fe_spouse_2",
+                "span_sv": "hennes fästman Rico"
               }
             ],
-            "gloss": "fästman = fiancé (man you are engaged to)",
+            "gloss": "fiancé (engaged man)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -376,29 +380,25 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Den glade skomakaren",
-              "text_url": "https://sv.wikipedia.org/wiki/Den_glade_skomakaren",
-              "sentence_id": "dbb2226e",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "text_title": "Pillertrillaren",
+              "text_url": "https://sv.wikipedia.org/wiki/Pillertrillaren",
+              "sentence_id": "637ff0cd",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"fästman\"]"
             }
           },
           {
-            "ex_id": "819c721ab232fa93ea285c59cfba1d8b53ae8543",
-            "sv": "Med Hilda finns hennes fästman Ferdinand, som hastigt göms undan bakom en skärm.",
-            "en": "With Hilda is her fiancé Ferdinand, who is quickly hidden behind a screen.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "04178d4327e5eae05ab072835493943158c33f64",
+            "sv": "Charles och Cora förlovar sig dock och likaledes gör Olivia och Coras tidigare fästman Burton.",
+            "en": "Charles and Cora get engaged, and likewise Olivia and Cora's former fiancé Burton do.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Hilda"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "hennes fästman Ferdinand"
+                "fe_id": "fe_spouse_2",
+                "span_sv": "Coras tidigare fästman Burton"
               }
             ],
-            "gloss": "fästman = fiancé (man you are engaged to)",
+            "gloss": "fiancé (engaged man)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -406,29 +406,25 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Löjen och tårar (1913)",
-              "text_url": "https://sv.wikipedia.org/wiki/L%C3%B6jen_och_t%C3%A5rar_(1913)",
-              "sentence_id": "b298b968",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "text_title": "Kärlek måste vi ha",
+              "text_url": "https://sv.wikipedia.org/wiki/K%C3%A4rlek_m%C3%A5ste_vi_ha",
+              "sentence_id": "8189a24d",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"fästman\"]"
             }
           },
           {
-            "ex_id": "b17b2e4fd5101d02e0d66ee53bf79508d4be1018",
-            "sv": "Hon blev gravid utan att vara gift och hennes fästman stupade i kriget.",
-            "en": "She became pregnant without being married and her fiancé died in the war.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "35930e525d0acf6bea992c7ce1fe99e0abbd4390",
+            "sv": "När paret har förlovat sig kallas kvinnor fästmö, en förlovad man kallas fästman.",
+            "en": "When the couple has gotten engaged, women are called fiancée, an engaged man is called fiancé.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Hon"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "hennes fästman"
+                "fe_id": "fe_relationship",
+                "span_sv": "förlovat sig"
               }
             ],
-            "gloss": "fästman = fiancé (man you are engaged to)",
+            "gloss": "fiancé (engaged man)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -436,10 +432,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "En liten kärlekssång",
-              "text_url": "https://sv.wikipedia.org/wiki/En_liten_k%C3%A4rlekss%C3%A5ng",
-              "sentence_id": "7163bb90",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "text_title": "Förlovning",
+              "text_url": "https://sv.wikipedia.org/wiki/F%C3%B6rlovning",
+              "sentence_id": "7ac92656",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"fästman\"]"
             }
           }
@@ -458,7 +454,10 @@
     },
     "morphology": {
       "principal_parts": [
-        "fästman – fästmannen – fästmän – fästmännen"
+        "fästman (en)",
+        "fästmannen",
+        "fästmän",
+        "fästmännen"
       ],
       "particle_or_reflexive": null
     }

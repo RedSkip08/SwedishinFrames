@@ -1,0 +1,442 @@
+{
+  "lexical_unit": {
+    "id": "lu_immatrikulieren_sich_immatrikulieren",
+    "source_de": {
+      "lu_de_raw": "immatrikulieren, (sich) immatrikulieren",
+      "lu_de_normalized": "immatrikulieren (sich immatrikulieren)",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "registrera sig",
+    "display_sv": "registrera sig",
+    "name_sv": "registrera sig",
+    "pos": "multiword",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": "reflexive_verb",
+      "components_sv": [
+        "registrera",
+        "sig"
+      ],
+      "spacing_notes_en": "Written as two words."
+    },
+    "forms": [
+      "registrera sig"
+    ],
+    "english_equivalent_en": "sign up",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword verb phrase: registrera + reflexive pronoun sig. Verb forms follow registrera; sig changes with person (mig/dig/sig/oss/er/sig)."
+    },
+    "derived_words_sv": [
+      {
+        "word": "registrering",
+        "type_en": "noun",
+        "meaning_en": "registration (the process)"
+      },
+      {
+        "word": "registrerad",
+        "type_en": "adjective",
+        "meaning_en": "registered"
+      },
+      {
+        "word": "registreringsavgift",
+        "type_en": "noun",
+        "meaning_en": "registration fee"
+      },
+      {
+        "word": "registreringsnummer",
+        "type_en": "noun",
+        "meaning_en": "registration number"
+      },
+      {
+        "word": "avregistrera sig",
+        "type_en": "verb",
+        "meaning_en": "unregister; remove your registration"
+      }
+    ],
+    "synonyms_sv": [
+      "anmäla sig",
+      "skriva in sig",
+      "teckna sig",
+      "ansluta sig"
+    ],
+    "antonyms_sv": [
+      "avregistrera sig"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_immatrikulieren_sich_immatrikulieren:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_immatrikulieren_sich_immatrikulieren:1",
+        "frame_id": "frame_education",
+        "meaning_en": "give your details to be allowed to use a service or take part in something",
+        "how_to_use_en": [
+          "Use when someone signs up to a website, service, or organization.",
+          "Often followed by where/with: på/hos + place/organization.",
+          "Can be followed by what you register with: med + information (e.g., email)."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "registrera sig",
+            "meaning_en": "sign up; register yourself",
+            "note_en": "Often used with rules/conditions (e.g., age limits) or requirements."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "registrera sig på + webbplats/hemsida",
+            "meaning_en": "register on a website",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "registrera sig hos + organisation",
+            "meaning_en": "register with an organization",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "registrera sig med + uppgift",
+            "meaning_en": "register using information",
+            "note_en": "Typically with login details like an email address."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "registrera sig som + roll",
+            "meaning_en": "register as a role",
+            "note_en": "Used when you sign up to participate in a specific capacity."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *registrera* without the reflexive pronoun when you mean “sign up”.",
+            "fix": "Use registrera sig.",
+            "explain_en": "Registrera alone often means “register something”; for signing up yourself, use the reflexive form."
+          },
+          {
+            "error": "Wrong preposition after registrera sig (e.g., *i* when it should be på/hos).",
+            "fix": "Use på for websites/pages and hos for organizations.",
+            "explain_en": "The examples show på (a website) and hos (an organization)."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "2bdb99ee98eb2ca3b7fb55a010ecc628ec8122fc",
+            "sv": "På Quake lives hemsida kunde vem som helst registrera sig och spela.",
+            "en": "On Quake Live's website, anyone could register and play.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "På Quake lives hemsida"
+              }
+            ],
+            "gloss": "register (sign up)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Quake Live",
+              "text_url": "https://sv.wikipedia.org/wiki/Quake_Live",
+              "sentence_id": "18893e1c",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"registrera\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "07b431db7c50085b130adf2267b457716e45bd17",
+            "sv": "För att kunna använda meröppet måste man registrera sig och skriva ett avtal med biblioteket.",
+            "en": "To be able to use extended opening hours, you must register and sign an agreement with the library.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "biblioteket"
+              }
+            ],
+            "gloss": "register (sign up)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lindesbergs stadsbibliotek",
+              "text_url": "https://sv.wikipedia.org/wiki/Lindesbergs_stadsbibliotek",
+              "sentence_id": "9022253f",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"registrera\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "50e6afc3d370a98981cc97c3d97c29f786bb0cba",
+            "sv": "Det är kostnadsfritt att registrera sig, påbörja släktträd och skapa matchningar.",
+            "en": "It is free to register, start a family tree, and create matches.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "registrera sig"
+              }
+            ],
+            "gloss": "register (sign up)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Myheritage",
+              "text_url": "https://sv.wikipedia.org/wiki/Myheritage",
+              "sentence_id": "b39090c1",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"registrera\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "ce114363f2ac89fc8bb7b4c16191d24aa63a0e3f",
+            "sv": "Vem som helst kunde registrera sig, förutsatt att personen fyllt 18 år.",
+            "en": "Anyone could register, provided that the person had turned 18.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Vem som helst"
+              }
+            ],
+            "gloss": "register (sign up)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Fanfiction.Net",
+              "text_url": "https://sv.wikipedia.org/wiki/Fanfiction.Net",
+              "sentence_id": "61c45073",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"registrera\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "04d03fd5d2399b9e5fa77994e51dde67d744436b",
+            "sv": "För att redigera kartan måste man som utvecklare registrera sig med en verifierad e-postadress.",
+            "en": "To edit the map, you as a developer must register with a verified email address.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "man som utvecklare"
+              },
+              {
+                "fe_id": "fe_material",
+                "span_sv": "en verifierad e-postadress"
+              }
+            ],
+            "gloss": "register (sign up)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Open Sea Map",
+              "text_url": "https://sv.wikipedia.org/wiki/Open_Sea_Map",
+              "sentence_id": "4458c818",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"registrera\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "e2d77d16391e60653fd7b09e5a469f512e257301",
+            "sv": "Användaren ska antingen registrera sig eller ta bort programmet från sin dator inom 30 dagar.",
+            "en": "The user must either register or remove the program from their computer within 30 days.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Användaren"
+              }
+            ],
+            "gloss": "register (sign up)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Total Commander",
+              "text_url": "https://sv.wikipedia.org/wiki/Total_Commander",
+              "sentence_id": "55b6425a",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"registrera\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "afb04d044c4c34f9f0235e2369a7153e193c2ec1",
+            "sv": "Beroende på forumets inställningar så kan användare vara anonyma eller behöva registrera sig för att kunna använda det.",
+            "en": "Depending on the forum's settings, users can be anonymous or need to register to be able to use it.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "användare"
+              }
+            ],
+            "gloss": "register (sign up)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Internetforum",
+              "text_url": "https://sv.wikipedia.org/wiki/Internetforum",
+              "sentence_id": "7168c13e",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"registrera\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "0544db898e85013b12f716bc686c894d192d11e5",
+            "sv": "Alla som vill kan registrera sig som reporter och redaktionen arbetar med att redigera och publicera insända artiklar.",
+            "en": "Anyone who wants can register as a reporter, and the editorial staff works on editing and publishing submitted articles.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Alla som vill"
+              }
+            ],
+            "gloss": "register (sign up)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "OhmyNews",
+              "text_url": "https://sv.wikipedia.org/wiki/OhmyNews",
+              "sentence_id": "cfad52bd",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"registrera\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "69827fd4ee5cd21d830d90a2509415edd2549b9c",
+            "sv": "Sheppard blev då mycket aktiv i arbetet att uppmana kvinnor att registrera sig som väljare.",
+            "en": "Sheppard then became very active in the work of urging women to register as voters.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "kvinnor"
+              }
+            ],
+            "gloss": "register (sign up)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kate Sheppard",
+              "text_url": "https://sv.wikipedia.org/wiki/Kate_Sheppard",
+              "sentence_id": "8c0b01a3",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"registrera\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "771c33ea3762dd65b70d071c59885e4c9d9d38cd",
+            "sv": "För att starta ett UF-företag måste man registrera sig hos Ung Företagsamhet samt betala en registreringsavgift på 300 kr.",
+            "en": "To start a UF company, you must register with Ung Företagsamhet and also pay a registration fee of 300 SEK.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Ung Företagsamhet"
+              }
+            ],
+            "gloss": "register (sign up)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ung företagsamhet",
+              "text_url": "https://sv.wikipedia.org/wiki/Ung_f%C3%B6retagsamhet",
+              "sentence_id": "40da03d3",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"registrera\"][word=\"sig\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "rɛjɪˈstreːra sɛj",
+      "stress_hint": "Main stress is on -stre- in registrera."
+    },
+    "morphology": {
+      "principal_parts": [
+        "registrera sig"
+      ],
+      "particle_or_reflexive": "sig"
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,488 @@
+{
+  "lexical_unit": {
+    "id": "lu_schulferien_die",
+    "source_de": {
+      "lu_de_raw": "Schulferien, die",
+      "lu_de_normalized": "Schulferien",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "skollov",
+    "display_sv": "skollov",
+    "name_sv": "skollov",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "ett skollov",
+      "skollovet",
+      "skollov",
+      "skolloven"
+    ],
+    "english_equivalent_en": "school holiday",
+    "morphology_sv": {
+      "noun": {
+        "gender": "ett",
+        "indef_sg": "skollov",
+        "def_sg": "skollovet",
+        "indef_pl": "skollov",
+        "def_pl": "skolloven",
+        "note_en": "Often used in plural when speaking generally about several holiday periods."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "sommarlov",
+        "type_en": "noun",
+        "meaning_en": "summer school holiday"
+      },
+      {
+        "word": "höstlov",
+        "type_en": "noun",
+        "meaning_en": "autumn school holiday"
+      },
+      {
+        "word": "sportlov",
+        "type_en": "noun",
+        "meaning_en": "winter sports break (school holiday)"
+      },
+      {
+        "word": "jullov",
+        "type_en": "noun",
+        "meaning_en": "Christmas school holiday"
+      },
+      {
+        "word": "påsklov",
+        "type_en": "noun",
+        "meaning_en": "Easter school holiday"
+      },
+      {
+        "word": "ferieskola",
+        "type_en": "noun",
+        "meaning_en": "teaching/school during a school holiday"
+      }
+    ],
+    "synonyms_sv": [
+      "lov",
+      "skolferier"
+    ],
+    "antonyms_sv": [
+      "skoltid"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_schulferien_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_schulferien_die:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a period when students have no scheduled teaching at school",
+        "how_to_use_en": [
+          "Use for official school break periods (e.g., summer, autumn).",
+          "Often used with time expressions: under/på skollov.",
+          "Commonly mentioned together with helgdagar (public holidays)."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "under skollov",
+            "meaning_en": "during school holidays",
+            "note_en": "Used for activities/opening hours in holiday periods."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "vid helger och skollov",
+            "meaning_en": "on weekends and school holidays",
+            "note_en": "Common when describing busy times or extra opening."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "ett skollov",
+            "meaning_en": "a school holiday period",
+            "note_en": "Indefinite singular when one specific break is meant."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "skollovet",
+            "meaning_en": "the school holiday period",
+            "note_en": "Definite form, often when the specific break is known from context."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "övriga skollov",
+            "meaning_en": "the other school holidays",
+            "note_en": "Plural to contrast with one named holiday (e.g., summer)."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using skollov for a normal weekend.",
+            "fix": "Use helg for weekend; use skollov for longer school breaks.",
+            "explain_en": "Skollov refers to school holiday periods, not ordinary Saturdays and Sundays."
+          },
+          {
+            "error": "Mixing up skollov and semester.",
+            "fix": "Use semester for an employee’s vacation; use skollov for students’ school breaks.",
+            "explain_en": "Semester is about work vacation, while skollov is tied to the school calendar."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "a4b488558de1ba84d6f900092b3c5ae4b5ffabf3",
+            "sv": "Fyren kan besökas i juli och augusti samt under helgdagar och skollov.",
+            "en": "The lighthouse can be visited in July and August and also during holidays and school holidays.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "skollov"
+              }
+            ],
+            "gloss": "school holiday",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mull of Galloway fyr",
+              "text_url": "https://sv.wikipedia.org/wiki/Mull_of_Galloway_fyr",
+              "sentence_id": "726ea0e3",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"skollov\"]"
+            }
+          },
+          {
+            "ex_id": "f691d554fc7a38109b690c788f1cafe1242888d1",
+            "sv": "Besökscentret är normalt öppet onsdag-söndag, men håller även öppet många helgdagar och skollov.",
+            "en": "The visitor center is normally open Wednesday to Sunday, but is also open on many holidays and school holidays.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "skollov"
+              }
+            ],
+            "gloss": "school holiday",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Arecibo-observatoriet",
+              "text_url": "https://sv.wikipedia.org/wiki/Arecibo-observatoriet",
+              "sentence_id": "bffd7027",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"skollov\"]"
+            }
+          },
+          {
+            "ex_id": "ea337bd5f8143cad85f888b536cf60108f4dc78a",
+            "sv": "På Kommendanthuset har museets pedagoger aktiviteter under skoltid och skollov för barn och unga.",
+            "en": "At Kommendanthuset, the museum's educators have activities during school time and school holidays for children and young people.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "museets pedagoger"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "skoltid"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "skollov"
+              }
+            ],
+            "gloss": "school holiday",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kommendanthuset",
+              "text_url": "https://sv.wikipedia.org/wiki/Kommendanthuset",
+              "sentence_id": "5b4fc5f9",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"skollov\"]"
+            }
+          },
+          {
+            "ex_id": "8426c39b60bce555eda4730493e43a5359705122",
+            "sv": "På sommaren hölls byggläger, och under övriga skollov hölls också läger.",
+            "en": "In the summer, building camps were held, and during the other school holidays camps were also held.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "övriga skollov"
+              }
+            ],
+            "gloss": "school holiday",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hamregården",
+              "text_url": "https://sv.wikipedia.org/wiki/Hamreg%C3%A5rden",
+              "sentence_id": "27e3ad92",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"skollov\"]"
+            }
+          },
+          {
+            "ex_id": "2631c4999671cb33805877221b212a5ef3152765",
+            "sv": "De två systrarna åker till Paris för att besöka sin morfar under ett skollov.",
+            "en": "The two sisters go to Paris to visit their grandfather during a school holiday.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "ett skollov"
+              }
+            ],
+            "gloss": "school holiday",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ett äventyr i Paris",
+              "text_url": "https://sv.wikipedia.org/wiki/Ett_%C3%A4ventyr_i_Paris",
+              "sentence_id": "4572fdf8",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"skollov\"]"
+            }
+          },
+          {
+            "ex_id": "053226fcbb5e36c45d87c4cfc1c5c9e916af7f34",
+            "sv": "Trafikintensiteten är hög, främst vid helger och skollov då turisttrafiken till Åre är stor.",
+            "en": "The traffic intensity is high, mainly on weekends and school holidays when the tourist traffic to Åre is large.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "skollov"
+              }
+            ],
+            "gloss": "school holiday",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Krokom",
+              "text_url": "https://sv.wikipedia.org/wiki/Krokom",
+              "sentence_id": "4452a811",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"skollov\"]"
+            }
+          },
+          {
+            "ex_id": "e9c3ce75a87ef43d15c20ff4729ccb5ebe6e3b94",
+            "sv": "Ferieskola är skolundervisning under skollov, till exempel sommarskola på sommarlovet.",
+            "en": "Holiday school is school teaching during school holidays, for example summer school during the summer holiday.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "skolundervisning"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "skollov"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "sommarskola"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "sommarlovet"
+              }
+            ],
+            "gloss": "school holiday",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ferieskola",
+              "text_url": "https://sv.wikipedia.org/wiki/Ferieskola",
+              "sentence_id": "b04ff71a",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"skollov\"]"
+            }
+          },
+          {
+            "ex_id": "1aef80b8cc32f3e1231415f51defeee23b510166",
+            "sv": "Ett skollov är någon av de perioder på året då skolornas elever inte har schemalagd undervisning.",
+            "en": "A school holiday is one of the periods of the year when the schools' pupils do not have scheduled teaching.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "Ett skollov"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "skolornas elever"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "schemalagd undervisning"
+              }
+            ],
+            "gloss": "school holiday",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Skollov",
+              "text_url": "https://sv.wikipedia.org/wiki/Skollov",
+              "sentence_id": "71682946",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"skollov\"]"
+            }
+          },
+          {
+            "ex_id": "a17ba6501b26afae0d50eb92f9a0893a58bdee83",
+            "sv": "Sommarlov är ett skollov som infaller då det land de berörda skolorna ligger i har sommar.",
+            "en": "Summer holiday is a school holiday that happens when the country where the schools concerned are located has summer.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "Sommarlov"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "ett skollov"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "de berörda skolorna"
+              }
+            ],
+            "gloss": "school holiday",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sommarlov",
+              "text_url": "https://sv.wikipedia.org/wiki/Sommarlov",
+              "sentence_id": "deef2c6b",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"skollov\"]"
+            }
+          },
+          {
+            "ex_id": "2dfc48e6e6752e4309c554ec754d6f599462536e",
+            "sv": "Höstlov är ett skollov som infaller på hösten eller under tidig vinter i det land skolan ligger.",
+            "en": "Autumn holiday is a school holiday that happens in autumn or during early winter in the country where the school is located.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "Höstlov"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "ett skollov"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skolan"
+              }
+            ],
+            "gloss": "school holiday",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Höstlov",
+              "text_url": "https://sv.wikipedia.org/wiki/H%C3%B6stlov",
+              "sentence_id": "c20c044d",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"skollov\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈskuːlˌluːv",
+      "stress_hint": "Main stress on the first part: SKOL-lov."
+    },
+    "morphology": {
+      "principal_parts": [
+        "skollov (indefinite singular)",
+        "skollovet (definite singular)",
+        "skollov (indefinite plural)",
+        "skolloven (definite plural)"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

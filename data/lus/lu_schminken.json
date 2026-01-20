@@ -1,0 +1,429 @@
+{
+  "lexical_unit": {
+    "id": "lu_schminken",
+    "source_de": {
+      "lu_de_raw": "schminken",
+      "lu_de_normalized": "schminken",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "sminka",
+    "display_sv": "sminka",
+    "name_sv": "sminka",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "sminka",
+      "sminkar",
+      "sminkade",
+      "sminkat",
+      "sminka dig",
+      "sminka sig"
+    ],
+    "english_equivalent_en": "put on makeup",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "sminka",
+        "present": "sminkar",
+        "past": "sminkade",
+        "supine": "sminkat",
+        "imperative": "sminka",
+        "present_participle": "sminkande",
+        "past_participle": "sminkad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Often used reflexively: sminka sig (put on makeup on yourself). Can also take a direct object: sminka någon (put makeup on someone)."
+    },
+    "derived_words_sv": [
+      {
+        "word": "smink",
+        "type_en": "noun",
+        "meaning_en": "makeup (cosmetics)"
+      },
+      {
+        "word": "sminkning",
+        "type_en": "noun",
+        "meaning_en": "the act of putting on makeup"
+      },
+      {
+        "word": "sminkad",
+        "type_en": "adjective",
+        "meaning_en": "wearing makeup; made up"
+      },
+      {
+        "word": "sminkborste",
+        "type_en": "noun",
+        "meaning_en": "makeup brush"
+      },
+      {
+        "word": "sminkartist",
+        "type_en": "noun",
+        "meaning_en": "makeup artist"
+      }
+    ],
+    "synonyms_sv": [
+      "sminka sig",
+      "lägga makeup",
+      "lägga smink",
+      "makea"
+    ],
+    "antonyms_sv": [
+      "tvätta bort smink"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_schminken:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_schminken:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "put makeup on yourself or on someone else, often on the face.",
+        "how_to_use_en": [
+          "Use sminka sig when the person does it to themself.",
+          "Use sminka + object when someone applies makeup to another person.",
+          "You can add where on the body, e.g. around the eyes."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "sminka sig",
+            "meaning_en": "put on makeup (yourself)",
+            "note_en": "Very common everyday pattern."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "sminka sig + (runt) + kroppsdel",
+            "meaning_en": "apply makeup around a body part",
+            "note_en": "Used for areas like eyes: runt ögonen."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "sminka + någon",
+            "meaning_en": "put makeup on someone",
+            "note_en": "Often used in film/TV/theatre contexts."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "låta sminka sig + med + smink",
+            "meaning_en": "have makeup applied with something",
+            "note_en": "Shows the makeup product/medium, e.g. med rouge."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *sminka* without sig when you mean doing it to yourself.",
+            "fix": "Use sminka sig.",
+            "explain_en": "In the examples, self-makeup is expressed with the reflexive pronoun: sminka sig."
+          },
+          {
+            "error": "Mixing up who is being made up in passive/letting-constructions.",
+            "fix": "Use låta sminka sig for ‘have makeup applied’.",
+            "explain_en": "Låta sminka sig means someone else does the makeup, but the subject receives it."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "c54df71499ec3d08273cd648dcdc3e9f69a07569",
+            "sv": "När kvinnan äntligen blev klar med att byta om och sminka sig är hon redan väldigt försenad.",
+            "en": "When the woman finally finished changing clothes and putting on makeup, she is already very late.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "kvinnan"
+              }
+            ],
+            "gloss": "put on makeup",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Stämma träff",
+              "text_url": "https://sv.wikipedia.org/wiki/St%C3%A4mma_tr%C3%A4ff",
+              "sentence_id": "5e781ee3",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"sminka\"]"
+            }
+          },
+          {
+            "ex_id": "050bdc95665b0df46736ad358c2aeeb514d7ca71",
+            "sv": "• Utför skönhetsritualer, t.ex. borsta håret ofta, duscha flera gånger per dag, sminka sig osv.",
+            "en": "Do beauty rituals, for example brush your hair often, shower several times per day, put on makeup, etc.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "sminka sig"
+              }
+            ],
+            "gloss": "put on makeup",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Dysmorfofobi",
+              "text_url": "https://sv.wikipedia.org/wiki/Dysmorfofobi",
+              "sentence_id": "4bb90df6",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          },
+          {
+            "ex_id": "6f021feac8f3f33b73155b0c87547f0f5863cdb9",
+            "sv": "Pandasminkning är ett sätt att sminka sig genom att måla mörka ringar runt ögonen.",
+            "en": "Panda makeup is a way to put on makeup by painting dark rings around the eyes.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "sminka sig"
+              },
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "runt ögonen"
+              }
+            ],
+            "gloss": "put on makeup",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Pandasminkning",
+              "text_url": "https://sv.wikipedia.org/wiki/Pandasminkning",
+              "sentence_id": "457dd0ed",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"sminka\"]"
+            }
+          },
+          {
+            "ex_id": "12e1d6a8043f4bd840a8e06f6d750c7144677bcd",
+            "sv": "I programmet sågs Karl Gerhard sjunga, sminka sig och klä ut sig till Pauline Brunius.",
+            "en": "In the program, Karl Gerhard was seen singing, putting on makeup, and dressing up as Pauline Brunius.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "Karl Gerhard"
+              }
+            ],
+            "gloss": "put on makeup",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "En kväll med Karl Gerhard",
+              "text_url": "https://sv.wikipedia.org/wiki/En_kv%C3%A4ll_med_Karl_Gerhard",
+              "sentence_id": "39882551",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"sminka\"]"
+            }
+          },
+          {
+            "ex_id": "871a5460be9fcc0d7e9a6ecf8ca4068f4abff9c6",
+            "sv": "Många makeup-artister arbetar inom film, TV och teater med att sminka skådespelare, programledare, programpresentatörer och studiogäster.",
+            "en": "Many makeup artists work in film, TV, and theatre with putting makeup on actors, hosts, presenters, and studio guests.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "Många makeup-artister"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "skådespelare, programledare, programpresentatörer och studiogäster"
+              }
+            ],
+            "gloss": "put makeup on (someone)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Makeup-artist",
+              "text_url": "https://sv.wikipedia.org/wiki/Makeup-artist",
+              "sentence_id": "401effe2",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"sminka\"]"
+            }
+          },
+          {
+            "ex_id": "c11ae867c3af4fd01c9612bb5656156f9e80f229",
+            "sv": "Slade var den största stjärnan under glamrocksvågen och inspirerade tusentals tonåringar att sminka sig och upptäcka sin sexualitet.",
+            "en": "Slade was the biggest star during the glam rock wave and inspired thousands of teenagers to put on makeup and discover their sexuality.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "tusentals tonåringar"
+              }
+            ],
+            "gloss": "put on makeup",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Velvet Goldmine",
+              "text_url": "https://sv.wikipedia.org/wiki/Velvet_Goldmine",
+              "sentence_id": "7544c7ec",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"sminka\"]"
+            }
+          },
+          {
+            "ex_id": "967ad68025a34d776629caacda2ac80b17793a98",
+            "sv": "Det hade också blivit tillåtet för en kvinna att sminka sig, vilket hade ansetts vara oanständigt sedan empiretiden.",
+            "en": "It had also become allowed for a woman to put on makeup, which had been considered indecent since the Empire period.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "en kvinna"
+              }
+            ],
+            "gloss": "put on makeup",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mode",
+              "text_url": "https://sv.wikipedia.org/wiki/Mode",
+              "sentence_id": "be57758d",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"sminka\"]"
+            }
+          },
+          {
+            "ex_id": "8dc4f70e58cf1d245538237315a419c35ae9c6bd",
+            "sv": "När Piccoli tillsatts var tanken att sminka honom oigenkännlig och använda en pseudonym, men informationen läckte till media.",
+            "en": "When Piccoli had been appointed, the idea was to make him unrecognizable with makeup and use a pseudonym, but the information leaked to the media.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "honom"
+              }
+            ],
+            "gloss": "apply makeup (to someone)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Holy Motors",
+              "text_url": "https://sv.wikipedia.org/wiki/Holy_Motors",
+              "sentence_id": "dada4f02",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"sminka\"]"
+            }
+          },
+          {
+            "ex_id": "4fbc3a62c2e87e19e3c6eed05f23b71f82b48649",
+            "sv": "Aschenbach låter sminka sig med rouge och färgar håret, så som den gamle snobben på fartyget.",
+            "en": "Aschenbach lets himself be made up with rouge and dyes his hair, like the old snob on the ship.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "Aschenbach"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "rouge"
+              }
+            ],
+            "gloss": "have makeup applied",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Döden i Venedig (opera)",
+              "text_url": "https://sv.wikipedia.org/wiki/D%C3%B6den_i_Venedig_(opera)",
+              "sentence_id": "2cb35731",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"sminka\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈsmɪŋka",
+      "stress_hint": "Stress on the first syllable: SMIN-ka.",
+      "audio": {
+        "file": "audio/lu_schminken.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "sminka",
+        "sminkar",
+        "sminkade",
+        "sminkat"
+      ],
+      "particle_or_reflexive": "sig"
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

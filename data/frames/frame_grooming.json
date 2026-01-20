@@ -1,0 +1,717 @@
+{
+  "frame": {
+    "id": "frame_grooming",
+    "name_en": "Grooming",
+    "slug": "grooming",
+    "frame_description_en": "This frame is about a situation where an Agent does something to clean, care for, or improve the appearance of a Patient, often focusing on a particular Body_part. The action may be done using an Instrument (like a brush, comb, or other tool) and/or using a Medium (like soap, water, toothpaste, shampoo, or cream) that helps the grooming happen.",
+    "frame_description_html": "This frame is about a situation where an <span class=\"Agent\">Agent</span> does something to clean, care for, or improve the appearance of a <span class=\"Patient\">Patient</span>, often focusing on a particular <span class=\"Body_part\">Body_part</span>. The action may be done using an <span class=\"Instrument\">Instrument</span> (like a brush, comb, or other tool) and/or using a <span class=\"Medium\">Medium</span> (like soap, water, toothpaste, shampoo, or cream) that helps the grooming happen.",
+    "frame_description_fe_mentions": [
+      {
+        "fe_id": "fe_agent",
+        "span_en": "Agent"
+      },
+      {
+        "fe_id": "fe_patient",
+        "span_en": "Patient"
+      },
+      {
+        "fe_id": "fe_body_part",
+        "span_en": "Body_part"
+      },
+      {
+        "fe_id": "fe_instrument",
+        "span_en": "Instrument"
+      },
+      {
+        "fe_id": "fe_medium",
+        "span_en": "Medium"
+      }
+    ],
+    "elements": [
+      {
+        "id": "fe_agent",
+        "name": "Agent",
+        "published": 1,
+        "description_en": "The person (or other being) who performs the grooming action.",
+        "description_html": "The person (or other being) who performs the grooming action (<span class=\"Agent\">Agent</span>)."
+      },
+      {
+        "id": "fe_body_part",
+        "name": "Body_part",
+        "published": 1,
+        "description_en": "The specific part of the body that the grooming action is done to or is about (for example hair, teeth, hands, skin).",
+        "description_html": "The specific part of the body that the grooming action is done to or is about (<span class=\"Body_part\">Body_part</span>) (for example hair, teeth, hands, skin)."
+      },
+      {
+        "id": "fe_patient",
+        "name": "Patient",
+        "published": 1,
+        "description_en": "The person, animal, or thing that is being groomed, cleaned, or treated.",
+        "description_html": "The person, animal, or thing that is being groomed, cleaned, or treated (<span class=\"Patient\">Patient</span>)."
+      },
+      {
+        "id": "fe_instrument",
+        "name": "Instrument",
+        "published": 1,
+        "description_en": "A tool used to carry out the grooming action (for example a toothbrush, comb, brush, bathtub, or dental floss).",
+        "description_html": "A tool used to carry out the grooming action (<span class=\"Instrument\">Instrument</span>) (for example a toothbrush, comb, brush, bathtub, or dental floss)."
+      },
+      {
+        "id": "fe_medium",
+        "name": "Medium",
+        "published": 1,
+        "description_en": "A substance used during grooming that helps clean, treat, or apply something (for example soap and water, toothpaste, shampoo, or cream).",
+        "description_html": "A substance used during grooming that helps clean, treat, or apply something (<span class=\"Medium\">Medium</span>) (for example soap and water, toothpaste, shampoo, or cream)."
+      }
+    ],
+    "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
+    "examples": [
+      {
+        "ex_id": "0ed6ff093b25a501400b407346d54b752563cdcd",
+        "sv": "Grevinnan föredrog att bada i ett träbadkar som måste fyllas manuellt med hinkar.",
+        "en": "The countess preferred to bathe in a wooden bathtub that had to be filled by hand with buckets.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_agent",
+            "span_sv": "Grevinnan"
+          },
+          {
+            "fe_id": "fe_instrument",
+            "span_sv": "ett träbadkar"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Hallwylska palatsets interiör",
+          "text_url": "https://sv.wikipedia.org/wiki/Hallwylska_palatsets_interi%C3%B6r",
+          "sentence_id": "201bc3b2",
+          "retrieved_at": "2026-01-20T08:43:11+00:00",
+          "korp_query": "[word=\"bada\"]"
+        }
+      },
+      {
+        "ex_id": "132cbc497bde1eb3fc6a18abf68d52d574d22bc7",
+        "sv": "Det är ett komplement till att borsta tänderna med tandborste och tandkräm.",
+        "en": "It is a complement to brushing your teeth with a toothbrush and toothpaste.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_body_part",
+            "span_sv": "tänderna"
+          },
+          {
+            "fe_id": "fe_instrument",
+            "span_sv": "tandborste"
+          },
+          {
+            "fe_id": "fe_medium",
+            "span_sv": "tandkräm"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Fluorsköljning",
+          "text_url": "https://sv.wikipedia.org/wiki/Fluorsk%C3%B6ljning",
+          "sentence_id": "2f7a7faa",
+          "retrieved_at": "2026-01-20T08:43:11+00:00",
+          "korp_query": "[word=\"borsta\"]"
+        }
+      },
+      {
+        "ex_id": "614b7fd129507c0d3ab77ba9b9b34af963cd6cf1",
+        "sv": "För att undvika parodontit skall man dagligen borsta tänderna och använda tandtråd.",
+        "en": "To avoid periodontitis, you should brush your teeth daily and use dental floss.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_agent",
+            "span_sv": "man"
+          },
+          {
+            "fe_id": "fe_body_part",
+            "span_sv": "tänderna"
+          },
+          {
+            "fe_id": "fe_instrument",
+            "span_sv": "tandtråd"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Parodontit",
+          "text_url": "https://sv.wikipedia.org/wiki/Parodontit",
+          "sentence_id": "b398e0e4",
+          "retrieved_at": "2026-01-20T08:43:11+00:00",
+          "korp_query": "[word=\"borsta\"]"
+        }
+      },
+      {
+        "ex_id": "fff1ab6ce087919b2bcbb366ce01c1473e9df99d",
+        "sv": "Med stor beslutsamhet, mycket balsam och tålamod kan man kamma ut dreadlocks.",
+        "en": "With great determination, a lot of conditioner, and patience, you can comb out dreadlocks.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_medium",
+            "span_sv": "mycket balsam"
+          },
+          {
+            "fe_id": "fe_patient",
+            "span_sv": "dreadlocks"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Dreadlocks",
+          "text_url": "https://sv.wikipedia.org/wiki/Dreadlocks",
+          "sentence_id": "c20b2975",
+          "retrieved_at": "2026-01-20T08:43:11+00:00",
+          "korp_query": "[word=\"kamma\"]"
+        }
+      },
+      {
+        "ex_id": "4bffe09341a5cb1f6aeaa11078c9205a0cecf6b4",
+        "sv": "De två jesuiterna beordrades att klä sig i buddhistmunkars kläder och raka sig på huvudet.",
+        "en": "The two Jesuits were ordered to dress in Buddhist monks' clothes and shave their heads.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_agent",
+            "span_sv": "De två jesuiterna"
+          },
+          {
+            "fe_id": "fe_body_part",
+            "span_sv": "på huvudet"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Kristendomens historia i Kina från 1500 till 1644",
+          "text_url": "https://sv.wikipedia.org/wiki/Kristendomens_historia_i_Kina_fr%C3%A5n_1500_till_1644",
+          "sentence_id": "55ce7ac0",
+          "retrieved_at": "2026-01-20T08:43:11+00:00",
+          "korp_query": "[word=\"raka\"]"
+        }
+      },
+      {
+        "ex_id": "9b79712b98a173e8b33b3fac202cdf1ec86998ef",
+        "sv": "Till handtvätt använder man tvål och vatten; möjligen desinfektionssprit avslutningsvis.",
+        "en": "For hand washing you use soap and water; possibly disinfectant alcohol at the end.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_agent",
+            "span_sv": "man"
+          },
+          {
+            "fe_id": "fe_medium",
+            "span_sv": "tvål och vatten"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Personlig hygien",
+          "text_url": "https://sv.wikipedia.org/wiki/Personlig_hygien",
+          "sentence_id": "5d4a20e9",
+          "retrieved_at": "2026-01-20T08:43:11+00:00",
+          "korp_query": "[word=\"tvål\"]"
+        }
+      },
+      {
+        "ex_id": "cc6d5daf891bdfa8d0088bbed9643d5ddbd4c67e",
+        "sv": "Men Ben-Ali får fruktansvärt ont av vaxningen, vilket gör att Patrik tar fram en hudkräm och ska smörja in åt Ben-Ali.",
+        "en": "But Ben-Ali gets terribly hurt from the waxing, which makes Patrik take out a skin cream and is going to rub it in for Ben-Ali.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_agent",
+            "span_sv": "Patrik"
+          },
+          {
+            "fe_id": "fe_patient",
+            "span_sv": "Ben-Ali"
+          },
+          {
+            "fe_id": "fe_medium",
+            "span_sv": "en hudkräm"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Riverside (webb-tv-serie)",
+          "text_url": "https://sv.wikipedia.org/wiki/Riverside_(webb-tv-serie)",
+          "sentence_id": "94f83c0a",
+          "retrieved_at": "2026-01-20T08:43:11+00:00",
+          "korp_query": "[word=\"smörja\"][word=\"in\"]"
+        }
+      }
+    ],
+    "linked_lexical_units": [
+      {
+        "lu_id": "lu_baden",
+        "display_sv": "bada",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_baden:1"
+      },
+      {
+        "lu_id": "lu_bürsten_die_haare_bürsten",
+        "display_sv": "borsta",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_bürsten_die_haare_bürsten:1"
+      },
+      {
+        "lu_id": "lu_kämmen_die_haare_kämmen",
+        "display_sv": "kamma",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_kämmen_die_haare_kämmen:1"
+      },
+      {
+        "lu_id": "lu_zahnseide_benutzen",
+        "display_sv": "använda tandtråd",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_zahnseide_benutzen:1"
+      },
+      {
+        "lu_id": "lu_putzen_die_zähne_putzen",
+        "display_sv": "borsta",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_putzen_die_zähne_putzen:1"
+      },
+      {
+        "lu_id": "lu_zupfen",
+        "display_sv": "plocka",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_zupfen:1"
+      },
+      {
+        "lu_id": "lu_rasieren",
+        "display_sv": "raka",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_rasieren:1"
+      },
+      {
+        "lu_id": "lu_duschen",
+        "display_sv": "duscha",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_duschen:1"
+      },
+      {
+        "lu_id": "lu_seife_die",
+        "display_sv": "tvål",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_seife_die:1"
+      },
+      {
+        "lu_id": "lu_waschen",
+        "display_sv": "tvätta",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_waschen:1"
+      },
+      {
+        "lu_id": "lu_haar_das_sich_die_haare_schneiden_lassen",
+        "display_sv": "klippa sig",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_haar_das_sich_die_haare_schneiden_lassen:1"
+      },
+      {
+        "lu_id": "lu_friseur_zum_friseur_gehen",
+        "display_sv": "gå till frisören",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_friseur_zum_friseur_gehen:1"
+      },
+      {
+        "lu_id": "lu_maniküren_sich_maniküren_lassen",
+        "display_sv": "få manikyr",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_maniküren_sich_maniküren_lassen:1"
+      },
+      {
+        "lu_id": "lu_schrubben",
+        "display_sv": "skrubba",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_schrubben:1"
+      },
+      {
+        "lu_id": "lu_bürste_die",
+        "display_sv": "borste",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_bürste_die:1"
+      },
+      {
+        "lu_id": "lu_kamm_der",
+        "display_sv": "kam",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_kamm_der:1"
+      },
+      {
+        "lu_id": "lu_waschlappen_der",
+        "display_sv": "tvättlapp",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_waschlappen_der:1"
+      },
+      {
+        "lu_id": "lu_zahnburste_die",
+        "display_sv": "tandborste",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_zahnburste_die:1"
+      },
+      {
+        "lu_id": "lu_shampoo_das",
+        "display_sv": "schampo",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_shampoo_das:1"
+      },
+      {
+        "lu_id": "lu_zahnpasta_die",
+        "display_sv": "tandkräm",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_zahnpasta_die:1"
+      },
+      {
+        "lu_id": "lu_creme_die",
+        "display_sv": "kräm",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_creme_die:1"
+      },
+      {
+        "lu_id": "lu_eincremen",
+        "display_sv": "smörja in",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_eincremen:1"
+      },
+      {
+        "lu_id": "lu_schminken",
+        "display_sv": "sminka",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_schminken:1"
+      }
+    ],
+    "confusable_with": []
+  },
+  "constructions": [
+    {
+      "cxn_id": "cxn_1",
+      "cxn_name_linguistic_sv": "X borstar Y (med Z) (och W)",
+      "cxn_name_user_friendly_en": "Brushing teeth or hair",
+      "pattern": "SUBJ V OBJ (PP-med INSTRUMENT) (och MEDIUM)",
+      "meaning_en": "Someone brushes a body part (often teeth or hair), sometimes using a tool and/or a substance.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_agent"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_body_part"
+        },
+        {
+          "slot": "PP-med INSTRUMENT",
+          "maps_to_fe_id": "fe_instrument"
+        },
+        {
+          "slot": "MEDIUM",
+          "maps_to_fe_id": "fe_medium"
+        }
+      ],
+      "usage_notes_en": [
+        "The object is typically a body part like tänderna or håret.",
+        "With teeth, a tool can be added with med (e.g. tandborste) and a substance can be added (e.g. tandkräm)."
+      ],
+      "examples": [
+        {
+          "ex_id": "614b7fd129507c0d3ab77ba9b9b34af963cd6cf1",
+          "sv": "För att undvika parodontit skall man dagligen borsta tänderna och använda tandtråd.",
+          "en": "To avoid periodontitis, you should brush your teeth daily and use dental floss.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_agent",
+              "span_sv": "man"
+            },
+            {
+              "fe_id": "fe_body_part",
+              "span_sv": "tänderna"
+            },
+            {
+              "fe_id": "fe_instrument",
+              "span_sv": "tandtråd"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Parodontit",
+            "text_url": "https://sv.wikipedia.org/wiki/Parodontit",
+            "sentence_id": "b398e0e4",
+            "retrieved_at": "2026-01-20T08:43:11+00:00",
+            "korp_query": "[word=\"borsta\"]"
+          }
+        },
+        {
+          "ex_id": "132cbc497bde1eb3fc6a18abf68d52d574d22bc7",
+          "sv": "Det är ett komplement till att borsta tänderna med tandborste och tandkräm.",
+          "en": "It is a complement to brushing your teeth with a toothbrush and toothpaste.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_body_part",
+              "span_sv": "tänderna"
+            },
+            {
+              "fe_id": "fe_instrument",
+              "span_sv": "tandborste"
+            },
+            {
+              "fe_id": "fe_medium",
+              "span_sv": "tandkräm"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Fluorsköljning",
+            "text_url": "https://sv.wikipedia.org/wiki/Fluorsk%C3%B6ljning",
+            "sentence_id": "2f7a7faa",
+            "retrieved_at": "2026-01-20T08:43:11+00:00",
+            "korp_query": "[word=\"borsta\"]"
+          }
+        },
+        {
+          "ex_id": "050bdc95665b0df46736ad358c2aeeb514d7ca71",
+          "sv": "• Utför skönhetsritualer, t.ex. borsta håret ofta, duscha flera gånger per dag, sminka sig osv.",
+          "en": "Do beauty routines, for example brush your hair often, shower several times per day, put on makeup, etc.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_body_part",
+              "span_sv": "håret"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Dysmorfofobi",
+            "text_url": "https://sv.wikipedia.org/wiki/Dysmorfofobi",
+            "sentence_id": "4bb90df6",
+            "retrieved_at": "2026-01-20T08:43:11+00:00",
+            "korp_query": "[word=\"borsta\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_2",
+      "cxn_name_linguistic_sv": "X kammar sig",
+      "cxn_name_user_friendly_en": "Combing yourself",
+      "pattern": "SUBJ V REFL",
+      "meaning_en": "Someone combs themselves (their own hair).",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_agent"
+        },
+        {
+          "slot": "REFL",
+          "maps_to_fe_id": "fe_patient"
+        }
+      ],
+      "usage_notes_en": [
+        "The reflexive pronoun sig shows that the person combs themself."
+      ],
+      "examples": [
+        {
+          "ex_id": "7eb66e10f5a3032e90c7a088f4c338108ce057d7",
+          "sv": "Jämför: • \" Olle tycker om att kamma sig. \"",
+          "en": "Compare: “Olle likes to comb himself.”",
+          "fe_tags": [
+            {
+              "fe_id": "fe_patient",
+              "span_sv": "sig"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Svensk grammatik",
+            "text_url": "https://sv.wikipedia.org/wiki/Svensk_grammatik",
+            "sentence_id": "b877362d",
+            "retrieved_at": "2026-01-20T08:43:11+00:00",
+            "korp_query": "[word=\"kamma\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_3",
+      "cxn_name_linguistic_sv": "X smörjer in Y med Z",
+      "cxn_name_user_friendly_en": "Applying cream or lotion",
+      "pattern": "SUBJ V PART OBJ (PP-med MEDIUM)",
+      "meaning_en": "Someone rubs in/applies a substance (like cream or sunscreen) onto a person or a body area.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_agent"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_patient"
+        },
+        {
+          "slot": "PP-med MEDIUM",
+          "maps_to_fe_id": "fe_medium"
+        }
+      ],
+      "usage_notes_en": [
+        "The particle in is part of the verb: smörja in.",
+        "The object can be a person (patient) or a body area (body part), depending on the sentence."
+      ],
+      "examples": [
+        {
+          "ex_id": "cc6d5daf891bdfa8d0088bbed9643d5ddbd4c67e",
+          "sv": "Men Ben-Ali får fruktansvärt ont av vaxningen, vilket gör att Patrik tar fram en hudkräm och ska smörja in åt Ben-Ali.",
+          "en": "But Ben-Ali gets terribly hurt from the waxing, which makes Patrik take out a skin cream and is going to rub it in for Ben-Ali.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_agent",
+              "span_sv": "Patrik"
+            },
+            {
+              "fe_id": "fe_patient",
+              "span_sv": "Ben-Ali"
+            },
+            {
+              "fe_id": "fe_medium",
+              "span_sv": "en hudkräm"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Riverside (webb-tv-serie)",
+            "text_url": "https://sv.wikipedia.org/wiki/Riverside_(webb-tv-serie)",
+            "sentence_id": "94f83c0a",
+            "retrieved_at": "2026-01-20T08:43:11+00:00",
+            "korp_query": "[word=\"smörja\"][word=\"in\"]"
+          }
+        },
+        {
+          "ex_id": "ba4ecd1c86bc36079ff56921b25cb2b8352549fb",
+          "sv": "Sjukdomen är svårbehandlad; man får smörja in drabbade områden med en mycket stark kortisonsalva.",
+          "en": "The disease is hard to treat; you have to rub in the affected areas with a very strong cortisone ointment.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_body_part",
+              "span_sv": "drabbade områden"
+            },
+            {
+              "fe_id": "fe_medium",
+              "span_sv": "en mycket stark kortisonsalva"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Lichen sclerosus",
+            "text_url": "https://sv.wikipedia.org/wiki/Lichen_sclerosus",
+            "sentence_id": "df2d48ef",
+            "retrieved_at": "2026-01-20T08:43:11+00:00",
+            "korp_query": "[word=\"smörja\"][word=\"in\"]"
+          }
+        },
+        {
+          "ex_id": "218125b828fb56e76b99f730f362fcfda32e7862",
+          "sv": "Om solskyddsmedel används är det viktigt att regelbundet smörja in barnet, även vid användning av vattenfast solskyddsmedel.",
+          "en": "If sunscreen is used, it is important to regularly rub it onto the child, even when using water-resistant sunscreen.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_patient",
+              "span_sv": "barnet"
+            },
+            {
+              "fe_id": "fe_medium",
+              "span_sv": "solskyddsmedel"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Solbränna",
+            "text_url": "https://sv.wikipedia.org/wiki/Solbr%C3%A4nna",
+            "sentence_id": "ebb9705d",
+            "retrieved_at": "2026-01-20T08:43:11+00:00",
+            "korp_query": "[word=\"smörja\"][word=\"in\"]"
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_examples": 5,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true
+  }
+}

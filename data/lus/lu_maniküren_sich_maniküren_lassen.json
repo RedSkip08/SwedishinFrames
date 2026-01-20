@@ -1,0 +1,142 @@
+{
+  "lexical_unit": {
+    "id": "lu_maniküren_sich_maniküren_lassen",
+    "source_de": {
+      "lu_de_raw": "maniküren (sich maniküren lassen)",
+      "lu_de_normalized": "maniküren (sich maniküren lassen)",
+      "gender_variants_de": [],
+      "pos_de": "unknown"
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "få manikyr",
+    "display_sv": "få manikyr",
+    "name_sv": "få manikyr",
+    "pos": "multiword",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": "light_verb",
+      "components_sv": [
+        "få",
+        "manikyr"
+      ],
+      "spacing_notes_en": "Two words; expresses having it done (like 'lassen')."
+    },
+    "forms": [
+      "få manikyr"
+    ],
+    "english_equivalent_en": "get a manicure",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword expression. Conjugate the verb få (får, fick, fått) and keep manikyr as a noun."
+    },
+    "derived_words_sv": [
+      {
+        "word": "manikyr",
+        "type_en": "noun",
+        "meaning_en": "manicure (the treatment)"
+      },
+      {
+        "word": "manikyrist",
+        "type_en": "noun",
+        "meaning_en": "manicurist"
+      },
+      {
+        "word": "manikyrsalong",
+        "type_en": "noun",
+        "meaning_en": "nail salon"
+      },
+      {
+        "word": "manikyrset",
+        "type_en": "noun",
+        "meaning_en": "manicure set"
+      }
+    ],
+    "synonyms_sv": [
+      "göra manikyr",
+      "skaffa manikyr"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_maniküren_sich_maniküren_lassen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_maniküren_sich_maniküren_lassen:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "have your nails treated by someone; receive a manicure.",
+        "how_to_use_en": [
+          "Use about a service you receive (often at a salon).",
+          "Conjugate få for tense: får/fick/fått manikyr."
+        ],
+        "patterns": [],
+        "common_errors_en": [
+          {
+            "error": "Jag är få manikyr.",
+            "fix": "Jag får manikyr.",
+            "explain_en": "Use the verb få, not vara."
+          },
+          {
+            "error": "Jag får en manikyr.",
+            "fix": "Jag får manikyr.",
+            "explain_en": "Manikyr is often used without an article in this expression."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": []
+      }
+    ],
+    "pronunciation": {
+      "ipa": "fɔː ˈmɑːnɪˌkyːr",
+      "stress_hint": "Stress is usually on the last part: maniKYR.",
+      "audio": {
+        "file": "audio/lu_maniküren_sich_maniküren_lassen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "få – får – fick – fått"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

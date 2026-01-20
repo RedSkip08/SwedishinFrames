@@ -1,0 +1,414 @@
+{
+  "lexical_unit": {
+    "id": "lu_pendeln",
+    "source_de": {
+      "lu_de_raw": "pendeln",
+      "lu_de_normalized": "pendeln",
+      "gender_variants_de": [],
+      "pos_de": ""
+    },
+    "lu_type": "single",
+    "lemma_sv": "pendla",
+    "display_sv": "pendla",
+    "name_sv": "pendla",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "pendla",
+      "pendlar",
+      "pendlade",
+      "pendlat",
+      "pendlande",
+      "pendlad"
+    ],
+    "english_equivalent_en": "commute",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "pendla",
+        "present": "pendlar",
+        "past": "pendlade",
+        "supine": "pendlat",
+        "imperative": "pendla",
+        "present_participle": "pendlande",
+        "past_participle": "pendlad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "pendling",
+        "type_en": "noun",
+        "meaning_en": "commuting (regular travel)"
+      },
+      {
+        "word": "pendlare",
+        "type_en": "noun",
+        "meaning_en": "commuter"
+      },
+      {
+        "word": "pendeltåg",
+        "type_en": "noun",
+        "meaning_en": "commuter train"
+      },
+      {
+        "word": "arbetspendla",
+        "type_en": "verb",
+        "meaning_en": "commute to work"
+      },
+      {
+        "word": "skolpendla",
+        "type_en": "verb",
+        "meaning_en": "commute to school"
+      }
+    ],
+    "synonyms_sv": [
+      "arbetspendla",
+      "skolpendla",
+      "åka fram och tillbaka",
+      "resa fram och tillbaka"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_travel_-_under_construction",
+        "frame_name_en": "Travel - under construction",
+        "frame_slug": "travel_-_under_construction",
+        "sense_id": "lu_pendeln:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_pendeln:1",
+        "frame_id": "frame_travel_-_under_construction",
+        "meaning_en": "travel regularly between home and a place, often for school or work",
+        "how_to_use_en": [
+          "Use for repeated travel, typically daily or often.",
+          "Often followed by a destination with till, or a route with mellan."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "pendla till + plats",
+            "meaning_en": "commute to a place",
+            "note_en": "Common for school/work destinations."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "pendla mellan + plats och plats",
+            "meaning_en": "commute between two places",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "pendla från + plats",
+            "meaning_en": "commute from a place",
+            "note_en": "Focuses on where the commuting starts."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using pendla for a one-time trip.",
+            "fix": "Use åka/resa for a single trip.",
+            "explain_en": "Pendla implies regular back-and-forth travel, not one occasion."
+          },
+          {
+            "error": "Saying *pendla till jobbet* when you mean the activity at work.",
+            "fix": "Say arbeta/jobba, or specify travel: pendla till jobbet.",
+            "explain_en": "Pendla describes the travel, not working itself."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "1264bdd99f44d1b7aa3647fdc4071796166004e2",
+            "sv": "Ungdomar i högstadium och gymnasium får pendla till Vänersborg eller Trollhättan.",
+            "en": "Young people in lower secondary school and upper secondary school can commute to Vänersborg or Trollhättan.",
+            "frame_id": "frame_travel_-_under_construction",
+            "fe_tags": [
+              {
+                "fe_id": "fe_traveler",
+                "span_sv": "Ungdomar i högstadium och gymnasium"
+              },
+              {
+                "fe_id": "fe_goal",
+                "span_sv": "till Vänersborg eller Trollhättan"
+              }
+            ],
+            "gloss": "pendla = commute (travel regularly, often for school/work)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Vargön",
+              "text_url": "https://sv.wikipedia.org/wiki/Varg%C3%B6n",
+              "sentence_id": "03ae93d4",
+              "retrieved_at": "2026-01-20T08:58:25+00:00",
+              "korp_query": "[word=\"pendla\"]"
+            }
+          },
+          {
+            "ex_id": "4fe5e979648349f9d7e68c8a6f341dfad633fbdd",
+            "sv": "Tanken var att de boende fick pendla till sina arbeten inne i Stockholm.",
+            "en": "The idea was that the residents could commute to their jobs in Stockholm.",
+            "frame_id": "frame_travel_-_under_construction",
+            "fe_tags": [
+              {
+                "fe_id": "fe_traveler",
+                "span_sv": "de boende"
+              },
+              {
+                "fe_id": "fe_goal",
+                "span_sv": "till sina arbeten inne i Stockholm"
+              }
+            ],
+            "gloss": "pendla = commute (travel regularly, often for school/work)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bagarmossen",
+              "text_url": "https://sv.wikipedia.org/wiki/Bagarmossen",
+              "sentence_id": "0384620d",
+              "retrieved_at": "2026-01-20T08:58:25+00:00",
+              "korp_query": "[word=\"pendla\"]"
+            }
+          },
+          {
+            "ex_id": "8270cdf45a112b7ab54b9f53c534853aca722f02",
+            "sv": "Detta kan förklaras med att nuvarande vägar gör det möjligt att pendla till Stockholm.",
+            "en": "This can be explained by the fact that the current roads make it possible to commute to Stockholm.",
+            "frame_id": "frame_travel_-_under_construction",
+            "fe_tags": [
+              {
+                "fe_id": "fe_goal",
+                "span_sv": "till Stockholm"
+              }
+            ],
+            "gloss": "pendla = commute (travel regularly, often for school/work)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ingarö",
+              "text_url": "https://sv.wikipedia.org/wiki/Ingar%C3%B6",
+              "sentence_id": "b2f8a3b3",
+              "retrieved_at": "2026-01-20T08:58:25+00:00",
+              "korp_query": "[word=\"pendla\"]"
+            }
+          },
+          {
+            "ex_id": "65815a1c6734635ca849ed559385638a57480058",
+            "sv": "2011 uppges 75 % av de vuxna invånarna i Knivsta pendla ut från samhället varje dag.",
+            "en": "In 2011, 75% of the adult residents in Knivsta are said to commute out from the community every day.",
+            "frame_id": "frame_travel_-_under_construction",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "2011"
+              },
+              {
+                "fe_id": "fe_traveler",
+                "span_sv": "75 % av de vuxna invånarna i Knivsta"
+              },
+              {
+                "fe_id": "fe_source",
+                "span_sv": "från samhället"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "varje dag"
+              }
+            ],
+            "gloss": "pendla = commute (travel regularly, often for school/work)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Knivsta",
+              "text_url": "https://sv.wikipedia.org/wiki/Knivsta",
+              "sentence_id": "c6de2146",
+              "retrieved_at": "2026-01-20T08:58:25+00:00",
+              "korp_query": "[word=\"pendla\"]"
+            }
+          },
+          {
+            "ex_id": "768ad81ea12af51f90b51e497239228c87ec6dae",
+            "sv": "När eleverna börjar högstadiet måste de pendla till Stavanger för att gå på skola.",
+            "en": "When the students start lower secondary school, they must commute to Stavanger to go to school.",
+            "frame_id": "frame_travel_-_under_construction",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "När eleverna börjar högstadiet"
+              },
+              {
+                "fe_id": "fe_traveler",
+                "span_sv": "eleverna"
+              },
+              {
+                "fe_id": "fe_goal",
+                "span_sv": "till Stavanger"
+              }
+            ],
+            "gloss": "pendla = commute (travel regularly, often for school/work)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Vassøy",
+              "text_url": "https://sv.wikipedia.org/wiki/Vass%C3%B8y",
+              "sentence_id": "24b5979c",
+              "retrieved_at": "2026-01-20T08:58:25+00:00",
+              "korp_query": "[word=\"pendla\"]"
+            }
+          },
+          {
+            "ex_id": "ad7f1a606dd45b448e9aab9d536872c9966e36a8",
+            "sv": "På samma sätt väljer fler att pendla mellan Stockholm och Mälardalen när det finns snabbtåg med täta avgångar.",
+            "en": "In the same way, more people choose to commute between Stockholm and Mälardalen when there are fast trains with frequent departures.",
+            "frame_id": "frame_travel_-_under_construction",
+            "fe_tags": [
+              {
+                "fe_id": "fe_path",
+                "span_sv": "mellan Stockholm och Mälardalen"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "när det finns snabbtåg med täta avgångar"
+              }
+            ],
+            "gloss": "pendla = commute (travel regularly, often for school/work)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Trängselskatt",
+              "text_url": "https://sv.wikipedia.org/wiki/Tr%C3%A4ngselskatt",
+              "sentence_id": "5e7e1bb9",
+              "retrieved_at": "2026-01-20T08:58:25+00:00",
+              "korp_query": "[word=\"pendla\"]"
+            }
+          },
+          {
+            "ex_id": "772a9d6c9adf64cf95168ddb007f717f169510ff",
+            "sv": "Samtidigt innebar höjda boendepriser att alltfler flyttade från staden och började pendla, vilket förbättrad infrastruktur också möjliggjorde.",
+            "en": "At the same time, higher housing prices meant that more and more people moved from the city and started to commute, which improved infrastructure also made possible.",
+            "frame_id": "frame_travel_-_under_construction",
+            "fe_tags": [
+              {
+                "fe_id": "fe_source",
+                "span_sv": "från staden"
+              }
+            ],
+            "gloss": "pendla = commute (travel regularly, often for school/work)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hamburgs historia",
+              "text_url": "https://sv.wikipedia.org/wiki/Hamburgs_historia",
+              "sentence_id": "fccca177",
+              "retrieved_at": "2026-01-20T08:58:25+00:00",
+              "korp_query": "[word=\"pendla\"]"
+            }
+          },
+          {
+            "ex_id": "ff5e98c75e339830b63c1a35faf532cc7165c38a",
+            "sv": "Utbyggda kommunikationer både på spår och väg gjorde det även praktiskt möjligt att pendla till Stockholms innerstad.",
+            "en": "Expanded transport links both on rail and road also made it practically possible to commute to central Stockholm.",
+            "frame_id": "frame_travel_-_under_construction",
+            "fe_tags": [
+              {
+                "fe_id": "fe_goal",
+                "span_sv": "till Stockholms innerstad"
+              }
+            ],
+            "gloss": "pendla = commute (travel regularly, often for school/work)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Befolkningsutveckling i Stockholm",
+              "text_url": "https://sv.wikipedia.org/wiki/Befolkningsutveckling_i_Stockholm",
+              "sentence_id": "716d3614",
+              "retrieved_at": "2026-01-20T08:58:25+00:00",
+              "korp_query": "[word=\"pendla\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈpɛnːdla",
+      "stress_hint": "Stress on the first syllable: PEN-dla.",
+      "audio": {
+        "file": "audio/lu_pendeln.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "pendla",
+        "pendlar",
+        "pendlade",
+        "pendlat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "lexical_unit": {
+    "id": "lu_shampoo_das",
+    "source_de": {
+      "lu_de_raw": "Shampoo, das",
+      "lu_de_normalized": "Shampoo",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "schampo",
+    "display_sv": "schampo",
+    "name_sv": "schampo",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "ett schampo",
+      "schampot",
+      "schampon",
+      "schampona"
+    ],
+    "english_equivalent_en": "shampoo",
+    "morphology_sv": {
+      "noun": {
+        "gender": "ett",
+        "indef_sg": "ett schampo",
+        "def_sg": "schampot",
+        "indef_pl": "schampon",
+        "def_pl": "schampona",
+        "note_en": "Often used as a mass noun; plural is possible when talking about different products/types."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "schamponera",
+        "type_en": "verb",
+        "meaning_en": "wash hair with shampoo"
+      },
+      {
+        "word": "schamponering",
+        "type_en": "noun",
+        "meaning_en": "shampooing; washing with shampoo"
+      },
+      {
+        "word": "hårschampo",
+        "type_en": "noun",
+        "meaning_en": "shampoo for hair"
+      },
+      {
+        "word": "mjällschampo",
+        "type_en": "noun",
+        "meaning_en": "anti-dandruff shampoo"
+      },
+      {
+        "word": "schampoflaska",
+        "type_en": "noun",
+        "meaning_en": "shampoo bottle"
+      }
+    ],
+    "synonyms_sv": [
+      "hårschampo",
+      "hårtvätt"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_shampoo_das:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_shampoo_das:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "a liquid product used to wash hair, or a shampoo product used in treatment.",
+        "how_to_use_en": [
+          "Use for the product you wash hair with: schampo.",
+          "Also used for medical or cosmetic products in shampoo form."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "använda [NÅGOT] som schampo",
+            "meaning_en": "use something like shampoo",
+            "note_en": "Compares another product to shampoo in function."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "i form av kräm eller schampo",
+            "meaning_en": "in the form of cream or shampoo",
+            "note_en": "Used when describing product forms, often in medical contexts."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "i/med kosmetika, schampo, tvål och andra (hygien-/skönhets-)produkter",
+            "meaning_en": "in/with shampoo and other products",
+            "note_en": "Common in lists of hygiene/cosmetic products."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using en schampo.",
+            "fix": "Use ett schampo.",
+            "explain_en": "Schampo is neuter (ett-word)."
+          },
+          {
+            "error": "Mixing up schampo (noun) with schamponera (verb).",
+            "fix": "Use schampo for the product; schamponera for the action.",
+            "explain_en": "They are different word classes and are used in different sentence positions."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "1275b5346996c2074d1d74f55a9a80a8e7a626f9",
+            "sv": "Man använde den precis som schampo för att göra håret finare.",
+            "en": "They used it just like shampoo to make the hair nicer.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "schampo"
+              },
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "håret"
+              }
+            ],
+            "gloss": "shampoo",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Dano",
+              "text_url": "https://sv.wikipedia.org/wiki/Dano",
+              "sentence_id": "0380d2a2",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"schampo\"]"
+            }
+          },
+          {
+            "ex_id": "f561178b3cd7e2fd586112c5db31f9386ee95619",
+            "sv": "Permetrin används för behandling av skabb, i form av kräm eller schampo.",
+            "en": "Permethrin is used for treatment of scabies, in the form of cream or shampoo.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "schampo"
+              }
+            ],
+            "gloss": "shampoo",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Permetrin",
+              "text_url": "https://sv.wikipedia.org/wiki/Permetrin",
+              "sentence_id": "5b4d9409",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"schampo\"]"
+            }
+          },
+          {
+            "ex_id": "19470779677f8d6dab9ee1463869d537973493df",
+            "sv": "Det används också i tvål, schampo och andra hygienprodukter och kosmetiska produkter.",
+            "en": "It is also used in soap, shampoo and other hygiene products and cosmetic products.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "schampo"
+              }
+            ],
+            "gloss": "shampoo",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Briljantblått FCF",
+              "text_url": "https://sv.wikipedia.org/wiki/Briljantbl%C3%A5tt_FCF",
+              "sentence_id": "2b83ee11",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvål\"]"
+            }
+          },
+          {
+            "ex_id": "69a6ff9fe460af2c2bea776254a15b7e5fe9e008",
+            "sv": "Fytol används som doftämne och används i kosmetika, schampo, tvål och rengöringsmedel.",
+            "en": "Phytol is used as a fragrance and is used in cosmetics, shampoo, soap and cleaning agents.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "schampo"
+              }
+            ],
+            "gloss": "shampoo",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Fytol",
+              "text_url": "https://sv.wikipedia.org/wiki/Fytol",
+              "sentence_id": "df2b1b00",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvål\"]"
+            }
+          },
+          {
+            "ex_id": "e41f7c8533cee71819aa7b99c379a9b3b363b05a",
+            "sv": "Den finns i bland annat godis, tandkrämer, schampo och olika slags hudkrämer och oljor.",
+            "en": "It is found in, among other things, candy, toothpastes, shampoo and different kinds of skin creams and oils.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "schampo"
+              }
+            ],
+            "gloss": "shampoo",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Pepparmint",
+              "text_url": "https://sv.wikipedia.org/wiki/Pepparmint",
+              "sentence_id": "687ef71d",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"schampo\"]"
+            }
+          },
+          {
+            "ex_id": "c1301ab19938fc1e430d98bfa27bba2f78c04834",
+            "sv": "Under 1930-talet lanserades, för Nivea, nya produkter såsom solskyddsmedel, raklödder och schampo.",
+            "en": "During the 1930s, for Nivea, new products were launched such as sunscreen, shaving foam and shampoo.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "schampo"
+              }
+            ],
+            "gloss": "shampoo",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Nivea",
+              "text_url": "https://sv.wikipedia.org/wiki/Nivea",
+              "sentence_id": "2a4195f6",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"schampo\"]"
+            }
+          },
+          {
+            "ex_id": "ee953e39913429be69d1975db90f7998c6e7433c",
+            "sv": "I modern tid används nyzeeländsk lin i handkräm, schampo, tvål och andra skönhetsprodukter.",
+            "en": "In modern times, New Zealand flax is used in hand cream, shampoo, soap and other beauty products.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "schampo"
+              }
+            ],
+            "gloss": "shampoo",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Phormium tenax",
+              "text_url": "https://sv.wikipedia.org/wiki/Phormium_tenax",
+              "sentence_id": "63e44708",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvål\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈɧamːpu",
+      "stress_hint": "Stress on the first syllable: SCHAM-po.",
+      "audio": {
+        "file": "audio/lu_shampoo_das.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "ett schampo",
+        "schampot",
+        "schampon",
+        "schampona"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

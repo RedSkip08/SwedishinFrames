@@ -1,0 +1,377 @@
+{
+  "lexical_unit": {
+    "id": "lu_eincremen",
+    "source_de": {
+      "lu_de_raw": "eincremen",
+      "lu_de_normalized": "eincremen",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "smörja in",
+    "display_sv": "smörja in",
+    "name_sv": "smörja in",
+    "pos": "multiword",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": "particle_verb",
+      "components_sv": [
+        "smörja",
+        "in"
+      ],
+      "spacing_notes_en": "Written as two words; particle follows the verb."
+    },
+    "forms": [
+      "smörja in"
+    ],
+    "english_equivalent_en": "rub in",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword verb (particle verb): smörja + in. Forms follow the verb smörja; particle in stays the same."
+    },
+    "derived_words_sv": [
+      {
+        "word": "insmörjning",
+        "type_en": "noun",
+        "meaning_en": "the act of rubbing in (cream/oil)"
+      },
+      {
+        "word": "insmord",
+        "type_en": "adjective",
+        "meaning_en": "rubbed in; covered with cream/oil"
+      },
+      {
+        "word": "hudkräm",
+        "type_en": "noun",
+        "meaning_en": "skin cream"
+      },
+      {
+        "word": "kortisonsalva",
+        "type_en": "noun",
+        "meaning_en": "cortisone ointment"
+      },
+      {
+        "word": "solskyddsmedel",
+        "type_en": "noun",
+        "meaning_en": "sunscreen"
+      }
+    ],
+    "synonyms_sv": [
+      "gnida in",
+      "massera in",
+      "stryka på",
+      "applicera"
+    ],
+    "antonyms_sv": [
+      "tvätta bort",
+      "skölja bort"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_eincremen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_eincremen:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "apply and rub a cream, oil, or similar substance onto skin, hair, or a surface.",
+        "how_to_use_en": [
+          "Use for putting a substance on and rubbing it in.",
+          "Often with med + substance (cream, oil, ointment).",
+          "Can be used for people/body parts or for objects/materials."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "smörja in + Patient/Body_part + med + Medium",
+            "meaning_en": "rub something in with a substance",
+            "note_en": "Common for treatment or care: areas/skin/hair with ointment, oil, sunscreen."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "smörja in + Patient",
+            "meaning_en": "rub in (onto) someone/something",
+            "note_en": "The substance can be understood from context (e.g., sunscreen)."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *smörja* without the particle when you mean “rub in”.",
+            "fix": "Use smörja in when the meaning is “apply and rub in”.",
+            "explain_en": "The particle in is important for the ‘rub in/apply’ meaning in these examples."
+          },
+          {
+            "error": "Wrong preposition after the verb (e.g., *smörja in med* missing the substance).",
+            "fix": "Use med + the substance: smörja in X med Y.",
+            "explain_en": "In the examples, the substance is introduced with med."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "ba4ecd1c86bc36079ff56921b25cb2b8352549fb",
+            "sv": "Sjukdomen är svårbehandlad; man får smörja in drabbade områden med en mycket stark kortisonsalva.",
+            "en": "The disease is hard to treat; you have to rub in the affected areas with a very strong cortisone ointment.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "drabbade områden"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "en mycket stark kortisonsalva"
+              }
+            ],
+            "gloss": "apply (rub in) ointment/cream on the body",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lichen sclerosus",
+              "text_url": "https://sv.wikipedia.org/wiki/Lichen_sclerosus",
+              "sentence_id": "df2d48ef",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"smörja\"][word=\"in\"]"
+            }
+          },
+          {
+            "ex_id": "37de07746fceb5ef0214689c95830382e873c9f6",
+            "sv": "Man kan smörja in stenen med vatten eller olja för att förhindra att den torkar ut.",
+            "en": "You can rub the stone with water or oil to prevent it from drying out.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "stenen"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "vatten eller olja"
+              }
+            ],
+            "gloss": "rub/apply a substance onto something",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Opal",
+              "text_url": "https://sv.wikipedia.org/wiki/Opal",
+              "sentence_id": "b58d65c8",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"smörja\"][word=\"in\"]"
+            }
+          },
+          {
+            "ex_id": "7e3a7d9bd96b02c7a9a0457552e23cb064960aec",
+            "sv": "Att smörja in lädret i sadel, sele och betsel regelbundet ökar livslängden med flera år.",
+            "en": "Rubbing in the leather in saddle, harness and bridle regularly increases the lifespan by several years.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "lädret i sadel, sele och betsel"
+              }
+            ],
+            "gloss": "rub/apply (often oil/grease) onto a surface",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hästskötsel",
+              "text_url": "https://sv.wikipedia.org/wiki/H%C3%A4stsk%C3%B6tsel",
+              "sentence_id": "db34f3c4",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"smörja\"][word=\"in\"]"
+            }
+          },
+          {
+            "ex_id": "218125b828fb56e76b99f730f362fcfda32e7862",
+            "sv": "Om solskyddsmedel används är det viktigt att regelbundet smörja in barnet, även vid användning av vattenfast solskyddsmedel.",
+            "en": "If sunscreen is used, it is important to regularly rub it onto the child, even when using water-resistant sunscreen.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "barnet"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "solskyddsmedel"
+              }
+            ],
+            "gloss": "apply (rub in) cream/lotion on someone",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Solbränna",
+              "text_url": "https://sv.wikipedia.org/wiki/Solbr%C3%A4nna",
+              "sentence_id": "ebb9705d",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"smörja\"][word=\"in\"]"
+            }
+          },
+          {
+            "ex_id": "7196725ab8e64ba3bde96810e55d5742df8edcec",
+            "sv": "Om barnet använder solskyddsmedel är det viktigt att regelbundet smörja in barnet, även om vattenfast solskyddsmedel används.",
+            "en": "If the child uses sunscreen, it is important to regularly rub it onto the child, even if water-resistant sunscreen is used.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "barnet"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "solskyddsmedel"
+              }
+            ],
+            "gloss": "apply (rub in) cream/lotion on someone",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Solskyddsmedel",
+              "text_url": "https://sv.wikipedia.org/wiki/Solskyddsmedel",
+              "sentence_id": "876262dc",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"smörja\"][word=\"in\"]"
+            }
+          },
+          {
+            "ex_id": "f3f702b098ad2bca6d29519dccc76533e1095f17",
+            "sv": "Att smörja in håret med vanlig olivolja och sedan skölja ut med varmt vatten kommer också att ta bort pomada.",
+            "en": "Rubbing the hair with regular olive oil and then rinsing it out with warm water will also remove pomade.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "håret"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "vanlig olivolja"
+              }
+            ],
+            "gloss": "apply (rub in) oil/cream onto hair/skin",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Pomada",
+              "text_url": "https://sv.wikipedia.org/wiki/Pomada",
+              "sentence_id": "6bb70fca",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"smörja\"][word=\"in\"]"
+            }
+          },
+          {
+            "ex_id": "cc6d5daf891bdfa8d0088bbed9643d5ddbd4c67e",
+            "sv": "Men Ben-Ali får fruktansvärt ont av vaxningen, vilket gör att Patrik tar fram en hudkräm och ska smörja in åt Ben-Ali.",
+            "en": "But Ben-Ali gets terribly hurt from the waxing, which makes Patrik take out a skin cream and is going to rub it in for Ben-Ali.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "Patrik"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "Ben-Ali"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "en hudkräm"
+              }
+            ],
+            "gloss": "apply (rub in) cream on someone",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Riverside (webb-tv-serie)",
+              "text_url": "https://sv.wikipedia.org/wiki/Riverside_(webb-tv-serie)",
+              "sentence_id": "94f83c0a",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"smörja\"][word=\"in\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈsmœrja ɪn",
+      "stress_hint": "Main stress on smör-; in is unstressed.",
+      "audio": {
+        "file": "audio/lu_eincremen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "smörja in"
+      ],
+      "particle_or_reflexive": "in"
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "lexical_unit": {
+    "id": "lu_kämmen_die_haare_kämmen",
+    "source_de": {
+      "lu_de_raw": "kämmen (die Haare kämmen)",
+      "lu_de_normalized": "kämmen",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "kamma",
+    "display_sv": "kamma",
+    "name_sv": "kamma",
+    "pos": "verb",
+    "cefr": "A1",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "kamma",
+      "kammar",
+      "kammade",
+      "kammat"
+    ],
+    "english_equivalent_en": "comb",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "kamma",
+        "present": "kammar",
+        "past": "kammade",
+        "supine": "kammat",
+        "imperative": "kamma",
+        "present_participle": "kammande",
+        "past_participle": "kammad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "kamma ut",
+        "type_en": "verb",
+        "meaning_en": "comb out (remove tangles/locks/lice)"
+      },
+      {
+        "word": "kammning",
+        "type_en": "noun",
+        "meaning_en": "combing (the activity)"
+      },
+      {
+        "word": "hårkam",
+        "type_en": "noun",
+        "meaning_en": "hair comb"
+      },
+      {
+        "word": "luskam",
+        "type_en": "noun",
+        "meaning_en": "lice comb"
+      },
+      {
+        "word": "mankam",
+        "type_en": "noun",
+        "meaning_en": "mane comb (for a horse)"
+      },
+      {
+        "word": "kamkofta",
+        "type_en": "noun",
+        "meaning_en": "dressing gown/robe used when combing hair"
+      }
+    ],
+    "synonyms_sv": [
+      "reda ut",
+      "borsta"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_kämmen_die_haare_kämmen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_kämmen_die_haare_kämmen:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "use a comb to make hair neat or untangled.",
+        "how_to_use_en": [
+          "Use it for hair grooming: kamma håret.",
+          "Often reflexive when you comb your own hair: kamma sig.",
+          "With particle ut, it means to comb something out (e.g., dreadlocks, lice)."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "kamma sig",
+            "meaning_en": "comb your own hair",
+            "note_en": "Reflexive: the person combs themself."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "kamma + håret",
+            "meaning_en": "comb the hair",
+            "note_en": "Body part as object."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "kamma + någon",
+            "meaning_en": "comb someone (their hair)",
+            "note_en": "The person is the object; hair is understood or can be added."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "kamma + någons hår",
+            "meaning_en": "comb someone’s hair",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "kamma ut + något",
+            "meaning_en": "comb something out",
+            "note_en": "Used for removing/undoing, e.g. dreadlocks or lice."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *kamma* without an object when you mean hair.",
+            "fix": "Say what you comb: kamma håret / kamma sig.",
+            "explain_en": "In Swedish you usually mention the hair or use the reflexive pronoun."
+          },
+          {
+            "error": "Mixing up *kamma* and *borsta*.",
+            "fix": "Use kamma with a comb; use borsta with a brush.",
+            "explain_en": "Both can be about hair, but the tool differs."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "7eb66e10f5a3032e90c7a088f4c338108ce057d7",
+            "sv": "Jämför: • \" Olle tycker om att kamma sig. \"",
+            "en": "Compare: “Olle likes to comb himself.”",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "sig"
+              }
+            ],
+            "gloss": "kamma = comb (hair)",
+            "level": "A1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Svensk grammatik",
+              "text_url": "https://sv.wikipedia.org/wiki/Svensk_grammatik",
+              "sentence_id": "b877362d",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kamma\"]"
+            }
+          },
+          {
+            "ex_id": "2473c2b311e0ae9f8c314d619fd371cefaef518c",
+            "sv": "Folk undvek till exempel att lämna sina hus och att tvätta eller kamma håret.",
+            "en": "People avoided, for example, leaving their houses and washing or combing their hair.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "håret"
+              }
+            ],
+            "gloss": "kamma = comb (hair)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mayakalendern",
+              "text_url": "https://sv.wikipedia.org/wiki/Mayakalendern",
+              "sentence_id": "d5bc93b8",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kamma\"]"
+            }
+          },
+          {
+            "ex_id": "fff1ab6ce087919b2bcbb366ce01c1473e9df99d",
+            "sv": "Med stor beslutsamhet, mycket balsam och tålamod kan man kamma ut dreadlocks.",
+            "en": "With great determination, a lot of conditioner, and patience, you can comb out dreadlocks.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "mycket balsam"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "dreadlocks"
+              }
+            ],
+            "gloss": "kamma ut = comb out",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Dreadlocks",
+              "text_url": "https://sv.wikipedia.org/wiki/Dreadlocks",
+              "sentence_id": "c20b2975",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kamma\"]"
+            }
+          },
+          {
+            "ex_id": "fb7ed56560bd45550d45cb3f7696fae095c6d6c8",
+            "sv": "Man använder en luskam för att kamma ut hårlöss och äggen, som kallas gnetter.",
+            "en": "You use a lice comb to comb out head lice and the eggs, which are called nits.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "en luskam"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "hårlöss och äggen"
+              }
+            ],
+            "gloss": "luskam = lice comb; kamma ut = comb out",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Huvudlus",
+              "text_url": "https://sv.wikipedia.org/wiki/Huvudlus",
+              "sentence_id": "f67a6bb3",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kamma\"]"
+            }
+          },
+          {
+            "ex_id": "10ea3482f633acb8a704105deb97c73897977640",
+            "sv": "(= att kamma Olle) • \" Olle tycker om att kamma honom. \"",
+            "en": "(= to comb Olle) “Olle likes to comb him.”",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "honom"
+              }
+            ],
+            "gloss": "kamma = comb (someone’s hair)",
+            "level": "A1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Svensk grammatik",
+              "text_url": "https://sv.wikipedia.org/wiki/Svensk_grammatik",
+              "sentence_id": "b87b05c8",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kamma\"]"
+            }
+          },
+          {
+            "ex_id": "e74a6c1f24e6bd7eef34014cfd254dfed7c144d0",
+            "sv": "En mankam används för att kamma hästens man och svans, alltså dela tagelstråna från varandra.",
+            "en": "A mane comb is used to comb the horse’s mane and tail, that is, to separate the hairs from each other.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "En mankam"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "hästens man och svans"
+              }
+            ],
+            "gloss": "mankam = mane comb; kamma = comb",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mankam",
+              "text_url": "https://sv.wikipedia.org/wiki/Mankam",
+              "sentence_id": "d7bdd85a",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kamma\"]"
+            }
+          },
+          {
+            "ex_id": "bad3d8d00275158a29e6d2f5667df076a20543d2",
+            "sv": "Ursprungligen användes den när en kvinna skulle kamma och vårda sitt hår, därav benämningen kamkofta.",
+            "en": "Originally it was used when a woman would comb and care for her hair, hence the name “kamkofta”.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "en kvinna"
+              },
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "sitt hår"
+              }
+            ],
+            "gloss": "kamma = comb (hair)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Peignoir",
+              "text_url": "https://sv.wikipedia.org/wiki/Peignoir",
+              "sentence_id": "b43bebbd",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kamma\"]"
+            }
+          },
+          {
+            "ex_id": "5f0d9459b6de73fec1753b9850bef0eee2f8e5db",
+            "sv": "Tycker om att bli nattad av Mona Corrington och att kamma håret på Hetta Frith.",
+            "en": "Likes being put to bed by Mona Corrington and combing the hair of Hetta Frith.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "håret"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "Hetta Frith"
+              }
+            ],
+            "gloss": "kamma = comb (someone’s hair)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Places Where They Sing",
+              "text_url": "https://sv.wikipedia.org/wiki/Places_Where_They_Sing",
+              "sentence_id": "b9dcbf68",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kamma\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈkamːa",
+      "stress_hint": "Stress on the first syllable: KAM-ma.",
+      "audio": {
+        "file": "audio/lu_kämmen_die_haare_kämmen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "kamma",
+        "kammar",
+        "kammade",
+        "kammat"
+      ],
+      "particle_or_reflexive": "sig"
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "lexical_unit": {
+    "id": "lu_klasse_die",
+    "source_de": {
+      "lu_de_raw": "Klasse, die",
+      "lu_de_normalized": "Klasse",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "klass",
+    "display_sv": "klass",
+    "name_sv": "klass",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "klass",
+      "klassen",
+      "klasser",
+      "klasserna"
+    ],
+    "english_equivalent_en": "school class",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "klass",
+        "def_sg": "klassen",
+        "indef_pl": "klasser",
+        "def_pl": "klasserna",
+        "note_en": "Also used in fixed school labels like “klass 6A” and “klass 1 B”."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "klassrum",
+        "type_en": "noun",
+        "meaning_en": "classroom"
+      },
+      {
+        "word": "klasskamrat",
+        "type_en": "noun",
+        "meaning_en": "classmate"
+      },
+      {
+        "word": "klasslista",
+        "type_en": "noun",
+        "meaning_en": "class list (names of students)"
+      },
+      {
+        "word": "klassföreståndare",
+        "type_en": "noun",
+        "meaning_en": "form teacher; teacher responsible for a class"
+      },
+      {
+        "word": "klassindelning",
+        "type_en": "noun",
+        "meaning_en": "division into classes"
+      }
+    ],
+    "synonyms_sv": [
+      "skolklass",
+      "klassgrupp",
+      "elevgrupp"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_klasse_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_klasse_die:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a group of students in a school, or a school grade level",
+        "how_to_use_en": [
+          "Use for a school group: en klass, klass 6A.",
+          "Use with an ordinal for grade level: femte klass.",
+          "Often mentioned together with a school: på skolan finns en klass per årskurs."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "en klass (per årskurs)",
+            "meaning_en": "a class group",
+            "note_en": "Often used when describing how a school is organized."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "i klass + number + letter (t.ex. klass 6A, klass 1 B)",
+            "meaning_en": "in a specific class",
+            "note_en": "Common school label with number and sometimes a letter."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "ordinal + klass (t.ex. femte klass)",
+            "meaning_en": "a grade level",
+            "note_en": "Refers to the school year level, not the group name."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "en vanlig/öppen klass",
+            "meaning_en": "a type of class group",
+            "note_en": "An adjective can describe what kind of class it is."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using klass for a single lesson (like English “class” = lesson).",
+            "fix": "Use lektion (or kurs) when you mean a lesson/course.",
+            "explain_en": "In these examples, klass means a school group or grade level, not one lesson."
+          },
+          {
+            "error": "Saying *i skolan* when you mean the class group.",
+            "fix": "Say i en klass / i klass 6A.",
+            "explain_en": "Use i + klass to place someone in a specific class group."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "6a1ec9473ba5bc70d5e96a64cc0a1031f0ce73e9",
+            "sv": "På skolan finns en klass per årskurs men även sammanslagna årskurser förekommer.",
+            "en": "At the school there is one class per grade, but merged grades also occur.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skolan"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "en klass"
+              }
+            ],
+            "gloss": "class (school group)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Arboga",
+              "text_url": "https://sv.wikipedia.org/wiki/Arboga",
+              "sentence_id": "3904ca22",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klass\"]"
+            }
+          },
+          {
+            "ex_id": "0f86ecaffce8f7624039abfeb581b074bde8c802",
+            "sv": "Skolan är ett gymnasium med åtta årskurser, från femte klass.",
+            "en": "The school is a secondary school with eight grades, from fifth grade.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Skolan"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "femte klass"
+              }
+            ],
+            "gloss": "grade (school year level)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Wettingen-Mehreraus kloster",
+              "text_url": "https://sv.wikipedia.org/wiki/Wettingen-Mehreraus_kloster",
+              "sentence_id": "f677acf4",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klass\"]"
+            }
+          },
+          {
+            "ex_id": "99435796a6f19e38e096b41e92af6f940e753794",
+            "sv": "Alfons Åberg är sju år och skall börja i skolan, i klass 1 B.",
+            "en": "Alfons Åberg is seven years old and will start school, in class 1 B.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Alfons Åberg"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skolan"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "klass 1 B"
+              }
+            ],
+            "gloss": "class (school group)",
+            "level": "A1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Var är bus-Alfons?",
+              "text_url": "https://sv.wikipedia.org/wiki/Var_%C3%A4r_bus-Alfons%3F",
+              "sentence_id": "500d188e",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klass\"]"
+            }
+          },
+          {
+            "ex_id": "78cc4155375410ce16707a5c05f6dd5b915c9ee6",
+            "sv": "I böckerna har klass 6A, där Bert går, 15 elever.",
+            "en": "In the books, class 6A, where Bert goes, has 15 pupils.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "klass 6A"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Bert"
+              }
+            ],
+            "gloss": "class (school group)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Öreskoga",
+              "text_url": "https://sv.wikipedia.org/wiki/%C3%96reskoga",
+              "sentence_id": "24be0fae",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klass\"]"
+            }
+          },
+          {
+            "ex_id": "da6121c247256d4ee15deea6e0ee5f47490929c5",
+            "sv": "Numera får många barn som klarar av att gå i en vanlig klass gå i en sådan.",
+            "en": "Nowadays many children who manage to go in a regular class are allowed to go in such a one.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "många barn"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "en vanlig klass"
+              }
+            ],
+            "gloss": "class (school group)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Särskola",
+              "text_url": "https://sv.wikipedia.org/wiki/S%C3%A4rskola",
+              "sentence_id": "6bb2e2ae",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klass\"]"
+            }
+          },
+          {
+            "ex_id": "bd56cc7348189c97b01c2ad425b74e879eebce5d",
+            "sv": "År 2003 startade man även en öppen klass för funktionshindrade barn.",
+            "en": "In 2003 they also started an open class for children with disabilities.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "en öppen klass"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "funktionshindrade barn"
+              }
+            ],
+            "gloss": "class (school group)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Eskilscupen",
+              "text_url": "https://sv.wikipedia.org/wiki/Eskilscupen",
+              "sentence_id": "7573073c",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klass\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "/klasː/",
+      "stress_hint": "One syllable; long s-sound at the end."
+    },
+    "morphology": {
+      "principal_parts": [
+        "klass",
+        "klassen",
+        "klasser",
+        "klasserna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

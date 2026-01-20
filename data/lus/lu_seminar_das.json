@@ -1,0 +1,496 @@
+{
+  "lexical_unit": {
+    "id": "lu_seminar_das",
+    "source_de": {
+      "lu_de_raw": "Seminar, das",
+      "lu_de_normalized": "Seminar",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "seminarium",
+    "display_sv": "seminarium",
+    "name_sv": "seminarium",
+    "pos": "noun",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "ett seminarium",
+      "seminariet",
+      "seminarier",
+      "seminarierna"
+    ],
+    "english_equivalent_en": "seminar",
+    "morphology_sv": {
+      "noun": {
+        "gender": "ett",
+        "indef_sg": "seminarium",
+        "def_sg": "seminariet",
+        "indef_pl": "seminarier",
+        "def_pl": "seminarierna",
+        "note_en": "Plural is often -ier: ett seminarium – flera seminarier."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "seminarie",
+        "type_en": "adjective",
+        "meaning_en": "relating to a seminar (often in compounds)"
+      },
+      {
+        "word": "seminariearbete",
+        "type_en": "noun",
+        "meaning_en": "seminar paper / seminar assignment"
+      },
+      {
+        "word": "seminarieserie",
+        "type_en": "noun",
+        "meaning_en": "a series of seminars"
+      },
+      {
+        "word": "seminariedeltagare",
+        "type_en": "noun",
+        "meaning_en": "seminar participant"
+      },
+      {
+        "word": "seminarielokal",
+        "type_en": "noun",
+        "meaning_en": "seminar room"
+      }
+    ],
+    "synonyms_sv": [
+      "seminar",
+      "föreläsning",
+      "workshop",
+      "symposium",
+      "studieseminarium"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_seminar_das:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_seminar_das:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a planned meeting for learning and discussion, often arranged by an organization or institution",
+        "how_to_use_en": [
+          "Use it for an organized learning/discussion event: ett seminarium.",
+          "Often add topic with om + subject.",
+          "Often mention organizer with arrangerat av / anordnat av."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "anordna/ordna/genomföra ett seminarium",
+            "meaning_en": "arrange or hold a seminar",
+            "note_en": "Used when an institution or group is the organizer."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "ett seminarium i + plats",
+            "meaning_en": "a seminar in a place",
+            "note_en": "Often used for venues like Riksdagen."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "ett seminarium om + ämne",
+            "meaning_en": "a seminar about a topic",
+            "note_en": "Common for political, social, or academic topics."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "ett + adj + seminarium",
+            "meaning_en": "a seminar of a certain type",
+            "note_en": "Examples include längre, högre, skattepolitiskt."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "delta i ett seminarium (med + person)",
+            "meaning_en": "take part in a seminar",
+            "note_en": "Med can name the teacher/leader or another participant."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using en seminarium",
+            "fix": "Use ett seminarium",
+            "explain_en": "Seminarium is an ett-word (neuter)."
+          },
+          {
+            "error": "Wrong plural: seminarierna used as singular",
+            "fix": "Use seminariet for definite singular",
+            "explain_en": "Definite singular is seminariet; seminarierna is definite plural."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "ff5a76934c8f7d37d20bc965fe2aeaf91e8bd87c",
+            "sv": "Varje år anordnar Statsvetenskapliga institutionen i Göteborg ett seminarium uppkallat efter Westerståhl.",
+            "en": "Every year the Department of Political Science in Gothenburg arranges a seminar named after Westerståhl.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Statsvetenskapliga institutionen i Göteborg"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "ett seminarium"
+              }
+            ],
+            "gloss": "seminar",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jörgen Westerståhl",
+              "text_url": "https://sv.wikipedia.org/wiki/J%C3%B6rgen_Westerst%C3%A5hl",
+              "sentence_id": "cbf54676",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarium\"]"
+            }
+          },
+          {
+            "ex_id": "00f5ccdfe4436ffab12e776c384d713dc6748614",
+            "sv": "2019 uppmärksammades dagen bland annat med ett seminarium i Riksdagen arrangerat av Riksdagens Bilnätverk.",
+            "en": "In 2019 the day was marked, among other things, with a seminar in the Parliament arranged by the Parliament's Car Network.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "ett seminarium"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Riksdagen"
+              }
+            ],
+            "gloss": "seminar",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bilens dag",
+              "text_url": "https://sv.wikipedia.org/wiki/Bilens_dag",
+              "sentence_id": "aa9389ee",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarium\"]"
+            }
+          },
+          {
+            "ex_id": "deb79de34fa4a68fc5aaedecee7e392d3ba2e4a4",
+            "sv": "Först 1993 ordnades det första seminariet av intresseorganisationer då Industriförbundet genomförde ett skattepolitiskt seminarium.",
+            "en": "Only in 1993 the first seminar was arranged by interest organizations, when Industriförbundet carried out a tax policy seminar.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "det första seminariet"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Industriförbundet"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "skattepolitiskt"
+              }
+            ],
+            "gloss": "seminar",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Almedalsveckan",
+              "text_url": "https://sv.wikipedia.org/wiki/Almedalsveckan",
+              "sentence_id": "45c92740",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarium\"]"
+            }
+          },
+          {
+            "ex_id": "bde6197279096945abab45f766a74efd3f021f3c",
+            "sv": "Innan middagen hölls ett längre seminarium om socialdemokratisk utrikespolitik och internationellt engagemang.",
+            "en": "Before the dinner, a longer seminar was held about social democratic foreign policy and international engagement.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "ett längre seminarium"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "socialdemokratisk utrikespolitik och internationellt engagemang"
+              }
+            ],
+            "gloss": "seminar",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Laboremus",
+              "text_url": "https://sv.wikipedia.org/wiki/Laboremus",
+              "sentence_id": "83c41483",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarium\"]"
+            }
+          },
+          {
+            "ex_id": "8ccbeab116ee1f69911d02e588d83a78ec1382ba",
+            "sv": "2001 höll Fadime Şahindal ett tal i riksdagen under ett seminarium om våld mot kvinnor.",
+            "en": "In 2001 Fadime Şahindal gave a speech in the parliament during a seminar about violence against women.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "ett seminarium"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "våld mot kvinnor"
+              }
+            ],
+            "gloss": "seminar",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Fadime Şahindal",
+              "text_url": "https://sv.wikipedia.org/wiki/Fadime_%C5%9Eahindal",
+              "sentence_id": "dad1f2da",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarium\"]"
+            }
+          },
+          {
+            "ex_id": "76b5ac95becd6a491acbb3568278acc5190cafc1",
+            "sv": "1972 deltog Cramphorn i ett seminarium med Grotowski själv då denne besökte Australien.",
+            "en": "In 1972 Cramphorn took part in a seminar with Grotowski himself when he visited Australia.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Cramphorn"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "ett seminarium"
+              },
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "Grotowski"
+              }
+            ],
+            "gloss": "seminar",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Rex Cramphorn",
+              "text_url": "https://sv.wikipedia.org/wiki/Rex_Cramphorn",
+              "sentence_id": "3d1ad54c",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarium\"]"
+            }
+          },
+          {
+            "ex_id": "edc1a7898ba6c2476e32fd03981d6ec8b007e05e",
+            "sv": "Ett seminarium för lärarutbildning hade tillkommit i Linköping 1843 i samband med folkskolans inrättande.",
+            "en": "A seminar for teacher education had been added in Linköping in 1843 in connection with the founding of the elementary school.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "Ett seminarium"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "lärarutbildning"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Linköping"
+              }
+            ],
+            "gloss": "seminar",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Linköpings universitetsbibliotek",
+              "text_url": "https://sv.wikipedia.org/wiki/Link%C3%B6pings_universitetsbibliotek",
+              "sentence_id": "b2909b9b",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarium\"]"
+            }
+          },
+          {
+            "ex_id": "7fdc647abbc3244cf4b40cce8bcb670298ae530c",
+            "sv": "Skolan innefattade med tiden också en småskola för pojkar och ett seminarium för kvinnliga lärare.",
+            "en": "Over time the school also included a small school for boys and a seminar for female teachers.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Skolan"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "ett seminarium"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "kvinnliga lärare"
+              }
+            ],
+            "gloss": "seminar",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Uppsala högre elementarläroverk för flickor",
+              "text_url": "https://sv.wikipedia.org/wiki/Uppsala_h%C3%B6gre_elementarl%C3%A4roverk_f%C3%B6r_flickor",
+              "sentence_id": "54bbcc49",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarium\"]"
+            }
+          },
+          {
+            "ex_id": "86a23e8bd265fba1b547440f75e709e4d7345fad",
+            "sv": "En doktorsavhandling växer vanligen fram inom ramen för arbetet i ett högre seminarium.",
+            "en": "A doctoral thesis usually develops within the framework of the work in an advanced seminar.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "ett högre seminarium"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "En doktorsavhandling"
+              }
+            ],
+            "gloss": "seminar",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Seminarium (mötesform)",
+              "text_url": "https://sv.wikipedia.org/wiki/Seminarium_(m%C3%B6tesform)",
+              "sentence_id": "db27e1f7",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarium\"]"
+            }
+          },
+          {
+            "ex_id": "2f2667fe5959eddeb9389acd599f9e18671c0553",
+            "sv": "Det grundades 1896 av reformpedagogen Alma Detthow som första privata seminarium i landet.",
+            "en": "It was founded in 1896 by the reform educator Alma Detthow as the first private seminar in the country.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "reformpedagogen Alma Detthow"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "första privata seminarium"
+              }
+            ],
+            "gloss": "seminar",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Nya lärarinneseminariet",
+              "text_url": "https://sv.wikipedia.org/wiki/Nya_l%C3%A4rarinneseminariet",
+              "sentence_id": "59fadfc1",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarium\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "sɛmɪˈnɑːrɪɵm",
+      "stress_hint": "Stress is usually on -nar-: semi-NAR-ium."
+    },
+    "morphology": {
+      "principal_parts": [
+        "seminarium",
+        "seminariet",
+        "seminarier",
+        "seminarierna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

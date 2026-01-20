@@ -1,0 +1,498 @@
+{
+  "lexical_unit": {
+    "id": "lu_avsluta_das_studium_avsluta",
+    "source_de": {
+      "lu_de_raw": "abschließen (das Studium abschließen)",
+      "lu_de_normalized": "abschließen (das Studium abschließen)",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "avsluta",
+    "display_sv": "avsluta",
+    "name_sv": "avsluta",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "avsluta",
+      "avslutar",
+      "avslutade",
+      "avslutat"
+    ],
+    "english_equivalent_en": "finish (studies)",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "avsluta",
+        "present": "avslutar",
+        "past": "avslutade",
+        "supine": "avslutat",
+        "imperative": "avsluta",
+        "present_participle": "avslutande",
+        "past_participle": "avslutad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "avslutning",
+        "type_en": "noun",
+        "meaning_en": "an ending; a conclusion (e.g., of a course/event)"
+      },
+      {
+        "word": "avslutad",
+        "type_en": "adjective",
+        "meaning_en": "finished; completed"
+      },
+      {
+        "word": "avslutande",
+        "type_en": "adjective",
+        "meaning_en": "final; concluding"
+      },
+      {
+        "word": "avsluta studierna",
+        "type_en": "other",
+        "meaning_en": "finish one’s studies"
+      },
+      {
+        "word": "avsluta utbildningen",
+        "type_en": "other",
+        "meaning_en": "finish an education/training program"
+      }
+    ],
+    "synonyms_sv": [
+      "slutföra",
+      "fullfölja",
+      "göra klart",
+      "ta examen"
+    ],
+    "antonyms_sv": [
+      "påbörja",
+      "börja"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_avsluta_das_studium_avsluta:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_avsluta_das_studium_avsluta:1",
+        "frame_id": "frame_education",
+        "meaning_en": "finish and complete a period of study or an education program.",
+        "how_to_use_en": [
+          "Use with a direct object: avsluta + studies/education/school.",
+          "Common in formal or neutral writing about education.",
+          "Often used with purpose: för att avsluta ..."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "avsluta + studierna / sina studier",
+            "meaning_en": "finish one’s studies",
+            "note_en": "Very common with definite form: studierna."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "avsluta + (sin) utbildning",
+            "meaning_en": "finish an education program",
+            "note_en": "Often used for professional training (e.g., medicinsk utbildning)."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "avsluta + skola (t.ex. elementärskolan, high school)",
+            "meaning_en": "finish school",
+            "note_en": "Used for completing a school level."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "för att avsluta + studier/utbildning",
+            "meaning_en": "in order to finish studies",
+            "note_en": "Purpose clause explaining why someone goes somewhere/does something."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "utan att avsluta + studierna",
+            "meaning_en": "without finishing the studies",
+            "note_en": "Shows that the studies were not completed."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *avsluta* without saying what is finished.",
+            "fix": "Add the object: avsluta studierna/utbildningen/skolan.",
+            "explain_en": "In this education sense, *avsluta* normally needs an object."
+          },
+          {
+            "error": "Confusing *avsluta* with *sluta*.",
+            "fix": "Use *avsluta* for completing; use *sluta* for stopping/quitting.",
+            "explain_en": "*Avsluta* focuses on finishing something; *sluta* often means to stop or quit."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "df1ab8f917d857d1a19123ca131d0f2deff56e17",
+            "sv": "På grund av ekonomiska problem tvingades Kuula avsluta studierna och blev körledare i Vasa.",
+            "en": "Because of financial problems, Kuula was forced to finish his studies and became a choir leader in Vaasa.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Kuula"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "studierna"
+              }
+            ],
+            "gloss": "finish (studies)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Toivo Kuula",
+              "text_url": "https://sv.wikipedia.org/wiki/Toivo_Kuula",
+              "sentence_id": "e3d0a032",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"avsluta\"]"
+            }
+          },
+          {
+            "ex_id": "c881db0f873c53b58f88f02db8b23ea0e41989aa",
+            "sv": "Senare tillbringade hon en termin i Paris för att avsluta sina studier.",
+            "en": "Later she spent a term in Paris to finish her studies.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "sina studier"
+              }
+            ],
+            "gloss": "finish (studies)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lissie",
+              "text_url": "https://sv.wikipedia.org/wiki/Lissie",
+              "sentence_id": "f6a1638c",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"avsluta\"]"
+            }
+          },
+          {
+            "ex_id": "d386ed77226537abac66f5f60f64515d94194fee",
+            "sv": "Han kunde sedan avsluta sin medicinska utbildning och tog läkarexamen år 1917.",
+            "en": "He could then finish his medical education and took a medical degree in 1917.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "sin medicinska utbildning"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "läkarexamen"
+              }
+            ],
+            "gloss": "finish (an education program)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Albert Szent-Györgyi",
+              "text_url": "https://sv.wikipedia.org/wiki/Albert_Szent-Gy%C3%B6rgyi",
+              "sentence_id": "3619e444",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"avsluta\"]"
+            }
+          },
+          {
+            "ex_id": "7de59841c889df5bda0d40db058d28a25ce37460",
+            "sv": "Han var tvungen att avsluta sin advokatutbildning och ägnade sig istället hängivet åt skrivandet.",
+            "en": "He had to finish his lawyer education and instead devoted himself to writing.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "sin advokatutbildning"
+              }
+            ],
+            "gloss": "finish (a training/education program)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Madame Bovary",
+              "text_url": "https://sv.wikipedia.org/wiki/Madame_Bovary",
+              "sentence_id": "6ecfa39d",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"avsluta\"]"
+            }
+          },
+          {
+            "ex_id": "6f5aca3b745a87f9ca7bf4f231966ceecabfac9a",
+            "sv": "• I USA har alla delstaterna infört skolpliktslagar som säger att barnen åtminstone måste avsluta elementärskolan.",
+            "en": "In the USA, all the states have introduced compulsory school laws that say that the children at least must finish elementary school.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "barnen"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "elementärskolan"
+              }
+            ],
+            "gloss": "finish (school)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "1918",
+              "text_url": "https://sv.wikipedia.org/wiki/1918",
+              "sentence_id": "6f9703d9",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"avsluta\"]"
+            }
+          },
+          {
+            "ex_id": "ec11f86ddcb66842125fee1133c8e7cc8849371d",
+            "sv": "Bandets första basist var Tanya Cadler som lämnade bandet 1999 för att avsluta high school.",
+            "en": "The band's first bassist was Tanya Cadler, who left the band in 1999 to finish high school.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Tanya Cadler"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "high school"
+              }
+            ],
+            "gloss": "finish (school)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kittie",
+              "text_url": "https://sv.wikipedia.org/wiki/Kittie",
+              "sentence_id": "59fe0dc4",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"avsluta\"]"
+            }
+          },
+          {
+            "ex_id": "0ca82869932173023ab84c9c1ca8fe157577b958",
+            "sv": "Lisa kommer att avsluta sina gymnasiestudier två år för tidigt på Springfield High School.",
+            "en": "Lisa will finish her upper secondary studies two years too early at Springfield High School.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Lisa"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "sina gymnasiestudier"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Springfield High School"
+              }
+            ],
+            "gloss": "finish (upper secondary studies)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lisa Simpson",
+              "text_url": "https://sv.wikipedia.org/wiki/Lisa_Simpson",
+              "sentence_id": "07835d96",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"avsluta\"]"
+            }
+          },
+          {
+            "ex_id": "43986cf22b6daa5378ec4d781ef0ad7e804d16ad",
+            "sv": "1889 inbjöd Wagners änka Cosima Humperdinck till Frankfurt för att avsluta hennes son Siegfrieds musikstudier.",
+            "en": "In 1889 Wagner's widow Cosima invited Humperdinck to Frankfurt to finish her son Siegfried's music studies.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "hennes son Siegfrieds"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "musikstudier"
+              }
+            ],
+            "gloss": "finish (studies)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hans och Greta (opera)",
+              "text_url": "https://sv.wikipedia.org/wiki/Hans_och_Greta_(opera)",
+              "sentence_id": "239bfad0",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"avsluta\"]"
+            }
+          },
+          {
+            "ex_id": "e4ab16809997ba9fd98d0ef876ac6943e61a5d16",
+            "sv": "Signe Bosson-Alin fick bli kvar i Kristianstad ytterligare ett par år för att avsluta sina studier vid Virginska flickskolan.",
+            "en": "Signe Bosson-Alin had to stay in Kristianstad for a couple more years to finish her studies at Virginska girls' school.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Signe Bosson-Alin"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "sina studier"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Virginska flickskolan"
+              }
+            ],
+            "gloss": "finish (studies at a school)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Signe Bosson-Alin",
+              "text_url": "https://sv.wikipedia.org/wiki/Signe_Bosson-Alin",
+              "sentence_id": "7ad67741",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"avsluta\"]"
+            }
+          },
+          {
+            "ex_id": "a7f5e0d6bee535f173cecb81600aaab1bdcecf28",
+            "sv": "Ó hEithir föddes år 1930 och låg vid universitetet i Galway utan att avsluta studierna.",
+            "en": "Ó hEithir was born in 1930 and studied at the university in Galway without finishing the studies.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Ó hEithir"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "universitetet i Galway"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "studierna"
+              }
+            ],
+            "gloss": "finish (studies)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Irisk litteratur",
+              "text_url": "https://sv.wikipedia.org/wiki/Irisk_litteratur",
+              "sentence_id": "1ec0ba29",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"avsluta\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈɑːvˌslʉːta",
+      "stress_hint": "Main stress on the first part: AV-sluta."
+    },
+    "morphology": {
+      "principal_parts": [
+        "avsluta",
+        "avslutar",
+        "avslutade",
+        "avslutat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "lexical_unit": {
+    "id": "lu_lehrveranstaltung_die",
+    "source_de": {
+      "lu_de_raw": "Lehrveranstaltung, die",
+      "lu_de_normalized": "Lehrveranstaltung",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "undervisningstillfälle",
+    "display_sv": "undervisningstillfälle",
+    "name_sv": "undervisningstillfälle",
+    "pos": "noun",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "undervisningstillfälle",
+      "undervisningstillfället",
+      "undervisningstillfällen",
+      "undervisningstillfällena"
+    ],
+    "english_equivalent_en": "teaching session",
+    "morphology_sv": {
+      "noun": {
+        "gender": "ett",
+        "indef_sg": "undervisningstillfälle",
+        "def_sg": "undervisningstillfället",
+        "indef_pl": "undervisningstillfällen",
+        "def_pl": "undervisningstillfällena",
+        "note_en": "A compound noun: undervisning + tillfälle."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "undervisning",
+        "type_en": "noun",
+        "meaning_en": "teaching; instruction"
+      },
+      {
+        "word": "tillfälle",
+        "type_en": "noun",
+        "meaning_en": "occasion; opportunity"
+      },
+      {
+        "word": "undervisningstid",
+        "type_en": "noun",
+        "meaning_en": "teaching time; class time"
+      },
+      {
+        "word": "undervisningsmaterial",
+        "type_en": "noun",
+        "meaning_en": "teaching materials"
+      },
+      {
+        "word": "undervisningssal",
+        "type_en": "noun",
+        "meaning_en": "classroom; teaching room"
+      }
+    ],
+    "synonyms_sv": [],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_lehrveranstaltung_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_lehrveranstaltung_die:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a single occasion when teaching happens, for example one class meeting",
+        "how_to_use_en": [
+          "Use for one specific class/lesson event (one meeting).",
+          "Often used in school or university planning and schedules."
+        ],
+        "patterns": [],
+        "common_errors_en": [
+          {
+            "error": "Using it to mean a whole course.",
+            "fix": "Use kurs or utbildning for a whole course/program.",
+            "explain_en": "undervisningstillfälle is one session, not the entire course."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": []
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈɵnːdɛrˌviːsnɪŋsˌtɪlːfɛlːɛ",
+      "stress_hint": "Main stress is on the first part: un-der-."
+    },
+    "morphology": {
+      "principal_parts": [
+        "ett undervisningstillfälle",
+        "undervisningstillfället",
+        "undervisningstillfällen",
+        "undervisningstillfällena"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

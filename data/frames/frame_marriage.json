@@ -3,8 +3,8 @@
     "id": "frame_marriage",
     "name_en": "Marriage",
     "slug": "marriage",
-    "frame_description_en": "This frame is about a socially and/or legally recognized union between two partners, where Spouse_1 and Spouse_2 are connected by a Relationship (such as being engaged, married, divorced, or widowed). The union can be created, changed, or ended by an Event (for example, getting engaged, getting married, separating, or getting divorced), which may happen at a particular Time and in a particular Place. In some situations an Authority (such as a registry office or a government agency) is involved in recording or approving the Relationship or Event. People may also mention a Reason for entering into, maintaining, or ending the Relationship.",
-    "frame_description_html": "This frame is about a socially and/or legally recognized union between two partners, where <span class=\"Spouse_1\">Spouse_1</span> and <span class=\"Spouse_2\">Spouse_2</span> are connected by a <span class=\"Relationship\">Relationship</span> (such as being engaged, married, divorced, or widowed). The union can be created, changed, or ended by an <span class=\"Event\">Event</span> (for example, getting engaged, getting married, separating, or getting divorced), which may happen at a particular <span class=\"Time\">Time</span> and in a particular <span class=\"Place\">Place</span>. In some situations an <span class=\"Authority\">Authority</span> (such as a registry office or a government agency) is involved in recording or approving the <span class=\"Relationship\">Relationship</span> or <span class=\"Event\">Event</span>. People may also mention a <span class=\"Reason\">Reason</span> for entering into, maintaining, or ending the <span class=\"Relationship\">Relationship</span>.",
+    "frame_description_en": "This frame is about a close legal or social partnership between two people. In this situation, Spouse_1 and Spouse_2 are the partners, and their Relationship can be marriage, engagement, or a status like being married, engaged, divorced, or widowed. The Relationship can begin, change, or end because of an Event such as a wedding, an engagement, a separation, or a divorce. The situation can be located in Time and Place, and it may involve an Authority (for example a court, a religious system, or a registrar) that recognizes or regulates the Relationship. People may also give a Reason for why the Event happens or why the Relationship changes.",
+    "frame_description_html": "This frame is about a close legal or social partnership between two people. In this situation, <span class=\"Spouse_1\">Spouse_1</span> and <span class=\"Spouse_2\">Spouse_2</span> are the partners, and their <span class=\"Relationship\">Relationship</span> can be marriage, engagement, or a status like being married, engaged, divorced, or widowed. The <span class=\"Relationship\">Relationship</span> can begin, change, or end because of an <span class=\"Event\">Event</span> such as a wedding, an engagement, a separation, or a divorce. The situation can be located in <span class=\"Time\">Time</span> and <span class=\"Place\">Place</span>, and it may involve an <span class=\"Authority\">Authority</span> (for example a court, a religious system, or a registrar) that recognizes or regulates the <span class=\"Relationship\">Relationship</span>. People may also give a <span class=\"Reason\">Reason</span> for why the <span class=\"Event\">Event</span> happens or why the <span class=\"Relationship\">Relationship</span> changes.",
     "frame_description_fe_mentions": [
       {
         "fe_id": "fe_spouse_1",
@@ -44,57 +44,57 @@
         "id": "fe_spouse_1",
         "name": "Spouse_1",
         "published": 1,
-        "description_en": "One of the two people in the union (the first partner mentioned).",
-        "description_html": "One of the two people in the union (the first partner mentioned)."
+        "description_en": "One of the two partners in the marriage or engagement (or the person whose marital status is being described).",
+        "description_html": "One of the two partners in the marriage or engagement (or the person whose marital status is being described)."
       },
       {
         "id": "fe_spouse_2",
         "name": "Spouse_2",
         "published": 1,
-        "description_en": "The other person in the union (the second partner mentioned).",
-        "description_html": "The other person in the union (the second partner mentioned)."
+        "description_en": "The other partner connected to Spouse_1 in the marriage or engagement (or the ex-partner in a divorce/separation).",
+        "description_html": "The other partner connected to <span class=\"Spouse_1\">Spouse_1</span> in the marriage or engagement (or the ex-partner in a divorce/separation)."
       },
       {
         "id": "fe_relationship",
         "name": "Relationship",
         "published": 1,
-        "description_en": "The type or status of the union between the partners (e.g., engaged, married, divorced, widow/er).",
-        "description_html": "The type or status of the union between the partners (e.g., engaged, married, divorced, widow/er)."
+        "description_en": "The relationship status between the partners (e.g., marriage, engagement, married, engaged, divorced, widowed).",
+        "description_html": "The relationship status between the partners (e.g., marriage, engagement, married, engaged, divorced, widowed)."
       },
       {
         "id": "fe_event",
         "name": "Event",
         "published": 1,
-        "description_en": "An action or happening that starts, changes, or ends the union (e.g., engagement, wedding, separation, divorce).",
-        "description_html": "An action or happening that starts, changes, or ends the union (e.g., engagement, wedding, separation, divorce)."
+        "description_en": "The action or happening that creates, changes, or ends the relationship status (e.g., get married, get engaged, separate, divorce).",
+        "description_html": "The action or happening that creates, changes, or ends the relationship status (e.g., get married, get engaged, separate, divorce)."
       },
       {
         "id": "fe_time",
         "name": "Time",
         "published": 1,
-        "description_en": "When the Relationship holds, or when the Event happens.",
-        "description_html": "When the <span class=\"Relationship\">Relationship</span> holds, or when the <span class=\"Event\">Event</span> happens."
+        "description_en": "When the relationship status holds, or when the Event happens.",
+        "description_html": "When the relationship status holds, or when the <span class=\"Event\">Event</span> happens."
       },
       {
         "id": "fe_place",
         "name": "Place",
         "published": 1,
-        "description_en": "Where the Event happens, or where the Relationship is situated/recorded in the description.",
-        "description_html": "Where the <span class=\"Event\">Event</span> happens, or where the <span class=\"Relationship\">Relationship</span> is situated/recorded in the description."
+        "description_en": "Where the Event happens, or where the relationship situation is located.",
+        "description_html": "Where the <span class=\"Event\">Event</span> happens, or where the relationship situation is located."
       },
       {
         "id": "fe_authority",
         "name": "Authority",
         "published": 1,
-        "description_en": "An institution or official that registers, approves, or handles the Relationship or Event.",
-        "description_html": "An institution or official that registers, approves, or handles the <span class=\"Relationship\">Relationship</span> or <span class=\"Event\">Event</span>."
+        "description_en": "The official system, person, or institution that recognizes, regulates, or formalizes the relationship (e.g., law, court, religious rules).",
+        "description_html": "The official system, person, or institution that recognizes, regulates, or formalizes the relationship (e.g., law, court, religious rules)."
       },
       {
         "id": "fe_reason",
         "name": "Reason",
         "published": 1,
-        "description_en": "A stated motivation or cause for entering into, keeping, or ending the Relationship, or for carrying out the Event.",
-        "description_html": "A stated motivation or cause for entering into, keeping, or ending the <span class=\"Relationship\">Relationship</span>, or for carrying out the <span class=\"Event\">Event</span>."
+        "description_en": "The reason or motivation given for the Event or for the relationship status change.",
+        "description_html": "The reason or motivation given for the <span class=\"Event\">Event</span> or for the relationship status change."
       }
     ],
     "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
@@ -102,7 +102,7 @@
       {
         "ex_id": "2401bc9430c49e4454904171d9539c490cfcc12c",
         "sv": "Den 8 maj 2008 meddelade Tyler och Langdon att de skulle skilja sig.",
-        "en": "On 8 May 2008, Tyler and Langdon announced that they would get divorced.",
+        "en": "On 8 May 2008, Tyler and Langdon announced that they would divorce.",
         "fe_tags": [
           {
             "fe_id": "fe_time",
@@ -130,12 +130,78 @@
           "text_title": "Liv Tyler",
           "text_url": "https://sv.wikipedia.org/wiki/Liv_Tyler",
           "sentence_id": "b589f311",
-          "retrieved_at": "2026-01-17T23:21:08+00:00",
+          "retrieved_at": "2026-01-20T08:27:28+00:00",
           "korp_query": "[word=\"skilja\"][word=\"sig\"]"
         }
       },
       {
-        "ex_id": "94edade09a6425866fa8b782e24a066448c11d23",
+        "ex_id": "867e96ae9e6ceefc3fe06f55f98838a07425a0da",
+        "sv": "Efter operationen var paret tvungna att skilja sig officiellt, av juridiska skäl.",
+        "en": "After the operation, the couple had to divorce officially, for legal reasons.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_time",
+            "span_sv": "Efter operationen"
+          },
+          {
+            "fe_id": "fe_spouse_1",
+            "span_sv": "paret"
+          },
+          {
+            "fe_id": "fe_event",
+            "span_sv": "skilja sig"
+          },
+          {
+            "fe_id": "fe_reason",
+            "span_sv": "av juridiska skäl"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Jan Morris",
+          "text_url": "https://sv.wikipedia.org/wiki/Jan_Morris",
+          "sentence_id": "6cf56a46",
+          "retrieved_at": "2026-01-20T08:27:28+00:00",
+          "korp_query": "[word=\"skilja\"][word=\"sig\"]"
+        }
+      },
+      {
+        "ex_id": "e89900857c021747cb6f9e3d6161e5c266462f8c",
+        "sv": "Män har större möjlighet att skilja sig enligt sharia än kvinnor, som behöver ange skäl i vissa fall.",
+        "en": "Men have a greater possibility to divorce under sharia than women, who need to state reasons in some cases.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_spouse_1",
+            "span_sv": "Män"
+          },
+          {
+            "fe_id": "fe_event",
+            "span_sv": "skilja sig"
+          },
+          {
+            "fe_id": "fe_authority",
+            "span_sv": "enligt sharia"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Mänskliga rättigheter inom islam",
+          "text_url": "https://sv.wikipedia.org/wiki/M%C3%A4nskliga_r%C3%A4ttigheter_inom_islam",
+          "sentence_id": "8c0255b4",
+          "retrieved_at": "2026-01-20T08:27:28+00:00",
+          "korp_query": "[word=\"skilja\"][word=\"sig\"]"
+        }
+      },
+      {
+        "ex_id": "94b3678a0d9caf7177be0e9dc64fe5efcfd99126",
         "sv": "Han återvände 1875 till Frankrike, där hans hustru lät skilja sig från honom.",
         "en": "He returned in 1875 to France, where his wife had herself divorced from him.",
         "fe_tags": [
@@ -148,16 +214,16 @@
             "span_sv": "honom"
           },
           {
-            "fe_id": "fe_event",
-            "span_sv": "skilja sig från honom"
-          },
-          {
             "fe_id": "fe_time",
             "span_sv": "1875"
           },
           {
             "fe_id": "fe_place",
-            "span_sv": "Frankrike"
+            "span_sv": "till Frankrike"
+          },
+          {
+            "fe_id": "fe_event",
+            "span_sv": "skilja sig"
           }
         ],
         "origin": "korp",
@@ -169,57 +235,26 @@
           "text_title": "Paul Verlaine",
           "text_url": "https://sv.wikipedia.org/wiki/Paul_Verlaine",
           "sentence_id": "46b8f7c0",
-          "retrieved_at": "2026-01-17T23:21:08+00:00",
+          "retrieved_at": "2026-01-20T08:27:28+00:00",
           "korp_query": "[word=\"skilja\"][word=\"sig\"]"
         }
       },
       {
-        "ex_id": "b90aea0e4e9a75f49b368551ed55a5633b0fb5c2",
-        "sv": "Skatteverkets folkbokföring registrerar till exempel om man är ogift, änkling eller skild.",
-        "en": "The Tax Agency's population register records, for example, if one is unmarried, widowed, or divorced.",
-        "fe_tags": [
-          {
-            "fe_id": "fe_authority",
-            "span_sv": "Skatteverkets folkbokföring"
-          },
-          {
-            "fe_id": "fe_relationship",
-            "span_sv": "skild"
-          }
-        ],
-        "origin": "korp",
-        "source": {
-          "provider": "Språkbanken Korp",
-          "corpus": "WIKIPEDIA-SV",
-          "license": "CC BY-SA 4.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "text_title": "Civilstånd",
-          "text_url": "https://sv.wikipedia.org/wiki/Civilst%C3%A5nd",
-          "sentence_id": "e856e20d",
-          "retrieved_at": "2026-01-17T23:21:08+00:00",
-          "korp_query": "[word=\"skild\"]"
-        }
-      },
-      {
-        "ex_id": "0c5c6b4b6f3ab2aae80db83863c83d84e23afc78",
-        "sv": "Under den trettionionde dagen (8 oktober) i huset valde deltagarna John och Julia att förlova sig.",
-        "en": "During the thirty-ninth day (8 October) in the house, the participants John and Julia chose to get engaged.",
+        "ex_id": "bfa7f3e67a94ac8eab16873b0a23f3feca230a5d",
+        "sv": "Efter att ha övertalats förklarar Helene sig äntligen - om än motvilligt - redo att förlova sig med Nicola.",
+        "en": "After being persuaded, Helene finally says that she is ready to get engaged to Nicola, even if unwillingly.",
         "fe_tags": [
           {
             "fe_id": "fe_spouse_1",
-            "span_sv": "John"
-          },
-          {
-            "fe_id": "fe_spouse_2",
-            "span_sv": "Julia"
+            "span_sv": "Helene"
           },
           {
             "fe_id": "fe_event",
             "span_sv": "förlova sig"
           },
           {
-            "fe_id": "fe_time",
-            "span_sv": "Under den trettionionde dagen (8 oktober)"
+            "fe_id": "fe_spouse_2",
+            "span_sv": "Nicola"
           }
         ],
         "origin": "korp",
@@ -228,64 +263,64 @@
           "corpus": "WIKIPEDIA-SV",
           "license": "CC BY-SA 4.0",
           "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "text_title": "Big Brother 2014",
-          "text_url": "https://sv.wikipedia.org/wiki/Big_Brother_2014",
-          "sentence_id": "46b351df",
-          "retrieved_at": "2026-01-17T23:21:08+00:00",
+          "text_title": "Der liebe Augustin",
+          "text_url": "https://sv.wikipedia.org/wiki/Der_liebe_Augustin",
+          "sentence_id": "944d8a80",
+          "retrieved_at": "2026-01-20T08:27:28+00:00",
           "korp_query": "[word=\"förlova\"][word=\"sig\"]"
         }
       },
       {
-        "ex_id": "9957f90dc7585ea190b9feec8921ac9c796ded7e",
-        "sv": "Hon föreslog att de skulle förlova sig och ville på så sätt visa honom sin kärlek, trösta och uppmuntra.",
-        "en": "She suggested that they should get engaged and in that way wanted to show him her love, comfort him, and encourage him.",
+        "ex_id": "71288f292328934bad4be7c82d7b8022a88052c5",
+        "sv": "Han kommer att förlova sig med Lisa Simpson och gifta sig med henne den 1 augusti 2010.",
+        "en": "He will get engaged to Lisa Simpson and marry her on 1 August 2010.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_spouse_1",
+            "span_sv": "Han"
+          },
+          {
+            "fe_id": "fe_event",
+            "span_sv": "förlova sig"
+          },
+          {
+            "fe_id": "fe_spouse_2",
+            "span_sv": "Lisa Simpson"
+          },
+          {
+            "fe_id": "fe_time",
+            "span_sv": "den 1 augusti 2010"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Lista över engångsfigurer i Simpsons",
+          "text_url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_eng%C3%A5ngsfigurer_i_Simpsons",
+          "sentence_id": "b1ee0f78",
+          "retrieved_at": "2026-01-20T08:27:28+00:00",
+          "korp_query": "[word=\"förlova\"][word=\"sig\"]"
+        }
+      },
+      {
+        "ex_id": "c38bea8c652a17a5da762b746fd303b6c58f7b39",
+        "sv": "Hon var gift med essäisten Aasmund Brynildsen från Tjøme i Vestfold.",
+        "en": "She was married to the essayist Aasmund Brynildsen from Tjøme in Vestfold.",
         "fe_tags": [
           {
             "fe_id": "fe_spouse_1",
             "span_sv": "Hon"
           },
           {
-            "fe_id": "fe_spouse_2",
-            "span_sv": "honom"
-          },
-          {
-            "fe_id": "fe_event",
-            "span_sv": "förlova sig"
-          },
-          {
-            "fe_id": "fe_reason",
-            "span_sv": "visa honom sin kärlek, trösta och uppmuntra"
-          }
-        ],
-        "origin": "korp",
-        "source": {
-          "provider": "Språkbanken Korp",
-          "corpus": "WIKIPEDIA-SV",
-          "license": "CC BY-SA 4.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "text_title": "Ida Bäckmann",
-          "text_url": "https://sv.wikipedia.org/wiki/Ida_B%C3%A4ckmann",
-          "sentence_id": "36a00a3b",
-          "retrieved_at": "2026-01-17T23:21:08+00:00",
-          "korp_query": "[word=\"förlova\"][word=\"sig\"]"
-        }
-      },
-      {
-        "ex_id": "dc06ed65175b839f13265f284b6d057fa3a0fff6",
-        "sv": "Paret vistades ofta i Kastilien under de första åren av sitt äktenskap.",
-        "en": "The couple often stayed in Castile during the first years of their marriage.",
-        "fe_tags": [
-          {
-            "fe_id": "fe_place",
-            "span_sv": "i Kastilien"
-          },
-          {
-            "fe_id": "fe_time",
-            "span_sv": "under de första åren"
-          },
-          {
             "fe_id": "fe_relationship",
-            "span_sv": "sitt äktenskap"
+            "span_sv": "var gift med"
+          },
+          {
+            "fe_id": "fe_spouse_2",
+            "span_sv": "essäisten Aasmund Brynildsen"
           }
         ],
         "origin": "korp",
@@ -294,42 +329,11 @@
           "corpus": "WIKIPEDIA-SV",
           "license": "CC BY-SA 4.0",
           "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "text_title": "Eleonora av Kastilien, drottning av Navarra",
-          "text_url": "https://sv.wikipedia.org/wiki/Eleonora_av_Kastilien,_drottning_av_Navarra",
-          "sentence_id": "c20dd32f",
-          "retrieved_at": "2026-01-17T23:21:08+00:00",
-          "korp_query": "[word=\"äktenskap\"]"
-        }
-      },
-      {
-        "ex_id": "ecef1bba1ac62480eca8094bf76c4a1cd0a3bc93",
-        "sv": "Ett gift par möts en sista gång på en bar innan deras skilsmässa.",
-        "en": "A married couple meets one last time at a bar before their divorce.",
-        "fe_tags": [
-          {
-            "fe_id": "fe_spouse_1",
-            "span_sv": "Ett gift par"
-          },
-          {
-            "fe_id": "fe_place",
-            "span_sv": "på en bar"
-          },
-          {
-            "fe_id": "fe_event",
-            "span_sv": "deras skilsmässa"
-          }
-        ],
-        "origin": "korp",
-        "source": {
-          "provider": "Språkbanken Korp",
-          "corpus": "WIKIPEDIA-SV",
-          "license": "CC BY-SA 4.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "text_title": "Paris, je t'aime",
-          "text_url": "https://sv.wikipedia.org/wiki/Paris,_je_t%27aime",
-          "sentence_id": "19d2f8d2",
-          "retrieved_at": "2026-01-17T23:21:08+00:00",
-          "korp_query": "[word=\"skilsmässa\"]"
+          "text_title": "Karin Bang",
+          "text_url": "https://sv.wikipedia.org/wiki/Karin_Bang",
+          "sentence_id": "9b099206",
+          "retrieved_at": "2026-01-20T08:27:28+00:00",
+          "korp_query": "[word=\"gift\"]"
         }
       }
     ],
@@ -399,7 +403,7 @@
       },
       {
         "lu_id": "lu_frau_die",
-        "display_sv": "fru",
+        "display_sv": "hustru",
         "lu_type": "single",
         "pos": "noun",
         "sense_id": "lu_frau_die:1"
@@ -419,18 +423,18 @@
         "sense_id": "lu_scheidung_die:1"
       },
       {
-        "lu_id": "lu_affare_die",
-        "display_sv": "kärleksaffär",
+        "lu_id": "lu_affäre_die",
+        "display_sv": "otrohetsaffär",
         "lu_type": "single",
         "pos": "noun",
-        "sense_id": "lu_affare_die:1"
+        "sense_id": "lu_affäre_die:1"
       },
       {
-        "lu_id": "lu_verlobte_der_verlobte_ein_verlobter_die_eine_verlobte",
+        "lu_id": "lu_verlobte_der_verlobte_ein_verlobter__die_eine_verlobte",
         "display_sv": "fästman",
         "lu_type": "single",
         "pos": "noun",
-        "sense_id": "lu_verlobte_der_verlobte_ein_verlobter_die_eine_verlobte:1"
+        "sense_id": "lu_verlobte_der_verlobte_ein_verlobter__die_eine_verlobte:1"
       },
       {
         "lu_id": "lu_verlobung_die",
@@ -445,33 +449,153 @@
   "constructions": [
     {
       "cxn_id": "cxn_1",
-      "cxn_name_linguistic_sv": "X skiljer sig (från Y)",
-      "cxn_name_user_friendly_en": "Getting divorced (from someone)",
-      "pattern": "SUBJ V[skilja sig] (PP-från OBJ)",
-      "meaning_en": "Someone gets divorced; optionally, from a specific person.",
+      "cxn_name_linguistic_sv": "X är/var gift med Y",
+      "cxn_name_user_friendly_en": "Being married to someone",
+      "pattern": "SUBJ vara gift med OBJ",
+      "meaning_en": "Someone is married to another person.",
       "frame_mapping": [
         {
           "slot": "SUBJ",
           "maps_to_fe_id": "fe_spouse_1"
         },
         {
-          "slot": "PP-från OBJ",
+          "slot": "OBJ",
           "maps_to_fe_id": "fe_spouse_2"
         },
         {
-          "slot": "V[skilja sig]",
+          "slot": "vara gift med",
+          "maps_to_fe_id": "fe_relationship"
+        }
+      ],
+      "usage_notes_en": [
+        "The spouse can be omitted: “X är gift”.",
+        "Time can be added (e.g. a year span) to say how long or when the marriage held."
+      ],
+      "examples": [
+        {
+          "ex_id": "90b5d0e4290f517908f0072ca366dd84db186da5",
+          "sv": "Steczkowska är gift med musikern Piotr Królik, också han medlem av Indigo.",
+          "en": "Steczkowska is married to the musician Piotr Królik, he is also a member of Indigo.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_spouse_1",
+              "span_sv": "Steczkowska"
+            },
+            {
+              "fe_id": "fe_relationship",
+              "span_sv": "är gift med"
+            },
+            {
+              "fe_id": "fe_spouse_2",
+              "span_sv": "musikern Piotr Królik"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Magda Steczkowska",
+            "text_url": "https://sv.wikipedia.org/wiki/Magda_Steczkowska",
+            "sentence_id": "17694e88",
+            "retrieved_at": "2026-01-20T08:27:28+00:00",
+            "korp_query": "[word=\"gift\"]"
+          }
+        },
+        {
+          "ex_id": "c51d646e484bdb8ff9ac12acaf28a698c779f475",
+          "sv": "Keri Russell var gift med Shane Deary 2007-2013, de har två barn tillsammans.",
+          "en": "Keri Russell was married to Shane Deary in 2007–2013, they have two children together.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_spouse_1",
+              "span_sv": "Keri Russell"
+            },
+            {
+              "fe_id": "fe_relationship",
+              "span_sv": "var gift med"
+            },
+            {
+              "fe_id": "fe_spouse_2",
+              "span_sv": "Shane Deary"
+            },
+            {
+              "fe_id": "fe_time",
+              "span_sv": "2007-2013"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Keri Russell",
+            "text_url": "https://sv.wikipedia.org/wiki/Keri_Russell",
+            "sentence_id": "77b79d7d",
+            "retrieved_at": "2026-01-20T08:27:28+00:00",
+            "korp_query": "[word=\"gift\"]"
+          }
+        },
+        {
+          "ex_id": "c19e5bd3282471e0e6cdd06e0b1d57a82b12ee9c",
+          "sv": "Khaled Hosseini är gift, bor i norra Kalifornien och har två barn.",
+          "en": "Khaled Hosseini is married, lives in northern California, and has two children.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_spouse_1",
+              "span_sv": "Khaled Hosseini"
+            },
+            {
+              "fe_id": "fe_relationship",
+              "span_sv": "är gift"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Khaled Hosseini",
+            "text_url": "https://sv.wikipedia.org/wiki/Khaled_Hosseini",
+            "sentence_id": "8aded058",
+            "retrieved_at": "2026-01-20T08:27:28+00:00",
+            "korp_query": "[word=\"gift\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_2",
+      "cxn_name_linguistic_sv": "X skiljer sig (från Y)",
+      "cxn_name_user_friendly_en": "Getting divorced",
+      "pattern": "SUBJ skilja sig (från PP-FRÅN)",
+      "meaning_en": "Someone divorces (optionally: divorces a particular person).",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_spouse_1"
+        },
+        {
+          "slot": "PP-FRÅN",
+          "maps_to_fe_id": "fe_spouse_2"
+        },
+        {
+          "slot": "skilja sig",
           "maps_to_fe_id": "fe_event"
         }
       ],
       "usage_notes_en": [
-        "The verb is reflexive: skilja sig.",
-        "The other spouse can be added with från + person."
+        "Often used without naming the other spouse: “X vill skilja sig”.",
+        "A reason can be added with “av ... skäl”."
       ],
       "examples": [
         {
           "ex_id": "114686220f0d8e89be9731a2c5d3a17c48e3dd1e",
           "sv": "Hon vill skilja sig och har inlett ett förhållande med en annan.",
-          "en": "She wants to get divorced and has started a relationship with someone else.",
+          "en": "She wants to divorce and has started a relationship with another person.",
           "fe_tags": [
             {
               "fe_id": "fe_spouse_1",
@@ -491,30 +615,26 @@
             "text_title": "Nyckeln till frihet",
             "text_url": "https://sv.wikipedia.org/wiki/Nyckeln_till_frihet",
             "sentence_id": "b033bf1d",
-            "retrieved_at": "2026-01-17T23:21:08+00:00",
+            "retrieved_at": "2026-01-20T08:27:28+00:00",
             "korp_query": "[word=\"skilja\"][word=\"sig\"]"
           }
         },
         {
-          "ex_id": "752d38e2726755341727da1b8a1476ee8160ebbf",
-          "sv": "Den 18 oktober 2007 offentliggjordes att han skulle skilja sig från andra hustrun Cécilia.",
-          "en": "On 18 October 2007 it was made public that he would get divorced from his second wife Cécilia.",
+          "ex_id": "402fab54ec5070af8ce816821a29ac6523c70224",
+          "sv": "Carlsson försöker urskulda sig för Agusta och lovar att han ska skilja sig från henne, men Agusta kastar ut honom.",
+          "en": "Carlsson tries to apologize to Agusta and promises that he will divorce her, but Agusta throws him out.",
           "fe_tags": [
-            {
-              "fe_id": "fe_time",
-              "span_sv": "Den 18 oktober 2007"
-            },
             {
               "fe_id": "fe_spouse_1",
               "span_sv": "han"
             },
             {
               "fe_id": "fe_spouse_2",
-              "span_sv": "andra hustrun Cécilia"
+              "span_sv": "henne"
             },
             {
               "fe_id": "fe_event",
-              "span_sv": "skilja sig från"
+              "span_sv": "skilja sig"
             }
           ],
           "origin": "korp",
@@ -523,91 +643,33 @@
             "corpus": "WIKIPEDIA-SV",
             "license": "CC BY-SA 4.0",
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-            "text_title": "Nicolas Sarkozy",
-            "text_url": "https://sv.wikipedia.org/wiki/Nicolas_Sarkozy",
-            "sentence_id": "b1ee4867",
-            "retrieved_at": "2026-01-17T23:21:08+00:00",
+            "text_title": "Stiliga Agusta",
+            "text_url": "https://sv.wikipedia.org/wiki/Stiliga_Agusta",
+            "sentence_id": "afededa1",
+            "retrieved_at": "2026-01-20T08:27:28+00:00",
             "korp_query": "[word=\"skilja\"][word=\"sig\"]"
           }
-        }
-      ]
-    },
-    {
-      "cxn_id": "cxn_2",
-      "cxn_name_linguistic_sv": "X är gift med Y",
-      "cxn_name_user_friendly_en": "Being married to someone",
-      "pattern": "SUBJ V[vara] ADJ[gift] PP-med OBJ",
-      "meaning_en": "Someone is married to someone else.",
-      "frame_mapping": [
-        {
-          "slot": "SUBJ",
-          "maps_to_fe_id": "fe_spouse_1"
         },
         {
-          "slot": "PP-med OBJ",
-          "maps_to_fe_id": "fe_spouse_2"
-        },
-        {
-          "slot": "ADJ[gift]",
-          "maps_to_fe_id": "fe_relationship"
-        }
-      ],
-      "usage_notes_en": [
-        "Uses the adjective gift with vara.",
-        "The spouse is expressed with med + person."
-      ],
-      "examples": [
-        {
-          "ex_id": "90b5d0e4290f517908f0072ca366dd84db186da5",
-          "sv": "Steczkowska är gift med musikern Piotr Królik, också han medlem av Indigo.",
-          "en": "Steczkowska is married to the musician Piotr Królik, he is also a member of Indigo.",
+          "ex_id": "867e96ae9e6ceefc3fe06f55f98838a07425a0da",
+          "sv": "Efter operationen var paret tvungna att skilja sig officiellt, av juridiska skäl.",
+          "en": "After the operation, the couple had to divorce officially, for legal reasons.",
           "fe_tags": [
-            {
-              "fe_id": "fe_spouse_1",
-              "span_sv": "Steczkowska"
-            },
-            {
-              "fe_id": "fe_relationship",
-              "span_sv": "gift"
-            },
-            {
-              "fe_id": "fe_spouse_2",
-              "span_sv": "musikern Piotr Królik"
-            }
-          ],
-          "origin": "korp",
-          "source": {
-            "provider": "Språkbanken Korp",
-            "corpus": "WIKIPEDIA-SV",
-            "license": "CC BY-SA 4.0",
-            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-            "text_title": "Magda Steczkowska",
-            "text_url": "https://sv.wikipedia.org/wiki/Magda_Steczkowska",
-            "sentence_id": "17694e88",
-            "retrieved_at": "2026-01-17T23:21:08+00:00",
-            "korp_query": "[word=\"gift\"]"
-          }
-        },
-        {
-          "ex_id": "7bd452b6794301c8759b441ca37345200b6b0a25",
-          "sv": "Gun Hägglund var gift med Karl Axel Sjöblom fram till dennes död 1982.",
-          "en": "Gun Hägglund was married to Karl Axel Sjöblom until his death in 1982.",
-          "fe_tags": [
-            {
-              "fe_id": "fe_spouse_1",
-              "span_sv": "Gun Hägglund"
-            },
-            {
-              "fe_id": "fe_relationship",
-              "span_sv": "gift"
-            },
-            {
-              "fe_id": "fe_spouse_2",
-              "span_sv": "Karl Axel Sjöblom"
-            },
             {
               "fe_id": "fe_time",
-              "span_sv": "fram till dennes död 1982"
+              "span_sv": "Efter operationen"
+            },
+            {
+              "fe_id": "fe_spouse_1",
+              "span_sv": "paret"
+            },
+            {
+              "fe_id": "fe_event",
+              "span_sv": "skilja sig"
+            },
+            {
+              "fe_id": "fe_reason",
+              "span_sv": "av juridiska skäl"
             }
           ],
           "origin": "korp",
@@ -616,11 +678,11 @@
             "corpus": "WIKIPEDIA-SV",
             "license": "CC BY-SA 4.0",
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-            "text_title": "Gun Hägglund",
-            "text_url": "https://sv.wikipedia.org/wiki/Gun_H%C3%A4gglund",
-            "sentence_id": "e34ecfdd",
-            "retrieved_at": "2026-01-17T23:21:08+00:00",
-            "korp_query": "[word=\"gift\"]"
+            "text_title": "Jan Morris",
+            "text_url": "https://sv.wikipedia.org/wiki/Jan_Morris",
+            "sentence_id": "6cf56a46",
+            "retrieved_at": "2026-01-20T08:27:28+00:00",
+            "korp_query": "[word=\"skilja\"][word=\"sig\"]"
           }
         }
       ]
@@ -629,43 +691,39 @@
       "cxn_id": "cxn_3",
       "cxn_name_linguistic_sv": "X är förlovad med Y",
       "cxn_name_user_friendly_en": "Being engaged to someone",
-      "pattern": "SUBJ V[vara] ADJ[förlovad] PP-med OBJ",
-      "meaning_en": "Someone is engaged to someone else.",
+      "pattern": "SUBJ vara förlovad (med OBJ)",
+      "meaning_en": "Someone is engaged (optionally: engaged to a particular person).",
       "frame_mapping": [
         {
           "slot": "SUBJ",
           "maps_to_fe_id": "fe_spouse_1"
         },
         {
-          "slot": "PP-med OBJ",
+          "slot": "OBJ",
           "maps_to_fe_id": "fe_spouse_2"
         },
         {
-          "slot": "ADJ[förlovad]",
+          "slot": "förlovad",
           "maps_to_fe_id": "fe_relationship"
         }
       ],
       "usage_notes_en": [
-        "Uses the adjective förlovad with vara.",
-        "The fiancé/fiancée is expressed with med + person."
+        "Often used without naming the partner: “X är förlovad”.",
+        "A reason can be added with “enligt ...” to explain why the engagement exists."
       ],
       "examples": [
         {
-          "ex_id": "4c9eaa1a062daef91ab0d4491d4c4de0be111267",
-          "sv": "Katy Perry är sedan 14 februari 2019 förlovad med Orlando Bloom.",
-          "en": "Katy Perry has been engaged to Orlando Bloom since 14 February 2019.",
+          "ex_id": "8133cee5dee2cfa02c1fb6ad7b406763d1150898",
+          "sv": "Hon är förlovad med Sven (Preben Kørning), men deras relation är av platonisk karaktär.",
+          "en": "She is engaged to Sven (Preben Kørning), but their relationship is of a platonic kind.",
           "fe_tags": [
             {
               "fe_id": "fe_spouse_1",
-              "span_sv": "Katy Perry"
+              "span_sv": "Hon"
             },
             {
               "fe_id": "fe_spouse_2",
-              "span_sv": "Orlando Bloom"
-            },
-            {
-              "fe_id": "fe_time",
-              "span_sv": "sedan 14 februari 2019"
+              "span_sv": "Sven (Preben Kørning)"
             },
             {
               "fe_id": "fe_relationship",
@@ -678,25 +736,21 @@
             "corpus": "WIKIPEDIA-SV",
             "license": "CC BY-SA 4.0",
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-            "text_title": "Katy Perry",
-            "text_url": "https://sv.wikipedia.org/wiki/Katy_Perry",
-            "sentence_id": "a3c5cefb",
-            "retrieved_at": "2026-01-17T23:21:08+00:00",
+            "text_title": "Jag – en kvinna",
+            "text_url": "https://sv.wikipedia.org/wiki/Jag_%E2%80%93_en_kvinna",
+            "sentence_id": "2fff97f2",
+            "retrieved_at": "2026-01-20T08:27:28+00:00",
             "korp_query": "[word=\"förlovad\"]"
           }
         },
         {
-          "ex_id": "c886a5f18c4c9f7a041bebe995be3a35958375e5",
-          "sv": "Han är förlovad med Marguerite, men hans känslor för henne har svalnat.",
-          "en": "He is engaged to Marguerite, but his feelings for her have cooled.",
+          "ex_id": "faba79e9f6466ba769d62eef7675ffc3ff3338b8",
+          "sv": "Rudolf är förlovad, men ägnar sig ändå åt nöjen och förälskelser.",
+          "en": "Rudolf is engaged, but still devotes himself to pleasures and love affairs.",
           "fe_tags": [
             {
               "fe_id": "fe_spouse_1",
-              "span_sv": "Han"
-            },
-            {
-              "fe_id": "fe_spouse_2",
-              "span_sv": "Marguerite"
+              "span_sv": "Rudolf"
             },
             {
               "fe_id": "fe_relationship",
@@ -709,10 +763,45 @@
             "corpus": "WIKIPEDIA-SV",
             "license": "CC BY-SA 4.0",
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-            "text_title": "Stiliga Augusta",
-            "text_url": "https://sv.wikipedia.org/wiki/Stiliga_Augusta",
-            "sentence_id": "24b7e9a2",
-            "retrieved_at": "2026-01-17T23:21:08+00:00",
+            "text_title": "Tre glada tokar",
+            "text_url": "https://sv.wikipedia.org/wiki/Tre_glada_tokar",
+            "sentence_id": "61f37882",
+            "retrieved_at": "2026-01-20T08:27:28+00:00",
+            "korp_query": "[word=\"förlovad\"]"
+          }
+        },
+        {
+          "ex_id": "d7e5c982c9aaaeb8d691afbbd75400fe0bb0ca04",
+          "sv": "Ranma är förlovad med Akane Tendo, enligt en överenskommelse mellan deras föräldrar.",
+          "en": "Ranma is engaged to Akane Tendo, according to an agreement between their parents.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_spouse_1",
+              "span_sv": "Ranma"
+            },
+            {
+              "fe_id": "fe_spouse_2",
+              "span_sv": "Akane Tendo"
+            },
+            {
+              "fe_id": "fe_relationship",
+              "span_sv": "förlovad"
+            },
+            {
+              "fe_id": "fe_reason",
+              "span_sv": "enligt en överenskommelse mellan deras föräldrar"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Ranma ½",
+            "text_url": "https://sv.wikipedia.org/wiki/Ranma_%C2%BD",
+            "sentence_id": "94ffc2bd",
+            "retrieved_at": "2026-01-20T08:27:28+00:00",
             "korp_query": "[word=\"förlovad\"]"
           }
         }

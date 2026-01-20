@@ -1,0 +1,502 @@
+{
+  "lexical_unit": {
+    "id": "lu_studieren",
+    "source_de": {
+      "lu_de_raw": "studieren",
+      "lu_de_normalized": "studieren",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "studera",
+    "display_sv": "studera",
+    "name_sv": "studera",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "studera",
+      "studerar",
+      "studerade",
+      "studerat"
+    ],
+    "english_equivalent_en": "study",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "studera",
+        "present": "studerar",
+        "past": "studerade",
+        "supine": "studerat",
+        "imperative": "studera",
+        "present_participle": "studerande",
+        "past_participle": "studerad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "studier",
+        "type_en": "noun",
+        "meaning_en": "studies (school/university work)"
+      },
+      {
+        "word": "student",
+        "type_en": "noun",
+        "meaning_en": "student (person who studies)"
+      },
+      {
+        "word": "studiecirkel",
+        "type_en": "noun",
+        "meaning_en": "study circle (group that studies together)"
+      },
+      {
+        "word": "studieförbund",
+        "type_en": "noun",
+        "meaning_en": "adult education association"
+      },
+      {
+        "word": "studerande",
+        "type_en": "noun",
+        "meaning_en": "student (more formal word)"
+      }
+    ],
+    "synonyms_sv": [
+      "läsa",
+      "plugga",
+      "utbilda sig"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_studieren:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_studieren:1",
+        "frame_id": "frame_education",
+        "meaning_en": "learn a subject through organized education, often at a school or university.",
+        "how_to_use_en": [
+          "Use it for studying a subject (e.g., mathematics, medicine, a language).",
+          "Often with an institution: studera vid/på + university/school.",
+          "Common with börja/började (begin to study)."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "studera + Subject",
+            "meaning_en": "study a subject",
+            "note_en": "Often used with börja/började when starting studies."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "studera vid + Institution",
+            "meaning_en": "study at an institution",
+            "note_en": "Common for universities and schools."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "studera + Subject + på + Institution",
+            "meaning_en": "study a subject at an institution",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "studera på + Institution",
+            "meaning_en": "study at an institution",
+            "note_en": "Also used with places that function as institutions (e.g., lärcentrum)."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "studera under eget ansvar",
+            "meaning_en": "study independently",
+            "note_en": "Used when the learner is responsible for their own studying."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *studera* for “look at/observe” in everyday situations.",
+            "fix": "Use titta på / undersöka instead.",
+            "explain_en": "In these examples, *studera* is about education (being a student), not just watching something."
+          },
+          {
+            "error": "Saying *studera i* + place for an institution.",
+            "fix": "Say studera vid + institution, or studera på + university/school.",
+            "explain_en": "The examples show *studera vid Uppsala universitet* and *studera ... på University of California*."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "01b84de9a66b98985898e4dd45fbed735df6a55f",
+            "sv": "1985 började hon studera matematik på University of California, San Diego.",
+            "en": "In 1985 she began to study mathematics at the University of California, San Diego.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "matematik"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "University of California, San Diego"
+              }
+            ],
+            "gloss": "study",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Nicole Mitchell (musiker)",
+              "text_url": "https://sv.wikipedia.org/wiki/Nicole_Mitchell_(musiker)",
+              "sentence_id": "bf97580b",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"studera\"]"
+            }
+          },
+          {
+            "ex_id": "0c9066cceca5fa663a59009756b54dab7223563d",
+            "sv": "Han började studera vid Uppsala universitet 1886 och avlade teologisk-filosofisk examen 1887.",
+            "en": "He began to study at Uppsala University in 1886 and took a theological-philosophical degree in 1887.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Uppsala universitet"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "teologisk-filosofisk examen"
+              }
+            ],
+            "gloss": "study",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Axel Hägerström",
+              "text_url": "https://sv.wikipedia.org/wiki/Axel_H%C3%A4gerstr%C3%B6m",
+              "sentence_id": "6cf8a696",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"studera\"]"
+            }
+          },
+          {
+            "ex_id": "5b131310ebf9ebc5cac6ac212e4cccd1c4c405c9",
+            "sv": "På sina föräldrars begäran började han efter gymnasiet att studera juridik och utexaminerades 1937 till advokat.",
+            "en": "At his parents' request, after upper secondary school he began to study law and graduated in 1937 as a lawyer.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "juridik"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "advokat"
+              }
+            ],
+            "gloss": "study",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gerhard Jussenhoven",
+              "text_url": "https://sv.wikipedia.org/wiki/Gerhard_Jussenhoven",
+              "sentence_id": "e15a8f2d",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"studera\"]"
+            }
+          },
+          {
+            "ex_id": "8797ecc4b640bed68ef3d5233ceaf9634a7b2429",
+            "sv": "På grund av detta är onsdagar ofta lektionsfria, där eleven själv ska studera under eget ansvar.",
+            "en": "Because of this, Wednesdays are often free of lessons, where the student must study on their own responsibility.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "eleven"
+              }
+            ],
+            "gloss": "study",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Donnergymnasiet",
+              "text_url": "https://sv.wikipedia.org/wiki/Donnergymnasiet",
+              "sentence_id": "a3c26933",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"studera\"]"
+            }
+          },
+          {
+            "ex_id": "491a812f168afe5e8fe66e68241d3c9c5ef5bcc8",
+            "sv": "År 2018 började förbundet organisera studiecirklar för att studera finska i samarbete med Sensus studieförbund.",
+            "en": "In 2018 the association began to organize study circles to study Finnish in cooperation with Sensus study association.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "finska"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Sensus studieförbund"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "studiecirklar"
+              }
+            ],
+            "gloss": "study",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sverigefinska ungdomsförbundet",
+              "text_url": "https://sv.wikipedia.org/wiki/Sverigefinska_ungdomsf%C3%B6rbundet",
+              "sentence_id": "188710f2",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"studera\"]"
+            }
+          },
+          {
+            "ex_id": "96fff777b8c9d0cb6cfaa148fd0e5c4b95fecea7",
+            "sv": "Det är möjligt att studera Hongkongs teckenspråket bl.a. vid Chinese University of Hong Kong.",
+            "en": "It is possible to study Hong Kong sign language, among other places at the Chinese University of Hong Kong.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "Hongkongs teckenspråket"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Chinese University of Hong Kong"
+              }
+            ],
+            "gloss": "study",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hongkongs teckenspråk",
+              "text_url": "https://sv.wikipedia.org/wiki/Hongkongs_teckenspr%C3%A5k",
+              "sentence_id": "2d51f915",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"studera\"]"
+            }
+          },
+          {
+            "ex_id": "164eff836f3ec047c7382c33bff5f26d999b3264",
+            "sv": "De intagna kan också gå olika behandlingsprogram, kurser eller studera på lärcentrum.",
+            "en": "The inmates can also take different treatment programs, courses, or study at a learning center.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "De intagna"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "lärcentrum"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "kurser"
+              }
+            ],
+            "gloss": "study",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Anstalten Tygelsjö",
+              "text_url": "https://sv.wikipedia.org/wiki/Anstalten_Tygelsj%C3%B6",
+              "sentence_id": "810dc9e9",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"studera\"]"
+            }
+          },
+          {
+            "ex_id": "e70221a1578ebca47b7e6bccfd7961c6cdae9f9b",
+            "sv": "Vikingatiden är en populär period att både studera och arbeta med.",
+            "en": "The Viking Age is a popular period to both study and work with.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "Vikingatiden"
+              }
+            ],
+            "gloss": "study",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Vikingatiden",
+              "text_url": "https://sv.wikipedia.org/wiki/Vikingatiden",
+              "sentence_id": "6f97396c",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"studera\"]"
+            }
+          },
+          {
+            "ex_id": "9df0316b5de103e3517bc1d7ed96a3fe72b5af05",
+            "sv": "Han började studera medicin i Lund 1784 och blev medicine licentiat 1793.",
+            "en": "He began to study medicine in Lund in 1784 and became a licentiate of medicine in 1793.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "medicin"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Lund"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "medicine licentiat"
+              }
+            ],
+            "gloss": "study",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jonas Henrik Gistrén",
+              "text_url": "https://sv.wikipedia.org/wiki/Jonas_Henrik_Gistr%C3%A9n",
+              "sentence_id": "89112878",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"studera\"]"
+            }
+          },
+          {
+            "ex_id": "9ba0a9a464358b7d4206ffac0607e3d50c3f3e0f",
+            "sv": "Han började att studera medicin vid Bristol Medical School år 1868.",
+            "en": "He began to study medicine at Bristol Medical School in 1868.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "medicin"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Bristol Medical School"
+              }
+            ],
+            "gloss": "study",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "William Allen Sturge",
+              "text_url": "https://sv.wikipedia.org/wiki/William_Allen_Sturge",
+              "sentence_id": "4961c24d",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"studera\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "stʉˈdeːra",
+      "stress_hint": "Stress is on the second syllable: stu-DE-ra."
+    },
+    "morphology": {
+      "principal_parts": [
+        "studera",
+        "studerar",
+        "studerade",
+        "studerat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

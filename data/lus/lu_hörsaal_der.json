@@ -1,0 +1,461 @@
+{
+  "lexical_unit": {
+    "id": "lu_hörsaal_der",
+    "source_de": {
+      "lu_de_raw": "Hörsaal, der",
+      "lu_de_normalized": "Hörsaal",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "hörsal",
+    "display_sv": "hörsal",
+    "name_sv": "hörsal",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "en hörsal",
+      "hörsalen",
+      "hörsalar",
+      "hörsalarna"
+    ],
+    "english_equivalent_en": "lecture hall",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "hörsal",
+        "def_sg": "hörsalen",
+        "indef_pl": "hörsalar",
+        "def_pl": "hörsalarna",
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "hörsalstol",
+        "type_en": "noun",
+        "meaning_en": "seat/chair in a lecture hall"
+      },
+      {
+        "word": "hörsalens",
+        "type_en": "other",
+        "meaning_en": "the lecture hall’s (genitive form)"
+      },
+      {
+        "word": "hörsalsbyggnad",
+        "type_en": "noun",
+        "meaning_en": "building with lecture halls"
+      },
+      {
+        "word": "hörsalsföreläsning",
+        "type_en": "noun",
+        "meaning_en": "lecture given in a lecture hall"
+      }
+    ],
+    "synonyms_sv": [
+      "föreläsningssal",
+      "aula",
+      "sal"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_hörsaal_der:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_hörsaal_der:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a large room with seats where lectures, talks, or presentations are held",
+        "how_to_use_en": [
+          "Use it for a room in a university, school, museum, or similar building.",
+          "Often used when listing facilities in a building (e.g., café, library, hörsal).",
+          "Common with location phrases like i/på + place."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "En hörsal är i regel + particip/adjektiv",
+            "meaning_en": "describe what a lecture hall is like",
+            "note_en": "Used for general facts/definitions."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "I + byggnad/plats + finns ... hörsal ...",
+            "meaning_en": "say a place has a lecture hall",
+            "note_en": "Common in descriptions of buildings and facilities."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "På + våning + finns en hörsal",
+            "meaning_en": "locate a lecture hall in a building",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "i en (stor) hörsal i/på + plats",
+            "meaning_en": "say something happens in a lecture hall",
+            "note_en": "Often used with events like screenings or talks."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "en hörsal på + universitet/campus",
+            "meaning_en": "a lecture hall at an institution",
+            "note_en": ""
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using hörsal for a normal classroom.",
+            "fix": "Use klassrum for a regular classroom; use hörsal for a larger lecture room.",
+            "explain_en": "A hörsal is typically larger and designed for many listeners."
+          },
+          {
+            "error": "Mixing up sal and hörsal.",
+            "fix": "Use hörsal when it is specifically for lectures; sal is more general.",
+            "explain_en": "Sal can mean many kinds of halls/rooms, but hörsal points to lecture use."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "7732e5463a4e314de737f6110a0790cbce76c520",
+            "sv": "En hörsal är i regel utrustad med sittmöbler med individuella skrivplatser.",
+            "en": "A lecture hall is usually equipped with seats with individual writing places.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "En hörsal"
+              }
+            ],
+            "gloss": "hörsal = lecture hall",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hörsal",
+              "text_url": "https://sv.wikipedia.org/wiki/H%C3%B6rsal",
+              "sentence_id": "4579a983",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"hörsal\"]"
+            }
+          },
+          {
+            "ex_id": "a74864b8a0a0298672f551e137d021e175d0ab3f",
+            "sv": "I museibyggnaden finns, förutom utställningshallar, även verkstäder, hörsal och restaurang.",
+            "en": "In the museum building there are, besides exhibition halls, also workshops, a lecture hall and a restaurant.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "I museibyggnaden"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "hörsal"
+              }
+            ],
+            "gloss": "hörsal = lecture hall",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Nordiska akvarellmuseet",
+              "text_url": "https://sv.wikipedia.org/wiki/Nordiska_akvarellmuseet",
+              "sentence_id": "b43b8c04",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"hörsal\"]"
+            }
+          },
+          {
+            "ex_id": "f938b7f18e169c86d8756540be85d9b0bfbf2aad",
+            "sv": "Här finns bibliotek, konsthall, hörsal, kafé samt kulturförvaltningen.",
+            "en": "Here there are a library, an art hall, a lecture hall, a café and the culture administration.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "hörsal"
+              }
+            ],
+            "gloss": "hörsal = lecture hall",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kulturhuset Ängeln",
+              "text_url": "https://sv.wikipedia.org/wiki/Kulturhuset_%C3%84ngeln",
+              "sentence_id": "49f4180b",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"hörsal\"]"
+            }
+          },
+          {
+            "ex_id": "d687ac14ec5c13fe8f807a8a37f0efbeac10d927",
+            "sv": "2014 öppnades Cricotekas nya byggnad, med stora utställningsytor och hörsal.",
+            "en": "In 2014 Cricoteka's new building was opened, with large exhibition areas and a lecture hall.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Cricotekas nya byggnad"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "hörsal"
+              }
+            ],
+            "gloss": "hörsal = lecture hall",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tadeusz Kantor",
+              "text_url": "https://sv.wikipedia.org/wiki/Tadeusz_Kantor",
+              "sentence_id": "bcc60aaa",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"hörsal\"]"
+            }
+          },
+          {
+            "ex_id": "7b215689f5b0325e7bd2c96000c6e96fc4a21c34",
+            "sv": "På den fjärde våningen finns en hörsal för arrangemang som rymmer 60 sittande personer.",
+            "en": "On the fourth floor there is a lecture hall for events that holds 60 seated people.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en hörsal"
+              }
+            ],
+            "gloss": "hörsal = lecture hall",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Världslitteraturhuset",
+              "text_url": "https://sv.wikipedia.org/wiki/V%C3%A4rldslitteraturhuset",
+              "sentence_id": "15868785",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"hörsal\"]"
+            }
+          },
+          {
+            "ex_id": "0edabfeb5a66588837469e838265d0c08b98f8ea",
+            "sv": "Filmvisningarna ägde i huvudsak rum i en stor hörsal i Samhällsvetarhuset.",
+            "en": "The film screenings mainly took place in a large lecture hall in the Social Sciences building.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en stor hörsal"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Samhällsvetarhuset"
+              }
+            ],
+            "gloss": "hörsal = lecture hall",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Stig Eriksson (filmvetare)",
+              "text_url": "https://sv.wikipedia.org/wiki/Stig_Eriksson_(filmvetare)",
+              "sentence_id": "2200f393",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"hörsal\"]"
+            }
+          },
+          {
+            "ex_id": "2753dc10e0844f14fc0cf496a5fbc8ac4a07c0b5",
+            "sv": "Gunnar Johansson har gett namn till en hörsal på campuset Blåsenhus i Uppsala.",
+            "en": "Gunnar Johansson has given his name to a lecture hall on the Blåsenhus campus in Uppsala.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en hörsal"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "campuset Blåsenhus"
+              }
+            ],
+            "gloss": "hörsal = lecture hall",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gunnar Johansson (psykolog)",
+              "text_url": "https://sv.wikipedia.org/wiki/Gunnar_Johansson_(psykolog)",
+              "sentence_id": "5870f93b",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"hörsal\"]"
+            }
+          },
+          {
+            "ex_id": "fc60d3d552d62067d4796f84dddb2a86c2a39869",
+            "sv": "Filmstudio Röda Rummet grundas och inleder visningar i en hörsal på Umeå universitet.",
+            "en": "The film studio Röda Rummet is founded and starts screenings in a lecture hall at Umeå University.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en hörsal"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Umeå universitet"
+              }
+            ],
+            "gloss": "hörsal = lecture hall",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kultur i Umeå",
+              "text_url": "https://sv.wikipedia.org/wiki/Kultur_i_Ume%C3%A5",
+              "sentence_id": "8765c4e7",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"hörsal\"]"
+            }
+          },
+          {
+            "ex_id": "e6673dde833ec3fc09b1f4415a05c3761b4ed66b",
+            "sv": "En aula är ett stort rum i universitet och skolor som fungerar som samlingslokal eller hörsal.",
+            "en": "An assembly hall is a large room in universities and schools that works as a gathering room or lecture hall.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "universitet och skolor"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "hörsal"
+              }
+            ],
+            "gloss": "hörsal = lecture hall",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Aula",
+              "text_url": "https://sv.wikipedia.org/wiki/Aula",
+              "sentence_id": "3569ea58",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"hörsal\"]"
+            }
+          },
+          {
+            "ex_id": "25a8ef7e47907e6e26164451a06cbff208969d9c",
+            "sv": "Vid stallbacken ligger Knytpunkten, som är ett besökscenter med hörsal, utställning, café och turistinformation.",
+            "en": "By the stable yard is Knytpunkten, which is a visitor center with a lecture hall, an exhibition, a café and tourist information.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "ett besökscenter"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "hörsal"
+              }
+            ],
+            "gloss": "hörsal = lecture hall",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Strömsholm",
+              "text_url": "https://sv.wikipedia.org/wiki/Str%C3%B6msholm",
+              "sentence_id": "22054dc2",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"hörsal\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈhøːrˌsɑːl",
+      "stress_hint": "Stress is on the first part: HÖR-sal."
+    },
+    "morphology": {
+      "principal_parts": [
+        "hörsal",
+        "hörsalen",
+        "hörsalar",
+        "hörsalarna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

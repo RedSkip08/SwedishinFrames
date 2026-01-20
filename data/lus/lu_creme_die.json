@@ -1,0 +1,432 @@
+{
+  "lexical_unit": {
+    "id": "lu_creme_die",
+    "source_de": {
+      "lu_de_raw": "Creme, die",
+      "lu_de_normalized": "Creme",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "kräm",
+    "display_sv": "kräm",
+    "name_sv": "kräm",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "kräm",
+      "krämen",
+      "krämer",
+      "krämerna"
+    ],
+    "english_equivalent_en": "cream",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "kräm",
+        "def_sg": "krämen",
+        "indef_pl": "krämer",
+        "def_pl": "krämerna",
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "hudkräm",
+        "type_en": "noun",
+        "meaning_en": "skin cream"
+      },
+      {
+        "word": "ansiktskräm",
+        "type_en": "noun",
+        "meaning_en": "face cream"
+      },
+      {
+        "word": "handkräm",
+        "type_en": "noun",
+        "meaning_en": "hand cream"
+      },
+      {
+        "word": "rakkräm",
+        "type_en": "noun",
+        "meaning_en": "shaving cream"
+      },
+      {
+        "word": "krämig",
+        "type_en": "adjective",
+        "meaning_en": "creamy; with a cream-like texture"
+      }
+    ],
+    "synonyms_sv": [
+      "salva",
+      "lotion",
+      "gel"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_creme_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_creme_die:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "a soft, thick substance used on skin or in food",
+        "how_to_use_en": [
+          "Use for skincare/medicine products and for sweet or milk-based food creams.",
+          "Often described with an adjective: receptfri kräm, mjölkbaserad kräm."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "ADJEKTIV + kräm",
+            "meaning_en": "a cream with a certain type/quality",
+            "note_en": "Common with product descriptions (e.g., receptfri, mjölkbaserad)."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "i form av kräm",
+            "meaning_en": "in the form of cream",
+            "note_en": "Used when talking about product forms (e.g., medicine, deodorant)."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "kräm, sprej, roll-on och stift",
+            "meaning_en": "cream as one of several forms",
+            "note_en": "Often in lists of packaging or product types."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "en kräm bestående av X",
+            "meaning_en": "a cream consisting of X",
+            "note_en": "Used for food creams/spreads and mixtures."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using grädde when you mean a skincare product.",
+            "fix": "Use kräm for skincare/medicine; use grädde for dairy cream.",
+            "explain_en": "In Swedish, grädde is dairy cream, while kräm is a product/mixture with a thicker paste-like texture."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "8238fcfb058d7179921b308460b1b27ccd57d05d",
+            "sv": "Apoteket säljer numera även receptfri kräm med den aktiva substansen metronidazol som kan lindra rosacea.",
+            "en": "The pharmacy now also sells a non-prescription cream with the active substance metronidazole that can relieve rosacea.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "receptfri kräm"
+              }
+            ],
+            "gloss": "cream (skin product)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Rosacea",
+              "text_url": "https://sv.wikipedia.org/wiki/Rosacea",
+              "sentence_id": "6cfe5cc1",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kräm\"]"
+            }
+          },
+          {
+            "ex_id": "5d41971c4e4e46d961fbce8d587a433918dac039",
+            "sv": "Dulce de leche är en latinamerikansk, söt, mjölkbaserad kräm.",
+            "en": "Dulce de leche is a Latin American, sweet, milk-based cream.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "mjölkbaserad kräm"
+              }
+            ],
+            "gloss": "cream (food)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Dulce de leche",
+              "text_url": "https://sv.wikipedia.org/wiki/Dulce_de_leche",
+              "sentence_id": "488c82de",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kräm\"]"
+            }
+          },
+          {
+            "ex_id": "fa23f8288b4188a10b7e81ed718bde263d4bde86",
+            "sv": "Deodorant kan förpackas som kräm, sprej, roll-on och stift.",
+            "en": "Deodorant can be packaged as cream, spray, roll-on, and stick.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "kräm"
+              }
+            ],
+            "gloss": "cream (deodorant form)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Deodorant",
+              "text_url": "https://sv.wikipedia.org/wiki/Deodorant",
+              "sentence_id": "53ce1dc5",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kräm\"]"
+            }
+          },
+          {
+            "ex_id": "30aeb5953aca80bffa5b1e56f3ce2e15e54ad031",
+            "sv": "Fetthalten i en salva är högre än i en kräm, lotion eller gel.",
+            "en": "The fat content in an ointment is higher than in a cream, lotion, or gel.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "en kräm"
+              }
+            ],
+            "gloss": "cream (skin product)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Salva (läkemedel)",
+              "text_url": "https://sv.wikipedia.org/wiki/Salva_(l%C3%A4kemedel)",
+              "sentence_id": "59f721a6",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kräm\"]"
+            }
+          },
+          {
+            "ex_id": "811e2b5aac7a4027366e4e7d3aec47dbf98fdc4f",
+            "sv": "Vanligtvis äts rabarber som kokt till kräm, saft eller i paj.",
+            "en": "Usually rhubarb is eaten cooked into cream, juice, or in pie.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "kräm"
+              }
+            ],
+            "gloss": "cream (food/dessert)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Rabarber",
+              "text_url": "https://sv.wikipedia.org/wiki/Rabarber",
+              "sentence_id": "d1bc5e17",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kräm\"]"
+            }
+          },
+          {
+            "ex_id": "f10c74afbc17eaeeda3fcb2346d618b3bd237f74",
+            "sv": "MICROCID är en sådan kräm som finns att köpa receptfritt på apoteket.",
+            "en": "MICROCID is such a cream that can be bought without a prescription at the pharmacy.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "en sådan kräm"
+              }
+            ],
+            "gloss": "cream (medicine/skin product)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hudinfektion",
+              "text_url": "https://sv.wikipedia.org/wiki/Hudinfektion",
+              "sentence_id": "d5b15a90",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kräm\"]"
+            }
+          },
+          {
+            "ex_id": "f561178b3cd7e2fd586112c5db31f9386ee95619",
+            "sv": "Permetrin används för behandling av skabb, i form av kräm eller schampo.",
+            "en": "Permethrin is used for treatment of scabies, in the form of cream or shampoo.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "kräm"
+              }
+            ],
+            "gloss": "cream (medicine form)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Permetrin",
+              "text_url": "https://sv.wikipedia.org/wiki/Permetrin",
+              "sentence_id": "5b4d9409",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"schampo\"]"
+            }
+          },
+          {
+            "ex_id": "93ee9d0d2ce6276f977ae4803aa27b08f5dcf468",
+            "sv": "Concealer finns även i olika former, kräm, flytande och som stiftform.",
+            "en": "Concealer also exists in different forms: cream, liquid, and as a stick form.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "kräm"
+              }
+            ],
+            "gloss": "cream (makeup form)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Concealer",
+              "text_url": "https://sv.wikipedia.org/wiki/Concealer",
+              "sentence_id": "1088ac40",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kräm\"]"
+            }
+          },
+          {
+            "ex_id": "cef18613b2e34470d7ac3a22e0d078688ffafec0",
+            "sv": "Ferrero skapades när konditorn Pietro Ferrero skapade en kräm bestående av hasselnötter och kakao.",
+            "en": "Ferrero was created when the confectioner Pietro Ferrero created a cream consisting of hazelnuts and cocoa.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "en kräm"
+              }
+            ],
+            "gloss": "cream (food spread/filling)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ferrero",
+              "text_url": "https://sv.wikipedia.org/wiki/Ferrero",
+              "sentence_id": "df7988af",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kräm\"]"
+            }
+          },
+          {
+            "ex_id": "6b49707806a09013e6c37a59d501bb63b7814c8e",
+            "sv": "Lemon curd är en kräm eller marmelad som traditionellt består av citronsaft, ägg och socker.",
+            "en": "Lemon curd is a cream or marmalade that traditionally consists of lemon juice, eggs, and sugar.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "en kräm"
+              }
+            ],
+            "gloss": "cream (food)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lemon curd",
+              "text_url": "https://sv.wikipedia.org/wiki/Lemon_curd",
+              "sentence_id": "0a7eade6",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"kräm\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "krɛːm",
+      "stress_hint": "Long vowel: the ä-sound is held longer.",
+      "audio": {
+        "file": "audio/lu_creme_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "kräm (en)",
+        "krämen",
+        "krämer",
+        "krämerna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

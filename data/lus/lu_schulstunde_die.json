@@ -1,0 +1,134 @@
+{
+  "lexical_unit": {
+    "id": "lu_schulstunde_die",
+    "source_de": {
+      "lu_de_raw": "Schulstunde, die",
+      "lu_de_normalized": "Schulstunde",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "skollektion",
+    "display_sv": "skollektion",
+    "name_sv": "skollektion",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "skollektion",
+      "skollektionen",
+      "skollektioner",
+      "skollektionerna"
+    ],
+    "english_equivalent_en": "school lesson",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "skollektion",
+        "def_sg": "skollektionen",
+        "indef_pl": "skollektioner",
+        "def_pl": "skollektionerna",
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "lektion",
+        "type_en": "noun",
+        "meaning_en": "a lesson (in school or a course)"
+      },
+      {
+        "word": "skoldag",
+        "type_en": "noun",
+        "meaning_en": "a school day"
+      },
+      {
+        "word": "skolschema",
+        "type_en": "noun",
+        "meaning_en": "a school timetable"
+      },
+      {
+        "word": "lektionstid",
+        "type_en": "noun",
+        "meaning_en": "lesson time; the time a lesson lasts"
+      }
+    ],
+    "synonyms_sv": [
+      "lektion",
+      "skoltimme"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_schulstunde_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_schulstunde_die:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a scheduled lesson period at school, usually one class session",
+        "how_to_use_en": [
+          "Use it for one lesson period in a school timetable.",
+          "Often used when talking about school organization and schedules."
+        ],
+        "patterns": [],
+        "common_errors_en": [
+          {
+            "error": "Using skollektion for the subject itself (e.g., “math” as a school subject).",
+            "fix": "Use ämne or the subject name (matematik), and use skollektion for the lesson session.",
+            "explain_en": "Skollektion is the time/session, not the subject area."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": []
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈskuːl.lɛkˌɧuːn",
+      "stress_hint": "Main stress is on the first part: SKOL-."
+    },
+    "morphology": {
+      "principal_parts": [
+        "skollektion",
+        "skollektionen",
+        "skollektioner",
+        "skollektionerna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

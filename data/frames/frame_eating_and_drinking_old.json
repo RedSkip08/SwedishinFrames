@@ -1,0 +1,112 @@
+{
+  "frame": {
+    "id": "frame_eating_and_drinking_old",
+    "name_en": "Eating and Drinking_OLD",
+    "slug": "eating_and_drinking_old",
+    "frame_description_en": "This frame describes a situation where an Ingestor eats or drinks some Ingestibles. The event can be understood as part of a Meal, and it can be located in Time and Place. The description may also include the Manner of eating or drinking, the Instrument used, and the Quantity consumed.",
+    "frame_description_html": "This frame describes a situation where an <span class=\"Ingestor\">Ingestor</span> eats or drinks some <span class=\"Ingestibles\">Ingestibles</span>. The event can be understood as part of a <span class=\"Meal\">Meal</span>, and it can be located in <span class=\"Time\">Time</span> and <span class=\"Place\">Place</span>. The description may also include the <span class=\"Manner\">Manner</span> of eating or drinking, the <span class=\"Instrument\">Instrument</span> used, and the <span class=\"Quantity\">Quantity</span> consumed.",
+    "frame_description_fe_mentions": [
+      {
+        "fe_id": "fe_ingestor",
+        "span_en": "Ingestor"
+      },
+      {
+        "fe_id": "fe_ingestibles",
+        "span_en": "Ingestibles"
+      },
+      {
+        "fe_id": "fe_meal",
+        "span_en": "Meal"
+      },
+      {
+        "fe_id": "fe_time",
+        "span_en": "Time"
+      },
+      {
+        "fe_id": "fe_place",
+        "span_en": "Place"
+      },
+      {
+        "fe_id": "fe_manner",
+        "span_en": "Manner"
+      },
+      {
+        "fe_id": "fe_instrument",
+        "span_en": "Instrument"
+      },
+      {
+        "fe_id": "fe_quantity",
+        "span_en": "Quantity"
+      }
+    ],
+    "elements": [
+      {
+        "id": "fe_ingestor",
+        "name": "Ingestor",
+        "published": 1,
+        "description_en": "The person or animal that eats or drinks.",
+        "description_html": "The person or animal that eats or drinks."
+      },
+      {
+        "id": "fe_ingestibles",
+        "name": "Ingestibles",
+        "published": 1,
+        "description_en": "The food or drink that is eaten or drunk.",
+        "description_html": "The food or drink that is eaten or drunk."
+      },
+      {
+        "id": "fe_meal",
+        "name": "Meal",
+        "published": 1,
+        "description_en": "The eating/drinking occasion the event belongs to (for example breakfast, lunch, or dinner).",
+        "description_html": "The eating/drinking occasion the event belongs to (for example breakfast, lunch, or dinner)."
+      },
+      {
+        "id": "fe_time",
+        "name": "Time",
+        "published": 1,
+        "description_en": "When the eating or drinking happens.",
+        "description_html": "When the eating or drinking happens."
+      },
+      {
+        "id": "fe_place",
+        "name": "Place",
+        "published": 1,
+        "description_en": "Where the eating or drinking happens.",
+        "description_html": "Where the eating or drinking happens."
+      },
+      {
+        "id": "fe_manner",
+        "name": "Manner",
+        "published": 1,
+        "description_en": "How the Ingestor eats or drinks (for example quickly, slowly, or politely).",
+        "description_html": "How the <span class=\"Ingestor\">Ingestor</span> eats or drinks (for example quickly, slowly, or politely)."
+      },
+      {
+        "id": "fe_instrument",
+        "name": "Instrument",
+        "published": 1,
+        "description_en": "The tool used to eat or drink (for example a fork, spoon, chopsticks, or a glass).",
+        "description_html": "The tool used to eat or drink (for example a fork, spoon, chopsticks, or a glass)."
+      },
+      {
+        "id": "fe_quantity",
+        "name": "Quantity",
+        "published": 1,
+        "description_en": "How much is eaten or drunk.",
+        "description_html": "How much is eaten or drunk."
+      }
+    ],
+    "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
+    "examples": [],
+    "linked_lexical_units": [],
+    "confusable_with": []
+  },
+  "constructions": [],
+  "constraints": {
+    "min_examples": 5,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true
+  }
+}

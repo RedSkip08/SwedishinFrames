@@ -1,0 +1,513 @@
+{
+  "lexical_unit": {
+    "id": "lu_lernen",
+    "source_de": {
+      "lu_de_raw": "lernen",
+      "lu_de_normalized": "lernen",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "lära",
+    "display_sv": "lära (sig)",
+    "name_sv": "lära (sig)",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "lära",
+      "lär",
+      "lärde",
+      "lärt",
+      "lärande",
+      "lärd"
+    ],
+    "english_equivalent_en": "learn",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "lära",
+        "present": "lär",
+        "past": "lärde",
+        "supine": "lärt",
+        "imperative": "lär",
+        "present_participle": "lärande",
+        "past_participle": "lärd",
+        "alternatives": [
+          {
+            "infinitive": "lära",
+            "present": "lär",
+            "past": "lärde",
+            "supine": "lärt",
+            "imperative": "lär",
+            "present_participle": "lärande",
+            "past_participle": "lärd/lärt/lärda",
+            "note_en": "Past participle agrees like an adjective: lärd (en), lärt (ett), lärda (plural/definite)."
+          }
+        ]
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "In this sense, Swedish usually uses the reflexive form: lära sig + subject/skill/fact."
+    },
+    "derived_words_sv": [
+      {
+        "word": "inlära",
+        "type_en": "verb",
+        "meaning_en": "learn (take in, acquire knowledge)"
+      },
+      {
+        "word": "inlärning",
+        "type_en": "noun",
+        "meaning_en": "learning (the process of learning)"
+      },
+      {
+        "word": "inlärd",
+        "type_en": "adjective",
+        "meaning_en": "learned; acquired through learning"
+      },
+      {
+        "word": "självlärd",
+        "type_en": "adjective",
+        "meaning_en": "self-taught"
+      },
+      {
+        "word": "lärande",
+        "type_en": "noun",
+        "meaning_en": "learning (ongoing activity)"
+      }
+    ],
+    "synonyms_sv": [
+      "studera",
+      "ta reda på",
+      "inhämta"
+    ],
+    "antonyms_sv": [
+      "glömma"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_lernen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_lernen:1",
+        "frame_id": "frame_education",
+        "meaning_en": "get knowledge or a skill through study, practice, or experience.",
+        "how_to_use_en": [
+          "Often used as reflexive: lära sig + language/skill/fact.",
+          "Common with an infinitive for skills: lära sig + verb (e.g., flyga).",
+          "Can be used with om for facts: lära sig om + topic."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "lära sig + språk/ämne",
+            "meaning_en": "learn a language/subject",
+            "note_en": "Typically used for languages (e.g., franska, arabiska, engelska)."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "lära sig + infinitiv",
+            "meaning_en": "learn to do something",
+            "note_en": "Used for skills/actions (e.g., lära sig flyga)."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "lära sig hur + bisats",
+            "meaning_en": "learn how to do something",
+            "note_en": "Introduces a method or procedure."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "lära sig om + ämne",
+            "meaning_en": "learn about a topic",
+            "note_en": "Used for facts/information (e.g., om äpplets historia)."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "det tog (tid) för + person + att lära sig + X",
+            "meaning_en": "it took time to learn",
+            "note_en": "Common when talking about how long learning took."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *lära* without sig for this meaning (e.g., *Jag lär svenska*).",
+            "fix": "Use reflexive: Jag lär mig svenska.",
+            "explain_en": "For ‘learn (acquire)’, Swedish normally uses lära sig."
+          },
+          {
+            "error": "Mixing up lära sig (learn) and lära ut (teach).",
+            "fix": "Use lära sig for the learner; lära ut for the teacher.",
+            "explain_en": "They describe opposite roles in education."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "90adbf2ab32df964bee028ac08d227210f3a4937",
+            "sv": "Dessutom tog det ungefär en månad för honom att lära sig ett främmande språk.",
+            "en": "Also, it took about a month for him to learn a foreign language.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "honom"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "ett främmande språk"
+              }
+            ],
+            "gloss": "lära (sig) = learn",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kim Ung-yong",
+              "text_url": "https://sv.wikipedia.org/wiki/Kim_Ung-yong",
+              "sentence_id": "fd4ec408",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"lära\"]"
+            }
+          },
+          {
+            "ex_id": "a367154f6d16e9439670be3668fa5abf1c2596a7",
+            "sv": "För att lära sig franska, studerade han i Alliance française.",
+            "en": "To learn French, he studied at Alliance française.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "franska"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Alliance française"
+              }
+            ],
+            "gloss": "lära (sig) = learn",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Haruo Sézaki",
+              "text_url": "https://sv.wikipedia.org/wiki/Haruo_S%C3%A9zaki",
+              "sentence_id": "2d83f534",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"lära\"]"
+            }
+          },
+          {
+            "ex_id": "b0594f72582df0fd08428ca9c7f4b7fd91e0ce90",
+            "sv": "Disa Beijer och hennes systrar sändes till Schweiz för att lära sig franska.",
+            "en": "Disa Beijer and her sisters were sent to Switzerland to learn French.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Disa Beijer och hennes systrar"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "franska"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Schweiz"
+              }
+            ],
+            "gloss": "lära (sig) = learn",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Disa Beijer",
+              "text_url": "https://sv.wikipedia.org/wiki/Disa_Beijer",
+              "sentence_id": "476d54f9",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"lära\"]"
+            }
+          },
+          {
+            "ex_id": "f850270f6352f05114f9ea12d16fb08df1c8385b",
+            "sv": "I Jordanien är det obligatoriskt att lära sig arabiska och engelska.",
+            "en": "In Jordan it is compulsory to learn Arabic and English.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "I Jordanien"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "arabiska och engelska"
+              }
+            ],
+            "gloss": "lära (sig) = learn",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jordanien",
+              "text_url": "https://sv.wikipedia.org/wiki/Jordanien",
+              "sentence_id": "bcc71930",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"lära\"]"
+            }
+          },
+          {
+            "ex_id": "37633e37a721c51eb4aa5f9b0d619d1a0121049f",
+            "sv": "Balchen sökte sig till flygfältet i Kjeller 1914 för att lära sig flyga.",
+            "en": "Balchen went to the airfield in Kjeller in 1914 to learn to fly.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Balchen"
+              },
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "flyga"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "flygfältet i Kjeller"
+              }
+            ],
+            "gloss": "lära (sig) = learn",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bernt Balchen",
+              "text_url": "https://sv.wikipedia.org/wiki/Bernt_Balchen",
+              "sentence_id": "db2ddd68",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"lära\"]"
+            }
+          },
+          {
+            "ex_id": "8b675b3a48de922c196d59e53267eddc16961eb4",
+            "sv": "Bernard bestämde sig tidigt för att hon ville lära sig flyga.",
+            "en": "Bernard decided early that she wanted to learn to fly.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "flyga"
+              }
+            ],
+            "gloss": "lära (sig) = learn",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Suzanne Bernard",
+              "text_url": "https://sv.wikipedia.org/wiki/Suzanne_Bernard",
+              "sentence_id": "872005c9",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"lära\"]"
+            }
+          },
+          {
+            "ex_id": "ce39eda43003ccda006e31157c23bdac8a643397",
+            "sv": "Där fick han lära sig hur man byggde allt från små till stora orglar.",
+            "en": "There he got to learn how one built everything from small to large organs.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "hur man byggde allt från små till stora orglar"
+              }
+            ],
+            "gloss": "lära (sig) = learn",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Björgvin Tómasson",
+              "text_url": "https://sv.wikipedia.org/wiki/Bj%C3%B6rgvin_T%C3%B3masson",
+              "sentence_id": "e82418a4",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"lära\"]"
+            }
+          },
+          {
+            "ex_id": "daae9a62eccc246b54fcf81c38997b225e41649a",
+            "sv": "Hon skulle lära sig sköta ett hem, men också affärsverksamhet, som mostern.",
+            "en": "She would learn to run a home, but also business activity, like her aunt.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "sköta ett hem"
+              },
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "affärsverksamhet"
+              }
+            ],
+            "gloss": "lära (sig) = learn",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Vem är Sama från Ghana?",
+              "text_url": "https://sv.wikipedia.org/wiki/Vem_%C3%A4r_Sama_fr%C3%A5n_Ghana%3F",
+              "sentence_id": "346e1876",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"lära\"]"
+            }
+          },
+          {
+            "ex_id": "99777b9113ecf30363684752667a6e35fa30442a",
+            "sv": "Där kan man lära sig om äpplets historia och forskning om olika frukter.",
+            "en": "There you can learn about the apple's history and research about different fruits.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_fact",
+                "span_sv": "om äpplets historia"
+              },
+              {
+                "fe_id": "fe_fact",
+                "span_sv": "forskning om olika frukter"
+              }
+            ],
+            "gloss": "lära (sig) = learn",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kiviks musteri",
+              "text_url": "https://sv.wikipedia.org/wiki/Kiviks_musteri",
+              "sentence_id": "1ea062db",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"lära\"]"
+            }
+          },
+          {
+            "ex_id": "70bdf281a2ad5eee0cc0741069cb25914ff556cc",
+            "sv": "I Barnens museum kan barnen lära sig mer om järnåldern och även prova järnålderskläder.",
+            "en": "In the Children's Museum the children can learn more about the Iron Age and also try Iron Age clothes.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "I Barnens museum"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "barnen"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "järnåldern"
+              }
+            ],
+            "gloss": "lära (sig) = learn",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Eketorps borg",
+              "text_url": "https://sv.wikipedia.org/wiki/Eketorps_borg",
+              "sentence_id": "5877f142",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"lära\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈlɛːra",
+      "stress_hint": "Stress on the first syllable: LÄ-ra."
+    },
+    "morphology": {
+      "principal_parts": [
+        "lära",
+        "lär",
+        "lärde",
+        "lärt"
+      ],
+      "particle_or_reflexive": "sig"
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "lexical_unit": {
+    "id": "lu_vorlesungsverzeichnis_das",
+    "source_de": {
+      "lu_de_raw": "Vorlesungsverzeichnis, das",
+      "lu_de_normalized": "Vorlesungsverzeichnis",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "kurskatalog",
+    "display_sv": "kurskatalog",
+    "name_sv": "kurskatalog",
+    "pos": "noun",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "kurskatalog",
+      "kurskatalogen",
+      "kurskataloger",
+      "kurskatalogerna"
+    ],
+    "english_equivalent_en": "course catalogue",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "kurskatalog",
+        "def_sg": "kurskatalogen",
+        "indef_pl": "kurskataloger",
+        "def_pl": "kurskatalogerna",
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "kurskatalogen",
+        "type_en": "noun",
+        "meaning_en": "the course catalogue"
+      },
+      {
+        "word": "kurskataloger",
+        "type_en": "noun",
+        "meaning_en": "course catalogues"
+      },
+      {
+        "word": "utbildningskatalog",
+        "type_en": "noun",
+        "meaning_en": "education/training catalogue"
+      },
+      {
+        "word": "kursutbud",
+        "type_en": "noun",
+        "meaning_en": "range of courses"
+      }
+    ],
+    "synonyms_sv": [
+      "kursutbud",
+      "utbildningskatalog",
+      "kursförteckning",
+      "utbildningsutbud"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_vorlesungsverzeichnis_das:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_vorlesungsverzeichnis_das:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a list or booklet showing an education provider’s courses and programs",
+        "how_to_use_en": [
+          "Use it for a document or webpage that presents available courses.",
+          "Often followed by information about an institution and its course offerings."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "en kurskatalog är en katalog över [Institution]s utbud av [Course]",
+            "meaning_en": "a catalogue of an institution’s courses",
+            "note_en": "Common in definitions and explanations."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using kurskatalog for a single course description.",
+            "fix": "Use kursbeskrivning for one course; use kurskatalog for the whole list.",
+            "explain_en": "A kurskatalog covers many courses/programs, not just one."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "46a259f2a867b5ffd81089d5cfb4fabce6cd8367",
+            "sv": "En kurskatalog är en katalog över en utbildningsleverantörs utbud av kurser och utbildningar.",
+            "en": "A course catalogue is a catalogue of an education provider's range of courses and educations.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_material",
+                "span_sv": "En kurskatalog"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en utbildningsleverantörs"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "kurser och utbildningar"
+              }
+            ],
+            "gloss": "kurskatalog",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kurskatalog",
+              "text_url": "https://sv.wikipedia.org/wiki/Kurskatalog",
+              "sentence_id": "6214123a",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"kurskatalog\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈkɵːʂkɑtɑˌlɔɡ",
+      "stress_hint": "Main stress is on the first part: KURS-."
+    },
+    "morphology": {
+      "principal_parts": [
+        "kurskatalog (en)",
+        "kurskatalogen",
+        "kurskataloger",
+        "kurskatalogerna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

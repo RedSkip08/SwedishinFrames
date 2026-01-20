@@ -1,0 +1,176 @@
+{
+  "lexical_unit": {
+    "id": "lu_friseur_zum_friseur_gehen",
+    "source_de": {
+      "lu_de_raw": "Friseur, zum Friseur gehen",
+      "lu_de_normalized": "Friseur, zum Friseur gehen",
+      "gender_variants_de": [],
+      "pos_de": "unknown"
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "gå till frisören",
+    "display_sv": "gå till frisören",
+    "name_sv": "gå till frisören",
+    "pos": "multiword",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": "prep_phrase",
+      "components_sv": [
+        "gå",
+        "till",
+        "frisören"
+      ],
+      "spacing_notes_en": "Three words; definite form 'frisören' is common."
+    },
+    "forms": [
+      "gå till frisören"
+    ],
+    "english_equivalent_en": "go to the hairdresser",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword expression: verb gå + preposition till + noun frisören (definite form)."
+    },
+    "derived_words_sv": [
+      {
+        "word": "frisör",
+        "type_en": "noun",
+        "meaning_en": "hairdresser"
+      },
+      {
+        "word": "frisörsalong",
+        "type_en": "noun",
+        "meaning_en": "hair salon"
+      },
+      {
+        "word": "frisörbesök",
+        "type_en": "noun",
+        "meaning_en": "visit to the hairdresser"
+      },
+      {
+        "word": "frisyr",
+        "type_en": "noun",
+        "meaning_en": "hairstyle"
+      }
+    ],
+    "synonyms_sv": [
+      "gå till frissan",
+      "besöka frisören",
+      "gå till hårfrisören"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_friseur_zum_friseur_gehen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_friseur_zum_friseur_gehen:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "go to a hairdresser for hair care, usually a haircut or styling.",
+        "how_to_use_en": [
+          "Use it when someone visits a hairdresser (a salon).",
+          "Often implies getting a haircut or having hair done."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "gå till frisören",
+            "meaning_en": "go to the hairdresser",
+            "note_en": "Used for a visit to a hairdresser/salon, often for a haircut."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "gå till frisör",
+            "fix": "gå till frisören",
+            "explain_en": "In this expression, frisören is typically in the definite form."
+          },
+          {
+            "error": "gå på frisören",
+            "fix": "gå till frisören",
+            "explain_en": "Use till for going to a place/destination."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "e2e33f9bbf1f6202d1856a63b2d6d14e935972b8",
+            "sv": "Han sade till dem att gå till frisören och skaffa ett jobb.",
+            "en": "He told them to go to the hairdresser and get a job.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "dem"
+              }
+            ],
+            "gloss": "go to the hairdresser",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jack Nance",
+              "text_url": "https://sv.wikipedia.org/wiki/Jack_Nance",
+              "sentence_id": "e155e21f",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"gå\"][word=\"till\"][word=\"frisören\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ɡoː tɪl ˈfrɪsœːrɛn",
+      "stress_hint": "Main stress is on fri- in frisören.",
+      "audio": {
+        "file": "audio/lu_friseur_zum_friseur_gehen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

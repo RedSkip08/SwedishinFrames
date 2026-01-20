@@ -1,0 +1,554 @@
+{
+  "frame": {
+    "id": "frame_travel_-_under_construction",
+    "name_en": "Travel - under construction",
+    "slug": "travel_-_under_construction",
+    "frame_description_en": "This frame is about a situation where a Traveler moves regularly from one place to another, often for work or school. The travel can start at a Source and end at a Goal, and it may follow a particular Path. The Traveler may use a Vehicle, and the travel can be described by its Distance, the Time when it happens, and the Duration it takes.",
+    "frame_description_html": "This frame is about a situation where a <span class=\"Traveler\">Traveler</span> moves regularly from one place to another, often for work or school. The travel can start at a <span class=\"Source\">Source</span> and end at a <span class=\"Goal\">Goal</span>, and it may follow a particular <span class=\"Path\">Path</span>. The <span class=\"Traveler\">Traveler</span> may use a <span class=\"Vehicle\">Vehicle</span>, and the travel can be described by its <span class=\"Distance\">Distance</span>, the <span class=\"Time\">Time</span> when it happens, and the <span class=\"Duration\">Duration</span> it takes.",
+    "frame_description_fe_mentions": [
+      {
+        "fe_id": "fe_traveler",
+        "span_en": "Traveler"
+      },
+      {
+        "fe_id": "fe_source",
+        "span_en": "Source"
+      },
+      {
+        "fe_id": "fe_goal",
+        "span_en": "Goal"
+      },
+      {
+        "fe_id": "fe_path",
+        "span_en": "Path"
+      },
+      {
+        "fe_id": "fe_vehicle",
+        "span_en": "Vehicle"
+      },
+      {
+        "fe_id": "fe_distance",
+        "span_en": "Distance"
+      },
+      {
+        "fe_id": "fe_time",
+        "span_en": "Time"
+      },
+      {
+        "fe_id": "fe_duration",
+        "span_en": "Duration"
+      }
+    ],
+    "elements": [
+      {
+        "id": "fe_traveler",
+        "name": "Traveler",
+        "published": 1,
+        "description_en": "The person or group that is doing the traveling/commuting.",
+        "description_html": "The person or group that is doing the traveling/commuting."
+      },
+      {
+        "id": "fe_vehicle",
+        "name": "Vehicle",
+        "published": 1,
+        "description_en": "The transport used by the Traveler (for example, train, bus, or car).",
+        "description_html": "The transport used by the <span class=\"Traveler\">Traveler</span> (for example, train, bus, or car)."
+      },
+      {
+        "id": "fe_source",
+        "name": "Source",
+        "published": 1,
+        "description_en": "The place the Traveler travels from (the starting point).",
+        "description_html": "The place the <span class=\"Traveler\">Traveler</span> travels from (the starting point)."
+      },
+      {
+        "id": "fe_goal",
+        "name": "Goal",
+        "published": 1,
+        "description_en": "The place the Traveler travels to (the destination).",
+        "description_html": "The place the <span class=\"Traveler\">Traveler</span> travels to (the destination)."
+      },
+      {
+        "id": "fe_path",
+        "name": "Path",
+        "published": 1,
+        "description_en": "The route or stretch the Traveler travels along, for example between two places.",
+        "description_html": "The route or stretch the <span class=\"Traveler\">Traveler</span> travels along, for example between two places."
+      },
+      {
+        "id": "fe_distance",
+        "name": "Distance",
+        "published": 1,
+        "description_en": "How far the Traveler travels.",
+        "description_html": "How far the <span class=\"Traveler\">Traveler</span> travels."
+      },
+      {
+        "id": "fe_time",
+        "name": "Time",
+        "published": 1,
+        "description_en": "When the travel happens (for example a year, a day, or a time period).",
+        "description_html": "When the travel happens (for example a year, a day, or a time period)."
+      },
+      {
+        "id": "fe_duration",
+        "name": "Duration",
+        "published": 1,
+        "description_en": "How long the travel takes from start to finish.",
+        "description_html": "How long the travel takes from start to finish."
+      }
+    ],
+    "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
+    "examples": [
+      {
+        "ex_id": "1264bdd99f44d1b7aa3647fdc4071796166004e2",
+        "sv": "Ungdomar i högstadium och gymnasium får pendla till Vänersborg eller Trollhättan.",
+        "en": "Young people in lower secondary school and upper secondary school can commute to Vänersborg or Trollhättan.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_traveler",
+            "span_sv": "Ungdomar i högstadium och gymnasium"
+          },
+          {
+            "fe_id": "fe_goal",
+            "span_sv": "till Vänersborg eller Trollhättan"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Vargön",
+          "text_url": "https://sv.wikipedia.org/wiki/Varg%C3%B6n",
+          "sentence_id": "03ae93d4",
+          "retrieved_at": "2026-01-20T08:58:25+00:00",
+          "korp_query": "[word=\"pendla\"]"
+        }
+      },
+      {
+        "ex_id": "4fe5e979648349f9d7e68c8a6f341dfad633fbdd",
+        "sv": "Tanken var att de boende fick pendla till sina arbeten inne i Stockholm.",
+        "en": "The idea was that the residents could commute to their jobs in Stockholm.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_traveler",
+            "span_sv": "de boende"
+          },
+          {
+            "fe_id": "fe_goal",
+            "span_sv": "till sina arbeten inne i Stockholm"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Bagarmossen",
+          "text_url": "https://sv.wikipedia.org/wiki/Bagarmossen",
+          "sentence_id": "0384620d",
+          "retrieved_at": "2026-01-20T08:58:25+00:00",
+          "korp_query": "[word=\"pendla\"]"
+        }
+      },
+      {
+        "ex_id": "65815a1c6734635ca849ed559385638a57480058",
+        "sv": "2011 uppges 75 % av de vuxna invånarna i Knivsta pendla ut från samhället varje dag.",
+        "en": "In 2011, 75% of the adult residents in Knivsta are said to commute out from the community every day.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_time",
+            "span_sv": "2011"
+          },
+          {
+            "fe_id": "fe_traveler",
+            "span_sv": "75 % av de vuxna invånarna i Knivsta"
+          },
+          {
+            "fe_id": "fe_source",
+            "span_sv": "från samhället"
+          },
+          {
+            "fe_id": "fe_time",
+            "span_sv": "varje dag"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Knivsta",
+          "text_url": "https://sv.wikipedia.org/wiki/Knivsta",
+          "sentence_id": "c6de2146",
+          "retrieved_at": "2026-01-20T08:58:25+00:00",
+          "korp_query": "[word=\"pendla\"]"
+        }
+      },
+      {
+        "ex_id": "768ad81ea12af51f90b51e497239228c87ec6dae",
+        "sv": "När eleverna börjar högstadiet måste de pendla till Stavanger för att gå på skola.",
+        "en": "When the students start lower secondary school, they must commute to Stavanger to go to school.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_time",
+            "span_sv": "När eleverna börjar högstadiet"
+          },
+          {
+            "fe_id": "fe_traveler",
+            "span_sv": "eleverna"
+          },
+          {
+            "fe_id": "fe_goal",
+            "span_sv": "till Stavanger"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Vassøy",
+          "text_url": "https://sv.wikipedia.org/wiki/Vass%C3%B8y",
+          "sentence_id": "24b5979c",
+          "retrieved_at": "2026-01-20T08:58:25+00:00",
+          "korp_query": "[word=\"pendla\"]"
+        }
+      },
+      {
+        "ex_id": "ad7f1a606dd45b448e9aab9d536872c9966e36a8",
+        "sv": "På samma sätt väljer fler att pendla mellan Stockholm och Mälardalen när det finns snabbtåg med täta avgångar.",
+        "en": "In the same way, more people choose to commute between Stockholm and Mälardalen when there are fast trains with frequent departures.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_path",
+            "span_sv": "mellan Stockholm och Mälardalen"
+          },
+          {
+            "fe_id": "fe_time",
+            "span_sv": "när det finns snabbtåg med täta avgångar"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Trängselskatt",
+          "text_url": "https://sv.wikipedia.org/wiki/Tr%C3%A4ngselskatt",
+          "sentence_id": "5e7e1bb9",
+          "retrieved_at": "2026-01-20T08:58:25+00:00",
+          "korp_query": "[word=\"pendla\"]"
+        }
+      }
+    ],
+    "linked_lexical_units": [
+      {
+        "lu_id": "lu_pendeln",
+        "display_sv": "pendla",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_pendeln:1"
+      }
+    ],
+    "confusable_with": []
+  },
+  "constructions": [
+    {
+      "cxn_id": "cxn_1",
+      "cxn_name_linguistic_sv": "X pendlar till Y",
+      "cxn_name_user_friendly_en": "Commuting to a place",
+      "pattern": "SUBJ V pendla PP-till",
+      "meaning_en": "Someone travels regularly (commutes) to a destination, often for school or work.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_traveler"
+        },
+        {
+          "slot": "PP-till",
+          "maps_to_fe_id": "fe_goal"
+        }
+      ],
+      "usage_notes_en": [
+        "The destination is commonly expressed with till + place (or a workplace).",
+        "The traveler can be explicit (SUBJ) or left implicit in impersonal expressions like det är möjligt att pendla."
+      ],
+      "examples": [
+        {
+          "ex_id": "1264bdd99f44d1b7aa3647fdc4071796166004e2",
+          "sv": "Ungdomar i högstadium och gymnasium får pendla till Vänersborg eller Trollhättan.",
+          "en": "Young people in lower secondary school and upper secondary school can commute to Vänersborg or Trollhättan.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_traveler",
+              "span_sv": "Ungdomar i högstadium och gymnasium"
+            },
+            {
+              "fe_id": "fe_goal",
+              "span_sv": "till Vänersborg eller Trollhättan"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Vargön",
+            "text_url": "https://sv.wikipedia.org/wiki/Varg%C3%B6n",
+            "sentence_id": "03ae93d4",
+            "retrieved_at": "2026-01-20T08:58:25+00:00",
+            "korp_query": "[word=\"pendla\"]"
+          }
+        },
+        {
+          "ex_id": "4fe5e979648349f9d7e68c8a6f341dfad633fbdd",
+          "sv": "Tanken var att de boende fick pendla till sina arbeten inne i Stockholm.",
+          "en": "The idea was that the residents could commute to their jobs in Stockholm.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_traveler",
+              "span_sv": "de boende"
+            },
+            {
+              "fe_id": "fe_goal",
+              "span_sv": "till sina arbeten inne i Stockholm"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Bagarmossen",
+            "text_url": "https://sv.wikipedia.org/wiki/Bagarmossen",
+            "sentence_id": "0384620d",
+            "retrieved_at": "2026-01-20T08:58:25+00:00",
+            "korp_query": "[word=\"pendla\"]"
+          }
+        },
+        {
+          "ex_id": "8270cdf45a112b7ab54b9f53c534853aca722f02",
+          "sv": "Detta kan förklaras med att nuvarande vägar gör det möjligt att pendla till Stockholm.",
+          "en": "This can be explained by the fact that the current roads make it possible to commute to Stockholm.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_goal",
+              "span_sv": "till Stockholm"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Ingarö",
+            "text_url": "https://sv.wikipedia.org/wiki/Ingar%C3%B6",
+            "sentence_id": "b2f8a3b3",
+            "retrieved_at": "2026-01-20T08:58:25+00:00",
+            "korp_query": "[word=\"pendla\"]"
+          }
+        },
+        {
+          "ex_id": "768ad81ea12af51f90b51e497239228c87ec6dae",
+          "sv": "När eleverna börjar högstadiet måste de pendla till Stavanger för att gå på skola.",
+          "en": "When the students start lower secondary school, they must commute to Stavanger to go to school.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_time",
+              "span_sv": "När eleverna börjar högstadiet"
+            },
+            {
+              "fe_id": "fe_traveler",
+              "span_sv": "eleverna"
+            },
+            {
+              "fe_id": "fe_goal",
+              "span_sv": "till Stavanger"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Vassøy",
+            "text_url": "https://sv.wikipedia.org/wiki/Vass%C3%B8y",
+            "sentence_id": "24b5979c",
+            "retrieved_at": "2026-01-20T08:58:25+00:00",
+            "korp_query": "[word=\"pendla\"]"
+          }
+        },
+        {
+          "ex_id": "ff5e98c75e339830b63c1a35faf532cc7165c38a",
+          "sv": "Utbyggda kommunikationer både på spår och väg gjorde det även praktiskt möjligt att pendla till Stockholms innerstad.",
+          "en": "Expanded transport links both on rail and road also made it practically possible to commute to central Stockholm.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_goal",
+              "span_sv": "till Stockholms innerstad"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Befolkningsutveckling i Stockholm",
+            "text_url": "https://sv.wikipedia.org/wiki/Befolkningsutveckling_i_Stockholm",
+            "sentence_id": "716d3614",
+            "retrieved_at": "2026-01-20T08:58:25+00:00",
+            "korp_query": "[word=\"pendla\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_2",
+      "cxn_name_linguistic_sv": "X pendlar från Y",
+      "cxn_name_user_friendly_en": "Commuting from a place",
+      "pattern": "SUBJ V pendla PP-från",
+      "meaning_en": "Someone travels regularly (commutes) starting from a place.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_traveler"
+        },
+        {
+          "slot": "PP-från",
+          "maps_to_fe_id": "fe_source"
+        }
+      ],
+      "usage_notes_en": [
+        "The starting point is expressed with från + place.",
+        "Time expressions like a year or frequency can be added, but are optional."
+      ],
+      "examples": [
+        {
+          "ex_id": "65815a1c6734635ca849ed559385638a57480058",
+          "sv": "2011 uppges 75 % av de vuxna invånarna i Knivsta pendla ut från samhället varje dag.",
+          "en": "In 2011, 75% of the adult residents in Knivsta are said to commute out from the community every day.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_time",
+              "span_sv": "2011"
+            },
+            {
+              "fe_id": "fe_traveler",
+              "span_sv": "75 % av de vuxna invånarna i Knivsta"
+            },
+            {
+              "fe_id": "fe_source",
+              "span_sv": "från samhället"
+            },
+            {
+              "fe_id": "fe_time",
+              "span_sv": "varje dag"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Knivsta",
+            "text_url": "https://sv.wikipedia.org/wiki/Knivsta",
+            "sentence_id": "c6de2146",
+            "retrieved_at": "2026-01-20T08:58:25+00:00",
+            "korp_query": "[word=\"pendla\"]"
+          }
+        },
+        {
+          "ex_id": "772a9d6c9adf64cf95168ddb007f717f169510ff",
+          "sv": "Samtidigt innebar höjda boendepriser att alltfler flyttade från staden och började pendla, vilket förbättrad infrastruktur också möjliggjorde.",
+          "en": "At the same time, higher housing prices meant that more and more people moved from the city and started to commute, which improved infrastructure also made possible.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_source",
+              "span_sv": "från staden"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Hamburgs historia",
+            "text_url": "https://sv.wikipedia.org/wiki/Hamburgs_historia",
+            "sentence_id": "fccca177",
+            "retrieved_at": "2026-01-20T08:58:25+00:00",
+            "korp_query": "[word=\"pendla\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_3",
+      "cxn_name_linguistic_sv": "X pendlar mellan Y och Z",
+      "cxn_name_user_friendly_en": "Commuting between two places",
+      "pattern": "SUBJ V pendla PP-mellan",
+      "meaning_en": "Someone travels regularly back and forth between two places.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_traveler"
+        },
+        {
+          "slot": "PP-mellan",
+          "maps_to_fe_id": "fe_path"
+        }
+      ],
+      "usage_notes_en": [
+        "The route is expressed with mellan + place and place (often two endpoints).",
+        "The traveler may be generic/implicit (e.g. fler)."
+      ],
+      "examples": [
+        {
+          "ex_id": "ad7f1a606dd45b448e9aab9d536872c9966e36a8",
+          "sv": "På samma sätt väljer fler att pendla mellan Stockholm och Mälardalen när det finns snabbtåg med täta avgångar.",
+          "en": "In the same way, more people choose to commute between Stockholm and Mälardalen when there are fast trains with frequent departures.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_path",
+              "span_sv": "mellan Stockholm och Mälardalen"
+            },
+            {
+              "fe_id": "fe_time",
+              "span_sv": "när det finns snabbtåg med täta avgångar"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Trängselskatt",
+            "text_url": "https://sv.wikipedia.org/wiki/Tr%C3%A4ngselskatt",
+            "sentence_id": "5e7e1bb9",
+            "retrieved_at": "2026-01-20T08:58:25+00:00",
+            "korp_query": "[word=\"pendla\"]"
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_examples": 5,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true
+  }
+}

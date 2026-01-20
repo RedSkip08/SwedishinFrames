@@ -1,0 +1,291 @@
+{
+  "lexical_unit": {
+    "id": "lu_seminarraum_der",
+    "source_de": {
+      "lu_de_raw": "Seminarraum, der",
+      "lu_de_normalized": "Seminarraum",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "seminarierum",
+    "display_sv": "seminarierum",
+    "name_sv": "seminarierum",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "ett seminarierum",
+      "seminarierummet",
+      "seminarierum",
+      "seminarierummen"
+    ],
+    "english_equivalent_en": "seminar room",
+    "morphology_sv": {
+      "noun": {
+        "gender": "ett",
+        "indef_sg": "seminarierum",
+        "def_sg": "seminarierummet",
+        "indef_pl": "seminarierum",
+        "def_pl": "seminarierummen",
+        "note_en": "Neuter noun; plural is the same as singular (nollplural)."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "seminarium",
+        "type_en": "noun",
+        "meaning_en": "seminar (teaching session)"
+      },
+      {
+        "word": "seminarieverksamhet",
+        "type_en": "noun",
+        "meaning_en": "seminar activities (at an institution)"
+      },
+      {
+        "word": "seminariegrupp",
+        "type_en": "noun",
+        "meaning_en": "seminar group"
+      },
+      {
+        "word": "seminariebord",
+        "type_en": "noun",
+        "meaning_en": "seminar table (in a seminar room)"
+      }
+    ],
+    "synonyms_sv": [
+      "seminariesal",
+      "undervisningsrum",
+      "kursrum",
+      "grupprum"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_seminarraum_der:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_seminarraum_der:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a room used for seminars, group teaching, or training at an institution",
+        "how_to_use_en": [
+          "Use it for a specific room in a school, university, or training center.",
+          "Often listed together with other rooms and facilities in a building."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "Det finns (antal) seminarierum.",
+            "meaning_en": "there are (number) seminar rooms",
+            "note_en": "Common when describing facilities in a building."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "omfattar ... samt (ett) seminarierum",
+            "meaning_en": "includes ... and a seminar room",
+            "note_en": "Used in descriptions of floor plans or premises."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "grupp- och seminarierum",
+            "meaning_en": "group and seminar rooms",
+            "note_en": "A fixed pairing in lists of rooms."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using en seminarierum.",
+            "fix": "Use ett seminarierum.",
+            "explain_en": "Seminarierum is an ett-word (neuter)."
+          },
+          {
+            "error": "Making a plural *seminarierumer.",
+            "fix": "Use seminarierum (plural).",
+            "explain_en": "The plural is the same form as the singular."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "209df9359a887a0671e02a4c6f6be2a5b39184d5",
+            "sv": "I den södra ändan finns en gymnastik- och träningslokal samt seminarierum.",
+            "en": "In the southern end there is a gym and training room as well as seminar rooms.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "I den södra ändan"
+              }
+            ],
+            "gloss": "seminar room(s) (room for teaching/learning activities)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Samfunnshuset, Ny-Ålesund",
+              "text_url": "https://sv.wikipedia.org/wiki/Samfunnshuset,_Ny-%C3%85lesund",
+              "sentence_id": "c82c5354",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarierum\"]"
+            }
+          },
+          {
+            "ex_id": "b232009982a5425c117a202ca7d44112b78d3f53",
+            "sv": "CIC har en större samlingssal, fem seminarierum och sex utbildningssviter.",
+            "en": "CIC has a larger assembly hall, five seminar rooms and six training suites.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "CIC"
+              }
+            ],
+            "gloss": "seminar room(s) (room for teaching/learning activities)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gilwell Park",
+              "text_url": "https://sv.wikipedia.org/wiki/Gilwell_Park",
+              "sentence_id": "228c67b1",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarierum\"]"
+            }
+          },
+          {
+            "ex_id": "d74636e79244e5ab57a2954ea5400814caa97c7c",
+            "sv": "Bottenvåningens yta är 116 kvadratmeter och omfattar mötesrum, pausrum samt ett större seminarierum.",
+            "en": "The ground floor area is 116 square meters and includes meeting rooms, break rooms and a larger seminar room.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Bottenvåningens"
+              }
+            ],
+            "gloss": "seminar room (room for teaching/learning activities)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kyrkslätts hembygdsförening",
+              "text_url": "https://sv.wikipedia.org/wiki/Kyrksl%C3%A4tts_hembygdsf%C3%B6rening",
+              "sentence_id": "b9dbeced",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarierum\"]"
+            }
+          },
+          {
+            "ex_id": "8c7c1d76639b367574940c8b217fa082953204d8",
+            "sv": "I hus B finns grupp- och seminarierum, kontor, större arkiv, skyddsrum och studentexpedition.",
+            "en": "In building B there are group and seminar rooms, offices, a larger archive, a shelter room and a student office.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "I hus B"
+              }
+            ],
+            "gloss": "seminar room(s) (room for teaching/learning activities)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Karolinska Institutets administrationsbyggnad",
+              "text_url": "https://sv.wikipedia.org/wiki/Karolinska_Institutets_administrationsbyggnad",
+              "sentence_id": "d5b8b521",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarierum\"]"
+            }
+          },
+          {
+            "ex_id": "4d498e3a8345e6b4ba25459d2af53038946f7e7c",
+            "sv": "Husdel A inhyser kontor, grupp- och seminarierum, vaktmästeri, vilrum, lastintag och ljusgård.",
+            "en": "Part A of the building contains offices, group and seminar rooms, a caretaker office, rest rooms, a loading entrance and an atrium.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Husdel A"
+              }
+            ],
+            "gloss": "seminar room(s) (room for teaching/learning activities)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Karolinska Institutets administrationsbyggnad",
+              "text_url": "https://sv.wikipedia.org/wiki/Karolinska_Institutets_administrationsbyggnad",
+              "sentence_id": "d5b90181",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"seminarierum\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "sɛmɪˈnɑːrɪ.ɛrʉm",
+      "stress_hint": "Main stress is on -nar-."
+    },
+    "morphology": {
+      "principal_parts": [
+        "ett seminarierum",
+        "seminarierummet",
+        "seminarierum",
+        "seminarierummen"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "lexical_unit": {
+    "id": "lu_zahnburste_die",
+    "source_de": {
+      "lu_de_raw": "Zahnbürste, die",
+      "lu_de_normalized": "Zahnbürste",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "tandborste",
+    "display_sv": "tandborste",
+    "name_sv": "tandborste",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "en tandborste",
+      "tandborsten",
+      "tandborstar",
+      "tandborstarna"
+    ],
+    "english_equivalent_en": "toothbrush",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "tandborste",
+        "def_sg": "tandborsten",
+        "indef_pl": "tandborstar",
+        "def_pl": "tandborstarna",
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "eltandborste",
+        "type_en": "noun",
+        "meaning_en": "electric toothbrush"
+      },
+      {
+        "word": "tandborstning",
+        "type_en": "noun",
+        "meaning_en": "toothbrushing"
+      },
+      {
+        "word": "tandborsthuvud",
+        "type_en": "noun",
+        "meaning_en": "toothbrush head (replacement head)"
+      },
+      {
+        "word": "tandborstmugg",
+        "type_en": "noun",
+        "meaning_en": "toothbrush cup"
+      },
+      {
+        "word": "tandborsthållare",
+        "type_en": "noun",
+        "meaning_en": "toothbrush holder"
+      }
+    ],
+    "synonyms_sv": [
+      "borste"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_zahnburste_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_zahnburste_die:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "a brush used to clean teeth, often together with toothpaste",
+        "how_to_use_en": [
+          "Use it for cleaning teeth: borsta tänderna med tandborste.",
+          "Often mentioned together with tandkräm (toothpaste).",
+          "You can talk about changing or replacing it regularly."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "med tandborste (och tandkräm)",
+            "meaning_en": "clean teeth using a toothbrush",
+            "note_en": "Often used with borsta tänderna."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "byta tandborste",
+            "meaning_en": "replace a toothbrush",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "en [adjektiv] tandborste",
+            "meaning_en": "a toothbrush with a described type",
+            "note_en": "For example normal, miljövänlig."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "en typ av tandborste",
+            "meaning_en": "a type of toothbrush",
+            "note_en": "Used when defining kinds, e.g. eltandborste."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using ett: *ett tandborste",
+            "fix": "Use en: en tandborste",
+            "explain_en": "tandborste is an en-word."
+          },
+          {
+            "error": "Wrong plural: *tandborster",
+            "fix": "tandborstar",
+            "explain_en": "The plural changes -e to -ar: tandborstar."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "fd0897f506cfa842b4d131f4604bec826e5cce8f",
+            "sv": "Hygienen i mun och tänder sköts vanligen med tandborste och tandkräm.",
+            "en": "Hygiene in the mouth and teeth is usually done with a toothbrush and toothpaste.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "mun och tänder"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tandborste"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tandkräm"
+              }
+            ],
+            "gloss": "tandborste",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Personlig hygien",
+              "text_url": "https://sv.wikipedia.org/wiki/Personlig_hygien",
+              "sentence_id": "5d4ac6b9",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandborste\"]"
+            }
+          },
+          {
+            "ex_id": "0a2b628a05c676c7e40feeb5c94734ea32b5d660",
+            "sv": "Rekommendationen från många tandläkare är att byta tandborste minst var tredje månad.",
+            "en": "The recommendation from many dentists is to change toothbrush at least every third month.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tandborste"
+              }
+            ],
+            "gloss": "tandborste",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tandborste",
+              "text_url": "https://sv.wikipedia.org/wiki/Tandborste",
+              "sentence_id": "8919231e",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandborste\"]"
+            }
+          },
+          {
+            "ex_id": "132cbc497bde1eb3fc6a18abf68d52d574d22bc7",
+            "sv": "Det är ett komplement till att borsta tänderna med tandborste och tandkräm.",
+            "en": "It is a complement to brushing the teeth with a toothbrush and toothpaste.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "tänderna"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tandborste"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tandkräm"
+              }
+            ],
+            "gloss": "tandborste",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Fluorsköljning",
+              "text_url": "https://sv.wikipedia.org/wiki/Fluorsk%C3%B6ljning",
+              "sentence_id": "2f7a7faa",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          },
+          {
+            "ex_id": "2087c9adcdb7dc4109cb13be960d19cf86349132",
+            "sv": "Eltandborste är en typ av tandborste som drivs med elkraft och ofta är uppladdningsbar.",
+            "en": "An electric toothbrush is a type of toothbrush that is powered by electricity and is often rechargeable.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "Eltandborste"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tandborste"
+              }
+            ],
+            "gloss": "tandborste",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Eltandborste",
+              "text_url": "https://sv.wikipedia.org/wiki/Eltandborste",
+              "sentence_id": "8eafb37c",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandborste\"]"
+            }
+          },
+          {
+            "ex_id": "2ef34259a9dc8bf3e014bd59f1cf0dcbb570928a",
+            "sv": "En vuxen ska enligt rekommendationerna fylla en normal tandborste med tandkräm, alltså 2 – 3 centimeter.",
+            "en": "An adult should, according to the recommendations, fill a normal toothbrush with toothpaste, that is 2–3 centimeters.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "en normal tandborste"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tandkräm"
+              }
+            ],
+            "gloss": "tandborste",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tandkräm",
+              "text_url": "https://sv.wikipedia.org/wiki/Tandkr%C3%A4m",
+              "sentence_id": "db238c37",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandborste\"]"
+            }
+          },
+          {
+            "ex_id": "21aaf5ca33862905258231a217117a892ef724fe",
+            "sv": "Resultatet blev en miljövänlig tandborste i bambu som 2018 fanns på marknaden i 30 länder.",
+            "en": "The result was an environmentally friendly bamboo toothbrush that in 2018 was on the market in 30 countries.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "en miljövänlig tandborste i bambu"
+              }
+            ],
+            "gloss": "tandborste",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Noel Abdayem",
+              "text_url": "https://sv.wikipedia.org/wiki/Noel_Abdayem",
+              "sentence_id": "4453ef65",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandborste\"]"
+            }
+          },
+          {
+            "ex_id": "dd77c4706321c0709ac642f4a79c8203ee9b4370",
+            "sv": "Exempel på medicintekniska-produkter som används till vardags kan vara tandborste, kondomer eller plåster.",
+            "en": "Examples of medical-technical products that are used in everyday life can be a toothbrush, condoms, or bandages.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tandborste"
+              }
+            ],
+            "gloss": "tandborste",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Medicinteknik",
+              "text_url": "https://sv.wikipedia.org/wiki/Medicinteknik",
+              "sentence_id": "cf9fb588",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandborste\"]"
+            }
+          },
+          {
+            "ex_id": "e41a760175a25e4310a4393f7bca82b1088d53c4",
+            "sv": "• 24 februari – Första nylonprodukten börjar tillverkas i USA och är en tandborste.",
+            "en": "24 February – The first nylon product starts to be made in the USA and is a toothbrush.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "en tandborste"
+              }
+            ],
+            "gloss": "tandborste",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "1938",
+              "text_url": "https://sv.wikipedia.org/wiki/1938",
+              "sentence_id": "c4df4c0e",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandborste\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈtandˌbɔr.stɛ",
+      "stress_hint": "Main stress is on tand-.",
+      "audio": {
+        "file": "audio/lu_zahnburste_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "tandborste",
+        "tandborsten",
+        "tandborstar",
+        "tandborstarna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

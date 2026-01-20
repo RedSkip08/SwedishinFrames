@@ -1,0 +1,453 @@
+{
+  "lexical_unit": {
+    "id": "lu_bestehen_die_prüfung__den_test_bestehen",
+    "source_de": {
+      "lu_de_raw": "bestehen: die Prüfung / den Test bestehen",
+      "lu_de_normalized": "bestehen (Prüfung/Test)",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "klara",
+    "display_sv": "klara",
+    "name_sv": "klara",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "klara",
+      "klarar",
+      "klarade",
+      "klarat"
+    ],
+    "english_equivalent_en": "pass",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "klara",
+        "present": "klarar",
+        "past": "klarade",
+        "supine": "klarat",
+        "imperative": "klara",
+        "present_participle": "klarande",
+        "past_participle": "klarad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "klara av",
+        "type_en": "verb",
+        "meaning_en": "manage; cope with; get through"
+      },
+      {
+        "word": "avklara",
+        "type_en": "verb",
+        "meaning_en": "finish; deal with (a task) completely"
+      },
+      {
+        "word": "klarande",
+        "type_en": "other",
+        "meaning_en": "managing; coping (present participle used like a noun/adjective)"
+      },
+      {
+        "word": "klarhet",
+        "type_en": "noun",
+        "meaning_en": "clarity (clear understanding)"
+      }
+    ],
+    "synonyms_sv": [
+      "fixa",
+      "greja",
+      "hantera",
+      "klara av",
+      "genomföra"
+    ],
+    "antonyms_sv": [
+      "misslyckas"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_bestehen_die_prüfung__den_test_bestehen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_bestehen_die_prüfung__den_test_bestehen:1",
+        "frame_id": "frame_education",
+        "meaning_en": "be able to do something successfully; pass a test or meet a requirement",
+        "how_to_use_en": [
+          "Use with a direct object: klara + test/level/requirement/challenge.",
+          "Often means “manage/handle” with difficult conditions, weight, heat, illness.",
+          "Can mean “pass” with prov/test."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "klara + prov/test",
+            "meaning_en": "pass an exam/test",
+            "note_en": "Used for formal or practical tests (e.g., det teoretiska provet)."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "klara + krav/standard",
+            "meaning_en": "meet a requirement/standard",
+            "note_en": "Common with rules and technical standards (e.g., avgaskrav, Euro 6)."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "klara + belastning (tyngd/hetta/transport)",
+            "meaning_en": "withstand a load/conditions",
+            "note_en": "Often about machines, buildings, or materials."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "klara + sjukdom/utmaning",
+            "meaning_en": "cope with illness/challenges",
+            "note_en": "Focuses on getting through something difficult."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "klara + banor",
+            "meaning_en": "complete levels/stages",
+            "note_en": "Common in games and tasks with stages."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *klara* without an object when you mean “manage something”.",
+            "fix": "Add what is managed: klara + noun (e.g., klara provet).",
+            "explain_en": "In these examples, klara is transitive: you manage/pass something."
+          },
+          {
+            "error": "Confusing klara (“pass/handle”) with klar (“ready/clear”).",
+            "fix": "Use klar as an adjective, klara as a verb.",
+            "explain_en": "They are related but different parts of speech and meanings."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "5bc8b593027a16a7c37cc3c3f8c78c1dae33571e",
+            "sv": "Datorns tillförlitlighet och förmåga att klara förhållandena i rymden var det viktigaste.",
+            "en": "The computer's reliability and ability to handle the conditions in space was the most important.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "förmåga att klara förhållandena i rymden"
+              }
+            ],
+            "gloss": "klara = manage, cope with, handle",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Galileo (rymdsond)",
+              "text_url": "https://sv.wikipedia.org/wiki/Galileo_(rymdsond)",
+              "sentence_id": "ef59b221",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "fdcfeeeb905e853572f09a4d5d251275244100a0",
+            "sv": "Hon ställs inför enorma prövningar och visar sig ha förmåga att klara de allra största utmaningarna.",
+            "en": "She faces enormous trials and turns out to have the ability to handle the very biggest challenges.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "förmåga att klara de allra största utmaningarna"
+              }
+            ],
+            "gloss": "klara = manage, cope with, handle",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Anne McCaffrey",
+              "text_url": "https://sv.wikipedia.org/wiki/Anne_McCaffrey",
+              "sentence_id": "2b8444ab",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "6ff046091aac46615418d1271254c7f21bd21735",
+            "sv": "Under 1980-talet diskuterades det om man skulle riva bron då den inte kunde klara tunga transporter.",
+            "en": "During the 1980s it was discussed whether they should tear down the bridge because it could not handle heavy transports.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "klara tunga transporter"
+              }
+            ],
+            "gloss": "klara = manage, cope with, handle",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Humla socken",
+              "text_url": "https://sv.wikipedia.org/wiki/Humla_socken",
+              "sentence_id": "c0c24e1d",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "4306587cd1194d449ee9494e3af1e9d3e67196a1",
+            "sv": "Planerna skrinlades dock sedan studier visat att läktaren inte skulle klara tyngden.",
+            "en": "The plans were shelved, however, after studies showed that the stand would not handle the weight.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "klara tyngden"
+              }
+            ],
+            "gloss": "klara = manage, cope with, handle",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Shea Stadium",
+              "text_url": "https://sv.wikipedia.org/wiki/Shea_Stadium",
+              "sentence_id": "30ceb8cd",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "a2a4243bcd3437b7400ae4142d5309d1e5c45c8e",
+            "sv": "Bilen fick en betydligt rundare front och motorn uppgraderades för att klara avgaskraven.",
+            "en": "The car got a much rounder front and the engine was upgraded to meet the exhaust requirements.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "klara avgaskraven"
+              }
+            ],
+            "gloss": "klara = manage, cope with, meet (requirements)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ford Escort",
+              "text_url": "https://sv.wikipedia.org/wiki/Ford_Escort",
+              "sentence_id": "57dd86f0",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "4eead0b96533d4bf6464117d8f828a4c5e40cece",
+            "sv": "Space Shuttle hade keramiska beläggningar på undersidan för att klara hettan.",
+            "en": "The Space Shuttle had ceramic coatings on the underside to handle the heat.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "klara hettan"
+              }
+            ],
+            "gloss": "klara = manage, cope with, handle",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Deltavinge",
+              "text_url": "https://sv.wikipedia.org/wiki/Deltavinge",
+              "sentence_id": "8cbf8a1d",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "ce28b5de4275e7813ca81deea38b4572f3f4bc07",
+            "sv": "Dieselpersonbilar måste klara Euro 6 från 1 juli 2022 i miljözoner.",
+            "en": "Diesel passenger cars must meet Euro 6 from 1 July 2022 in environmental zones.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "Euro 6"
+              }
+            ],
+            "gloss": "klara = meet (a standard/requirement)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Miljözon",
+              "text_url": "https://sv.wikipedia.org/wiki/Milj%C3%B6zon",
+              "sentence_id": "0cd59025",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "74aa1e1cd245ed2186f2868dec9178a4d0dee5af",
+            "sv": "Små barn verkar klara sjukdomen bättre än ungdomar och unga vuxna, och deras symtom är lindrigare.",
+            "en": "Small children seem to cope with the disease better than teenagers and young adults, and their symptoms are milder.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Små barn"
+              },
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "klara sjukdomen"
+              }
+            ],
+            "gloss": "klara = cope with, get through",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mykoplasmapneumoni",
+              "text_url": "https://sv.wikipedia.org/wiki/Mykoplasmapneumoni",
+              "sentence_id": "70bd779c",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "0cc5a710548e8e037c0a980f7625c138e17dbc9c",
+            "sv": "Om man enbart vill söka licens för hagelvapen så räcker det att klara det teoretiska provet och hagelgevärsprovet.",
+            "en": "If you only want to apply for a license for shotguns, it is enough to pass the theory test and the shotgun test.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "det teoretiska provet"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "hagelgevärsprovet"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "licens för hagelvapen"
+              }
+            ],
+            "gloss": "klara = pass (a test/exam)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jägarexamen",
+              "text_url": "https://sv.wikipedia.org/wiki/J%C3%A4garexamen",
+              "sentence_id": "efa65359",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "36017e27eaa10cf0c75577a06f27b142aeebc3db",
+            "sv": "Spelläget går ut på att klara ett antal banor för att få pengar och tillgång till nästa bana.",
+            "en": "The game mode is about completing a number of levels to get money and access to the next level.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "ett antal banor"
+              }
+            ],
+            "gloss": "klara = complete, get through",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tony Hawk's Pro Skater 2",
+              "text_url": "https://sv.wikipedia.org/wiki/Tony_Hawk%27s_Pro_Skater_2",
+              "sentence_id": "44ad522e",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈklɑːra",
+      "stress_hint": "Stress is on the first syllable: KLA-ra."
+    },
+    "morphology": {
+      "principal_parts": [
+        "klara",
+        "klarar",
+        "klarade",
+        "klarat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

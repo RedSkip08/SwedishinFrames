@@ -1,0 +1,472 @@
+{
+  "lexical_unit": {
+    "id": "lu_bürste_die",
+    "source_de": {
+      "lu_de_raw": "Bürste, die",
+      "lu_de_normalized": "Bürste, die",
+      "gender_variants_de": [],
+      "pos_de": "unknown"
+    },
+    "lu_type": "single",
+    "lemma_sv": "borste",
+    "display_sv": "borste",
+    "name_sv": "borste",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "en borste",
+      "borsten",
+      "borstar",
+      "borstarna"
+    ],
+    "english_equivalent_en": "brush",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "borste",
+        "def_sg": "borsten",
+        "indef_pl": "borstar",
+        "def_pl": "borstarna",
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "tandborste",
+        "type_en": "noun",
+        "meaning_en": "toothbrush"
+      },
+      {
+        "word": "hårborste",
+        "type_en": "noun",
+        "meaning_en": "hairbrush"
+      },
+      {
+        "word": "stålborste",
+        "type_en": "noun",
+        "meaning_en": "steel brush (for scraping/cleaning)"
+      },
+      {
+        "word": "badborste",
+        "type_en": "noun",
+        "meaning_en": "bath brush"
+      },
+      {
+        "word": "mellanrumsborste",
+        "type_en": "noun",
+        "meaning_en": "interdental brush"
+      },
+      {
+        "word": "rakborste",
+        "type_en": "noun",
+        "meaning_en": "shaving brush"
+      }
+    ],
+    "synonyms_sv": [
+      "pensel",
+      "borstredskap"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_bürste_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_bürste_die:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "a tool with bristles used for cleaning or grooming hair/skin, or for applying products",
+        "how_to_use_en": [
+          "Use it for cleaning (rengöring) or personal care (hårvård/tvagning).",
+          "Often appears in compounds that name the type of brush (e.g., badborste).",
+          "Can also be used in comparisons: something looks “like a brush”."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "en borste",
+            "meaning_en": "a brush (as a tool)",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "med en borste",
+            "meaning_en": "using a brush",
+            "note_en": "Often used to describe how cleaning is done."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "X är en borste som används för att + infinitiv",
+            "meaning_en": "X is a brush used to do something",
+            "note_en": "Common in explanations/definitions of different brush types."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "används för att rengöra + plats/kroppsdel",
+            "meaning_en": "used to clean a place/body part",
+            "note_en": "Often with compounds like mellanrumsborste."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "som en borste",
+            "meaning_en": "like a brush",
+            "note_en": "Used for comparisons of shape/appearance."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *borste* when you mean a paint brush.",
+            "fix": "Use pensel for painting; use borste for cleaning/grooming brushes.",
+            "explain_en": "In everyday Swedish, pensel is the normal word for a paintbrush."
+          },
+          {
+            "error": "Forgetting the plural form.",
+            "fix": "Plural is borstar (not *borstes*).",
+            "explain_en": "This noun changes vowel in the plural: borste → borstar."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "dff2187cf3fb385558d35b7d81478bb99dd1e162",
+            "sv": "En borste är ett redskap som används huvudsakligen för rengöring eller hårvård.",
+            "en": "A brush is a tool that is used mainly for cleaning or hair care.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "En borste"
+              }
+            ],
+            "gloss": "borste",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Borste",
+              "text_url": "https://sv.wikipedia.org/wiki/Borste",
+              "sentence_id": "46b17f70",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borste\"]"
+            }
+          },
+          {
+            "ex_id": "a8174bb6bef899c451b52492aed7c50ec8d22ce1",
+            "sv": "Många gånger fick man också sitta på knä med en borste och trasa och rengöra.",
+            "en": "Many times you also had to kneel with a brush and a cloth and clean.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "en borste"
+              }
+            ],
+            "gloss": "borste",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Städning",
+              "text_url": "https://sv.wikipedia.org/wiki/St%C3%A4dning",
+              "sentence_id": "0781475a",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borste\"]"
+            }
+          },
+          {
+            "ex_id": "76c4d25d97f53beef23059b5b593ba0318bac853",
+            "sv": "Mellanrumsborste är en borste som används för att rengöra mellan tänderna.",
+            "en": "An interdental brush is a brush that is used to clean between the teeth.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "Mellanrumsborste"
+              },
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "tänderna"
+              }
+            ],
+            "gloss": "borste",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mellanrumsborste",
+              "text_url": "https://sv.wikipedia.org/wiki/Mellanrumsborste",
+              "sentence_id": "6377889a",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borste\"]"
+            }
+          },
+          {
+            "ex_id": "668423b055ec3e648cdca9b2103cb58df410d73f",
+            "sv": "En badborste är en borste som används för tvagning av människokroppen i samband med bad och dusch.",
+            "en": "A bath brush is a brush that is used for washing the human body in connection with bath and shower.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "En badborste"
+              },
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "människokroppen"
+              }
+            ],
+            "gloss": "borste",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Badborste",
+              "text_url": "https://sv.wikipedia.org/wiki/Badborste",
+              "sentence_id": "39084708",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borste\"]"
+            }
+          },
+          {
+            "ex_id": "d2d4fe921df860c39678d7f6237fe948d282fd6e",
+            "sv": "En rakborste är en borste som man använder för att applicera raktvål eller rakkräm på huden inför rakning.",
+            "en": "A shaving brush is a brush that you use to apply shaving soap or shaving cream on the skin before shaving.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "En rakborste"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "raktvål eller rakkräm"
+              },
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "huden"
+              }
+            ],
+            "gloss": "borste",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Rakborste",
+              "text_url": "https://sv.wikipedia.org/wiki/Rakborste",
+              "sentence_id": "7162386a",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borste\"]"
+            }
+          },
+          {
+            "ex_id": "7e8cf5db936157570b2528c793afb161be3b1460",
+            "sv": "En tjock, tät borste med mycket borst ger fylliga, tjocka fransar.",
+            "en": "A thick, dense brush with a lot of bristles gives full, thick eyelashes.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "En tjock, tät borste"
+              },
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "fransar"
+              }
+            ],
+            "gloss": "borste",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mascara",
+              "text_url": "https://sv.wikipedia.org/wiki/Mascara",
+              "sentence_id": "4098354d",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borste\"]"
+            }
+          },
+          {
+            "ex_id": "e66fc283169454884b794b3104e48f716d20e8ee",
+            "sv": "Puder appliceras med borste, bomullstussar eller en platt skumgummiapplikator som oftast följer med förpackningar av pressat puder.",
+            "en": "Powder is applied with a brush, cotton pads, or a flat foam applicator that most often comes with packages of pressed powder.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "borste"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "Puder"
+              }
+            ],
+            "gloss": "borste",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Puder",
+              "text_url": "https://sv.wikipedia.org/wiki/Puder",
+              "sentence_id": "f5ef3c24",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borste\"]"
+            }
+          },
+          {
+            "ex_id": "1639d16ea8ac4aa0ef51f48c0195c7a0b8aa55b1",
+            "sv": "Borsta bort rost med en borste, alternativt stålborste, beroende på graden av rostangrepp",
+            "en": "Brush away rust with a brush, or a steel brush, depending on the degree of rust attack.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "en borste"
+              }
+            ],
+            "gloss": "borste",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ugnssvärta",
+              "text_url": "https://sv.wikipedia.org/wiki/Ugnssv%C3%A4rta",
+              "sentence_id": "a7d67976",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borste\"]"
+            }
+          },
+          {
+            "ex_id": "76e1acb8cc3d019501c10586a423baa65d805a59",
+            "sv": "När fågeln är skrämd, spretar tofsen utåt, som en borste.",
+            "en": "When the bird is scared, the tuft sticks outwards, like a brush.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "en borste"
+              }
+            ],
+            "gloss": "borste",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Blåskrika",
+              "text_url": "https://sv.wikipedia.org/wiki/Bl%C3%A5skrika",
+              "sentence_id": "0bba668c",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borste\"]"
+            }
+          },
+          {
+            "ex_id": "2d0e405380fcf77aee90d2342fc29e17604266a5",
+            "sv": "Choeronycteris mexicana har en lång tunga med papiller på spetsen som liknar en borste.",
+            "en": "Choeronycteris mexicana has a long tongue with papillae on the tip that look like a brush.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "en borste"
+              }
+            ],
+            "gloss": "borste",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Choeronycteris mexicana",
+              "text_url": "https://sv.wikipedia.org/wiki/Choeronycteris_mexicana",
+              "sentence_id": "6cfa7964",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borste\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈbɔr.stɛ",
+      "stress_hint": "Stress on the first syllable: BOR-ste.",
+      "audio": {
+        "file": "audio/lu_bürste_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "borste",
+        "borsten",
+        "borstar",
+        "borstarna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

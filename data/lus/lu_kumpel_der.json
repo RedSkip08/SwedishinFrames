@@ -19,7 +19,7 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "en kompis",
+      "kompis",
       "kompisen",
       "kompisar",
       "kompisarna"
@@ -28,7 +28,7 @@
     "morphology_sv": {
       "noun": {
         "gender": "en",
-        "indef_sg": "en kompis",
+        "indef_sg": "kompis",
         "def_sg": "kompisen",
         "indef_pl": "kompisar",
         "def_pl": "kompisarna",
@@ -60,14 +60,14 @@
         "meaning_en": "friends (plural of kompis)"
       },
       {
-        "word": "kompisrelation",
-        "type_en": "noun",
-        "meaning_en": "friendship relation"
-      },
-      {
         "word": "kompisgäng",
         "type_en": "noun",
         "meaning_en": "group of friends"
+      },
+      {
+        "word": "kompisrelation",
+        "type_en": "noun",
+        "meaning_en": "friendship relation"
       },
       {
         "word": "kompispris",
@@ -78,71 +78,70 @@
     "synonyms_sv": [
       "vän",
       "polare",
-      "kamrat",
-      "kompanjon"
+      "kamrat"
     ],
     "antonyms_sv": [
       "fiende"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_friendship",
+        "frame_name_en": "Friendship",
+        "frame_slug": "friendship",
         "sense_id": "lu_kumpel_der:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_kumpel_der:1",
-        "frame_id": "frame_personal_relationship",
-        "meaning_en": "a friend; someone you know well and like",
+        "frame_id": "frame_friendship",
+        "meaning_en": "a person you know well and like, not a family member",
         "how_to_use_en": [
-          "Use for a friendly relationship (often informal).",
-          "Often used with a possessive: min/sin/hans/hennes kompis + name.",
-          "Can be used after adjectives: en bra kompis."
+          "Use for a friend in everyday, informal Swedish.",
+          "Often used with a possessive: hans/hennes/sin kompis + name.",
+          "Also used in the expression bli kompis (med) = become friends (with)."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "en kompis",
             "meaning_en": "a friend",
-            "note_en": ""
+            "note_en": "Indefinite singular, often when introducing someone."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "sin/hans/hennes kompis + Namn",
+            "pattern": "hans/hennes/sin kompis + Namn",
             "meaning_en": "someone’s friend (named)",
-            "note_en": "Used to introduce or identify the friend."
+            "note_en": "Used to identify a friend: e.g., hans kompis Pontus."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "få en kompis",
-            "meaning_en": "get a friend",
-            "note_en": ""
+            "pattern": "av/från sin kompis + Namn",
+            "meaning_en": "from one’s friend",
+            "note_en": "Common with verbs like få reda på (find out)."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "vara en (väldigt) bra kompis",
-            "meaning_en": "be a (very) good friend",
-            "note_en": ""
+            "pattern": "mot en kompis",
+            "meaning_en": "against a friend",
+            "note_en": "Often in games or competitions."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "mot en kompis",
-            "meaning_en": "against a friend",
-            "note_en": "Common in games and sports contexts."
+            "pattern": "bli kompis (med) + person",
+            "meaning_en": "become friends (with)",
+            "note_en": "Fixed expression meaning to start a friendship."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using kompis for a romantic partner.",
-            "fix": "Use partner/flickvän/pojkvän (as appropriate) for romantic relationships.",
-            "explain_en": "Kompis normally means a friend, not a boyfriend/girlfriend."
+            "error": "Using kompis for a romantic partner in neutral contexts.",
+            "fix": "Use partner, pojkvän/flickvän, or make the relationship clear.",
+            "explain_en": "Kompis normally means a friend; it does not usually imply a romantic relationship."
           },
           {
-            "error": "Forgetting the plural ending: *kompis (plural).",
-            "fix": "Use kompisar for plural.",
+            "error": "Forgetting the plural ending: *två kompis.",
+            "fix": "Say två kompisar.",
             "explain_en": "The common plural is kompisar."
           }
         ],
@@ -152,15 +151,15 @@
             "ex_id": "270c39dd7eaddd2a20bf41976d423a8ed4d51fda",
             "sv": "Lundin trodde dock att det var en kompis som skojade och lade på telefonen.",
             "en": "However, Lundin thought it was a friend who was joking and hung up the phone.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_friend_2",
                 "span_sv": "en kompis"
               }
             ],
-            "gloss": "friend",
-            "level": "B1",
+            "gloss": "kompis = friend",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -170,7 +169,37 @@
               "text_title": "Pål Lundin",
               "text_url": "https://sv.wikipedia.org/wiki/P%C3%A5l_Lundin",
               "sentence_id": "3d15ef46",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
+              "korp_query": "[word=\"kompis\"]"
+            }
+          },
+          {
+            "ex_id": "7c9cea793b382b98ba1d220978b20a4eba7477b6",
+            "sv": "Rasmus och hans kompis Pontus drygar ut veckopengen genom att samla skrot.",
+            "en": "Rasmus and his friend Pontus add to their weekly allowance by collecting scrap.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "Rasmus"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "hans kompis Pontus"
+              }
+            ],
+            "gloss": "kompis = friend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Rasmus, Pontus och Toker",
+              "text_url": "https://sv.wikipedia.org/wiki/Rasmus,_Pontus_och_Toker",
+              "sentence_id": "2ff330a1",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
               "korp_query": "[word=\"kompis\"]"
             }
           },
@@ -178,14 +207,14 @@
             "ex_id": "69a3843f89d827bc2218edac26757bcfd817117a",
             "sv": "Av sin kompis Elena får hon reda på en hemsk hemlighet.",
             "en": "From her friend Elena she finds out a terrible secret.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_friend_2",
                 "span_sv": "sin kompis Elena"
               }
             ],
-            "gloss": "friend",
+            "gloss": "kompis = friend",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -196,141 +225,7 @@
               "text_title": "Stella och hemligheten",
               "text_url": "https://sv.wikipedia.org/wiki/Stella_och_hemligheten",
               "sentence_id": "4956fbcf",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"kompis\"]"
-            }
-          },
-          {
-            "ex_id": "70863a2d4bfd5c6ec1579be38eff501b170cecfd",
-            "sv": "Ensamvargen Seth Cohen får för första gången i sitt liv en kompis.",
-            "en": "The loner Seth Cohen gets a friend for the first time in his life.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Seth Cohen"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "en kompis"
-              }
-            ],
-            "gloss": "friend",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "OC",
-              "text_url": "https://sv.wikipedia.org/wiki/OC",
-              "sentence_id": "3242ffbb",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"kompis\"]"
-            }
-          },
-          {
-            "ex_id": "7c9cea793b382b98ba1d220978b20a4eba7477b6",
-            "sv": "Rasmus och hans kompis Pontus drygar ut veckopengen genom att samla skrot.",
-            "en": "Rasmus and his friend Pontus add to their pocket money by collecting scrap.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "Rasmus och hans kompis Pontus"
-              }
-            ],
-            "gloss": "friend",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Rasmus, Pontus och Toker",
-              "text_url": "https://sv.wikipedia.org/wiki/Rasmus,_Pontus_och_Toker",
-              "sentence_id": "2ff330a1",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"kompis\"]"
-            }
-          },
-          {
-            "ex_id": "7ee3779377d1be1c6f435b90c91ba1b2540da7ab",
-            "sv": "Numera är han plikttrogen glasmästarlärling och är en väldigt bra kompis.",
-            "en": "Nowadays he is a dutiful glazier apprentice and is a very good friend.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "en väldigt bra kompis"
-              }
-            ],
-            "gloss": "friend",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Hondagänget",
-              "text_url": "https://sv.wikipedia.org/wiki/Hondag%C3%A4nget",
-              "sentence_id": "8d63e6b3",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"kompis\"]"
-            }
-          },
-          {
-            "ex_id": "7f5351d72d44e86077963feb3eebc6c9d6ba143d",
-            "sv": "Böckerna handlar om Josefin, som är 8 år och hennes kompis Villa-Ulla.",
-            "en": "The books are about Josefin, who is 8 years old, and her friend Villa-Ulla.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "Josefin, som är 8 år och hennes kompis Villa-Ulla"
-              }
-            ],
-            "gloss": "friend",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Josefin och Villa-Ulla",
-              "text_url": "https://sv.wikipedia.org/wiki/Josefin_och_Villa-Ulla",
-              "sentence_id": "df2f0458",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"kompis\"]"
-            }
-          },
-          {
-            "ex_id": "76f0dd9c8fa6681637f13930797dc5d1ba53f182",
-            "sv": "Hans kompis Noa försöker få honom att må bättre och gör mycket för honom.",
-            "en": "His friend Noa tries to make him feel better and does a lot for him.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Hans kompis Noa"
-              }
-            ],
-            "gloss": "friend",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Kiba",
-              "text_url": "https://sv.wikipedia.org/wiki/Kiba",
-              "sentence_id": "1b984066",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
               "korp_query": "[word=\"kompis\"]"
             }
           },
@@ -338,14 +233,18 @@
             "ex_id": "e05fd748dc953f534be0f600e721584f89344b79",
             "sv": "Där bor också hans kompis Anita och djur som Giorgio fångat själv.",
             "en": "His friend Anita also lives there, and animals that Giorgio has caught himself.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_friend_2",
                 "span_sv": "hans kompis Anita"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "Där"
               }
             ],
-            "gloss": "friend",
+            "gloss": "kompis = friend",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -356,7 +255,93 @@
               "text_title": "Sotarpojken",
               "text_url": "https://sv.wikipedia.org/wiki/Sotarpojken",
               "sentence_id": "513ba09e",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
+              "korp_query": "[word=\"kompis\"]"
+            }
+          },
+          {
+            "ex_id": "bb7aca9b6855467e2f77424fafb54f8d0acd22e2",
+            "sv": "Ida delar skåp med Lill-Erik, och även hennes kompis Mona röker.",
+            "en": "Ida shares a locker with Lill-Erik, and her friend Mona also smokes.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "Ida"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "hennes kompis Mona"
+              }
+            ],
+            "gloss": "kompis = friend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Berts ytterligare betraktelser",
+              "text_url": "https://sv.wikipedia.org/wiki/Berts_ytterligare_betraktelser",
+              "sentence_id": "028d8616",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
+              "korp_query": "[word=\"kompis\"]"
+            }
+          },
+          {
+            "ex_id": "70863a2d4bfd5c6ec1579be38eff501b170cecfd",
+            "sv": "Ensamvargen Seth Cohen får för första gången i sitt liv en kompis.",
+            "en": "The loner Seth Cohen gets a friend for the first time in his life.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "Seth Cohen"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "en kompis"
+              }
+            ],
+            "gloss": "kompis = friend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "OC",
+              "text_url": "https://sv.wikipedia.org/wiki/OC",
+              "sentence_id": "3242ffbb",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
+              "korp_query": "[word=\"kompis\"]"
+            }
+          },
+          {
+            "ex_id": "76f0dd9c8fa6681637f13930797dc5d1ba53f182",
+            "sv": "Hans kompis Noa försöker få honom att må bättre och gör mycket för honom.",
+            "en": "His friend Noa tries to make him feel better and does a lot for him.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "Hans kompis Noa"
+              }
+            ],
+            "gloss": "kompis = friend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kiba",
+              "text_url": "https://sv.wikipedia.org/wiki/Kiba",
+              "sentence_id": "1b984066",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
               "korp_query": "[word=\"kompis\"]"
             }
           },
@@ -364,18 +349,18 @@
             "ex_id": "fbe5de5c2f07f7e43651c008a26b67216b4a24c1",
             "sv": "Barry äger en taxi i kompanjonskap med sin kompis Kirk som kör nattskiftet.",
             "en": "Barry owns a taxi in partnership with his friend Kirk who drives the night shift.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_friend_1",
                 "span_sv": "Barry"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_friend_2",
                 "span_sv": "sin kompis Kirk"
               }
             ],
-            "gloss": "friend",
+            "gloss": "kompis = friend",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -386,7 +371,7 @@
               "text_title": "Carrie & Barry",
               "text_url": "https://sv.wikipedia.org/wiki/Carrie_%26_Barry",
               "sentence_id": "0f19f654",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
               "korp_query": "[word=\"kompis\"]"
             }
           },
@@ -394,14 +379,14 @@
             "ex_id": "a3eb5c02e4c5a161620e19ae32f77d3361ad5370",
             "sv": "Man kan spela ensam mot datorn, eller mot en kompis.",
             "en": "You can play alone against the computer, or against a friend.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_friendship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_friend_2",
                 "span_sv": "en kompis"
               }
             ],
-            "gloss": "friend",
+            "gloss": "kompis = friend",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -412,7 +397,45 @@
               "text_title": "Goal! (datorspel)",
               "text_url": "https://sv.wikipedia.org/wiki/Goal!_(datorspel)",
               "sentence_id": "9854f46f",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
+              "korp_query": "[word=\"kompis\"]"
+            }
+          },
+          {
+            "ex_id": "27764977233e06c86014c4dd7bed7c697505936f",
+            "sv": "Dök upp 1965 då han blev kompis med Karl på ett sommarkollo.",
+            "en": "Appeared in 1965 when he became friends with Karl at a summer camp.",
+            "frame_id": "frame_friendship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1965"
+              },
+              {
+                "fe_id": "fe_friend_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_friend_2",
+                "span_sv": "Karl"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "på ett sommarkollo"
+              }
+            ],
+            "gloss": "bli kompis (med) = become friends (with)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Snobben",
+              "text_url": "https://sv.wikipedia.org/wiki/Snobben",
+              "sentence_id": "d4a90be7",
+              "retrieved_at": "2026-01-20T08:07:44+00:00",
               "korp_query": "[word=\"kompis\"]"
             }
           }
@@ -420,8 +443,8 @@
       }
     ],
     "pronunciation": {
-      "ipa": "kɔmˈpɪs",
-      "stress_hint": "Stress is usually on the second syllable: kom-PIS.",
+      "ipa": "ˈkɔm.pɪs",
+      "stress_hint": "Stress on the first syllable: KOM-pis.",
       "audio": {
         "file": "audio/lu_kumpel_der.mp3",
         "model": "gpt-4o-mini-tts",
@@ -431,10 +454,7 @@
     },
     "morphology": {
       "principal_parts": [
-        "en kompis",
-        "kompisen",
-        "kompisar",
-        "kompisarna"
+        "kompis – kompisen – kompisar – kompisarna"
       ],
       "particle_or_reflexive": null
     }

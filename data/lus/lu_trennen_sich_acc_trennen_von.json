@@ -7,26 +7,24 @@
       "gender_variants_de": [],
       "pos_de": "verb"
     },
-    "lu_type": "multiword",
-    "lemma_sv": "göra slut",
-    "display_sv": "göra slut",
-    "name_sv": "göra slut",
-    "pos": "multiword",
-    "cefr": "A2",
+    "lu_type": "single",
+    "lemma_sv": "separera",
+    "display_sv": "separera",
+    "name_sv": "separera",
+    "pos": "verb",
+    "cefr": "B1",
     "multiword": {
-      "mwe_type": "fixed_phrase",
-      "components_sv": [
-        "göra",
-        "slut"
-      ],
-      "spacing_notes_en": "Written as two words: göra slut."
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
     },
     "forms": [
-      "göra slut",
-      "göra slut med",
-      "göra slut på"
+      "separera",
+      "separerar",
+      "separerade",
+      "separerat"
     ],
-    "english_equivalent_en": "break up",
+    "english_equivalent_en": "separate",
     "morphology_sv": {
       "noun": {
         "gender": null,
@@ -37,13 +35,13 @@
         "note_en": ""
       },
       "verb": {
-        "infinitive": null,
-        "present": null,
-        "past": null,
-        "supine": null,
-        "imperative": null,
-        "present_participle": null,
-        "past_participle": null,
+        "infinitive": "separera",
+        "present": "separerar",
+        "past": "separerade",
+        "supine": "separerat",
+        "imperative": "separera",
+        "present_participle": "separerande",
+        "past_participle": "separerad",
         "alternatives": []
       },
       "adjective": {
@@ -53,117 +51,116 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "Multiword expression: göra slut is used like a verb phrase; common extension is göra slut med + person."
+      "note_en": ""
     },
     "derived_words_sv": [
       {
-        "word": "göra slut med",
-        "type_en": "other",
-        "meaning_en": "break up with someone"
-      },
-      {
-        "word": "göra slut på",
-        "type_en": "other",
-        "meaning_en": "end (something), e.g. a relationship"
-      },
-      {
-        "word": "slut",
+        "word": "separation",
         "type_en": "noun",
-        "meaning_en": "end; finish"
+        "meaning_en": "a separation; the act/process of separating"
       },
       {
-        "word": "relation",
+        "word": "separator",
         "type_en": "noun",
-        "meaning_en": "relationship"
+        "meaning_en": "a device that separates (e.g., cream from milk)"
+      },
+      {
+        "word": "separerad",
+        "type_en": "adjective",
+        "meaning_en": "separated; kept apart"
+      },
+      {
+        "word": "separerbar",
+        "type_en": "adjective",
+        "meaning_en": "separable; possible to separate"
       }
     ],
     "synonyms_sv": [
-      "göra slut med",
-      "separera",
-      "gå skilda vägar",
-      "avsluta relationen",
-      "bryta upp"
+      "skilja",
+      "åtskilja",
+      "dela upp",
+      "avskilja"
     ],
     "antonyms_sv": [
-      "bli tillsammans",
-      "försonas"
+      "förena",
+      "sammanföra"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_marriage",
+        "frame_name_en": "Marriage",
+        "frame_slug": "marriage",
         "sense_id": "lu_trennen_sich_acc_trennen_von:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_trennen_sich_acc_trennen_von:1",
-        "frame_id": "frame_personal_relationship",
-        "meaning_en": "end a romantic relationship; stop being a couple.",
+        "frame_id": "frame_marriage",
+        "meaning_en": "to keep things or groups apart, or divide them into different parts",
         "how_to_use_en": [
-          "Use about partners deciding to end a relationship.",
-          "Often with med + person: göra slut med någon.",
-          "Can also be used without an object: de kommer att göra slut."
+          "Use it for dividing or keeping things apart (sections, groups, substances).",
+          "Often used with “från” to show what is separated from what.",
+          "Common in technical and formal writing."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "X vill/kommer att göra slut",
-            "meaning_en": "X plans to break up",
-            "note_en": "Often used when the other person is not mentioned."
+            "pattern": "separera X (och) Y",
+            "meaning_en": "separate two things/groups",
+            "note_en": "Often about dividing into two independent parts."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "X gör slut med Y",
-            "meaning_en": "X breaks up with Y",
-            "note_en": "Y is the partner being left."
+            "pattern": "separera X från Y",
+            "meaning_en": "separate X from Y",
+            "note_en": "Very common when one thing is removed/kept apart from another."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "X försöker göra slut med Y",
-            "meaning_en": "X tries to break up with Y",
-            "note_en": ""
+            "pattern": "separera X från Y (av/av ... skäl)",
+            "meaning_en": "separate for a reason",
+            "note_en": "The reason can be stated, e.g. safety or hygiene."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "X bestämmer sig för att göra slut (på deras relation)",
-            "meaning_en": "X decides to end the relationship",
-            "note_en": "You can add på + relationship phrase to be explicit."
+            "pattern": "användas för att separera X",
+            "meaning_en": "be used to separate",
+            "note_en": "Common in descriptions of tools, signs, or methods."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "X oroar sig för att Y kommer att göra slut med X",
-            "meaning_en": "X fears Y will break up",
-            "note_en": ""
+            "pattern": "vilja separera X igen",
+            "meaning_en": "want to separate again",
+            "note_en": "Used when something was mixed/combined and is separated again."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *göra slut* for finishing a task (e.g. homework).",
-            "fix": "Use bli klar (med) / göra färdigt for tasks.",
-            "explain_en": "göra slut is mainly for ending a romantic relationship in these examples."
+            "error": "Using *separera* without saying what is separated from what in contexts where it matters.",
+            "fix": "Add “X från Y” when needed.",
+            "explain_en": "Many uses specify two sides: what is separated and what it is separated from."
           },
           {
-            "error": "Saying *göra slut till någon*.",
-            "fix": "Say göra slut med någon.",
-            "explain_en": "The person you leave is introduced with med."
+            "error": "Confusing *separera* with *separat* (adjective/adverb).",
+            "fix": "Use *separera* for the action; *separat* for “separate/individually”.",
+            "explain_en": "*Separera* is a verb meaning “to separate”; *separat* describes how something is."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "8ac3b6b31fb9d4866dee68873603c6f5e6ed362d",
-            "sv": "Han vill göra slut men vet inte hur han ska gå till väga.",
-            "en": "He wants to break up but does not know how to go about it.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "84edade09a6425866fa8b782e24a066448c11d23",
+            "sv": "Tecknet används för att märka ut eller separera avdelningar i en bok.",
+            "en": "The sign is used to mark or separate sections in a book.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Han"
+                "fe_id": "fe_event",
+                "span_sv": "separera"
               }
             ],
-            "gloss": "break up (end a romantic relationship)",
+            "gloss": "separate",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -171,119 +168,29 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Mañana",
-              "text_url": "https://sv.wikipedia.org/wiki/Ma%C3%B1ana",
-              "sentence_id": "be5c141b",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+              "text_title": "Asterism (typografi)",
+              "text_url": "https://sv.wikipedia.org/wiki/Asterism_(typografi)",
+              "sentence_id": "60448d6a",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"separera\"]"
             }
           },
           {
-            "ex_id": "7c192f0dfffcad496b2986f2a8b339ba80862336",
-            "sv": "Han oroar sig för att hon kommer att göra slut med honom.",
-            "en": "He worries that she will break up with him.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "d03705ffcc02b8ac7523510e94b20bdfe9feb4c7",
+            "sv": "Ofta är det trafiksäkerhetsskäl då man vill separera oskyddade trafikanter från biltrafiken.",
+            "en": "Often it is traffic safety reasons when you want to separate unprotected road users from car traffic.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "hon"
+                "fe_id": "fe_event",
+                "span_sv": "separera"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "honom"
+                "fe_id": "fe_reason",
+                "span_sv": "trafiksäkerhetsskäl"
               }
             ],
-            "gloss": "break up with (someone)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Life Among the Gorillas",
-              "text_url": "https://sv.wikipedia.org/wiki/Life_Among_the_Gorillas",
-              "sentence_id": "2a4d57a8",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"göra\"][word=\"slut\"]"
-            }
-          },
-          {
-            "ex_id": "0662d38bd3ac1ccd48990a7a124672ca28a40e49",
-            "sv": "Han försöker vid flera tillfällen göra slut med Horuss, men lyckas aldrig.",
-            "en": "He tries several times to break up with Horuss, but never succeeds.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Han"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Horuss"
-              }
-            ],
-            "gloss": "break up with (someone)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Homestuck",
-              "text_url": "https://sv.wikipedia.org/wiki/Homestuck",
-              "sentence_id": "fe9aa3b5",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"göra\"][word=\"slut\"]"
-            }
-          },
-          {
-            "ex_id": "e986036200108034d12afade03cf17658dbec55c",
-            "sv": "Han inser att det inte finns något bra sätt att göra slut med någon.",
-            "en": "He realizes that there is no good way to break up with someone.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Han"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "någon"
-              }
-            ],
-            "gloss": "break up with (someone)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Return of the Shirt",
-              "text_url": "https://sv.wikipedia.org/wiki/Return_of_the_Shirt",
-              "sentence_id": "95a550fa",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"göra\"][word=\"slut\"]"
-            }
-          },
-          {
-            "ex_id": "f579f2e79850c35fa131cff5abe3dd70c5507b81",
-            "sv": "Vid ett nattklubbsbesök försöker han övertala henne att göra slut med Erik.",
-            "en": "During a nightclub visit he tries to persuade her to break up with Erik.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "henne"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Erik"
-              }
-            ],
-            "gloss": "break up with (someone)",
+            "gloss": "separate",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -291,29 +198,81 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Landskamp (film)",
-              "text_url": "https://sv.wikipedia.org/wiki/Landskamp_(film)",
-              "sentence_id": "81477429",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+              "text_title": "Cykelvägar i Sverige",
+              "text_url": "https://sv.wikipedia.org/wiki/Cykelv%C3%A4gar_i_Sverige",
+              "sentence_id": "2460b213",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"separera\"]"
             }
           },
           {
-            "ex_id": "426965c4ae143e3fe1d66bd641efd6c028834fdf",
-            "sv": "Bart känner sig utanför och bestämmer sig för att göra slut på deras relation.",
-            "en": "Bart feels left out and decides to end their relationship.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "a52e97f68704054ff401282d5f25897f2f9128a2",
+            "sv": "Detta undveks genom att separera klubbarna och spela som två självständiga lag.",
+            "en": "This was avoided by separating the clubs and playing as two independent teams.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Bart"
+                "fe_id": "fe_event",
+                "span_sv": "separera"
+              }
+            ],
+            "gloss": "separate",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Málaga CF",
+              "text_url": "https://sv.wikipedia.org/wiki/M%C3%A1laga_CF",
+              "sentence_id": "4d8e54c4",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          },
+          {
+            "ex_id": "a715ba2f1ae4ee89f5495d6230039dc1fbc0459f",
+            "sv": "Det är därför inte gynnsamt att separera friska barn från modern.",
+            "en": "Therefore it is not good to separate healthy children from the mother.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_event",
+                "span_sv": "separera"
+              }
+            ],
+            "gloss": "separate",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Covid-19",
+              "text_url": "https://sv.wikipedia.org/wiki/Covid-19",
+              "sentence_id": "f00cf096",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          },
+          {
+            "ex_id": "0bcebc343f4e61c4eb640630110786a3a7a13417",
+            "sv": "Av hygieniska skäl var det dock bättre att separera bostadshus och fähus.",
+            "en": "For hygienic reasons, however, it was better to separate the dwelling house and the cowshed.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_event",
+                "span_sv": "separera"
               },
               {
-                "fe_id": "fe_partners",
-                "span_sv": "deras"
+                "fe_id": "fe_reason",
+                "span_sv": "Av hygieniska skäl"
               }
             ],
-            "gloss": "end (a relationship); break up",
+            "gloss": "separate",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -321,77 +280,25 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Bart's Friend Falls in Love",
-              "text_url": "https://sv.wikipedia.org/wiki/Bart%27s_Friend_Falls_in_Love",
-              "sentence_id": "4beb4057",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+              "text_title": "Hus",
+              "text_url": "https://sv.wikipedia.org/wiki/Hus",
+              "sentence_id": "a132970e",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"separera\"]"
             }
           },
           {
-            "ex_id": "56fce8eeb48a8315a8cd8911b37694c5a64b93d7",
-            "sv": "Edna och Seymour berättar för Bart att de kommer att göra slut.",
-            "en": "Edna and Seymour tell Bart that they are going to break up.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "9145aec2f61c92ed9ff5801e5e0b8a65a4a7b2ac",
+            "sv": "Om man vill separera vätskorna igen, så måste man tillföra energi.",
+            "en": "If you want to separate the liquids again, then you must add energy.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "Edna och Seymour"
+                "fe_id": "fe_event",
+                "span_sv": "separera"
               }
             ],
-            "gloss": "break up (as a couple)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Grade School Confidential",
-              "text_url": "https://sv.wikipedia.org/wiki/Grade_School_Confidential",
-              "sentence_id": "c202550d",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"göra\"][word=\"slut\"]"
-            }
-          },
-          {
-            "ex_id": "ac91b3b2bbb1771d0650241d280536e5452bc351",
-            "sv": "Men precis innan familjerna ska åka så väljer Sophie att göra slut.",
-            "en": "But just before the families are going to leave, Sophie chooses to break up.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Sophie"
-              }
-            ],
-            "gloss": "break up (end a relationship)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Sune – Uppdrag midsommar",
-              "text_url": "https://sv.wikipedia.org/wiki/Sune_%E2%80%93_Uppdrag_midsommar",
-              "sentence_id": "5ccb5896",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"göra\"][word=\"slut\"]"
-            }
-          },
-          {
-            "ex_id": "0e12ede2120a692d2d20ee8d4ba1559c7e6b930b",
-            "sv": "De kommer fram till att de måste göra slut, men tillbringar en sista dag tillsammans.",
-            "en": "They come to the conclusion that they must break up, but spend one last day together.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "De"
-              }
-            ],
-            "gloss": "break up (as a couple)",
+            "gloss": "separate",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -399,25 +306,25 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Cupcake (How I Met Your Mother)",
-              "text_url": "https://sv.wikipedia.org/wiki/Cupcake_(How_I_Met_Your_Mother)",
-              "sentence_id": "9b027013",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+              "text_title": "Saltkraft",
+              "text_url": "https://sv.wikipedia.org/wiki/Saltkraft",
+              "sentence_id": "bd09fa2e",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"separera\"]"
             }
           },
           {
-            "ex_id": "aa8887100c2bfcd08d9b4de2d020e96f7de5c2ad",
-            "sv": "När han skulle flytta för att börja på college visste hon att de skulle göra slut.",
-            "en": "When he was going to move to start college, she knew that they would break up.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "3108ada462a035c5e9108797b943d0ae30e3902a",
+            "sv": "Pedersens första stora succé var en maskin för att separera grädde från mjölk.",
+            "en": "Pedersen's first big success was a machine to separate cream from milk.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "de"
+                "fe_id": "fe_event",
+                "span_sv": "separera"
               }
             ],
-            "gloss": "break up (as a couple)",
+            "gloss": "separate",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -425,19 +332,97 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Tim McGraw (sång)",
-              "text_url": "https://sv.wikipedia.org/wiki/Tim_McGraw_(s%C3%A5ng)",
-              "sentence_id": "3d18f888",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"göra\"][word=\"slut\"]"
+              "text_title": "Dursley-Pedersencykel",
+              "text_url": "https://sv.wikipedia.org/wiki/Dursley-Pedersencykel",
+              "sentence_id": "48bb0959",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          },
+          {
+            "ex_id": "443eb0fb2ba67766614211ab5909fe5fc5cd88e5",
+            "sv": "Aktivt kol används för att avlägsna eller separera ämnen från en vätska eller gas.",
+            "en": "Activated carbon is used to remove or separate substances from a liquid or gas.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_event",
+                "span_sv": "separera"
+              }
+            ],
+            "gloss": "separate",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Aktivt kol",
+              "text_url": "https://sv.wikipedia.org/wiki/Aktivt_kol",
+              "sentence_id": "143de0ab",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          },
+          {
+            "ex_id": "1a18226fb1edca465277cea83282fee84ad0d3ed",
+            "sv": "Till exempel kan bandpassfilter användas för att separera de olika kanalerna.",
+            "en": "For example, band-pass filters can be used to separate the different channels.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_event",
+                "span_sv": "separera"
+              }
+            ],
+            "gloss": "separate",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Våglängdsmultiplexering",
+              "text_url": "https://sv.wikipedia.org/wiki/V%C3%A5gl%C3%A4ngdsmultiplexering",
+              "sentence_id": "5dc5890c",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"separera\"]"
+            }
+          },
+          {
+            "ex_id": "fe6fc770108fe2f4c5e3020c879a300b93718a7e",
+            "sv": "• Gustaf de Laval uppfinner separatorn, som snabbt kan separera grädden från mjölken, och grundar AB Separator.",
+            "en": "Gustaf de Laval invents the separator, which can quickly separate the cream from the milk, and founds AB Separator.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_event",
+                "span_sv": "separera"
+              }
+            ],
+            "gloss": "separate",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "1878",
+              "text_url": "https://sv.wikipedia.org/wiki/1878",
+              "sentence_id": "ed50642e",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"separera\"]"
             }
           }
         ]
       }
     ],
     "pronunciation": {
-      "ipa": "ˈjœːra ˈslʉːt",
-      "stress_hint": "Main stress is on göra and slut.",
+      "ipa": "sɛpaˈreːra",
+      "stress_hint": "Stress is usually on the second part: -re-.",
       "audio": {
         "file": "audio/lu_trennen_sich_acc_trennen_von.mp3",
         "model": "gpt-4o-mini-tts",
@@ -447,7 +432,10 @@
     },
     "morphology": {
       "principal_parts": [
-        "göra slut"
+        "separera",
+        "separerar",
+        "separerade",
+        "separerat"
       ],
       "particle_or_reflexive": null
     }

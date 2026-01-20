@@ -1,0 +1,358 @@
+{
+  "lexical_unit": {
+    "id": "lu_kommilitone_der_kommilitone__die_kommilitonin",
+    "source_de": {
+      "lu_de_raw": "Kommilitone: der Kommilitone / die Kommilitonin",
+      "lu_de_normalized": "Kommilitone/Kommilitonin",
+      "gender_variants_de": [
+        "der Kommilitone",
+        "die Kommilitonin"
+      ],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "kurskamrat",
+    "display_sv": "kurskamrat",
+    "name_sv": "kurskamrat",
+    "pos": "noun",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "en kurskamrat",
+      "kurskamraten",
+      "kurskamrater",
+      "kurskamraterna"
+    ],
+    "english_equivalent_en": "classmate",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "kurskamrat",
+        "def_sg": "kurskamraten",
+        "indef_pl": "kurskamrater",
+        "def_pl": "kurskamraterna",
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "kurskamratskap",
+        "type_en": "noun",
+        "meaning_en": "being course mates; relationship between course mates"
+      },
+      {
+        "word": "kurskamratgrupp",
+        "type_en": "noun",
+        "meaning_en": "a group of course mates"
+      },
+      {
+        "word": "kurskamratrelation",
+        "type_en": "noun",
+        "meaning_en": "a relationship between course mates"
+      },
+      {
+        "word": "kurskamratnätverk",
+        "type_en": "noun",
+        "meaning_en": "a network of course mates"
+      }
+    ],
+    "synonyms_sv": [
+      "klasskamrat",
+      "studiekamrat",
+      "skolkamrat",
+      "kursare"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_kommilitone_der_kommilitone__die_kommilitonin:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_kommilitone_der_kommilitone__die_kommilitonin:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a person who studies in the same course or program as someone else",
+        "how_to_use_en": [
+          "Use about someone you study with in the same course/program.",
+          "Often used with the pattern “vara/blir … med” to name the other person."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "vara kurskamrat med + person",
+            "meaning_en": "be course mates with someone",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "bli kurskamrat med + person",
+            "meaning_en": "become course mates with someone",
+            "note_en": "Often used when someone enrolls or starts at a school."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "en kurskamrat, + namn",
+            "meaning_en": "a course mate (named)",
+            "note_en": "Apposition: the name explains who the course mate is."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "en kurskamrat från + institution",
+            "meaning_en": "a course mate from an institution",
+            "note_en": ""
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using kurskamrat for any friend at school, even in different classes/courses.",
+            "fix": "Use klasskamrat/skolkamrat, or say att gå på samma skola.",
+            "explain_en": "Kurskamrat focuses on sharing the same course/program."
+          },
+          {
+            "error": "Saying *kurskamrat till någon* in this sense.",
+            "fix": "Say kurskamrat med någon.",
+            "explain_en": "The examples use med to link the two students."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "b5d2b03d20b39ea2b5806227c264698a8a820225",
+            "sv": "Hägglöf var kurskamrat med Dag Hammarskjöld och de diskuterade ofta Hägerström.",
+            "en": "Hägglöf was a course mate with Dag Hammarskjöld and they often discussed Hägerström.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Hägglöf"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Dag Hammarskjöld"
+              }
+            ],
+            "gloss": "kurskamrat = person who studies in the same course/program",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Vilhelm Lundstedt",
+              "text_url": "https://sv.wikipedia.org/wiki/Vilhelm_Lundstedt",
+              "sentence_id": "ed508ab3",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"kurskamrat\"]"
+            }
+          },
+          {
+            "ex_id": "2d8029d76d6be6243561efabdd893f345908f6b2",
+            "sv": "Höstterminen 1902 skrevs Wolmar in och blev kurskamrat med bland andra Karl Isakson.",
+            "en": "In the autumn term 1902, Wolmar enrolled and became a course mate with, among others, Karl Isakson.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Wolmar"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Karl Isakson"
+              }
+            ],
+            "gloss": "kurskamrat = person who studies in the same course/program",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gustaf Wolmar",
+              "text_url": "https://sv.wikipedia.org/wiki/Gustaf_Wolmar",
+              "sentence_id": "fcc26e00",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"kurskamrat\"]"
+            }
+          },
+          {
+            "ex_id": "619b7554c89c43da88e0a642b53a15ac06fe3f78",
+            "sv": "När han återvände till Köpenhamn och Zahrtmanns skole blev han kurskamrat med Edvard Weie.",
+            "en": "When he returned to Copenhagen and Zahrtmann's school, he became a course mate with Edvard Weie.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Zahrtmanns skole"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Edvard Weie"
+              }
+            ],
+            "gloss": "kurskamrat = person who studies in the same course/program",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gustaf Wolmar",
+              "text_url": "https://sv.wikipedia.org/wiki/Gustaf_Wolmar",
+              "sentence_id": "fcc3acd6",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"kurskamrat\"]"
+            }
+          },
+          {
+            "ex_id": "1e5cbca3003be57c7f4f41df5e8e6d8c4a0547ae",
+            "sv": "Där blev hon kurskamrat med Sten Ljunggren, som hon senare kom att gifta sig med.",
+            "en": "There she became a course mate with Sten Ljunggren, whom she later came to marry.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Sten Ljunggren"
+              }
+            ],
+            "gloss": "kurskamrat = person who studies in the same course/program",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Barbro Oborg",
+              "text_url": "https://sv.wikipedia.org/wiki/Barbro_Oborg",
+              "sentence_id": "d8840108",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"kurskamrat\"]"
+            }
+          },
+          {
+            "ex_id": "4a642324e8db2b10a2078595d835f0537b29695b",
+            "sv": "Istället blir hon anställd av en kurskamrat, Richard Fish, på advokatbyrån Cage & Fish.",
+            "en": "Instead she is employed by a course mate, Richard Fish, at the law firm Cage & Fish.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "en kurskamrat, Richard Fish"
+              }
+            ],
+            "gloss": "kurskamrat = person who studies in the same course/program",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ally McBeal",
+              "text_url": "https://sv.wikipedia.org/wiki/Ally_McBeal",
+              "sentence_id": "81077969",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"kurskamrat\"]"
+            }
+          },
+          {
+            "ex_id": "1460dbc1c2ce875d364b169bc850111cf08e5f4e",
+            "sv": "Där träffade hon en kurskamrat från slöjdseminariet på Nääs som gift sig med man från Färöarna.",
+            "en": "There she met a course mate from the craft seminar at Nääs who had married a man from the Faroe Islands.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "en kurskamrat"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "slöjdseminariet på Nääs"
+              }
+            ],
+            "gloss": "kurskamrat = person who studies in the same course/program",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Aina Cederblom",
+              "text_url": "https://sv.wikipedia.org/wiki/Aina_Cederblom",
+              "sentence_id": "32429352",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"kurskamrat\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈkɵ̂rːsˌkɑmːrat",
+      "stress_hint": "Main stress on the first part: KURS-."
+    },
+    "morphology": {
+      "principal_parts": [
+        "kurskamrat (indefinite singular)",
+        "kurskamraten (definite singular)",
+        "kurskamrater (indefinite plural)",
+        "kurskamraterna (definite plural)"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

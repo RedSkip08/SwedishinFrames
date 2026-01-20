@@ -3,7 +3,7 @@
     "id": "lu_verlieben_sich_acc_verlieben_inacc",
     "source_de": {
       "lu_de_raw": "verlieben: sich (acc.) verlieben (in+acc.)",
-      "lu_de_normalized": "sich verlieben",
+      "lu_de_normalized": "sich verlieben (in+acc.)",
       "gender_variants_de": [],
       "pos_de": "verb"
     },
@@ -19,7 +19,7 @@
         "bli",
         "kär"
       ],
-      "spacing_notes_en": "Often used with preposition 'i' before the person: 'bli kär i X'."
+      "spacing_notes_en": "Written as two words; often followed by i + person."
     },
     "forms": [
       "bli kär",
@@ -55,13 +55,13 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "Multiword expression: bli (verb) + kär (adjective). It is used as a fixed phrase meaning ‘fall in love’."
+      "note_en": "Multiword expression with the verb bli + adjective kär; it is used as a fixed phrase."
     },
     "derived_words_sv": [
       {
         "word": "kär",
         "type_en": "adjective",
-        "meaning_en": "in love; dear"
+        "meaning_en": "in love (with someone)"
       },
       {
         "word": "kärlek",
@@ -69,14 +69,14 @@
         "meaning_en": "love"
       },
       {
-        "word": "kärleksrelation",
-        "type_en": "noun",
-        "meaning_en": "romantic relationship"
-      },
-      {
         "word": "kärleksbrev",
         "type_en": "noun",
         "meaning_en": "love letter"
+      },
+      {
+        "word": "kärleksrelation",
+        "type_en": "noun",
+        "meaning_en": "romantic relationship"
       },
       {
         "word": "förälskelse",
@@ -86,59 +86,62 @@
     ],
     "synonyms_sv": [
       "förälska sig",
-      "bli förälskad"
+      "bli förälskad",
+      "få känslor för",
+      "bli betagen i"
     ],
     "antonyms_sv": [
-      "sluta älska"
+      "sluta älska",
+      "tappa känslorna"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_dating",
+        "frame_name_en": "Dating",
+        "frame_slug": "dating",
         "sense_id": "lu_verlieben_sich_acc_verlieben_inacc:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_verlieben_sich_acc_verlieben_inacc:1",
-        "frame_id": "frame_personal_relationship",
+        "frame_id": "frame_dating",
         "meaning_en": "start to feel romantic love for someone.",
         "how_to_use_en": [
-          "Use about the moment/period when love begins.",
-          "Often followed by i + the person you fall in love with.",
-          "Common with börjar to show it is starting."
+          "Use about the moment/period when someone starts being in love.",
+          "Often followed by i + person (the one you fall in love with).",
+          "You can add time phrases like efter ett tag or for första gången."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "X börjar bli kär i Y",
-            "meaning_en": "X starts to fall in love with Y",
-            "note_en": "Highlights that the feeling is developing."
+            "pattern": "X blir kär i Y",
+            "meaning_en": "X falls in love with Y",
+            "note_en": "Very common pattern with i + person."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "X blir kär i Y",
-            "meaning_en": "X falls in love with Y",
-            "note_en": ""
+            "pattern": "X börjar bli kär i Y",
+            "meaning_en": "X starts to fall in love",
+            "note_en": "Highlights the beginning of the feeling."
           },
           {
             "pattern_id": "pat_3",
             "pattern": "X är rädd att bli kär",
             "meaning_en": "X is afraid to fall in love",
-            "note_en": ""
+            "note_en": "Often followed by a reason clause (eftersom ...)."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "bli kär på nytt",
-            "meaning_en": "fall in love again",
-            "note_en": ""
+            "pattern": "X kan bli kär på nytt",
+            "meaning_en": "X can fall in love again",
+            "note_en": "På nytt means 'again'."
           },
           {
             "pattern_id": "pat_5",
             "pattern": "bli kär för första gången",
             "meaning_en": "fall in love for the first time",
-            "note_en": ""
+            "note_en": "Used to talk about a first experience."
           }
         ],
         "common_errors_en": [
@@ -148,9 +151,9 @@
             "explain_en": "The person you fall in love with is introduced with i."
           },
           {
-            "error": "Using bli kär to mean ‘be in love’ (a state).",
-            "fix": "Use vara kär (i någon) for the state.",
-            "explain_en": "Bli kär focuses on becoming/inception, not the ongoing state."
+            "error": "Confusing bli kär (fall in love) with vara kär (be in love).",
+            "fix": "Use bli kär for the change; use vara kär for the state.",
+            "explain_en": "Bli focuses on becoming; vara focuses on the ongoing feeling."
           }
         ],
         "required_example_count": 10,
@@ -158,19 +161,27 @@
           {
             "ex_id": "daa518bbd2a266f240dd3085272faae39ea2b27f",
             "sv": "Samantha förstår efter ett tag att hon börjar bli kär i Richard.",
-            "en": "After a while Samantha understands that she is starting to fall in love with Richard.",
-            "frame_id": "frame_personal_relationship",
+            "en": "Samantha understands after a while that she is starting to fall in love with Richard.",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "hon"
+                "span_sv": "Samantha"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "efter ett tag"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "börjar bli kär"
               },
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "Richard"
               }
             ],
-            "gloss": "fall in love",
+            "gloss": "start to fall in love",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -181,7 +192,7 @@
               "text_title": "Sex and the City",
               "text_url": "https://sv.wikipedia.org/wiki/Sex_and_the_City",
               "sentence_id": "7e8c582d",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"bli\"][word=\"kär\"]"
             }
           },
@@ -189,11 +200,15 @@
             "ex_id": "8d21aa61f7159cf73f6247fd62f2bedc28c51c73",
             "sv": "Men hon hade inte räknat med att hon skulle bli kär i honom.",
             "en": "But she had not expected that she would fall in love with him.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
                 "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "bli kär"
               },
               {
                 "fe_id": "fe_partner_2",
@@ -211,19 +226,61 @@
               "text_title": "Äventyraren Thomas Crown (1968)",
               "text_url": "https://sv.wikipedia.org/wiki/%C3%84ventyraren_Thomas_Crown_(1968)",
               "sentence_id": "ed53a5ac",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"bli\"][word=\"kär\"]"
+            }
+          },
+          {
+            "ex_id": "b846bc6c9ace0dfa11618c7f47d1a6988dc52bd3",
+            "sv": "Juli (Madeline Carroll) börjar bli kär i sin klasskamrat Bryce (Callan McAuliffe).",
+            "en": "Juli (Madeline Carroll) starts to fall in love with her classmate Bryce (Callan McAuliffe).",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Juli (Madeline Carroll)"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "börjar bli kär"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin klasskamrat Bryce (Callan McAuliffe)"
+              }
+            ],
+            "gloss": "start to fall in love",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Flipped",
+              "text_url": "https://sv.wikipedia.org/wiki/Flipped",
+              "sentence_id": "db3208fb",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"bli\"][word=\"kär\"]"
             }
           },
           {
             "ex_id": "df76ad5d7443f9b3cc2283267d8db5fc4ba47f05",
             "sv": "Katherine är rädd att bli kär, eftersom hon är missnöjd med sina tidigare relationer.",
-            "en": "Katherine is afraid to fall in love, because she is unhappy with her earlier relationships.",
-            "frame_id": "frame_personal_relationship",
+            "en": "Katherine is afraid of falling in love, because she is unhappy with her earlier relationships.",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
                 "span_sv": "Katherine"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "bli kär"
+              },
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "eftersom hon är missnöjd med sina tidigare relationer"
               }
             ],
             "gloss": "fall in love",
@@ -237,37 +294,7 @@
               "text_title": "Sista chansen (bok, 1999)",
               "text_url": "https://sv.wikipedia.org/wiki/Sista_chansen_(bok,_1999)",
               "sentence_id": "0a7b732d",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"bli\"][word=\"kär\"]"
-            }
-          },
-          {
-            "ex_id": "b846bc6c9ace0dfa11618c7f47d1a6988dc52bd3",
-            "sv": "Juli (Madeline Carroll) börjar bli kär i sin klasskamrat Bryce (Callan McAuliffe).",
-            "en": "Juli (Madeline Carroll) starts to fall in love with her classmate Bryce (Callan McAuliffe).",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Juli (Madeline Carroll)"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "sin klasskamrat Bryce (Callan McAuliffe)"
-              }
-            ],
-            "gloss": "fall in love",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Flipped",
-              "text_url": "https://sv.wikipedia.org/wiki/Flipped",
-              "sentence_id": "db3208fb",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"bli\"][word=\"kär\"]"
             }
           },
@@ -275,8 +302,12 @@
             "ex_id": "29ba9eb3c395eb6da68d055c7ea3f769559348da",
             "sv": "När häxan har fått hjärtat är han inte kär i häxan längre, men kan bli kär på nytt.",
             "en": "When the witch has got the heart, he is not in love with the witch anymore, but can fall in love again.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_dating",
             "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "När häxan har fått hjärtat"
+              },
               {
                 "fe_id": "fe_partner_1",
                 "span_sv": "han"
@@ -284,10 +315,18 @@
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "häxan"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "inte kär i"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "bli kär på nytt"
               }
             ],
-            "gloss": "fall in love",
-            "level": "A2",
+            "gloss": "be/fall in love (again)",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -297,23 +336,35 @@
               "text_title": "Sugar Sugar Rune",
               "text_url": "https://sv.wikipedia.org/wiki/Sugar_Sugar_Rune",
               "sentence_id": "61f62f25",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"bli\"][word=\"kär\"]"
             }
           },
           {
             "ex_id": "cc030b2559632b4d7eeee47637e0e7aadab02020",
             "sv": "Men när de två möts i Ryska posten får de snabbt känna hur det känns att bli kär för första gången.",
-            "en": "But when the two meet at the Russian post office, they quickly get to feel what it is like to fall in love for the first time.",
-            "frame_id": "frame_personal_relationship",
+            "en": "But when the two meet at Ryska posten, they quickly get to feel what it feels like to fall in love for the first time.",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_partner_1",
                 "span_sv": "de två"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "när de två möts"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Ryska posten"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "bli kär för första gången"
               }
             ],
-            "gloss": "fall in love",
-            "level": "B1",
+            "gloss": "fall in love (for the first time)",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -323,22 +374,26 @@
               "text_title": "Eva & Adam (film, 2021)",
               "text_url": "https://sv.wikipedia.org/wiki/Eva_%26_Adam_(film,_2021)",
               "sentence_id": "d885949a",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"bli\"][word=\"kär\"]"
             }
           },
           {
-            "ex_id": "8e8b313ee800d98003344838b4aa609335189878",
-            "sv": "Att bli kär skulle kunna beskrivas som upprepade sekvenser av närmande-beteende som förstärks av den andre.",
-            "en": "To fall in love could be described as repeated sequences of approaching behavior that are strengthened by the other person.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "f489eb58b55f389619ab56bc495588bdc91689de",
+            "sv": "Den innehåller mestadels piano och handlar om konsten att våga släppa taget och bli kär på nytt efter en dålig relation.",
+            "en": "It contains mostly piano and is about the art of daring to let go and fall in love again after a bad relationship.",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "den andre"
+                "fe_id": "fe_stage",
+                "span_sv": "bli kär på nytt"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "efter en dålig relation"
               }
             ],
-            "gloss": "fall in love",
+            "gloss": "fall in love again",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -346,10 +401,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Kärlek",
-              "text_url": "https://sv.wikipedia.org/wiki/K%C3%A4rlek",
-              "sentence_id": "19dfa26f",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "text_title": "Fall (sång)",
+              "text_url": "https://sv.wikipedia.org/wiki/Fall_(s%C3%A5ng)",
+              "sentence_id": "a3c59f94",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"bli\"][word=\"kär\"]"
             }
           },
@@ -357,14 +412,18 @@
             "ex_id": "70d8065c5a197c74d58e7213bfeaf16c033ab665",
             "sv": "Den pianodrivna balladen handlar om konsten att våga släppa taget och bli kär på nytt efter en dålig relation.",
             "en": "The piano-driven ballad is about the art of daring to let go and fall in love again after a bad relationship.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Den pianodrivna balladen"
+                "fe_id": "fe_stage",
+                "span_sv": "bli kär på nytt"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "efter en dålig relation"
               }
             ],
-            "gloss": "fall in love",
+            "gloss": "fall in love again",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -375,7 +434,7 @@
               "text_title": "Fall (sång)",
               "text_url": "https://sv.wikipedia.org/wiki/Fall_(s%C3%A5ng)",
               "sentence_id": "a3ccfe40",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"bli\"][word=\"kär\"]"
             }
           },
@@ -383,8 +442,12 @@
             "ex_id": "c73cfb566cfbb31140531eb8b87dbbf60b5bc4b8",
             "sv": "Låten handlar om att bli kär, vilket June Carter blev i Johnny vid tiden då hon skrev sången.",
             "en": "The song is about falling in love, which June Carter did with Johnny at the time when she wrote the song.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_dating",
             "fe_tags": [
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "bli kär"
+              },
               {
                 "fe_id": "fe_partner_1",
                 "span_sv": "June Carter"
@@ -392,6 +455,10 @@
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "Johnny"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "vid tiden då hon skrev sången"
               }
             ],
             "gloss": "fall in love",
@@ -405,26 +472,34 @@
               "text_title": "Ring of Fire (sång)",
               "text_url": "https://sv.wikipedia.org/wiki/Ring_of_Fire_(s%C3%A5ng)",
               "sentence_id": "c0986ee3",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"bli\"][word=\"kär\"]"
             }
           },
           {
             "ex_id": "c97382408b5ecb7a751eecd5d48c2b9648e676c7",
             "sv": "Men uppdraget blir svårare än vad Simon hade tänkt sig, då han börjar bli kär i Dr. Russell.",
-            "en": "But the assignment becomes harder than Simon had thought, when he starts to fall in love with Dr. Russell.",
-            "frame_id": "frame_personal_relationship",
+            "en": "But the mission becomes harder than what Simon had thought, when he starts to fall in love with Dr. Russell.",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "han"
+                "span_sv": "Simon"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "då"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "börjar bli kär"
               },
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "Dr. Russell"
               }
             ],
-            "gloss": "fall in love",
+            "gloss": "start to fall in love",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -435,7 +510,7 @@
               "text_title": "Helgonet (film)",
               "text_url": "https://sv.wikipedia.org/wiki/Helgonet_(film)",
               "sentence_id": "2d56260b",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"bli\"][word=\"kär\"]"
             }
           }
@@ -454,7 +529,7 @@
     },
     "morphology": {
       "principal_parts": [
-        "bli + kär"
+        "bli kär"
       ],
       "particle_or_reflexive": null
     }

@@ -1,0 +1,141 @@
+{
+  "lexical_unit": {
+    "id": "lu_semesterferien_die",
+    "source_de": {
+      "lu_de_raw": "Semesterferien, die",
+      "lu_de_normalized": "Semesterferien",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "terminslov",
+    "display_sv": "terminslov",
+    "name_sv": "terminslov",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "terminslov",
+      "terminslovet",
+      "terminslov",
+      "terminsloven"
+    ],
+    "english_equivalent_en": "term break",
+    "morphology_sv": {
+      "noun": {
+        "gender": "ett",
+        "indef_sg": "terminslov",
+        "def_sg": "terminslovet",
+        "indef_pl": "terminslov",
+        "def_pl": "terminsloven",
+        "note_en": "Often used as a mass-like noun; plural is possible but less common."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "höstlov",
+        "type_en": "noun",
+        "meaning_en": "autumn break (school holiday)"
+      },
+      {
+        "word": "sportlov",
+        "type_en": "noun",
+        "meaning_en": "winter sports break (school holiday)"
+      },
+      {
+        "word": "påsklov",
+        "type_en": "noun",
+        "meaning_en": "Easter break (school holiday)"
+      },
+      {
+        "word": "jullov",
+        "type_en": "noun",
+        "meaning_en": "Christmas break (school holiday)"
+      },
+      {
+        "word": "sommarlov",
+        "type_en": "noun",
+        "meaning_en": "summer break (school holiday)"
+      }
+    ],
+    "synonyms_sv": [
+      "lov",
+      "skollov"
+    ],
+    "antonyms_sv": [
+      "termin"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_semesterferien_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_semesterferien_die:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a break from school or university during a term",
+        "how_to_use_en": [
+          "Use for a scheduled break in the school year.",
+          "Often used with a preposition like under or på."
+        ],
+        "patterns": [],
+        "common_errors_en": [
+          {
+            "error": "Using terminslov for summer vacation.",
+            "fix": "Use sommarlov for the long summer break.",
+            "explain_en": "Terminslov usually refers to a shorter break within the school year."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": []
+      }
+    ],
+    "pronunciation": {
+      "ipa": "tɛrˈmiːnsˌluːv",
+      "stress_hint": "Main stress is on -min- in termin-."
+    },
+    "morphology": {
+      "principal_parts": [
+        "terminslov",
+        "terminslovet",
+        "terminslov",
+        "terminsloven"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

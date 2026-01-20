@@ -50,23 +50,18 @@
         "neuter": "förlovat",
         "plural_def": "förlovade"
       },
-      "note_en": "Used mainly as a predicate adjective with vara (“to be”) or bli (“to become”)."
+      "note_en": "Adjective used about a person who has agreed to marry someone."
     },
     "derived_words_sv": [
       {
         "word": "förlova",
         "type_en": "verb",
-        "meaning_en": "to get engaged (formal/officially promise marriage)"
-      },
-      {
-        "word": "förlova sig",
-        "type_en": "verb",
-        "meaning_en": "to get engaged (as a couple)"
+        "meaning_en": "get engaged (to someone)"
       },
       {
         "word": "förlovning",
         "type_en": "noun",
-        "meaning_en": "engagement (the event/period)"
+        "meaning_en": "engagement (the agreement/period before marriage)"
       },
       {
         "word": "förlovningsring",
@@ -77,63 +72,66 @@
         "word": "förlovningsfest",
         "type_en": "noun",
         "meaning_en": "engagement party"
+      },
+      {
+        "word": "fästman",
+        "type_en": "noun",
+        "meaning_en": "fiancé (male partner)"
+      },
+      {
+        "word": "fästmö",
+        "type_en": "noun",
+        "meaning_en": "fiancée (female partner)"
       }
     ],
     "synonyms_sv": [
       "trolovad",
-      "fäst"
+      "engagerad (i betydelsen förlovad)"
     ],
     "antonyms_sv": [
       "ogift"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_marriage",
+        "frame_name_en": "Marriage",
+        "frame_slug": "marriage",
         "sense_id": "lu_verlobt:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_verlobt:1",
-        "frame_id": "frame_personal_relationship",
-        "meaning_en": "having agreed to marry someone; engaged",
+        "frame_id": "frame_marriage",
+        "meaning_en": "having agreed to marry someone; engaged.",
         "how_to_use_en": [
           "Use with vara: X är förlovad.",
-          "Add the partner with med: förlovad med någon.",
-          "Often with redan (“already”) in stories and biographies."
+          "Often add the partner with med: förlovad med någon."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "X är förlovad",
             "meaning_en": "X is engaged",
-            "note_en": "Often used without naming the partner."
+            "note_en": "Often used with redan to mean “already engaged”."
           },
           {
             "pattern_id": "pat_2",
             "pattern": "X är förlovad med Y",
             "meaning_en": "X is engaged to Y",
-            "note_en": "Names the partner (Y)."
-          },
-          {
-            "pattern_id": "pat_3",
-            "pattern": "X har blivit förlovad med Y",
-            "meaning_en": "X has become engaged to Y",
-            "note_en": "Focuses on the change into being engaged."
+            "note_en": "Med introduces the partner."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *förlovad till* for the partner.",
-            "fix": "Use förlovad med + person.",
-            "explain_en": "In the examples, the partner is introduced with med."
+            "error": "Using *förlovad* for “married”.",
+            "fix": "Use gift for “married”.",
+            "explain_en": "Förlovad means engaged (before marriage), not married."
           },
           {
-            "error": "Forgetting adjective agreement: *hon är förlovad* but *det är förlovad*.",
-            "fix": "Use neuter: det är förlovat; plural: de är förlovade.",
-            "explain_en": "Adjectives agree with grammatical gender/number."
+            "error": "Forgetting agreement with gender/number: *hon är förlovad* vs *de är förlovad*.",
+            "fix": "Use förlovade with plural: de är förlovade.",
+            "explain_en": "Adjectives agree with number (and sometimes gender): förlovad/förlovat/förlovade."
           }
         ],
         "required_example_count": 10,
@@ -142,15 +140,19 @@
             "ex_id": "5cfcd4b2a0fd30274f0046f5e2779288a138b8d7",
             "sv": "Tycke uppstår, men Roger är redan förlovad med en annan kvinna.",
             "en": "Feelings arise, but Roger is already engaged to another woman.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Roger"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_spouse_2",
                 "span_sv": "en annan kvinna"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "förlovad"
               }
             ],
             "gloss": "engaged",
@@ -164,7 +166,7 @@
               "text_title": "Puck heter jag",
               "text_url": "https://sv.wikipedia.org/wiki/Puck_heter_jag",
               "sentence_id": "19dee6ae",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovad\"]"
             }
           },
@@ -172,11 +174,15 @@
             "ex_id": "6bdd4f06c084cff3271882f4731d99bdc82f3f66",
             "sv": "Ovetandes om att Ellen redan är förlovad gifter han sig med henne.",
             "en": "Not knowing that Ellen is already engaged, he marries her.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Ellen"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "förlovad"
               }
             ],
             "gloss": "engaged",
@@ -190,7 +196,7 @@
               "text_title": "Min är hämnden",
               "text_url": "https://sv.wikipedia.org/wiki/Min_%C3%A4r_h%C3%A4mnden",
               "sentence_id": "445b56e4",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovad\"]"
             }
           },
@@ -198,19 +204,23 @@
             "ex_id": "8133cee5dee2cfa02c1fb6ad7b406763d1150898",
             "sv": "Hon är förlovad med Sven (Preben Kørning), men deras relation är av platonisk karaktär.",
             "en": "She is engaged to Sven (Preben Kørning), but their relationship is of a platonic kind.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Hon"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_spouse_2",
                 "span_sv": "Sven (Preben Kørning)"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "förlovad"
               }
             ],
             "gloss": "engaged",
-            "level": "B1",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -220,7 +230,7 @@
               "text_title": "Jag – en kvinna",
               "text_url": "https://sv.wikipedia.org/wiki/Jag_%E2%80%93_en_kvinna",
               "sentence_id": "2fff97f2",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovad\"]"
             }
           },
@@ -228,19 +238,23 @@
             "ex_id": "c886a5f18c4c9f7a041bebe995be3a35958375e5",
             "sv": "Han är förlovad med Marguerite, men hans känslor för henne har svalnat.",
             "en": "He is engaged to Marguerite, but his feelings for her have cooled.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Han"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_spouse_2",
                 "span_sv": "Marguerite"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "förlovad"
               }
             ],
             "gloss": "engaged",
-            "level": "B1",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -250,7 +264,7 @@
               "text_title": "Stiliga Augusta",
               "text_url": "https://sv.wikipedia.org/wiki/Stiliga_Augusta",
               "sentence_id": "24b7e9a2",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovad\"]"
             }
           },
@@ -258,11 +272,15 @@
             "ex_id": "faba79e9f6466ba769d62eef7675ffc3ff3338b8",
             "sv": "Rudolf är förlovad, men ägnar sig ändå åt nöjen och förälskelser.",
             "en": "Rudolf is engaged, but still devotes himself to pleasures and love affairs.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Rudolf"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "förlovad"
               }
             ],
             "gloss": "engaged",
@@ -276,27 +294,31 @@
               "text_title": "Tre glada tokar",
               "text_url": "https://sv.wikipedia.org/wiki/Tre_glada_tokar",
               "sentence_id": "61f37882",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovad\"]"
             }
           },
           {
             "ex_id": "0368be0b48ac4f7ce544a498630d7b11d245a6db",
             "sv": "Prinsessan Tusensköna är förlovad med prins Ivan men hon hålls fången av den elaka Kasjtjej.",
-            "en": "Princess Tusensköna is engaged to Prince Ivan, but she is held captive by the evil Kasjtjej.",
-            "frame_id": "frame_personal_relationship",
+            "en": "Princess Tusensköna is engaged to Prince Ivan, but she is held prisoner by the evil Kasjtjej.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Prinsessan Tusensköna"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_spouse_2",
                 "span_sv": "prins Ivan"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "förlovad"
               }
             ],
             "gloss": "engaged",
-            "level": "B1",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -306,53 +328,95 @@
               "text_title": "Kasjtjejs död",
               "text_url": "https://sv.wikipedia.org/wiki/Kasjtjejs_d%C3%B6d",
               "sentence_id": "d7bf3189",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovad\"]"
             }
           },
           {
-            "ex_id": "7622c6b1d12250e747e5acdb38ce143113d9f9dc",
-            "sv": "Hon har blivit förlovad med den sprättige prins Paul men hon gillar honom inte.",
-            "en": "She has become engaged to the foppish Prince Paul, but she does not like him.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "d7e5c982c9aaaeb8d691afbbd75400fe0bb0ca04",
+            "sv": "Ranma är förlovad med Akane Tendo, enligt en överenskommelse mellan deras föräldrar.",
+            "en": "Ranma is engaged to Akane Tendo, according to an agreement between their parents.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Ranma"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "Akane Tendo"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "förlovad"
+              },
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "enligt en överenskommelse mellan deras föräldrar"
+              }
+            ],
+            "gloss": "engaged",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ranma ½",
+              "text_url": "https://sv.wikipedia.org/wiki/Ranma_%C2%BD",
+              "sentence_id": "94ffc2bd",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"förlovad\"]"
+            }
+          },
+          {
+            "ex_id": "67fc2dbe838b0bec6cb817a5e92c246846783814",
+            "sv": "Hon är modeintresserad, förtjust i att gå på bal och förlovad med medicinkandidaten Ivar.",
+            "en": "She is interested in fashion, fond of going to balls, and engaged to the medical student Ivar.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Hon"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "den sprättige prins Paul"
+                "fe_id": "fe_spouse_2",
+                "span_sv": "medicinkandidaten Ivar"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "förlovad"
               }
             ],
             "gloss": "engaged",
-            "level": "B1",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Storhertiginnan av Gerolstein",
-              "text_url": "https://sv.wikipedia.org/wiki/Storhertiginnan_av_Gerolstein",
-              "sentence_id": "8a602dc4",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "text_title": "Vår!",
+              "text_url": "https://sv.wikipedia.org/wiki/V%C3%A5r!",
+              "sentence_id": "5a7d4279",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovad\"]"
             }
           },
           {
-            "ex_id": "f7258438bd38b19ef1a21ad04dcaaee52c69ccfd",
-            "sv": "Tirinto sörjer frånvaron av sin älskade Rosmene med vilken han är förlovad.",
-            "en": "Tirinto mourns the absence of his beloved Rosmene, to whom he is engaged.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "3f8e3fef73267aa0f05d152f3be2c42e64f0cdd8",
+            "sv": "Lori har haft flera pojkvänner och var förlovad, men hennes fästman dog i en trafikolycka.",
+            "en": "Lori has had several boyfriends and was engaged, but her fiancé died in a traffic accident.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "han"
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Lori"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "sin älskade Rosmene"
+                "fe_id": "fe_relationship",
+                "span_sv": "förlovad"
               }
             ],
             "gloss": "engaged",
@@ -363,26 +427,34 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Imeneo",
-              "text_url": "https://sv.wikipedia.org/wiki/Imeneo",
-              "sentence_id": "754d3c0a",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "text_title": "Lori och George Schappell",
+              "text_url": "https://sv.wikipedia.org/wiki/Lori_och_George_Schappell",
+              "sentence_id": "79e93d0b",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovad\"]"
             }
           },
           {
             "ex_id": "d1c2b1e298283e2832a86e915c5319cc3608320c",
             "sv": "Augusta var redan lyckligt förlovad med Karl av Baden men blev tvungen att bryta förlovningen.",
-            "en": "Augusta was already happily engaged to Karl of Baden, but was forced to break the engagement.",
-            "frame_id": "frame_personal_relationship",
+            "en": "Augusta was already happily engaged to Karl of Baden but was forced to break off the engagement.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Augusta"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_spouse_2",
                 "span_sv": "Karl av Baden"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "förlovad"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "bryta förlovningen"
               }
             ],
             "gloss": "engaged",
@@ -396,37 +468,7 @@
               "text_title": "Eugène de Beauharnais",
               "text_url": "https://sv.wikipedia.org/wiki/Eug%C3%A8ne_de_Beauharnais",
               "sentence_id": "2cb7f641",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"förlovad\"]"
-            }
-          },
-          {
-            "ex_id": "f0eb976b1fcb62da674fbaa348d1521a04e4f331",
-            "sv": "Lotte är dock redan förlovad med Albert, som i romanen beskrivs som oerhört tråkig.",
-            "en": "Lotte is, however, already engaged to Albert, who in the novel is described as extremely boring.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Lotte"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Albert"
-              }
-            ],
-            "gloss": "engaged",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Den unge Werthers lidanden",
-              "text_url": "https://sv.wikipedia.org/wiki/Den_unge_Werthers_lidanden",
-              "sentence_id": "83d886c3",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovad\"]"
             }
           }
@@ -435,7 +477,7 @@
     ],
     "pronunciation": {
       "ipa": "fœrˈluːvad",
-      "stress_hint": "Stress is on the second syllable: för-LO-vad.",
+      "stress_hint": "Stress is usually on the second syllable: för-LO-vad.",
       "audio": {
         "file": "audio/lu_verlobt.mp3",
         "model": "gpt-4o-mini-tts",

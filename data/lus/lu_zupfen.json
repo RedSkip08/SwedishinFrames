@@ -1,0 +1,476 @@
+{
+  "lexical_unit": {
+    "id": "lu_zupfen",
+    "source_de": {
+      "lu_de_raw": "zupfen",
+      "lu_de_normalized": "zupfen",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "plocka",
+    "display_sv": "plocka",
+    "name_sv": "plocka",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "plocka",
+      "plockar",
+      "plockade",
+      "plockat"
+    ],
+    "english_equivalent_en": "pick",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "plocka",
+        "present": "plockar",
+        "past": "plockade",
+        "supine": "plockat",
+        "imperative": "plocka",
+        "present_participle": "plockande",
+        "past_participle": "plockad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "plocka upp",
+        "type_en": "verb",
+        "meaning_en": "pick up (collect from the ground/surface)"
+      },
+      {
+        "word": "plockning",
+        "type_en": "noun",
+        "meaning_en": "picking; the act of picking"
+      },
+      {
+        "word": "bärplockare",
+        "type_en": "noun",
+        "meaning_en": "berry picker (person who picks berries)"
+      },
+      {
+        "word": "svampplockning",
+        "type_en": "noun",
+        "meaning_en": "mushroom picking"
+      },
+      {
+        "word": "handplocka",
+        "type_en": "verb",
+        "meaning_en": "pick by hand; hand-pick"
+      }
+    ],
+    "synonyms_sv": [
+      "samla",
+      "ta",
+      "hämta",
+      "skörda",
+      "plocka upp"
+    ],
+    "antonyms_sv": [
+      "lämna"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_zupfen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_zupfen:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "take something small by hand, often from plants or a surface, to collect it.",
+        "how_to_use_en": [
+          "Use for picking flowers, fruit, seeds, insects, or other small things.",
+          "Often followed by what you pick (object).",
+          "You can add a place/source with från/ur/på."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "plocka + Patient",
+            "meaning_en": "pick something",
+            "note_en": "Common with things like blommor, frukt, frön, insekter."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "plocka + Patient + från + Medium",
+            "meaning_en": "pick from a surface/place",
+            "note_en": "Used for removing/collecting from leaves, branches, etc."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "plocka + Patient + ur + Medium",
+            "meaning_en": "pick out of something",
+            "note_en": "Used when the item is inside something (e.g., ur kottar)."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "plocka + Patient + på + Medium",
+            "meaning_en": "pick on/in a place",
+            "note_en": "Used for collecting in an area (e.g., på gatan, på fälten)."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "för hand plocka + Patient",
+            "meaning_en": "pick by hand",
+            "note_en": "Instrument phrase showing it is done manually."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using plocka for large items or heavy lifting.",
+            "fix": "Use ta, lyfta, bära, or hämta instead.",
+            "explain_en": "Plocka is typically for small items you can take with your fingers/hand."
+          },
+          {
+            "error": "Mixing up från and ur after plocka.",
+            "fix": "Use från for a surface/source; use ur for inside something.",
+            "explain_en": "Examples show från löv/blad/grenar and ur kottar."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "f4f9e22a8681225c3f935d25e5d1042240355f24",
+            "sv": "Siebel kommer för att plocka blommor till Margareta, men de vissnar i hans hand.",
+            "en": "Siebel comes to pick flowers for Margareta, but they wither in his hand.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "blommor"
+              }
+            ],
+            "gloss": "plocka = pick (take by hand)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Faust (opera)",
+              "text_url": "https://sv.wikipedia.org/wiki/Faust_(opera)",
+              "sentence_id": "23aeaad0",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"plocka\"]"
+            }
+          },
+          {
+            "ex_id": "7e72c21f1769f23c543031f35601c3434be0e850",
+            "sv": "I resten av Sverige är det tillåtet att plocka en bukett till sig själv.",
+            "en": "In the rest of Sweden it is allowed to pick a bouquet for yourself.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "en bukett"
+              }
+            ],
+            "gloss": "plocka = pick (gather)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gullviva",
+              "text_url": "https://sv.wikipedia.org/wiki/Gullviva",
+              "sentence_id": "5a7c917a",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"plocka\"]"
+            }
+          },
+          {
+            "ex_id": "5fa7b22ecccb491d3b16c47f022f5e450eec61af",
+            "sv": "Detta eftersom de törniga grenarna gör det svårt att för hand plocka frukten från träden.",
+            "en": "This is because the thorny branches make it hard to pick the fruit from the trees by hand.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "för hand"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "frukten"
+              }
+            ],
+            "gloss": "plocka = pick (remove by hand)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Arganträd",
+              "text_url": "https://sv.wikipedia.org/wiki/Argantr%C3%A4d",
+              "sentence_id": "0f1fbf16",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"plocka\"]"
+            }
+          },
+          {
+            "ex_id": "cd7591a115b6353b8459a07f697f459e5dc5a9e8",
+            "sv": "Individerna klättrar främst i träd men vistas ibland på marken för att plocka frön.",
+            "en": "The individuals mainly climb in trees but sometimes stay on the ground to pick seeds.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "frön"
+              }
+            ],
+            "gloss": "plocka = pick (collect)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Svarthuvad uakari",
+              "text_url": "https://sv.wikipedia.org/wiki/Svarthuvad_uakari",
+              "sentence_id": "8772a760",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"plocka\"]"
+            }
+          },
+          {
+            "ex_id": "8427ecad0f253e11b44f9782d14317889682a192",
+            "sv": "Korsnäbbar är genom näbbens form specialiserade på att plocka frön ur kottar.",
+            "en": "Crossbills are, because of the shape of the beak, specialized in picking seeds out of cones.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "frön"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "ur kottar"
+              }
+            ],
+            "gloss": "plocka = pick (take out)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Finkar",
+              "text_url": "https://sv.wikipedia.org/wiki/Finkar",
+              "sentence_id": "985bdae3",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"plocka\"]"
+            }
+          },
+          {
+            "ex_id": "df8949cc41655e2dc8c66106d30f351e451e4576",
+            "sv": "På sommaren äter talgoxar främst insekter och spindlar som de fångar genom att plocka dem från löv.",
+            "en": "In summer great tits mainly eat insects and spiders that they catch by picking them from leaves.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "dem"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "från löv"
+              }
+            ],
+            "gloss": "plocka = pick (remove from a surface)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Talgoxe",
+              "text_url": "https://sv.wikipedia.org/wiki/Talgoxe",
+              "sentence_id": "bfcb9e57",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"plocka\"]"
+            }
+          },
+          {
+            "ex_id": "928aa5f0852063437e2312e5ca157f6dde45b6dc",
+            "sv": "Den andra metoden går ut på att plocka insekter direkt från blad och grenar i undervegetationen.",
+            "en": "The other method is to pick insects directly from leaves and branches in the undergrowth.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "insekter"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "från blad och grenar"
+              }
+            ],
+            "gloss": "plocka = pick (remove)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Knottfåglar",
+              "text_url": "https://sv.wikipedia.org/wiki/Knottf%C3%A5glar",
+              "sentence_id": "2d8f7d5f",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"plocka\"]"
+            }
+          },
+          {
+            "ex_id": "25186bf891366f468e09b873e0065babe13521c0",
+            "sv": "Minoer brukade plocka sniglar på fälten i sådan utsträckning att det blev en grekisk exportvara.",
+            "en": "Minoans used to pick snails in the fields to such an extent that it became a Greek export product.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "sniglar"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "på fälten"
+              }
+            ],
+            "gloss": "plocka = pick (collect)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Grekiska köket",
+              "text_url": "https://sv.wikipedia.org/wiki/Grekiska_k%C3%B6ket",
+              "sentence_id": "8d188f31",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"plocka\"]"
+            }
+          },
+          {
+            "ex_id": "e7e29e8ddd84218439d9927fa9271c0de8a1efa0",
+            "sv": "På Skeppsbron läcker kaffebönor ur säckar, och folk börjar plocka kaffebönorna på gatan.",
+            "en": "On Skeppsbron coffee beans leak out of sacks, and people start picking the coffee beans in the street.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "folk"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "kaffebönorna"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "på gatan"
+              }
+            ],
+            "gloss": "plocka = pick up (collect)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "1918",
+              "text_url": "https://sv.wikipedia.org/wiki/1918",
+              "sentence_id": "6f93c1f4",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"plocka\"]"
+            }
+          },
+          {
+            "ex_id": "44e3fc1a2955250efdbfd34ddc70fcb8d33ff5bb",
+            "sv": "Ibland kan den ses närma sig vägkanter för att plocka grus.",
+            "en": "Sometimes it can be seen approaching roadsides to pick gravel.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "grus"
+              }
+            ],
+            "gloss": "plocka = pick (take small pieces)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kragjärpe",
+              "text_url": "https://sv.wikipedia.org/wiki/Kragj%C3%A4rpe",
+              "sentence_id": "19d90ce2",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"plocka\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈplɔkːa",
+      "stress_hint": "Stress is on the first syllable: PLOCK-a.",
+      "audio": {
+        "file": "audio/lu_zupfen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "plocka",
+        "plockar",
+        "plockade",
+        "plockat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

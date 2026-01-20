@@ -1,0 +1,454 @@
+{
+  "lexical_unit": {
+    "id": "lu_realschule_die",
+    "source_de": {
+      "lu_de_raw": "Realschule, die",
+      "lu_de_normalized": "Realschule",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "högstadium",
+    "display_sv": "högstadium",
+    "name_sv": "högstadium",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "ett högstadium",
+      "högstadium",
+      "högstadiet"
+    ],
+    "english_equivalent_en": "lower secondary school",
+    "morphology_sv": {
+      "noun": {
+        "gender": "ett",
+        "indef_sg": "högstadium",
+        "def_sg": "högstadiet",
+        "indef_pl": "högstadier",
+        "def_pl": "högstadierna",
+        "note_en": "Often used about the school stage (grades 7–9) or the part of a school that offers those grades."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "högstadieskola",
+        "type_en": "noun",
+        "meaning_en": "a school that has grades 7–9"
+      },
+      {
+        "word": "högstadieelev",
+        "type_en": "noun",
+        "meaning_en": "student in grades 7–9"
+      },
+      {
+        "word": "högstadielärare",
+        "type_en": "noun",
+        "meaning_en": "teacher in grades 7–9"
+      },
+      {
+        "word": "högstadieklass",
+        "type_en": "noun",
+        "meaning_en": "a class in grades 7–9"
+      },
+      {
+        "word": "högstadietid",
+        "type_en": "noun",
+        "meaning_en": "the time someone is in grades 7–9"
+      }
+    ],
+    "synonyms_sv": [
+      "årskurs 7–9",
+      "högstadieskola"
+    ],
+    "antonyms_sv": [
+      "lågstadium"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_realschule_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_realschule_die:1",
+        "frame_id": "frame_education",
+        "meaning_en": "the Swedish school stage for grades 7–9, or the part of a school that offers it",
+        "how_to_use_en": [
+          "Use it for the school level after mellanstadium and before gymnasium.",
+          "Often appears after a school name or in phrases like “skola med högstadium”.",
+          "Can be used with “på” for working/studying at a lower secondary school."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "grundskola/skola med högstadium",
+            "meaning_en": "a school that includes grades 7–9",
+            "note_en": "Used when a school offers several stages."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "[Skolnamn] högstadium",
+            "meaning_en": "a specific lower secondary school",
+            "note_en": "Common in names of schools."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "på ett högstadium",
+            "meaning_en": "at a lower secondary school",
+            "note_en": "Often with verbs like arbeta."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "högstadium återfinns i [plats]",
+            "meaning_en": "lower secondary school is located in",
+            "note_en": "Used when describing where students go."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "i [skola] finns låg-, mellan- och högstadium",
+            "meaning_en": "a school has several stages",
+            "note_en": "Lists the stages offered by one school."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *högstadium* for upper secondary school.",
+            "fix": "Use gymnasium for upper secondary school.",
+            "explain_en": "In Sweden, högstadium is grades 7–9; gymnasium is the next level."
+          },
+          {
+            "error": "Forgetting the neuter article.",
+            "fix": "Say ett högstadium (not *en högstadium*).",
+            "explain_en": "Högstadium is an ett-word."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "d1a2bc075a9d6a182a6404294e847c878ed93d0f",
+            "sv": "I Degeberga finns Degeberga kyrka, grundskola med högstadium och ett kommunalt äldreboende.",
+            "en": "In Degeberga there is Degeberga church, a compulsory school with lower secondary school, and a municipal nursing home.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "grundskola med högstadium"
+              }
+            ],
+            "gloss": "lower secondary school (grades 7–9 in Sweden)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Degeberga",
+              "text_url": "https://sv.wikipedia.org/wiki/Degeberga",
+              "sentence_id": "d7b82972",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"högstadium\"]"
+            }
+          },
+          {
+            "ex_id": "63c914ab5287c9c1dec27a973f58b991990b076f",
+            "sv": "Byggnaden ligger bredvid Pikkola högstadium och är en del av Roine kampusområdet.",
+            "en": "The building is next to Pikkola lower secondary school and is part of the Roine campus area.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Pikkola högstadium"
+              }
+            ],
+            "gloss": "lower secondary school (grades 7–9 in Sweden)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kangasalan lukio",
+              "text_url": "https://sv.wikipedia.org/wiki/Kangasalan_lukio",
+              "sentence_id": "b6d19571",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"högstadium\"]"
+            }
+          },
+          {
+            "ex_id": "56251f539bcc8051d7163dfd33fd4ffad874c914",
+            "sv": "Han utbildade sig senare till syokonsulent och arbetade i 25 år på ett högstadium.",
+            "en": "He later trained as a study and career counsellor and worked for 25 years at a lower secondary school.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "ett högstadium"
+              }
+            ],
+            "gloss": "lower secondary school (grades 7–9 in Sweden)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Leif Persson (skolman)",
+              "text_url": "https://sv.wikipedia.org/wiki/Leif_Persson_(skolman)",
+              "sentence_id": "e6cf8124",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"högstadium\"]"
+            }
+          },
+          {
+            "ex_id": "ef17bd50decae8967dbe3cddd9a5998621d299e1",
+            "sv": "Skolan som numera rymmer ett högstadium, är byggd i två omgångar.",
+            "en": "The school that now houses a lower secondary school was built in two stages.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Skolan"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "ett högstadium"
+              }
+            ],
+            "gloss": "lower secondary school (grades 7–9 in Sweden)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Vasaskolan, Hedemora",
+              "text_url": "https://sv.wikipedia.org/wiki/Vasaskolan,_Hedemora",
+              "sentence_id": "8a6906b5",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"högstadium\"]"
+            }
+          },
+          {
+            "ex_id": "0a0df879b44efc0567f0195e242ef1c8cec12399",
+            "sv": "Första stadiet är sex år och följs av ett högstadium på fyra år.",
+            "en": "The first stage is six years and is followed by a lower secondary school for four years.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "ett högstadium på fyra år"
+              }
+            ],
+            "gloss": "lower secondary school (grades 7–9 in Sweden)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Spanien",
+              "text_url": "https://sv.wikipedia.org/wiki/Spanien",
+              "sentence_id": "7fbc9186",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"högstadium\"]"
+            }
+          },
+          {
+            "ex_id": "19dbd011c2733fbc28410e06da1931abdc2c6874",
+            "sv": "Intill Sävarån ligger Sävar kyrka och i Sävar skola finns låg-, mellan- och högstadium.",
+            "en": "Next to the Sävar River is Sävar church, and in Sävar school there are primary, middle, and lower secondary school.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Sävar skola"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "högstadium"
+              }
+            ],
+            "gloss": "lower secondary school (grades 7–9 in Sweden)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sävar",
+              "text_url": "https://sv.wikipedia.org/wiki/S%C3%A4var",
+              "sentence_id": "7dea6725",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"högstadium\"]"
+            }
+          },
+          {
+            "ex_id": "51e60aabbe7758ffcc1dd721896f610f9c4eac38",
+            "sv": "Det finns en förskola och en F-6-skola i samhället medan högstadium återfinns i Järna.",
+            "en": "There is a preschool and an F–6 school in the community, while lower secondary school is found in Järna.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "högstadium"
+              }
+            ],
+            "gloss": "lower secondary school (grades 7–9 in Sweden)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mölnbo",
+              "text_url": "https://sv.wikipedia.org/wiki/M%C3%B6lnbo",
+              "sentence_id": "cf96464c",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"högstadium\"]"
+            }
+          },
+          {
+            "ex_id": "8d1aa7e9d709b792a7c04881108a857425e9c634",
+            "sv": "Skolan hade tidigare högstadium, men det lades ner år 2009.",
+            "en": "The school previously had lower secondary school, but it was closed down in 2009.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Skolan"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "högstadium"
+              }
+            ],
+            "gloss": "lower secondary school (grades 7–9 in Sweden)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Innerstaden, Luleå",
+              "text_url": "https://sv.wikipedia.org/wiki/Innerstaden,_Lule%C3%A5",
+              "sentence_id": "07614c52",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"högstadium\"]"
+            }
+          },
+          {
+            "ex_id": "1264bdd99f44d1b7aa3647fdc4071796166004e2",
+            "sv": "Ungdomar i högstadium och gymnasium får pendla till Vänersborg eller Trollhättan.",
+            "en": "Young people in lower secondary school and upper secondary school have to commute to Vänersborg or Trollhättan.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Ungdomar"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "högstadium"
+              }
+            ],
+            "gloss": "lower secondary school (grades 7–9 in Sweden)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Vargön",
+              "text_url": "https://sv.wikipedia.org/wiki/Varg%C3%B6n",
+              "sentence_id": "03ae93d4",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"gymnasium\"]"
+            }
+          },
+          {
+            "ex_id": "3ad3b50c4750a23768ae67ee0d1dbb80a04be229",
+            "sv": "Villor, bostadsrättslägenheter och fritidshus finns i området samt en skola med högstadium.",
+            "en": "Villas, condominium apartments, and holiday homes are in the area, as well as a school with lower secondary school.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en skola med högstadium"
+              }
+            ],
+            "gloss": "lower secondary school (grades 7–9 in Sweden)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bonäset, Örnsköldsviks kommun",
+              "text_url": "https://sv.wikipedia.org/wiki/Bon%C3%A4set,_%C3%96rnsk%C3%B6ldsviks_kommun",
+              "sentence_id": "6adff171",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"högstadium\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈhøːɡˌstɑːdɪɵm",
+      "stress_hint": "Main stress on HÖG-, weaker stress on -STA-."
+    },
+    "morphology": {
+      "principal_parts": [
+        "högstadium",
+        "högstadiet",
+        "högstadier",
+        "högstadierna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

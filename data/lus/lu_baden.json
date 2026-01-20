@@ -1,0 +1,448 @@
+{
+  "lexical_unit": {
+    "id": "lu_baden",
+    "source_de": {
+      "lu_de_raw": "baden",
+      "lu_de_normalized": "baden",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "bada",
+    "display_sv": "bada",
+    "name_sv": "bada",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "bada",
+      "badar",
+      "badade",
+      "badat"
+    ],
+    "english_equivalent_en": "bathe",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "bada",
+        "present": "badar",
+        "past": "badade",
+        "supine": "badat",
+        "imperative": "bada",
+        "present_participle": "badande",
+        "past_participle": "badad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "bad",
+        "type_en": "noun",
+        "meaning_en": "a bath; swimming/bathing (as an activity)"
+      },
+      {
+        "word": "badkar",
+        "type_en": "noun",
+        "meaning_en": "bathtub"
+      },
+      {
+        "word": "badrum",
+        "type_en": "noun",
+        "meaning_en": "bathroom"
+      },
+      {
+        "word": "badplats",
+        "type_en": "noun",
+        "meaning_en": "bathing place; swimming spot"
+      },
+      {
+        "word": "badvatten",
+        "type_en": "noun",
+        "meaning_en": "water for bathing; bathing water"
+      }
+    ],
+    "synonyms_sv": [
+      "simma",
+      "ta ett bad",
+      "bada i badkar"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_baden:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_baden:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "wash yourself in water, or go into water to swim for pleasure.",
+        "how_to_use_en": [
+          "Use for bathing in a bathtub or bathing/swimming outdoors.",
+          "Often used without an object: bada.",
+          "Use a place phrase to say where you bathe (e.g., i sjön, på stranden)."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "bada",
+            "meaning_en": "bathe; go swimming",
+            "note_en": "Often used generally, without saying where."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "bada i + place",
+            "meaning_en": "bathe in a place",
+            "note_en": "Used for lakes, waterfalls, and other water locations."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "bada från + place",
+            "meaning_en": "bathe from a spot",
+            "note_en": "Says the starting point, e.g., from rocks."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "gå till + place + för att bada",
+            "meaning_en": "go somewhere to bathe",
+            "note_en": "Purpose expressed with för att + infinitive."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "bada i + container (badkar)",
+            "meaning_en": "bathe in a bathtub",
+            "note_en": "Used for bathing indoors."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using bada only for swimming and never for washing in a bathtub.",
+            "fix": "Use bada for both: bathing in a bathtub and bathing/swimming outdoors.",
+            "explain_en": "In Swedish, bada covers both meanings in everyday use."
+          },
+          {
+            "error": "Forgetting the preposition with places (e.g., *bada stranden).",
+            "fix": "Say bada på stranden / bada i sjön.",
+            "explain_en": "Places are typically expressed with a prepositional phrase."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "5ee903999fc5d7301da3665039bf8bde89fba464",
+            "sv": "• Det är inte farligt att bada direkt efter en måltid.",
+            "en": "It is not dangerous to bathe right after a meal.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "att bada"
+              }
+            ],
+            "gloss": "bada = to bathe, to go swimming",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lista över vanliga missuppfattningar",
+              "text_url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_vanliga_missuppfattningar",
+              "sentence_id": "72e28824",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"bada\"]"
+            }
+          },
+          {
+            "ex_id": "06663ede55831cbec32b3f2eba3c3f1987e52e00",
+            "sv": "När hon inte verkar vara hemma går han till stranden för att bada.",
+            "en": "When she does not seem to be at home, he goes to the beach to bathe.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "han"
+              }
+            ],
+            "gloss": "bada = to bathe, to go swimming",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Two Hands",
+              "text_url": "https://sv.wikipedia.org/wiki/Two_Hands",
+              "sentence_id": "028503a7",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"bada\"]"
+            }
+          },
+          {
+            "ex_id": "3e01937df8c5c88404b6eeeead79b9b7cacd4f4b",
+            "sv": "Från östra delen av inre Hamnholmen kan man bada från klipporna.",
+            "en": "From the eastern part of inner Hamnholmen, you can bathe from the rocks.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "man"
+              }
+            ],
+            "gloss": "bada = to bathe, to go swimming",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Rörö",
+              "text_url": "https://sv.wikipedia.org/wiki/R%C3%B6r%C3%B6",
+              "sentence_id": "49f2f8e2",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"bada\"]"
+            }
+          },
+          {
+            "ex_id": "d27691e48569b511e0d7ca109c72bf9a57211fde",
+            "sv": "Nära staden finns de så kallade Potami-vattenfallen, i vilka man kan bada.",
+            "en": "Near the city there are the so-called Potami waterfalls, in which you can bathe.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "man"
+              }
+            ],
+            "gloss": "bada = to bathe, to go swimming",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Samos",
+              "text_url": "https://sv.wikipedia.org/wiki/Samos",
+              "sentence_id": "db26ccea",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"bada\"]"
+            }
+          },
+          {
+            "ex_id": "71331de7d709cc7becef0fcc74a9000f1d70a3a0",
+            "sv": "Sjön Lac-du-Maine är ett ställe där man kan sola och bada under sommarsäsongen.",
+            "en": "Lake Lac-du-Maine is a place where you can sunbathe and bathe during the summer season.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "man"
+              }
+            ],
+            "gloss": "bada = to bathe, to go swimming",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Angers",
+              "text_url": "https://sv.wikipedia.org/wiki/Angers",
+              "sentence_id": "084f62c0",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"bada\"]"
+            }
+          },
+          {
+            "ex_id": "024eeee33a4787a34531b7ed8bb99cdb9eaef540",
+            "sv": "I Furuvik ligger Harnäs och Harnäsbadet där man kan bada om somrarna.",
+            "en": "In Furuvik there is Harnäs and the Harnäs bathing place where you can bathe in the summers.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "man"
+              }
+            ],
+            "gloss": "bada = to bathe, to go swimming",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Furuvik",
+              "text_url": "https://sv.wikipedia.org/wiki/Furuvik",
+              "sentence_id": "4014317b",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"bada\"]"
+            }
+          },
+          {
+            "ex_id": "74e1394ff2ac35f021fe112c62cf42e8ec19c0ea",
+            "sv": "Det är en populär plats att bada och lägga till med båten.",
+            "en": "It is a popular place to bathe and to dock with the boat.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "att bada"
+              }
+            ],
+            "gloss": "bada = to bathe, to go swimming",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lickershamn",
+              "text_url": "https://sv.wikipedia.org/wiki/Lickershamn",
+              "sentence_id": "a6562ac9",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"bada\"]"
+            }
+          },
+          {
+            "ex_id": "ae1cc784b4a2fb1f608f200da9bab36ed45a1780",
+            "sv": "Under många år var det förbjudet att bada i Kyrksjön, men nu är det åter tillåtet.",
+            "en": "For many years it was forbidden to bathe in Kyrksjön, but now it is allowed again.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "att bada"
+              }
+            ],
+            "gloss": "bada = to bathe, to go swimming",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kyrksjön, Bromma",
+              "text_url": "https://sv.wikipedia.org/wiki/Kyrksj%C3%B6n,_Bromma",
+              "sentence_id": "5e8e6963",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"bada\"]"
+            }
+          },
+          {
+            "ex_id": "0ed6ff093b25a501400b407346d54b752563cdcd",
+            "sv": "Grevinnan föredrog att bada i ett träbadkar som måste fyllas manuellt med hinkar.",
+            "en": "The countess preferred to bathe in a wooden bathtub that had to be filled by hand with buckets.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "Grevinnan"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "ett träbadkar"
+              }
+            ],
+            "gloss": "bada = to bathe, to go swimming",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hallwylska palatsets interiör",
+              "text_url": "https://sv.wikipedia.org/wiki/Hallwylska_palatsets_interi%C3%B6r",
+              "sentence_id": "201bc3b2",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"bada\"]"
+            }
+          },
+          {
+            "ex_id": "12313883f668de812feda942d8d44105343171e6",
+            "sv": "Köket fick också fönster in till badrummet så att barnen kunde bada under uppsikt.",
+            "en": "The kitchen also got windows into the bathroom so that the children could bathe under supervision.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "barnen"
+              }
+            ],
+            "gloss": "bada = to bathe, to go swimming",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Baronbackarna",
+              "text_url": "https://sv.wikipedia.org/wiki/Baronbackarna",
+              "sentence_id": "201fd645",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"bada\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈbɑːda",
+      "stress_hint": "Stress on the first syllable: BA-da.",
+      "audio": {
+        "file": "audio/lu_baden.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "bada",
+        "badar",
+        "badade",
+        "badat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

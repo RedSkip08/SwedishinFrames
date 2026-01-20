@@ -19,10 +19,11 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "flickvän",
-      "flickvännen",
-      "flickvänner",
-      "flickvännerna"
+      "en flickvän",
+      "sin flickvän",
+      "hans flickvän",
+      "före detta flickvän",
+      "flickvän till"
     ],
     "english_equivalent_en": "girlfriend",
     "morphology_sv": {
@@ -32,7 +33,7 @@
         "def_sg": "flickvännen",
         "indef_pl": "flickvänner",
         "def_pl": "flickvännerna",
-        "note_en": ""
+        "note_en": "Often used with possessives: min/sin/hans flickvän."
       },
       "verb": {
         "infinitive": null,
@@ -70,77 +71,83 @@
         "meaning_en": "girlfriends (plural)"
       },
       {
-        "word": "före detta flickvän",
+        "word": "exflickvän",
+        "type_en": "noun",
+        "meaning_en": "ex-girlfriend"
+      },
+      {
+        "word": "flickväns",
         "type_en": "other",
-        "meaning_en": "former girlfriend"
+        "meaning_en": "girlfriend’s (genitive -s)"
       }
     ],
     "synonyms_sv": [
+      "tjej",
       "partner",
-      "tjej"
+      "sambo",
+      "fästmö"
     ],
-    "antonyms_sv": [
-      "pojkvän"
-    ],
+    "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_dating",
+        "frame_name_en": "Dating",
+        "frame_slug": "dating",
         "sense_id": "lu_freundin_die:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_freundin_die:1",
-        "frame_id": "frame_personal_relationship",
-        "meaning_en": "a female romantic partner of someone",
+        "frame_id": "frame_dating",
+        "meaning_en": "a female romantic partner in a relationship (not married).",
         "how_to_use_en": [
-          "Use for someone’s romantic partner who is a woman.",
-          "Often used with possessives: min/sin/hans flickvän."
+          "Use for someone’s female partner: en/min/sin/hans flickvän.",
+          "Often followed by a name: sin flickvän + Name.",
+          "Can be used with relationship words like vara tillsammans."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "X har en flickvän",
             "meaning_en": "X has a girlfriend",
-            "note_en": ""
+            "note_en": "Often with time adverbs like redan."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "X har redan en flickvän",
-            "meaning_en": "X already has a girlfriend",
-            "note_en": ""
+            "pattern": "X med sin flickvän (Namn)",
+            "meaning_en": "X with their girlfriend",
+            "note_en": "Common in biographies and descriptions."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "X (gör något) med sin flickvän (Namn)",
-            "meaning_en": "X does something with their girlfriend",
-            "note_en": "Often with sin + name/apposition."
+            "pattern": "X har varit tillsammans med sin flickvän (sedan + tid)",
+            "meaning_en": "X has been together with girlfriend",
+            "note_en": "Used to say how long the relationship has lasted."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "X gifter sig med sin flickvän",
-            "meaning_en": "X marries their girlfriend",
-            "note_en": ""
+            "pattern": "X gifte sig med sin flickvän",
+            "meaning_en": "X married their girlfriend",
+            "note_en": "Describes a change of relationship status."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "X har varit tillsammans med sin flickvän sedan ÅR",
-            "meaning_en": "X has been with their girlfriend since YEAR",
-            "note_en": ""
+            "pattern": "X var flickvän till Y",
+            "meaning_en": "X was Y’s girlfriend",
+            "note_en": "More formal; often used in written texts."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *flickvän* for a female friend (not romantic).",
-            "fix": "Use vän or tjejkompis instead.",
+            "error": "Using flickvän for any female friend.",
+            "fix": "Use vän or kompis for a non-romantic friend.",
             "explain_en": "flickvän normally means a romantic partner, not just a friend."
           },
           {
-            "error": "Mixing up sin/hans/hennes before flickvän.",
-            "fix": "Use sin when the subject owns the relationship; otherwise hans/hennes.",
-            "explain_en": "sin refers back to the subject; hans/hennes refers to someone else."
+            "error": "Mixing up sin and hans/hennes.",
+            "fix": "Use sin when the subject owns the girlfriend; otherwise hans/hennes.",
+            "explain_en": "Swedish uses reflexive possessives (sin/sitt/sina) when it refers back to the subject."
           }
         ],
         "required_example_count": 10,
@@ -149,7 +156,7 @@
             "ex_id": "a2ba9b247d9ccae0893bb4b32323582f319066b4",
             "sv": "Brière skulle ha gift sig med sin flickvän Michele bara tre veckor senare.",
             "en": "Brière would have married his girlfriend Michele only three weeks later.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
@@ -158,6 +165,10 @@
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "sin flickvän Michele"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "bara tre veckor senare"
               }
             ],
             "gloss": "girlfriend",
@@ -171,7 +182,7 @@
               "text_title": "Michel Brière",
               "text_url": "https://sv.wikipedia.org/wiki/Michel_Bri%C3%A8re",
               "sentence_id": "15ec2264",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"flickvän\"]"
             }
           },
@@ -179,7 +190,7 @@
             "ex_id": "4968110d5993db971521d2eb5591447ec9c14802",
             "sv": "Mike har dock redan en flickvän, Joanna (Olivia Munn).",
             "en": "However, Mike already has a girlfriend, Joanna (Olivia Munn).",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
@@ -188,6 +199,10 @@
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "en flickvän, Joanna (Olivia Munn)"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "redan"
               }
             ],
             "gloss": "girlfriend",
@@ -201,15 +216,15 @@
               "text_title": "Magic Mike",
               "text_url": "https://sv.wikipedia.org/wiki/Magic_Mike",
               "sentence_id": "2a4e1ea9",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"flickvän\"]"
             }
           },
           {
             "ex_id": "84133077a548a9dadcf924f9f1de3930af568ae9",
             "sv": "Dale bor sedan 2007 i Wien, Österrike, tillsammans med sin flickvän Katharina.",
-            "en": "Dale has lived in Vienna, Austria since 2007, together with his girlfriend Katharina.",
-            "frame_id": "frame_personal_relationship",
+            "en": "Dale has lived since 2007 in Vienna, Austria, together with his girlfriend Katharina.",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
@@ -218,6 +233,14 @@
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "sin flickvän Katharina"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "sedan 2007"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Wien, Österrike"
               }
             ],
             "gloss": "girlfriend",
@@ -231,127 +254,7 @@
               "text_title": "Dominic Dale",
               "text_url": "https://sv.wikipedia.org/wiki/Dominic_Dale",
               "sentence_id": "d8870f22",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"flickvän\"]"
-            }
-          },
-          {
-            "ex_id": "976dd5d686e81f1ac55fd8ea93bfb4bab63fd03c",
-            "sv": "Wright gifte sig med sin flickvän Molly Beers i december 2013.",
-            "en": "Wright married his girlfriend Molly Beers in December 2013.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Wright"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "sin flickvän Molly Beers"
-              }
-            ],
-            "gloss": "girlfriend",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "David Wright (basebollspelare)",
-              "text_url": "https://sv.wikipedia.org/wiki/David_Wright_(basebollspelare)",
-              "sentence_id": "cf93b194",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"flickvän\"]"
-            }
-          },
-          {
-            "ex_id": "612ddfb250a30325d10578304ccc38c4f25c4da6",
-            "sv": "Barry Hawkins har varit tillsammans med sin flickvän Tara sedan 2001.",
-            "en": "Barry Hawkins has been together with his girlfriend Tara since 2001.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Barry Hawkins"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "sin flickvän Tara"
-              }
-            ],
-            "gloss": "girlfriend",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Barry Hawkins",
-              "text_url": "https://sv.wikipedia.org/wiki/Barry_Hawkins",
-              "sentence_id": "aa9bdcd7",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"flickvän\"]"
-            }
-          },
-          {
-            "ex_id": "2af369d90d160bfb90057b6f05d7e0b039253ae7",
-            "sv": "Med sin före detta flickvän Linda Lundin har han två barn.",
-            "en": "With his former girlfriend Linda Lundin, he has two children.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "sin före detta flickvän Linda Lundin"
-              }
-            ],
-            "gloss": "girlfriend",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Robert Andersson (dokusåpadeltagare)",
-              "text_url": "https://sv.wikipedia.org/wiki/Robert_Andersson_(dokus%C3%A5padeltagare)",
-              "sentence_id": "6ad3a191",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"flickvän\"]"
-            }
-          },
-          {
-            "ex_id": "f5ade6c4b4242be6c5a8d10697d3cee76e420931",
-            "sv": "Han saknar också en flickvän och funderar på varför han inte har en.",
-            "en": "He also misses having a girlfriend and wonders why he does not have one.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Han"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "en flickvän"
-              }
-            ],
-            "gloss": "girlfriend",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Naiv. Super.",
-              "text_url": "https://sv.wikipedia.org/wiki/Naiv._Super.",
-              "sentence_id": "716dc0ed",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"flickvän\"]"
             }
           },
@@ -359,15 +262,19 @@
             "ex_id": "052d87656a6e1748c77267f6a7283698fede2f64",
             "sv": "Roro har inte berättat för familjen att han redan har en flickvän.",
             "en": "Roro has not told the family that he already has a girlfriend.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "han"
+                "span_sv": "Roro"
               },
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "en flickvän"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "redan"
               }
             ],
             "gloss": "girlfriend",
@@ -381,7 +288,7 @@
               "text_title": "Jalla! Jalla!",
               "text_url": "https://sv.wikipedia.org/wiki/Jalla!_Jalla!",
               "sentence_id": "8181f168",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"flickvän\"]"
             }
           },
@@ -389,15 +296,19 @@
             "ex_id": "2bb09c5d0be182d6349ee2ca47095d9ae1710948",
             "sv": "Hans flickvän, advokaten Beth, får nog och gör slut med honom.",
             "en": "His girlfriend, the lawyer Beth, has had enough and breaks up with him.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_dating",
             "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Hans flickvän, advokaten Beth"
+              },
               {
                 "fe_id": "fe_partner_1",
                 "span_sv": "honom"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Hans flickvän, advokaten Beth"
+                "fe_id": "fe_stage",
+                "span_sv": "gör slut"
               }
             ],
             "gloss": "girlfriend",
@@ -411,23 +322,27 @@
               "text_title": "Role Models",
               "text_url": "https://sv.wikipedia.org/wiki/Role_Models",
               "sentence_id": "bfc3d195",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"flickvän\"]"
             }
           },
           {
-            "ex_id": "6917c8bbdf1ad414d3eb724a1e2e968ee9f34d3b",
-            "sv": "En flickvän till honom sa att han hade ögon som en katt.",
-            "en": "A girlfriend of his said that he had eyes like a cat.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "f5ade6c4b4242be6c5a8d10697d3cee76e420931",
+            "sv": "Han saknar också en flickvän och funderar på varför han inte har en.",
+            "en": "He also misses having a girlfriend and thinks about why he does not have one.",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "honom"
+                "span_sv": "Han"
               },
               {
                 "fe_id": "fe_partner_2",
-                "span_sv": "En flickvän"
+                "span_sv": "en flickvän"
+              },
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "varför han inte har en"
               }
             ],
             "gloss": "girlfriend",
@@ -438,10 +353,146 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Cat Stevens",
-              "text_url": "https://sv.wikipedia.org/wiki/Cat_Stevens",
-              "sentence_id": "321f1f90",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "text_title": "Naiv. Super.",
+              "text_url": "https://sv.wikipedia.org/wiki/Naiv._Super.",
+              "sentence_id": "716dc0ed",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"flickvän\"]"
+            }
+          },
+          {
+            "ex_id": "612ddfb250a30325d10578304ccc38c4f25c4da6",
+            "sv": "Barry Hawkins har varit tillsammans med sin flickvän Tara sedan 2001.",
+            "en": "Barry Hawkins has been together with his girlfriend Tara since 2001.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Barry Hawkins"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin flickvän Tara"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "sedan 2001"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "varit tillsammans"
+              }
+            ],
+            "gloss": "girlfriend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Barry Hawkins",
+              "text_url": "https://sv.wikipedia.org/wiki/Barry_Hawkins",
+              "sentence_id": "aa9bdcd7",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"flickvän\"]"
+            }
+          },
+          {
+            "ex_id": "c88f8e64214e063d016ad5a22570a6c5884e039e",
+            "sv": "Den 8 december 2007 gifte sig Dorough med sin flickvän Leigh Boniello.",
+            "en": "On 8 December 2007, Dorough married his girlfriend Leigh Boniello.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Den 8 december 2007"
+              },
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Dorough"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin flickvän Leigh Boniello"
+              }
+            ],
+            "gloss": "girlfriend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Howie Dorough",
+              "text_url": "https://sv.wikipedia.org/wiki/Howie_Dorough",
+              "sentence_id": "b6e02b4d",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"flickvän\"]"
+            }
+          },
+          {
+            "ex_id": "2af369d90d160bfb90057b6f05d7e0b039253ae7",
+            "sv": "Med sin före detta flickvän Linda Lundin har han två barn.",
+            "en": "With his former girlfriend Linda Lundin, he has two children.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin före detta flickvän Linda Lundin"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "före detta"
+              }
+            ],
+            "gloss": "girlfriend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Robert Andersson (dokusåpadeltagare)",
+              "text_url": "https://sv.wikipedia.org/wiki/Robert_Andersson_(dokus%C3%A5padeltagare)",
+              "sentence_id": "6ad3a191",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"flickvän\"]"
+            }
+          },
+          {
+            "ex_id": "2cefbfe43f63a229b6ec55aeb59e3cbb8b163a5c",
+            "sv": "Stevens var flickvän till den i dag avlidne Kiss-trummisen Eric Carr.",
+            "en": "Stevens was girlfriend to the now deceased Kiss drummer Eric Carr.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Stevens"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Eric Carr"
+              }
+            ],
+            "gloss": "girlfriend",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Carrie Stevens",
+              "text_url": "https://sv.wikipedia.org/wiki/Carrie_Stevens",
+              "sentence_id": "ae8a2de6",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"flickvän\"]"
             }
           }
@@ -460,7 +511,7 @@
     },
     "morphology": {
       "principal_parts": [
-        "flickvän (en)",
+        "flickvän",
         "flickvännen",
         "flickvänner",
         "flickvännerna"

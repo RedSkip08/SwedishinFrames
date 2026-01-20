@@ -1,0 +1,498 @@
+{
+  "lexical_unit": {
+    "id": "lu_note_die",
+    "source_de": {
+      "lu_de_raw": "Note, die",
+      "lu_de_normalized": "Note",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "betyg",
+    "display_sv": "betyg",
+    "name_sv": "betyg",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "ett betyg",
+      "betyget",
+      "betyg",
+      "betygen"
+    ],
+    "english_equivalent_en": "grade",
+    "morphology_sv": {
+      "noun": {
+        "gender": "ett",
+        "indef_sg": "betyg",
+        "def_sg": "betyget",
+        "indef_pl": "betyg",
+        "def_pl": "betygen",
+        "note_en": "Same form in singular and plural: ett betyg, flera betyg."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "skolbetyg",
+        "type_en": "noun",
+        "meaning_en": "school grade"
+      },
+      {
+        "word": "betygssystem",
+        "type_en": "noun",
+        "meaning_en": "grading system"
+      },
+      {
+        "word": "betygskriterier",
+        "type_en": "noun",
+        "meaning_en": "grading criteria"
+      },
+      {
+        "word": "betygsätta",
+        "type_en": "verb",
+        "meaning_en": "to grade; give a mark"
+      },
+      {
+        "word": "betygsättning",
+        "type_en": "noun",
+        "meaning_en": "grading (the process)"
+      }
+    ],
+    "synonyms_sv": [
+      "vitsord",
+      "skolbetyg",
+      "omdöme"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_note_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_note_die:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a mark showing how well someone did in a school subject or course",
+        "how_to_use_en": [
+          "Use for school/university results (a mark/grade).",
+          "Often used in plural when talking about someone’s overall results.",
+          "Common with adjectives like bra/dåliga and with a subject: betyg i + ämne."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "få (ADJ) betyg",
+            "meaning_en": "get (good/bad) grades",
+            "note_en": "Used about a student’s results."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "ge någon (ADJ) betyg",
+            "meaning_en": "give someone grades",
+            "note_en": "Typically a teacher gives grades."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "betyg i + ämne",
+            "meaning_en": "grade in a subject",
+            "note_en": "Names the subject area."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "utan betyg",
+            "meaning_en": "without grades",
+            "note_en": "Used when someone lacks grades in a subject."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "baserat på / på grundval av betyg",
+            "meaning_en": "based on grades",
+            "note_en": "Common in admissions/selection contexts."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using betyg for a teacher’s written comment only.",
+            "fix": "Use omdöme for a comment; use betyg for a grade/mark.",
+            "explain_en": "In these examples, betyg is a formal grade (e.g., E/F), not just feedback."
+          },
+          {
+            "error": "Treating betyg as only plural.",
+            "fix": "Use singular for one grade: ett betyg; plural: flera betyg.",
+            "explain_en": "Swedish uses the same base form in singular and plural, but the article shows singular."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "14574f3af1f0029dbd6ba305cef11891b86ea74c",
+            "sv": "Man erbjuder även introduktioner för elever utan betyg i Svenska som andraspråk.",
+            "en": "They also offer introductions for students without grades in Swedish as a second language.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "elever"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "betyg"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "Svenska som andraspråk"
+              }
+            ],
+            "gloss": "grade (school mark)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Andreasgymnasiet",
+              "text_url": "https://sv.wikipedia.org/wiki/Andreasgymnasiet",
+              "sentence_id": "3e958505",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"betyg\"]"
+            }
+          },
+          {
+            "ex_id": "96c7365a59a24820f47a7720d888ff7eb6361852",
+            "sv": "På läroverket fick han dåliga betyg och blev befriad från gymnastiklektionerna.",
+            "en": "At the school he got bad grades and was excused from the gym lessons.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "läroverket"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "dåliga betyg"
+              }
+            ],
+            "gloss": "grade (school mark)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ernst-Hugo Järegård",
+              "text_url": "https://sv.wikipedia.org/wiki/Ernst-Hugo_J%C3%A4reg%C3%A5rd",
+              "sentence_id": "db287ede",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"betyg\"]"
+            }
+          },
+          {
+            "ex_id": "bfda8638d77ac3a6b83722aa373d181c9744797b",
+            "sv": "Denne rättar uppsatsen och ger Mikaela bra betyg men kommenterar inte uppsatsen i övrigt.",
+            "en": "This person corrects the essay and gives Mikaela good grades but does not comment on the essay otherwise.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "Denne"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Mikaela"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "bra betyg"
+              },
+              {
+                "fe_id": "fe_material",
+                "span_sv": "uppsatsen"
+              }
+            ],
+            "gloss": "grade (school mark)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Svart Lucia",
+              "text_url": "https://sv.wikipedia.org/wiki/Svart_Lucia",
+              "sentence_id": "8918fe6f",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"betyg\"]"
+            }
+          },
+          {
+            "ex_id": "c63712d270af7613ae458479819304868f759374",
+            "sv": "Wolfman lämnade skolan med dåliga betyg och utbildade sig till rörmokare.",
+            "en": "Wolfman left school with bad grades and trained to become a plumber.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Wolfman"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skolan"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "dåliga betyg"
+              }
+            ],
+            "gloss": "grade (school mark)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Peter Wolfe",
+              "text_url": "https://sv.wikipedia.org/wiki/Peter_Wolfe",
+              "sentence_id": "e006f662",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"betyg\"]"
+            }
+          },
+          {
+            "ex_id": "bf1776b96a493e10a5bf26bf396edd19b642512f",
+            "sv": "Mina betyg var för dåliga, så jag har försökt läsa upp dom på kvällskurs under det här året.",
+            "en": "My grades were too bad, so I have tried to improve them in an evening course during this year.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "jag"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "Mina betyg"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "kvällskurs"
+              }
+            ],
+            "gloss": "grade (school mark)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Safe European Home",
+              "text_url": "https://sv.wikipedia.org/wiki/Safe_European_Home",
+              "sentence_id": "b6d2a5e6",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"läsa\"]"
+            }
+          },
+          {
+            "ex_id": "56277711d4bbe72544eab95aa9e1d32583397116",
+            "sv": "Idag ges betyg E eller F vilket innebär godkänd eller ej godkänd.",
+            "en": "Today grades E or F are given, which means pass or not pass.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "betyg E eller F"
+              }
+            ],
+            "gloss": "grade (school mark)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gymnasiearbetet",
+              "text_url": "https://sv.wikipedia.org/wiki/Gymnasiearbetet",
+              "sentence_id": "ea7df96b",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"betyg\"]"
+            }
+          },
+          {
+            "ex_id": "7551510bfe30be9706c80d4248044eeba8f68a1b",
+            "sv": "Eleven får då ett nytt betyg i ämnet som ersätter eventuellt tidigare betyg.",
+            "en": "The student then gets a new grade in the subject that replaces any earlier grade.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Eleven"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "ett nytt betyg"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "ämnet"
+              }
+            ],
+            "gloss": "grade (school mark)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lovskola",
+              "text_url": "https://sv.wikipedia.org/wiki/Lovskola",
+              "sentence_id": "19d985f5",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"betyg\"]"
+            }
+          },
+          {
+            "ex_id": "0caf23a1e10bb67dfe51aa516c565842466d1f94",
+            "sv": "Antagningen sker antingen baserat på betyg eller på resultat av antagningsprovet, som ordnas av de deltagande universiteten.",
+            "en": "Admission happens either based on grades or on results of the entrance test, which is arranged by the participating universities.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "betyg"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "de deltagande universiteten"
+              }
+            ],
+            "gloss": "grade (school mark)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Diplomingenjörs- och arkitektutbildningens gemensamma antagning",
+              "text_url": "https://sv.wikipedia.org/wiki/Diplomingenj%C3%B6rs-_och_arkitektutbildningens_gemensamma_antagning",
+              "sentence_id": "108eb976",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"betyg\"]"
+            }
+          },
+          {
+            "ex_id": "85434e4c188c5a2b704c6e8784d97fcb86eb1536",
+            "sv": "Domstolsverket tillsätter notarier i huvudsak på grundval av betyg från juristprogrammet.",
+            "en": "The National Courts Administration appoints clerks mainly on the basis of grades from the law program.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "betyg"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "juristprogrammet"
+              }
+            ],
+            "gloss": "grade (school mark)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Notarie",
+              "text_url": "https://sv.wikipedia.org/wiki/Notarie",
+              "sentence_id": "b40826b8",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"betyg\"]"
+            }
+          },
+          {
+            "ex_id": "f84af2f95985a5b78c413acb9bc4ba904b1b740a",
+            "sv": "Det ges inga betyg och traditionella klasser och klassrum saknas också.",
+            "en": "No grades are given, and traditional classes and classrooms are also missing.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "inga betyg"
+              }
+            ],
+            "gloss": "grade (school mark)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sudbury Valley School",
+              "text_url": "https://sv.wikipedia.org/wiki/Sudbury_Valley_School",
+              "sentence_id": "6f2d8c6c",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"betyg\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "bɛˈtyːɡ",
+      "stress_hint": "Stress on the second syllable: be-TYG."
+    },
+    "morphology": {
+      "principal_parts": [
+        "betyg (ett)",
+        "betyget",
+        "betyg",
+        "betygen"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

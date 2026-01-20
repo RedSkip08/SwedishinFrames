@@ -1,0 +1,461 @@
+{
+  "lexical_unit": {
+    "id": "lu_waschen",
+    "source_de": {
+      "lu_de_raw": "waschen",
+      "lu_de_normalized": "waschen",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "tvätta",
+    "display_sv": "tvätta",
+    "name_sv": "tvätta",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "tvätta",
+      "tvättar",
+      "tvättade",
+      "tvättat",
+      "tvätta sig",
+      "tvätta bort"
+    ],
+    "english_equivalent_en": "wash",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "tvätta",
+        "present": "tvättar",
+        "past": "tvättade",
+        "supine": "tvättat",
+        "imperative": "tvätta",
+        "present_participle": "tvättande",
+        "past_participle": "tvättad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "tvätt",
+        "type_en": "noun",
+        "meaning_en": "laundry; washing"
+      },
+      {
+        "word": "tvättmaskin",
+        "type_en": "noun",
+        "meaning_en": "washing machine"
+      },
+      {
+        "word": "tvättmedel",
+        "type_en": "noun",
+        "meaning_en": "detergent"
+      },
+      {
+        "word": "handtvätt",
+        "type_en": "noun",
+        "meaning_en": "hand washing; wash by hand"
+      },
+      {
+        "word": "tvättbar",
+        "type_en": "adjective",
+        "meaning_en": "washable"
+      },
+      {
+        "word": "tvätta bort",
+        "type_en": "verb",
+        "meaning_en": "wash off; remove by washing"
+      }
+    ],
+    "synonyms_sv": [
+      "tvaga",
+      "rengöra",
+      "skölja"
+    ],
+    "antonyms_sv": [
+      "smutsa ner"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_waschen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_waschen:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "clean something or someone with water, often with soap or detergent.",
+        "how_to_use_en": [
+          "Use with a direct object: tvätta händerna, tvätta kläder.",
+          "Use tvätta sig for washing yourself.",
+          "Use tvätta bort for removing something by washing."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "tvätta + Body_part",
+            "meaning_en": "wash a body part",
+            "note_en": "Common for hygiene routines (e.g., händerna)."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "tvätta + Patient",
+            "meaning_en": "wash/clean something",
+            "note_en": "Used for laundry and cleaning objects (e.g., kläder, blöjor, fönster)."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "tvätta sig",
+            "meaning_en": "wash yourself",
+            "note_en": "Reflexive form; can be followed by om + body part."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "tvätta sig om + Body_part",
+            "meaning_en": "wash yourself on a body part",
+            "note_en": "Often used with ansikte, händer."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "tvätta bort + Patient",
+            "meaning_en": "wash off/remove",
+            "note_en": "Focus on getting something away (e.g., a substance)."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *tvätta* without an object when you mean washing yourself.",
+            "fix": "Use reflexive: tvätta sig.",
+            "explain_en": "Tvätta usually needs something/someone as the thing being washed; for yourself, add sig."
+          },
+          {
+            "error": "Mixing up tvätta bort with just tvätta.",
+            "fix": "Use tvätta bort when the focus is removing a substance/stain.",
+            "explain_en": "Tvätta bort means 'wash off/remove', not just 'wash/clean'."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "20bf7f0b5abed80db2620bb8792f7b923b7b4fea",
+            "sv": "Det är även viktigt att tvätta händerna och hålla rent där fåglarna vistas.",
+            "en": "It is also important to wash your hands and keep clean where the birds are.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "händerna"
+              }
+            ],
+            "gloss": "tvätta = wash (clean with water/soap)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Papegojsjuka",
+              "text_url": "https://sv.wikipedia.org/wiki/Papegojsjuka",
+              "sentence_id": "e3d65d72",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvätta\"]"
+            }
+          },
+          {
+            "ex_id": "5b92da4fec3d8f4d93ded5bb190a2c1bb5779932",
+            "sv": "Det är speciellt viktigt att tvätta händerna efter toalettbesök och före måltid.",
+            "en": "It is especially important to wash your hands after a toilet visit and before a meal.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "händerna"
+              }
+            ],
+            "gloss": "tvätta = wash",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Vinterkräksjuka",
+              "text_url": "https://sv.wikipedia.org/wiki/Vinterkr%C3%A4ksjuka",
+              "sentence_id": "361ce0f6",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvätta\"]"
+            }
+          },
+          {
+            "ex_id": "f0a10568743aa6694be0d85ed43f1d859426e3d7",
+            "sv": "Att tvätta på 40 grader anses inte göra blöjorna helt rena.",
+            "en": "Washing at 40 degrees is considered not to make the diapers completely clean.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "blöjorna"
+              }
+            ],
+            "gloss": "tvätta = wash (launder)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tygblöjor",
+              "text_url": "https://sv.wikipedia.org/wiki/Tygbl%C3%B6jor",
+              "sentence_id": "5cce3d18",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvätta\"]"
+            }
+          },
+          {
+            "ex_id": "8aae4b32e6ec469a68e644fc371812de6176594b",
+            "sv": "En välutrustad gästhamn har toaletter och möjlighet att tvätta kläder, parkeringsplatser för fordon och båtsläp.",
+            "en": "A well-equipped guest harbor has toilets and the possibility to wash clothes, parking places for vehicles and boat trailers.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "kläder"
+              }
+            ],
+            "gloss": "tvätta = wash (launder)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Småbåtshamn",
+              "text_url": "https://sv.wikipedia.org/wiki/Sm%C3%A5b%C3%A5tshamn",
+              "sentence_id": "a7d51c14",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvätta\"]"
+            }
+          },
+          {
+            "ex_id": "e2a90df00fb3a40f50d7ef5261ca6e6eb2a2761a",
+            "sv": "Innan kattungarna lär sig att tvätta sig själva är det mammans uppgift.",
+            "en": "Before the kittens learn to wash themselves, it is the mother's task.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "kattungarna"
+              }
+            ],
+            "gloss": "tvätta sig = wash oneself",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Katt",
+              "text_url": "https://sv.wikipedia.org/wiki/Katt",
+              "sentence_id": "8e1b9342",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvätta\"]"
+            }
+          },
+          {
+            "ex_id": "a2e4be68c481e4f1437188ed7919cef43375003a",
+            "sv": "Tvättfatet togs fram när man skulle tvätta sig om ansikte och händer.",
+            "en": "The washbasin was brought out when one was going to wash oneself on the face and hands.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "ansikte och händer"
+              }
+            ],
+            "gloss": "tvätta sig = wash oneself",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lavoar",
+              "text_url": "https://sv.wikipedia.org/wiki/Lavoar",
+              "sentence_id": "b40e2c61",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvätta\"]"
+            }
+          },
+          {
+            "ex_id": "b396750e73d7e2b75b1782a8b7104a5de2e2f228",
+            "sv": "- Det är lite som att tvätta en röd tröja tillsammans med vita.",
+            "en": "It is a bit like washing a red sweater together with white ones.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "en röd tröja"
+              }
+            ],
+            "gloss": "tvätta = wash (launder)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "NDM-1",
+              "text_url": "https://sv.wikipedia.org/wiki/NDM-1",
+              "sentence_id": "5e890c12",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvätta\"]"
+            }
+          },
+          {
+            "ex_id": "03c556d4ceeae71937a677d5ec74f2e6fe211814",
+            "sv": "Ämnet är grönt och illaluktande men går lätt att tvätta bort.",
+            "en": "The substance is green and bad-smelling, but it is easy to wash off.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "Ämnet"
+              }
+            ],
+            "gloss": "tvätta bort = wash off/remove by washing",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lama",
+              "text_url": "https://sv.wikipedia.org/wiki/Lama",
+              "sentence_id": "c8228013",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvätta\"]"
+            }
+          },
+          {
+            "ex_id": "520d65d649414e6ddb714aa9d467b4fc3c47b247",
+            "sv": "Kalle Anka jobbar som fönsterputsare och är igång med att tvätta alla fönster på en skyskrapa.",
+            "en": "Donald Duck works as a window cleaner and is busy washing all the windows on a skyscraper.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "Kalle Anka"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "alla fönster"
+              }
+            ],
+            "gloss": "tvätta = wash/clean",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kalle Anka som fönsterputsare",
+              "text_url": "https://sv.wikipedia.org/wiki/Kalle_Anka_som_f%C3%B6nsterputsare",
+              "sentence_id": "428b1523",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvätta\"]"
+            }
+          },
+          {
+            "ex_id": "10a21f1f1cd0a980d69f03a5de11edcb9038d021",
+            "sv": "• Vi kan inte leva på att tvätta skjortor åt varandra.",
+            "en": "We cannot live on washing shirts for each other.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "Vi"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "skjortor"
+              }
+            ],
+            "gloss": "tvätta = wash (launder)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hans Werthén",
+              "text_url": "https://sv.wikipedia.org/wiki/Hans_Werth%C3%A9n",
+              "sentence_id": "bb95fdd3",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tvätta\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈtvɛtːa",
+      "stress_hint": "Stress on the first syllable: TVÄT-ta.",
+      "audio": {
+        "file": "audio/lu_waschen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "tvätta",
+        "tvättar",
+        "tvättade",
+        "tvättat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

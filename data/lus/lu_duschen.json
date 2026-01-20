@@ -1,0 +1,364 @@
+{
+  "lexical_unit": {
+    "id": "lu_duschen",
+    "source_de": {
+      "lu_de_raw": "duschen",
+      "lu_de_normalized": "duschen",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "duscha",
+    "display_sv": "duscha",
+    "name_sv": "duscha",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "duscha",
+      "duschar",
+      "duschade",
+      "duschat"
+    ],
+    "english_equivalent_en": "shower",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "duscha",
+        "present": "duschar",
+        "past": "duschade",
+        "supine": "duschat",
+        "imperative": "duscha",
+        "present_participle": "duschande",
+        "past_participle": "duschat",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "dusch",
+        "type_en": "noun",
+        "meaning_en": "a shower (the thing or the act)"
+      },
+      {
+        "word": "duschning",
+        "type_en": "noun",
+        "meaning_en": "showering (the activity)"
+      },
+      {
+        "word": "duschrum",
+        "type_en": "noun",
+        "meaning_en": "shower room"
+      },
+      {
+        "word": "duschvatten",
+        "type_en": "noun",
+        "meaning_en": "shower water"
+      },
+      {
+        "word": "duschbada",
+        "type_en": "verb",
+        "meaning_en": "to shower (bathe under a shower)"
+      }
+    ],
+    "synonyms_sv": [
+      "ta en dusch",
+      "duschbada"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_duschen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_duschen:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "wash your body using water from a shower.",
+        "how_to_use_en": [
+          "Use it for the activity of showering (often as an everyday routine).",
+          "Often used in the infinitive after verbs like få, kunna, behöva."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X duschar",
+            "meaning_en": "X showers",
+            "note_en": "Subject is the person who showers."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "få duscha",
+            "meaning_en": "be allowed to shower",
+            "note_en": "Often used when permission is needed."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "möjlighet att duscha",
+            "meaning_en": "opportunity to shower",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "för att duscha",
+            "meaning_en": "in order to shower",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "rädsla för att duscha",
+            "meaning_en": "fear of showering",
+            "note_en": ""
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *duscha* when you mean “take a bath in a tub”.",
+            "fix": "Use bada (or ta ett bad) for a bath; use duscha for a shower.",
+            "explain_en": "In Swedish, duscha is specifically showering; bada is bathing."
+          },
+          {
+            "error": "Forgetting the infinitive marker in phrases like “fear to shower”.",
+            "fix": "Say rädsla för att duscha.",
+            "explain_en": "After rädsla för, Swedish commonly uses att + infinitive."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "5f3cf685117ff1b97b7c7c1c0fcd9089dd88a8da",
+            "sv": "Efter det fick han duscha för första gången på tre månader.",
+            "en": "After that he was allowed to shower for the first time in three months.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "han"
+              }
+            ],
+            "gloss": "duscha = to shower",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sami al-Hajj",
+              "text_url": "https://sv.wikipedia.org/wiki/Sami_al-Hajj",
+              "sentence_id": "2507ac3a",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"duscha\"]"
+            }
+          },
+          {
+            "ex_id": "6a5d5038223dbf6f162a16c9acf86b39a5f5d691",
+            "sv": "Byn har gemensam tvätt / bastustugan där alla boende har möjlighet att tvätta, basta och duscha.",
+            "en": "The village has a shared laundry / sauna building where all residents have the possibility to wash clothes, use the sauna, and shower.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "alla boende"
+              }
+            ],
+            "gloss": "duscha = to shower",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Parakka",
+              "text_url": "https://sv.wikipedia.org/wiki/Parakka",
+              "sentence_id": "79ef121a",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"duscha\"]"
+            }
+          },
+          {
+            "ex_id": "5f13caf13d7501ae7248a47d595e165577e709c8",
+            "sv": "Efter träningarna bussades spelarna tillbaka till Anfield för att duscha och äta ett gemensamt mål mat.",
+            "en": "After the training sessions the players were taken by bus back to Anfield to shower and eat a shared meal of food.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "spelarna"
+              }
+            ],
+            "gloss": "duscha = to shower",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bill Shankly",
+              "text_url": "https://sv.wikipedia.org/wiki/Bill_Shankly",
+              "sentence_id": "609e8987",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"duscha\"]"
+            }
+          },
+          {
+            "ex_id": "bdc42ea3be9d364782b17a785e245e3f61b95d78",
+            "sv": "Det ligger på munkarnas eget ansvar att duscha, sova, tvätta och göra andra liknande sysslor.",
+            "en": "It is the monks' own responsibility to shower, sleep, wash clothes, and do other similar chores.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "munkarnas"
+              }
+            ],
+            "gloss": "duscha = to shower",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bodhinyana",
+              "text_url": "https://sv.wikipedia.org/wiki/Bodhinyana",
+              "sentence_id": "496cc820",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"duscha\"]"
+            }
+          },
+          {
+            "ex_id": "2463ab18c48d8b44d69d7dc6335569dd51765bfc",
+            "sv": "Det kunde även vara så att personerna fick duscha i början av dagen och sedan bada på eftermiddagen.",
+            "en": "It could also be that the people were allowed to shower at the start of the day and then bathe in the afternoon.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "personerna"
+              }
+            ],
+            "gloss": "duscha = to shower",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Georg Engströms sjukdomsuppfattningar och behandlingsmetoder",
+              "text_url": "https://sv.wikipedia.org/wiki/Georg_Engstr%C3%B6ms_sjukdomsuppfattningar_och_behandlingsmetoder",
+              "sentence_id": "fdbddfbe",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"bada\"]"
+            }
+          },
+          {
+            "ex_id": "1aa4f52c1add3b8228aa67779b304cab483f2562",
+            "sv": "I ovanliga fall kan gymnofobi leda till rädsla för att bada eller duscha.",
+            "en": "In unusual cases, gymnophobia can lead to fear of bathing or showering.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "att bada eller duscha"
+              }
+            ],
+            "gloss": "duscha = to shower",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gymnofobi",
+              "text_url": "https://sv.wikipedia.org/wiki/Gymnofobi",
+              "sentence_id": "587fdcd0",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"bada\"]"
+            }
+          },
+          {
+            "ex_id": "55b6fa2c21194a7dc806be42af5aa1a28d4e99d3",
+            "sv": "Att duscha kräver mindre varmvatten än att bada karbad varför det ofta rekommenderas i vatten- och energibesparande syfte.",
+            "en": "Showering requires less hot water than taking a bath in a bathtub, so it is often recommended to save water and energy.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "Att duscha"
+              }
+            ],
+            "gloss": "duscha = to shower",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Dusch",
+              "text_url": "https://sv.wikipedia.org/wiki/Dusch",
+              "sentence_id": "891e170d",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"bada\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈdɵːɧa",
+      "stress_hint": "Stress on the first syllable: DUS-cha.",
+      "audio": {
+        "file": "audio/lu_duschen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "duscha",
+        "duschar",
+        "duschade",
+        "duschat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

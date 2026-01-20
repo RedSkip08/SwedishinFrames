@@ -20,9 +20,9 @@
     },
     "forms": [
       "en förlovning",
-      "förlovningen",
-      "förlovningar",
-      "förlovningarna"
+      "sin förlovning",
+      "deras förlovning",
+      "åtta års förlovning"
     ],
     "english_equivalent_en": "engagement",
     "morphology_sv": {
@@ -75,76 +75,78 @@
         "meaning_en": "engagement party"
       },
       {
-        "word": "förlovningstid",
-        "type_en": "noun",
-        "meaning_en": "time period of being engaged"
+        "word": "bryta förlovningen",
+        "type_en": "other",
+        "meaning_en": "break off the engagement"
       }
     ],
     "synonyms_sv": [
       "trolovning",
-      "förlovningstid"
+      "fästning"
     ],
-    "antonyms_sv": [],
+    "antonyms_sv": [
+      "skilsmässa"
+    ],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_marriage",
+        "frame_name_en": "Marriage",
+        "frame_slug": "marriage",
         "sense_id": "lu_verlobung_die:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_verlobung_die:1",
-        "frame_id": "frame_personal_relationship",
-        "meaning_en": "a formal agreement between two people to marry in the future",
+        "frame_id": "frame_marriage",
+        "meaning_en": "an agreement between two partners to marry in the future",
         "how_to_use_en": [
-          "Use for the relationship/status before marriage.",
-          "Often used with verbs like tillkännage (announce) or bryta (break off).",
-          "Can be used with a possessive: sin/deras/hennes förlovning."
+          "Use it for the engagement status or the engagement event.",
+          "Often used with possessives: sin/deras förlovning.",
+          "Common with verbs like leda till, tillkännage, fira, bryta."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "en förlovning",
-            "meaning_en": "an engagement",
+            "pattern": "leda till en förlovning",
+            "meaning_en": "result in an engagement",
             "note_en": ""
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "X:s/deras/hennes/hans/sin förlovning",
-            "meaning_en": "someone’s engagement",
-            "note_en": "Often used when announcing or ending it."
+            "pattern": "bryta sin/deras förlovning",
+            "meaning_en": "break off an engagement",
+            "note_en": "Possessive pronouns are common: sin, deras."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "bryta (sin/deras) förlovning",
-            "meaning_en": "break off an engagement",
-            "note_en": ""
+            "pattern": "efter [tid] års förlovning",
+            "meaning_en": "after [time] of engagement",
+            "note_en": "Used to say how long someone was engaged."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "tillkännage/meddela (sin/deras) förlovning",
+            "pattern": "tillkännage [någon/något] förlovning",
             "meaning_en": "announce an engagement",
-            "note_en": ""
+            "note_en": "Often with deras/parets: deras förlovning, parets förlovning."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "förlovning med + person",
-            "meaning_en": "engagement to/with someone",
-            "note_en": "Med introduces the partner."
+            "pattern": "fira sin förlovning (med [person])",
+            "meaning_en": "celebrate an engagement",
+            "note_en": "Can mention the other partner with med."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using förlovning for the wedding itself.",
-            "fix": "Use bröllop or vigsel for the wedding.",
-            "explain_en": "Förlovning is before marriage; bröllop/vigsel is the marriage ceremony."
+            "error": "Using förlovning for a wedding (bröllop/vigsel).",
+            "fix": "Use bröllop or vigsel for the wedding; use förlovning for the period/event before marriage.",
+            "explain_en": "Förlovning is about being engaged, not the marriage ceremony."
           },
           {
             "error": "Saying *göra en förlovning*.",
             "fix": "Say förlova sig or ha en förlovning.",
-            "explain_en": "In Swedish you typically 'förlova sig' (get engaged) rather than 'make an engagement'."
+            "explain_en": "Swedish normally uses the verb förlova sig for the action."
           }
         ],
         "required_example_count": 10,
@@ -153,11 +155,11 @@
             "ex_id": "649320f25895316949f206ab772dedd5c737a396",
             "sv": "De började dejta vilket i sin tur ledde till en förlovning.",
             "en": "They started dating, which in turn led to an engagement.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "De"
+                "fe_id": "fe_event",
+                "span_sv": "en förlovning"
               }
             ],
             "gloss": "engagement",
@@ -171,7 +173,7 @@
               "text_title": "Monica Brown",
               "text_url": "https://sv.wikipedia.org/wiki/Monica_Brown",
               "sentence_id": "cca556bf",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovning\"]"
             }
           },
@@ -179,11 +181,23 @@
             "ex_id": "2c8d85f101dc625af1c0e5a1762f1e9f5cf870b8",
             "sv": "Den 1 mars 2019 meddelade Saucedo och Sandén att de hade brutit sin förlovning.",
             "en": "On 1 March 2019, Saucedo and Sandén announced that they had broken off their engagement.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "Saucedo och Sandén"
+                "fe_id": "fe_time",
+                "span_sv": "Den 1 mars 2019"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Saucedo"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "Sandén"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "sin förlovning"
               }
             ],
             "gloss": "engagement",
@@ -197,19 +211,23 @@
               "text_title": "Danny Saucedo",
               "text_url": "https://sv.wikipedia.org/wiki/Danny_Saucedo",
               "sentence_id": "6cf2b899",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovning\"]"
             }
           },
           {
             "ex_id": "fe207d5b3d30e249acfbdf779a859564fad8f96d",
             "sv": "Hon har just brutit sin förlovning men attraheras av en betjänt, Jean.",
-            "en": "She has just broken off her engagement but is attracted to a servant, Jean.",
-            "frame_id": "frame_personal_relationship",
+            "en": "She has just broken off her engagement, but is attracted to a servant, Jean.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "sin förlovning"
               }
             ],
             "gloss": "engagement",
@@ -223,59 +241,7 @@
               "text_title": "Fröken Julie (film, 1951)",
               "text_url": "https://sv.wikipedia.org/wiki/Fr%C3%B6ken_Julie_(film,_1951)",
               "sentence_id": "0781bf40",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"förlovning\"]"
-            }
-          },
-          {
-            "ex_id": "191ee57c930f7d9c4806235a08f79c3883c33a9f",
-            "sv": "I maj 1922 tillkännagavs deras förlovning och den 13 maj gifte de sig.",
-            "en": "In May 1922 their engagement was announced, and on 13 May they got married.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "de"
-              }
-            ],
-            "gloss": "engagement",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Rudolph Valentino",
-              "text_url": "https://sv.wikipedia.org/wiki/Rudolph_Valentino",
-              "sentence_id": "a2da0efd",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"förlovning\"]"
-            }
-          },
-          {
-            "ex_id": "cb57b32436d51cfeaac2e8c0cb050c27b110433d",
-            "sv": "Parets förlovning tillkännagavs den 15 mars och vigselakten ägde rum i Storkyrkan.",
-            "en": "The couple's engagement was announced on 15 March and the wedding ceremony took place in Storkyrkan.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "Parets"
-              }
-            ],
-            "gloss": "engagement",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Bröllopet mellan prinsessan Ingrid och kronprins Fredrik",
-              "text_url": "https://sv.wikipedia.org/wiki/Br%C3%B6llopet_mellan_prinsessan_Ingrid_och_kronprins_Fredrik",
-              "sentence_id": "a22e74cf",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovning\"]"
             }
           },
@@ -283,15 +249,19 @@
             "ex_id": "88d9c775b4ceed4b7a658485f9abb77351485aa8",
             "sv": "Samma år kunde han gifta sig med Nina Floderus efter åtta års förlovning.",
             "en": "That same year he could marry Nina Floderus after eight years of engagement.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "han"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_spouse_2",
                 "span_sv": "Nina Floderus"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "efter åtta års förlovning"
               }
             ],
             "gloss": "engagement",
@@ -305,7 +275,135 @@
               "text_title": "Ernst Westerlund",
               "text_url": "https://sv.wikipedia.org/wiki/Ernst_Westerlund",
               "sentence_id": "cf96eec9",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"förlovning\"]"
+            }
+          },
+          {
+            "ex_id": "191ee57c930f7d9c4806235a08f79c3883c33a9f",
+            "sv": "I maj 1922 tillkännagavs deras förlovning och den 13 maj gifte de sig.",
+            "en": "In May 1922 their engagement was announced, and on 13 May they got married.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "I maj 1922"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "deras förlovning"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "den 13 maj"
+              }
+            ],
+            "gloss": "engagement",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Rudolph Valentino",
+              "text_url": "https://sv.wikipedia.org/wiki/Rudolph_Valentino",
+              "sentence_id": "a2da0efd",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"förlovning\"]"
+            }
+          },
+          {
+            "ex_id": "cb57b32436d51cfeaac2e8c0cb050c27b110433d",
+            "sv": "Parets förlovning tillkännagavs den 15 mars och vigselakten ägde rum i Storkyrkan.",
+            "en": "The couple's engagement was announced on 15 March, and the wedding ceremony took place in Storkyrkan.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "Parets förlovning"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "den 15 mars"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Storkyrkan"
+              }
+            ],
+            "gloss": "engagement",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bröllopet mellan prinsessan Ingrid och kronprins Fredrik",
+              "text_url": "https://sv.wikipedia.org/wiki/Br%C3%B6llopet_mellan_prinsessan_Ingrid_och_kronprins_Fredrik",
+              "sentence_id": "a22e74cf",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"förlovning\"]"
+            }
+          },
+          {
+            "ex_id": "7664bdc8dcf9f9d5f78df7609b62b5730b0d6a86",
+            "sv": "Revisorn firar sin förlovning med fröken Nord i närvaro av hela pensionatet.",
+            "en": "The auditor celebrates his engagement with Miss Nord in the presence of the whole boarding house.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Revisorn"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "sin förlovning"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "fröken Nord"
+              }
+            ],
+            "gloss": "engagement",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hansen og Hansen",
+              "text_url": "https://sv.wikipedia.org/wiki/Hansen_og_Hansen",
+              "sentence_id": "48b1de4e",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"förlovning\"]"
+            }
+          },
+          {
+            "ex_id": "9bf947c1a4305017d44295b52d83c9bfeb846375",
+            "sv": "Per litar dock på henne och det hela slutar med försoning och förlovning.",
+            "en": "However, Per trusts her, and it all ends with reconciliation and engagement.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_event",
+                "span_sv": "förlovning"
+              }
+            ],
+            "gloss": "engagement",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "En skärgårdsflickas roman",
+              "text_url": "https://sv.wikipedia.org/wiki/En_sk%C3%A4rg%C3%A5rdsflickas_roman",
+              "sentence_id": "239d82bc",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovning\"]"
             }
           },
@@ -313,11 +411,15 @@
             "ex_id": "7c904d57eb277473da6560d37e682d3cbcc4a2c8",
             "sv": "Ett accepterat frieri betraktas vanligen som en förlovning och följs av utbyte av en förlovningsring.",
             "en": "An accepted proposal is usually seen as an engagement and is followed by an exchange of an engagement ring.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_event",
                 "span_sv": "Ett accepterat frieri"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "en förlovning"
               }
             ],
             "gloss": "engagement",
@@ -331,49 +433,23 @@
               "text_title": "Frieri",
               "text_url": "https://sv.wikipedia.org/wiki/Frieri",
               "sentence_id": "532c6842",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovning\"]"
             }
           },
           {
-            "ex_id": "2d0c5a0bd796c80509ec922b079c5a1268d79496",
-            "sv": "Därefter bryter Preston deras förlovning och åker iväg på en affärsresa norrut.",
-            "en": "After that, Preston breaks off their engagement and leaves on a business trip north.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "00a92fbe246e5514eec7afebc168764710a6386c",
+            "sv": "Detta innebär att termen förlovning på senare år fått en ny innebörd.",
+            "en": "This means that the term engagement in recent years has got a new meaning.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Preston"
-              }
-            ],
-            "gloss": "engagement",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Skandalen kring Julie",
-              "text_url": "https://sv.wikipedia.org/wiki/Skandalen_kring_Julie",
-              "sentence_id": "b03772c7",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"förlovning\"]"
-            }
-          },
-          {
-            "ex_id": "8178b3f24cbd3132491cde982ffaebaacd07e9be",
-            "sv": "Angela, som egentligen älskar kapten Buffel, föreslår honom en förlovning.",
-            "en": "Angela, who actually loves Captain Buffel, proposes an engagement to him.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Angela"
+                "fe_id": "fe_relationship",
+                "span_sv": "termen förlovning"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "honom"
+                "fe_id": "fe_time",
+                "span_sv": "på senare år"
               }
             ],
             "gloss": "engagement",
@@ -384,40 +460,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ring på Jeeves!",
-              "text_url": "https://sv.wikipedia.org/wiki/Ring_p%C3%A5_Jeeves!",
-              "sentence_id": "57ead119",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"förlovning\"]"
-            }
-          },
-          {
-            "ex_id": "646b30f19f0cafed34b2eb36c86d3db6623f202b",
-            "sv": "Hennes förlovning med konstnären James Collinson bröts på grund av religiösa meningsskiljaktigheter.",
-            "en": "Her engagement to the artist James Collinson was broken off because of religious disagreements.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Hennes"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "konstnären James Collinson"
-              }
-            ],
-            "gloss": "engagement",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Christina Rossetti",
-              "text_url": "https://sv.wikipedia.org/wiki/Christina_Rossetti",
-              "sentence_id": "d419303b",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "text_title": "Förlovning",
+              "text_url": "https://sv.wikipedia.org/wiki/F%C3%B6rlovning",
+              "sentence_id": "7acd6fa9",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"förlovning\"]"
             }
           }
@@ -425,8 +471,8 @@
       }
     ],
     "pronunciation": {
-      "ipa": "fœrˈlɔːv.nɪŋ",
-      "stress_hint": "Main stress is on -lov-.",
+      "ipa": "fœrˈlɔv.nɪŋ",
+      "stress_hint": "Stress is on the second syllable: för-LOV-ning.",
       "audio": {
         "file": "audio/lu_verlobung_die.mp3",
         "model": "gpt-4o-mini-tts",
@@ -436,7 +482,10 @@
     },
     "morphology": {
       "principal_parts": [
-        "förlovning (noun)"
+        "förlovning (en)",
+        "förlovningen",
+        "förlovningar",
+        "förlovningarna"
       ],
       "particle_or_reflexive": null
     }

@@ -8,7 +8,7 @@
         "der Ehemann",
         "die Ehefrau"
       ],
-      "pos_de": ""
+      "pos_de": "noun"
     },
     "lu_type": "single",
     "lemma_sv": "makar",
@@ -22,17 +22,20 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "makar"
+      "maka",
+      "make",
+      "makar",
+      "makarna"
     ],
     "english_equivalent_en": "spouses",
     "morphology_sv": {
       "noun": {
-        "gender": null,
-        "indef_sg": "make/maka",
-        "def_sg": null,
+        "gender": "en",
+        "indef_sg": "make",
+        "def_sg": "maken",
         "indef_pl": "makar",
-        "def_pl": null,
-        "note_en": "Makar is plural; the singular is make (male) or maka (female)."
+        "def_pl": "makarna",
+        "note_en": "Often used in plural (makar) to mean two married partners; singular is make (male spouse)."
       },
       "verb": {
         "infinitive": null,
@@ -55,48 +58,58 @@
     },
     "derived_words_sv": [
       {
-        "word": "make",
-        "type_en": "noun",
-        "meaning_en": "husband (male spouse)"
-      },
-      {
         "word": "maka",
         "type_en": "noun",
-        "meaning_en": "wife (female spouse)"
+        "meaning_en": "wife; female spouse"
       },
       {
-        "word": "makar emellan",
-        "type_en": "other",
-        "meaning_en": "between spouses"
+        "word": "make",
+        "type_en": "noun",
+        "meaning_en": "husband; male spouse"
       },
       {
-        "word": "makars",
-        "type_en": "other",
-        "meaning_en": "spouses’ (genitive plural)"
+        "word": "äktenskap",
+        "type_en": "noun",
+        "meaning_en": "marriage"
+      },
+      {
+        "word": "äktenskaplig",
+        "type_en": "adjective",
+        "meaning_en": "marital; related to marriage"
+      },
+      {
+        "word": "äktenskapsförord",
+        "type_en": "noun",
+        "meaning_en": "prenuptial agreement"
+      },
+      {
+        "word": "äktenskapsmigration",
+        "type_en": "noun",
+        "meaning_en": "marriage migration"
       }
     ],
     "synonyms_sv": [
       "äktapar",
       "gifta",
       "make och maka",
-      "äktenskapspartner"
+      "gifta par"
     ],
     "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_marriage",
+        "frame_name_en": "Marriage",
+        "frame_slug": "marriage",
         "sense_id": "lu_eheleute_die_pl_der_ehemann__die_ehefrau:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_eheleute_die_pl_der_ehemann__die_ehefrau:1",
-        "frame_id": "frame_personal_relationship",
+        "frame_id": "frame_marriage",
         "meaning_en": "two people who are married to each other; spouses.",
         "how_to_use_en": [
-          "Use as a plural noun for married partners.",
+          "Use mainly in plural to talk about a married couple.",
           "Common in formal, legal, and factual texts."
         ],
         "patterns": [
@@ -104,85 +117,93 @@
             "pattern_id": "pat_1",
             "pattern": "mellan makar",
             "meaning_en": "between spouses",
-            "note_en": "Often used in legal contexts (e.g., property division)."
+            "note_en": "Often used in legal or formal contexts."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "maka/makar som + verb (t.ex. förlorats, var avlidna)",
-            "meaning_en": "spouses who have (state/event)",
-            "note_en": "Used to describe spouses in relation to an event or status."
+            "pattern": "två makar",
+            "meaning_en": "two spouses",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "maka/makar och + noun (t.ex. barn, sambor)",
-            "meaning_en": "spouses and other relatives/partners",
-            "note_en": "Common in lists (family, membership, immigration rules)."
+            "pattern": "deras (respektive) makar",
+            "meaning_en": "their (respective) spouses",
+            "note_en": "Used when talking about different people’s spouses."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "två makar",
-            "meaning_en": "two spouses",
-            "note_en": "Highlights the two people in the marriage."
+            "pattern": "som äkta makar",
+            "meaning_en": "as married spouses",
+            "note_en": "Describes a status/role over a period of time."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "sina/deras respektive makar",
-            "meaning_en": "their respective spouses",
-            "note_en": "Used when several people each have their own spouse."
+            "pattern": "makar och barn",
+            "meaning_en": "spouses and children",
+            "note_en": "Common in policy/administrative contexts."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *makar* for one person.",
-            "fix": "Use *make* or *maka* for singular, or *partner* if you want neutral wording.",
-            "explain_en": "Makar is plural; singular is gendered (make/maka)."
+            "error": "Using makar for one person.",
+            "fix": "Use make (male) or maka (female), or use partner/spouse wording.",
+            "explain_en": "Makar is normally plural and refers to two married partners."
           },
           {
-            "error": "Using *makar* for unmarried couples.",
-            "fix": "Use *sambor* or *par* when they are not married.",
-            "explain_en": "Makar normally implies a legal marriage."
+            "error": "Confusing makar with sambor.",
+            "fix": "Use sambor for cohabiting partners who are not necessarily married.",
+            "explain_en": "Makar implies marriage; sambor does not."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "2de627b588781565fbb7c39442d8b0bfd1faef35",
-            "sv": "Monika åkallas av kvinnor vid böner för söner och makar som förlorats.",
-            "en": "Monika is called on by women in prayers for sons and spouses who have been lost.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "2ebee385d04fe379914078807524a269549d2b92",
+            "sv": "Paret fick sex barn under deras 45 år som äkta makar.",
+            "en": "The couple had six children during their 45 years as married spouses.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "makar"
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Paret"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "under deras 45 år"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "som äkta makar"
               }
             ],
-            "gloss": "spouses (married partners)",
-            "level": "B1",
+            "gloss": "married spouses; husband and wife (plural)",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Monika av Hippo",
-              "text_url": "https://sv.wikipedia.org/wiki/Monika_av_Hippo",
-              "sentence_id": "8e13d658",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "text_title": "John Singleton Copley",
+              "text_url": "https://sv.wikipedia.org/wiki/John_Singleton_Copley",
+              "sentence_id": "9083fd6d",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"makar\"]"
             }
           },
           {
             "ex_id": "ed10cd762352a984fe2d8c21386debe5812273d5",
             "sv": "Stora skillnader i kultur och normer mellan två makar kan komplicera samliv, familjerelationer, och barnuppfostran.",
-            "en": "Big differences in culture and norms between two spouses can complicate living together, family relations, and raising children.",
-            "frame_id": "frame_personal_relationship",
+            "en": "Big differences in culture and norms between two spouses can make living together, family relations, and raising children more difficult.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "två makar"
               }
             ],
-            "gloss": "spouses (married partners)",
+            "gloss": "spouses (two people who are married)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -193,18 +214,18 @@
               "text_title": "Äktenskapsmigration",
               "text_url": "https://sv.wikipedia.org/wiki/%C3%84ktenskapsmigration",
               "sentence_id": "962374ce",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"makar\"]"
             }
           },
           {
             "ex_id": "cd910d2897f2543638c3ec258ae3aba5bf0c6a2d",
             "sv": "Enskild egendom omfattas således inte av reglerna om bodelning mellan makar.",
-            "en": "Separate property is therefore not covered by the rules about division of property between spouses.",
-            "frame_id": "frame_personal_relationship",
+            "en": "Private property is therefore not covered by the rules about division of property between spouses.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "makar"
               }
             ],
@@ -219,18 +240,18 @@
               "text_title": "Enskild (juridik)",
               "text_url": "https://sv.wikipedia.org/wiki/Enskild_(juridik)",
               "sentence_id": "9ee4217e",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"makar\"]"
             }
           },
           {
             "ex_id": "535972b36020ea688ccb994988fb5d284cab423d",
             "sv": "Partiet vill begränsa anhöriginvandring till att ge uppehållstillstånd endast för makar och barn.",
-            "en": "The party wants to limit family immigration to giving residence permits only to spouses and children.",
-            "frame_id": "frame_personal_relationship",
+            "en": "The party wants to limit family immigration to giving residence permits only for spouses and children.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "makar"
               }
             ],
@@ -245,7 +266,7 @@
               "text_title": "Sverigedemokraterna",
               "text_url": "https://sv.wikipedia.org/wiki/Sverigedemokraterna",
               "sentence_id": "8eedca3c",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"makar\"]"
             }
           },
@@ -253,14 +274,14 @@
             "ex_id": "322804240d61782a3486966f553a92d926140508",
             "sv": "Hon tillbringade resten av sitt liv sällskap av sina barn och deras makar.",
             "en": "She spent the rest of her life in the company of her children and their spouses.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "deras makar"
               }
             ],
-            "gloss": "spouses (married partners)",
+            "gloss": "their spouses (husbands/wives)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -271,7 +292,7 @@
               "text_title": "Karoline Schimmelmann",
               "text_url": "https://sv.wikipedia.org/wiki/Karoline_Schimmelmann",
               "sentence_id": "ae2a47e9",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"makar\"]"
             }
           },
@@ -279,14 +300,14 @@
             "ex_id": "5a13edf1c2e92791733d47a4fc3fd98ef880239f",
             "sv": "De hade blivit vänner genom sina respektive makar och pratade flera gånger dagligen.",
             "en": "They had become friends through their respective spouses and talked several times daily.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "sina respektive makar"
               }
             ],
-            "gloss": "spouses (married partners)",
+            "gloss": "their respective spouses",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -297,22 +318,22 @@
               "text_title": "Maja Nilsson Lindelöf",
               "text_url": "https://sv.wikipedia.org/wiki/Maja_Nilsson_Lindel%C3%B6f",
               "sentence_id": "8aed7eb0",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"makar\"]"
             }
           },
           {
             "ex_id": "badbf9f3f46e630b17b7ed6c86229d1e194872ed",
             "sv": "Virginias föräldrar hade båda varit gifta tidigare, men deras respektive makar var avlidna.",
-            "en": "Virginia's parents had both been married before, but their respective spouses were dead.",
-            "frame_id": "frame_personal_relationship",
+            "en": "Virginia's parents had both been married before, but their respective spouses had died.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "deras respektive makar"
               }
             ],
-            "gloss": "spouses (married partners)",
+            "gloss": "their respective spouses",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -323,18 +344,18 @@
               "text_title": "Virginia Woolf",
               "text_url": "https://sv.wikipedia.org/wiki/Virginia_Woolf",
               "sentence_id": "a3ceea0d",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"makar\"]"
             }
           },
           {
             "ex_id": "98a879a3cba3d724c1d858b8b699ed05455c9dd4",
             "sv": "Vidare beslöts att makar och sambor till medlemmar också skulle kunna bli medlemmar.",
-            "en": "It was also decided that spouses and partners of members could also become members.",
-            "frame_id": "frame_personal_relationship",
+            "en": "It was also decided that spouses and cohabiting partners of members could also become members.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "makar"
               }
             ],
@@ -349,18 +370,18 @@
               "text_title": "Sveriges Pensionärers Riksförbund",
               "text_url": "https://sv.wikipedia.org/wiki/Sveriges_Pension%C3%A4rers_Riksf%C3%B6rbund",
               "sentence_id": "22865b80",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"makar\"]"
             }
           },
           {
             "ex_id": "10c80e6b09070c6c076568cb36d8df1f4a0f377f",
             "sv": "Den närmaste familjen kan bestå av makar, föräldrar, barn och syskon.",
-            "en": "The closest family can consist of spouses, parents, children, and siblings.",
-            "frame_id": "frame_personal_relationship",
+            "en": "The closest family can consist of spouses, parents, children and siblings.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "makar"
               }
             ],
@@ -375,19 +396,23 @@
               "text_title": "Familj",
               "text_url": "https://sv.wikipedia.org/wiki/Familj",
               "sentence_id": "0bf45177",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"makar\"]"
             }
           },
           {
-            "ex_id": "37eaa980246a6b526c7b70a450a7b2499113bd7f",
-            "sv": "Beslut fattades att judar i blandäktenskap skulle skiljas från sina makar och deporteras.",
-            "en": "A decision was made that Jews in mixed marriages would be separated from their spouses and deported.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "55b73d6ffdded02e300e40ca8ce68486db6da41e",
+            "sv": "Under 1800-talet användes tilltalet du enbart mellan makar, älskande par och mycket nära vänner.",
+            "en": "During the 1800s, the form of address 'du' was used only between spouses, loving couples and very close friends.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "sina makar"
+                "fe_id": "fe_time",
+                "span_sv": "Under 1800-talet"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "makar"
               }
             ],
             "gloss": "spouses (married partners)",
@@ -398,10 +423,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Wannseekonferensen",
-              "text_url": "https://sv.wikipedia.org/wiki/Wannseekonferensen",
-              "sentence_id": "962becb7",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "text_title": "Du-reformen",
+              "text_url": "https://sv.wikipedia.org/wiki/Du-reformen",
+              "sentence_id": "76fa1a5f",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"makar\"]"
             }
           }
@@ -420,7 +445,7 @@
     },
     "morphology": {
       "principal_parts": [
-        "makar (plural)"
+        "make – maken – makar – makarna"
       ],
       "particle_or_reflexive": null
     }

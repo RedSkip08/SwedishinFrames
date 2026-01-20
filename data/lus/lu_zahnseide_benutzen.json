@@ -1,0 +1,178 @@
+{
+  "lexical_unit": {
+    "id": "lu_zahnseide_benutzen",
+    "source_de": {
+      "lu_de_raw": "Zahnseide benutzen",
+      "lu_de_normalized": "Zahnseide benutzen",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "använda tandtråd",
+    "display_sv": "använda tandtråd",
+    "name_sv": "använda tandtråd",
+    "pos": "multiword",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": "light_verb",
+      "components_sv": [
+        "använda",
+        "tandtråd"
+      ],
+      "spacing_notes_en": "Two words; object can be definite/indefinite (använda tandtråd/använda tandtråden)."
+    },
+    "forms": [
+      "använda tandtråd"
+    ],
+    "english_equivalent_en": "use dental floss",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword expression (verb + noun). Inflect the verb: använda/använder/använde/använt; tandtråd stays the same."
+    },
+    "derived_words_sv": [
+      {
+        "word": "tandtråd",
+        "type_en": "noun",
+        "meaning_en": "dental floss"
+      },
+      {
+        "word": "tandtrådsanvändning",
+        "type_en": "noun",
+        "meaning_en": "use of dental floss"
+      },
+      {
+        "word": "tandtråda",
+        "type_en": "verb",
+        "meaning_en": "to floss"
+      },
+      {
+        "word": "tandtrådsrengöring",
+        "type_en": "noun",
+        "meaning_en": "cleaning with dental floss"
+      }
+    ],
+    "synonyms_sv": [
+      "flossa"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_zahnseide_benutzen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_zahnseide_benutzen:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "clean between your teeth with dental floss.",
+        "how_to_use_en": [
+          "Use it for daily dental care, often together with brushing.",
+          "Often used with an adverb like dagligen (daily)."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X använder tandtråd",
+            "meaning_en": "X uses dental floss",
+            "note_en": "X is the person doing the grooming."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Jag använder tandtråd mina tänder.",
+            "fix": "Jag använder tandtråd (för att rengöra) mellan tänderna.",
+            "explain_en": "Don’t put the teeth as a direct object after tandtråd; say between the teeth instead."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "614b7fd129507c0d3ab77ba9b9b34af963cd6cf1",
+            "sv": "För att undvika parodontit skall man dagligen borsta tänderna och använda tandtråd.",
+            "en": "To avoid periodontitis, you should brush your teeth daily and use dental floss.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "man"
+              },
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "tänderna"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tandtråd"
+              }
+            ],
+            "gloss": "use dental floss",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Parodontit",
+              "text_url": "https://sv.wikipedia.org/wiki/Parodontit",
+              "sentence_id": "b398e0e4",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈanːvɛnːda ˈtanːdtrɔːd",
+      "stress_hint": "Main stress is on första stavelsen in each word: AN-vända, TAND-tråd.",
+      "audio": {
+        "file": "audio/lu_zahnseide_benutzen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "använda tandtråd"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,446 @@
+{
+  "lexical_unit": {
+    "id": "lu_schule_die",
+    "source_de": {
+      "lu_de_raw": "Schule, die",
+      "lu_de_normalized": "Schule",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "skola",
+    "display_sv": "skola",
+    "name_sv": "skola",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "skola",
+      "skolan",
+      "skolor",
+      "skolorna"
+    ],
+    "english_equivalent_en": "school",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "skola",
+        "def_sg": "skolan",
+        "indef_pl": "skolor",
+        "def_pl": "skolorna",
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "privatskola",
+        "type_en": "noun",
+        "meaning_en": "private school"
+      },
+      {
+        "word": "skolgång",
+        "type_en": "noun",
+        "meaning_en": "time spent in school; schooling"
+      },
+      {
+        "word": "skolbarn",
+        "type_en": "noun",
+        "meaning_en": "schoolchild"
+      },
+      {
+        "word": "skolklass",
+        "type_en": "noun",
+        "meaning_en": "school class (group of students)"
+      },
+      {
+        "word": "skolområde",
+        "type_en": "noun",
+        "meaning_en": "school area/campus"
+      }
+    ],
+    "synonyms_sv": [
+      "läroanstalt",
+      "utbildningsinstitution",
+      "skolbyggnad"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_schule_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_schule_die:1",
+        "frame_id": "frame_education",
+        "meaning_en": "an institution or place where people get education",
+        "how_to_use_en": [
+          "Use for a school as an institution or a local place/building in a community.",
+          "Often listed together with other local services (shop, church, gym).",
+          "Can be used in general rights/needs contexts (right to school)."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "rätt till skola",
+            "meaning_en": "right to education/school",
+            "note_en": "Often paired with other rights, e.g. healthcare."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "med skola, ...",
+            "meaning_en": "with a school (in an area)",
+            "note_en": "Common in descriptions of towns/districts listing facilities."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "en skola i + plats",
+            "meaning_en": "a school in a place",
+            "note_en": "Used to locate the school geographically."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "grundade en skola",
+            "meaning_en": "founded a school",
+            "note_en": "Focuses on creating the institution."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "en typ av skola",
+            "meaning_en": "a type of school",
+            "note_en": "Used in definitions/classifications (e.g. *privatskola*)."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *skola* when you mean a specific level like preschool.",
+            "fix": "Use *förskola* for preschool; keep *skola* for school in general.",
+            "explain_en": "In the examples, *skola* is the general institution/place, while *förskola* is named separately."
+          },
+          {
+            "error": "Forgetting the article in singular countable use.",
+            "fix": "Say *en skola* when you mean 'a school'.",
+            "explain_en": "Several examples use *en skola* when introducing one school."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "73c6b99c664d04393bd79f6351681d3eab1665cf",
+            "sv": "• Papperslösa ska ha samma rätt till vård och skola som alla andra",
+            "en": "Undocumented people must have the same right to healthcare and school as everyone else.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skola"
+              }
+            ],
+            "gloss": "school (as an institution/education)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "SSU-kongressen 2009",
+              "text_url": "https://sv.wikipedia.org/wiki/SSU-kongressen_2009",
+              "sentence_id": "a13b02e6",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skola\"]"
+            }
+          },
+          {
+            "ex_id": "505f6c2656dbb99238eb7e33c84bec137918fdcf",
+            "sv": "Gården utgjorde då ett eget litet samhälle med skola, affär, missionshus och mejeri.",
+            "en": "The farm then made up its own small community with a school, a shop, a mission house and a dairy.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skola"
+              }
+            ],
+            "gloss": "school (building/institution in a community)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Renstad",
+              "text_url": "https://sv.wikipedia.org/wiki/Renstad",
+              "sentence_id": "a2d79ad8",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skola\"]"
+            }
+          },
+          {
+            "ex_id": "a8198485711ae61ce70d34d30252295f0ffb8e22",
+            "sv": "Vallargärdet är en villaförort med skola, lanthandel och flera föreningar.",
+            "en": "Vallargärdet is a villa suburb with a school, a country shop and several associations.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skola"
+              }
+            ],
+            "gloss": "school (local institution)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Vallargärdet",
+              "text_url": "https://sv.wikipedia.org/wiki/Vallarg%C3%A4rdet",
+              "sentence_id": "e0094a7b",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skola\"]"
+            }
+          },
+          {
+            "ex_id": "750bc4f9d1eded3400344361dd4bf5b0f47fdf46",
+            "sv": "Centrum innehåller ICA, skola, idrottshall, gym, solarium, bad, pizzeria, mm.",
+            "en": "The center contains ICA, a school, a sports hall, a gym, a solarium, a swimming place, a pizzeria, etc.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skola"
+              }
+            ],
+            "gloss": "school (place/institution in a town center)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Slätta-Herrhagen-Stenslund",
+              "text_url": "https://sv.wikipedia.org/wiki/Sl%C3%A4tta-Herrhagen-Stenslund",
+              "sentence_id": "b5102c7e",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skola\"]"
+            }
+          },
+          {
+            "ex_id": "498d0e4339609488ece17093e806158c4565aade",
+            "sv": "I stadsdelen finns en pizzeria, en skola, tre förskolor, Björsjökyrkan och ett ICA Nära.",
+            "en": "In the district there is a pizzeria, a school, three preschools, Björsjö Church and an ICA Nära.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en skola"
+              }
+            ],
+            "gloss": "a school (institution/building)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Södra Bomhus",
+              "text_url": "https://sv.wikipedia.org/wiki/S%C3%B6dra_Bomhus",
+              "sentence_id": "a2c15c6d",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skola\"]"
+            }
+          },
+          {
+            "ex_id": "8bcebc7d730c261656a6c18430d66b98e939c3b9",
+            "sv": "Under tiden i Dapitan grundade han en skola och ett sjukhus.",
+            "en": "During the time in Dapitan he founded a school and a hospital.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en skola"
+              }
+            ],
+            "gloss": "a school (founded as an institution)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "José Rizal",
+              "text_url": "https://sv.wikipedia.org/wiki/Jos%C3%A9_Rizal",
+              "sentence_id": "70475cfb",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skola\"]"
+            }
+          },
+          {
+            "ex_id": "3dc256fd84f1f7e163045992bd53e50c6fcbbb87",
+            "sv": "Vid 16 års ålder började han som biträdande lärare vid en skola i Doncaster.",
+            "en": "At the age of 16 he started as an assistant teacher at a school in Doncaster.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "biträdande lärare"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en skola i Doncaster"
+              }
+            ],
+            "gloss": "school (educational institution); teacher",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "George Boole",
+              "text_url": "https://sv.wikipedia.org/wiki/George_Boole",
+              "sentence_id": "83d8ee22",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skola\"]"
+            }
+          },
+          {
+            "ex_id": "2d9f8fa832b7a4b9b4da0710e5722996f8e29da8",
+            "sv": "År 2014 beslutade Frustuna församlings kyrkoråd att Smedsta skola skulle säljas som privatbostad.",
+            "en": "In 2014 the church council of Frustuna parish decided that Smedsta school would be sold as a private home.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Smedsta skola"
+              }
+            ],
+            "gloss": "school (named institution/building)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Smedsta skola",
+              "text_url": "https://sv.wikipedia.org/wiki/Smedsta_skola",
+              "sentence_id": "5cc22ccb",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skola\"]"
+            }
+          },
+          {
+            "ex_id": "f122e77f8897dc7dcb4c20a951cb78d6388e3175",
+            "sv": "Tornbyggnaden i rödtegel byggdes år 1826 och ursprungligen var den en skola.",
+            "en": "The tower building in red brick was built in 1826 and originally it was a school.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en skola"
+              }
+            ],
+            "gloss": "a school (as a former use of a building)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Fiskars Tornursbyggnaden",
+              "text_url": "https://sv.wikipedia.org/wiki/Fiskars_Tornursbyggnaden",
+              "sentence_id": "80b6f5c8",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skola\"]"
+            }
+          },
+          {
+            "ex_id": "fcebe5b29c21440415f409dc55894f15fedabe38",
+            "sv": "Privatskola är en typ av skola som inte administreras av lokala, regionala eller nationella myndigheter.",
+            "en": "A private school is a type of school that is not administered by local, regional or national authorities.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Privatskola"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skola"
+              }
+            ],
+            "gloss": "school (institution type: private school)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Privatskola",
+              "text_url": "https://sv.wikipedia.org/wiki/Privatskola",
+              "sentence_id": "f6a56b28",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skola\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈskuːla",
+      "stress_hint": "Stress is on the first syllable: SKU-la."
+    },
+    "morphology": {
+      "principal_parts": [
+        "skola (en)",
+        "skolan",
+        "skolor",
+        "skolorna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

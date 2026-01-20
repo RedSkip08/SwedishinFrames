@@ -3,7 +3,7 @@
     "id": "lu_scheiden_sich_acc_von_jdm_scheiden_lassen",
     "source_de": {
       "lu_de_raw": "scheiden: sich (acc.) von jdm. scheiden lassen",
-      "lu_de_normalized": "sich von jdm. scheiden lassen",
+      "lu_de_normalized": "sich scheiden lassen (von jdm.)",
       "gender_variants_de": [],
       "pos_de": "verb"
     },
@@ -19,7 +19,7 @@
         "skilja",
         "sig"
       ],
-      "spacing_notes_en": "Written as two words; often followed by 'från' + person."
+      "spacing_notes_en": "Written as two words; often with 'från' + person."
     },
     "forms": [
       "skilja sig",
@@ -30,7 +30,7 @@
     "english_equivalent_en": "get divorced",
     "morphology_sv": {
       "noun": {
-        "gender": "en",
+        "gender": null,
         "indef_sg": null,
         "def_sg": null,
         "indef_pl": null,
@@ -54,18 +54,23 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "Multiword verb phrase with reflexive pronoun sig; inflect skilja (skiljer, skilde, skilt)."
+      "note_en": "Multiword verb: verb + reflexive pronoun (sig). Conjugate skilja; sig stays the same."
     },
     "derived_words_sv": [
       {
         "word": "skilsmässa",
         "type_en": "noun",
-        "meaning_en": "divorce (the event/legal end of a marriage)"
+        "meaning_en": "divorce (the legal end of a marriage)"
       },
       {
         "word": "skild",
         "type_en": "adjective",
-        "meaning_en": "divorced; separated (marital status)"
+        "meaning_en": "divorced; separated"
+      },
+      {
+        "word": "skilsmässoprocess",
+        "type_en": "noun",
+        "meaning_en": "divorce process"
       },
       {
         "word": "skilsmässopapper",
@@ -73,53 +78,49 @@
         "meaning_en": "divorce papers"
       },
       {
-        "word": "skilsmässaansökan",
-        "type_en": "noun",
-        "meaning_en": "divorce application"
-      },
-      {
-        "word": "skilsmässaadvokat",
-        "type_en": "noun",
-        "meaning_en": "divorce lawyer"
+        "word": "skilja",
+        "type_en": "verb",
+        "meaning_en": "separate; distinguish (base verb)"
       }
     ],
     "synonyms_sv": [
       "ta ut skilsmässa",
-      "gå skilda vägar"
+      "gå skilda vägar",
+      "separera"
     ],
     "antonyms_sv": [
       "gifta sig"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_marriage",
+        "frame_name_en": "Marriage",
+        "frame_slug": "marriage",
         "sense_id": "lu_scheiden_sich_acc_von_jdm_scheiden_lassen:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_scheiden_sich_acc_von_jdm_scheiden_lassen:1",
-        "frame_id": "frame_personal_relationship",
-        "meaning_en": "end a marriage legally; divorce.",
+        "frame_id": "frame_marriage",
+        "meaning_en": "end a marriage legally; divorce",
         "how_to_use_en": [
           "Use about married partners ending the marriage.",
-          "Often used without an object: De ska skilja sig.",
-          "With from: skilja sig från + person."
+          "Often used without naming the other partner; add från + person if needed.",
+          "Can be used with time words (e.g., a year/date)."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "X skiljer sig",
             "meaning_en": "X gets divorced",
-            "note_en": "X can be one person or a couple."
+            "note_en": "Often used when the other partner is understood."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "X vill skilja sig",
-            "meaning_en": "X wants to divorce",
-            "note_en": ""
+            "pattern": "X ska/skulle skilja sig",
+            "meaning_en": "X will/would divorce",
+            "note_en": "Common after verbs like meddela/annonsera or in plans/promises."
           },
           {
             "pattern_id": "pat_3",
@@ -129,27 +130,27 @@
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "X skiljer sig från Y",
-            "meaning_en": "X divorces Y",
-            "note_en": "Use från before the other partner."
+            "pattern": "skilja sig från någon",
+            "meaning_en": "divorce someone",
+            "note_en": "Use från to name the other spouse."
           },
           {
             "pattern_id": "pat_5",
             "pattern": "utan att skilja sig",
             "meaning_en": "without divorcing",
-            "note_en": ""
+            "note_en": "Used to contrast separation (flytta isär) with legal divorce."
           }
         ],
         "common_errors_en": [
           {
             "error": "Using *skilja* without sig for divorce.",
-            "fix": "Use skilja sig (or skilja sig från någon).",
-            "explain_en": "Without sig, skilja usually means 'separate' things/people, not divorce."
+            "fix": "Use skilja sig.",
+            "explain_en": "In this sense it is reflexive: you say skilja sig, not just skilja."
           },
           {
-            "error": "Mixing up flytta isär with skilja sig.",
-            "fix": "Use flytta isär for living apart; skilja sig for legal divorce.",
-            "explain_en": "The examples show you can live apart utan att skilja sig."
+            "error": "Saying *skilja sig med någon* for ‘divorce someone’.",
+            "fix": "Say skilja sig från någon.",
+            "explain_en": "The partner can be expressed with från (as in the examples)."
           }
         ],
         "required_example_count": 10,
@@ -157,12 +158,24 @@
           {
             "ex_id": "2401bc9430c49e4454904171d9539c490cfcc12c",
             "sv": "Den 8 maj 2008 meddelade Tyler och Langdon att de skulle skilja sig.",
-            "en": "On 8 May 2008, Tyler and Langdon announced that they would get divorced.",
-            "frame_id": "frame_personal_relationship",
+            "en": "On 8 May 2008, Tyler and Langdon announced that they would divorce.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "Tyler och Langdon"
+                "fe_id": "fe_time",
+                "span_sv": "Den 8 maj 2008"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Tyler"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "Langdon"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "skilja sig"
               }
             ],
             "gloss": "get divorced",
@@ -176,19 +189,23 @@
               "text_title": "Liv Tyler",
               "text_url": "https://sv.wikipedia.org/wiki/Liv_Tyler",
               "sentence_id": "b589f311",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"skilja\"][word=\"sig\"]"
             }
           },
           {
             "ex_id": "114686220f0d8e89be9731a2c5d3a17c48e3dd1e",
             "sv": "Hon vill skilja sig och har inlett ett förhållande med en annan.",
-            "en": "She wants to get divorced and has started a relationship with someone else.",
-            "frame_id": "frame_personal_relationship",
+            "en": "She wants to divorce and has started a relationship with another person.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "skilja sig"
               }
             ],
             "gloss": "get divorced",
@@ -202,19 +219,31 @@
               "text_title": "Nyckeln till frihet",
               "text_url": "https://sv.wikipedia.org/wiki/Nyckeln_till_frihet",
               "sentence_id": "b033bf1d",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"skilja\"][word=\"sig\"]"
             }
           },
           {
             "ex_id": "0a12a3a69ac19e129adc9a3cbca89a6d42069db7",
             "sv": "År 1979 bestämde sig Marilyn och Brian för att skilja sig i godo.",
-            "en": "In 1979, Marilyn and Brian decided to get divorced amicably.",
-            "frame_id": "frame_personal_relationship",
+            "en": "In 1979, Marilyn and Brian decided to divorce amicably.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "Marilyn och Brian"
+                "fe_id": "fe_time",
+                "span_sv": "År 1979"
+              },
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Marilyn"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "Brian"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "skilja sig"
               }
             ],
             "gloss": "get divorced",
@@ -228,19 +257,27 @@
               "text_title": "Marilyn Wilson-Rutherford",
               "text_url": "https://sv.wikipedia.org/wiki/Marilyn_Wilson-Rutherford",
               "sentence_id": "8a6c802d",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"skilja\"][word=\"sig\"]"
             }
           },
           {
             "ex_id": "086c0dc9dd471ca7a557b0cb7cfd922af79a731f",
             "sv": "De flyttade isär ett par år före hans död utan att skilja sig.",
-            "en": "They moved apart a couple of years before his death without getting divorced.",
-            "frame_id": "frame_personal_relationship",
+            "en": "They moved apart a couple of years before his death without divorcing.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "De"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "ett par år före hans död"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "skilja sig"
               }
             ],
             "gloss": "get divorced",
@@ -254,19 +291,27 @@
               "text_title": "Ric Ocasek",
               "text_url": "https://sv.wikipedia.org/wiki/Ric_Ocasek",
               "sentence_id": "f8d77228",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"skilja\"][word=\"sig\"]"
             }
           },
           {
             "ex_id": "d735cc214f6ba0138c12bf96ddc064da1322a4a2",
             "sv": "De flyttade isär ett par år innan hans död utan att skilja sig.",
-            "en": "They moved apart a couple of years before his death without getting divorced.",
-            "frame_id": "frame_personal_relationship",
+            "en": "They moved apart a couple of years before his death without divorcing.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_spouse_1",
                 "span_sv": "De"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "ett par år innan hans död"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "skilja sig"
               }
             ],
             "gloss": "get divorced",
@@ -280,19 +325,31 @@
               "text_title": "Paulina Porizkova",
               "text_url": "https://sv.wikipedia.org/wiki/Paulina_Porizkova",
               "sentence_id": "083f1f54",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"skilja\"][word=\"sig\"]"
             }
           },
           {
             "ex_id": "867e96ae9e6ceefc3fe06f55f98838a07425a0da",
             "sv": "Efter operationen var paret tvungna att skilja sig officiellt, av juridiska skäl.",
-            "en": "After the operation, the couple had to get divorced officially, for legal reasons.",
-            "frame_id": "frame_personal_relationship",
+            "en": "After the operation, the couple had to divorce officially, for legal reasons.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_time",
+                "span_sv": "Efter operationen"
+              },
+              {
+                "fe_id": "fe_spouse_1",
                 "span_sv": "paret"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "skilja sig"
+              },
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "av juridiska skäl"
               }
             ],
             "gloss": "get divorced",
@@ -306,19 +363,103 @@
               "text_title": "Jan Morris",
               "text_url": "https://sv.wikipedia.org/wiki/Jan_Morris",
               "sentence_id": "6cf56a46",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"skilja\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "402fab54ec5070af8ce816821a29ac6523c70224",
+            "sv": "Carlsson försöker urskulda sig för Agusta och lovar att han ska skilja sig från henne, men Agusta kastar ut honom.",
+            "en": "Carlsson tries to apologize to Agusta and promises that he will divorce her, but Agusta throws him out.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "henne"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "skilja sig"
+              }
+            ],
+            "gloss": "get divorced (from someone)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Stiliga Agusta",
+              "text_url": "https://sv.wikipedia.org/wiki/Stiliga_Agusta",
+              "sentence_id": "afededa1",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
+              "korp_query": "[word=\"skilja\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "94b3678a0d9caf7177be0e9dc64fe5efcfd99126",
+            "sv": "Han återvände 1875 till Frankrike, där hans hustru lät skilja sig från honom.",
+            "en": "He returned in 1875 to France, where his wife had herself divorced from him.",
+            "frame_id": "frame_marriage",
+            "fe_tags": [
+              {
+                "fe_id": "fe_spouse_1",
+                "span_sv": "hans hustru"
+              },
+              {
+                "fe_id": "fe_spouse_2",
+                "span_sv": "honom"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1875"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "till Frankrike"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "skilja sig"
+              }
+            ],
+            "gloss": "get divorced (have a divorce arranged)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Paul Verlaine",
+              "text_url": "https://sv.wikipedia.org/wiki/Paul_Verlaine",
+              "sentence_id": "46b8f7c0",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"skilja\"][word=\"sig\"]"
             }
           },
           {
             "ex_id": "130ab2cba386fc70dbad2aa91043f6e1edf7a79b",
             "sv": "Äktenskapet var dock olyckligt och paret kom överens om att skilja sig med maken som den skyldiga parten.",
-            "en": "However, the marriage was unhappy and the couple agreed to get divorced, with the husband as the guilty party.",
-            "frame_id": "frame_personal_relationship",
+            "en": "However, the marriage was unhappy and the couple agreed to divorce, with the husband as the guilty party.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
+                "fe_id": "fe_relationship",
+                "span_sv": "Äktenskapet"
+              },
+              {
+                "fe_id": "fe_spouse_1",
                 "span_sv": "paret"
+              },
+              {
+                "fe_id": "fe_event",
+                "span_sv": "skilja sig"
               }
             ],
             "gloss": "get divorced",
@@ -332,26 +473,30 @@
               "text_title": "Julie Eckerman",
               "text_url": "https://sv.wikipedia.org/wiki/Julie_Eckerman",
               "sentence_id": "cb69ece3",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"skilja\"][word=\"sig\"]"
             }
           },
           {
-            "ex_id": "94b3678a0d9caf7177be0e9dc64fe5efcfd99126",
-            "sv": "Han återvände 1875 till Frankrike, där hans hustru lät skilja sig från honom.",
-            "en": "He returned in 1875 to France, where his wife had herself divorced from him.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "e89900857c021747cb6f9e3d6161e5c266462f8c",
+            "sv": "Män har större möjlighet att skilja sig enligt sharia än kvinnor, som behöver ange skäl i vissa fall.",
+            "en": "Men have a greater possibility to divorce under sharia than women, who need to state reasons in some cases.",
+            "frame_id": "frame_marriage",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "hans hustru"
+                "fe_id": "fe_spouse_1",
+                "span_sv": "Män"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "honom"
+                "fe_id": "fe_event",
+                "span_sv": "skilja sig"
+              },
+              {
+                "fe_id": "fe_authority",
+                "span_sv": "enligt sharia"
               }
             ],
-            "gloss": "divorce (from someone)",
+            "gloss": "get divorced",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -359,70 +504,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Paul Verlaine",
-              "text_url": "https://sv.wikipedia.org/wiki/Paul_Verlaine",
-              "sentence_id": "46b8f7c0",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"skilja\"][word=\"sig\"]"
-            }
-          },
-          {
-            "ex_id": "7fb50deaff2c92f34856027efa4caa1c13a617e0",
-            "sv": "Efter en långvarig relation mellan Kleopatra av Egypten och Antonius ville han skilja sig från Octavianus syster.",
-            "en": "After a long relationship between Cleopatra of Egypt and Antony, he wanted to divorce Octavian's sister.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Octavianus syster"
-              }
-            ],
-            "gloss": "divorce (from someone)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Slaget vid Filippi",
-              "text_url": "https://sv.wikipedia.org/wiki/Slaget_vid_Filippi",
-              "sentence_id": "b6e43613",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"skilja\"][word=\"sig\"]"
-            }
-          },
-          {
-            "ex_id": "402fab54ec5070af8ce816821a29ac6523c70224",
-            "sv": "Carlsson försöker urskulda sig för Agusta och lovar att han ska skilja sig från henne, men Agusta kastar ut honom.",
-            "en": "Carlsson tries to apologize to Agusta and promises that he will divorce her, but Agusta throws him out.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "henne"
-              }
-            ],
-            "gloss": "divorce (from someone)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Stiliga Agusta",
-              "text_url": "https://sv.wikipedia.org/wiki/Stiliga_Agusta",
-              "sentence_id": "afededa1",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "text_title": "Mänskliga rättigheter inom islam",
+              "text_url": "https://sv.wikipedia.org/wiki/M%C3%A4nskliga_r%C3%A4ttigheter_inom_islam",
+              "sentence_id": "8c0255b4",
+              "retrieved_at": "2026-01-20T08:27:28+00:00",
               "korp_query": "[word=\"skilja\"][word=\"sig\"]"
             }
           }

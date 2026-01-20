@@ -1,0 +1,285 @@
+{
+  "lexical_unit": {
+    "id": "lu_haar_das_sich_die_haare_schneiden_lassen",
+    "source_de": {
+      "lu_de_raw": "Haar, das: (sich) die Haare schneiden lassen",
+      "lu_de_normalized": "Haar, das: (sich) die Haare schneiden lassen",
+      "gender_variants_de": [],
+      "pos_de": "unknown"
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "klippa sig",
+    "display_sv": "klippa sig",
+    "name_sv": "klippa sig",
+    "pos": "multiword",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": "reflexive_verb",
+      "components_sv": [
+        "klippa",
+        "sig"
+      ],
+      "spacing_notes_en": "Written as two words; object like 'håret' may be added."
+    },
+    "forms": [
+      "klippa sig",
+      "klipper sig",
+      "klippte sig",
+      "klippt sig"
+    ],
+    "english_equivalent_en": "get a haircut",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword verb phrase: klippa + reflexive pronoun sig. Verb inflects (klipper/klippte/klippt); sig changes with person (mig/dig/sig/oss/er/sig)."
+    },
+    "derived_words_sv": [
+      {
+        "word": "klippa",
+        "type_en": "verb",
+        "meaning_en": "cut (with scissors); clip"
+      },
+      {
+        "word": "klippning",
+        "type_en": "noun",
+        "meaning_en": "haircut; cutting"
+      },
+      {
+        "word": "hårklippning",
+        "type_en": "noun",
+        "meaning_en": "haircut (the act/service)"
+      },
+      {
+        "word": "hårklippare",
+        "type_en": "noun",
+        "meaning_en": "hair clipper; person who cuts hair"
+      },
+      {
+        "word": "nyklippt",
+        "type_en": "adjective",
+        "meaning_en": "newly cut (hair)"
+      }
+    ],
+    "synonyms_sv": [
+      "klippa håret",
+      "klippa sig i håret",
+      "gå och klippa sig",
+      "gå till frisören"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_haar_das_sich_die_haare_schneiden_lassen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_haar_das_sich_die_haare_schneiden_lassen:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "cut your own hair (usually by a hairdresser).",
+        "how_to_use_en": [
+          "Use about getting a haircut; the subject is the person whose hair is cut.",
+          "Often used without saying “hår”; context makes it clear."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X klippa sig",
+            "meaning_en": "X gets a haircut",
+            "note_en": "X is the person whose hair is cut."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "vägra klippa sig",
+            "meaning_en": "refuse to get a haircut",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "tillsäga X att klippa sig",
+            "meaning_en": "tell X to get a haircut",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "rekommendera X att klippa sig",
+            "meaning_en": "recommend X get a haircut",
+            "note_en": ""
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *klippa* without a reflexive pronoun when you mean “get a haircut”.",
+            "fix": "Use klippa sig.",
+            "explain_en": "Klippa means cutting something; klippa sig means having your own hair cut."
+          },
+          {
+            "error": "Saying *klippa sig* when you mean cutting someone else’s hair.",
+            "fix": "Use klippa någons hår / klippa någon.",
+            "explain_en": "Klippa sig is reflexive: the haircut is for the subject."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "eccece1e3658c79c16cc2d09d7c9d2d192279eec",
+            "sv": "När det var dags för brorsbarnen att klippa sig kom även deras hår till användning.",
+            "en": "When it was time for the nephews and nieces to cut their hair, their hair was also used.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "brorsbarnen"
+              }
+            ],
+            "gloss": "cut one’s hair",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Magda Boalt",
+              "text_url": "https://sv.wikipedia.org/wiki/Magda_Boalt",
+              "sentence_id": "8e151cc7",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"klippa\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "7780db6935e8544d65e9a96c3710c94fbef1adfe",
+            "sv": "Han arbetade på ett investeringsföretag och blev där tillsagd att klippa sig, men vägrade och avskedades.",
+            "en": "He worked at an investment company and was told there to cut his hair, but refused and was fired.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "Han"
+              }
+            ],
+            "gloss": "cut one’s hair",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Harvey Milk",
+              "text_url": "https://sv.wikipedia.org/wiki/Harvey_Milk",
+              "sentence_id": "3981ac9a",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"klippa\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "c9010082906089a389f5e6166267d1756c881600",
+            "sv": "Orsaken till att han lämnade USA skall ha varit att han blivit avstängd från skolan då han vägrade klippa sig.",
+            "en": "The reason that he left the USA is said to have been that he was suspended from school when he refused to cut his hair.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "han"
+              }
+            ],
+            "gloss": "cut one’s hair",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Robert Aschberg",
+              "text_url": "https://sv.wikipedia.org/wiki/Robert_Aschberg",
+              "sentence_id": "533ac703",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"klippa\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "a5c3f990c145ab906408301b2263d14155710cbf",
+            "sv": "Enligt programmet borde hår vara mellan 1 och 5 centimeter långt, och rekommenderade män att klippa sig var femtonde dag.",
+            "en": "According to the program, hair should be between 1 and 5 centimeters long, and it recommended men to cut their hair every fifteenth day.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "män"
+              }
+            ],
+            "gloss": "cut one’s hair",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Låt oss klippa håret i enlighet med den socialistiska livsstilen",
+              "text_url": "https://sv.wikipedia.org/wiki/L%C3%A5t_oss_klippa_h%C3%A5ret_i_enlighet_med_den_socialistiska_livsstilen",
+              "sentence_id": "cfa5f782",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"klippa\"][word=\"sig\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈklɪpːa sɛj",
+      "stress_hint": "Stress is on the first syllable in klippa.",
+      "audio": {
+        "file": "audio/lu_haar_das_sich_die_haare_schneiden_lassen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "klippa sig",
+        "klipper sig",
+        "klippte sig",
+        "klippt sig"
+      ],
+      "particle_or_reflexive": "sig"
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

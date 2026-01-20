@@ -1,0 +1,176 @@
+{
+  "lexical_unit": {
+    "id": "lu_mensa_die",
+    "source_de": {
+      "lu_de_raw": "Mensa, die",
+      "lu_de_normalized": "Mensa",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "studentmatsal",
+    "display_sv": "studentmatsal",
+    "name_sv": "studentmatsal",
+    "pos": "noun",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "studentmatsal",
+      "studentmatsalen",
+      "studentmatsalar",
+      "studentmatsalarna"
+    ],
+    "english_equivalent_en": "student cafeteria",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "studentmatsal",
+        "def_sg": "studentmatsalen",
+        "indef_pl": "studentmatsalar",
+        "def_pl": "studentmatsalarna",
+        "note_en": "A compound noun: student + matsal."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "matsal",
+        "type_en": "noun",
+        "meaning_en": "dining hall; cafeteria"
+      },
+      {
+        "word": "studentkår",
+        "type_en": "noun",
+        "meaning_en": "student union (organization)"
+      },
+      {
+        "word": "studentbostad",
+        "type_en": "noun",
+        "meaning_en": "student housing"
+      },
+      {
+        "word": "studentrabatt",
+        "type_en": "noun",
+        "meaning_en": "student discount"
+      }
+    ],
+    "synonyms_sv": [
+      "skolmatsal",
+      "campusmatsal",
+      "studentrestaurang",
+      "matsal"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_mensa_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_mensa_die:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a cafeteria at a university or college where students can eat",
+        "how_to_use_en": [
+          "Use it for a dining place connected to a university/college.",
+          "Often used with words like egen (“own”) and with an institution name."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "sakna (en) studentmatsal",
+            "meaning_en": "not have a student cafeteria",
+            "note_en": "Often used when describing what an institution lacks."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "(Institution) ha (en) egen studentmatsal",
+            "meaning_en": "have its own student cafeteria",
+            "note_en": "Egen emphasizes that it belongs to that institution."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using studentmatsal for any restaurant on campus.",
+            "fix": "Use studentmatsal mainly for a cafeteria/dining hall run by or for the institution.",
+            "explain_en": "It usually refers to a school/university dining hall, not a general restaurant."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "57f9b7a22dd06bed5c6161550a247b1d5064f1a8",
+            "sv": "Handelshögskolan i Stockholm har tidigare varit ett av de få högskolor och universitet i Stockholm som saknat egen studentmatsal.",
+            "en": "The Stockholm School of Economics has earlier been one of the few colleges and universities in Stockholm that have lacked their own student cafeteria.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Handelshögskolan i Stockholm"
+              }
+            ],
+            "gloss": "student cafeteria (at a school/university)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Byggnader vid Handelshögskolan i Stockholm",
+              "text_url": "https://sv.wikipedia.org/wiki/Byggnader_vid_Handelsh%C3%B6gskolan_i_Stockholm",
+              "sentence_id": "f006b872",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"studentmatsal\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "²stʉːdɛnˌmɑːtˌsɑːl",
+      "stress_hint": "Main stress on STU-, and a secondary stress on MAT-."
+    },
+    "morphology": {
+      "principal_parts": [
+        "en studentmatsal",
+        "studentmatsalen",
+        "studentmatsalar",
+        "studentmatsalarna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

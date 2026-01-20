@@ -1,0 +1,449 @@
+{
+  "lexical_unit": {
+    "id": "lu_semester_das",
+    "source_de": {
+      "lu_de_raw": "Semester, das",
+      "lu_de_normalized": "Semester",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "termin",
+    "display_sv": "termin",
+    "name_sv": "termin",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "en termin",
+      "terminen",
+      "terminer",
+      "terminerna"
+    ],
+    "english_equivalent_en": "school term",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "termin",
+        "def_sg": "terminen",
+        "indef_pl": "terminer",
+        "def_pl": "terminerna",
+        "note_en": "Used for a part of the school year (often autumn or spring)."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "hösttermin",
+        "type_en": "noun",
+        "meaning_en": "autumn term"
+      },
+      {
+        "word": "vårtermin",
+        "type_en": "noun",
+        "meaning_en": "spring term"
+      },
+      {
+        "word": "terminsstart",
+        "type_en": "noun",
+        "meaning_en": "start of the term"
+      },
+      {
+        "word": "terminsslut",
+        "type_en": "noun",
+        "meaning_en": "end of the term"
+      },
+      {
+        "word": "terminsbetyg",
+        "type_en": "noun",
+        "meaning_en": "term grades"
+      }
+    ],
+    "synonyms_sv": [
+      "skoltermin",
+      "studietermin",
+      "läsperiod"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_semester_das:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_semester_das:1",
+        "frame_id": "frame_education",
+        "meaning_en": "a period of study at a school or university, usually part of a school year",
+        "how_to_use_en": [
+          "Use for a study period in school/university (often autumn or spring).",
+          "Common with time words like en, varje, efter, i slutet/början av."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "en termin",
+            "meaning_en": "one school term",
+            "note_en": "Often used with duration: under/en termin."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "varje termin",
+            "meaning_en": "each term",
+            "note_en": "Used for repeated events or routines."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "i början av varje termin",
+            "meaning_en": "at the start of each term",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "i slutet av varje termin",
+            "meaning_en": "at the end of each term",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "per termin",
+            "meaning_en": "per term",
+            "note_en": "Common with numbers: X möten per termin."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using termin for a general time period outside education.",
+            "fix": "Use period/tid instead, unless it is about school/university.",
+            "explain_en": "In these examples, termin is specifically an education period."
+          },
+          {
+            "error": "Mixing up termin and läsår.",
+            "fix": "Use termin for part of the year; use läsår for the whole school year.",
+            "explain_en": "One läsår can include two terminer."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "31a2a21a6a00b20e1c6a0068e2193c534e70cdaa",
+            "sv": "Första omgången av serien handlar om deras sista termin på gymnasiet.",
+            "en": "The first season of the series is about their last term in upper secondary school.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "gymnasiet"
+              }
+            ],
+            "gloss": "term (part of a school year)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Spung",
+              "text_url": "https://sv.wikipedia.org/wiki/Spung",
+              "sentence_id": "5cc97be7",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"termin\"]"
+            }
+          },
+          {
+            "ex_id": "0deed2b5b7890dd4afe30a0dce1c973c38059782",
+            "sv": "Kursen omfattar 100 poäng och läses under en termin eller ett läsår.",
+            "en": "The course is 100 credits and is taken during one term or one school year.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "Kursen"
+              }
+            ],
+            "gloss": "term (part of a school year)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Matematik 4",
+              "text_url": "https://sv.wikipedia.org/wiki/Matematik_4",
+              "sentence_id": "ab52e0a8",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"läsår\"]"
+            }
+          },
+          {
+            "ex_id": "8f1e855566232ee0bd661452e224a1c452031255",
+            "sv": "Han började studera på college, men hoppade av efter bara en termin.",
+            "en": "He started studying at college, but dropped out after only one term.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "college"
+              }
+            ],
+            "gloss": "term (part of a school year)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kenneth Bianchi",
+              "text_url": "https://sv.wikipedia.org/wiki/Kenneth_Bianchi",
+              "sentence_id": "0760b7b2",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"termin\"]"
+            }
+          },
+          {
+            "ex_id": "f7e2cb20c327f950b234ef62b73b4f0cbf9a22c0",
+            "sv": "Hon tillbringade en termin utomlands i Nice som en del av Erasmusprogrammet.",
+            "en": "She spent one term abroad in Nice as part of the Erasmus programme.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Hon"
+              }
+            ],
+            "gloss": "term (part of a school year)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Inés Arrimadas",
+              "text_url": "https://sv.wikipedia.org/wiki/In%C3%A9s_Arrimadas",
+              "sentence_id": "df2a767c",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"termin\"]"
+            }
+          },
+          {
+            "ex_id": "d8457aea9650534eb6aef0b3f210e9055f66d7c3",
+            "sv": "Stella Academica brukar ha en egen konsert i slutet av varje termin.",
+            "en": "Stella Academica usually has its own concert at the end of each term.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Stella Academica"
+              }
+            ],
+            "gloss": "term (part of a school year)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Stella Academica",
+              "text_url": "https://sv.wikipedia.org/wiki/Stella_Academica",
+              "sentence_id": "7165805b",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"termin\"]"
+            }
+          },
+          {
+            "ex_id": "2baaa9cfe21de3848cde0c3d7746cb11b9dc7e7c",
+            "sv": "Kalmar nation arrangerar varje termin ett så kallat Knally i Uppsalas omnejd.",
+            "en": "Kalmar nation arranges each term a so-called Knally in the area around Uppsala.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Kalmar nation"
+              }
+            ],
+            "gloss": "term (part of a school year)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kalmar nation, Uppsala",
+              "text_url": "https://sv.wikipedia.org/wiki/Kalmar_nation,_Uppsala",
+              "sentence_id": "3694ffd7",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"termin\"]"
+            }
+          },
+          {
+            "ex_id": "5773fd0527c9f8725c9fe650467b14cd53cd5143",
+            "sv": "Kören består av ca 30 töser och nya sångerskor antas i början av varje termin.",
+            "en": "The choir consists of about 30 girls, and new singers are accepted at the beginning of each term.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Kören"
+              }
+            ],
+            "gloss": "term (part of a school year)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "LiHtösen",
+              "text_url": "https://sv.wikipedia.org/wiki/LiHt%C3%B6sen",
+              "sentence_id": "fd41f7af",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"termin\"]"
+            }
+          },
+          {
+            "ex_id": "ef95310e2574c4368b02d1a807fe6fa4e46ab9e3",
+            "sv": "Fullmäktige håller ungefär fyra möten per termin vilka är öppna för alla kårmedlemmar.",
+            "en": "The assembly holds about four meetings per term, which are open to all union members.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Fullmäktige"
+              }
+            ],
+            "gloss": "term (part of a school year)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Svenska Handelshögskolans Studentkår",
+              "text_url": "https://sv.wikipedia.org/wiki/Svenska_Handelsh%C3%B6gskolans_Studentk%C3%A5r",
+              "sentence_id": "a2d8b73e",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"termin\"]"
+            }
+          },
+          {
+            "ex_id": "80524dc2a66cb8fd0fe5ac88d9182dd839822dc9",
+            "sv": "Mendonça arbetar för att alla skolbarn ska få läsa ett antal böcker varje termin.",
+            "en": "Mendonça works so that all schoolchildren will get to read a number of books each term.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "alla skolbarn"
+              },
+              {
+                "fe_id": "fe_material",
+                "span_sv": "ett antal böcker"
+              }
+            ],
+            "gloss": "term (part of a school year)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "José Luis Mendonça",
+              "text_url": "https://sv.wikipedia.org/wiki/Jos%C3%A9_Luis_Mendon%C3%A7a",
+              "sentence_id": "4957790b",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"termin\"]"
+            }
+          },
+          {
+            "ex_id": "7f11fee1fa9009d4658d5b010d42ec5164a04c69",
+            "sv": "Sedan hösten 2012 ges betyg varje termin från hösten i grundskolans årskurs 6.",
+            "en": "Since autumn 2012, grades are given each term starting in autumn in compulsory school year 6.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "grundskolans årskurs 6"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "betyg"
+              }
+            ],
+            "gloss": "term (part of a school year)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Betyg",
+              "text_url": "https://sv.wikipedia.org/wiki/Betyg",
+              "sentence_id": "53c411a0",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"termin\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "/tɛrˈmiːn/",
+      "stress_hint": "Stress is usually on the last syllable: ter-MIN."
+    },
+    "morphology": {
+      "principal_parts": [
+        "termin",
+        "terminen",
+        "terminer",
+        "terminerna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

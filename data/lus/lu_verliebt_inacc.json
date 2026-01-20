@@ -3,7 +3,7 @@
     "id": "lu_verliebt_inacc",
     "source_de": {
       "lu_de_raw": "verliebt (in+acc.)",
-      "lu_de_normalized": "verliebt",
+      "lu_de_normalized": "verliebt (in+acc.)",
       "gender_variants_de": [],
       "pos_de": "adjective"
     },
@@ -58,12 +58,7 @@
       {
         "word": "kärlek",
         "type_en": "noun",
-        "meaning_en": "love"
-      },
-      {
-        "word": "kärleksfull",
-        "type_en": "adjective",
-        "meaning_en": "loving, affectionate"
+        "meaning_en": "love (the feeling)"
       },
       {
         "word": "kärleksbrev",
@@ -71,78 +66,88 @@
         "meaning_en": "love letter"
       },
       {
-        "word": "kärlekspar",
-        "type_en": "noun",
-        "meaning_en": "couple in love"
+        "word": "kärleksfull",
+        "type_en": "adjective",
+        "meaning_en": "loving, affectionate"
       },
       {
         "word": "kärleksrelation",
         "type_en": "noun",
         "meaning_en": "romantic relationship"
+      },
+      {
+        "word": "olyckligt kär",
+        "type_en": "other",
+        "meaning_en": "unhappily in love"
       }
     ],
     "synonyms_sv": [
       "förälskad",
-      "kärlekskrank",
-      "upp över öronen"
+      "kär i"
     ],
     "antonyms_sv": [
-      "likgiltig"
+      "okär"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_dating",
+        "frame_name_en": "Dating",
+        "frame_slug": "dating",
         "sense_id": "lu_verliebt_inacc:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_verliebt_inacc:1",
-        "frame_id": "frame_personal_relationship",
-        "meaning_en": "having romantic love for someone",
+        "frame_id": "frame_dating",
+        "meaning_en": "having romantic love feelings for someone.",
         "how_to_use_en": [
-          "Use with vara: vara kär (i någon).",
-          "Often followed by i + person (kär i henne).",
-          "Can be used with bli to mean “fall in love”."
+          "Use with i + person: vara kär i någon.",
+          "Often with vara (is/are) or bli (fall/become).",
+          "Can be negated: inte kär i."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "X är kär i Y",
             "meaning_en": "X is in love with Y",
-            "note_en": "Most common way to express being in love with someone."
+            "note_en": "Most common way to express romantic feelings."
           },
           {
             "pattern_id": "pat_2",
             "pattern": "X blir kär i Y",
             "meaning_en": "X falls in love with Y",
-            "note_en": "Focuses on the change into being in love."
+            "note_en": ""
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "X har varit kär i Y",
-            "meaning_en": "X has been in love with Y",
-            "note_en": "Often used with a time expression (e.g., “so länge ...”)."
+            "pattern": "X har varit kär i Y (Duration)",
+            "meaning_en": "X has been in love (for long)",
+            "note_en": "Often followed by a time phrase like så länge…"
           },
           {
             "pattern_id": "pat_4",
+            "pattern": "X är inte kär i Y",
+            "meaning_en": "X is not in love with Y",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_5",
             "pattern": "X är (olyckligt) kär i Y",
             "meaning_en": "X is (unhappily) in love",
-            "note_en": "An adverb like olyckligt can describe the situation."
+            "note_en": "An adverb like olyckligt can describe the feeling."
           }
         ],
         "common_errors_en": [
           {
             "error": "Jag är kär med honom.",
             "fix": "Jag är kär i honom.",
-            "explain_en": "With kär, Swedish normally uses i (kär i någon), not med."
+            "explain_en": "Use the preposition i (kär i någon), not med."
           },
           {
-            "error": "Jag är kär på henne.",
-            "fix": "Jag är kär i henne.",
-            "explain_en": "Use i after kär when you mean being in love with a person."
+            "error": "Jag är kär honom.",
+            "fix": "Jag är kär i honom.",
+            "explain_en": "You normally need i before the person."
           }
         ],
         "required_example_count": 10,
@@ -151,7 +156,7 @@
             "ex_id": "145a90ed31fbd5e82e5572524fea222872580d49",
             "sv": "Dingo är oförklarligt kär i Sonia, men är mycket lojal mot sin partner Sleet.",
             "en": "Dingo is inexplicably in love with Sonia, but is very loyal to his partner Sleet.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
@@ -160,14 +165,10 @@
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "Sonia"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "sin partner Sleet"
               }
             ],
-            "gloss": "in love",
-            "level": "B1",
+            "gloss": "in love (with)",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -177,15 +178,15 @@
               "text_title": "Sonic Underground",
               "text_url": "https://sv.wikipedia.org/wiki/Sonic_Underground",
               "sentence_id": "220bedd3",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kär\"][word=\"i\"]"
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"kär\"]"
             }
           },
           {
             "ex_id": "35105f555a89338233b8e3709851acd447b6b210",
             "sv": "Zack är också kär i godiskioskstjejen Maddie som dock tycker han är alldeles för ung.",
             "en": "Zack is also in love with the candy kiosk girl Maddie, but she thinks he is far too young.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
@@ -196,8 +197,8 @@
                 "span_sv": "godiskioskstjejen Maddie"
               }
             ],
-            "gloss": "in love",
-            "level": "B1",
+            "gloss": "in love (with)",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -207,15 +208,15 @@
               "text_title": "Zack & Codys ljuva hotelliv",
               "text_url": "https://sv.wikipedia.org/wiki/Zack_%26_Codys_ljuva_hotelliv",
               "sentence_id": "6040bb20",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kär\"][word=\"i\"]"
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"kär\"]"
             }
           },
           {
             "ex_id": "73f10533482b26e32baa224d43695c6f10a4137f",
             "sv": "Filmen handlar om Jenny som har varit kär i rockstjärnan Jason så länge hon kan minnas.",
             "en": "The film is about Jenny, who has been in love with the rock star Jason for as long as she can remember.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
@@ -224,9 +225,13 @@
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "rockstjärnan Jason"
+              },
+              {
+                "fe_id": "fe_duration",
+                "span_sv": "så länge hon kan minnas"
               }
             ],
-            "gloss": "in love",
+            "gloss": "in love (with)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -237,15 +242,15 @@
               "text_title": "Temptation Island (film)",
               "text_url": "https://sv.wikipedia.org/wiki/Temptation_Island_(film)",
               "sentence_id": "5338a6f9",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kär\"][word=\"i\"]"
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"kär\"]"
             }
           },
           {
             "ex_id": "47de80ee54dccbd87e461c85d48f02456d1403be",
             "sv": "• Nicole, gift med Bernard och olyckligt kär i densamme.",
-            "en": "Nicole, married to Bernard and unhappily in love with the same man.",
-            "frame_id": "frame_personal_relationship",
+            "en": "Nicole, married to Bernard and unhappily in love with him.",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
@@ -256,11 +261,11 @@
                 "span_sv": "Bernard"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "densamme"
+                "fe_id": "fe_relationship",
+                "span_sv": "gift med Bernard"
               }
             ],
-            "gloss": "in love",
+            "gloss": "in love (with)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -271,7 +276,41 @@
               "text_title": "Om en månad, om ett år",
               "text_url": "https://sv.wikipedia.org/wiki/Om_en_m%C3%A5nad,_om_ett_%C3%A5r",
               "sentence_id": "c8261bd9",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"kär\"]"
+            }
+          },
+          {
+            "ex_id": "55d96f2d8c3f0703ca173e413d4fa0a38c2a3e74",
+            "sv": "Hon träffar en ung man som hon gifter sig med trots att hon inte är kär i honom.",
+            "en": "She meets a young man whom she marries, even though she is not in love with him.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "honom"
+              },
+              {
+                "fe_id": "fe_relationship",
+                "span_sv": "gifter sig med"
+              }
+            ],
+            "gloss": "in love (with)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "En kvinnas morgondag",
+              "text_url": "https://sv.wikipedia.org/wiki/En_kvinnas_morgondag",
+              "sentence_id": "b0406512",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
               "korp_query": "[word=\"kär\"]"
             }
           },
@@ -279,7 +318,7 @@
             "ex_id": "0b4c0c4260d89925346f6c3e9f27fb0d7227483b",
             "sv": "Salome är kär i honom men han avvisar henne och hon vill då hämnas.",
             "en": "Salome is in love with him, but he rejects her and then she wants to take revenge.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
@@ -290,7 +329,7 @@
                 "span_sv": "honom"
               }
             ],
-            "gloss": "in love",
+            "gloss": "in love (with)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -301,15 +340,15 @@
               "text_title": "Salome (film)",
               "text_url": "https://sv.wikipedia.org/wiki/Salome_(film)",
               "sentence_id": "324fcbae",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kär\"][word=\"i\"]"
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"kär\"]"
             }
           },
           {
             "ex_id": "bb245f95e044670f7c0dff6ca6ff081c3e35bf42",
             "sv": "Park blir kär i Eleanor och Eleanor lär sig att förstå Park.",
             "en": "Park falls in love with Eleanor, and Eleanor learns to understand Park.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
@@ -320,7 +359,7 @@
                 "span_sv": "Eleanor"
               }
             ],
-            "gloss": "fall in love",
+            "gloss": "in love (with)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -331,86 +370,30 @@
               "text_title": "Eleanor & Park",
               "text_url": "https://sv.wikipedia.org/wiki/Eleanor_%26_Park",
               "sentence_id": "2c1f239a",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kär\"][word=\"i\"]"
-            }
-          },
-          {
-            "ex_id": "ab2036738364cd3bcdaed91b4353d22f51aedce9",
-            "sv": "Han blir omedelbart kär i henne igen, utan att veta vem hon är.",
-            "en": "He immediately falls in love with her again, without knowing who she is.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Han"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "henne"
-              }
-            ],
-            "gloss": "fall in love",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Med dej i mina armar",
-              "text_url": "https://sv.wikipedia.org/wiki/Med_dej_i_mina_armar",
-              "sentence_id": "b39fef78",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kär\"][word=\"i\"]"
-            }
-          },
-          {
-            "ex_id": "562305b904f9a5fcdafa47804db6e6116f55c976",
-            "sv": "En ung man som reser till Paris blir kär i en vampyr.",
-            "en": "A young man who travels to Paris falls in love with a vampire.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "En ung man"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "en vampyr"
-              }
-            ],
-            "gloss": "fall in love",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Paris, je t'aime",
-              "text_url": "https://sv.wikipedia.org/wiki/Paris,_je_t%27aime",
-              "sentence_id": "19d4b80a",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kär\"][word=\"i\"]"
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"kär\"]"
             }
           },
           {
             "ex_id": "90bf6902d7f4f68be7dca8a66b97a44f4fa892ac",
             "sv": "När Norma på nyårsafton avslöjar att hon är kär i honom blir han förskräckt.",
             "en": "When Norma on New Year's Eve reveals that she is in love with him, he becomes frightened.",
-            "frame_id": "frame_personal_relationship",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "hon"
+                "span_sv": "Norma"
               },
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "honom"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "på nyårsafton"
               }
             ],
-            "gloss": "in love",
+            "gloss": "in love (with)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -421,26 +404,56 @@
               "text_title": "Sunset Boulevard (film)",
               "text_url": "https://sv.wikipedia.org/wiki/Sunset_Boulevard_(film)",
               "sentence_id": "7e8a6fe2",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kär\"][word=\"i\"]"
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"kär\"]"
+            }
+          },
+          {
+            "ex_id": "78b655a15e9c0c5d3046cd1a871cf69f31e0a9ff",
+            "sv": "Ben är kär i Lucy och har något viktigt att säga henne innan han reser bort.",
+            "en": "Ben is in love with Lucy and has something important to tell her before he travels away.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Ben"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Lucy"
+              }
+            ],
+            "gloss": "in love (with)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Telefonen (opera)",
+              "text_url": "https://sv.wikipedia.org/wiki/Telefonen_(opera)",
+              "sentence_id": "54b357ff",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"kär\"]"
             }
           },
           {
             "ex_id": "446317f1d4fdb3e25cb066f55af057d0f6d2dd8c",
             "sv": "Han berättar också om att han är kär i en tjej som heter Paris.",
-            "en": "He also says that he is in love with a girl called Paris.",
-            "frame_id": "frame_personal_relationship",
+            "en": "He also tells that he is in love with a girl called Paris.",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "han"
+                "span_sv": "Han"
               },
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "en tjej som heter Paris"
               }
             ],
-            "gloss": "in love",
+            "gloss": "in love (with)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -451,8 +464,8 @@
               "text_title": "Habib: meningen med livet",
               "text_url": "https://sv.wikipedia.org/wiki/Habib:_meningen_med_livet",
               "sentence_id": "dad65abf",
-              "retrieved_at": "2026-01-20T01:27:07+00:00",
-              "korp_query": "[word=\"kär\"][word=\"i\"]"
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"kär\"]"
             }
           }
         ]
@@ -460,7 +473,7 @@
     ],
     "pronunciation": {
       "ipa": "ɕæːr",
-      "stress_hint": "Long vowel: kär sounds like “shair” with a long ä.",
+      "stress_hint": "Long vowel: kär sounds like “shair” with a long ä-sound.",
       "audio": {
         "file": "audio/lu_verliebt_inacc.mp3",
         "model": "gpt-4o-mini-tts",

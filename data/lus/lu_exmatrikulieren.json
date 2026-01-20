@@ -1,0 +1,179 @@
+{
+  "lexical_unit": {
+    "id": "lu_exmatrikulieren",
+    "source_de": {
+      "lu_de_raw": "exmatrikulieren",
+      "lu_de_normalized": "exmatrikulieren",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "avregistrera",
+    "display_sv": "avregistrera",
+    "name_sv": "avregistrera",
+    "pos": "verb",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "avregistrera",
+      "avregistrerar",
+      "avregistrerade",
+      "avregistrerat",
+      "avregistrerad"
+    ],
+    "english_equivalent_en": "unsubscribe",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "avregistrera",
+        "present": "avregistrerar",
+        "past": "avregistrerade",
+        "supine": "avregistrerat",
+        "imperative": "avregistrera",
+        "present_participle": "avregistrerande",
+        "past_participle": "avregistrerad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "avregistrering",
+        "type_en": "noun",
+        "meaning_en": "unsubscribing; removal from a register"
+      },
+      {
+        "word": "avregistrerad",
+        "type_en": "adjective",
+        "meaning_en": "unsubscribed; removed from a register"
+      },
+      {
+        "word": "avregistrera sig",
+        "type_en": "other",
+        "meaning_en": "unsubscribe (oneself)"
+      },
+      {
+        "word": "registrera",
+        "type_en": "verb",
+        "meaning_en": "register; sign up"
+      }
+    ],
+    "synonyms_sv": [
+      "säga upp",
+      "avbeställa",
+      "avsluta"
+    ],
+    "antonyms_sv": [
+      "registrera",
+      "anmäla"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_exmatrikulieren:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_exmatrikulieren:1",
+        "frame_id": "frame_education",
+        "meaning_en": "remove someone or yourself from a list or service, so you stop receiving messages.",
+        "how_to_use_en": [
+          "Often used with sig: avregistrera sig (unsubscribe).",
+          "Common with från + what you leave (e.g., future mailings).",
+          "Typical in formal or service contexts (emails, subscriptions)."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "avregistrera sig från + noun",
+            "meaning_en": "unsubscribe from something",
+            "note_en": "Common for email lists and similar services."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *avregistrera* without saying what you leave.",
+            "fix": "Add från + noun: avregistrera sig från …",
+            "explain_en": "In this sense, Swedish usually states the list/service you unsubscribe from."
+          },
+          {
+            "error": "Confusing *avregistrera* with *registrera*.",
+            "fix": "Use *registrera* for signing up and *avregistrera* for leaving.",
+            "explain_en": "They are opposites: register vs. remove from a register."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "f4c8d6616a867d5676512283fecf71e18ef3aa4a",
+            "sv": "Mottagaren bör ges möjlighet att kostnadsfritt och enkelt avregistrera sig från framtida e-postutskick (även kallat opt-out).",
+            "en": "The recipient should be given the possibility to unsubscribe for free and easily from future email mailings (also called opt-out).",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Mottagaren"
+              }
+            ],
+            "gloss": "avregistrera = remove oneself from a register; unsubscribe",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "E-postmarknadsföring",
+              "text_url": "https://sv.wikipedia.org/wiki/E-postmarknadsf%C3%B6ring",
+              "sentence_id": "ca55ce47",
+              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "korp_query": "[word=\"avregistrera\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈɑːv.rɛ.ɡɪˌstreː.ra",
+      "stress_hint": "Stress is usually on the first part: AV-registrera."
+    },
+    "morphology": {
+      "principal_parts": [
+        "avregistrera",
+        "avregistrerar",
+        "avregistrerade",
+        "avregistrerat"
+      ],
+      "particle_or_reflexive": "sig"
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

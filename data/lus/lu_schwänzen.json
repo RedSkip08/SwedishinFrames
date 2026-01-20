@@ -1,0 +1,324 @@
+{
+  "lexical_unit": {
+    "id": "lu_schwänzen",
+    "source_de": {
+      "lu_de_raw": "schwänzen",
+      "lu_de_normalized": "schwänzen",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "skolka",
+    "display_sv": "skolka",
+    "name_sv": "skolka",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "skolka",
+      "skolkar",
+      "skolkade",
+      "skolkat"
+    ],
+    "english_equivalent_en": "skip school",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "skolka",
+        "present": "skolkar",
+        "past": "skolkade",
+        "supine": "skolkat",
+        "imperative": "skolka",
+        "present_participle": "skolkande",
+        "past_participle": "skolkad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "skolk",
+        "type_en": "noun",
+        "meaning_en": "skipping school (as a phenomenon)"
+      },
+      {
+        "word": "skolkare",
+        "type_en": "noun",
+        "meaning_en": "a person who skips school"
+      },
+      {
+        "word": "skolkning",
+        "type_en": "noun",
+        "meaning_en": "the act of skipping school"
+      },
+      {
+        "word": "skolktrött",
+        "type_en": "adjective",
+        "meaning_en": "tired of school; unmotivated for school"
+      }
+    ],
+    "synonyms_sv": [
+      "skippa skolan",
+      "inte gå till skolan"
+    ],
+    "antonyms_sv": [
+      "gå i skolan"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_schwänzen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_schwänzen:1",
+        "frame_id": "frame_education",
+        "meaning_en": "not go to school when you should, without permission.",
+        "how_to_use_en": [
+          "Use about a student missing school on purpose.",
+          "Often used with börja/sluta: börja skolka, sluta skolka.",
+          "Can be used with från: skolka från skolan."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X skolar",
+            "meaning_en": "X skips school",
+            "note_en": "The student is the subject."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "börja skolka",
+            "meaning_en": "start skipping school",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "sluta skolka",
+            "meaning_en": "stop skipping school",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "skolka från skolan",
+            "meaning_en": "skip school (be absent from school)",
+            "note_en": "Uses från to name the institution."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "skolka tillsammans med X",
+            "meaning_en": "skip school together with X",
+            "note_en": ""
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using skolka for missing work (a job).",
+            "fix": "Use skolka mainly for school; for work, say t.ex. vara borta från jobbet.",
+            "explain_en": "Skolka is tied to school attendance in the examples."
+          },
+          {
+            "error": "Saying *skolka skolan*.",
+            "fix": "Say skolka or skolka från skolan.",
+            "explain_en": "The examples show skolka alone and skolka från skolan."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "0eec9fbe4f8c56ad5235d991e66e90005a382123",
+            "sv": "När skolan meddelar att eleven slutat skolka, betalar CSN ut studiebidraget igen.",
+            "en": "When the school says that the student has stopped skipping school, CSN pays out the study grant again.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skolan"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "eleven"
+              }
+            ],
+            "gloss": "skolka = not go to school (skip school) without permission",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Studiebidrag",
+              "text_url": "https://sv.wikipedia.org/wiki/Studiebidrag",
+              "sentence_id": "e3dd7923",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skolka\"]"
+            }
+          },
+          {
+            "ex_id": "1b58f48ec5701684c6607de89986971bb6c06e4e",
+            "sv": "På högstadiet började hon skolka och rymma hemifrån men gjorde också sitt första självmordsförsök.",
+            "en": "In lower secondary school she started skipping school and running away from home, but also made her first suicide attempt.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "högstadiet"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "hon"
+              }
+            ],
+            "gloss": "skolka = not go to school (skip school) without permission",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Stina Stoor",
+              "text_url": "https://sv.wikipedia.org/wiki/Stina_Stoor",
+              "sentence_id": "fafabf44",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skolka\"]"
+            }
+          },
+          {
+            "ex_id": "5a88da45dd4f9e9092a86e435b57b8acb9e0da8b",
+            "sv": "Bart bestämmer sig för att skolka och skriver en falsk lapp att han ska besöka tandläkaren.",
+            "en": "Bart decides to skip school and writes a fake note that he is going to visit the dentist.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Bart"
+              }
+            ],
+            "gloss": "skolka = not go to school (skip school) without permission",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "The Boy Who Knew Too Much (Simpsons)",
+              "text_url": "https://sv.wikipedia.org/wiki/The_Boy_Who_Knew_Too_Much_(Simpsons)",
+              "sentence_id": "500eef20",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skolka\"]"
+            }
+          },
+          {
+            "ex_id": "861576916ad7d11a6d4e1ef94280457098049df9",
+            "sv": "Viggo börjar skolka från skolan, dra sig undan kompisarna och tillbringa alltmer tid i skogen hos fågeln.",
+            "en": "Viggo starts skipping school, withdrawing from his friends, and spending more and more time in the forest with the bird.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Viggo"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skolan"
+              }
+            ],
+            "gloss": "skolka = not go to school (skip school) without permission",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Stefan Jarl",
+              "text_url": "https://sv.wikipedia.org/wiki/Stefan_Jarl",
+              "sentence_id": "ae27f154",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skolka\"]"
+            }
+          },
+          {
+            "ex_id": "15e9faa9ae5a9b95a4c8b78aa72e2599646dd5e7",
+            "sv": "Haley, som egentligen skulle hjälpa Nathan med skolarbetet, börjar istället dricka och skolka tillsammans med honom.",
+            "en": "Haley, who was really going to help Nathan with the schoolwork, instead starts drinking and skipping school together with him.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Haley"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Nathan"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "skolarbetet"
+              }
+            ],
+            "gloss": "skolka = not go to school (skip school) without permission",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Säsonger av One Tree Hill",
+              "text_url": "https://sv.wikipedia.org/wiki/S%C3%A4songer_av_One_Tree_Hill",
+              "sentence_id": "d8745ed1",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"skolka\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈskɔl.ka",
+      "stress_hint": "Stress on the first syllable: SKOL-ka."
+    },
+    "morphology": {
+      "principal_parts": [
+        "skolka",
+        "skolkar",
+        "skolkade",
+        "skolkat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

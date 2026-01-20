@@ -1,0 +1,329 @@
+{
+  "lexical_unit": {
+    "id": "lu_schrubben",
+    "source_de": {
+      "lu_de_raw": "schrubben",
+      "lu_de_normalized": "schrubben",
+      "gender_variants_de": [],
+      "pos_de": "unknown"
+    },
+    "lu_type": "single",
+    "lemma_sv": "skrubba",
+    "display_sv": "skrubba",
+    "name_sv": "skrubba",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "skrubba",
+      "skrubbar",
+      "skrubbade",
+      "skrubbat"
+    ],
+    "english_equivalent_en": "scrub",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "skrubba",
+        "present": "skrubbar",
+        "past": "skrub-bade",
+        "supine": "skrubbat",
+        "imperative": "skrubba",
+        "present_participle": "skrubbandes",
+        "past_participle": "skrubbad",
+        "alternatives": [
+          {
+            "infinitive": "skrubba",
+            "present": "skrubbar",
+            "past": "skrub-bade",
+            "supine": "skrubbat",
+            "imperative": "skrubba",
+            "present_participle": "skrubbande",
+            "past_participle": "skrubbat"
+          }
+        ]
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Past is commonly skrubbade (spelled without hyphen). Present participle is skrubbande."
+    },
+    "derived_words_sv": [
+      {
+        "word": "skrubborste",
+        "type_en": "noun",
+        "meaning_en": "scrubbing brush"
+      },
+      {
+        "word": "skrubba rent",
+        "type_en": "other",
+        "meaning_en": "scrub clean"
+      },
+      {
+        "word": "skrubbandet",
+        "type_en": "noun",
+        "meaning_en": "the scrubbing (activity)"
+      },
+      {
+        "word": "skrubba bort",
+        "type_en": "other",
+        "meaning_en": "scrub off (remove by scrubbing)"
+      }
+    ],
+    "synonyms_sv": [
+      "gnugga",
+      "skura",
+      "tvätta"
+    ],
+    "antonyms_sv": [
+      "smutsa ner"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_schrubben:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_schrubben:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "clean something by rubbing hard, often with water or a tool.",
+        "how_to_use_en": [
+          "Use it for cleaning surfaces or washing someone by rubbing hard.",
+          "The thing being cleaned is usually a direct object."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "skrubba + Patient",
+            "meaning_en": "scrub something/someone",
+            "note_en": "Patient is what gets cleaned (e.g., däck, stenar, en person)."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "skrubba + Patient + (platsuttryck)",
+            "meaning_en": "scrub something at a place",
+            "note_en": "Often used with a location phrase like utanför kyrkan."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "skrubba med + Instrument",
+            "meaning_en": "scrub with a tool",
+            "note_en": "Instrument is introduced by med."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "skrubba (efter blötläggning) med + Instrument",
+            "meaning_en": "scrub after soaking",
+            "note_en": "Often in instructions: soak first, then scrub."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using skrubba for light cleaning.",
+            "fix": "Use tvätta or torka for lighter cleaning.",
+            "explain_en": "Skrubba suggests strong rubbing to remove dirt."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "d35d010ba670677ea5d8254c0230a50e10631368",
+            "sv": "Bart blir rentvådd och Jessica får som straff börja skrubba trappan utanför kyrkan.",
+            "en": "Bart gets washed clean and as a punishment Jessica has to start scrubbing the stairs outside the church.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "Jessica"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "trappan utanför kyrkan"
+              }
+            ],
+            "gloss": "scrub",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bart's Girlfriend",
+              "text_url": "https://sv.wikipedia.org/wiki/Bart%27s_Girlfriend",
+              "sentence_id": "8917bab0",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"skrubba\"]"
+            }
+          },
+          {
+            "ex_id": "5cffbf252bcaa539a073f3597cc8039c280d468e",
+            "sv": "Amiral Grimitz har det tufft med att be Kalle skrubba däck.",
+            "en": "Admiral Grimitz has a hard time asking Kalle to scrub the deck.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "Kalle"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "däck"
+              }
+            ],
+            "gloss": "scrub",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lista över rollfigurer i Ducktales",
+              "text_url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_rollfigurer_i_Ducktales",
+              "sentence_id": "61c46336",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"skrubba\"]"
+            }
+          },
+          {
+            "ex_id": "66176ebb9981a41c467ae6320e5e034eb8ba37d6",
+            "sv": "De två sätts i arbete att skrubba stenar men överger snart jobbet och åker hem.",
+            "en": "The two are put to work scrubbing stones, but soon leave the job and go home.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "De två"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "stenar"
+              }
+            ],
+            "gloss": "scrub",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bart After Dark",
+              "text_url": "https://sv.wikipedia.org/wiki/Bart_After_Dark",
+              "sentence_id": "ca5cfc97",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"skrubba\"]"
+            }
+          },
+          {
+            "ex_id": "f819fc3d7858065f2532596bdfa735d509c85958",
+            "sv": "Homer börjar skrubba luffaren och berättar för familjen att de ses om en timme.",
+            "en": "Homer starts scrubbing the tramp and tells the family that they will see each other in an hour.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "Homer"
+              },
+              {
+                "fe_id": "fe_patient",
+                "span_sv": "luffaren"
+              }
+            ],
+            "gloss": "scrub",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Simpsons Tall Tales",
+              "text_url": "https://sv.wikipedia.org/wiki/Simpsons_Tall_Tales",
+              "sentence_id": "2a54ab50",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"skrubba\"]"
+            }
+          },
+          {
+            "ex_id": "df18132dac345936e83d42eefd4f620a184ad5dc",
+            "sv": "Alternativt blötlägga i bakpulver, ättikssprit och vatten i en halvtimme och skrubba med en boll av aluminiumfolie.",
+            "en": "Alternatively, soak in baking powder, vinegar spirit and water for half an hour and scrub with a ball of aluminum foil.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "bakpulver, ättikssprit och vatten"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "en boll av aluminiumfolie"
+              }
+            ],
+            "gloss": "scrub",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Grill",
+              "text_url": "https://sv.wikipedia.org/wiki/Grill",
+              "sentence_id": "757916cc",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"skrubba\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈskrɵbːa",
+      "stress_hint": "Stress on the first syllable: SKRUB-ba.",
+      "audio": {
+        "file": "audio/lu_schrubben.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "skrubba",
+        "skrubbar",
+        "skrubbade",
+        "skrubbat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

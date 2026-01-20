@@ -8,9 +8,9 @@
       "pos_de": "noun"
     },
     "lu_type": "single",
-    "lemma_sv": "vän",
-    "display_sv": "vän",
-    "name_sv": "vän",
+    "lemma_sv": "pojkvän",
+    "display_sv": "pojkvän",
+    "name_sv": "pojkvän",
     "pos": "noun",
     "cefr": "A2",
     "multiword": {
@@ -19,20 +19,20 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "vän",
-      "vännen",
-      "vänner",
-      "vännerna"
+      "pojkvän",
+      "pojkvännen",
+      "pojkvänner",
+      "pojkvännerna"
     ],
-    "english_equivalent_en": "friend",
+    "english_equivalent_en": "boyfriend",
     "morphology_sv": {
       "noun": {
         "gender": "en",
-        "indef_sg": "vän",
-        "def_sg": "vännen",
-        "indef_pl": "vänner",
-        "def_pl": "vännerna",
-        "note_en": "Plural changes vowel: vän → vänner."
+        "indef_sg": "pojkvän",
+        "def_sg": "pojkvännen",
+        "indef_pl": "pojkvänner",
+        "def_pl": "pojkvännerna",
+        "note_en": ""
       },
       "verb": {
         "infinitive": null,
@@ -55,173 +55,113 @@
     },
     "derived_words_sv": [
       {
-        "word": "vänskap",
+        "word": "flickvän",
         "type_en": "noun",
-        "meaning_en": "friendship"
+        "meaning_en": "girlfriend"
       },
       {
-        "word": "vänskaplig",
-        "type_en": "adjective",
-        "meaning_en": "friendly; in a friendly way"
-      },
-      {
-        "word": "vänkrets",
-        "type_en": "noun",
-        "meaning_en": "circle of friends"
-      },
-      {
-        "word": "bästa vän",
+        "word": "pojkvännen",
         "type_en": "other",
-        "meaning_en": "best friend"
+        "meaning_en": "the boyfriend (definite form)"
       },
       {
-        "word": "barndomsvän",
+        "word": "ex-pojkvän",
         "type_en": "noun",
-        "meaning_en": "childhood friend"
+        "meaning_en": "ex-boyfriend"
+      },
+      {
+        "word": "pojkvänsrelation",
+        "type_en": "noun",
+        "meaning_en": "boyfriend relationship (informal/rare)"
       }
     ],
     "synonyms_sv": [
-      "kompis",
-      "kamrat",
-      "väninna"
+      "kille",
+      "partner"
     ],
     "antonyms_sv": [
-      "fiende"
+      "flickvän"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_personal_relationship",
-        "frame_name_en": "Personal Relationship",
-        "frame_slug": "personal_relationship",
+        "frame_id": "frame_dating",
+        "frame_name_en": "Dating",
+        "frame_slug": "dating",
         "sense_id": "lu_freund_der:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_freund_der:1",
-        "frame_id": "frame_personal_relationship",
-        "meaning_en": "a person you like and know well; not a family member",
+        "frame_id": "frame_dating",
+        "meaning_en": "a male romantic partner in a relationship, usually not married",
         "how_to_use_en": [
-          "Use for a personal relationship: someone is another person’s friend.",
-          "Often used with possessives: hans/sin/hennes + vän.",
-          "Use bli vän med + person to talk about becoming friends."
+          "Use for someone’s male partner: min/sin/hennes/hans pojkvän.",
+          "Often used when talking about relationship status: ha en pojkvän.",
+          "Can be used with adjectives like ny/redan to show relationship stage."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "X:s vän",
-            "meaning_en": "X’s friend",
-            "note_en": "Use genitive -s to show whose friend it is."
+            "pattern": "en pojkvän",
+            "meaning_en": "a boyfriend",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "hans/hennes/sin vän + Namn",
-            "meaning_en": "his/her/own friend + name",
-            "note_en": "Often followed by the friend’s name as extra information."
+            "pattern": "hennes nya pojkvän",
+            "meaning_en": "her new boyfriend",
+            "note_en": "Adjectives like ny/redan can show the relationship stage."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "bli vän med + person",
-            "meaning_en": "become friends with someone",
-            "note_en": "Talks about starting a friendship."
+            "pattern": "sin pojkvän",
+            "meaning_en": "one’s (own) boyfriend",
+            "note_en": "sin refers back to the subject."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "bästa/bäste vän",
-            "meaning_en": "best friend",
-            "note_en": "Common fixed phrase for a very close friend."
+            "pattern": "ha en pojkvän",
+            "meaning_en": "have a boyfriend",
+            "note_en": "Used for relationship status."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "gifta sig med sin pojkvän",
+            "meaning_en": "marry one’s boyfriend",
+            "note_en": ""
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *vän* to mean romantic partner.",
-            "fix": "Use partner, pojkvän/flickvän, or make it clear with context.",
-            "explain_en": "In Swedish, vän usually means a non-romantic friend."
+            "error": "Using pojkvän for any male friend.",
+            "fix": "Use vän (or kompis) for a non-romantic friend.",
+            "explain_en": "pojkvän normally means a romantic partner, not just a friend."
           },
           {
-            "error": "Saying *bli vän till* someone.",
-            "fix": "Say bli vän med + someone.",
-            "explain_en": "The examples show the fixed preposition med."
+            "error": "Mixing up sin and hans/hennes with pojkvän.",
+            "fix": "Use sin pojkvän when the subject owns the boyfriend; otherwise hans/hennes pojkvän.",
+            "explain_en": "sin refers back to the subject in the same clause."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "70a46f4d5656aa9992afee49d41f79844a00399b",
-            "sv": "Hans vän Max Brod hävdade att Kafka var en religiös diktare.",
-            "en": "His friend Max Brod claimed that Kafka was a religious poet.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "8a0fd28a66612239a2bb2642b0fadd075c3c3522",
+            "sv": "En pojkvän är en man i kärleksförhållande där parterna inte är gifta eller ingått registrerat partnerskap.",
+            "en": "A boyfriend is a man in a love relationship where the partners are not married or have entered a registered partnership.",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "Hans"
+                "span_sv": "En pojkvän"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Max Brod"
+                "fe_id": "fe_relationship",
+                "span_sv": "i kärleksförhållande"
               }
             ],
-            "gloss": "vän = friend",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Förvandlingen",
-              "text_url": "https://sv.wikipedia.org/wiki/F%C3%B6rvandlingen",
-              "sentence_id": "e33a050f",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"vän\"]"
-            }
-          },
-          {
-            "ex_id": "57f3295acc44e348d7d45601b179a88a8e693c61",
-            "sv": "Under sin tid i Tyskland blev han vän med Carl Siegel.",
-            "en": "During his time in Germany he became friends with Carl Siegel.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Carl Siegel"
-              }
-            ],
-            "gloss": "bli vän med = become friends with",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "André Weil",
-              "text_url": "https://sv.wikipedia.org/wiki/Andr%C3%A9_Weil",
-              "sentence_id": "ba858b6f",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"vän\"]"
-            }
-          },
-          {
-            "ex_id": "02faab3e7364cbfa12be1143c0adea22eeb1a6bc",
-            "sv": "Där blir hon vän med en ung flicka som försökte göra inbrott hos henne.",
-            "en": "There she becomes friends with a young girl who tried to break into her place.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "hon"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "en ung flicka"
-              }
-            ],
-            "gloss": "bli vän med = become friends with",
+            "gloss": "pojkvän = boyfriend",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -229,29 +169,101 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Elektra (film)",
-              "text_url": "https://sv.wikipedia.org/wiki/Elektra_(film)",
-              "sentence_id": "2b7ad459",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"vän\"]"
+              "text_title": "Pojkvän",
+              "text_url": "https://sv.wikipedia.org/wiki/Pojkv%C3%A4n",
+              "sentence_id": "94fc17f6",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
             }
           },
           {
-            "ex_id": "419ab23314ade3b5a6f207a39356071bcbc1eb37",
-            "sv": "Bassanio ber sin vän köpmannen Antonio om ett lån för att kunna fria till Portia.",
-            "en": "Bassanio asks his friend, the merchant Antonio, for a loan so that he can propose to Portia.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "f72a1e1eedcc14e7d0b4a243cd64a266a6b01806",
+            "sv": "Freddie träffar Mary och hennes nya pojkvän som kollade på konserten.",
+            "en": "Freddie meets Mary and her new boyfriend who watched the concert.",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Mary"
+              },
+              {
                 "fe_id": "fe_partner_1",
-                "span_sv": "Bassanio"
+                "span_sv": "hennes nya pojkvän"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "nya"
+              }
+            ],
+            "gloss": "pojkvän = boyfriend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bohemian Rhapsody (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Bohemian_Rhapsody_(film)",
+              "sentence_id": "6a51d2af",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
+            }
+          },
+          {
+            "ex_id": "e967b6baa4f8b3b52e2eaefafd0d9293326cb328",
+            "sv": "Något år senare ses Claire tillsammans med en pojkvän, Thomas.",
+            "en": "Some year later Claire is seen together with a boyfriend, Thomas.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Något år senare"
               },
               {
                 "fe_id": "fe_partner_2",
-                "span_sv": "köpmannen Antonio"
+                "span_sv": "Claire"
+              },
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "en pojkvän, Thomas"
               }
             ],
-            "gloss": "sin vän = his friend",
+            "gloss": "pojkvän = boyfriend",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Huvudroller i Lost",
+              "text_url": "https://sv.wikipedia.org/wiki/Huvudroller_i_Lost",
+              "sentence_id": "ef5cb38e",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
+            }
+          },
+          {
+            "ex_id": "cdd3f30c902a7ba73bfeb56983f0527c0cda8b9c",
+            "sv": "Då Alice redan har en pojkvän anser han sig till en början vara chanslös.",
+            "en": "Since Alice already has a boyfriend, he thinks at first that he has no chance.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Alice"
+              },
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "en pojkvän"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "redan"
+              }
+            ],
+            "gloss": "pojkvän = boyfriend",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -259,29 +271,33 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Köpmannen i Venedig",
-              "text_url": "https://sv.wikipedia.org/wiki/K%C3%B6pmannen_i_Venedig",
-              "sentence_id": "4deee158",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"vän\"]"
+              "text_title": "Hattmakaren (seriefigur)",
+              "text_url": "https://sv.wikipedia.org/wiki/Hattmakaren_(seriefigur)",
+              "sentence_id": "43cfaf21",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
             }
           },
           {
-            "ex_id": "f46aaf25b708a1fb6a8e401398d42a3d5c1ece1d",
-            "sv": "En kväll bjuder han ut sin vän på middag i sällskap med några damer.",
-            "en": "One evening he invites his friend out to dinner in the company of some ladies.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "eedc25ee7a02f37c7b94e7c7b2e779d157e97a3a",
+            "sv": "Några månader efter att hon blev klar med boken gifte hon sig med sin pojkvän.",
+            "en": "A few months after she finished the book, she married her boyfriend.",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "han"
+                "fe_id": "fe_time",
+                "span_sv": "Några månader efter att hon blev klar med boken"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "sin vän"
+                "fe_id": "fe_partner_1",
+                "span_sv": "sin pojkvän"
+              },
+              {
+                "fe_id": "fe_stage",
+                "span_sv": "gifte hon sig"
               }
             ],
-            "gloss": "sin vän = his friend",
+            "gloss": "pojkvän = boyfriend",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -289,29 +305,63 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Toffelhjältar på vift",
-              "text_url": "https://sv.wikipedia.org/wiki/Toffelhj%C3%A4ltar_p%C3%A5_vift",
-              "sentence_id": "1b9992e4",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"vän\"]"
+              "text_title": "S.E. Hinton",
+              "text_url": "https://sv.wikipedia.org/wiki/S.E._Hinton",
+              "sentence_id": "f72416e6",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
             }
           },
           {
-            "ex_id": "dcb069d9b0a1d55f4190582ef9d054cc7b23b9f9",
-            "sv": "De satt vid stranden, Buckley sjöng och hans vän spelade på en gitarr.",
-            "en": "They sat by the beach, Buckley sang and his friend played a guitar.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "b13605f4b13d6fb37842a4f9e3489f2dec01b2d8",
+            "sv": "I låttexten ber framföraren sin pojkvän om förlåtelse efter ett bråk.",
+            "en": "In the song lyrics, the performer asks her boyfriend for forgiveness after a quarrel.",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Buckley"
+                "fe_id": "fe_partner_2",
+                "span_sv": "framföraren"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "hans vän"
+                "fe_id": "fe_partner_1",
+                "span_sv": "sin pojkvän"
+              },
+              {
+                "fe_id": "fe_reason",
+                "span_sv": "efter ett bråk"
               }
             ],
-            "gloss": "hans vän = his friend",
+            "gloss": "pojkvän = boyfriend",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Without You (låt av Brandy Norwood)",
+              "text_url": "https://sv.wikipedia.org/wiki/Without_You_(l%C3%A5t_av_Brandy_Norwood)",
+              "sentence_id": "f3131e65",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
+            }
+          },
+          {
+            "ex_id": "9b09e5e682daeebfd4f1aa56405af2f0b086c224",
+            "sv": "Hon vill inte prata med honom och han bråkar med hennes pojkvän.",
+            "en": "She does not want to talk with him, and he argues with her boyfriend.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "hennes"
+              },
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "hennes pojkvän"
+              }
+            ],
+            "gloss": "pojkvän = boyfriend",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -319,119 +369,93 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Jeff Buckley",
-              "text_url": "https://sv.wikipedia.org/wiki/Jeff_Buckley",
-              "sentence_id": "bb9ef1c7",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"vän\"]"
+              "text_title": "Die Hard 4.0",
+              "text_url": "https://sv.wikipedia.org/wiki/Die_Hard_4.0",
+              "sentence_id": "401c234a",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
             }
           },
           {
-            "ex_id": "e255bc19d46e0770299baf56217836e3a373c17e",
-            "sv": "Dessutom är han Harrys gudfar och var hans pappas bäste vän.",
-            "en": "Also, he is Harry's godfather and was his dad's best friend.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "8cb197318f2049f4177cfc96e1886743560cd804",
+            "sv": "Kvinnans pojkvän tar för första gången ensam hand om deras gemensamma åtta månader gamla bebis.",
+            "en": "The woman's boyfriend for the first time takes care of their shared eight-month-old baby alone.",
+            "frame_id": "frame_dating",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "han"
+                "span_sv": "Kvinnans pojkvän"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "hans pappas"
+                "fe_id": "fe_time",
+                "span_sv": "för första gången"
               }
             ],
-            "gloss": "bäste vän = best friend",
-            "level": "A2",
+            "gloss": "pojkvän = boyfriend",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Harry Potter och fången från Azkaban (film)",
-              "text_url": "https://sv.wikipedia.org/wiki/Harry_Potter_och_f%C3%A5ngen_fr%C3%A5n_Azkaban_(film)",
-              "sentence_id": "d21d69b3",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"vän\"]"
+              "text_title": "Moa & Malte",
+              "text_url": "https://sv.wikipedia.org/wiki/Moa_%26_Malte",
+              "sentence_id": "e6c5ded1",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
             }
           },
           {
-            "ex_id": "9a6bb4225d116195a1a0706c3325ad7509e6ae5e",
-            "sv": "Lilly är Mileys bästa vän och även ett stort fan av Hannah Montana.",
-            "en": "Lilly is Miley's best friend and also a big fan of Hannah Montana.",
-            "frame_id": "frame_personal_relationship",
+            "ex_id": "42550c652f2adbcbc6f7d6f00ef2d303cd329566",
+            "sv": "Hon förklarar för Anatolij att hon inte låter sin pojkvän behandla henne hursomhelst.",
+            "en": "She explains to Anatolij that she does not let her boyfriend treat her any way he wants.",
+            "frame_id": "frame_dating",
             "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Lilly"
-              },
               {
                 "fe_id": "fe_partner_2",
-                "span_sv": "Mileys"
-              }
-            ],
-            "gloss": "bästa vän = best friend",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Hannah Montana",
-              "text_url": "https://sv.wikipedia.org/wiki/Hannah_Montana",
-              "sentence_id": "4956d4b2",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"vän\"]"
-            }
-          },
-          {
-            "ex_id": "465d24170422fac1ecdd36efefb33988b98e3c38",
-            "sv": "kan Bertil bli lika liten som sin vän och leka med honom under golvplankorna.",
-            "en": "Can Bertil become as small as his friend and play with him under the floorboards.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Bertil"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "sin vän"
-              }
-            ],
-            "gloss": "sin vän = his friend",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Nils Karlsson Pyssling",
-              "text_url": "https://sv.wikipedia.org/wiki/Nils_Karlsson_Pyssling",
-              "sentence_id": "27edd081",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"vän\"]"
-            }
-          },
-          {
-            "ex_id": "d55aa92bbe985f38ab626ffebf64b98fb35ec5d6",
-            "sv": "Hon är Vaans vän och ser sig själv som syster till Vaan.",
-            "en": "She is Vaan's friend and sees herself as a sister to Vaan.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
                 "span_sv": "Hon"
               },
               {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Vaan"
+                "fe_id": "fe_partner_1",
+                "span_sv": "sin pojkvän"
               }
             ],
-            "gloss": "Vaans vän = Vaan's friend",
+            "gloss": "pojkvän = boyfriend",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Chess",
+              "text_url": "https://sv.wikipedia.org/wiki/Chess",
+              "sentence_id": "fa10bf34",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
+            }
+          },
+          {
+            "ex_id": "323eabe03380dfde35152367f6ac24ef0fed86e2",
+            "sv": "Riley är öppet gay och från februari 2022 har han en pojkvän.",
+            "en": "Riley is openly gay and from February 2022 he has a boyfriend.",
+            "frame_id": "frame_dating",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "en pojkvän"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "från februari 2022"
+              }
+            ],
+            "gloss": "pojkvän = boyfriend",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -439,19 +463,19 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Final Fantasy XII",
-              "text_url": "https://sv.wikipedia.org/wiki/Final_Fantasy_XII",
-              "sentence_id": "36aeafd2",
-              "retrieved_at": "2026-01-20T01:27:06+00:00",
-              "korp_query": "[word=\"vän\"]"
+              "text_title": "Sheldon Riley",
+              "text_url": "https://sv.wikipedia.org/wiki/Sheldon_Riley",
+              "sentence_id": "94c27887",
+              "retrieved_at": "2026-01-20T08:16:05+00:00",
+              "korp_query": "[word=\"pojkvän\"]"
             }
           }
         ]
       }
     ],
     "pronunciation": {
-      "ipa": "vɛnː",
-      "stress_hint": "Long n-sound: the consonant is held longer.",
+      "ipa": "ˈpɔjːkˌvɛn",
+      "stress_hint": "Main stress on POJK-, weaker stress on -vän.",
       "audio": {
         "file": "audio/lu_freund_der.mp3",
         "model": "gpt-4o-mini-tts",
@@ -461,10 +485,10 @@
     },
     "morphology": {
       "principal_parts": [
-        "vän",
-        "vännen",
-        "vänner",
-        "vännerna"
+        "pojkvän (en)",
+        "pojkvännen",
+        "pojkvänner",
+        "pojkvännerna"
       ],
       "particle_or_reflexive": null
     }

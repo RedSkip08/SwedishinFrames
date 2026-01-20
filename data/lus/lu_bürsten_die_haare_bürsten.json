@@ -1,0 +1,349 @@
+{
+  "lexical_unit": {
+    "id": "lu_bürsten_die_haare_bürsten",
+    "source_de": {
+      "lu_de_raw": "bürsten (die Haare bürsten)",
+      "lu_de_normalized": "bürsten",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "borsta",
+    "display_sv": "borsta",
+    "name_sv": "borsta",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "borsta",
+      "borstar",
+      "borstade",
+      "borstat"
+    ],
+    "english_equivalent_en": "brush",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "borsta",
+        "present": "borstar",
+        "past": "borstade",
+        "supine": "borstat",
+        "imperative": "borsta",
+        "present_participle": "borstande",
+        "past_participle": "borstad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "tandborste",
+        "type_en": "noun",
+        "meaning_en": "toothbrush"
+      },
+      {
+        "word": "tandkräm",
+        "type_en": "noun",
+        "meaning_en": "toothpaste"
+      },
+      {
+        "word": "borstning",
+        "type_en": "noun",
+        "meaning_en": "brushing (the activity)"
+      },
+      {
+        "word": "borste",
+        "type_en": "noun",
+        "meaning_en": "brush"
+      },
+      {
+        "word": "hårborste",
+        "type_en": "noun",
+        "meaning_en": "hairbrush"
+      }
+    ],
+    "synonyms_sv": [
+      "borsta av",
+      "rengöra"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_bürsten_die_haare_bürsten:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_bürsten_die_haare_bürsten:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "clean or groom something by moving a brush over it.",
+        "how_to_use_en": [
+          "Use for grooming body parts like teeth or hair.",
+          "Often followed by a direct object (what you brush).",
+          "Can combine with particles like bort to show removal."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "borsta + Body_part",
+            "meaning_en": "brush a body part",
+            "note_en": "Common with tänderna and håret."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "borsta + Body_part + med + Instrument + och + Medium",
+            "meaning_en": "brush using tool and paste",
+            "note_en": "Typical for teeth: tandborste (tool) and tandkräm (paste)."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "borsta bort + Patient",
+            "meaning_en": "brush away something",
+            "note_en": "Shows removal, e.g. damm."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "användas för att borsta med",
+            "meaning_en": "be used to brush with",
+            "note_en": "Med refers to the improvised brush/tool."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *borsta* without saying what is brushed when it is unclear.",
+            "fix": "Add the object: borsta tänderna / borsta håret.",
+            "explain_en": "In these uses, Swedish normally states the thing being brushed."
+          },
+          {
+            "error": "Mixing up instrument and medium: saying *borsta med tandkräm*.",
+            "fix": "Say borsta tänderna med tandborste och tandkräm.",
+            "explain_en": "Use med for tools/materials used while brushing; toothpaste is used together with a toothbrush."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "132cbc497bde1eb3fc6a18abf68d52d574d22bc7",
+            "sv": "Det är ett komplement till att borsta tänderna med tandborste och tandkräm.",
+            "en": "It is a complement to brushing your teeth with a toothbrush and toothpaste.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "tänderna"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tandborste"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tandkräm"
+              }
+            ],
+            "gloss": "borsta = brush (clean by brushing)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Fluorsköljning",
+              "text_url": "https://sv.wikipedia.org/wiki/Fluorsk%C3%B6ljning",
+              "sentence_id": "2f7a7faa",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          },
+          {
+            "ex_id": "614b7fd129507c0d3ab77ba9b9b34af963cd6cf1",
+            "sv": "För att undvika parodontit skall man dagligen borsta tänderna och använda tandtråd.",
+            "en": "To avoid periodontitis, you should brush your teeth daily and use dental floss.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "man"
+              },
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "tänderna"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tandtråd"
+              }
+            ],
+            "gloss": "borsta = brush (clean by brushing)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Parodontit",
+              "text_url": "https://sv.wikipedia.org/wiki/Parodontit",
+              "sentence_id": "b398e0e4",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          },
+          {
+            "ex_id": "7b5f6902636b4a812df20d82885ac077dbf701d1",
+            "sv": "En dammvippa är ett städredskap som används för att borsta bort damm.",
+            "en": "A duster is a cleaning tool that is used to brush away dust.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "En dammvippa"
+              }
+            ],
+            "gloss": "borsta bort = brush away (remove by brushing)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Dammvippa",
+              "text_url": "https://sv.wikipedia.org/wiki/Dammvippa",
+              "sentence_id": "36e3e7fc",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          },
+          {
+            "ex_id": "050bdc95665b0df46736ad358c2aeeb514d7ca71",
+            "sv": "• Utför skönhetsritualer, t.ex. borsta håret ofta, duscha flera gånger per dag, sminka sig osv.",
+            "en": "Do beauty routines, for example brush your hair often, shower several times per day, put on makeup, etc.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "håret"
+              }
+            ],
+            "gloss": "borsta = brush (hair/teeth etc.)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Dysmorfofobi",
+              "text_url": "https://sv.wikipedia.org/wiki/Dysmorfofobi",
+              "sentence_id": "4bb90df6",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          },
+          {
+            "ex_id": "f4bbcce577a7341e0f3dd433eb2036f840649f66",
+            "sv": "Dålig andedräkt kan motverkas genom att borsta tänderna, suga på zinkpastiller eller använda munspray.",
+            "en": "Bad breath can be countered by brushing your teeth, sucking on zinc lozenges, or using mouth spray.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "tänderna"
+              }
+            ],
+            "gloss": "borsta = brush (teeth)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Dålig andedräkt",
+              "text_url": "https://sv.wikipedia.org/wiki/D%C3%A5lig_andedr%C3%A4kt",
+              "sentence_id": "9ee2f8a8",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          },
+          {
+            "ex_id": "cdf36afe621d3cd1421ea068446715a8d8aa3242",
+            "sv": "Ena änden tuggas mjuk och den används sedan för att borsta med.",
+            "en": "One end is chewed soft and then it is used to brush with.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "den"
+              }
+            ],
+            "gloss": "borsta med = brush with (use as a brush)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Vem är Sama från Ghana?",
+              "text_url": "https://sv.wikipedia.org/wiki/Vem_%C3%A4r_Sama_fr%C3%A5n_Ghana%3F",
+              "sentence_id": "346f9fb4",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈbɔrsta",
+      "stress_hint": "Stress on the first syllable: BOR-sta.",
+      "audio": {
+        "file": "audio/lu_bürsten_die_haare_bürsten.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "borsta",
+        "borstar",
+        "borstade",
+        "borstat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

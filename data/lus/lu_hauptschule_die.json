@@ -1,0 +1,440 @@
+{
+  "lexical_unit": {
+    "id": "lu_hauptschule_die",
+    "source_de": {
+      "lu_de_raw": "Hauptschule, die",
+      "lu_de_normalized": "Hauptschule",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "grundskola",
+    "display_sv": "grundskola",
+    "name_sv": "grundskola",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "en grundskola",
+      "grundskola",
+      "avslutad grundskola"
+    ],
+    "english_equivalent_en": "primary school",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "grundskola",
+        "def_sg": "grundskolan",
+        "indef_pl": "grundskolor",
+        "def_pl": "grundskolorna",
+        "note_en": "Often used without an article when listing school types (e.g., förskola, grundskola, gymnasium)."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "grundskolelärare",
+        "type_en": "noun",
+        "meaning_en": "teacher in primary school"
+      },
+      {
+        "word": "grundskoleelev",
+        "type_en": "noun",
+        "meaning_en": "pupil in primary school"
+      },
+      {
+        "word": "grundskoleklass",
+        "type_en": "noun",
+        "meaning_en": "a class/group in primary school"
+      },
+      {
+        "word": "grundskolenivå",
+        "type_en": "noun",
+        "meaning_en": "primary-school level"
+      },
+      {
+        "word": "grundskoleutbildning",
+        "type_en": "noun",
+        "meaning_en": "primary-school education"
+      }
+    ],
+    "synonyms_sv": [
+      "skola",
+      "grundutbildning"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_hauptschule_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_hauptschule_die:1",
+        "frame_id": "frame_education",
+        "meaning_en": "the compulsory school level before upper secondary school in Sweden",
+        "how_to_use_en": [
+          "Use for the school institution (a place) or the school level.",
+          "Often appears in lists of school types: förskola, grundskola, gymnasium.",
+          "Use avslutad grundskola when talking about having completed it."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "Det finns (en) grundskola (i + place).",
+            "meaning_en": "there is a primary school",
+            "note_en": "Used to describe what institutions exist in a place."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "Orten har en grundskola (för åren/årskurs + range).",
+            "meaning_en": "the place has a primary school",
+            "note_en": "Often followed by which grades/years it covers (e.g., F–9)."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "består av förskola, grundskola och gymnasium",
+            "meaning_en": "consists of school types",
+            "note_en": "Grundskola is used without an article in lists."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "avslutad grundskola",
+            "meaning_en": "completed primary school",
+            "note_en": "Used as a requirement or background before further studies."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "arbeta som lärare i grundskola (och gymnasium)",
+            "meaning_en": "work as a teacher in primary school",
+            "note_en": "Here grundskola refers to the school level/sector."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *grundskola* for preschool (förskola).",
+            "fix": "Use förskola for preschool and grundskola for the next level.",
+            "explain_en": "In Swedish these are different school forms, and the examples list them separately."
+          },
+          {
+            "error": "Forgetting the article in singular when you mean one specific school.",
+            "fix": "Say en grundskola / grundskolan when referring to one school.",
+            "explain_en": "The examples show both en grundskola (one school) and bare grundskola in lists."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "947be3cc7c8b41eed483dbbaf5a00aee5aa691d2",
+            "sv": "Här finns bland annat en grundskola, ett bibliotek och en strandklubb.",
+            "en": "Here there is, among other things, a primary school, a library, and a beach club.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en grundskola"
+              }
+            ],
+            "gloss": "grundskola",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Võsu",
+              "text_url": "https://sv.wikipedia.org/wiki/V%C3%B5su",
+              "sentence_id": "f3160d4f",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"grundskola\"]"
+            }
+          },
+          {
+            "ex_id": "a3fd2bf648c712c13ee2619eceb86b355199d79d",
+            "sv": "I samhället finns förskola, grundskola för årskurs F-3 samt fritidshem.",
+            "en": "In the community there is preschool, a primary school for grades F–3, and an after-school center.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "grundskola"
+              }
+            ],
+            "gloss": "grundskola",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Svensbyn",
+              "text_url": "https://sv.wikipedia.org/wiki/Svensbyn",
+              "sentence_id": "bf9caca2",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"grundskola\"]"
+            }
+          },
+          {
+            "ex_id": "ac58e35ba56dd60ab8f854876b8e2490d0de3030",
+            "sv": "Orten har en grundskola för åren F-9, tre förskolor samt äldreboende.",
+            "en": "The place has a primary school for the years F–9, three preschools, and an elderly home.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en grundskola"
+              }
+            ],
+            "gloss": "grundskola",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Råneå",
+              "text_url": "https://sv.wikipedia.org/wiki/R%C3%A5ne%C3%A5",
+              "sentence_id": "5b4ecc0c",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"grundskola\"]"
+            }
+          },
+          {
+            "ex_id": "bcc9dc3d4db123ff2ccea598d515e3f6cec74fac",
+            "sv": "Skolan ligger i Kampen och består av förskola, grundskola och gymnasium.",
+            "en": "The school is in Kampen and consists of preschool, primary school, and upper secondary school.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "grundskola"
+              }
+            ],
+            "gloss": "grundskola",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tyska skolan i Helsingfors",
+              "text_url": "https://sv.wikipedia.org/wiki/Tyska_skolan_i_Helsingfors",
+              "sentence_id": "533e684b",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"grundskola\"]"
+            }
+          },
+          {
+            "ex_id": "c2ae2eddd0db450983adb25d97688f2a9db1b31e",
+            "sv": "I Gröndal finns också en finskspråkig grundskola och ett finskspråkigt gymnasium.",
+            "en": "In Gröndal there is also a Finnish-language primary school and a Finnish-language upper secondary school.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en finskspråkig grundskola"
+              }
+            ],
+            "gloss": "grundskola",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gröndal, Esbo",
+              "text_url": "https://sv.wikipedia.org/wiki/Gr%C3%B6ndal,_Esbo",
+              "sentence_id": "a3c398ad",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"grundskola\"]"
+            }
+          },
+          {
+            "ex_id": "7c59eeda89118c37ff95ba5d3cd1a0eabadfb911",
+            "sv": "För att kunna utbilda sig vid sekundärskola (yrkesskola eller gymnasieskola), krävs avslutad grundskola.",
+            "en": "To be able to study at secondary school (vocational school or upper secondary school), a completed primary school is required.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "avslutad grundskola"
+              }
+            ],
+            "gloss": "grundskola",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Grundskola",
+              "text_url": "https://sv.wikipedia.org/wiki/Grundskola",
+              "sentence_id": "a2db0352",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"grundskola\"]"
+            }
+          },
+          {
+            "ex_id": "527f63eafe7d6861799d4a2d6416e4e2bf0997b2",
+            "sv": "Efter avslutad grundskola gick Wünsche i handelsskola och blev senare fastighetsskötare.",
+            "en": "After completing primary school, Wünsche went to business school and later became a caretaker.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "avslutad grundskola"
+              }
+            ],
+            "gloss": "grundskola",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Max Wünsche",
+              "text_url": "https://sv.wikipedia.org/wiki/Max_W%C3%BCnsche",
+              "sentence_id": "8adeb8fd",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"grundskola\"]"
+            }
+          },
+          {
+            "ex_id": "ddae42732b8264cbbc7941bef8cae2dcf240b364",
+            "sv": "I Sverige är utbildning inom förskoleklass och grundskola, samt liknande skolformer, avgiftsfri.",
+            "en": "In Sweden, education in preschool class and primary school, and similar school forms, is free of charge.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "grundskola"
+              }
+            ],
+            "gloss": "grundskola",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Skolavgift",
+              "text_url": "https://sv.wikipedia.org/wiki/Skolavgift",
+              "sentence_id": "59f8e55b",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"grundskola\"]"
+            }
+          },
+          {
+            "ex_id": "2df61d6e96cb9f28773f9268a57f272aca3fac51",
+            "sv": "Hon arbetade som lärare i grundskola och gymnasium fram till 1974.",
+            "en": "She worked as a teacher in primary school and upper secondary school until 1974.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "lärare"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "grundskola"
+              }
+            ],
+            "gloss": "grundskola",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hannelore Schmidt",
+              "text_url": "https://sv.wikipedia.org/wiki/Hannelore_Schmidt",
+              "sentence_id": "0768d606",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"grundskola\"]"
+            }
+          },
+          {
+            "ex_id": "5605cdaaf5e49319acf8876e7847c91dba2b31ea",
+            "sv": "Det hela började 1983 när Anders Jacobsson arbetade vid en grundskola i Karlskoga.",
+            "en": "It all started in 1983 when Anders Jacobsson worked at a primary school in Karlskoga.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en grundskola"
+              }
+            ],
+            "gloss": "grundskola",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sunes universum",
+              "text_url": "https://sv.wikipedia.org/wiki/Sunes_universum",
+              "sentence_id": "df1d3211",
+              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "korp_query": "[word=\"grundskola\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈɡrɵnːdˌskuːla",
+      "stress_hint": "Main stress is on GRUND-, with a weaker stress on -SKO-."
+    },
+    "morphology": {
+      "principal_parts": [
+        "grundskola",
+        "grundskolan",
+        "grundskolor",
+        "grundskolorna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

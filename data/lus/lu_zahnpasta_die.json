@@ -1,0 +1,486 @@
+{
+  "lexical_unit": {
+    "id": "lu_zahnpasta_die",
+    "source_de": {
+      "lu_de_raw": "Zahnpasta, die",
+      "lu_de_normalized": "Zahnpasta",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "tandkräm",
+    "display_sv": "tandkräm",
+    "name_sv": "tandkräm",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "tandkräm",
+      "tandkrämen",
+      "tandkrämer",
+      "tandkrämerna"
+    ],
+    "english_equivalent_en": "toothpaste",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "tandkräm",
+        "def_sg": "tandkrämen",
+        "indef_pl": "tandkrämer",
+        "def_pl": "tandkrämerna",
+        "note_en": "Often used as an uncountable substance, but plural is possible for different kinds."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "tandkrämstub",
+        "type_en": "noun",
+        "meaning_en": "tube of toothpaste"
+      },
+      {
+        "word": "fluortandkräm",
+        "type_en": "noun",
+        "meaning_en": "fluoride toothpaste"
+      },
+      {
+        "word": "barntandkräm",
+        "type_en": "noun",
+        "meaning_en": "children’s toothpaste"
+      },
+      {
+        "word": "vitgörande tandkräm",
+        "type_en": "other",
+        "meaning_en": "whitening toothpaste"
+      },
+      {
+        "word": "tandkrämsreklam",
+        "type_en": "noun",
+        "meaning_en": "toothpaste advertising"
+      }
+    ],
+    "synonyms_sv": [
+      "tandpasta"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_grooming",
+        "frame_name_en": "Grooming",
+        "frame_slug": "grooming",
+        "sense_id": "lu_zahnpasta_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_zahnpasta_die:1",
+        "frame_id": "frame_grooming",
+        "meaning_en": "a paste or gel used to clean teeth, usually with a toothbrush",
+        "how_to_use_en": [
+          "Use it when talking about brushing teeth: with a toothbrush.",
+          "Often used without plural when you mean the substance in general.",
+          "You can specify type: for example whitening or for sensitive teeth."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "borsta tänderna med tandborste och tandkräm",
+            "meaning_en": "brush teeth using toothpaste",
+            "note_en": "Common fixed pairing: toothbrush + toothpaste."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "använda tandkräm",
+            "meaning_en": "use toothpaste",
+            "note_en": "Often with advice or recommendations."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "fylla en tandborste med tandkräm",
+            "meaning_en": "put toothpaste on a toothbrush",
+            "note_en": "Used when describing how much to use."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "en tandkräm som inte innehåller X",
+            "meaning_en": "a toothpaste that does not contain X",
+            "note_en": "Used to describe ingredients/additives."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "flera olika sorters tandkräm",
+            "meaning_en": "different kinds of toothpaste",
+            "note_en": "Plural is natural when talking about types/varieties."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *tandkräm* as the tool instead of the substance.",
+            "fix": "Say *borsta tänderna med tandborste och tandkräm*.",
+            "explain_en": "In the examples, tandkräm is the medium used together with a toothbrush."
+          },
+          {
+            "error": "Forgetting the article/gender in singular.",
+            "fix": "Say *en tandkräm* / *tandkrämen*.",
+            "explain_en": "It is an en-word: en tandkräm, tandkrämen."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "fd0897f506cfa842b4d131f4604bec826e5cce8f",
+            "sv": "Hygienen i mun och tänder sköts vanligen med tandborste och tandkräm.",
+            "en": "Hygiene in the mouth and teeth is usually done with a toothbrush and toothpaste.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "mun och tänder"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tandborste"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tandkräm"
+              }
+            ],
+            "gloss": "tandkräm",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Personlig hygien",
+              "text_url": "https://sv.wikipedia.org/wiki/Personlig_hygien",
+              "sentence_id": "5d4ac6b9",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandborste\"]"
+            }
+          },
+          {
+            "ex_id": "132cbc497bde1eb3fc6a18abf68d52d574d22bc7",
+            "sv": "Det är ett komplement till att borsta tänderna med tandborste och tandkräm.",
+            "en": "It is a complement to brushing the teeth with a toothbrush and toothpaste.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "tänderna"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "tandborste"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tandkräm"
+              }
+            ],
+            "gloss": "tandkräm",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Fluorsköljning",
+              "text_url": "https://sv.wikipedia.org/wiki/Fluorsk%C3%B6ljning",
+              "sentence_id": "2f7a7faa",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"borsta\"]"
+            }
+          },
+          {
+            "ex_id": "f171bfe3a53ccae9a5d7a18731a4e914bf740b88",
+            "sv": "Barn upp till sex år bör använda tandkräm i storleken av en ärta.",
+            "en": "Children up to six years should use toothpaste the size of a pea.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "Barn upp till sex år"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tandkräm"
+              }
+            ],
+            "gloss": "tandkräm",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tandkräm",
+              "text_url": "https://sv.wikipedia.org/wiki/Tandkr%C3%A4m",
+              "sentence_id": "db258a28",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandkräm\"]"
+            }
+          },
+          {
+            "ex_id": "99f8eed1aef0ca5ee637db55242ee7222ce48e8d",
+            "sv": "Barn kan börja använda tandkräm i tidig ålder, under övervakning för att minska risken för sväljning.",
+            "en": "Children can start using toothpaste at an early age, under supervision to reduce the risk of swallowing.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "Barn"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tandkräm"
+              }
+            ],
+            "gloss": "tandkräm",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tandkräm",
+              "text_url": "https://sv.wikipedia.org/wiki/Tandkr%C3%A4m",
+              "sentence_id": "db24afaf",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandkräm\"]"
+            }
+          },
+          {
+            "ex_id": "2ef34259a9dc8bf3e014bd59f1cf0dcbb570928a",
+            "sv": "En vuxen ska enligt rekommendationerna fylla en normal tandborste med tandkräm, alltså 2 – 3 centimeter.",
+            "en": "An adult should, according to the recommendations, fill a normal toothbrush with toothpaste, that is 2–3 centimeters.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "En vuxen"
+              },
+              {
+                "fe_id": "fe_instrument",
+                "span_sv": "en normal tandborste"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tandkräm"
+              }
+            ],
+            "gloss": "tandkräm",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tandkräm",
+              "text_url": "https://sv.wikipedia.org/wiki/Tandkr%C3%A4m",
+              "sentence_id": "db238c37",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandborste\"]"
+            }
+          },
+          {
+            "ex_id": "acc80fc9bdf8e0ec6f06832a5de4b00580b8f002",
+            "sv": "Det finns flera olika sorters tandkräm med tillsatser som tjänar olika syften.",
+            "en": "There are several different kinds of toothpaste with additives that serve different purposes.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tandkräm"
+              }
+            ],
+            "gloss": "tandkräm",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tandkräm",
+              "text_url": "https://sv.wikipedia.org/wiki/Tandkr%C3%A4m",
+              "sentence_id": "db2ab81f",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandkräm\"]"
+            }
+          },
+          {
+            "ex_id": "b55e66cb7e5ea63c5fc48b1a2336c2400d4a1a25",
+            "sv": "Har man känslig slemhinna kan man använda en tandkräm som inte innehåller natriumlaurylsulfat.",
+            "en": "If you have sensitive mucous membrane, you can use a toothpaste that does not contain sodium lauryl sulfate.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "man"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "en tandkräm"
+              }
+            ],
+            "gloss": "tandkräm",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tandkräm",
+              "text_url": "https://sv.wikipedia.org/wiki/Tandkr%C3%A4m",
+              "sentence_id": "db2106db",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandkräm\"]"
+            }
+          },
+          {
+            "ex_id": "11716626c29e6aa9f47a18b0ca2370836c79cfe7",
+            "sv": "Har man känsliga tänder bör man rådfråga sin tandläkare innan man använder vitgörande tandkräm.",
+            "en": "If you have sensitive teeth, you should ask your dentist before you use whitening toothpaste.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_body_part",
+                "span_sv": "tänder"
+              },
+              {
+                "fe_id": "fe_agent",
+                "span_sv": "man"
+              },
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "vitgörande tandkräm"
+              }
+            ],
+            "gloss": "tandkräm",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tandkräm",
+              "text_url": "https://sv.wikipedia.org/wiki/Tandkr%C3%A4m",
+              "sentence_id": "db28e0e3",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandkräm\"]"
+            }
+          },
+          {
+            "ex_id": "c31ac958d211d1e6577e47aaae87a501fcea444e",
+            "sv": "Fosforföreningar förekommer även i nervgaser, bekämpningsmedel, tandkräm och tvättmedel.",
+            "en": "Phosphorus compounds also occur in nerve gases, pesticides, toothpaste, and detergents.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tandkräm"
+              }
+            ],
+            "gloss": "tandkräm",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Fosfor",
+              "text_url": "https://sv.wikipedia.org/wiki/Fosfor",
+              "sentence_id": "0787e137",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandkräm\"]"
+            }
+          },
+          {
+            "ex_id": "88e3bddb14cb0b60ca7481478a654a36985a21bb",
+            "sv": "Den används som förtjockningsmedel i till exempel glass, sylt, dressing och tandkräm.",
+            "en": "It is used as a thickening agent in, for example, ice cream, jam, dressing, and toothpaste.",
+            "frame_id": "frame_grooming",
+            "fe_tags": [
+              {
+                "fe_id": "fe_medium",
+                "span_sv": "tandkräm"
+              }
+            ],
+            "gloss": "tandkräm",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kelp",
+              "text_url": "https://sv.wikipedia.org/wiki/Kelp",
+              "sentence_id": "cca1ae2f",
+              "retrieved_at": "2026-01-20T08:43:11+00:00",
+              "korp_query": "[word=\"tandkräm\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "/ˈtanː.krɛːm/",
+      "stress_hint": "Stress on the first part: TANd-.",
+      "audio": {
+        "file": "audio/lu_zahnpasta_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "tandkräm",
+        "tandkrämen",
+        "tandkrämer",
+        "tandkrämerna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}
