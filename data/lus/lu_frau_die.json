@@ -5,12 +5,12 @@
       "lu_de_raw": "Frau, die",
       "lu_de_normalized": "Frau",
       "gender_variants_de": [],
-      "pos_de": "noun"
+      "pos_de": ""
     },
     "lu_type": "single",
-    "lemma_sv": "fru",
-    "display_sv": "fru",
-    "name_sv": "fru",
+    "lemma_sv": "hustru",
+    "display_sv": "hustru",
+    "name_sv": "hustru",
     "pos": "noun",
     "cefr": "A2",
     "multiword": {
@@ -19,21 +19,20 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "hans fru",
-      "sin fru",
-      "med fru",
-      "första fru",
-      "är hans fru"
+      "hustru",
+      "hustrun",
+      "hustrur",
+      "hustrurna"
     ],
     "english_equivalent_en": "wife",
     "morphology_sv": {
       "noun": {
         "gender": "en",
-        "indef_sg": "fru",
-        "def_sg": "frun",
-        "indef_pl": "fruar",
-        "def_pl": "fruarna",
-        "note_en": "In this sense, fru is used about a man's wife (often with a possessive: hans/sin fru)."
+        "indef_sg": "hustru",
+        "def_sg": "hustrun",
+        "indef_pl": "hustrur",
+        "def_pl": "hustrurna",
+        "note_en": "Often used in more formal or written contexts (e.g., biographies)."
       },
       "verb": {
         "infinitive": null,
@@ -56,97 +55,104 @@
     },
     "derived_words_sv": [
       {
-        "word": "fru + förnamn",
-        "type_en": "other",
-        "meaning_en": "Mrs + first name (common in biographies: his wife Sigrid/Carlene/Harriet)"
-      },
-      {
-        "word": "fru och barn",
-        "type_en": "other",
-        "meaning_en": "wife and children (family phrase)"
-      },
-      {
-        "word": "första fru",
+        "word": "hustrumisshandel",
         "type_en": "noun",
-        "meaning_en": "first wife"
+        "meaning_en": "wife abuse; domestic violence against a wife"
       },
       {
-        "word": "fru + efternamn",
+        "word": "hustrutillägg",
+        "type_en": "noun",
+        "meaning_en": "wife allowance (older term in benefits/pensions)"
+      },
+      {
+        "word": "hustruns",
         "type_en": "other",
-        "meaning_en": "Mrs + surname (formal address)"
+        "meaning_en": "the wife's (genitive form used before a noun)"
       }
     ],
     "synonyms_sv": [
-      "hustru",
+      "fru",
       "maka"
     ],
-    "antonyms_sv": [],
+    "antonyms_sv": [
+      "make"
+    ],
     "linked_frames": [
       {
-        "frame_id": "frame_marriage",
-        "frame_name_en": "Marriage",
-        "frame_slug": "marriage",
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
         "sense_id": "lu_frau_die:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_frau_die:1",
-        "frame_id": "frame_marriage",
-        "meaning_en": "a woman who is married to a man; his wife.",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "a married woman, in relation to her spouse",
         "how_to_use_en": [
-          "Often used with a possessive: hans fru, sin fru.",
-          "Common in factual/biographical style, often followed by her name."
+          "Use for someone’s wife, often in formal or written Swedish.",
+          "Common with possessives: hans/sin + hustru, or with a name after it."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "X och hans fru Y",
-            "note_en": "Lists a man and his wife, often with her name."
+            "pattern": "X:s hustru (Namn)",
+            "meaning_en": "X’s wife (Name)",
+            "note_en": "Common in biographies: a person’s wife is named after the noun."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "X och sin fru Y",
-            "note_en": "Refers back to the subject (X) and his wife."
+            "pattern": "hans hustru",
+            "meaning_en": "his wife",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "gifta sig med sin första fru (Y) + Time",
-            "note_en": "Marriage event with “first wife”, often with a year."
+            "pattern": "sin hustru",
+            "meaning_en": "his/her own wife",
+            "note_en": "Sin refers back to the subject of the clause."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "bo (tillsammans) med (sin) fru + Place",
-            "note_en": "Living with one’s wife, optionally with a place."
+            "pattern": "med hustru och (antal) barn",
+            "meaning_en": "with wife and children",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "Y är sedan Time hans fru",
-            "note_en": "States marital status since a time point."
+            "pattern": "blivande hustru",
+            "meaning_en": "future wife",
+            "note_en": "Used for someone who will become a spouse later."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using fru for any adult woman (like English “woman/lady”).",
-            "fix": "Use kvinna/dam for “woman/lady”; use fru for “wife” (or as a title).",
-            "explain_en": "In these examples, fru refers to the spouse in a marriage, not just a woman."
+            "error": "Using *hustru* for any female partner (not married).",
+            "fix": "Use *partner* or *flickvän* when not married.",
+            "explain_en": "Hustru normally implies marriage."
+          },
+          {
+            "error": "Mixing up *hustru* and *make*.",
+            "fix": "*hustru* = wife; *make* = husband.",
+            "explain_en": "They are gender-specific spouse terms."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "17349211e7e18f7d12e2eba3fd4a9048d6f22a6d",
-            "sv": "Ulla Jacobsson var dotter till Gunnar Jacobsson och hans fru Sigrid.",
-            "en": "Ulla Jacobsson was the daughter of Gunnar Jacobsson and his wife Sigrid.",
-            "frame_id": "frame_marriage",
+            "ex_id": "e672da3bb45879e7bc13db750d8f162fb071bdac",
+            "sv": "Han är son till skofabrikören Jaboub Zabounian och hans hustru Marie.",
+            "en": "He is the son of the shoe factory owner Jaboub Zabounian and his wife Marie.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Gunnar Jacobsson"
+                "fe_id": "fe_partner_1",
+                "span_sv": "skofabrikören Jaboub Zabounian"
               },
               {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "hans fru Sigrid"
+                "fe_id": "fe_partner_2",
+                "span_sv": "hans hustru Marie"
               }
             ],
             "gloss": "wife",
@@ -157,132 +163,22 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ulla Jacobsson",
-              "text_url": "https://sv.wikipedia.org/wiki/Ulla_Jacobsson",
-              "sentence_id": "4db8bcd6",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"fru\"]"
+              "text_title": "Kévork Zabounian",
+              "text_url": "https://sv.wikipedia.org/wiki/K%C3%A9vork_Zabounian",
+              "sentence_id": "dd938fc2",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"hustru\"]"
             }
           },
           {
-            "ex_id": "057eaf27427a1fbaa99263681ac1133d8c604b70",
-            "sv": "Företaget grundades 1994 av advokaten Andy Ziegler och hans fru Carlene.",
-            "en": "The company was founded in 1994 by the lawyer Andy Ziegler and his wife Carlene.",
-            "frame_id": "frame_marriage",
+            "ex_id": "8a406029bab197ec470dcad8bac0d9bac68594a4",
+            "sv": "Författarens hustru är inte helt begeistrad över detta nytillskott till familjen.",
+            "en": "The author's wife is not completely pleased about this new addition to the family.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_time",
-                "span_sv": "1994"
-              },
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Andy Ziegler"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "hans fru Carlene"
-              }
-            ],
-            "gloss": "wife",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Artisan Partners",
-              "text_url": "https://sv.wikipedia.org/wiki/Artisan_Partners",
-              "sentence_id": "e85b3cb1",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"fru\"]"
-            }
-          },
-          {
-            "ex_id": "5231303d331949f78f50594257f907b975570cd5",
-            "sv": "Carl Larsson träffade sin fru Karin Bergöö när båda vistades i Grez.",
-            "en": "Carl Larsson met his wife Karin Bergöö when both stayed in Grez.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Carl Larsson"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "sin fru Karin Bergöö"
-              },
-              {
-                "fe_id": "fe_place",
-                "span_sv": "i Grez"
-              }
-            ],
-            "gloss": "wife",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Grez-sur-Loing",
-              "text_url": "https://sv.wikipedia.org/wiki/Grez-sur-Loing",
-              "sentence_id": "6373c194",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"fru\"]"
-            }
-          },
-          {
-            "ex_id": "839c6bd16079d7bc487e164b177dddd37cd72243",
-            "sv": "Väringer bor tillsammans med sin fru i Göteborg och har en dotter.",
-            "en": "Väringer lives together with his wife in Gothenburg and has a daughter.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Väringer"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "sin fru"
-              },
-              {
-                "fe_id": "fe_place",
-                "span_sv": "i Göteborg"
-              }
-            ],
-            "gloss": "wife",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Lars Väringer",
-              "text_url": "https://sv.wikipedia.org/wiki/Lars_V%C3%A4ringer",
-              "sentence_id": "55cc8488",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"fru\"]"
-            }
-          },
-          {
-            "ex_id": "5db9ceec7fde21288a2a9435ea6aa5ac97421f15",
-            "sv": "Honecker och hans fru tog sin tillflykt till prästgården i Lobetal.",
-            "en": "Honecker and his wife took refuge in the vicarage in Lobetal.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Honecker"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "hans fru"
-              },
-              {
-                "fe_id": "fe_place",
-                "span_sv": "i Lobetal"
+                "fe_id": "fe_partner_2",
+                "span_sv": "Författarens hustru"
               }
             ],
             "gloss": "wife",
@@ -293,26 +189,22 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Margot Honecker",
-              "text_url": "https://sv.wikipedia.org/wiki/Margot_Honecker",
-              "sentence_id": "96276b85",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"fru\"]"
+              "text_title": "Livet med en idiot",
+              "text_url": "https://sv.wikipedia.org/wiki/Livet_med_en_idiot",
+              "sentence_id": "40755244",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"hustru\"]"
             }
           },
           {
-            "ex_id": "704d522b512ca97b1e80f59a0915ceced973cc0c",
-            "sv": "Han var äldsta barnet till major David Smith och hans fru Harriet.",
-            "en": "He was the oldest child of Major David Smith and his wife Harriet.",
-            "frame_id": "frame_marriage",
+            "ex_id": "7d504dd36b073237f6a95a920dee881acf07b70a",
+            "sv": "Han jobbade och bodde i den lilla stugan med hustru och sex barn.",
+            "en": "He worked and lived in the small cabin with his wife and six children.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "David Smith"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "hans fru Harriet"
+                "fe_id": "fe_partner_2",
+                "span_sv": "hustru"
               }
             ],
             "gloss": "wife",
@@ -323,26 +215,26 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "William Alexander Smith",
-              "text_url": "https://sv.wikipedia.org/wiki/William_Alexander_Smith",
-              "sentence_id": "46bc41e5",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"fru\"]"
+              "text_title": "Ulriksdals slotts smedja",
+              "text_url": "https://sv.wikipedia.org/wiki/Ulriksdals_slotts_smedja",
+              "sentence_id": "bd70cacb",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"hustru\"]"
             }
           },
           {
-            "ex_id": "49669d47150d44ad8b041fd2f2eacf37a83f577d",
-            "sv": "Han bor i Cascais i Portugal med fru och tre barn.",
-            "en": "He lives in Cascais in Portugal with his wife and three children.",
-            "frame_id": "frame_marriage",
+            "ex_id": "357ae88fae6d7083d0efdcd28f393b27c87b2a1f",
+            "sv": "Paul McCartney träffade sin blivande hustru Linda Eastman där den 15 maj 1967.",
+            "en": "Paul McCartney met his future wife Linda Eastman there on 15 May 1967.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "fru"
+                "fe_id": "fe_partner_1",
+                "span_sv": "Paul McCartney"
               },
               {
-                "fe_id": "fe_place",
-                "span_sv": "i Cascais i Portugal"
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin blivande hustru Linda Eastman"
               }
             ],
             "gloss": "wife",
@@ -353,34 +245,22 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Stefan Schwarz",
-              "text_url": "https://sv.wikipedia.org/wiki/Stefan_Schwarz",
-              "sentence_id": "ee4d7c0d",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"fru\"]"
+              "text_title": "The Bag O'Nails",
+              "text_url": "https://sv.wikipedia.org/wiki/The_Bag_O%27Nails",
+              "sentence_id": "5dc6aee0",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"hustru\"]"
             }
           },
           {
-            "ex_id": "1188d6fad18df3ee062afb342c7a23a034311b24",
-            "sv": "Nye gifte sig med sin första fru, Judith Pratt, 1959.",
-            "en": "Nye married his first wife, Judith Pratt, in 1959.",
-            "frame_id": "frame_marriage",
+            "ex_id": "5f844d0b14f43d53e81ceddffa634e8b9918a920",
+            "sv": "År 1836 avled hans hustru och även hon gravsattes i kapellet.",
+            "en": "In 1836 his wife died, and she was also buried in the chapel.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Nye"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "sin första fru, Judith Pratt"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "1959"
-              },
-              {
-                "fe_id": "fe_event",
-                "span_sv": "gifte sig"
+                "fe_id": "fe_partner_2",
+                "span_sv": "hans hustru"
               }
             ],
             "gloss": "wife",
@@ -391,72 +271,26 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Robert Nye",
-              "text_url": "https://sv.wikipedia.org/wiki/Robert_Nye",
-              "sentence_id": "d1b9bde8",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"fru\"]"
+              "text_title": "Blistorps kapell",
+              "text_url": "https://sv.wikipedia.org/wiki/Blistorps_kapell",
+              "sentence_id": "6e49353c",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"hustru\"]"
             }
           },
           {
-            "ex_id": "8be167984a9d74ea28afc9d603ff66f994138d09",
-            "sv": "Han gifte sig med sin första fru, Lucy Stringham, 1877.",
-            "en": "He married his first wife, Lucy Stringham, in 1877.",
-            "frame_id": "frame_marriage",
+            "ex_id": "5383cc5f010ffe97124a0b49b9903fb2cfed3e0c",
+            "sv": "Med sig på podiet hade han ett fotografi av sin bortgångna hustru.",
+            "en": "With him on the stage he had a photograph of his deceased wife.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Han"
+                "fe_id": "fe_partner_1",
+                "span_sv": "han"
               },
               {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "sin första fru, Lucy Stringham"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "1877"
-              },
-              {
-                "fe_id": "fe_event",
-                "span_sv": "gifte sig"
-              }
-            ],
-            "gloss": "wife",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Heber J. Grant",
-              "text_url": "https://sv.wikipedia.org/wiki/Heber_J._Grant",
-              "sentence_id": "5ddef26c",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"fru\"]"
-            }
-          },
-          {
-            "ex_id": "25d4436f77115a77e5ffae9c5aeeabfaf1eced3a",
-            "sv": "En av körsångerskorna, Dana Sondak, är sedan 2004 hans fru.",
-            "en": "One of the choir singers, Dana Sondak, has been his wife since 2004.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "Dana Sondak"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "sedan 2004"
-              },
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "hans"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "hans fru"
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin bortgångna hustru"
               }
             ],
             "gloss": "wife",
@@ -467,23 +301,144 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Tal Sondak",
-              "text_url": "https://sv.wikipedia.org/wiki/Tal_Sondak",
-              "sentence_id": "94f52b81",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"fru\"]"
+              "text_title": "Matthias Steiner",
+              "text_url": "https://sv.wikipedia.org/wiki/Matthias_Steiner",
+              "sentence_id": "8e155d15",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"hustru\"]"
+            }
+          },
+          {
+            "ex_id": "33a9ca6e198824e3e40d24f40d8d4da327691c06",
+            "sv": "Månader tidigare hade hans hustru dött i en bilolycka, vilket åsamkade Woods depression.",
+            "en": "Months earlier his wife had died in a car accident, which caused Woods depression.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "hans hustru"
+              }
+            ],
+            "gloss": "wife",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ryan Woodie Wood",
+              "text_url": "https://sv.wikipedia.org/wiki/Ryan_Woodie_Wood",
+              "sentence_id": "438a3c28",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"hustru\"]"
+            }
+          },
+          {
+            "ex_id": "c7a9d76667407c6d5194094773e8229c95810cb2",
+            "sv": "Hans hustru saknade intresse och förståelse för hans dikter och han misstänkte henne för otrohet.",
+            "en": "His wife lacked interest and understanding for his poems, and he suspected her of unfaithfulness.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Hans hustru"
+              }
+            ],
+            "gloss": "wife",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Steen Steensen Blicher",
+              "text_url": "https://sv.wikipedia.org/wiki/Steen_Steensen_Blicher",
+              "sentence_id": "94c730bd",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"hustru\"]"
+            }
+          },
+          {
+            "ex_id": "90fb4db8ea358fe993f19d704c53efa3b7767849",
+            "sv": "En dag återvänder Mundson från en resa med sin vackra och livfulla nya hustru, Gilda.",
+            "en": "One day Mundson returns from a trip with his beautiful and lively new wife, Gilda.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Mundson"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin vackra och livfulla nya hustru, Gilda"
+              }
+            ],
+            "gloss": "wife",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gilda",
+              "text_url": "https://sv.wikipedia.org/wiki/Gilda",
+              "sentence_id": "716c1ffa",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"hustru\"]"
+            }
+          },
+          {
+            "ex_id": "3cde5372b673de2144b37272d16b32501bdee101",
+            "sv": "Dieulafoys hustru, Jane Dieulafoy, var även hon en känd arkeolog.",
+            "en": "Dieulafoy's wife, Jane Dieulafoy, was also a well-known archaeologist.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Dieulafoys hustru, Jane Dieulafoy"
+              }
+            ],
+            "gloss": "wife",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Marcel Dieulafoy",
+              "text_url": "https://sv.wikipedia.org/wiki/Marcel_Dieulafoy",
+              "sentence_id": "19d02411",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"hustru\"]"
             }
           }
         ]
       }
     ],
     "pronunciation": {
-      "ipa": "frʉː",
-      "stress_hint": "one syllable; long vowel"
+      "ipa": "ˈhʉːstrʉ",
+      "stress_hint": "Stress on the first syllable: HUS-tru.",
+      "audio": {
+        "file": "audio/lu_frau_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "fru – frun – fruar – fruarna"
+        "hustru (indefinite singular)",
+        "hustrun (definite singular)",
+        "hustrur (indefinite plural)",
+        "hustrurna (definite plural)"
       ],
       "particle_or_reflexive": null
     }

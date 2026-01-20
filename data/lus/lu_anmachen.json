@@ -5,7 +5,7 @@
       "lu_de_raw": "anmachen",
       "lu_de_normalized": "anmachen",
       "gender_variants_de": [],
-      "pos_de": ""
+      "pos_de": "verb"
     },
     "lu_type": "multiword",
     "lemma_sv": "ragga på",
@@ -19,13 +19,10 @@
         "ragga",
         "på"
       ],
-      "spacing_notes_en": "Written as two words."
+      "spacing_notes_en": "Written as two words; 'på' is required for the target person."
     },
     "forms": [
-      "ragga på",
-      "raggar på",
-      "raggade på",
-      "raggat på"
+      "ragga på"
     ],
     "english_equivalent_en": "hit on",
     "morphology_sv": {
@@ -35,15 +32,15 @@
         "def_sg": null,
         "indef_pl": null,
         "def_pl": null,
-        "note_en": null
+        "note_en": ""
       },
       "verb": {
-        "infinitive": "ragga på",
-        "present": "raggar på",
-        "past": "raggade på",
-        "supine": "raggat på",
-        "imperative": "ragga på",
-        "present_participle": "raggande",
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
         "past_participle": null,
         "alternatives": []
       },
@@ -54,35 +51,37 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "Multiword verb: verb + particle/preposition 'på'. The particle stays with the verb (ragga på någon)."
+      "note_en": "Multiword verb: ragga + particle på. Inflect ragga (raggar, raggade, raggat) and keep på."
     },
     "derived_words_sv": [
       {
         "word": "ragga",
         "type_en": "verb",
-        "meaning_en": "try to find someone to date or have sex with"
+        "meaning_en": "try to find someone to flirt with"
       },
       {
         "word": "raggning",
         "type_en": "noun",
-        "meaning_en": "the act of hitting on people"
+        "meaning_en": "the act of hitting on someone"
       },
       {
         "word": "raggare",
         "type_en": "noun",
-        "meaning_en": "person who hits on others (also a subculture word)"
+        "meaning_en": "person who often hits on others; also a subculture term"
       },
       {
         "word": "raggningsreplik",
         "type_en": "noun",
-        "meaning_en": "pick-up line"
+        "meaning_en": "pickup line"
       }
     ],
     "synonyms_sv": [
       "stöta på",
       "flirta med"
     ],
-    "antonyms_sv": [],
+    "antonyms_sv": [
+      "nobba"
+    ],
     "linked_frames": [
       {
         "frame_id": "frame_personal_relationship",
@@ -95,23 +94,29 @@
       {
         "sense_id": "lu_anmachen:1",
         "frame_id": "frame_personal_relationship",
-        "meaning_en": "try to start romantic or sexual contact with someone, often by flirting.",
+        "meaning_en": "try to start romantic or sexual contact with someone, often in a direct way.",
         "how_to_use_en": [
-          "Use about trying to get someone interested in you (dating/sex).",
-          "Often followed by the person: ragga på någon."
+          "Use about trying to get someone interested in you romantically/sexually.",
+          "Often followed by the person you target: ragga på + person/group."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "X ragga på Y",
-            "note_en": "X = person who flirts/approaches (Partner_1); Y = person(s) being approached (Partner_2)."
+            "pattern": "Partner_1 ragga på Partner_2",
+            "meaning_en": "hit on someone",
+            "note_en": "Partner_2 is the person/group being approached."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *ragga* without på when you mean a specific person.",
-            "fix": "Use ragga på + person.",
-            "explain_en": "In the example, the target person is expressed with 'på': ragga på unga ensamstående mammor."
+            "error": "Using *ragga på* for a normal date with someone you already know well.",
+            "fix": "Use dejta or träffa instead.",
+            "explain_en": "Ragga på focuses on the attempt to pick someone up, often a first approach."
+          },
+          {
+            "error": "Leaving out på: *ragga någon*.",
+            "fix": "Say ragga på någon.",
+            "explain_en": "In this sense, the particle på is part of the expression."
           }
         ],
         "required_example_count": 10,
@@ -124,7 +129,7 @@
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "Will Freeman"
+                "span_sv": "man"
               },
               {
                 "fe_id": "fe_partner_2",
@@ -142,7 +147,7 @@
               "text_title": "Om en pojke (film)",
               "text_url": "https://sv.wikipedia.org/wiki/Om_en_pojke_(film)",
               "sentence_id": "d808ca4a",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"ragga\"][word=\"på\"]"
             }
           }
@@ -150,15 +155,18 @@
       }
     ],
     "pronunciation": {
-      "ipa": null,
-      "stress_hint": "RAG-ga på (stress on first syllable in ragga)"
+      "ipa": "ˈrɑɡːa pɔː",
+      "stress_hint": "Stress is on the first part: RAG-ga på.",
+      "audio": {
+        "file": "audio/lu_anmachen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "ragga på",
-        "raggar på",
-        "raggade på",
-        "raggat på"
+        "ragga på"
       ],
       "particle_or_reflexive": "på"
     }

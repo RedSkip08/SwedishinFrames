@@ -20,7 +20,7 @@
         "vän",
         "med"
       ],
-      "spacing_notes_en": "Written as three words; 'vän' is the noun in singular."
+      "spacing_notes_en": "Written as three words; 'vän' is singular in the phrase."
     },
     "forms": [
       "bli vän med"
@@ -33,7 +33,7 @@
         "def_sg": null,
         "indef_pl": null,
         "def_pl": null,
-        "note_en": null
+        "note_en": ""
       },
       "verb": {
         "infinitive": null,
@@ -52,7 +52,7 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "Multiword expression built with the verb bli + noun vän + preposition med. The verb bli is inflected (blir/blev/blivit)."
+      "note_en": "Multiword expression built with the verb bli + the noun vän + the preposition med."
     },
     "derived_words_sv": [
       {
@@ -68,125 +68,91 @@
       {
         "word": "vänlig",
         "type_en": "adjective",
-        "meaning_en": "friendly, kind"
+        "meaning_en": "friendly; kind"
       },
       {
         "word": "ovän",
         "type_en": "noun",
-        "meaning_en": "enemy; not a friend"
+        "meaning_en": "enemy; someone you are not friends with"
       },
       {
         "word": "kompis",
         "type_en": "noun",
-        "meaning_en": "friend (informal)"
+        "meaning_en": "buddy; friend (informal)"
       }
     ],
     "synonyms_sv": [
       "bli kompis med",
-      "bli vän med någon"
+      "bli vän med varandra",
+      "bli bekant med"
     ],
-    "antonyms_sv": [],
+    "antonyms_sv": [
+      "bli ovän med"
+    ],
     "linked_frames": [
       {
-        "frame_id": "frame_friendship",
-        "frame_name_en": "Friendship",
-        "frame_slug": "friendship",
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
         "sense_id": "lu_befreunden_sich_acc_befreunden_mit:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_befreunden_sich_acc_befreunden_mit:1",
-        "frame_id": "frame_friendship",
-        "meaning_en": "start a friendship with someone; become friends.",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "start a friendly relationship with someone; become friends.",
         "how_to_use_en": [
-          "Use about the beginning (or restarting) of a friendship.",
-          "Follow with med + a person or group (henne, honom, sin son, andra spelare).",
-          "Often used with försöka/lyckas/misslyckas + bli vän med."
+          "Use it when a person starts being friends with another person or group.",
+          "Follow with med + the person/group (or a pronoun).",
+          "Often used with försöka/lyckas (try/manage) in the same sentence."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "X bli vän med Y",
-            "note_en": "Basic pattern: Friend_1 becomes friends with Friend_2."
+            "meaning_en": "X becomes friends with Y",
+            "note_en": "Y can be a person, a group, or a pronoun."
           },
           {
             "pattern_id": "pat_2",
             "pattern": "X försöker bli vän med Y",
-            "note_en": "Trying to become friends."
+            "meaning_en": "X tries to befriend Y",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_3",
             "pattern": "X lyckas bli vän med Y",
-            "note_en": "Succeeding in becoming friends."
-          },
-          {
-            "pattern_id": "pat_4",
-            "pattern": "X misslyckas i sina försök att bli vän med Y",
-            "note_en": "Failing in attempts to become friends."
-          },
-          {
-            "pattern_id": "pat_5",
-            "pattern": "X är tvungen att bli vän med Y igen",
-            "note_en": "Becoming friends again (reconciliation)."
+            "meaning_en": "X manages to befriend Y",
+            "note_en": ""
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *bli vän till* someone.",
-            "fix": "Use bli vän med + person.",
-            "explain_en": "In these examples, the normal preposition is med when you mean ‘become friends with’."
+            "error": "Using *bli vän till* instead of bli vän med.",
+            "fix": "Say: bli vän med + someone.",
+            "explain_en": "In these examples, the normal preposition is med."
           },
           {
-            "error": "Using it for an already existing friendship (state).",
-            "fix": "Use vara vän med for the state; bli vän med for the change.",
-            "explain_en": "bli focuses on becoming (a change), not simply being friends."
+            "error": "Mixing it up with vara vän med (already friends).",
+            "fix": "Use bli vän med for the change; use vara vän med for the state.",
+            "explain_en": "Bli focuses on becoming; vara focuses on being."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "e404604fa6bb8349eea7c0396d55c52cc1999af9",
-            "sv": "Lisa försöker bli vän med henne men det går inte bra och Francine mobbar Lisa.",
-            "en": "Lisa tries to become friends with her, but it does not go well, and Francine bullies Lisa.",
-            "frame_id": "frame_friendship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_friend_1",
-                "span_sv": "Lisa"
-              },
-              {
-                "fe_id": "fe_friend_2",
-                "span_sv": "henne"
-              }
-            ],
-            "gloss": "become friends with",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Bye Bye Nerdie",
-              "text_url": "https://sv.wikipedia.org/wiki/Bye_Bye_Nerdie",
-              "sentence_id": "876fd05c",
-              "retrieved_at": "2026-01-17T23:07:17+00:00",
-              "korp_query": "[word=\"bli\"][word=\"vän\"][word=\"med\"]"
-            }
-          },
-          {
             "ex_id": "0162813f24c3bf4ebb916a58a8890b6fb7beba18",
             "sv": "Med hjälp av det kan du bli vän med andra spelare och skicka prylar.",
-            "en": "With the help of that, you can become friends with other players and send items.",
-            "frame_id": "frame_friendship",
+            "en": "With the help of that you can become friends with other players and send things.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_friend_1",
+                "fe_id": "fe_partner_1",
                 "span_sv": "du"
               },
               {
-                "fe_id": "fe_friend_2",
+                "fe_id": "fe_partner_2",
                 "span_sv": "andra spelare"
               }
             ],
@@ -201,7 +167,37 @@
               "text_title": "Nintendogs",
               "text_url": "https://sv.wikipedia.org/wiki/Nintendogs",
               "sentence_id": "8e1834b7",
-              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"bli\"][word=\"vän\"][word=\"med\"]"
+            }
+          },
+          {
+            "ex_id": "e404604fa6bb8349eea7c0396d55c52cc1999af9",
+            "sv": "Lisa försöker bli vän med henne men det går inte bra och Francine mobbar Lisa.",
+            "en": "Lisa tries to become friends with her but it does not go well and Francine bullies Lisa.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Lisa"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "henne"
+              }
+            ],
+            "gloss": "become friends with",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bye Bye Nerdie",
+              "text_url": "https://sv.wikipedia.org/wiki/Bye_Bye_Nerdie",
+              "sentence_id": "876fd05c",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"bli\"][word=\"vän\"][word=\"med\"]"
             }
           },
@@ -209,14 +205,14 @@
             "ex_id": "cfe7b4ad530591c3309909137f9d6cfd1ac5f817",
             "sv": "Czolgosz hade tidigare misslyckats i sina försök att bli vän med Goldman och hennes kamrater.",
             "en": "Czolgosz had earlier failed in his attempts to become friends with Goldman and her comrades.",
-            "frame_id": "frame_friendship",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_friend_1",
+                "fe_id": "fe_partner_1",
                 "span_sv": "Czolgosz"
               },
               {
-                "fe_id": "fe_friend_2",
+                "fe_id": "fe_partner_2",
                 "span_sv": "Goldman och hennes kamrater"
               }
             ],
@@ -231,82 +227,22 @@
               "text_title": "Emma Goldman",
               "text_url": "https://sv.wikipedia.org/wiki/Emma_Goldman",
               "sentence_id": "b6daf957",
-              "retrieved_at": "2026-01-17T23:07:17+00:00",
-              "korp_query": "[word=\"bli\"][word=\"vän\"][word=\"med\"]"
-            }
-          },
-          {
-            "ex_id": "d6f6c9eb69c87a96dcb7ac975bb8ce596b1d9f94",
-            "sv": "Av vikt var dock att Browall lyckats bli vän med Sven Rinman.",
-            "en": "However, it was important that Browall had managed to become friends with Sven Rinman.",
-            "frame_id": "frame_friendship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_friend_1",
-                "span_sv": "Browall"
-              },
-              {
-                "fe_id": "fe_friend_2",
-                "span_sv": "Sven Rinman"
-              }
-            ],
-            "gloss": "become friends with",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Skultuna Messingsbruk",
-              "text_url": "https://sv.wikipedia.org/wiki/Skultuna_Messingsbruk",
-              "sentence_id": "952875e7",
-              "retrieved_at": "2026-01-17T23:07:17+00:00",
-              "korp_query": "[word=\"bli\"][word=\"vän\"][word=\"med\"]"
-            }
-          },
-          {
-            "ex_id": "63c02ec7d991fd4bab8e49c9b17cabb98940e8fc",
-            "sv": "Då Duchemin saknar smaken är han tvungen att bli vän med sin son igen.",
-            "en": "Since Duchemin lacks the taste, he is forced to become friends with his son again.",
-            "frame_id": "frame_friendship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_friend_1",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_friend_2",
-                "span_sv": "sin son"
-              }
-            ],
-            "gloss": "become friends with",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "En fluga i soppan",
-              "text_url": "https://sv.wikipedia.org/wiki/En_fluga_i_soppan",
-              "sentence_id": "ee4244bb",
-              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"bli\"][word=\"vän\"][word=\"med\"]"
             }
           },
           {
             "ex_id": "93dd059cbfc5c92cb379c78c08d6a06a1d13fa3e",
             "sv": "Liten pojke som ser upp till Hols och som till slut lyckas bli vän med honom.",
-            "en": "A small boy who looks up to Hols and who in the end manages to become friends with him.",
-            "frame_id": "frame_friendship",
+            "en": "A little boy who looks up to Hols and who in the end manages to become friends with him.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_friend_1",
+                "fe_id": "fe_partner_1",
                 "span_sv": "Liten pojke"
               },
               {
-                "fe_id": "fe_friend_2",
+                "fe_id": "fe_partner_2",
                 "span_sv": "honom"
               }
             ],
@@ -321,7 +257,127 @@
               "text_title": "Taiyō no ōji – Horusu no daibōken",
               "text_url": "https://sv.wikipedia.org/wiki/Taiy%C5%8D_no_%C5%8Dji_%E2%80%93_Horusu_no_daib%C5%8Dken",
               "sentence_id": "b51885c7",
-              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"bli\"][word=\"vän\"][word=\"med\"]"
+            }
+          },
+          {
+            "ex_id": "7af642e3762cba87346de4173c9172ae2ea47930",
+            "sv": "Trots det är han ändå vänlig och försöker bli vän med Nelson, mobbaren som slår honom mest.",
+            "en": "Despite that he is still friendly and tries to become friends with Nelson, the bully who hits him the most.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Nelson"
+              }
+            ],
+            "gloss": "become friends with",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lista över återkommande rollfigurer i Simpsons",
+              "text_url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_%C3%A5terkommande_rollfigurer_i_Simpsons",
+              "sentence_id": "b2924429",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"bli\"][word=\"vän\"][word=\"med\"]"
+            }
+          },
+          {
+            "ex_id": "63c02ec7d991fd4bab8e49c9b17cabb98940e8fc",
+            "sv": "Då Duchemin saknar smaken är han tvungen att bli vän med sin son igen.",
+            "en": "Since Duchemin lacks the sense of taste he is forced to become friends with his son again.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin son"
+              }
+            ],
+            "gloss": "become friends with",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "En fluga i soppan",
+              "text_url": "https://sv.wikipedia.org/wiki/En_fluga_i_soppan",
+              "sentence_id": "ee4244bb",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"bli\"][word=\"vän\"][word=\"med\"]"
+            }
+          },
+          {
+            "ex_id": "d6f6c9eb69c87a96dcb7ac975bb8ce596b1d9f94",
+            "sv": "Av vikt var dock att Browall lyckats bli vän med Sven Rinman.",
+            "en": "However, it was important that Browall had managed to become friends with Sven Rinman.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Browall"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Sven Rinman"
+              }
+            ],
+            "gloss": "become friends with",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Skultuna Messingsbruk",
+              "text_url": "https://sv.wikipedia.org/wiki/Skultuna_Messingsbruk",
+              "sentence_id": "952875e7",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"bli\"][word=\"vän\"][word=\"med\"]"
+            }
+          },
+          {
+            "ex_id": "574ce0e2be3fbe95509aa0a4651baf8dc1a343ef",
+            "sv": "Man kan bli vän med Groxerna om man använder ett vapen som kallas planetknäckaren.",
+            "en": "You can become friends with the Grox if you use a weapon that is called the planet cracker.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Man"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Groxerna"
+              }
+            ],
+            "gloss": "become friends with",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Spore",
+              "text_url": "https://sv.wikipedia.org/wiki/Spore",
+              "sentence_id": "4959135a",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"bli\"][word=\"vän\"][word=\"med\"]"
             }
           }
@@ -329,8 +385,14 @@
       }
     ],
     "pronunciation": {
-      "ipa": null,
-      "stress_hint": "Main stress on vän; common phrase: bli VÄN med."
+      "ipa": "bliː vɛn mɛd",
+      "stress_hint": "Main stress is on vän.",
+      "audio": {
+        "file": "audio/lu_befreunden_sich_acc_befreunden_mit.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [

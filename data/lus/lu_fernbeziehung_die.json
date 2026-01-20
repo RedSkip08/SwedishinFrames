@@ -28,7 +28,7 @@
     "morphology_sv": {
       "noun": {
         "gender": "ett",
-        "indef_sg": "distansförhållande",
+        "indef_sg": "ett distansförhållande",
         "def_sg": "distansförhållandet",
         "indef_pl": "distansförhållanden",
         "def_pl": "distansförhållandena",
@@ -57,22 +57,22 @@
       {
         "word": "distans",
         "type_en": "noun",
-        "meaning_en": "distance; being far away"
-      },
-      {
-        "word": "distansrelation",
-        "type_en": "noun",
-        "meaning_en": "long-distance relationship (another word)"
+        "meaning_en": "distance"
       },
       {
         "word": "förhållande",
         "type_en": "noun",
-        "meaning_en": "relationship (romantic)"
+        "meaning_en": "relationship"
       },
       {
         "word": "distanspartner",
         "type_en": "noun",
         "meaning_en": "partner who lives far away"
+      },
+      {
+        "word": "distansboende",
+        "type_en": "noun",
+        "meaning_en": "living apart because of distance"
       }
     ],
     "synonyms_sv": [
@@ -82,54 +82,46 @@
     "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_dating",
-        "frame_name_en": "Dating",
-        "frame_slug": "dating",
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
         "sense_id": "lu_fernbeziehung_die:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_fernbeziehung_die:1",
-        "frame_id": "frame_dating",
-        "meaning_en": "a romantic relationship where the partners live far from each other",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "a romantic relationship where partners live far from each other",
         "how_to_use_en": [
-          "Use it as a noun, often with ha (“have”) or inleda (“start”).",
-          "Often used with ett and with a reason or place (e.g., job abroad).",
-          "You can mention where one partner lives with i + country/city."
+          "Use with ett: ett distansförhållande.",
+          "Often used with verbs like ha, klara, inleda."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "ha (ett) distansförhållande",
-            "note_en": "To be in a long-distance relationship."
+            "meaning_en": "be in a long-distance relationship",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_2",
             "pattern": "klara (ett) distansförhållande",
-            "note_en": "To manage/cope with a long-distance relationship."
+            "meaning_en": "manage a long-distance relationship",
+            "note_en": "Often used with osäker på om."
           },
           {
             "pattern_id": "pat_3",
             "pattern": "inleda (ett) distansförhållande",
-            "note_en": "To start a long-distance relationship."
-          },
-          {
-            "pattern_id": "pat_4",
-            "pattern": "X bodde i [Place] ... och man hade ... (ett) distansförhållande",
-            "note_en": "Often explained by living in another country/city."
+            "meaning_en": "start a long-distance relationship",
+            "note_en": ""
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using en distansförhållande.",
-            "fix": "Use ett distansförhållande.",
-            "explain_en": "It is an ett-word (neuter)."
-          },
-          {
-            "error": "Confusing distansförhållande with distans (only “distance”).",
-            "fix": "Use distansförhållande for the relationship, distans for the distance.",
-            "explain_en": "The compound refers to the romantic relationship, not just physical distance."
+            "error": "Using en: *en distansförhållande",
+            "fix": "Use ett: ett distansförhållande",
+            "explain_en": "Förhållande is an ett-word, so the compound is also ett."
           }
         ],
         "required_example_count": 10,
@@ -138,30 +130,14 @@
             "ex_id": "27ad86be625363ea4e5b4cfc156312a95d29e524",
             "sv": "Larsson bodde då i England och man hade i och med det ett distansförhållande.",
             "en": "Larsson lived in England then, and because of that they had a long-distance relationship.",
-            "frame_id": "frame_dating",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Larsson"
-              },
-              {
-                "fe_id": "fe_place",
-                "span_sv": "i England"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "då"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "ett distansförhållande"
-              },
-              {
-                "fe_id": "fe_reason",
-                "span_sv": "i och med det"
+                "fe_id": "fe_partners",
+                "span_sv": "man"
               }
             ],
-            "gloss": "long-distance relationship",
+            "gloss": "a long-distance relationship",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -172,15 +148,15 @@
               "text_title": "Sebastian Larsson",
               "text_url": "https://sv.wikipedia.org/wiki/Sebastian_Larsson",
               "sentence_id": "ca3ca055",
-              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"distansförhållande\"]"
             }
           },
           {
             "ex_id": "84b979a1d1c8999386ac9db00e55b693e7637304",
             "sv": "Victoria får jobb i Tyskland och Ted är osäker på om han klarar ett distansförhållande.",
-            "en": "Victoria gets a job in Germany, and Ted is unsure if he can manage a long-distance relationship.",
-            "frame_id": "frame_dating",
+            "en": "Victoria gets a job in Germany and Ted is unsure if he can manage a long-distance relationship.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
@@ -189,17 +165,9 @@
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "Ted"
-              },
-              {
-                "fe_id": "fe_place",
-                "span_sv": "i Tyskland"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "ett distansförhållande"
               }
             ],
-            "gloss": "long-distance relationship",
+            "gloss": "a long-distance relationship",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -210,7 +178,7 @@
               "text_title": "Cupcake (How I Met Your Mother)",
               "text_url": "https://sv.wikipedia.org/wiki/Cupcake_(How_I_Met_Your_Mother)",
               "sentence_id": "9b0e209c",
-              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"distansförhållande\"]"
             }
           },
@@ -218,26 +186,14 @@
             "ex_id": "3ba9279504d7b8db863a6ee720ecc52d12bc0342",
             "sv": "Per Arne inledde ett distansförhållande som ett resultat av programmet, medan de två övriga inte fann någon vän.",
             "en": "Per Arne started a long-distance relationship as a result of the program, while the other two did not find any friend.",
-            "frame_id": "frame_dating",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
                 "span_sv": "Per Arne"
-              },
-              {
-                "fe_id": "fe_stage",
-                "span_sv": "inledde"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "ett distansförhållande"
-              },
-              {
-                "fe_id": "fe_reason",
-                "span_sv": "som ett resultat av programmet"
               }
             ],
-            "gloss": "long-distance relationship",
+            "gloss": "a long-distance relationship",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -248,7 +204,7 @@
               "text_title": "Frusna män söker kärlek",
               "text_url": "https://sv.wikipedia.org/wiki/Frusna_m%C3%A4n_s%C3%B6ker_k%C3%A4rlek",
               "sentence_id": "b04e2e45",
-              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"distansförhållande\"]"
             }
           }
@@ -256,15 +212,21 @@
       }
     ],
     "pronunciation": {
-      "ipa": null,
-      "stress_hint": "Stress usually on the first part: DIStans- + förHÅLlande."
+      "ipa": "dɪˈstɑːnsfœrˌhɔlːandɛ",
+      "stress_hint": "Main stress is on diSTANS-, with secondary stress on -HÅLL-.",
+      "audio": {
+        "file": "audio/lu_fernbeziehung_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "distansförhållande (indefinite singular)",
-        "distansförhållandet (definite singular)",
-        "distansförhållanden (indefinite plural)",
-        "distansförhållandena (definite plural)"
+        "ett distansförhållande",
+        "distansförhållandet",
+        "distansförhållanden",
+        "distansförhållandena"
       ],
       "particle_or_reflexive": null
     }

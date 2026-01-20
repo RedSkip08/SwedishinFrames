@@ -3,29 +3,30 @@
     "id": "lu_verknallt_inacc",
     "source_de": {
       "lu_de_raw": "verknallt (in+acc.)",
-      "lu_de_normalized": "verknallt (in+acc.)",
+      "lu_de_normalized": "verknallt (in)",
       "gender_variants_de": [],
       "pos_de": ""
     },
     "lu_type": "multiword",
-    "lemma_sv": "vara kär i",
-    "display_sv": "vara kär i",
-    "name_sv": "vara kär i",
+    "lemma_sv": "kär i",
+    "display_sv": "kär i",
+    "name_sv": "kär i",
     "pos": "multiword",
     "cefr": "A2",
     "multiword": {
-      "mwe_type": "fixed_phrase",
+      "mwe_type": "prep_phrase",
       "components_sv": [
-        "vara",
         "kär",
         "i"
       ],
-      "spacing_notes_en": "Copula + adjective + preposition; object typically follows: 'vara kär i någon'."
+      "spacing_notes_en": "Two words; complement typically 'i någon'."
     },
     "forms": [
-      "vara kär i"
+      "är kär i",
+      "blir kär i",
+      "inte kär i"
     ],
-    "english_equivalent_en": "be in love with",
+    "english_equivalent_en": "in love with",
     "morphology_sv": {
       "noun": {
         "gender": null,
@@ -33,7 +34,7 @@
         "def_sg": null,
         "indef_pl": null,
         "def_pl": null,
-        "note_en": null
+        "note_en": ""
       },
       "verb": {
         "infinitive": null,
@@ -52,18 +53,13 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "Multiword expression: vara + adjective kär + preposition i. Conjugate vara (är/var/har varit) while kär i stays the same."
+      "note_en": "Multiword expression. kär is an adjective; it is commonly used with vara (är) or bli (blir) + kär i + person."
     },
     "derived_words_sv": [
       {
-        "word": "kär",
-        "type_en": "adjective",
-        "meaning_en": "in love (with someone)"
-      },
-      {
         "word": "kärlek",
         "type_en": "noun",
-        "meaning_en": "love"
+        "meaning_en": "love (the feeling)"
       },
       {
         "word": "kärleksbrev",
@@ -71,21 +67,24 @@
         "meaning_en": "love letter"
       },
       {
+        "word": "kärlekspar",
+        "type_en": "noun",
+        "meaning_en": "couple in love"
+      },
+      {
         "word": "kärleksfull",
         "type_en": "adjective",
         "meaning_en": "loving, affectionate"
-      },
-      {
-        "word": "förälskad",
-        "type_en": "adjective",
-        "meaning_en": "in love"
       }
     ],
     "synonyms_sv": [
-      "vara förälskad i",
-      "älska"
+      "förälskad i",
+      "upp över öronen i",
+      "tänd på"
     ],
-    "antonyms_sv": [],
+    "antonyms_sv": [
+      "inte kär i"
+    ],
     "linked_frames": [
       {
         "frame_id": "frame_personal_relationship",
@@ -98,53 +97,67 @@
       {
         "sense_id": "lu_verknallt_inacc:1",
         "frame_id": "frame_personal_relationship",
-        "meaning_en": "to have romantic love for someone.",
+        "meaning_en": "to be in love with someone; sometimes to fall in love with someone",
         "how_to_use_en": [
-          "Use with a person after i: vara kär i någon.",
-          "Often describes a state/feeling, not an action."
+          "Use with a person after i: kär i någon.",
+          "Often with vara (är) for a state, or bli (blir) for a change."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "[Partner_1] vara kär i [Partner_2]",
-            "note_en": "Basic pattern with both partners expressed."
+            "pattern": "X är kär i Y",
+            "meaning_en": "X is in love with Y",
+            "note_en": "Describes a state/feeling."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "att vara kär i [Partner_2]",
-            "note_en": "Infinitive clause used as a subject or complement."
+            "pattern": "X blir kär i Y",
+            "meaning_en": "X falls in love with Y",
+            "note_en": "Focuses on the change into being in love."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "X är inte kär i Y",
+            "meaning_en": "X is not in love with Y",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "X blir (omedelbart/så småningom/efter ett tag) kär i Y",
+            "meaning_en": "X falls in love (quickly/over time)",
+            "note_en": "Adverbs often show how fast it happens."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using wrong preposition: *vara kär på någon",
-            "fix": "Use i: vara kär i någon",
-            "explain_en": "This expression normally takes the preposition i before the person."
+            "error": "Using *kär med* or *kär på* for a person.",
+            "fix": "Use kär i + person.",
+            "explain_en": "In these examples, the loved person is introduced with i."
           },
           {
-            "error": "Forgetting to conjugate vara: *hon vara kär i",
-            "fix": "Conjugate vara: hon är/var/har varit kär i",
-            "explain_en": "Only vara changes with tense/person; kär i stays the same."
+            "error": "Forgetting the verb: *Jag kär i dig*.",
+            "fix": "Say Jag är kär i dig / Jag blir kär i dig.",
+            "explain_en": "kär is an adjective and needs a verb like är or blir."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "8ddab5e5c4266a35bbfae85c46d80bae37ffa3c9",
-            "sv": "Hon verkar vara kär i Humlon, men om kärleken är besvarad är oklart.",
-            "en": "She seems to be in love with Humlon, but it is unclear if the love is returned.",
+            "ex_id": "bb245f95e044670f7c0dff6ca6ff081c3e35bf42",
+            "sv": "Park blir kär i Eleanor och Eleanor lär sig att förstå Park.",
+            "en": "Park falls in love with Eleanor and Eleanor learns to understand Park.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "Hon"
+                "span_sv": "Park"
               },
               {
                 "fe_id": "fe_partner_2",
-                "span_sv": "Humlon"
+                "span_sv": "Eleanor"
               }
             ],
-            "gloss": "be in love with",
+            "gloss": "be in love with; fall in love with",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -152,29 +165,29 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Wuzzlarna",
-              "text_url": "https://sv.wikipedia.org/wiki/Wuzzlarna",
-              "sentence_id": "70b8437e",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"vara\"][word=\"kär\"][word=\"i\"]"
+              "text_title": "Eleanor & Park",
+              "text_url": "https://sv.wikipedia.org/wiki/Eleanor_%26_Park",
+              "sentence_id": "2c1f239a",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"kär\"][word=\"i\"]"
             }
           },
           {
-            "ex_id": "aa79ed0520179de6eaaf4affa32029fda0ef7931",
-            "sv": "Hon brukar vara kär i Egon Spengler och under TV-serien har hon haft olika frisyrer.",
-            "en": "She is usually in love with Egon Spengler, and during the TV series she has had different hairstyles.",
+            "ex_id": "0b4c0c4260d89925346f6c3e9f27fb0d7227483b",
+            "sv": "Salome är kär i honom men han avvisar henne och hon vill då hämnas.",
+            "en": "Salome is in love with him but he rejects her and then she wants to take revenge.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "Hon"
+                "span_sv": "Salome"
               },
               {
                 "fe_id": "fe_partner_2",
-                "span_sv": "Egon Spengler"
+                "span_sv": "honom"
               }
             ],
-            "gloss": "be in love with",
+            "gloss": "be in love with; fall in love with",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -182,51 +195,119 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Janine Melnitz",
-              "text_url": "https://sv.wikipedia.org/wiki/Janine_Melnitz",
-              "sentence_id": "e332ed15",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"vara\"][word=\"kär\"][word=\"i\"]"
+              "text_title": "Salome (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Salome_(film)",
+              "sentence_id": "324fcbae",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"kär\"][word=\"i\"]"
             }
           },
           {
-            "ex_id": "54f8f9466473f9190aa7a963ae8b5caf4322a8aa",
-            "sv": "Men att vara kär i en vampyr är farligare än Bella någonsin hade kunnat föreställa sig.",
-            "en": "But to be in love with a vampire is more dangerous than Bella could ever have imagined.",
+            "ex_id": "562305b904f9a5fcdafa47804db6e6116f55c976",
+            "sv": "En ung man som reser till Paris blir kär i en vampyr.",
+            "en": "A young man who travels to Paris falls in love with a vampire.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "En ung man"
+              },
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "en vampyr"
               }
             ],
-            "gloss": "be in love with",
-            "level": "B1",
+            "gloss": "be in love with; fall in love with",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "The Twilight Saga: New Moon",
-              "text_url": "https://sv.wikipedia.org/wiki/The_Twilight_Saga:_New_Moon",
-              "sentence_id": "6bbac826",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"vara\"][word=\"kär\"][word=\"i\"]"
+              "text_title": "Paris, je t'aime",
+              "text_url": "https://sv.wikipedia.org/wiki/Paris,_je_t%27aime",
+              "sentence_id": "19d4b80a",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"kär\"][word=\"i\"]"
             }
           },
           {
-            "ex_id": "dc019119db585ac9de7f34eb9a6a50aa22764b15",
-            "sv": "Sången handlar om att bli förälskad i någon som kanske inte är lämplig att vara kär i.",
-            "en": "The song is about becoming in love with someone who maybe is not suitable to be in love with.",
+            "ex_id": "ab2036738364cd3bcdaed91b4353d22f51aedce9",
+            "sv": "Han blir omedelbart kär i henne igen, utan att veta vem hon är.",
+            "en": "He immediately falls in love with her again, without knowing who she is.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Han"
+              },
+              {
                 "fe_id": "fe_partner_2",
-                "span_sv": "någon"
+                "span_sv": "henne"
               }
             ],
-            "gloss": "be in love with",
+            "gloss": "be in love with; fall in love with",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Med dej i mina armar",
+              "text_url": "https://sv.wikipedia.org/wiki/Med_dej_i_mina_armar",
+              "sentence_id": "b39fef78",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"kär\"][word=\"i\"]"
+            }
+          },
+          {
+            "ex_id": "e838f8214ae89e90295ee3ecdc143e96ef3a5eff",
+            "sv": "I början ogillar han Sakura mycket men efter ett tag blir han kär i henne.",
+            "en": "In the beginning he dislikes Sakura a lot but after a while he falls in love with her.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "henne"
+              }
+            ],
+            "gloss": "be in love with; fall in love with",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Cardcaptor Sakura",
+              "text_url": "https://sv.wikipedia.org/wiki/Cardcaptor_Sakura",
+              "sentence_id": "57e09b96",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"kär\"][word=\"i\"]"
+            }
+          },
+          {
+            "ex_id": "11dae4bca3162322600d3900e3935609da77cf49",
+            "sv": "När han blir kär i och friar till Lia Török griper familjen in.",
+            "en": "When he falls in love with and proposes to Lia Török, the family intervenes.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Lia Török"
+              }
+            ],
+            "gloss": "be in love with; fall in love with",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -234,24 +315,148 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Sparks Fly",
-              "text_url": "https://sv.wikipedia.org/wiki/Sparks_Fly",
-              "sentence_id": "0cdd24ed",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"vara\"][word=\"kär\"][word=\"i\"]"
+              "text_title": "Hennes majestät kärleken",
+              "text_url": "https://sv.wikipedia.org/wiki/Hennes_majest%C3%A4t_k%C3%A4rleken",
+              "sentence_id": "201758ac",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"kär\"][word=\"i\"]"
+            }
+          },
+          {
+            "ex_id": "90bf6902d7f4f68be7dca8a66b97a44f4fa892ac",
+            "sv": "När Norma på nyårsafton avslöjar att hon är kär i honom blir han förskräckt.",
+            "en": "When Norma on New Year's Eve reveals that she is in love with him, he becomes frightened.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "honom"
+              }
+            ],
+            "gloss": "be in love with; fall in love with",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sunset Boulevard (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Sunset_Boulevard_(film)",
+              "sentence_id": "7e8a6fe2",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"kär\"][word=\"i\"]"
+            }
+          },
+          {
+            "ex_id": "78b655a15e9c0c5d3046cd1a871cf69f31e0a9ff",
+            "sv": "Ben är kär i Lucy och har något viktigt att säga henne innan han reser bort.",
+            "en": "Ben is in love with Lucy and has something important to tell her before he travels away.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Ben"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Lucy"
+              }
+            ],
+            "gloss": "be in love with; fall in love with",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Telefonen (opera)",
+              "text_url": "https://sv.wikipedia.org/wiki/Telefonen_(opera)",
+              "sentence_id": "54b357ff",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"kär\"][word=\"i\"]"
+            }
+          },
+          {
+            "ex_id": "55d96f2d8c3f0703ca173e413d4fa0a38c2a3e74",
+            "sv": "Hon träffar en ung man som hon gifter sig med trots att hon inte är kär i honom.",
+            "en": "She meets a young man whom she marries even though she is not in love with him.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "honom"
+              }
+            ],
+            "gloss": "be in love with; fall in love with",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "En kvinnas morgondag",
+              "text_url": "https://sv.wikipedia.org/wiki/En_kvinnas_morgondag",
+              "sentence_id": "b0406512",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"kär\"][word=\"i\"]"
+            }
+          },
+          {
+            "ex_id": "b2b821503783eeb078c0f6097f58c9f10a7f7013",
+            "sv": "Han blir så småningom kär i henne och säger ärligt att han älskar henne.",
+            "en": "He eventually falls in love with her and honestly says that he loves her.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "henne"
+              }
+            ],
+            "gloss": "be in love with; fall in love with",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Strobe Edge",
+              "text_url": "https://sv.wikipedia.org/wiki/Strobe_Edge",
+              "sentence_id": "1881ffc4",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"kär\"][word=\"i\"]"
             }
           }
         ]
       }
     ],
     "pronunciation": {
-      "ipa": null,
-      "stress_hint": "Main stress on kär."
+      "ipa": "ɕæːr iː",
+      "stress_hint": "Stress is on kär; i is unstressed.",
+      "audio": {
+        "file": "audio/lu_verknallt_inacc.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
-      "principal_parts": [
-        "vara kär i"
-      ],
+      "principal_parts": [],
       "particle_or_reflexive": null
     }
   },

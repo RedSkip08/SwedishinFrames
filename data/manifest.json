@@ -1,6 +1,5 @@
 {
   "lus": [
-    "data/lus/lu_affare_die.json",
     "data/lus/lu_affäre_die.json",
     "data/lus/lu_anmachen.json",
     "data/lus/lu_befreunden_sich_acc_befreunden_mit.json",
@@ -19,7 +18,6 @@
     "data/lus/lu_freundin_die.json",
     "data/lus/lu_freundschaft_die.json",
     "data/lus/lu_geliebte_der_geliebte_ein_geliebter__die_eine_geliebte.json",
-    "data/lus/lu_geliebte_der_geliebte_ein_geliebter_die_eine_geliebte.json",
     "data/lus/lu_geschieden.json",
     "data/lus/lu_junggeselle_der.json",
     "data/lus/lu_kennenlernen.json",
@@ -46,7 +44,6 @@
     "data/lus/lu_verloben_sich_acc_verloben_mit.json",
     "data/lus/lu_verlobt.json",
     "data/lus/lu_verlobte_der_verlobte_ein_verlobter__die_eine_verlobte.json",
-    "data/lus/lu_verlobte_der_verlobte_ein_verlobter_die_eine_verlobte.json",
     "data/lus/lu_verlobung_die.json",
     "data/lus/lu_witwe_die_witwe__der_witwer.json",
     "data/lus/lu_zusammen_sein_mit_jdm_zusammen_sein.json"

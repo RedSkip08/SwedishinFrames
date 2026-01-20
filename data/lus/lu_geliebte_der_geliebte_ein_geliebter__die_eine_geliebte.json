@@ -37,7 +37,7 @@
         "def_sg": "älskaren",
         "indef_pl": "älskare",
         "def_pl": "älskarna",
-        "note_en": "Same form in singular and plural indefinite: en älskare, flera älskare."
+        "note_en": "Plural is the same as singular in the indefinite form."
       },
       "verb": {
         "infinitive": null,
@@ -60,30 +60,36 @@
     },
     "derived_words_sv": [
       {
+        "word": "älska",
+        "type_en": "verb",
+        "meaning_en": "to love"
+      },
+      {
+        "word": "älskad",
+        "type_en": "adjective",
+        "meaning_en": "loved; beloved"
+      },
+      {
         "word": "älskarinna",
         "type_en": "noun",
-        "meaning_en": "female lover (often in an affair)"
+        "meaning_en": "female lover (often secret)"
       },
       {
-        "word": "älskarpar",
+        "word": "kärleksaffär",
         "type_en": "noun",
-        "meaning_en": "a couple of lovers"
+        "meaning_en": "love affair"
       },
       {
-        "word": "älskarbrev",
+        "word": "otrohet",
         "type_en": "noun",
-        "meaning_en": "love letter"
-      },
-      {
-        "word": "älskarinnaförhållande",
-        "type_en": "noun",
-        "meaning_en": "affair with a lover"
+        "meaning_en": "infidelity"
       }
     ],
     "synonyms_sv": [
       "partner",
       "kärlekspartner",
-      "älskad"
+      "älskad",
+      "käraste"
     ],
     "antonyms_sv": [],
     "linked_frames": [
@@ -100,42 +106,51 @@
         "frame_id": "frame_personal_relationship",
         "meaning_en": "a person someone has a romantic or sexual relationship with, often secretly",
         "how_to_use_en": [
-          "Use about a romantic/sexual partner, often outside marriage or a main relationship.",
-          "Often used with a possessive: hans/hennes/sin älskare.",
-          "Can be singular or plural: en älskare, två älskare."
+          "Use for a romantic/sexual partner, often outside marriage or a main relationship.",
+          "Often used with a possessive: hans/hennes/sin älskare."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "ha (haft) en älskare",
-            "note_en": "To have/have had a lover."
+            "meaning_en": "have a lover",
+            "note_en": "Often implies an affair."
           },
           {
             "pattern_id": "pat_2",
             "pattern": "hans/hennes/sin älskare",
-            "note_en": "Possessive + älskare is very common."
+            "meaning_en": "someone’s lover",
+            "note_en": "Common with possessives."
           },
           {
             "pattern_id": "pat_3",
             "pattern": "bli någons älskare",
-            "note_en": "To become someone’s lover."
+            "meaning_en": "become someone’s lover",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "vänta på sin älskare + (namn)",
-            "note_en": "Often followed by a name."
+            "pattern": "tidigare älskare",
+            "meaning_en": "former lover",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "två älskare",
-            "note_en": "Plural meaning: two people who are lovers."
+            "pattern": "vara ... även älskare",
+            "meaning_en": "also be lovers",
+            "note_en": "Used when two people are lovers in addition to another relationship."
           }
         ],
         "common_errors_en": [
           {
             "error": "Using älskare for a normal boyfriend/girlfriend in neutral contexts.",
             "fix": "Use pojkvän/flickvän or partner instead.",
-            "explain_en": "Älskare often suggests an affair or a more secret/sexual relationship."
+            "explain_en": "Älskare often suggests an affair or a more secret relationship."
+          },
+          {
+            "error": "Mixing up sin/hans/hennes before älskare.",
+            "fix": "Use sin for the subject’s own lover; hans/hennes for someone else’s.",
+            "explain_en": "Swedish reflexive possessives depend on who owns the relationship."
           }
         ],
         "required_example_count": 10,
@@ -155,7 +170,7 @@
                 "span_sv": "en älskare"
               }
             ],
-            "gloss": "lover (a person someone has a romantic/sexual relationship with, often secretly)",
+            "gloss": "älskare = lover (a person someone has a romantic/sexual relationship with, often secretly)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -166,7 +181,7 @@
               "text_title": "Två kvinnor (1980)",
               "text_url": "https://sv.wikipedia.org/wiki/Tv%C3%A5_kvinnor_(1980)",
               "sentence_id": "03a2906d",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"älskare\"]"
             }
           },
@@ -185,7 +200,7 @@
                 "span_sv": "hennes älskare"
               }
             ],
-            "gloss": "lover",
+            "gloss": "älskare = lover",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -196,7 +211,7 @@
               "text_title": "Mannen - hustrun - älskaren",
               "text_url": "https://sv.wikipedia.org/wiki/Mannen_-_hustrun_-_%C3%A4lskaren",
               "sentence_id": "88b63069",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"älskare\"]"
             }
           },
@@ -215,7 +230,7 @@
                 "span_sv": "älskare"
               }
             ],
-            "gloss": "lover",
+            "gloss": "älskare = lover",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -226,7 +241,7 @@
               "text_title": "Madame Bovary (film, 1991)",
               "text_url": "https://sv.wikipedia.org/wiki/Madame_Bovary_(film,_1991)",
               "sentence_id": "e6c6996d",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"älskare\"]"
             }
           },
@@ -245,7 +260,7 @@
                 "span_sv": "älskare"
               }
             ],
-            "gloss": "lover",
+            "gloss": "älskare = lover",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -256,7 +271,7 @@
               "text_title": "Marie von Stedingk",
               "text_url": "https://sv.wikipedia.org/wiki/Marie_von_Stedingk",
               "sentence_id": "cca646f9",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"älskare\"]"
             }
           },
@@ -275,11 +290,11 @@
                 "span_sv": "hennes"
               },
               {
-                "fe_id": "fe_partner_1",
+                "fe_id": "fe_partner_2",
                 "span_sv": "hennes älskare"
               }
             ],
-            "gloss": "lover",
+            "gloss": "älskare = lover",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -290,7 +305,7 @@
               "text_title": "Préparez vos mouchoirs",
               "text_url": "https://sv.wikipedia.org/wiki/Pr%C3%A9parez_vos_mouchoirs",
               "sentence_id": "45c263ee",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"älskare\"]"
             }
           },
@@ -302,14 +317,14 @@
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "hennes"
+                "span_sv": "Theresas make"
               },
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "hennes tidigare älskare Oscar"
               }
             ],
-            "gloss": "lover",
+            "gloss": "älskare = lover",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -320,7 +335,7 @@
               "text_title": "After the Wedding",
               "text_url": "https://sv.wikipedia.org/wiki/After_the_Wedding",
               "sentence_id": "1bd4977e",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"älskare\"]"
             }
           },
@@ -339,7 +354,7 @@
                 "span_sv": "hennes älskare"
               }
             ],
-            "gloss": "lover",
+            "gloss": "älskare = lover",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -350,52 +365,26 @@
               "text_title": "Street Scene (opera)",
               "text_url": "https://sv.wikipedia.org/wiki/Street_Scene_(opera)",
               "sentence_id": "54bc3a4c",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"älskare\"]"
             }
           },
           {
-            "ex_id": "a49471f03aaabb84ece8ff6c3c1870b8c2182892",
-            "sv": "Bakom scenen på varietén väntar Zaza på sin älskare Milo Dufresne.",
-            "en": "Behind the stage at the variety show, Zaza is waiting for her lover Milo Dufresne.",
+            "ex_id": "6b0ddff015b42839b4996f6b4a37dd0e14d34841",
+            "sv": "Stycket är en monolog där en kvinna i telefon tar farväl av sin älskare.",
+            "en": "The play is a monologue where a woman on the phone says goodbye to her lover.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "Zaza"
+                "span_sv": "en kvinna"
               },
               {
                 "fe_id": "fe_partner_2",
-                "span_sv": "sin älskare Milo Dufresne"
+                "span_sv": "sin älskare"
               }
             ],
-            "gloss": "lover",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Zazà",
-              "text_url": "https://sv.wikipedia.org/wiki/Zaz%C3%A0",
-              "sentence_id": "407b0e0d",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"älskare\"]"
-            }
-          },
-          {
-            "ex_id": "1a624de5427ca09ab75fe2fddc201f34c94990d0",
-            "sv": "\" No Me Ames \" handlar om en komplicerad relation mellan två älskare.",
-            "en": "\"No Me Ames\" is about a complicated relationship between two lovers.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "två älskare"
-              }
-            ],
-            "gloss": "lovers (two people in a romantic/sexual relationship)",
+            "gloss": "älskare = lover",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -403,10 +392,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "No Me Ames",
-              "text_url": "https://sv.wikipedia.org/wiki/No_Me_Ames",
-              "sentence_id": "d80bc01f",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "text_title": "Vox humana (teaterpjäs)",
+              "text_url": "https://sv.wikipedia.org/wiki/Vox_humana_(teaterpj%C3%A4s)",
+              "sentence_id": "a059f14f",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"älskare\"]"
             }
           },
@@ -419,9 +408,13 @@
               {
                 "fe_id": "fe_partners",
                 "span_sv": "Pauline och Victoria"
+              },
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "älskare"
               }
             ],
-            "gloss": "lovers",
+            "gloss": "älskare = lover",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -432,7 +425,7 @@
               "text_title": "Lost and Delirious",
               "text_url": "https://sv.wikipedia.org/wiki/Lost_and_Delirious",
               "sentence_id": "83ce2965",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"älskare\"]"
             }
           }
@@ -440,12 +433,21 @@
       }
     ],
     "pronunciation": {
-      "ipa": "ˈɛlːskarɛ",
-      "stress_hint": "Stress on first syllable: ÄLS-ka-re"
+      "ipa": "ˈɛlskarɛ",
+      "stress_hint": "Stress on the first syllable: ÄL-.",
+      "audio": {
+        "file": "audio/lu_geliebte_der_geliebte_ein_geliebter__die_eine_geliebte.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "älskare – älskaren – älskare – älskarna"
+        "älskare (indefinite singular)",
+        "älskaren (definite singular)",
+        "älskare (indefinite plural)",
+        "älskarna (definite plural)"
       ],
       "particle_or_reflexive": null
     }

@@ -3,8 +3,8 @@
     "id": "frame_personal_relationship",
     "name_en": "Personal Relationship",
     "slug": "personal_relationship",
-    "frame_description_en": "This frame is about a personal relationship between people. It describes situations where two individuals are connected in some social, romantic, sexual, or family way, such as being friends, partners, spouses, or acquaintances, or where their relationship changes (for example, they become close, stay together, or break up). The relationship can be expressed by naming one person as Partner_1 and the other as Partner_2, or by referring to them together as Partners when they are treated as a pair or group in the same relationship.",
-    "frame_description_html": "This frame is about a personal relationship between people. It describes situations where two individuals are connected in some social, romantic, sexual, or family way, such as being friends, partners, spouses, or acquaintances, or where their relationship changes (for example, they become close, stay together, or break up). The relationship can be expressed by naming one person as <span class=\"Partner_1\">Partner_1</span> and the other as <span class=\"Partner_2\">Partner_2</span>, or by referring to them together as <span class=\"Partners\">Partners</span> when they are treated as a pair or group in the same relationship.",
+    "frame_description_en": "This frame is about a social or romantic connection between people. It describes situations where Partner_1 and Partner_2 are connected in some personal way (for example as friends, acquaintances, a couple, spouses, or ex-partners), or where the relationship is talked about as a whole using Partners (for example “they” as a couple). The frame can cover meeting and getting to know someone, being in a relationship, and changes in the relationship such as becoming closer or ending the relationship.",
+    "frame_description_html": "This frame is about a social or romantic connection between people. It describes situations where <span class=\"Partner_1\">Partner_1</span> and <span class=\"Partner_2\">Partner_2</span> are connected in some personal way (for example as friends, acquaintances, a couple, spouses, or ex-partners), or where the relationship is talked about as a whole using <span class=\"Partners\">Partners</span> (for example “they” as a couple). The frame can cover meeting and getting to know someone, being in a relationship, and changes in the relationship such as becoming closer or ending the relationship.",
     "frame_description_fe_mentions": [
       {
         "fe_id": "fe_partner_1",
@@ -24,38 +24,38 @@
         "id": "fe_partner_2",
         "name": "Partner_2",
         "published": 1,
-        "description_en": "The other person (or group) who is in the relationship with Partner_1.",
-        "description_html": "The other person (or group) who is in the relationship with <span class=\"Partner_1\">Partner_1</span>."
+        "description_en": "The other person (or group) that Partner_1 has the personal relationship with.",
+        "description_html": "The other person (or group) that <span class=\"Partner_1\">Partner_1</span> has the personal relationship with."
       },
       {
         "id": "fe_partner_1",
         "name": "Partner_1",
         "published": 1,
-        "description_en": "One person (or group) who is in a relationship with Partner_2.",
-        "description_html": "One person (or group) who is in a relationship with <span class=\"Partner_2\">Partner_2</span>."
+        "description_en": "One person (or group) in the personal relationship, often the one presented as the main viewpoint in the sentence.",
+        "description_html": "One person (or group) in the personal relationship, often the one presented as the main viewpoint in the sentence."
       },
       {
         "id": "fe_partners",
         "name": "Partners",
         "published": 1,
-        "description_en": "Both people together (or the whole set of people) when the relationship is talked about as shared or mutual.",
-        "description_html": "Both people together (or the whole set of people) when the relationship is talked about as shared or mutual."
+        "description_en": "The people in the relationship referred to together as a unit (e.g., “they”, “the couple”).",
+        "description_html": "The people in the relationship referred to together as a unit (e.g., “they”, “the couple”)."
       }
     ],
     "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
     "examples": [
       {
-        "ex_id": "70a46f4d5656aa9992afee49d41f79844a00399b",
-        "sv": "Hans vän Max Brod hävdade att Kafka var en religiös diktare.",
-        "en": "His friend Max Brod claimed that Kafka was a religious poet.",
+        "ex_id": "564467da1fb79577b8a5728c3093f789ab62c3b3",
+        "sv": "På tivoliplatsen träffar han Karin, som är en gammal bekant.",
+        "en": "At the amusement park area he meets Karin, who is an old acquaintance.",
         "fe_tags": [
           {
             "fe_id": "fe_partner_1",
-            "span_sv": "Hans"
+            "span_sv": "han"
           },
           {
             "fe_id": "fe_partner_2",
-            "span_sv": "vän Max Brod"
+            "span_sv": "Karin"
           }
         ],
         "origin": "korp",
@@ -64,11 +64,11 @@
           "corpus": "WIKIPEDIA-SV",
           "license": "CC BY-SA 4.0",
           "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "text_title": "Förvandlingen",
-          "text_url": "https://sv.wikipedia.org/wiki/F%C3%B6rvandlingen",
-          "sentence_id": "e33a050f",
-          "retrieved_at": "2026-01-17T22:37:39+00:00",
-          "korp_query": "[word=\"vän\"]"
+          "text_title": "Bränningar",
+          "text_url": "https://sv.wikipedia.org/wiki/Br%C3%A4nningar",
+          "sentence_id": "a3c8ef54",
+          "retrieved_at": "2026-01-20T01:27:06+00:00",
+          "korp_query": "[word=\"bekant\"]"
         }
       },
       {
@@ -94,31 +94,8 @@
           "text_title": "André Weil",
           "text_url": "https://sv.wikipedia.org/wiki/Andr%C3%A9_Weil",
           "sentence_id": "ba858b6f",
-          "retrieved_at": "2026-01-17T22:37:39+00:00",
+          "retrieved_at": "2026-01-20T01:27:06+00:00",
           "korp_query": "[word=\"vän\"]"
-        }
-      },
-      {
-        "ex_id": "8266890baef46ff23ab8cf7e224e719ad87a7f27",
-        "sv": "När de blivit ett par valde de att vara tillsammans dygnet runt.",
-        "en": "When they became a couple, they chose to be together around the clock.",
-        "fe_tags": [
-          {
-            "fe_id": "fe_partners",
-            "span_sv": "de"
-          }
-        ],
-        "origin": "korp",
-        "source": {
-          "provider": "Språkbanken Korp",
-          "corpus": "WIKIPEDIA-SV",
-          "license": "CC BY-SA 4.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "text_title": "John Lennon",
-          "text_url": "https://sv.wikipedia.org/wiki/John_Lennon",
-          "sentence_id": "5d4cd28e",
-          "retrieved_at": "2026-01-17T22:37:39+00:00",
-          "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
         }
       },
       {
@@ -144,8 +121,31 @@
           "text_title": "Life Among the Gorillas",
           "text_url": "https://sv.wikipedia.org/wiki/Life_Among_the_Gorillas",
           "sentence_id": "2a4d57a8",
-          "retrieved_at": "2026-01-17T22:37:39+00:00",
+          "retrieved_at": "2026-01-20T01:27:06+00:00",
           "korp_query": "[word=\"göra\"][word=\"slut\"]"
+        }
+      },
+      {
+        "ex_id": "df22b782edc11a365bd340ba1a20113ecffb8e84",
+        "sv": "Romeo och Julia vill gifta sig för att alltid få vara tillsammans.",
+        "en": "Romeo and Julia want to get married so that they can always be together.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_partners",
+            "span_sv": "Romeo och Julia"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Romeo och Julia (film, 1968)",
+          "text_url": "https://sv.wikipedia.org/wiki/Romeo_och_Julia_(film,_1968)",
+          "sentence_id": "40d973de",
+          "retrieved_at": "2026-01-20T01:27:06+00:00",
+          "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
         }
       },
       {
@@ -167,22 +167,22 @@
           "text_title": "Liv Tyler",
           "text_url": "https://sv.wikipedia.org/wiki/Liv_Tyler",
           "sentence_id": "b589f311",
-          "retrieved_at": "2026-01-17T22:37:39+00:00",
+          "retrieved_at": "2026-01-20T01:27:06+00:00",
           "korp_query": "[word=\"skilja\"][word=\"sig\"]"
         }
       },
       {
-        "ex_id": "4c9eaa1a062daef91ab0d4491d4c4de0be111267",
-        "sv": "Katy Perry är sedan 14 februari 2019 förlovad med Orlando Bloom.",
-        "en": "Katy Perry has been engaged to Orlando Bloom since 14 February 2019.",
+        "ex_id": "71288f292328934bad4be7c82d7b8022a88052c5",
+        "sv": "Han kommer att förlova sig med Lisa Simpson och gifta sig med henne den 1 augusti 2010.",
+        "en": "He will get engaged to Lisa Simpson and marry her on 1 August 2010.",
         "fe_tags": [
           {
             "fe_id": "fe_partner_1",
-            "span_sv": "Katy Perry"
+            "span_sv": "Han"
           },
           {
             "fe_id": "fe_partner_2",
-            "span_sv": "Orlando Bloom"
+            "span_sv": "Lisa Simpson"
           }
         ],
         "origin": "korp",
@@ -191,45 +191,18 @@
           "corpus": "WIKIPEDIA-SV",
           "license": "CC BY-SA 4.0",
           "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "text_title": "Katy Perry",
-          "text_url": "https://sv.wikipedia.org/wiki/Katy_Perry",
-          "sentence_id": "a3c5cefb",
-          "retrieved_at": "2026-01-17T22:37:39+00:00",
-          "korp_query": "[word=\"förlovad\"]"
-        }
-      },
-      {
-        "ex_id": "90b5d0e4290f517908f0072ca366dd84db186da5",
-        "sv": "Steczkowska är gift med musikern Piotr Królik, också han medlem av Indigo.",
-        "en": "Steczkowska is married to the musician Piotr Królik, he is also a member of Indigo.",
-        "fe_tags": [
-          {
-            "fe_id": "fe_partner_1",
-            "span_sv": "Steczkowska"
-          },
-          {
-            "fe_id": "fe_partner_2",
-            "span_sv": "musikern Piotr Królik"
-          }
-        ],
-        "origin": "korp",
-        "source": {
-          "provider": "Språkbanken Korp",
-          "corpus": "WIKIPEDIA-SV",
-          "license": "CC BY-SA 4.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "text_title": "Magda Steczkowska",
-          "text_url": "https://sv.wikipedia.org/wiki/Magda_Steczkowska",
-          "sentence_id": "17694e88",
-          "retrieved_at": "2026-01-17T22:37:40+00:00",
-          "korp_query": "[word=\"gift\"]"
+          "text_title": "Lista över engångsfigurer i Simpsons",
+          "text_url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_eng%C3%A5ngsfigurer_i_Simpsons",
+          "sentence_id": "b1ee0f78",
+          "retrieved_at": "2026-01-20T01:27:06+00:00",
+          "korp_query": "[word=\"förlova\"][word=\"sig\"]"
         }
       }
     ],
     "linked_lexical_units": [
       {
         "lu_id": "lu_bekannte_der_bekannte_ein_bekannter__die_eine_bekannte",
-        "display_sv": "bekant (person)",
+        "display_sv": "bekant",
         "lu_type": "single",
         "pos": "noun",
         "sense_id": "lu_bekannte_der_bekannte_ein_bekannter__die_eine_bekannte:1"
@@ -292,7 +265,7 @@
       },
       {
         "lu_id": "lu_freund_der_freund_die_freundin",
-        "display_sv": "partner",
+        "display_sv": "pojkvän",
         "lu_type": "single",
         "pos": "noun",
         "sense_id": "lu_freund_der_freund_die_freundin:1"
@@ -362,7 +335,7 @@
       },
       {
         "lu_id": "lu_verknallt_inacc",
-        "display_sv": "vara kär i",
+        "display_sv": "kär i",
         "lu_type": "multiword",
         "pos": "multiword",
         "sense_id": "lu_verknallt_inacc:1"
@@ -390,7 +363,7 @@
       },
       {
         "lu_id": "lu_schluss_machen_mit",
-        "display_sv": "göra slut",
+        "display_sv": "göra slut (med)",
         "lu_type": "multiword",
         "pos": "multiword",
         "sense_id": "lu_schluss_machen_mit:1"
@@ -406,7 +379,7 @@
         "lu_id": "lu_single_der",
         "display_sv": "singel",
         "lu_type": "single",
-        "pos": "adjective",
+        "pos": "noun",
         "sense_id": "lu_single_der:1"
       },
       {
@@ -425,7 +398,7 @@
       },
       {
         "lu_id": "lu_verliebt_inacc",
-        "display_sv": "kär (i)",
+        "display_sv": "kär",
         "lu_type": "single",
         "pos": "adjective",
         "sense_id": "lu_verliebt_inacc:1"
@@ -467,14 +440,14 @@
       },
       {
         "lu_id": "lu_clique_die",
-        "display_sv": "kompisgäng",
+        "display_sv": "gäng",
         "lu_type": "single",
         "pos": "noun",
         "sense_id": "lu_clique_die:1"
       },
       {
         "lu_id": "lu_beziehung_die",
-        "display_sv": "förhållande",
+        "display_sv": "relation",
         "lu_type": "single",
         "pos": "noun",
         "sense_id": "lu_beziehung_die:1"
@@ -548,10 +521,10 @@
   "constructions": [
     {
       "cxn_id": "cxn_1",
-      "cxn_name_linguistic_sv": "vara vän med X",
-      "cxn_name_user_friendly_en": "Being friends with someone",
-      "pattern": "SUBJ vara vän med OBJ",
-      "meaning_en": "SUBJ and OBJ are friends (a friendship relationship exists).",
+      "cxn_name_linguistic_sv": "bli bekant med X",
+      "cxn_name_user_friendly_en": "Becoming acquainted with someone",
+      "pattern": "SUBJ bli bekant med OBJ",
+      "meaning_en": "Someone meets another person and starts to know them.",
       "frame_mapping": [
         {
           "slot": "SUBJ",
@@ -563,22 +536,21 @@
         }
       ],
       "usage_notes_en": [
-        "Used to state an existing friendship.",
-        "Often appears with negation (inte) to say someone does not want to be friends."
+        "Used for the start of a relationship of acquaintance (meeting and getting to know someone)."
       ],
       "examples": [
         {
-          "ex_id": "975c59625c900d61d03186f52cc111acbdc1c922",
-          "sv": "Det finns dock ett problem: Kråkan vill inte vara vän med Mamma Mu då han tycker hon är konstig.",
-          "en": "But there is a problem: the Crow does not want to be friends with Mamma Mu because he thinks she is strange.",
+          "ex_id": "4ecfb562fb4d7bf677487fb145a9b89b52d020f0",
+          "sv": "Eva Bromée, Oves fästmö, anländer till badorten och blir bekant med Greta.",
+          "en": "Eva Bromée, Ove's fiancée, arrives at the resort and becomes acquainted with Greta.",
           "fe_tags": [
             {
               "fe_id": "fe_partner_1",
-              "span_sv": "Kråkan"
+              "span_sv": "Eva Bromée"
             },
             {
               "fe_id": "fe_partner_2",
-              "span_sv": "Mamma Mu"
+              "span_sv": "Greta"
             }
           ],
           "origin": "korp",
@@ -587,25 +559,25 @@
             "corpus": "WIKIPEDIA-SV",
             "license": "CC BY-SA 4.0",
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-            "text_title": "Mamma Mu & Kråkan (film)",
-            "text_url": "https://sv.wikipedia.org/wiki/Mamma_Mu_%26_Kr%C3%A5kan_(film)",
-            "sentence_id": "55cb4538",
-            "retrieved_at": "2026-01-17T22:37:40+00:00",
-            "korp_query": "[word=\"vara\"][word=\"vän\"][word=\"med\"]"
+            "text_title": "Falska Greta",
+            "text_url": "https://sv.wikipedia.org/wiki/Falska_Greta",
+            "sentence_id": "23aa9783",
+            "retrieved_at": "2026-01-20T01:27:06+00:00",
+            "korp_query": "[word=\"bekant\"]"
           }
         },
         {
-          "ex_id": "fab372538795683d7c1f1a093168fd09bf4b27b7",
-          "sv": "Samantha känner att hon inte är en förhållande-person, och till en början vill hon bara vara vän med Maria.",
-          "en": "Samantha feels that she is not a relationship person, and at first she only wants to be friends with Maria.",
+          "ex_id": "d533df3426338a2e7f8dbe280945c9be640318d9",
+          "sv": "Han blev bekant med Edvard Grieg och flera av hans verk är dedicerade till denne.",
+          "en": "He became acquainted with Edvard Grieg and several of his works are dedicated to him.",
           "fe_tags": [
             {
               "fe_id": "fe_partner_1",
-              "span_sv": "hon"
+              "span_sv": "Han"
             },
             {
               "fe_id": "fe_partner_2",
-              "span_sv": "Maria"
+              "span_sv": "Edvard Grieg"
             }
           ],
           "origin": "korp",
@@ -614,21 +586,21 @@
             "corpus": "WIKIPEDIA-SV",
             "license": "CC BY-SA 4.0",
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-            "text_title": "Sex and the City",
-            "text_url": "https://sv.wikipedia.org/wiki/Sex_and_the_City",
-            "sentence_id": "7e8cec61",
-            "retrieved_at": "2026-01-17T22:37:40+00:00",
-            "korp_query": "[word=\"vara\"][word=\"vän\"][word=\"med\"]"
+            "text_title": "Adolf Thomsen",
+            "text_url": "https://sv.wikipedia.org/wiki/Adolf_Thomsen",
+            "sentence_id": "ad921022",
+            "retrieved_at": "2026-01-20T01:27:06+00:00",
+            "korp_query": "[word=\"bekant\"]"
           }
         }
       ]
     },
     {
       "cxn_id": "cxn_2",
-      "cxn_name_linguistic_sv": "bli vän med X",
-      "cxn_name_user_friendly_en": "Becoming friends with someone",
-      "pattern": "SUBJ bli vän med OBJ",
-      "meaning_en": "SUBJ becomes friends with OBJ (a new friendship starts).",
+      "cxn_name_linguistic_sv": "vara bekant med X",
+      "cxn_name_user_friendly_en": "Being acquainted with someone",
+      "pattern": "SUBJ vara bekant med OBJ",
+      "meaning_en": "Someone knows another person (they are acquainted).",
       "frame_mapping": [
         {
           "slot": "SUBJ",
@@ -640,22 +612,21 @@
         }
       ],
       "usage_notes_en": [
-        "Used for the start of a friendship (a change into being friends).",
-        "Often used with verbs like försöka/lyckas (try/manage) in the same clause."
+        "Describes an existing acquaintance relationship (not the moment of meeting)."
       ],
       "examples": [
         {
-          "ex_id": "57f3295acc44e348d7d45601b179a88a8e693c61",
-          "sv": "Under sin tid i Tyskland blev han vän med Carl Siegel.",
-          "en": "During his time in Germany he became friends with Carl Siegel.",
+          "ex_id": "54901ee35d1da8c71277ff2ab58a841ab8e4cb01",
+          "sv": "Familjen Peirce var nära bekant med familjen James som bodde i samma stadsdel.",
+          "en": "The Peirce family was closely acquainted with the James family who lived in the same district.",
           "fe_tags": [
             {
               "fe_id": "fe_partner_1",
-              "span_sv": "han"
+              "span_sv": "Familjen Peirce"
             },
             {
               "fe_id": "fe_partner_2",
-              "span_sv": "Carl Siegel"
+              "span_sv": "familjen James"
             }
           ],
           "origin": "korp",
@@ -664,25 +635,25 @@
             "corpus": "WIKIPEDIA-SV",
             "license": "CC BY-SA 4.0",
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-            "text_title": "André Weil",
-            "text_url": "https://sv.wikipedia.org/wiki/Andr%C3%A9_Weil",
-            "sentence_id": "ba858b6f",
-            "retrieved_at": "2026-01-17T22:37:39+00:00",
-            "korp_query": "[word=\"vän\"]"
+            "text_title": "Charles Sanders Peirce",
+            "text_url": "https://sv.wikipedia.org/wiki/Charles_Sanders_Peirce",
+            "sentence_id": "bcc584ac",
+            "retrieved_at": "2026-01-20T01:27:06+00:00",
+            "korp_query": "[word=\"bekant\"]"
           }
         },
         {
-          "ex_id": "0162813f24c3bf4ebb916a58a8890b6fb7beba18",
-          "sv": "Med hjälp av det kan du bli vän med andra spelare och skicka prylar.",
-          "en": "With the help of that you can become friends with other players and send things.",
+          "ex_id": "32ed7492f4f0fa3988d2e3a6a87d3055bfd9decb",
+          "sv": "Hon var bekant med Madame Guyon, som omvände henne till kvietismen.",
+          "en": "She was acquainted with Madame Guyon, who converted her to quietism.",
           "fe_tags": [
             {
               "fe_id": "fe_partner_1",
-              "span_sv": "du"
+              "span_sv": "Hon"
             },
             {
               "fe_id": "fe_partner_2",
-              "span_sv": "andra spelare"
+              "span_sv": "Madame Guyon"
             }
           ],
           "origin": "korp",
@@ -691,71 +662,47 @@
             "corpus": "WIKIPEDIA-SV",
             "license": "CC BY-SA 4.0",
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-            "text_title": "Nintendogs",
-            "text_url": "https://sv.wikipedia.org/wiki/Nintendogs",
-            "sentence_id": "8e1834b7",
-            "retrieved_at": "2026-01-17T22:37:40+00:00",
-            "korp_query": "[word=\"bli\"][word=\"vän\"][word=\"med\"]"
+            "text_title": "Marie de Brinon",
+            "text_url": "https://sv.wikipedia.org/wiki/Marie_de_Brinon",
+            "sentence_id": "840d1d4a",
+            "retrieved_at": "2026-01-20T01:27:06+00:00",
+            "korp_query": "[word=\"bekant\"]"
           }
         }
       ]
     },
     {
       "cxn_id": "cxn_3",
-      "cxn_name_linguistic_sv": "göra slut (med X)",
-      "cxn_name_user_friendly_en": "Breaking up with someone",
-      "pattern": "SUBJ göra slut (med OBJ)",
-      "meaning_en": "SUBJ ends a romantic relationship, optionally specifying the other person as OBJ.",
+      "cxn_name_linguistic_sv": "en bekant till X",
+      "cxn_name_user_friendly_en": "An acquaintance of someone",
+      "pattern": "NP en bekant till PP-X",
+      "meaning_en": "A person is described as someone’s acquaintance.",
       "frame_mapping": [
         {
-          "slot": "SUBJ",
+          "slot": "NP",
           "maps_to_fe_id": "fe_partner_1"
         },
         {
-          "slot": "OBJ",
+          "slot": "PP-X",
           "maps_to_fe_id": "fe_partner_2"
         }
       ],
       "usage_notes_en": [
-        "OBJ is expressed with med + pronoun/name when the other partner is mentioned.",
-        "Can also be used without OBJ when the other person is not specified."
+        "Uses the noun bekant with till to show whose acquaintance someone is."
       ],
       "examples": [
         {
-          "ex_id": "8ac3b6b31fb9d4866dee68873603c6f5e6ed362d",
-          "sv": "Han vill göra slut men vet inte hur han ska gå till väga.",
-          "en": "He wants to break up but does not know how to do it.",
+          "ex_id": "8be67d646d795d3d6840c0dc0d3236dcc13d107b",
+          "sv": "Staden döptes efter general Broadwater, en bekant till en av järnvägens tjänstemän.",
+          "en": "The town was named after General Broadwater, an acquaintance of one of the railway employees.",
           "fe_tags": [
             {
               "fe_id": "fe_partner_1",
-              "span_sv": "Han"
-            }
-          ],
-          "origin": "korp",
-          "source": {
-            "provider": "Språkbanken Korp",
-            "corpus": "WIKIPEDIA-SV",
-            "license": "CC BY-SA 4.0",
-            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-            "text_title": "Mañana",
-            "text_url": "https://sv.wikipedia.org/wiki/Ma%C3%B1ana",
-            "sentence_id": "be5c141b",
-            "retrieved_at": "2026-01-17T22:37:39+00:00",
-            "korp_query": "[word=\"göra\"][word=\"slut\"]"
-          }
-        },
-        {
-          "ex_id": "7c192f0dfffcad496b2986f2a8b339ba80862336",
-          "sv": "Han oroar sig för att hon kommer att göra slut med honom.",
-          "en": "He worries that she will break up with him.",
-          "fe_tags": [
-            {
-              "fe_id": "fe_partner_1",
-              "span_sv": "hon"
+              "span_sv": "general Broadwater"
             },
             {
               "fe_id": "fe_partner_2",
-              "span_sv": "honom"
+              "span_sv": "en av järnvägens tjänstemän"
             }
           ],
           "origin": "korp",
@@ -764,11 +711,11 @@
             "corpus": "WIKIPEDIA-SV",
             "license": "CC BY-SA 4.0",
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-            "text_title": "Life Among the Gorillas",
-            "text_url": "https://sv.wikipedia.org/wiki/Life_Among_the_Gorillas",
-            "sentence_id": "2a4d57a8",
-            "retrieved_at": "2026-01-17T22:37:39+00:00",
-            "korp_query": "[word=\"göra\"][word=\"slut\"]"
+            "text_title": "Broadwater, Nebraska",
+            "text_url": "https://sv.wikipedia.org/wiki/Broadwater,_Nebraska",
+            "sentence_id": "72e4bc59",
+            "retrieved_at": "2026-01-20T01:27:06+00:00",
+            "korp_query": "[word=\"bekant\"]"
           }
         }
       ]

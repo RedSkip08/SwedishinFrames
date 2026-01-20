@@ -25,7 +25,7 @@
       "vara tillsammans",
       "vara tillsammans med"
     ],
-    "english_equivalent_en": "be together",
+    "english_equivalent_en": "be in a relationship",
     "morphology_sv": {
       "noun": {
         "gender": null,
@@ -33,16 +33,16 @@
         "def_sg": null,
         "indef_pl": null,
         "def_pl": null,
-        "note_en": null
+        "note_en": ""
       },
       "verb": {
-        "infinitive": "vara",
-        "present": "är",
-        "past": "var",
-        "supine": "varit",
-        "imperative": "var",
-        "present_participle": "varande",
-        "past_participle": "varit",
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
         "alternatives": []
       },
       "adjective": {
@@ -52,7 +52,7 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "Multiword expression: verb + adverb. Often used about a romantic relationship, but can also mean spending time together (e.g., with family)."
+      "note_en": "Multiword expression with the verb vara + adverb tillsammans; it is used about a romantic relationship."
     },
     "derived_words_sv": [
       {
@@ -71,78 +71,84 @@
         "meaning_en": "life together as a couple"
       },
       {
-        "word": "sambo",
+        "word": "tillsammansboende",
         "type_en": "noun",
-        "meaning_en": "cohabiting partner"
+        "meaning_en": "living together"
       },
       {
-        "word": "samboförhållande",
-        "type_en": "noun",
-        "meaning_en": "cohabiting relationship"
+        "word": "ihop",
+        "type_en": "other",
+        "meaning_en": "together (often in vara ihop)"
       }
     ],
     "synonyms_sv": [
       "vara ett par",
-      "vara ihop"
+      "vara ihop",
+      "vara tillsammans med"
     ],
     "antonyms_sv": [
       "göra slut"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_dating",
-        "frame_name_en": "Dating",
-        "frame_slug": "dating",
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
         "sense_id": "lu_zusammen_sein_mit_jdm_zusammen_sein:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_zusammen_sein_mit_jdm_zusammen_sein:1",
-        "frame_id": "frame_dating",
-        "meaning_en": "be in a relationship, or spend time together with someone.",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "to be a couple; to be in a romantic relationship with someone",
         "how_to_use_en": [
-          "Use about a couple: vara tillsammans (often without “med”).",
-          "Use “vara tillsammans med + person/grupp” when you name who you are with.",
-          "Often used with time words like alltid, dygnet runt."
+          "Use about two people who are a couple.",
+          "Often with a time expression (e.g., länge, alltid, i 12 år).",
+          "Add med + person to name the partner."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "vara tillsammans",
-            "note_en": "Often implies a romantic relationship (being a couple)."
+            "pattern": "X vara tillsammans",
+            "meaning_en": "X are a couple",
+            "note_en": "X is usually two people (de, paret, Romeo och Julia)."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "vara tillsammans med + person/grupp",
-            "note_en": "Names the person/group you are with."
+            "pattern": "X vara tillsammans med Y",
+            "meaning_en": "X is in a relationship with Y",
+            "note_en": "Used when you name the partner (med Bonnie eller Rachel)."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "vilja (inte) vara tillsammans (med ...)",
-            "note_en": "Common with vilja to express choice/desire."
+            "pattern": "inte (ska/vill) vara tillsammans (längre)",
+            "meaning_en": "not be together anymore",
+            "note_en": "Common when ending a relationship."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "för att ... få vara tillsammans",
-            "note_en": "Purpose: doing something so you can be together."
+            "pattern": "alltid/få vara tillsammans",
+            "meaning_en": "be together always",
+            "note_en": "Often expresses a wish or promise."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "alltid / dygnet runt + vara tillsammans",
-            "note_en": "Common with duration/frequency expressions."
+            "pattern": "vara tillsammans i + tid",
+            "meaning_en": "be together for a time",
+            "note_en": "Used with durations like i 12 år."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *vara tillsammans* only for physical location (like “in the same room”).",
-            "fix": "Use it mainly for relationship status, or for spending time together; add “med” to name the person/group.",
-            "explain_en": "In these examples it means being a couple or being with someone, not just being nearby."
+            "error": "Using vara tillsammans for only being in the same place.",
+            "fix": "Use vara tillsammans mainly for a romantic relationship; for location use vara tillsammans (bara) in context or use vara med.",
+            "explain_en": "In these examples it means being a couple, not just physically together."
           },
           {
-            "error": "Forgetting “med” when you say who you are with.",
-            "fix": "Say: vara tillsammans med + someone.",
-            "explain_en": "The examples show: vara tillsammans med en tjuv / sin familj / ingen."
+            "error": "Forgetting med when naming the partner.",
+            "fix": "Say vara tillsammans med + person.",
+            "explain_en": "When you specify who the partner is, Swedish normally uses med."
           }
         ],
         "required_example_count": 10,
@@ -150,20 +156,12 @@
           {
             "ex_id": "8266890baef46ff23ab8cf7e224e719ad87a7f27",
             "sv": "När de blivit ett par valde de att vara tillsammans dygnet runt.",
-            "en": "When they had become a couple, they chose to be together around the clock.",
-            "frame_id": "frame_dating",
+            "en": "When they became a couple, they chose to be together around the clock.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_time",
-                "span_sv": "När de blivit ett par"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "ett par"
-              },
-              {
-                "fe_id": "fe_duration",
-                "span_sv": "dygnet runt"
+                "fe_id": "fe_partners",
+                "span_sv": "de"
               }
             ],
             "gloss": "be together (as a couple)",
@@ -177,7 +175,7 @@
               "text_title": "John Lennon",
               "text_url": "https://sv.wikipedia.org/wiki/John_Lennon",
               "sentence_id": "5d4cd28e",
-              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
             }
           },
@@ -185,23 +183,11 @@
             "ex_id": "df22b782edc11a365bd340ba1a20113ecffb8e84",
             "sv": "Romeo och Julia vill gifta sig för att alltid få vara tillsammans.",
             "en": "Romeo and Julia want to get married so that they can always be together.",
-            "frame_id": "frame_dating",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Romeo"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Julia"
-              },
-              {
-                "fe_id": "fe_duration",
-                "span_sv": "alltid"
-              },
-              {
-                "fe_id": "fe_reason",
-                "span_sv": "för att alltid få vara tillsammans"
+                "fe_id": "fe_partners",
+                "span_sv": "Romeo och Julia"
               }
             ],
             "gloss": "be together (as a couple)",
@@ -215,7 +201,7 @@
               "text_title": "Romeo och Julia (film, 1968)",
               "text_url": "https://sv.wikipedia.org/wiki/Romeo_och_Julia_(film,_1968)",
               "sentence_id": "40d973de",
-              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
             }
           },
@@ -223,7 +209,7 @@
             "ex_id": "f84157fe1b604cc85ca0ed5a3d554ec92e7c64f9",
             "sv": "Hon blir arg och säger att hon inte vill vara tillsammans med en tjuv.",
             "en": "She gets angry and says that she does not want to be together with a thief.",
-            "frame_id": "frame_dating",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
@@ -234,7 +220,7 @@
                 "span_sv": "en tjuv"
               }
             ],
-            "gloss": "be together (as a couple)",
+            "gloss": "be together with (in a relationship)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -245,15 +231,15 @@
               "text_title": "9 millimeter",
               "text_url": "https://sv.wikipedia.org/wiki/9_millimeter",
               "sentence_id": "495865dd",
-              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
             }
           },
           {
             "ex_id": "6ce6af140e4ceea71fe3a67e75093872108adee1",
             "sv": "Ross måste bestämma sig för om han vill vara tillsammans med Bonnie eller Rachel.",
-            "en": "Ross must decide whether he wants to be together with Bonnie or Rachel.",
-            "frame_id": "frame_dating",
+            "en": "Ross has to decide if he wants to be together with Bonnie or Rachel.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
@@ -264,7 +250,7 @@
                 "span_sv": "Bonnie eller Rachel"
               }
             ],
-            "gloss": "be together (as a couple)",
+            "gloss": "be together with (in a relationship)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -275,7 +261,7 @@
               "text_title": "Vänner",
               "text_url": "https://sv.wikipedia.org/wiki/V%C3%A4nner",
               "sentence_id": "49635973",
-              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
             }
           },
@@ -283,7 +269,7 @@
             "ex_id": "3b5d13fe915d3cd759dbd707a53701056a51850c",
             "sv": "Ross bestämmer sig för att han vill vara tillsammans med Rachel och gör slut med Bonnie.",
             "en": "Ross decides that he wants to be together with Rachel and breaks up with Bonnie.",
-            "frame_id": "frame_dating",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
@@ -292,13 +278,9 @@
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "Rachel"
-              },
-              {
-                "fe_id": "fe_stage",
-                "span_sv": "gör slut"
               }
             ],
-            "gloss": "be together (as a couple)",
+            "gloss": "be together with (in a relationship)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -309,7 +291,33 @@
               "text_title": "Vänner",
               "text_url": "https://sv.wikipedia.org/wiki/V%C3%A4nner",
               "sentence_id": "4963511f",
-              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
+            }
+          },
+          {
+            "ex_id": "8c8571cd4d433f55a76819750d5b1dfe2961a90f",
+            "sv": "Conny anhålls av polisen och när Gabriella träffar honom på polishuset förklarar hon att de inte ska vara tillsammans längre.",
+            "en": "Conny is detained by the police, and when Gabriella meets him at the police station she explains that they will not be together anymore.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "de"
+              }
+            ],
+            "gloss": "be together (as a couple)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Så som i himmelen",
+              "text_url": "https://sv.wikipedia.org/wiki/S%C3%A5_som_i_himmelen",
+              "sentence_id": "f000eb6d",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
             }
           },
@@ -317,19 +325,11 @@
             "ex_id": "ebde9cb21e0492fbe08ceea87cdd1353d694e34b",
             "sv": "Hon blev också förälskad i honom, och de lovade att alltid vara tillsammans.",
             "en": "She also fell in love with him, and they promised to always be together.",
-            "frame_id": "frame_dating",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Hon"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "honom"
-              },
-              {
-                "fe_id": "fe_duration",
-                "span_sv": "alltid"
+                "fe_id": "fe_partners",
+                "span_sv": "de"
               }
             ],
             "gloss": "be together (as a couple)",
@@ -343,27 +343,19 @@
               "text_title": "Star Fox Command",
               "text_url": "https://sv.wikipedia.org/wiki/Star_Fox_Command",
               "sentence_id": "bb00a155",
-              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
             }
           },
           {
-            "ex_id": "8c043875ee8f34dbe2b6b1316ec10f87a9fac220",
-            "sv": "Hon minns också att de alltid skulle vara tillsammans, tills döden skilde dem åt.",
-            "en": "She also remembers that they would always be together, until death separated them.",
-            "frame_id": "frame_dating",
+            "ex_id": "3a49c854127120e01acb12263f551418c2357a71",
+            "sv": "Från början ska Maria och Bruno låtsas vara tillsammans, men det förvandlas till en förälskelse.",
+            "en": "At first Maria and Bruno will pretend to be together, but it turns into being in love.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "de"
-              },
-              {
-                "fe_id": "fe_duration",
-                "span_sv": "alltid"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "tills döden skilde dem åt"
+                "fe_id": "fe_partners",
+                "span_sv": "Maria och Bruno"
               }
             ],
             "gloss": "be together (as a couple)",
@@ -374,109 +366,25 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Belleville Baby",
-              "text_url": "https://sv.wikipedia.org/wiki/Belleville_Baby",
-              "sentence_id": "b07c898c",
-              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "text_title": "Cirkus (bok)",
+              "text_url": "https://sv.wikipedia.org/wiki/Cirkus_(bok)",
+              "sentence_id": "3e942279",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
             }
           },
           {
-            "ex_id": "09d688ad38f452e2af6ef6f273ea781ca93e47af",
-            "sv": "Han återvände till Strausberg för att vara tillsammans med sin familj sommaren 1943.",
-            "en": "He returned to Strausberg to be together with his family in the summer of 1943.",
-            "frame_id": "frame_dating",
+            "ex_id": "0897bc7f526a5303bcc23e934b990ff5b7b9ff49",
+            "sv": "De skilde sig hösten 2016, paret hann vara tillsammans i 12år.",
+            "en": "They divorced in the autumn of 2016; the couple managed to be together for 12 years.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Han"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "sin familj"
-              },
-              {
-                "fe_id": "fe_place",
-                "span_sv": "till Strausberg"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "sommaren 1943"
+                "fe_id": "fe_partners",
+                "span_sv": "paret"
               }
             ],
-            "gloss": "be together (with someone)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Alice Habsburg",
-              "text_url": "https://sv.wikipedia.org/wiki/Alice_Habsburg",
-              "sentence_id": "fa176f7c",
-              "retrieved_at": "2026-01-17T23:12:59+00:00",
-              "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
-            }
-          },
-          {
-            "ex_id": "52d0fa9834fecf17f861fe14726c26098e6fe543",
-            "sv": "Det är Thanksgiving och många familjemedlemmar har samlats för att vara tillsammans där.",
-            "en": "It is Thanksgiving and many family members have gathered to be together there.",
-            "frame_id": "frame_dating",
-            "fe_tags": [
-              {
-                "fe_id": "fe_time",
-                "span_sv": "Thanksgiving"
-              },
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "många familjemedlemmar"
-              },
-              {
-                "fe_id": "fe_place",
-                "span_sv": "där"
-              }
-            ],
-            "gloss": "be together (with others)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "The Wiz (film)",
-              "text_url": "https://sv.wikipedia.org/wiki/The_Wiz_(film)",
-              "sentence_id": "50018768",
-              "retrieved_at": "2026-01-17T23:12:59+00:00",
-              "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
-            }
-          },
-          {
-            "ex_id": "e6d6ae984dfecaf62d536dfaccea96ecfdfb3e61",
-            "sv": "Nu har hennes bror dragit ut i krig och hon har ingen att vara tillsammans med.",
-            "en": "Now her brother has gone off to war and she has no one to be together with.",
-            "frame_id": "frame_dating",
-            "fe_tags": [
-              {
-                "fe_id": "fe_time",
-                "span_sv": "Nu"
-              },
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "hon"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "ingen"
-              },
-              {
-                "fe_id": "fe_reason",
-                "span_sv": "hennes bror dragit ut i krig"
-              }
-            ],
-            "gloss": "be together (with someone)",
+            "gloss": "be together (as a couple)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -484,10 +392,36 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Faust (opera)",
-              "text_url": "https://sv.wikipedia.org/wiki/Faust_(opera)",
-              "sentence_id": "23a931e1",
-              "retrieved_at": "2026-01-17T23:12:59+00:00",
+              "text_title": "Lauri Ylönen",
+              "text_url": "https://sv.wikipedia.org/wiki/Lauri_Yl%C3%B6nen",
+              "sentence_id": "a76de35e",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
+            }
+          },
+          {
+            "ex_id": "0f01cfc613211ae764282a0cdd75959099f77ca0",
+            "sv": "Kan två personer vara tillsammans trots att det bryter alla risklagar som Reuben nånsin stött på?",
+            "en": "Can two people be together even though it breaks all the risk laws that Reuben has ever come across?",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "två personer"
+              }
+            ],
+            "gloss": "be together (as a couple)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "…och så kom Polly",
+              "text_url": "https://sv.wikipedia.org/wiki/%E2%80%A6och_s%C3%A5_kom_Polly",
+              "sentence_id": "02899a7e",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"vara\"][word=\"tillsammans\"]"
             }
           }
@@ -495,12 +429,21 @@
       }
     ],
     "pronunciation": {
-      "ipa": null,
-      "stress_hint": "Main stress on VARA; secondary on tillSAMmans."
+      "ipa": "ˈvɑːra tɪˈsamanːs",
+      "stress_hint": "Main stress is on VA-ra and on -SAM- in tillsammans.",
+      "audio": {
+        "file": "audio/lu_zusammen_sein_mit_jdm_zusammen_sein.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "vara – är – var – varit"
+        "vara (infinitive)",
+        "är (present)",
+        "var (past)",
+        "varit (supine)"
       ],
       "particle_or_reflexive": null
     }

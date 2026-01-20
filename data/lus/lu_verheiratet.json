@@ -30,7 +30,7 @@
         "def_sg": null,
         "indef_pl": null,
         "def_pl": null,
-        "note_en": null
+        "note_en": ""
       },
       "verb": {
         "infinitive": null,
@@ -49,23 +49,23 @@
         "neuter": "gift",
         "plural_def": "gifta"
       },
-      "note_en": "In this sense (marital status), the common plural/definite form is gifta (de gifta, den gifta kvinnan)."
+      "note_en": "Used mainly as a predicate adjective: vara gift (med någon)."
     },
     "derived_words_sv": [
       {
-        "word": "gifta",
+        "word": "gifta sig",
         "type_en": "verb",
-        "meaning_en": "to marry (someone); to get married"
+        "meaning_en": "to get married"
       },
       {
         "word": "giftermål",
         "type_en": "noun",
-        "meaning_en": "marriage (the act/event)"
+        "meaning_en": "marriage (wedding/marriage as an event or institution)"
       },
       {
         "word": "giftas",
         "type_en": "verb",
-        "meaning_en": "to get married (often used with med)"
+        "meaning_en": "to marry (formal/older style)"
       },
       {
         "word": "nygift",
@@ -79,66 +79,54 @@
       }
     ],
     "synonyms_sv": [
-      "äktad"
+      "äktad",
+      "vig(d)"
     ],
     "antonyms_sv": [
       "ogift"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_marriage",
-        "frame_name_en": "Marriage",
-        "frame_slug": "marriage",
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
         "sense_id": "lu_verheiratet:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_verheiratet:1",
-        "frame_id": "frame_marriage",
-        "meaning_en": "having a husband or wife; in a marriage.",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "legally married to someone; having a spouse.",
         "how_to_use_en": [
           "Use with vara: X är/var gift.",
-          "Often add the spouse with med: gift med + person.",
-          "Time phrases can be added: fram till / till sin död + year."
+          "Add med + person to say who the spouse is.",
+          "Often used in biographies and facts about someone."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "X är/var gift",
-            "note_en": "States marital status without naming the spouse."
+            "meaning_en": "X is/was married",
+            "note_en": "Often used without naming the spouse."
           },
           {
             "pattern_id": "pat_2",
             "pattern": "X är/var gift med Y",
-            "note_en": "Names the spouse (Spouse_2) with med."
-          },
-          {
-            "pattern_id": "pat_3",
-            "pattern": "X var ... gift med Y fram till ...",
-            "note_en": "Adds an end point in time (e.g., death)."
-          },
-          {
-            "pattern_id": "pat_4",
-            "pattern": "X var till sin död [år] gift med Y",
-            "note_en": "Time phrase before gift; common in biographies."
-          },
-          {
-            "pattern_id": "pat_5",
-            "pattern": "Genom att X var gift ...",
-            "note_en": "Reason clause: being married is given as an explanation."
+            "meaning_en": "X is/was married to Y",
+            "note_en": "Y is the spouse/partner in the marriage."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *gift till* for the spouse.",
-            "fix": "Use gift med + person.",
-            "explain_en": "In the examples, the spouse is introduced with med (gift med Heinz Liljedahl)."
+            "error": "Using *gift* to mean “a present/gift”.",
+            "fix": "Use present for “a gift”; gift means “married” (or “poison” in another sense).",
+            "explain_en": "Swedish gift has different meanings; in these examples it means “married”."
           },
           {
-            "error": "Confusing gift (married) with gift (poison).",
-            "fix": "Check context: marriage uses vara gift (often with med).",
-            "explain_en": "Swedish gift has two common meanings; here it is marital status."
+            "error": "Saying *gift till* someone.",
+            "fix": "Say gift med someone.",
+            "explain_en": "The spouse is introduced with med in Swedish."
           }
         ],
         "required_example_count": 10,
@@ -147,18 +135,14 @@
             "ex_id": "c38bea8c652a17a5da762b746fd303b6c58f7b39",
             "sv": "Hon var gift med essäisten Aasmund Brynildsen från Tjøme i Vestfold.",
             "en": "She was married to the essayist Aasmund Brynildsen from Tjøme in Vestfold.",
-            "frame_id": "frame_marriage",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
+                "fe_id": "fe_partner_1",
                 "span_sv": "Hon"
               },
               {
-                "fe_id": "fe_relationship",
-                "span_sv": "gift"
-              },
-              {
-                "fe_id": "fe_spouse_2",
+                "fe_id": "fe_partner_2",
                 "span_sv": "essäisten Aasmund Brynildsen"
               }
             ],
@@ -173,7 +157,7 @@
               "text_title": "Karin Bang",
               "text_url": "https://sv.wikipedia.org/wiki/Karin_Bang",
               "sentence_id": "9b099206",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"gift\"]"
             }
           },
@@ -181,18 +165,14 @@
             "ex_id": "90b5d0e4290f517908f0072ca366dd84db186da5",
             "sv": "Steczkowska är gift med musikern Piotr Królik, också han medlem av Indigo.",
             "en": "Steczkowska is married to the musician Piotr Królik, he is also a member of Indigo.",
-            "frame_id": "frame_marriage",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
+                "fe_id": "fe_partner_1",
                 "span_sv": "Steczkowska"
               },
               {
-                "fe_id": "fe_relationship",
-                "span_sv": "gift"
-              },
-              {
-                "fe_id": "fe_spouse_2",
+                "fe_id": "fe_partner_2",
                 "span_sv": "musikern Piotr Królik"
               }
             ],
@@ -207,7 +187,7 @@
               "text_title": "Magda Steczkowska",
               "text_url": "https://sv.wikipedia.org/wiki/Magda_Steczkowska",
               "sentence_id": "17694e88",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"gift\"]"
             }
           },
@@ -215,22 +195,14 @@
             "ex_id": "cdcf4e9354adcf365ae3fde8768336f4089dd43e",
             "sv": "Han var till sin död 2021 gift med skådespelerskan Ulla Blomstrand.",
             "en": "He was, until his death in 2021, married to the actress Ulla Blomstrand.",
-            "frame_id": "frame_marriage",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
+                "fe_id": "fe_partner_1",
                 "span_sv": "Han"
               },
               {
-                "fe_id": "fe_time",
-                "span_sv": "till sin död 2021"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "gift"
-              },
-              {
-                "fe_id": "fe_spouse_2",
+                "fe_id": "fe_partner_2",
                 "span_sv": "skådespelerskan Ulla Blomstrand"
               }
             ],
@@ -245,75 +217,7 @@
               "text_title": "Tord Peterson",
               "text_url": "https://sv.wikipedia.org/wiki/Tord_Peterson",
               "sentence_id": "59f787bd",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"gift\"]"
-            }
-          },
-          {
-            "ex_id": "33a52e954dad775e57cbc7b5e31768132b34de3b",
-            "sv": "Hanni Weirather är gift med tidigare österrikiska alpina skidåkaren Harti Weirather.",
-            "en": "Hanni Weirather is married to the former Austrian alpine skier Harti Weirather.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Hanni Weirather"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "gift"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "tidigare österrikiska alpina skidåkaren Harti Weirather"
-              }
-            ],
-            "gloss": "married",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Hanni Wenzel",
-              "text_url": "https://sv.wikipedia.org/wiki/Hanni_Wenzel",
-              "sentence_id": "cbf46e7f",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"gift\"]"
-            }
-          },
-          {
-            "ex_id": "d6fff04a96fe58b16f37271b7c69253c4c0ad0f7",
-            "sv": "Han var gift med Ebba Hildegard Modigh (1897 – 1979).",
-            "en": "He was married to Ebba Hildegard Modigh (1897–1979).",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Han"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "gift"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "Ebba Hildegard Modigh"
-              }
-            ],
-            "gloss": "married",
-            "level": "A1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Bror Modigh",
-              "text_url": "https://sv.wikipedia.org/wiki/Bror_Modigh",
-              "sentence_id": "ac1b5088",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"gift\"]"
             }
           },
@@ -321,15 +225,11 @@
             "ex_id": "c19e5bd3282471e0e6cdd06e0b1d57a82b12ee9c",
             "sv": "Khaled Hosseini är gift, bor i norra Kalifornien och har två barn.",
             "en": "Khaled Hosseini is married, lives in northern California, and has two children.",
-            "frame_id": "frame_marriage",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
+                "fe_id": "fe_partner_1",
                 "span_sv": "Khaled Hosseini"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "gift"
               }
             ],
             "gloss": "married",
@@ -343,31 +243,23 @@
               "text_title": "Khaled Hosseini",
               "text_url": "https://sv.wikipedia.org/wiki/Khaled_Hosseini",
               "sentence_id": "8aded058",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"gift\"]"
             }
           },
           {
-            "ex_id": "7bd452b6794301c8759b441ca37345200b6b0a25",
-            "sv": "Gun Hägglund var gift med Karl Axel Sjöblom fram till dennes död 1982.",
-            "en": "Gun Hägglund was married to Karl Axel Sjöblom until his death in 1982.",
-            "frame_id": "frame_marriage",
+            "ex_id": "7fb6830479b9897886d36e9b495968a447ff1fe9",
+            "sv": "Hon är gift med Heinz Liljedahl och tillsammans har de två barn.",
+            "en": "She is married to Heinz Liljedahl and together they have two children.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Gun Hägglund"
+                "fe_id": "fe_partner_1",
+                "span_sv": "Hon"
               },
               {
-                "fe_id": "fe_relationship",
-                "span_sv": "gift"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "Karl Axel Sjöblom"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "fram till dennes död 1982"
+                "fe_id": "fe_partner_2",
+                "span_sv": "Heinz Liljedahl"
               }
             ],
             "gloss": "married",
@@ -378,10 +270,66 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Gun Hägglund",
-              "text_url": "https://sv.wikipedia.org/wiki/Gun_H%C3%A4gglund",
-              "sentence_id": "e34ecfdd",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "text_title": "Caroline af Ugglas",
+              "text_url": "https://sv.wikipedia.org/wiki/Caroline_af_Ugglas",
+              "sentence_id": "75723611",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"gift\"]"
+            }
+          },
+          {
+            "ex_id": "229f2fde19fa4519cc568ff296cf384e1dccbf85",
+            "sv": "Wallensteen är bosatt i Nacka, är gift och har två barn.",
+            "en": "Wallensteen lives in Nacka, is married, and has two children.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Wallensteen"
+              }
+            ],
+            "gloss": "married",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Karin Wallensteen",
+              "text_url": "https://sv.wikipedia.org/wiki/Karin_Wallensteen",
+              "sentence_id": "b43ded10",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"gift\"]"
+            }
+          },
+          {
+            "ex_id": "d6fff04a96fe58b16f37271b7c69253c4c0ad0f7",
+            "sv": "Han var gift med Ebba Hildegard Modigh (1897 – 1979).",
+            "en": "He was married to Ebba Hildegard Modigh (1897–1979).",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Ebba Hildegard Modigh"
+              }
+            ],
+            "gloss": "married",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bror Modigh",
+              "text_url": "https://sv.wikipedia.org/wiki/Bror_Modigh",
+              "sentence_id": "ac1b5088",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"gift\"]"
             }
           },
@@ -389,27 +337,15 @@
             "ex_id": "18419c1c6f8e8fdfa83cb0b9decbef0e8cd332ca",
             "sv": "Torres var gift med Eva Herzigova, de skilde sig 1999.",
             "en": "Torres was married to Eva Herzigova, they divorced in 1999.",
-            "frame_id": "frame_marriage",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
+                "fe_id": "fe_partner_1",
                 "span_sv": "Torres"
               },
               {
-                "fe_id": "fe_relationship",
-                "span_sv": "gift"
-              },
-              {
-                "fe_id": "fe_spouse_2",
+                "fe_id": "fe_partner_2",
                 "span_sv": "Eva Herzigova"
-              },
-              {
-                "fe_id": "fe_event",
-                "span_sv": "skilde sig"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "1999"
               }
             ],
             "gloss": "married",
@@ -423,41 +359,7 @@
               "text_title": "Tico Torres",
               "text_url": "https://sv.wikipedia.org/wiki/Tico_Torres",
               "sentence_id": "95ab2cfc",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"gift\"]"
-            }
-          },
-          {
-            "ex_id": "7fb6830479b9897886d36e9b495968a447ff1fe9",
-            "sv": "Hon är gift med Heinz Liljedahl och tillsammans har de två barn.",
-            "en": "She is married to Heinz Liljedahl and together they have two children.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Hon"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "gift"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "Heinz Liljedahl"
-              }
-            ],
-            "gloss": "married",
-            "level": "A1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Caroline af Ugglas",
-              "text_url": "https://sv.wikipedia.org/wiki/Caroline_af_Ugglas",
-              "sentence_id": "75723611",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"gift\"]"
             }
           },
@@ -465,19 +367,11 @@
             "ex_id": "ffeb17610f09a7402fe9983ebea67694e794028c",
             "sv": "Genom att hon var gift kvinna kunde hon nämligen inte få offentlig anställning.",
             "en": "Because she was a married woman, she could not get a public job.",
-            "frame_id": "frame_marriage",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_reason",
-                "span_sv": "Genom att"
-              },
-              {
-                "fe_id": "fe_spouse_1",
+                "fe_id": "fe_partner_1",
                 "span_sv": "hon"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "gift"
               }
             ],
             "gloss": "married",
@@ -491,7 +385,37 @@
               "text_title": "Sigrid Engström",
               "text_url": "https://sv.wikipedia.org/wiki/Sigrid_Engstr%C3%B6m",
               "sentence_id": "d2880f8f",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"gift\"]"
+            }
+          },
+          {
+            "ex_id": "4e93cfa39a8094051b0945c095902b65105502d3",
+            "sv": "Var regenten gift kröntes gemålen samtidigt, i annat fall efter vigseln.",
+            "en": "If the ruler was married, the spouse was crowned at the same time, otherwise after the wedding.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "regenten"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "gemålen"
+              }
+            ],
+            "gloss": "married",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Svenska kröningar",
+              "text_url": "https://sv.wikipedia.org/wiki/Svenska_kr%C3%B6ningar",
+              "sentence_id": "a3c90cae",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"gift\"]"
             }
           }
@@ -499,12 +423,18 @@
       }
     ],
     "pronunciation": {
-      "ipa": null,
-      "stress_hint": "one syllable; long i-sound"
+      "ipa": "jɪft",
+      "stress_hint": "Short vowel; the g is pronounced like English y in this word.",
+      "audio": {
+        "file": "audio/lu_verheiratet.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "gift (common/neuter)",
+        "gift (common/neuter singular)",
         "gifta (plural/definite)"
       ],
       "particle_or_reflexive": null

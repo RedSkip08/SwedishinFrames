@@ -42,12 +42,10 @@ function hash32(str) {
   return h >>> 0;
 }
 
-// Pick from a curated set of well-separated hues (more distinguishable than 0..359)
 const FE_HUES = [
   0, 25, 45, 60, 80, 100, 130, 160, 190, 210, 235, 260, 285, 310, 330
 ];
 
-// Optional: lightness bands to reduce “same hue” collisions even more
 const FE_LIGHTNESS = [86, 80, 74]; // %
 const FE_SAT = 70; // %
 
@@ -95,11 +93,10 @@ function decorateFeHtml(html, feMentions) {
   return out;
 }
 
-
-
 function setEntryHeader(title, typeLabel, typeKey = "") {
   const h = document.getElementById("entryTitle");
   const t = document.getElementById("entryType");
+  const actions = document.getElementById("entryActions");
   const entry = document.getElementById("entry");
   if (h) h.textContent = title || "Entry";
   if (t) {
@@ -107,6 +104,8 @@ function setEntryHeader(title, typeLabel, typeKey = "") {
     if (typeKey) t.setAttribute("data-type", typeKey);
     else t.removeAttribute("data-type");
   }
+
+  if (actions) actions.innerHTML = "";
 
 
   if (entry) {
@@ -174,6 +173,35 @@ function normalizeManifestPath(p) {
   if (s.startsWith("/")) s = s.slice(1);
   if (s.startsWith("data/")) return s;
   return `data/${s}`;
+}
+
+const _luLazyLoads = new Set();
+async function ensureLuLoaded(luId) {
+  const id = String(luId ?? "").trim();
+  if (!id) return false;
+  if (state.db.lusById?.has(id)) return true;
+  if (_luLazyLoads.has(id)) return false;
+  _luLazyLoads.add(id);
+
+  const candidates = [
+    normalizeManifestPath(`lus/${id}.json`),
+    normalizeManifestPath(`${id}.json`),
+    normalizeManifestPath(`lu/${id}.json`),
+  ];
+
+  for (const p of candidates) {
+    try {
+      const d = await fetchJson(p);
+      const lu = normalizeLu(d, p);
+      state.db.lus.push(lu);
+      buildIndexes();
+      populateAdvancedFilterOptions();
+      applyPrefsToUI();
+      return true;
+    } catch {
+    }
+  }
+  return false;
 }
 
 // Panel open/close
@@ -247,6 +275,9 @@ function normalizeLu(doc, path) {
   const morphLegacy = (lu.morphology && typeof lu.morphology === "object") ? lu.morphology : null;
   const morphPreferred = morphSv ?? morphLegacy ?? {};
 
+  const audioFile = lu?.pronunciation?.audio?.file;
+  const audioUrl = audioFile ? normalizeManifestPath(audioFile) : "";
+
   return {
     type: "lu",
     id: lu.id,
@@ -274,6 +305,8 @@ function normalizeLu(doc, path) {
 
     linked_frames: lu.linked_frames ?? [],
     senses: lu.senses ?? [],
+
+    audio_url: audioUrl,
 
     _path: path,
     raw: doc,
@@ -333,6 +366,18 @@ function buildIndexes() {
     }
   }
 
+  for (const fr of state.db.frames) {
+    for (const x of fr.linked_lexical_units || []) {
+      const luId = x?.lu_id ?? x?.id;
+      if (!luId) continue;
+      mapSetPush(state.db.lusByFrameId, fr.id, luId);
+    }
+  }
+
+  for (const [fid, arr] of state.db.lusByFrameId.entries()) {
+    state.db.lusByFrameId.set(fid, Array.from(new Set(arr)));
+  }
+
   // frame -> constructions
   state.db.constructionsByFrameId = new Map();
   for (const cx of state.db.constructions) {
@@ -347,7 +392,6 @@ function buildIndexes() {
 }
 
 function applyPrefsToUI() {
-  // chips
   for (const [k, on] of Object.entries(state.ui.filters)) {
     const btn = $(`.chip[data-filter='type'][data-value='${k}']`);
     if (btn) btn.classList.toggle("on", !!on);
@@ -501,7 +545,7 @@ function applyAdvancedFilters(rows) {
     }
 
     if (item.type === "construction") {
-      if (pos) return false; // POS only for LUs
+      if (pos) return false;
       if (frame) {
         const frames = item.frames || [];
         return frames.some((f) => (f.frame_id || f.id || f) === frame);
@@ -633,7 +677,6 @@ function renderPanelResults(rows) {
 
 // Example rendering
 
-
 function feLabel(frame, fe_id) {
   if (!frame) return fe_id;
   const el = (frame.elements || []).find((e) => e.id === fe_id);
@@ -689,7 +732,6 @@ function renderSentenceWithSpans(sentence, fe_tags, frame) {
     out += esc(text.slice(pos, r.start));
     const label = feLabel(frame, r.fe_id);
     out += `<span class="fe-span" title="${esc(label)}" data-fe="${esc(r.fe_id)}" style="${feStyleVars(r.fe_id)}">${esc(text.slice(r.start, r.end))}</span>`;
-
     pos = r.end;
   }
   out += esc(text.slice(pos));
@@ -911,6 +953,44 @@ function renderFrame(frame) {
 
 function renderLu(lu) {
   setEntryHeader(lu.display_sv || lu.lemma_sv || lu.id, "LEXICAL UNIT", "lu");
+
+  const actions = document.getElementById("entryActions");
+  if (actions) {
+    if (lu?.audio_url) {
+      actions.innerHTML = `
+        <button class="iconbtn" type="button" id="playPron" aria-label="Play pronunciation" title="Play pronunciation">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M11 5L6.5 9H3v6h3.5L11 19V5zm2.5 2.7v8.6c1.1-.7 1.8-1.9 1.8-3.3s-.7-2.6-1.8-3.3zM15.5 3.9v2.2c2.1 1.1 3.5 3.3 3.5 5.9s-1.4 4.8-3.5 5.9v2.2c3.3-1.3 5.5-4.4 5.5-8.1s-2.2-6.8-5.5-8.1z"/>
+          </svg>
+        </button>
+        <audio id="pronAudio" preload="auto" src="${esc(lu.audio_url)}"></audio>
+      `;
+
+      const btn = document.getElementById("playPron");
+      const aud = document.getElementById("pronAudio");
+
+      if (btn && aud) {
+        btn.addEventListener("click", () => {
+          try {
+            aud.pause();
+            aud.currentTime = 0;
+            const p = aud.play();
+            if (p && typeof p.catch === "function") p.catch(() => {});
+          } catch {}
+        });
+
+        aud.addEventListener("play", () => btn.classList.add("playing"));
+        aud.addEventListener("pause", () => btn.classList.remove("playing"));
+        aud.addEventListener("ended", () => {
+          btn.classList.remove("playing");
+          try { aud.currentTime = 0; } catch {}
+        });
+        aud.addEventListener("error", () => btn.classList.remove("playing"));
+      }
+    } else {
+      actions.innerHTML = "";
+    }
+  }
   const entry = $("#entry");
   if (!entry) return;
 
@@ -943,16 +1023,20 @@ function renderLu(lu) {
       ? `<ul class="bullets">
           ${patternsArr
             .map((p) => {
-              if (p && typeof p === "object") {
-                const pat = p.pattern || p.pattern_sv || p.text || "";
-                const note = p.note_en || p.note || "";
-                return `
-                  <li>
-                    <div>${esc(String(pat || ""))}</div>
-                    ${note ? `<div class="small muted" style="margin-top:4px"><strong>Note:</strong> ${esc(String(note))}</div>` : ""}
-                  </li>
-                `;
-              }
+            if (p && typeof p === "object") {
+              const pat = p.pattern || p.pattern_sv || p.text || "";
+              const meaning = p.meaning_en || p.meaning || "";
+              const note = p.note_en || p.note || "";
+
+              return `
+                <li>
+                  <div>${esc(String(pat || ""))}</div>
+                  ${meaning ? `<div class="small" style="margin-top:4px"><strong>Meaning:</strong> ${esc(String(meaning))}</div>` : ""}
+                  ${note ? `<div class="small muted" style="margin-top:4px"><strong>Note:</strong> ${esc(String(note))}</div>` : ""}
+                </li>
+              `;
+            }
+
               return `<li>${esc(textify(p))}</li>`;
             })
             .join("")}
@@ -1062,7 +1146,7 @@ function renderLu(lu) {
       (pos.includes("adj") || pos.includes("adjective")) ? "adjective" :
       "";
 
-    const skip = new Set(["particle_or_reflexive"]); // always hidden
+    const skip = new Set(["particle_or_reflexive"]);
 
     function blockHasAnyForms(block) {
       if (!block || typeof block !== "object") return false;
@@ -1398,7 +1482,9 @@ function parseHash() {
   if (h.startsWith("search:")) return { kind: "search", q: decodeURIComponent(h.slice("search:".length)) };
   const m = h.match(/^(lu|frame|construction):(.+)$/);
   if (!m) return { kind: "none" };
-  return { kind: m[1], id: m[2] };
+  let id = m[2];
+  try { id = decodeURIComponent(id); } catch {}
+  return { kind: m[1], id };
 }
 
 function route() {
@@ -1412,6 +1498,7 @@ function route() {
   if (parsed.kind === "lu") {
     const lu = state.db.lusById.get(parsed.id);
     if (lu) return renderLu(lu);
+    ensureLuLoaded(parsed.id).then((ok) => { if (ok) route(); });
   }
 
   if (parsed.kind === "construction") {

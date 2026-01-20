@@ -19,7 +19,7 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "en ungkarl",
+      "ungkarl",
       "ungkarlen",
       "ungkarlar",
       "ungkarlarna"
@@ -32,7 +32,7 @@
         "def_sg": "ungkarl(en)",
         "indef_pl": "ungkarlar",
         "def_pl": "ungkarlarna",
-        "note_en": "Definite singular is often written 'ungkarl(en)' because both 'ungkarl' and 'ungkarl(en)' occur depending on style."
+        "note_en": "The definite singular is commonly written as ungkarlen."
       },
       "verb": {
         "infinitive": null,
@@ -57,22 +57,22 @@
       {
         "word": "ungkarlsliv",
         "type_en": "noun",
-        "meaning_en": "life as a bachelor"
+        "meaning_en": "bachelor life; life as an unmarried man"
       },
       {
         "word": "ungkarlslägenhet",
         "type_en": "noun",
-        "meaning_en": "small apartment for one person (often a bachelor)"
-      },
-      {
-        "word": "ungkarlsflicka",
-        "type_en": "noun",
-        "meaning_en": "unmarried woman (older word; today often 'ogift kvinna')"
+        "meaning_en": "bachelor apartment"
       },
       {
         "word": "ungkarlshem",
         "type_en": "noun",
-        "meaning_en": "bachelor home; home for single men"
+        "meaning_en": "bachelor home; home for unmarried men"
+      },
+      {
+        "word": "ungkarlsaktig",
+        "type_en": "adjective",
+        "meaning_en": "bachelor-like; typical of a bachelor"
       }
     ],
     "synonyms_sv": [
@@ -94,76 +94,74 @@
       {
         "sense_id": "lu_junggeselle_der:1",
         "frame_id": "frame_personal_relationship",
-        "meaning_en": "an unmarried man; a man who is not married",
+        "meaning_en": "an unmarried man (often used as a social status description)",
         "how_to_use_en": [
-          "Use about a man’s relationship status: X är ungkarl.",
-          "Often with time words: länge, fortfarande, vid den här tiden.",
-          "Can be described with adjectives: livslång, ständig, gammal, rik."
+          "Use after vara/bliva: vara ungkarl, bli ungkarl.",
+          "Often used in biographies to describe someone’s marital status."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "[Partner_1] är ungkarl",
-            "note_en": "Most common: stating someone’s status."
+            "pattern": "X vara ungkarl",
+            "meaning_en": "X is a bachelor",
+            "note_en": "Common in factual descriptions (e.g., biographies)."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "[Partner_1] var ungkarl",
-            "note_en": "Past status at a certain time."
+            "pattern": "X (som länge) vara ungkarl",
+            "meaning_en": "X has long been a bachelor",
+            "note_en": "Often with time expressions like länge, fortfarande, vid den här tiden."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "[Partner_1], som länge var ungkarl, gifte sig (med [Partner_2])",
-            "note_en": "Contrast: bachelor before marriage; 'gifta sig med' introduces the spouse."
+            "pattern": "X leva som (en) ungkarl",
+            "meaning_en": "X lives as a bachelor",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "[Partner_1] är fortfarande ungkarl",
-            "note_en": "Still unmarried."
-          },
-          {
-            "pattern_id": "pat_5",
-            "pattern": "leva som (en) (enslig) ungkarl",
-            "note_en": "Describes a lifestyle over time."
+            "pattern": "X:s tid som ungkarl",
+            "meaning_en": "X’s time as a bachelor",
+            "note_en": "Used when this period ends (e.g., after meeting someone)."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *ungkarl* for a woman.",
-            "fix": "Use 'ogift kvinna' (or 'ensamstående kvinna') for a woman.",
-            "explain_en": "'Ungkarl' refers specifically to an unmarried man."
+            "error": "Using ungkarl for any unmarried person.",
+            "fix": "Use it only for men; otherwise use ogift/ensamstående.",
+            "explain_en": "Ungkarl is gender-specific in Swedish."
           },
           {
-            "error": "Confusing 'ungkarl' with 'ensam' (lonely).",
-            "fix": "Use 'ungkarl' for not married; use 'ensam/enslig' for lonely/alone.",
-            "explain_en": "In the examples, 'enslig ungkarl' combines both meanings: unmarried + lonely."
+            "error": "Confusing ungkarl with single (not in a relationship).",
+            "fix": "Use ogift for ‘not married’; use singel for ‘single’.",
+            "explain_en": "Ungkarl mainly focuses on being unmarried, not relationship status."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "776fe0c7c12838ad910b0246741bafca45b02ab9",
-            "sv": "Mattis är livslång ungkarl som aldrig har varit gift och som inte har barn.",
-            "en": "Mattis is a lifelong bachelor who has never been married and who does not have children.",
+            "ex_id": "065ebf2d622c75043dac65c2996cbecd562f3caf",
+            "sv": "Detta kan dock förklaras av att Sandberg var ungkarl vid den här tiden.",
+            "en": "This can however be explained by the fact that Sandberg was a bachelor at this time.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "Mattis"
+                "span_sv": "Sandberg"
               }
             ],
-            "gloss": "ungkarl = unmarried man (bachelor)",
-            "level": "A2",
+            "gloss": "ungkarl = unmarried man",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "James Mattis",
-              "text_url": "https://sv.wikipedia.org/wiki/James_Mattis",
-              "sentence_id": "d28598cb",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "text_title": "Gustaf Hugo Sandberg",
+              "text_url": "https://sv.wikipedia.org/wiki/Gustaf_Hugo_Sandberg",
+              "sentence_id": "0781cd7f",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"ungkarl\"]"
             }
           },
@@ -182,8 +180,8 @@
                 "span_sv": "Inga Esbjörnsson"
               }
             ],
-            "gloss": "ungkarl = unmarried man (bachelor)",
-            "level": "A2",
+            "gloss": "ungkarl = unmarried man",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -193,33 +191,7 @@
               "text_title": "Victor Svanberg",
               "text_url": "https://sv.wikipedia.org/wiki/Victor_Svanberg",
               "sentence_id": "864f1480",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"ungkarl\"]"
-            }
-          },
-          {
-            "ex_id": "065ebf2d622c75043dac65c2996cbecd562f3caf",
-            "sv": "Detta kan dock förklaras av att Sandberg var ungkarl vid den här tiden.",
-            "en": "This can however be explained by the fact that Sandberg was a bachelor at this time.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Sandberg"
-              }
-            ],
-            "gloss": "ungkarl = unmarried man (bachelor)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Gustaf Hugo Sandberg",
-              "text_url": "https://sv.wikipedia.org/wiki/Gustaf_Hugo_Sandberg",
-              "sentence_id": "0781cd7f",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"ungkarl\"]"
             }
           },
@@ -234,7 +206,7 @@
                 "span_sv": "Frederick"
               }
             ],
-            "gloss": "ungkarl = unmarried man (bachelor)",
+            "gloss": "ungkarl = unmarried man",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -245,7 +217,7 @@
               "text_title": "Övertalning (2007)",
               "text_url": "https://sv.wikipedia.org/wiki/%C3%96vertalning_(2007)",
               "sentence_id": "49621e0c",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"ungkarl\"]"
             }
           },
@@ -260,7 +232,7 @@
                 "span_sv": "Han"
               }
             ],
-            "gloss": "ungkarl = unmarried man (bachelor)",
+            "gloss": "ungkarl = unmarried man",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -271,7 +243,7 @@
               "text_title": "Van Veeteren",
               "text_url": "https://sv.wikipedia.org/wiki/Van_Veeteren",
               "sentence_id": "44a8ce4f",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"ungkarl\"]"
             }
           },
@@ -286,7 +258,7 @@
                 "span_sv": "Charlie"
               }
             ],
-            "gloss": "ungkarl = unmarried man (bachelor)",
+            "gloss": "ungkarl = unmarried man",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -297,7 +269,7 @@
               "text_title": "Lyckliga skitar",
               "text_url": "https://sv.wikipedia.org/wiki/Lyckliga_skitar",
               "sentence_id": "e6c2cc93",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"ungkarl\"]"
             }
           },
@@ -312,7 +284,7 @@
                 "span_sv": "Han"
               }
             ],
-            "gloss": "ungkarl = unmarried man (bachelor)",
+            "gloss": "ungkarl = unmarried man",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -323,7 +295,7 @@
               "text_title": "Harriet Lane",
               "text_url": "https://sv.wikipedia.org/wiki/Harriet_Lane",
               "sentence_id": "038ad1b8",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"ungkarl\"]"
             }
           },
@@ -342,7 +314,7 @@
                 "span_sv": "Astrid"
               }
             ],
-            "gloss": "ungkarl = unmarried man (bachelor)",
+            "gloss": "ungkarl = unmarried man",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -353,7 +325,7 @@
               "text_title": "Åsa-Nisse jubilerar",
               "text_url": "https://sv.wikipedia.org/wiki/%C3%85sa-Nisse_jubilerar",
               "sentence_id": "df1f095d",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"ungkarl\"]"
             }
           },
@@ -368,7 +340,7 @@
                 "span_sv": "Han"
               }
             ],
-            "gloss": "ungkarl = unmarried man (bachelor)",
+            "gloss": "ungkarl = unmarried man",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -379,14 +351,14 @@
               "text_title": "Les Deux Petits Savoyards",
               "text_url": "https://sv.wikipedia.org/wiki/Les_Deux_Petits_Savoyards",
               "sentence_id": "176cb085",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"ungkarl\"]"
             }
           },
           {
             "ex_id": "1b092f2fa28e37716a75a9dece9857982bb80204",
             "sv": "Erik Tryggelin levde som en enslig ungkarl och testamenterade sin stora kvarlåtenskap till Konstnärernas hjälpfond.",
-            "en": "Erik Tryggelin lived as a lonely bachelor and left his large estate to the Artists' relief fund in his will.",
+            "en": "Erik Tryggelin lived as a lonely bachelor and left his large estate to the Artists' Relief Fund.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
@@ -394,7 +366,7 @@
                 "span_sv": "Erik Tryggelin"
               }
             ],
-            "gloss": "ungkarl = unmarried man (bachelor)",
+            "gloss": "ungkarl = unmarried man",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -405,7 +377,33 @@
               "text_title": "Erik Tryggelin",
               "text_url": "https://sv.wikipedia.org/wiki/Erik_Tryggelin",
               "sentence_id": "d87cc2b6",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"ungkarl\"]"
+            }
+          },
+          {
+            "ex_id": "776fe0c7c12838ad910b0246741bafca45b02ab9",
+            "sv": "Mattis är livslång ungkarl som aldrig har varit gift och som inte har barn.",
+            "en": "Mattis is a lifelong bachelor who has never been married and who does not have children.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Mattis"
+              }
+            ],
+            "gloss": "ungkarl = unmarried man",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "James Mattis",
+              "text_url": "https://sv.wikipedia.org/wiki/James_Mattis",
+              "sentence_id": "d28598cb",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"ungkarl\"]"
             }
           }
@@ -414,11 +412,20 @@
     ],
     "pronunciation": {
       "ipa": "ˈɵŋːkɑːɭ",
-      "stress_hint": "Stress on first syllable: UNG-karl"
+      "stress_hint": "Stress on the first syllable: UNG-karl.",
+      "audio": {
+        "file": "audio/lu_junggeselle_der.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "ungkarl – ungkarlen – ungkarlar – ungkarlarna"
+        "ungkarl",
+        "ungkarlen",
+        "ungkarlar",
+        "ungkarlarna"
       ],
       "particle_or_reflexive": null
     }

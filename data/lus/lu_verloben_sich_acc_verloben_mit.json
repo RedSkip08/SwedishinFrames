@@ -3,7 +3,7 @@
     "id": "lu_verloben_sich_acc_verloben_mit",
     "source_de": {
       "lu_de_raw": "verloben: sich (acc.) verloben (mit)",
-      "lu_de_normalized": "sich verlova (mit)",
+      "lu_de_normalized": "sich verloben (mit)",
       "gender_variants_de": [],
       "pos_de": "verb"
     },
@@ -12,20 +12,18 @@
     "display_sv": "förlova sig",
     "name_sv": "förlova sig",
     "pos": "multiword",
-    "cefr": "B1",
+    "cefr": "A2",
     "multiword": {
       "mwe_type": "reflexive_verb",
       "components_sv": [
         "förlova",
         "sig"
       ],
-      "spacing_notes_en": "Two words; often with 'med' + person."
+      "spacing_notes_en": "Written as two words; often followed by 'med' + person."
     },
     "forms": [
       "förlova sig",
-      "förlovar sig",
-      "förlovade sig",
-      "förlovat sig"
+      "förlova sig med"
     ],
     "english_equivalent_en": "get engaged",
     "morphology_sv": {
@@ -35,13 +33,13 @@
         "def_sg": null,
         "indef_pl": null,
         "def_pl": null,
-        "note_en": null
+        "note_en": ""
       },
       "verb": {
-        "infinitive": "förlova sig",
-        "present": "förlovar sig",
-        "past": "förlovade sig",
-        "supine": "förlovat sig",
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
         "imperative": null,
         "present_participle": null,
         "past_participle": null,
@@ -54,13 +52,13 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "Multiword (reflexive) verb: förlova + sig. Often followed by \"med\" + person."
+      "note_en": "Multiword verb: förlova + reflexive sig. Often used with \"med\" + person."
     },
     "derived_words_sv": [
       {
         "word": "förlovning",
         "type_en": "noun",
-        "meaning_en": "an engagement (the status/event)"
+        "meaning_en": "engagement (the event/period)"
       },
       {
         "word": "förlovad",
@@ -76,63 +74,65 @@
         "word": "förlovningsfest",
         "type_en": "noun",
         "meaning_en": "engagement party"
+      },
+      {
+        "word": "förlova",
+        "type_en": "verb",
+        "meaning_en": "engage (someone); less common than reflexive"
       }
     ],
     "synonyms_sv": [
       "trolova sig",
-      "bli förlovad"
+      "förlova sig med"
     ],
     "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_marriage",
-        "frame_name_en": "Marriage",
-        "frame_slug": "marriage",
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
         "sense_id": "lu_verloben_sich_acc_verloben_mit:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_verloben_sich_acc_verloben_mit:1",
-        "frame_id": "frame_marriage",
-        "meaning_en": "to decide and announce you will marry someone; become engaged.",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "decide to marry someone and become officially engaged",
         "how_to_use_en": [
-          "Use about two people who plan to marry: X och Y förlovar sig.",
-          "Often add the partner with \"med\": förlova sig med någon.",
-          "Can be used with modal verbs: vilja/överväga/valde att förlova sig."
+          "Use about two people who agree to marry.",
+          "Often add \"med\" + the other person."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "SUBJEKT + förlova sig",
-            "note_en": "Often a couple or two people as subject (e.g., paret)."
+            "pattern": "X förlova sig",
+            "meaning_en": "X gets engaged",
+            "note_en": "The partner can be understood from context (e.g., a couple)."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "SUBJEKT + förlova sig + med + PERSON",
-            "note_en": "Names/pronouns can fill the partner role (e.g., med Nicola, med Norman)."
+            "pattern": "X förlova sig med Y",
+            "meaning_en": "X gets engaged to Y",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "SUBJEKT + ska/ville/valde/övervägde + (att) + förlova sig",
-            "note_en": "Common with future plans, wishes, choices, or considerations."
-          },
-          {
-            "pattern_id": "pat_4",
-            "pattern": "TID + SUBJEKT + förlova sig",
-            "note_en": "Time expressions can be added (e.g., under marknadsdagarna; sex månader senare)."
+            "pattern": "Paret/de två förlova sig",
+            "meaning_en": "the couple gets engaged",
+            "note_en": ""
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *förlova* without \"sig\" for this meaning.",
-            "fix": "Use the reflexive form: \"förlova sig\".",
-            "explain_en": "In these examples the engagement is expressed with the reflexive verb (someone gets engaged)."
+            "error": "Using *förlova* without sig for this meaning.",
+            "fix": "Use \"förlova sig\" (often \"förlova sig med någon\").",
+            "explain_en": "In this sense it is normally reflexive in Swedish."
           },
           {
-            "error": "Saying *förlova sig till* någon.",
-            "fix": "Say \"förlova sig med\" någon.",
-            "explain_en": "The partner is introduced with \"med\" in the examples."
+            "error": "Saying *förlova sig till någon*.",
+            "fix": "Say \"förlova sig med någon\".",
+            "explain_en": "\"Med\" is the normal preposition for the partner."
           }
         ],
         "required_example_count": 10,
@@ -141,19 +141,15 @@
             "ex_id": "42b2aa54e4605336d9645506d9b56c04e9332686",
             "sv": "Paret fick permission från häktet för att köpa ringar och förlova sig.",
             "en": "The couple got leave from the remand prison to buy rings and get engaged.",
-            "frame_id": "frame_marriage",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
+                "fe_id": "fe_partners",
                 "span_sv": "Paret"
-              },
-              {
-                "fe_id": "fe_event",
-                "span_sv": "förlova sig"
               }
             ],
             "gloss": "get engaged",
-            "level": "B1",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -163,23 +159,19 @@
               "text_title": "Alfred Frederick Rickman",
               "text_url": "https://sv.wikipedia.org/wiki/Alfred_Frederick_Rickman",
               "sentence_id": "2b82bfea",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"förlova\"][word=\"sig\"]"
             }
           },
           {
             "ex_id": "a5a02dba1c0de368217abfa050f564f7236fd848",
             "sv": "Akten avslutas med att Fru Sandström och Gunborg meddelas att paret ska förlova sig.",
-            "en": "The file ends with Mrs Sandström and Gunborg being told that the couple will get engaged.",
-            "frame_id": "frame_marriage",
+            "en": "The case ends with Mrs Sandström and Gunborg being told that the couple will get engaged.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
+                "fe_id": "fe_partners",
                 "span_sv": "paret"
-              },
-              {
-                "fe_id": "fe_event",
-                "span_sv": "förlova sig"
               }
             ],
             "gloss": "get engaged",
@@ -193,7 +185,7 @@
               "text_title": "Den kärleken!",
               "text_url": "https://sv.wikipedia.org/wiki/Den_k%C3%A4rleken!",
               "sentence_id": "dd9c0113",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"förlova\"][word=\"sig\"]"
             }
           },
@@ -201,15 +193,11 @@
             "ex_id": "a4d76cfd4cafc45fd82f3901ab5fda0016f16155",
             "sv": "Det var även populärt att förlova sig, och till och med gifta sig under marknadsdagarna.",
             "en": "It was also popular to get engaged, and even to get married during the market days.",
-            "frame_id": "frame_marriage",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_event",
-                "span_sv": "förlova sig"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "under marknadsdagarna"
+                "fe_id": "fe_partners",
+                "span_sv": "att förlova sig"
               }
             ],
             "gloss": "get engaged",
@@ -223,27 +211,19 @@
               "text_title": "Disting",
               "text_url": "https://sv.wikipedia.org/wiki/Disting",
               "sentence_id": "bf9b5707",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"förlova\"][word=\"sig\"]"
             }
           },
           {
             "ex_id": "c182fb151e0956bb4a279522245e43b4ad858826",
             "sv": "Hasse förälskar sig i fasterns adoptivdotter May och de två förmodas förlova sig.",
-            "en": "Hasse falls in love with his aunt's adopted daughter May and the two are assumed to get engaged.",
-            "frame_id": "frame_marriage",
+            "en": "Hasse falls in love with his aunt’s adopted daughter May and the two are assumed to get engaged.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Hasse"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "fasterns adoptivdotter May"
-              },
-              {
-                "fe_id": "fe_event",
-                "span_sv": "förlova sig"
+                "fe_id": "fe_partners",
+                "span_sv": "de två"
               }
             ],
             "gloss": "get engaged",
@@ -257,27 +237,23 @@
               "text_title": "Släkten är värst (1936)",
               "text_url": "https://sv.wikipedia.org/wiki/Sl%C3%A4kten_%C3%A4r_v%C3%A4rst_(1936)",
               "sentence_id": "80b878b5",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"förlova\"][word=\"sig\"]"
             }
           },
           {
             "ex_id": "bfa7f3e67a94ac8eab16873b0a23f3feca230a5d",
             "sv": "Efter att ha övertalats förklarar Helene sig äntligen - om än motvilligt - redo att förlova sig med Nicola.",
-            "en": "After being persuaded, Helene finally declares herself ready to get engaged to Nicola, even if unwillingly.",
-            "frame_id": "frame_marriage",
+            "en": "After being persuaded, Helene finally declares herself—though unwillingly—ready to get engaged to Nicola.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
+                "fe_id": "fe_partner_1",
                 "span_sv": "Helene"
               },
               {
-                "fe_id": "fe_spouse_2",
+                "fe_id": "fe_partner_2",
                 "span_sv": "Nicola"
-              },
-              {
-                "fe_id": "fe_event",
-                "span_sv": "förlova sig"
               }
             ],
             "gloss": "get engaged (to someone)",
@@ -291,83 +267,37 @@
               "text_title": "Der liebe Augustin",
               "text_url": "https://sv.wikipedia.org/wiki/Der_liebe_Augustin",
               "sentence_id": "944d8a80",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"förlova\"][word=\"sig\"]"
             }
           },
           {
-            "ex_id": "0c5c6b4b6f3ab2aae80db83863c83d84e23afc78",
-            "sv": "Under den trettionionde dagen (8 oktober) i huset valde deltagarna John och Julia att förlova sig.",
-            "en": "During the thirty-ninth day (8 October) in the house, the participants John and Julia chose to get engaged.",
-            "frame_id": "frame_marriage",
+            "ex_id": "71288f292328934bad4be7c82d7b8022a88052c5",
+            "sv": "Han kommer att förlova sig med Lisa Simpson och gifta sig med henne den 1 augusti 2010.",
+            "en": "He will get engaged to Lisa Simpson and marry her on 1 August 2010.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "John"
+                "fe_id": "fe_partner_1",
+                "span_sv": "Han"
               },
               {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "Julia"
-              },
-              {
-                "fe_id": "fe_event",
-                "span_sv": "förlova sig"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "Under den trettionionde dagen (8 oktober)"
+                "fe_id": "fe_partner_2",
+                "span_sv": "Lisa Simpson"
               }
             ],
-            "gloss": "get engaged",
-            "level": "B1",
+            "gloss": "get engaged (to someone)",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Big Brother 2014",
-              "text_url": "https://sv.wikipedia.org/wiki/Big_Brother_2014",
-              "sentence_id": "46b351df",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"förlova\"][word=\"sig\"]"
-            }
-          },
-          {
-            "ex_id": "49ac493b727b021219ff8351622dd313787f4efb",
-            "sv": "Kort efter Jessica har medverkat i programmet träffade hon hockeyspelare Kim Ericsson och paret övervägde att förlova sig.",
-            "en": "Shortly after Jessica took part in the program, she met the hockey player Kim Ericsson and the couple considered getting engaged.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Jessica"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "hockeyspelare Kim Ericsson"
-              },
-              {
-                "fe_id": "fe_event",
-                "span_sv": "förlova sig"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "Kort efter Jessica har medverkat i programmet"
-              }
-            ],
-            "gloss": "get engaged",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Karl Petter Bergvall",
-              "text_url": "https://sv.wikipedia.org/wiki/Karl_Petter_Bergvall",
-              "sentence_id": "cca7dfd7",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "text_title": "Lista över engångsfigurer i Simpsons",
+              "text_url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_eng%C3%A5ngsfigurer_i_Simpsons",
+              "sentence_id": "b1ee0f78",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"förlova\"][word=\"sig\"]"
             }
           },
@@ -375,23 +305,15 @@
             "ex_id": "a41a6fa270f9926d363ed478e470a4c90da223a3",
             "sv": "Sex månader senare har den otröstliga Irmelin tvingats förlova sig med en gammal riddare.",
             "en": "Six months later, the inconsolable Irmelin has been forced to get engaged to an old knight.",
-            "frame_id": "frame_marriage",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
+                "fe_id": "fe_partner_1",
                 "span_sv": "Irmelin"
               },
               {
-                "fe_id": "fe_spouse_2",
+                "fe_id": "fe_partner_2",
                 "span_sv": "en gammal riddare"
-              },
-              {
-                "fe_id": "fe_event",
-                "span_sv": "förlova sig"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "Sex månader senare"
               }
             ],
             "gloss": "get engaged (to someone)",
@@ -405,83 +327,7 @@
               "text_title": "Irmelin (Delius)",
               "text_url": "https://sv.wikipedia.org/wiki/Irmelin_(Delius)",
               "sentence_id": "40796c92",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"förlova\"][word=\"sig\"]"
-            }
-          },
-          {
-            "ex_id": "b19614305ce41696a1ce6475f98dee564ae50121",
-            "sv": "När hon senare ville förlova sig med Norman, en av bröderna i förlaget Warne, vägrade föräldrarna att ge sitt samtycke.",
-            "en": "When she later wanted to get engaged to Norman, one of the brothers at the Warne publishing house, the parents refused to give their consent.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "hon"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "Norman"
-              },
-              {
-                "fe_id": "fe_event",
-                "span_sv": "förlova sig"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "senare"
-              }
-            ],
-            "gloss": "get engaged (to someone)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Beatrix Potter",
-              "text_url": "https://sv.wikipedia.org/wiki/Beatrix_Potter",
-              "sentence_id": "95c88eed",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"förlova\"][word=\"sig\"]"
-            }
-          },
-          {
-            "ex_id": "9957f90dc7585ea190b9feec8921ac9c796ded7e",
-            "sv": "Hon föreslog att de skulle förlova sig och ville på så sätt visa honom sin kärlek, trösta och uppmuntra.",
-            "en": "She suggested that they should get engaged and in that way wanted to show him her love, comfort him, and encourage him.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Hon"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "honom"
-              },
-              {
-                "fe_id": "fe_event",
-                "span_sv": "förlova sig"
-              },
-              {
-                "fe_id": "fe_reason",
-                "span_sv": "visa honom sin kärlek, trösta och uppmuntra"
-              }
-            ],
-            "gloss": "get engaged",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ida Bäckmann",
-              "text_url": "https://sv.wikipedia.org/wiki/Ida_B%C3%A4ckmann",
-              "sentence_id": "36a00a3b",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"förlova\"][word=\"sig\"]"
             }
           }
@@ -489,12 +335,18 @@
       }
     ],
     "pronunciation": {
-      "ipa": null,
-      "stress_hint": "Stress usually on the first syllable: FÖR-lova sig."
+      "ipa": "fœˈɭuːva sɛj",
+      "stress_hint": "Main stress is on -lo- in förlova.",
+      "audio": {
+        "file": "audio/lu_verloben_sich_acc_verloben_mit.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "förlova sig – förlovar sig – förlovade sig – förlovat sig"
+        "förlova sig"
       ],
       "particle_or_reflexive": "sig"
     }

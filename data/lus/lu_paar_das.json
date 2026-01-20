@@ -19,17 +19,20 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "ett par"
+      "ett par",
+      "paret",
+      "par",
+      "paren"
     ],
     "english_equivalent_en": "a couple",
     "morphology_sv": {
       "noun": {
         "gender": "ett",
         "indef_sg": "ett par",
-        "def_sg": null,
-        "indef_pl": null,
-        "def_pl": null,
-        "note_en": "Often used as a fixed quantifier: ett par + plural noun (ett par år, ett par böcker). As ‘pair of two items’: ett par + plural noun (ett par byxor)."
+        "def_sg": "paret",
+        "indef_pl": "par",
+        "def_pl": "paren",
+        "note_en": "Often used as a quantity word: ett par + plural noun (ett par byxor, ett par år)."
       },
       "verb": {
         "infinitive": null,
@@ -48,7 +51,7 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "This entry covers the quantifier/noun use ‘ett par’ meaning ‘two’ or ‘a small number’, and ‘a pair’."
+      "note_en": ""
     },
     "derived_words_sv": [
       {
@@ -59,7 +62,7 @@
       {
         "word": "parbildning",
         "type_en": "noun",
-        "meaning_en": "pair formation (forming a couple)"
+        "meaning_en": "pair formation; forming couples"
       },
       {
         "word": "parrelation",
@@ -74,12 +77,13 @@
       {
         "word": "parhäst",
         "type_en": "noun",
-        "meaning_en": "a duo that works closely together"
+        "meaning_en": "a close duo; two who work together"
       }
     ],
     "synonyms_sv": [
       "två",
-      "några"
+      "några",
+      "duo"
     ],
     "antonyms_sv": [],
     "linked_frames": [
@@ -94,39 +98,48 @@
       {
         "sense_id": "lu_paar_das:1",
         "frame_id": "frame_personal_relationship",
-        "meaning_en": "two things together, or a small number (about two).",
+        "meaning_en": "two things that belong together, or a small number (about two).",
         "how_to_use_en": [
-          "Use as: ett par + plural noun (ett par år, ett par meter).",
-          "It can mean exactly two (a pair) or ‘a couple’ (a small number).",
-          "Also used for two partners as a unit: ett ... par."
+          "Use ett par + plural noun for ‘a couple of’ (ett par år, ett par saker).",
+          "Use it for two matching items (ett par byxor, ett par ljusstakar).",
+          "Can also mean a couple in a relationship (par)."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "ett par + plural noun",
-            "note_en": "Quantifier meaning ‘a couple/some’ or ‘a pair’: ett par år, ett par meter, ett par böcker."
+            "meaning_en": "a couple of; a small number",
+            "note_en": "Often means about two, sometimes just ‘a few’."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "ett + adjective + par",
-            "note_en": "Two partners seen as one unit: Ett ungt akademiskt par."
+            "pattern": "ett par + time/distance word (år, månader, mil, meter)",
+            "meaning_en": "about two (time/distance)",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "bilda + adjective + par",
-            "note_en": "About animals/people forming couples: bildar monogama par."
+            "pattern": "ett par + clothing/object that comes in twos",
+            "meaning_en": "a pair (matching items)",
+            "note_en": "Common with byxor and similar items."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "par (plural) + adjective (e.g., monogama par)",
+            "meaning_en": "couples/pairs (in a relationship)",
+            "note_en": ""
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using singular after ett par (e.g. *ett par bok).",
-            "fix": "Use plural: ett par böcker.",
+            "error": "Using singular after ett par (e.g., *ett par sak).",
+            "fix": "Use plural: ett par saker.",
             "explain_en": "After ett par, Swedish normally uses a plural noun."
           },
           {
-            "error": "Thinking ett par always means exactly two.",
-            "fix": "Allow ‘a small number’ in context (e.g. ett par saker).",
-            "explain_en": "In many contexts it means ‘a couple/some’, not strictly two."
+            "error": "Confusing ett par with några in exact counting contexts.",
+            "fix": "Use två when you mean exactly two.",
+            "explain_en": "Ett par often means ‘about two’ or ‘a small number’, not always exactly two."
           }
         ],
         "required_example_count": 10,
@@ -142,7 +155,7 @@
                 "span_sv": "Ett par altarljusstakar"
               }
             ],
-            "gloss": "par (two of something; a pair)",
+            "gloss": "par = two that belong together; a pair",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -153,33 +166,7 @@
               "text_title": "Husby-Ärlinghundra kyrka",
               "text_url": "https://sv.wikipedia.org/wiki/Husby-%C3%84rlinghundra_kyrka",
               "sentence_id": "4bb62f0c",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"par\"]"
-            }
-          },
-          {
-            "ex_id": "3894ce7cd7417db470075a53e15ddf73938b4728",
-            "sv": "Han är en stor, röd djävul-likt monster som bär ett par bruna byxor.",
-            "en": "He is a big, red devil-like monster that wears a pair of brown trousers.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "ett par bruna byxor"
-              }
-            ],
-            "gloss": "par (two of something; a pair)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Jimmy Cool",
-              "text_url": "https://sv.wikipedia.org/wiki/Jimmy_Cool",
-              "sentence_id": "1b9de5fa",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"par\"]"
             }
           },
@@ -194,7 +181,7 @@
                 "span_sv": "Ett par saker"
               }
             ],
-            "gloss": "par (a couple; a small number)",
+            "gloss": "par = a couple (a small number)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -205,7 +192,33 @@
               "text_title": "Take It or Leave It",
               "text_url": "https://sv.wikipedia.org/wiki/Take_It_or_Leave_It",
               "sentence_id": "b03455df",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"par\"]"
+            }
+          },
+          {
+            "ex_id": "3894ce7cd7417db470075a53e15ddf73938b4728",
+            "sv": "Han är en stor, röd djävul-likt monster som bär ett par bruna byxor.",
+            "en": "He is a big, red devil-like monster who wears a pair of brown trousers.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "ett par bruna byxor"
+              }
+            ],
+            "gloss": "par = a pair (two parts that go together)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jimmy Cool",
+              "text_url": "https://sv.wikipedia.org/wiki/Jimmy_Cool",
+              "sentence_id": "1b9de5fa",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"par\"]"
             }
           },
@@ -220,7 +233,7 @@
                 "span_sv": "ett par OST"
               }
             ],
-            "gloss": "par (a couple; a small number)",
+            "gloss": "par = a couple (a small number)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -231,33 +244,7 @@
               "text_title": "Jessica Jung",
               "text_url": "https://sv.wikipedia.org/wiki/Jessica_Jung",
               "sentence_id": "cf93ba62",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"par\"]"
-            }
-          },
-          {
-            "ex_id": "8c8d6acd0da7297cecf3e84f3d32f6f28f230647",
-            "sv": "Han har bland annat utgivit ett par böcker om äldre svenska mynt.",
-            "en": "Among other things, he has published a couple of books about older Swedish coins.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "ett par böcker"
-              }
-            ],
-            "gloss": "par (a couple; a small number)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Jonas Rundberg",
-              "text_url": "https://sv.wikipedia.org/wiki/Jonas_Rundberg",
-              "sentence_id": "b2985376",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"par\"]"
             }
           },
@@ -272,7 +259,7 @@
                 "span_sv": "ett par år"
               }
             ],
-            "gloss": "par (a couple; a small number)",
+            "gloss": "par = a couple (about two)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -283,7 +270,59 @@
               "text_title": "Carl Brandt",
               "text_url": "https://sv.wikipedia.org/wiki/Carl_Brandt",
               "sentence_id": "8641939a",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"par\"]"
+            }
+          },
+          {
+            "ex_id": "31dbabe4d919c343d36013453fb3cf202e5ce5a9",
+            "sv": "Internationell flygplats finns vid Yundum, ett par mil söder om Banjul.",
+            "en": "An international airport is at Yundum, a couple of miles south of Banjul.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "ett par mil"
+              }
+            ],
+            "gloss": "par = a couple (a small number)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gambia",
+              "text_url": "https://sv.wikipedia.org/wiki/Gambia",
+              "sentence_id": "afedd711",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"par\"]"
+            }
+          },
+          {
+            "ex_id": "31676974e2f5a7393bb0572375f419f653e81c98",
+            "sv": "I San Agustín spelades ett par scener i filmen Sällskapsresan in.",
+            "en": "In San Agustín, a couple of scenes in the film Sällskapsresan were recorded.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "ett par scener"
+              }
+            ],
+            "gloss": "par = a couple (a small number)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "San Agustín, Gran Canaria",
+              "text_url": "https://sv.wikipedia.org/wiki/San_Agust%C3%ADn,_Gran_Canaria",
+              "sentence_id": "40e23b65",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"par\"]"
             }
           },
@@ -295,10 +334,10 @@
             "fe_tags": [
               {
                 "fe_id": "fe_partners",
-                "span_sv": "Hannar och honor"
+                "span_sv": "monogama par"
               }
             ],
-            "gloss": "par (a couple in a relationship; pair)",
+            "gloss": "par = a couple in a relationship; a pair",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -309,66 +348,14 @@
               "text_title": "Lar (gibbon)",
               "text_url": "https://sv.wikipedia.org/wiki/Lar_(gibbon)",
               "sentence_id": "4079bdbd",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"par\"]"
-            }
-          },
-          {
-            "ex_id": "43ee9f122c8d214508682424f76e58bafe7e9446",
-            "sv": "Ett ungt akademiskt par flyttar in i en lägenhet vid ett universitetscampus i Australien.",
-            "en": "A young academic couple moves into an apartment by a university campus in Australia.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "Ett ungt akademiskt par"
-              }
-            ],
-            "gloss": "par (a couple in a relationship)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Rörmokaren",
-              "text_url": "https://sv.wikipedia.org/wiki/R%C3%B6rmokaren",
-              "sentence_id": "94c90c76",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"par\"]"
-            }
-          },
-          {
-            "ex_id": "d943a29471f134217caedda54f5cffa39aae0250",
-            "sv": "Ajax ligger ett par mil nordost om Toronto och ingår i dess storstadsområde.",
-            "en": "Ajax lies a couple of Swedish miles northeast of Toronto and is part of its metropolitan area.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "ett par mil"
-              }
-            ],
-            "gloss": "par (a couple; a small number)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ajax, Ontario",
-              "text_url": "https://sv.wikipedia.org/wiki/Ajax,_Ontario",
-              "sentence_id": "6778aee9",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"par\"]"
             }
           },
           {
             "ex_id": "169ed28e4896d76b8b6bca3a119ed394e46edd63",
             "sv": "Den markerade punkten ligger ett par meter från toppen, där själva mätningen gjordes ifrån.",
-            "en": "The marked point lies a couple of meters from the top, where the measurement itself was done from.",
+            "en": "The marked point is a couple of meters from the top, where the measurement itself was made from.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
@@ -376,8 +363,8 @@
                 "span_sv": "ett par meter"
               }
             ],
-            "gloss": "par (a couple; a small number)",
-            "level": "A2",
+            "gloss": "par = a couple (a small number)",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -387,7 +374,33 @@
               "text_title": "Jupukka",
               "text_url": "https://sv.wikipedia.org/wiki/Jupukka",
               "sentence_id": "7fb36b3d",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"par\"]"
+            }
+          },
+          {
+            "ex_id": "ab5b01636191b7efda2f7f2b0f373811fb075c95",
+            "sv": "Deras sista album, Leucocyte, gavs ut ett par månader senare.",
+            "en": "Their last album, Leucocyte, was released a couple of months later.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "ett par månader"
+              }
+            ],
+            "gloss": "par = a couple (about two)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Esbjörn Svensson Trio",
+              "text_url": "https://sv.wikipedia.org/wiki/Esbj%C3%B6rn_Svensson_Trio",
+              "sentence_id": "43c9a641",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"par\"]"
             }
           }
@@ -396,11 +409,20 @@
     ],
     "pronunciation": {
       "ipa": "pɑːr",
-      "stress_hint": "one syllable; stress on par"
+      "stress_hint": "Long a-sound, like in Swedish far.",
+      "audio": {
+        "file": "audio/lu_paar_das.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "ett par"
+        "ett par",
+        "paret",
+        "par",
+        "paren"
       ],
       "particle_or_reflexive": null
     }

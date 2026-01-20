@@ -26,18 +26,17 @@
       "sin livspartner",
       "hans livspartner",
       "hennes livspartner",
-      "livspartnern",
-      "livspartnerna"
+      "dåvarande livspartner"
     ],
     "english_equivalent_en": "life partner",
     "morphology_sv": {
       "noun": {
         "gender": "en",
-        "indef_sg": "livspartner",
+        "indef_sg": "en livspartner",
         "def_sg": "livspartnern",
         "indef_pl": "livspartner",
         "def_pl": "livspartnerna",
-        "note_en": "Often used with possessives: sin/hans/hennes livspartner."
+        "note_en": "Compound noun: liv + partner."
       },
       "verb": {
         "infinitive": null,
@@ -67,7 +66,7 @@
       {
         "word": "livspartnerns",
         "type_en": "other",
-        "meaning_en": "the life partner’s (genitive -s)"
+        "meaning_en": "the life partner’s (genitive)"
       },
       {
         "word": "livspartnerna",
@@ -75,14 +74,9 @@
         "meaning_en": "the life partners (definite plural)"
       },
       {
-        "word": "långvarig",
-        "type_en": "adjective",
-        "meaning_en": "long-term (as in långvarig livspartner)"
-      },
-      {
-        "word": "dåvarande",
-        "type_en": "adjective",
-        "meaning_en": "then, at that time (as in dåvarande livspartner)"
+        "word": "livspartnerbyte",
+        "type_en": "noun",
+        "meaning_en": "change of life partner"
       }
     ],
     "synonyms_sv": [
@@ -104,78 +98,58 @@
       {
         "sense_id": "lu_lebensgefährte_der_lebensgefährte__die_lebensgefährtin:1",
         "frame_id": "frame_personal_relationship",
-        "meaning_en": "a person someone has a long-term romantic relationship with, often like a spouse",
+        "meaning_en": "a person someone has as a long-term partner in life",
         "how_to_use_en": [
-          "Use for a long-term partner (married or not).",
-          "Often used with a possessive: sin/hans/hennes livspartner.",
-          "Can be used about people (and sometimes animals in general descriptions)."
+          "Use about a long-term partner (not necessarily married).",
+          "Often used with possessives: sin/hans/hennes livspartner.",
+          "Common in biographical and factual texts."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "X och hans/hennes/sin livspartner Y",
-            "note_en": "Two partners mentioned together; the life partner is named."
+            "pattern": "hitta (en/sin) livspartner",
+            "meaning_en": "find a life partner",
+            "note_en": "Used for searching for a long-term partner."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "ha svårt att hitta en livspartner",
-            "note_en": "Talking about finding a life partner."
+            "pattern": "träffa sin livspartner",
+            "meaning_en": "meet one’s life partner",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "träffa sin livspartner",
-            "note_en": "Meeting one’s life partner."
+            "pattern": "X:s livspartner var Y",
+            "meaning_en": "X’s life partner was Y",
+            "note_en": "Common in biographies."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "bli X:s livspartner",
-            "note_en": "Someone turns out to become another person’s life partner."
+            "pattern": "bli någons livspartner",
+            "meaning_en": "become someone’s life partner",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "bosätta sig ... tillsammans med sin livspartner",
-            "note_en": "Living/settling somewhere together with one’s life partner."
+            "pattern": "tillsammans med sin livspartner (Namn)",
+            "meaning_en": "together with one’s life partner",
+            "note_en": ""
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using livspartner for a short or casual relationship.",
-            "fix": "Use partner or pojkvän/flickvän for a boyfriend/girlfriend.",
+            "error": "Using livspartner for a short-term date or new boyfriend/girlfriend.",
+            "fix": "Use partner, pojkvän/flickvän, or dejt instead.",
             "explain_en": "Livspartner usually implies a stable, long-term relationship."
+          },
+          {
+            "error": "Forgetting the article: *livspartner.",
+            "fix": "Say en livspartner.",
+            "explain_en": "It is an en-word in singular."
           }
         ],
         "required_example_count": 10,
         "examples": [
-          {
-            "ex_id": "c78585b354323adcaeec7127e7b3e09e1ff71b81",
-            "sv": "Sommaren 1939 reste Britten och hans livspartner Peter Pears till USA.",
-            "en": "In the summer of 1939, Britten and his life partner Peter Pears traveled to the USA.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Britten"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "hans livspartner Peter Pears"
-              }
-            ],
-            "gloss": "life partner",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Peter Grimes",
-              "text_url": "https://sv.wikipedia.org/wiki/Peter_Grimes",
-              "sentence_id": "67711568",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"livspartner\"]"
-            }
-          },
           {
             "ex_id": "e5a98efcc88186e4100bc8df7296a56342258b8b",
             "sv": "Alla Krásnohorskás hjältar är medelålders och har svårt att hitta en livspartner.",
@@ -198,57 +172,23 @@
               "text_title": "Kyssen (opera)",
               "text_url": "https://sv.wikipedia.org/wiki/Kyssen_(opera)",
               "sentence_id": "d7bef6a7",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"livspartner\"]"
-            }
-          },
-          {
-            "ex_id": "4faa7fb6df03aa9f8f32e517fb76ea2d9d8cd796",
-            "sv": "Han blev Ethel Booles livspartner och år 1902 gifte de sig.",
-            "en": "He became Ethel Boole's life partner, and in 1902 they got married.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Han"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Ethel Booles livspartner"
-              }
-            ],
-            "gloss": "life partner",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ethel Voynich",
-              "text_url": "https://sv.wikipedia.org/wiki/Ethel_Voynich",
-              "sentence_id": "bff18275",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"livspartner\"]"
             }
           },
           {
             "ex_id": "dc8e206c014c956a5ac9725c1b1336b766e05c46",
             "sv": "I kejsarpingvinernas samhälle måste pingvinerna sjunga för att hitta sin livspartner.",
-            "en": "In emperor penguins' society, the penguins must sing to find their life partner.",
+            "en": "In the emperor penguins' society, the penguins must sing to find their life partner.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "pingvinerna"
-              },
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "sin livspartner"
               }
             ],
             "gloss": "life partner",
-            "level": "B1",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -258,83 +198,19 @@
               "text_title": "Happy Feet",
               "text_url": "https://sv.wikipedia.org/wiki/Happy_Feet",
               "sentence_id": "b0786438",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"livspartner\"]"
             }
           },
           {
-            "ex_id": "4232388bc8efee14f62a1dbffe2ed6e8a157b1dc",
-            "sv": "Hon bosatte sig i Arvika tillsammans med sin livspartner Olga Segerberg.",
-            "en": "She settled in Arvika together with her life partner Olga Segerberg.",
+            "ex_id": "f7db75f1c2858c36b64bebc4b35773104295c82e",
+            "sv": "49 procent av såväl flickor som pojkar angav att föräldrarna måste godkänna val av livspartner.",
+            "en": "49 percent of both girls and boys said that the parents must approve the choice of life partner.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Hon"
-              },
-              {
                 "fe_id": "fe_partner_2",
-                "span_sv": "sin livspartner Olga Segerberg"
-              }
-            ],
-            "gloss": "life partner",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Brita Crona",
-              "text_url": "https://sv.wikipedia.org/wiki/Brita_Crona",
-              "sentence_id": "cb6366ec",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"livspartner\"]"
-            }
-          },
-          {
-            "ex_id": "53a2b3c986b7033a48df8e44629e08fbf29697d7",
-            "sv": "Karmen Guy gifte sig år 2004 med sin långvariga livspartner Sami Yaffa.",
-            "en": "Karmen Guy married in 2004 with her long-term life partner Sami Yaffa.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Karmen Guy"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "sin långvariga livspartner Sami Yaffa"
-              }
-            ],
-            "gloss": "life partner",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Karmen Guy",
-              "text_url": "https://sv.wikipedia.org/wiki/Karmen_Guy",
-              "sentence_id": "8d116136",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"livspartner\"]"
-            }
-          },
-          {
-            "ex_id": "761cfe00e6d62fc39f696d179ff5ae4a724eaffa",
-            "sv": "Där träffar Sinuhe en kvinna vid namn Merit som visar sig bli Sinuhes livspartner.",
-            "en": "There Sinuhe meets a woman named Merit who turns out to become Sinuhe's life partner.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Sinuhe"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "en kvinna vid namn Merit"
+                "span_sv": "livspartner"
               }
             ],
             "gloss": "life partner",
@@ -345,10 +221,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Sinuhe egyptiern",
-              "text_url": "https://sv.wikipedia.org/wiki/Sinuhe_egyptiern",
-              "sentence_id": "b0362771",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "text_title": "Varken hora eller kuvad",
+              "text_url": "https://sv.wikipedia.org/wiki/Varken_hora_eller_kuvad",
+              "sentence_id": "962d8c90",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"livspartner\"]"
             }
           },
@@ -378,7 +254,7 @@
               "text_title": "Gore Vidal",
               "text_url": "https://sv.wikipedia.org/wiki/Gore_Vidal",
               "sentence_id": "c20e7c2e",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"livspartner\"]"
             }
           },
@@ -389,11 +265,11 @@
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Hans"
+                "fe_id": "fe_partner_2",
+                "span_sv": "Hans livspartner"
               },
               {
-                "fe_id": "fe_partner_2",
+                "fe_id": "fe_partner_1",
                 "span_sv": "skådespelaren Lillemor Biörnstad"
               }
             ],
@@ -408,7 +284,37 @@
               "text_title": "Segol Mann",
               "text_url": "https://sv.wikipedia.org/wiki/Segol_Mann",
               "sentence_id": "db396deb",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"livspartner\"]"
+            }
+          },
+          {
+            "ex_id": "3c0db333df186d92020d692693f883d6af9754f2",
+            "sv": "Hennes livspartner var skådespelaren Segol Mann (1918 – 1992).",
+            "en": "Her life partner was the actor Segol Mann (1918–1992).",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Hennes livspartner"
+              },
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "skådespelaren Segol Mann"
+              }
+            ],
+            "gloss": "life partner",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lillemor Biörnstad",
+              "text_url": "https://sv.wikipedia.org/wiki/Lillemor_Bi%C3%B6rnstad",
+              "sentence_id": "2a469c22",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"livspartner\"]"
             }
           },
@@ -418,10 +324,6 @@
             "en": "Her then life partner Harald Langkjaer died of cancer, which affected her life situation.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Hennes"
-              },
               {
                 "fe_id": "fe_partner_2",
                 "span_sv": "Hennes dåvarande livspartner Harald Langkjaer"
@@ -438,7 +340,93 @@
               "text_title": "Maria Adlercreutz",
               "text_url": "https://sv.wikipedia.org/wiki/Maria_Adlercreutz",
               "sentence_id": "15840785",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"livspartner\"]"
+            }
+          },
+          {
+            "ex_id": "4bb3a5fba33b13c40034d64c1d36efb1682bc481",
+            "sv": "Änkesyner kallas förnimmelser av återseenden som en äldre efterlevande som mist sin livspartner kan uppleva.",
+            "en": "Widow visions are called feelings of seeing again that an older survivor who has lost their life partner can experience.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin livspartner"
+              }
+            ],
+            "gloss": "life partner",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Änkesyner",
+              "text_url": "https://sv.wikipedia.org/wiki/%C3%84nkesyner",
+              "sentence_id": "46bcb14c",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"livspartner\"]"
+            }
+          },
+          {
+            "ex_id": "f9a5969cd734b349f7138e75b6e14bf90607e83c",
+            "sv": "Där lärde hon känna den amerikanske cirkusartisten John Madigan, som blev hennes livspartner.",
+            "en": "There she got to know the American circus artist John Madigan, who became her life partner.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "den amerikanske cirkusartisten John Madigan"
+              }
+            ],
+            "gloss": "life partner",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Laura Madigan",
+              "text_url": "https://sv.wikipedia.org/wiki/Laura_Madigan",
+              "sentence_id": "36edf527",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"livspartner\"]"
+            }
+          },
+          {
+            "ex_id": "4232388bc8efee14f62a1dbffe2ed6e8a157b1dc",
+            "sv": "Hon bosatte sig i Arvika tillsammans med sin livspartner Olga Segerberg.",
+            "en": "She settled in Arvika together with her life partner Olga Segerberg.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "sin livspartner Olga Segerberg"
+              }
+            ],
+            "gloss": "life partner",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Brita Crona",
+              "text_url": "https://sv.wikipedia.org/wiki/Brita_Crona",
+              "sentence_id": "cb6366ec",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"livspartner\"]"
             }
           }
@@ -446,15 +434,21 @@
       }
     ],
     "pronunciation": {
-      "ipa": null,
-      "stress_hint": "Stress usually on the first part: LIV-partner."
+      "ipa": "ˈliːvˌspɑːʈnɛr",
+      "stress_hint": "Main stress is on liv-, with a weaker stress on -partner.",
+      "audio": {
+        "file": "audio/lu_lebensgefährte_der_lebensgefährte__die_lebensgefährtin.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "livspartner (indefinite singular)",
-        "livspartnern (definite singular)",
-        "livspartner (indefinite plural)",
-        "livspartnerna (definite plural)"
+        "en livspartner",
+        "livspartnern",
+        "livspartner",
+        "livspartnerna"
       ],
       "particle_or_reflexive": null
     }

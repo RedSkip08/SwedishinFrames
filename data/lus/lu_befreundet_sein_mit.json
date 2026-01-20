@@ -5,7 +5,7 @@
       "lu_de_raw": "befreundet sein (mit)",
       "lu_de_normalized": "befreundet sein (mit)",
       "gender_variants_de": [],
-      "pos_de": "ADJ+V"
+      "pos_de": "adj/verb"
     },
     "lu_type": "multiword",
     "lemma_sv": "vara vän med",
@@ -20,15 +20,13 @@
         "vän",
         "med"
       ],
-      "spacing_notes_en": "Written as three words; 'vän' is a noun used predicatively."
+      "spacing_notes_en": "Written as three words; object follows 'med'."
     },
     "forms": [
       "vara vän med",
       "är vän med",
       "var vän med",
-      "har varit vän med",
-      "vill vara vän med",
-      "inte vara vän med"
+      "har varit vän med"
     ],
     "english_equivalent_en": "be friends with",
     "morphology_sv": {
@@ -38,16 +36,16 @@
         "def_sg": null,
         "indef_pl": null,
         "def_pl": null,
-        "note_en": null
+        "note_en": ""
       },
       "verb": {
-        "infinitive": "vara",
-        "present": "är",
-        "past": "var",
-        "supine": "varit",
-        "imperative": "var",
-        "present_participle": "varande",
-        "past_participle": "varit",
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
         "alternatives": []
       },
       "adjective": {
@@ -57,7 +55,7 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "Multiword expression: vara + noun (vän) + preposition (med). The verb inflects (är/var/har varit)."
+      "note_en": "Multiword expression: conjugate vara (är/var/har varit) while vän med stays the same."
     },
     "derived_words_sv": [
       {
@@ -78,12 +76,12 @@
       {
         "word": "ovän",
         "type_en": "noun",
-        "meaning_en": "enemy; not a friend"
+        "meaning_en": "enemy; someone you are not friends with"
       },
       {
-        "word": "kompis",
-        "type_en": "noun",
-        "meaning_en": "friend (informal)"
+        "word": "vänskaplig",
+        "type_en": "adjective",
+        "meaning_en": "friendly (in a relationship sense)"
       }
     ],
     "synonyms_sv": [
@@ -96,139 +94,77 @@
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_friendship",
-        "frame_name_en": "Friendship",
-        "frame_slug": "friendship",
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
         "sense_id": "lu_befreundet_sein_mit:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_befreundet_sein_mit:1",
-        "frame_id": "frame_friendship",
-        "meaning_en": "have a friendship relationship with someone.",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "have a friendship relationship with someone; not romantic.",
         "how_to_use_en": [
-          "Use with a person or group after med: vara vän med någon.",
-          "Negate with inte: inte vara vän med.",
-          "You can add time words like till en början."
+          "Use with a person or group after med.",
+          "Conjugate vara to match time: är/var/har varit."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "X vill vara vän med Y",
-            "note_en": "Expresses a wish/intention to be friends."
+            "pattern": "X vill (inte) vara vän med Y",
+            "meaning_en": "X wants (not) to be friends with Y",
+            "note_en": "Common when talking about willingness or refusal."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "X vill inte vara vän med Y",
-            "note_en": "Refusal/lack of friendship."
+            "pattern": "X vill bara vara vän med Y",
+            "meaning_en": "X only wants to be friends with Y",
+            "note_en": "Often contrasts friendship with a romantic relationship."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "X (är/var) vän med Y",
-            "note_en": "States an existing friendship relation."
+            "pattern": "vara vän med alla",
+            "meaning_en": "be friends with everyone",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "X vill (bara) vara vän med Y",
-            "note_en": "Often contrasts with a romantic relationship."
-          },
-          {
-            "pattern_id": "pat_5",
-            "pattern": "X vill inte vara vän med Y då ...",
-            "note_en": "Reason can be added with då (because)."
+            "pattern": "att vara vän med Y",
+            "meaning_en": "being friends with Y",
+            "note_en": "Used as an -att infinitive clause."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *vara vän till* someone.",
-            "fix": "Use vara vän med someone.",
-            "explain_en": "This expression normally takes med, not till."
+            "error": "Using *vara vän till* for this meaning.",
+            "fix": "Use vara vän med + person.",
+            "explain_en": "With this expression, Swedish normally uses med to name the other person."
           },
           {
-            "error": "Forgetting to inflect vara (e.g., *jag vara vän med*).",
-            "fix": "Say jag är vän med / jag var vän med.",
-            "explain_en": "Only the verb changes; vän med stays the same."
+            "error": "Forgetting to conjugate vara (e.g., *igår är jag vän med*).",
+            "fix": "Use var for past time: igår var jag vän med …",
+            "explain_en": "Vara changes with tense; vän med does not."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "ac46d99175f50a71f75975e32db3050a6a9349c8",
-            "sv": "Amrisen är en idealisk familjehund som vill vara vän med alla och med där det händer något.",
-            "en": "The Amris is an ideal family dog that wants to be friends with everyone and be where something is happening.",
-            "frame_id": "frame_friendship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_friend_1",
-                "span_sv": "Amrisen"
-              },
-              {
-                "fe_id": "fe_friend_2",
-                "span_sv": "alla"
-              }
-            ],
-            "gloss": "be friends with",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Amerikansk cocker spaniel",
-              "text_url": "https://sv.wikipedia.org/wiki/Amerikansk_cocker_spaniel",
-              "sentence_id": "6f2f14a5",
-              "retrieved_at": "2026-01-17T23:07:17+00:00",
-              "korp_query": "[word=\"vara\"][word=\"vän\"][word=\"med\"]"
-            }
-          },
-          {
-            "ex_id": "02a43343545f2853cd622bca0c1c83bc6b402207",
-            "sv": "Men att vara vän med en torped kan medföra diverse komplikationer i en proper affärsmans lugna familjeliv.",
-            "en": "But being friends with a hitman can bring various complications in a proper businessman's calm family life.",
-            "frame_id": "frame_friendship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_friend_2",
-                "span_sv": "en torped"
-              }
-            ],
-            "gloss": "be friends with",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Matador (film)",
-              "text_url": "https://sv.wikipedia.org/wiki/Matador_(film)",
-              "sentence_id": "8773acd8",
-              "retrieved_at": "2026-01-17T23:07:17+00:00",
-              "korp_query": "[word=\"vara\"][word=\"vän\"][word=\"med\"]"
-            }
-          },
-          {
             "ex_id": "975c59625c900d61d03186f52cc111acbdc1c922",
             "sv": "Det finns dock ett problem: Kråkan vill inte vara vän med Mamma Mu då han tycker hon är konstig.",
-            "en": "However, there is a problem: the Crow does not want to be friends with Mamma Mu because he thinks she is strange.",
-            "frame_id": "frame_friendship",
+            "en": "However, there is a problem: The Crow does not want to be friends with Mamma Mu because he thinks she is strange.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_friend_1",
+                "fe_id": "fe_partner_1",
                 "span_sv": "Kråkan"
               },
               {
-                "fe_id": "fe_friend_2",
+                "fe_id": "fe_partner_2",
                 "span_sv": "Mamma Mu"
-              },
-              {
-                "fe_id": "fe_reason",
-                "span_sv": "då han tycker hon är konstig"
               }
             ],
-            "gloss": "be friends with",
+            "gloss": "vara vän med = be friends with",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -239,7 +175,37 @@
               "text_title": "Mamma Mu & Kråkan (film)",
               "text_url": "https://sv.wikipedia.org/wiki/Mamma_Mu_%26_Kr%C3%A5kan_(film)",
               "sentence_id": "55cb4538",
-              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"vara\"][word=\"vän\"][word=\"med\"]"
+            }
+          },
+          {
+            "ex_id": "ac46d99175f50a71f75975e32db3050a6a9349c8",
+            "sv": "Amrisen är en idealisk familjehund som vill vara vän med alla och med där det händer något.",
+            "en": "The Amris is an ideal family dog that wants to be friends with everyone and be where something is happening.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Amrisen"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "alla"
+              }
+            ],
+            "gloss": "vara vän med = be friends with",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Amerikansk cocker spaniel",
+              "text_url": "https://sv.wikipedia.org/wiki/Amerikansk_cocker_spaniel",
+              "sentence_id": "6f2f14a5",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"vara\"][word=\"vän\"][word=\"med\"]"
             }
           },
@@ -247,22 +213,18 @@
             "ex_id": "fab372538795683d7c1f1a093168fd09bf4b27b7",
             "sv": "Samantha känner att hon inte är en förhållande-person, och till en början vill hon bara vara vän med Maria.",
             "en": "Samantha feels that she is not a relationship person, and at first she only wants to be friends with Maria.",
-            "frame_id": "frame_friendship",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_friend_1",
-                "span_sv": "Samantha"
+                "fe_id": "fe_partner_1",
+                "span_sv": "hon"
               },
               {
-                "fe_id": "fe_friend_2",
+                "fe_id": "fe_partner_2",
                 "span_sv": "Maria"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "till en början"
               }
             ],
-            "gloss": "be friends with",
+            "gloss": "vara vän med = be friends with",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -273,22 +235,22 @@
               "text_title": "Sex and the City",
               "text_url": "https://sv.wikipedia.org/wiki/Sex_and_the_City",
               "sentence_id": "7e8cec61",
-              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"vara\"][word=\"vän\"][word=\"med\"]"
             }
           },
           {
-            "ex_id": "6a248cfcb7b0617788eff74f5b1f71e54c57e5c3",
-            "sv": "Han visas också vara vän med Donatello, och är djupt deprimerad då hans vän muteras och han inte kan hjälpa honom.",
-            "en": "He is also shown to be friends with Donatello, and is deeply depressed when his friend is mutated and he cannot help him.",
-            "frame_id": "frame_friendship",
+            "ex_id": "02a43343545f2853cd622bca0c1c83bc6b402207",
+            "sv": "Men att vara vän med en torped kan medföra diverse komplikationer i en proper affärsmans lugna familjeliv.",
+            "en": "But being friends with a hitman can bring various complications in a proper businessman's calm family life.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_friend_2",
-                "span_sv": "Donatello"
+                "fe_id": "fe_partner_2",
+                "span_sv": "en torped"
               }
             ],
-            "gloss": "be friends with",
+            "gloss": "vara vän med = be friends with",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -296,10 +258,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Leatherhead (TMNT)",
-              "text_url": "https://sv.wikipedia.org/wiki/Leatherhead_(TMNT)",
-              "sentence_id": "a76e69e7",
-              "retrieved_at": "2026-01-17T23:07:17+00:00",
+              "text_title": "Matador (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Matador_(film)",
+              "sentence_id": "8773acd8",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"vara\"][word=\"vän\"][word=\"med\"]"
             }
           }
@@ -307,15 +269,18 @@
       }
     ],
     "pronunciation": {
-      "ipa": null,
-      "stress_hint": "Main stress on vän; vara is usually unstressed."
+      "ipa": "ˈvɑːra vɛn mɛd",
+      "stress_hint": "Main stress is on vara and vän.",
+      "audio": {
+        "file": "audio/lu_befreundet_sein_mit.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "vara",
-        "är",
-        "var",
-        "varit"
+        "vara – är – var – varit"
       ],
       "particle_or_reflexive": null
     }

@@ -12,7 +12,7 @@
     "display_sv": "kärleksaffär",
     "name_sv": "kärleksaffär",
     "pos": "noun",
-    "cefr": "A2",
+    "cefr": "B1",
     "multiword": {
       "mwe_type": null,
       "components_sv": [],
@@ -32,7 +32,7 @@
         "def_sg": "kärleksaffären",
         "indef_pl": "kärleksaffärer",
         "def_pl": "kärleksaffärerna",
-        "note_en": "A compound noun: kärlek + affär."
+        "note_en": ""
       },
       "verb": {
         "infinitive": null,
@@ -55,14 +55,9 @@
     },
     "derived_words_sv": [
       {
-        "word": "kärleksaffärer",
+        "word": "kärlek",
         "type_en": "noun",
-        "meaning_en": "love affairs (plural)"
-      },
-      {
-        "word": "kärleksrelation",
-        "type_en": "noun",
-        "meaning_en": "love relationship"
+        "meaning_en": "love"
       },
       {
         "word": "kärleksbrev",
@@ -70,15 +65,26 @@
         "meaning_en": "love letter"
       },
       {
-        "word": "kärlekshistoria",
+        "word": "kärleksrelation",
         "type_en": "noun",
-        "meaning_en": "love story; romance"
+        "meaning_en": "romantic relationship"
+      },
+      {
+        "word": "affär",
+        "type_en": "noun",
+        "meaning_en": "affair (relationship); also 'business/shop' in other contexts"
+      },
+      {
+        "word": "affärspartner",
+        "type_en": "noun",
+        "meaning_en": "partner in an affair"
       }
     ],
     "synonyms_sv": [
       "affär",
+      "romans",
       "förhållande",
-      "romans"
+      "relation"
     ],
     "antonyms_sv": [],
     "linked_frames": [
@@ -93,79 +99,51 @@
       {
         "sense_id": "lu_affäre_die:1",
         "frame_id": "frame_personal_relationship",
-        "meaning_en": "a romantic relationship, often short and sometimes secret",
+        "meaning_en": "a romantic relationship, often secret or outside a committed relationship",
         "how_to_use_en": [
-          "Use about two people who are romantically involved: ha en kärleksaffär.",
-          "Often with adjectives like kort, passionerad, hemlig.",
-          "Often with verbs like inleda: inleda en kärleksaffär (med någon)."
+          "Use about two people who are romantically involved.",
+          "Often used when the relationship is secret or causes problems."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "X har en (kort/hemlig/passionerad) kärleksaffär",
-            "note_en": "Describes that someone is in a love affair."
+            "pattern": "inleda en (kort) kärleksaffär (med NGN)",
+            "meaning_en": "start a (short) love affair",
+            "note_en": "Often used when the affair begins at a specific point in time."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "X har en kärleksaffär med Y",
-            "note_en": "Names the other partner with med."
+            "pattern": "ha en (kort) kärleksaffär",
+            "meaning_en": "have a love affair",
+            "note_en": "Describes the existence of the affair."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "X inleder en (kort) kärleksaffär med Y",
-            "note_en": "Focus on starting the affair."
+            "pattern": "ha en kärleksaffär med NGN",
+            "meaning_en": "have an affair with someone",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "de/paret/de två har/inleder en kärleksaffär",
-            "note_en": "Partners expressed as a plural subject."
-          },
-          {
-            "pattern_id": "pat_5",
-            "pattern": "det antyds/misstänks att X har en kärleksaffär",
-            "note_en": "Used when it is only suggested or suspected."
+            "pattern": "en kärleksaffär mellan NÅGRA",
+            "meaning_en": "an affair between people",
+            "note_en": ""
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using kärleksaffär for any long-term relationship.",
-            "fix": "Use förhållande/relation for neutral long-term relationships.",
-            "explain_en": "kärleksaffär often sounds like a (possibly secret) affair, not just a normal relationship."
+            "error": "Using kärleksaffär for any long-term, official relationship.",
+            "fix": "Use förhållande/relation for a normal relationship; use kärleksaffär when it is an 'affair'.",
+            "explain_en": "Kärleksaffär often suggests something less official, sometimes secret."
           },
           {
-            "error": "Forgetting the preposition with a partner: *inleda en kärleksaffär henne.",
-            "fix": "Say: inleda en kärleksaffär med henne.",
-            "explain_en": "With a named partner, Swedish commonly uses med."
+            "error": "Confusing affär with only 'shop/business'.",
+            "fix": "In relationship contexts, affär/kärleksaffär can mean 'affair'.",
+            "explain_en": "Affär has multiple meanings; kärleksaffär is clearly romantic."
           }
         ],
         "required_example_count": 10,
         "examples": [
-          {
-            "ex_id": "b81532b0400859f65f20c6eb72a66ef91faf0042",
-            "sv": "Gösta träffar Hjalmars dotter Margit och de har en kort kärleksaffär.",
-            "en": "Gösta meets Hjalmar's daughter Margit and they have a short love affair.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partners",
-                "span_sv": "de"
-              }
-            ],
-            "gloss": "love affair",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Vad veta väl männen",
-              "text_url": "https://sv.wikipedia.org/wiki/Vad_veta_v%C3%A4l_m%C3%A4nnen",
-              "sentence_id": "e76bcdcc",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"kärleksaffär\"]"
-            }
-          },
           {
             "ex_id": "2c7df13884e361dc33eb60ec627f1a5c0335537f",
             "sv": "Han inleder en kort kärleksaffär med henne, men det leder till ödesdigra konsekvenser.",
@@ -181,8 +159,8 @@
                 "span_sv": "henne"
               }
             ],
-            "gloss": "love affair",
-            "level": "A2",
+            "gloss": "a love affair",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -192,37 +170,7 @@
               "text_title": "Fallgropen (film, 1948)",
               "text_url": "https://sv.wikipedia.org/wiki/Fallgropen_(film,_1948)",
               "sentence_id": "83d9cfa4",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"kärleksaffär\"]"
-            }
-          },
-          {
-            "ex_id": "b364e9e91b8bf801f757db58d54f818525632050",
-            "sv": "Rob inleder en passionerad kärleksaffär med den några år äldre Dr Helen Trent.",
-            "en": "Rob starts a passionate love affair with the a few years older Dr Helen Trent.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "Rob"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "den några år äldre Dr Helen Trent"
-              }
-            ],
-            "gloss": "love affair",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Tillbaka till Aidensfield",
-              "text_url": "https://sv.wikipedia.org/wiki/Tillbaka_till_Aidensfield",
-              "sentence_id": "d002917a",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"kärleksaffär\"]"
             }
           },
@@ -237,7 +185,7 @@
                 "span_sv": "de"
               }
             ],
-            "gloss": "love affair",
+            "gloss": "a love affair",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -248,7 +196,33 @@
               "text_title": "Amy Robsart",
               "text_url": "https://sv.wikipedia.org/wiki/Amy_Robsart",
               "sentence_id": "1f360d7b",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"kärleksaffär\"]"
+            }
+          },
+          {
+            "ex_id": "b81532b0400859f65f20c6eb72a66ef91faf0042",
+            "sv": "Gösta träffar Hjalmars dotter Margit och de har en kort kärleksaffär.",
+            "en": "Gösta meets Hjalmar's daughter Margit and they have a short love affair.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "de"
+              }
+            ],
+            "gloss": "a love affair",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Vad veta väl männen",
+              "text_url": "https://sv.wikipedia.org/wiki/Vad_veta_v%C3%A4l_m%C3%A4nnen",
+              "sentence_id": "e76bcdcc",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"kärleksaffär\"]"
             }
           },
@@ -259,11 +233,15 @@
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
+                "fe_id": "fe_partner_2",
+                "span_sv": "honom"
+              },
+              {
                 "fe_id": "fe_partners",
                 "span_sv": "paret"
               }
             ],
-            "gloss": "love affair",
+            "gloss": "a love affair",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -274,7 +252,7 @@
               "text_title": "Den allvarsamma leken",
               "text_url": "https://sv.wikipedia.org/wiki/Den_allvarsamma_leken",
               "sentence_id": "afe4e8df",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"kärleksaffär\"]"
             }
           },
@@ -289,8 +267,8 @@
                 "span_sv": "de två"
               }
             ],
-            "gloss": "love affair",
-            "level": "A2",
+            "gloss": "a love affair",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -300,7 +278,33 @@
               "text_title": "Titanic (film, 1997)",
               "text_url": "https://sv.wikipedia.org/wiki/Titanic_(film,_1997)",
               "sentence_id": "d21bd23f",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"kärleksaffär\"]"
+            }
+          },
+          {
+            "ex_id": "f0320d7da6967125810abe6ba83380cdbbfb39a7",
+            "sv": "Han arbetar ofta sena kvällar och det antyds i romanen att han har en kärleksaffär.",
+            "en": "He often works late evenings and it is hinted in the novel that he has a love affair.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Han"
+              }
+            ],
+            "gloss": "a love affair",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Försoning (roman, 2001)",
+              "text_url": "https://sv.wikipedia.org/wiki/F%C3%B6rsoning_(roman,_2001)",
+              "sentence_id": "908bb50b",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"kärleksaffär\"]"
             }
           },
@@ -319,7 +323,7 @@
                 "span_sv": "hans fru"
               }
             ],
-            "gloss": "love affair",
+            "gloss": "a love affair",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -330,22 +334,22 @@
               "text_title": "Den lilla butiken",
               "text_url": "https://sv.wikipedia.org/wiki/Den_lilla_butiken",
               "sentence_id": "d7b2ee9c",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"kärleksaffär\"]"
             }
           },
           {
-            "ex_id": "f0320d7da6967125810abe6ba83380cdbbfb39a7",
-            "sv": "Han arbetar ofta sena kvällar och det antyds i romanen att han har en kärleksaffär.",
-            "en": "He often works late evenings and it is hinted in the novel that he has a love affair.",
+            "ex_id": "00bb3036afe23b8c54aa909b94423b21602efcc1",
+            "sv": "Sharp har samma föräldrar som McEwan men föddes efter en kärleksaffär mellan föräldrarna före giftermålet.",
+            "en": "Sharp has the same parents as McEwan but was born after a love affair between the parents before the marriage.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_partner_1",
-                "span_sv": "han"
+                "fe_id": "fe_partners",
+                "span_sv": "föräldrarna"
               }
             ],
-            "gloss": "love affair",
+            "gloss": "a love affair",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -353,40 +357,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Försoning (roman, 2001)",
-              "text_url": "https://sv.wikipedia.org/wiki/F%C3%B6rsoning_(roman,_2001)",
-              "sentence_id": "908bb50b",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"kärleksaffär\"]"
-            }
-          },
-          {
-            "ex_id": "167f5670717fa4aeef2a4597d6bcc1fd9fbaeae4",
-            "sv": "Med Crampas har hon en hemlig kärleksaffär som förblir oupptäckt i många år.",
-            "en": "With Crampas she has a secret love affair that remains undiscovered for many years.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "hon"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Crampas"
-              }
-            ],
-            "gloss": "love affair",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Effi Briest",
-              "text_url": "https://sv.wikipedia.org/wiki/Effi_Briest",
-              "sentence_id": "872446ca",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "text_title": "Ian McEwan",
+              "text_url": "https://sv.wikipedia.org/wiki/Ian_McEwan",
+              "sentence_id": "bf9b66b9",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"kärleksaffär\"]"
             }
           }
@@ -394,15 +368,21 @@
       }
     ],
     "pronunciation": {
-      "ipa": null,
-      "stress_hint": "Stress usually on the first part: KÄR-leks-affär."
+      "ipa": "ˈɕæːr.lɛks.aˌfɛːr",
+      "stress_hint": "Main stress is on the first part: KÄR-leks-affär.",
+      "audio": {
+        "file": "audio/lu_affäre_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "kärleksaffär (indefinite singular)",
-        "kärleksaffären (definite singular)",
-        "kärleksaffärer (indefinite plural)",
-        "kärleksaffärerna (definite plural)"
+        "kärleksaffär",
+        "kärleksaffären",
+        "kärleksaffärer",
+        "kärleksaffärerna"
       ],
       "particle_or_reflexive": null
     }

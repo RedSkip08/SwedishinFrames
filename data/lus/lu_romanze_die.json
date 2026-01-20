@@ -28,11 +28,11 @@
     "morphology_sv": {
       "noun": {
         "gender": "en",
-        "indef_sg": "romans",
+        "indef_sg": "en romans",
         "def_sg": "romansen",
         "indef_pl": "romaner",
         "def_pl": "romanerna",
-        "note_en": "This entry is romans = a love relationship. Note: roman (with one s) is a different word meaning 'novel'."
+        "note_en": "As a relationship word, romans means a romance/affair; note that roman (with -n) is a novel."
       },
       "verb": {
         "infinitive": null,
@@ -51,23 +51,28 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": null
+      "note_en": ""
     },
     "derived_words_sv": [
       {
-        "word": "sommarromans",
-        "type_en": "noun",
-        "meaning_en": "summer romance"
-      },
-      {
         "word": "kärleksromans",
         "type_en": "noun",
-        "meaning_en": "love romance (romantic relationship)"
+        "meaning_en": "a love romance (often in stories)"
       },
       {
-        "word": "romansförfattare",
+        "word": "kortromans",
         "type_en": "noun",
-        "meaning_en": "romance novelist (writer of romance stories)"
+        "meaning_en": "a short romance"
+      },
+      {
+        "word": "sommarromans",
+        "type_en": "noun",
+        "meaning_en": "a summer romance"
+      },
+      {
+        "word": "hemlig romans",
+        "type_en": "other",
+        "meaning_en": "a secret romance"
       },
       {
         "word": "romantisk",
@@ -78,8 +83,8 @@
     "synonyms_sv": [
       "kärleksaffär",
       "affär",
-      "kärleksrelation",
-      "förhållande"
+      "förhållande",
+      "kärleksrelation"
     ],
     "antonyms_sv": [],
     "linked_frames": [
@@ -94,43 +99,54 @@
       {
         "sense_id": "lu_romanze_die:1",
         "frame_id": "frame_personal_relationship",
-        "meaning_en": "a romantic love relationship between two people, often starting and growing over time",
+        "meaning_en": "a romantic relationship, often new, secret, or not very serious",
         "how_to_use_en": [
-          "Use about two people who start or have a love relationship.",
-          "Often used in stories/films: a romance begins, grows, is interrupted, or is revived."
+          "Use for a romance between two people (often in stories).",
+          "Common with verbs like inleda, ha, växa, bli avbruten.",
+          "Often followed by mellan X och Y or med someone."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "en romans mellan X och Y",
-            "note_en": "Used for two partners: 'a romance between X and Y'."
+            "pattern": "en romans mellan [Partner_1] och [Partner_2]",
+            "meaning_en": "a romance between two people",
+            "note_en": "Very common when both partners are named."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "X och Y inleder en romans",
-            "note_en": "Means they start a romance."
+            "pattern": "[Partner_1] inleder en romans",
+            "meaning_en": "start a romance",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "det börjar (i hemlighet) växa en romans mellan X och Y",
-            "note_en": "A romance begins to grow (sometimes secretly)."
+            "pattern": "[Partner_1] har en (kort/efemär) romans med [Partner_2]",
+            "meaning_en": "have a (short) romance",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "ha en romans med X",
-            "note_en": "Means to have a romance/affair with someone."
+            "pattern": "det börjar växa en romans mellan [Partner_1] och [Partner_2]",
+            "meaning_en": "a romance begins to grow",
+            "note_en": "Often used for something that develops slowly."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "gå mot romans",
-            "note_en": "A relationship develops toward romance."
+            "pattern": "[Partners] romans blir avbruten / återuppväcka [Partners] romans",
+            "meaning_en": "their romance is interrupted/returns",
+            "note_en": "Uses a possessive like deras."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Confusing romans (love relationship) with roman (book).",
-            "fix": "Use romans for a love relationship; use roman for a novel.",
+            "error": "Confusing romans with roman.",
+            "fix": "Use romans for a romance; use roman for a novel.",
             "explain_en": "They look similar but mean different things in Swedish."
+          },
+          {
+            "error": "Saying *en romans mellan X med Y*.",
+            "fix": "Say en romans mellan X och Y, or en romans med Y.",
+            "explain_en": "Choose either mellan ... och ... or med, not both."
           }
         ],
         "required_example_count": 10,
@@ -150,7 +166,7 @@
                 "span_sv": "Tracy Milbanks"
               }
             ],
-            "gloss": "romance (love relationship)",
+            "gloss": "romans",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -161,37 +177,7 @@
               "text_title": "James Bond Junior",
               "text_url": "https://sv.wikipedia.org/wiki/James_Bond_Junior",
               "sentence_id": "dee51fac",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
-              "korp_query": "[word=\"romans\"]"
-            }
-          },
-          {
-            "ex_id": "6e128a47aada3c9e66becebdfcb9b307879e775c",
-            "sv": "Det börjar i hemlighet växa en romans mellan henne och Robin.",
-            "en": "A romance secretly begins to grow between her and Robin.",
-            "frame_id": "frame_personal_relationship",
-            "fe_tags": [
-              {
-                "fe_id": "fe_partner_1",
-                "span_sv": "henne"
-              },
-              {
-                "fe_id": "fe_partner_2",
-                "span_sv": "Robin"
-              }
-            ],
-            "gloss": "romance (love relationship)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Unge Robin Hood",
-              "text_url": "https://sv.wikipedia.org/wiki/Unge_Robin_Hood",
-              "sentence_id": "5261cb8b",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"romans\"]"
             }
           },
@@ -202,11 +188,15 @@
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "Allie Hamilton och Noah Calhoun"
+                "fe_id": "fe_partner_1",
+                "span_sv": "Allie Hamilton"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Noah Calhoun"
               }
             ],
-            "gloss": "romance (love relationship)",
+            "gloss": "romans",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -217,14 +207,14 @@
               "text_title": "Dagboken – Jag sökte dig och fann mitt hjärta",
               "text_url": "https://sv.wikipedia.org/wiki/Dagboken_%E2%80%93_Jag_s%C3%B6kte_dig_och_fann_mitt_hj%C3%A4rta",
               "sentence_id": "db2c6aaf",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"romans\"]"
             }
           },
           {
             "ex_id": "49f26ac60be8dedff6360cc45c82b0941aec94aa",
             "sv": "Den skildrar en blyg romans mellan en snabbköpskassörska och en sopåkare.",
-            "en": "It portrays a shy romance between a supermarket cashier and a garbage collector.",
+            "en": "It shows a shy romance between a supermarket cashier and a garbage collector.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
@@ -236,7 +226,7 @@
                 "span_sv": "en sopåkare"
               }
             ],
-            "gloss": "romance (love relationship)",
+            "gloss": "romans",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -247,7 +237,33 @@
               "text_title": "Skuggor i paradiset",
               "text_url": "https://sv.wikipedia.org/wiki/Skuggor_i_paradiset",
               "sentence_id": "d802bba5",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
+              "korp_query": "[word=\"romans\"]"
+            }
+          },
+          {
+            "ex_id": "023c5d4d121c2df3051713a634b1550a8a002740",
+            "sv": "Istället för en efemär romans, så har du nu en sambo.",
+            "en": "Instead of a short romance, you now have a live-in partner.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "du"
+              }
+            ],
+            "gloss": "romans",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Next Thing You Know",
+              "text_url": "https://sv.wikipedia.org/wiki/Next_Thing_You_Know",
+              "sentence_id": "b40a9ae8",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"romans\"]"
             }
           },
@@ -266,8 +282,8 @@
                 "span_sv": "advokaten Vittorio"
               }
             ],
-            "gloss": "romance (love relationship)",
-            "level": "B1",
+            "gloss": "romans",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -277,40 +293,44 @@
               "text_title": "Tea with Mussolini",
               "text_url": "https://sv.wikipedia.org/wiki/Tea_with_Mussolini",
               "sentence_id": "1c307f8a",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"romans\"]"
             }
           },
           {
-            "ex_id": "023c5d4d121c2df3051713a634b1550a8a002740",
-            "sv": "Istället för en efemär romans, så har du nu en sambo.",
-            "en": "Instead of a short romance, you now have a live-in partner.",
+            "ex_id": "189e7f4e594b1b6eb5dadb0eab73bb109de0209e",
+            "sv": "Julia har en kort romans med Quentin Costa när han fortfarande jobbar på kliniken.",
+            "en": "Julia has a short romance with Quentin Costa when he still works at the clinic.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
                 "fe_id": "fe_partner_1",
-                "span_sv": "du"
+                "span_sv": "Julia"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Quentin Costa"
               }
             ],
-            "gloss": "romance (love relationship)",
-            "level": "B1",
+            "gloss": "romans",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Next Thing You Know",
-              "text_url": "https://sv.wikipedia.org/wiki/Next_Thing_You_Know",
-              "sentence_id": "b40a9ae8",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "text_title": "Nip/Tuck",
+              "text_url": "https://sv.wikipedia.org/wiki/Nip/Tuck",
+              "sentence_id": "db33439c",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"romans\"]"
             }
           },
           {
             "ex_id": "342f0cb5059e5a5734ba454993a40c6689db30eb",
             "sv": "Detta i hopp om att en dag återuppväcka deras förlorade romans.",
-            "en": "This in the hope of one day reviving their lost romance.",
+            "en": "This is in the hope of one day bringing their lost romance back.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
@@ -318,7 +338,7 @@
                 "span_sv": "deras"
               }
             ],
-            "gloss": "romance (love relationship)",
+            "gloss": "romans",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -329,33 +349,33 @@
               "text_title": "Den store Gatsby",
               "text_url": "https://sv.wikipedia.org/wiki/Den_store_Gatsby",
               "sentence_id": "b6e3856a",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"romans\"]"
             }
           },
           {
-            "ex_id": "9469a9d4fb8e85af3d44304a86bd8003997af5d6",
-            "sv": "De tre ungdomarna börjar umgås gemensamt och Tommy och Lena inleder en romans.",
-            "en": "The three young people start spending time together and Tommy and Lena start a romance.",
+            "ex_id": "22d2c81ef4c14a24120397b755a05b6448d68a29",
+            "sv": "Men deras romans blir avbruten när Eric anländer och planerna för rånet skall börja.",
+            "en": "But their romance is interrupted when Eric arrives and the plans for the robbery are going to start.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
                 "fe_id": "fe_partners",
-                "span_sv": "Tommy och Lena"
+                "span_sv": "deras"
               }
             ],
-            "gloss": "romance (love relationship)",
-            "level": "A2",
+            "gloss": "romans",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Upp till kamp",
-              "text_url": "https://sv.wikipedia.org/wiki/Upp_till_kamp",
-              "sentence_id": "a763ef5b",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "text_title": "Killing Zoe",
+              "text_url": "https://sv.wikipedia.org/wiki/Killing_Zoe",
+              "sentence_id": "dad6d70c",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"romans\"]"
             }
           },
@@ -374,7 +394,7 @@
                 "span_sv": "henne"
               }
             ],
-            "gloss": "romance (love relationship)",
+            "gloss": "romans",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -385,33 +405,37 @@
               "text_title": "Vampire Knight",
               "text_url": "https://sv.wikipedia.org/wiki/Vampire_Knight",
               "sentence_id": "c4dc9484",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"romans\"]"
             }
           },
           {
-            "ex_id": "22d2c81ef4c14a24120397b755a05b6448d68a29",
-            "sv": "Men deras romans blir avbruten när Eric anländer och planerna för rånet skall börja.",
-            "en": "But their romance is interrupted when Eric arrives and the plans for the robbery are to begin.",
+            "ex_id": "6e128a47aada3c9e66becebdfcb9b307879e775c",
+            "sv": "Det börjar i hemlighet växa en romans mellan henne och Robin.",
+            "en": "A romance secretly begins to grow between her and Robin.",
             "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_partners",
-                "span_sv": "deras"
+                "fe_id": "fe_partner_1",
+                "span_sv": "henne"
+              },
+              {
+                "fe_id": "fe_partner_2",
+                "span_sv": "Robin"
               }
             ],
-            "gloss": "romance (love relationship)",
-            "level": "B1",
+            "gloss": "romans",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Killing Zoe",
-              "text_url": "https://sv.wikipedia.org/wiki/Killing_Zoe",
-              "sentence_id": "dad6d70c",
-              "retrieved_at": "2026-01-17T22:37:40+00:00",
+              "text_title": "Unge Robin Hood",
+              "text_url": "https://sv.wikipedia.org/wiki/Unge_Robin_Hood",
+              "sentence_id": "5261cb8b",
+              "retrieved_at": "2026-01-20T01:27:07+00:00",
               "korp_query": "[word=\"romans\"]"
             }
           }
@@ -419,12 +443,21 @@
       }
     ],
     "pronunciation": {
-      "ipa": null,
-      "stress_hint": "Stress on the second syllable: ro-MANS."
+      "ipa": "rʊˈmɑːns",
+      "stress_hint": "Stress is usually on the second syllable.",
+      "audio": {
+        "file": "audio/lu_romanze_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "romans – romansen – romaner – romanerna"
+        "en romans",
+        "romansen",
+        "romaner",
+        "romanerna"
       ],
       "particle_or_reflexive": null
     }

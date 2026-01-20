@@ -31,7 +31,7 @@
         "def_sg": null,
         "indef_pl": null,
         "def_pl": null,
-        "note_en": null
+        "note_en": ""
       },
       "verb": {
         "infinitive": null,
@@ -50,171 +50,99 @@
         "neuter": "skilt",
         "plural_def": "skilda"
       },
-      "note_en": "Used mainly as a status adjective about a person’s marital status (divorced)."
+      "note_en": "Often used as a predicate adjective (after är/vara), especially about civil status: vara skild."
     },
     "derived_words_sv": [
       {
         "word": "skilsmässa",
         "type_en": "noun",
-        "meaning_en": "divorce (the event/legal process)"
+        "meaning_en": "divorce (the legal end of a marriage)"
       },
       {
-        "word": "skilja sig",
+        "word": "skilja",
         "type_en": "verb",
-        "meaning_en": "to get divorced"
+        "meaning_en": "separate; divorce"
       },
       {
-        "word": "skilsmässobarn",
-        "type_en": "noun",
-        "meaning_en": "child of divorced parents"
+        "word": "skiljas",
+        "type_en": "verb",
+        "meaning_en": "separate (from each other); get divorced"
       },
       {
-        "word": "skilsmässopapper",
+        "word": "frånskild",
+        "type_en": "adjective",
+        "meaning_en": "divorced (more formal)"
+      },
+      {
+        "word": "skildring",
         "type_en": "noun",
-        "meaning_en": "divorce papers"
+        "meaning_en": "description; portrayal"
       }
     ],
     "synonyms_sv": [
       "frånskild",
-      "skilsmässa"
+      "separerad"
     ],
     "antonyms_sv": [
       "gift"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_marriage",
-        "frame_name_en": "Marriage",
-        "frame_slug": "marriage",
+        "frame_id": "frame_personal_relationship",
+        "frame_name_en": "Personal Relationship",
+        "frame_slug": "personal_relationship",
         "sense_id": "lu_geschieden:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_geschieden:1",
-        "frame_id": "frame_marriage",
-        "meaning_en": "not married anymore because the marriage has ended legally.",
+        "frame_id": "frame_personal_relationship",
+        "meaning_en": "divorced; no longer married to a former spouse",
         "how_to_use_en": [
-          "Use after vara/bliva to state marital status: är skild.",
-          "You can add time words like nu/numera.",
-          "You can mention the ex-partner with från/ifrån."
+          "Use after vara/är to talk about someone’s civil status.",
+          "Often followed by från + person to name the former spouse."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "X är skild",
-            "note_en": "Basic statement of being divorced."
+            "meaning_en": "X is divorced",
+            "note_en": "Common in biographies and civil-status contexts."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "X är nu/numera skild",
-            "note_en": "Adds a time perspective (“now/nowadays”)."
-          },
-          {
-            "pattern_id": "pat_3",
-            "pattern": "X var skild från/ifrån Y",
-            "note_en": "Mentions the former spouse/partner."
-          },
-          {
-            "pattern_id": "pat_4",
-            "pattern": "X har varit gift och skild (två/tre) gånger",
-            "note_en": "Talks about repeated marriages/divorces."
-          },
-          {
-            "pattern_id": "pat_5",
-            "pattern": "om man är ogift, änkling eller skild",
-            "note_en": "Listed as an official marital status category."
+            "pattern": "X är skild från Y",
+            "meaning_en": "X is divorced from Y",
+            "note_en": "Names the former spouse with från."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *skild* to mean “separated” in general (not about marriage).",
-            "fix": "Use *separerad* for living apart; use *skild* for legally divorced.",
-            "explain_en": "In these examples, *skild* is a civil status (divorced), often listed with *ogift* and *änkling*."
+            "error": "Using *skild* for a temporary break-up (not marriage).",
+            "fix": "Use separerad or göra slut (depending on context).",
+            "explain_en": "Skild normally means legally divorced (after being married)."
+          },
+          {
+            "error": "Forgetting neuter/plural agreement: *ett skild barn*, *de är skild*.",
+            "fix": "Say ett skilt … / de är skilda.",
+            "explain_en": "Adjectives agree with gender and number: skild–skilt–skilda."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "90f9060e7fb766d8fc6df790aadaa57677a81bb3",
-            "sv": "Magnus är skild och har ett förhållande med teckningslärarinnan på skolan där han arbetar.",
-            "en": "Magnus is divorced and has a relationship with the drawing teacher at the school where he works.",
-            "frame_id": "frame_marriage",
+            "ex_id": "497662e0d6327378ab4ba7a1a12151fda7a740c1",
+            "sv": "Utbyggnaden ska vara självfinansierat och finansieringen skall vara skild från statens finansiering.",
+            "en": "The expansion must be self-financed and the financing must be separate from the state's financing.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Magnus"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "skild"
+                "fe_id": "fe_partners",
+                "span_sv": "finansieringen"
               }
             ],
-            "gloss": "divorced",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Bang! (film, 1977)",
-              "text_url": "https://sv.wikipedia.org/wiki/Bang!_(film,_1977)",
-              "sentence_id": "d24b4b15",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"skild\"]"
-            }
-          },
-          {
-            "ex_id": "fb79840224b3038a267cf1b9ff25e4c3575378ad",
-            "sv": "Han har tidigare varit gift men är nu skild och har en vuxen son.",
-            "en": "He has earlier been married but is now divorced and has an adult son.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Han"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "nu"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "skild"
-              }
-            ],
-            "gloss": "divorced",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Varg Veum",
-              "text_url": "https://sv.wikipedia.org/wiki/Varg_Veum",
-              "sentence_id": "5e7feace",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"skild\"]"
-            }
-          },
-          {
-            "ex_id": "b90aea0e4e9a75f49b368551ed55a5633b0fb5c2",
-            "sv": "Skatteverkets folkbokföring registrerar till exempel om man är ogift, änkling eller skild.",
-            "en": "The Tax Agency's population register records, for example, if one is unmarried, widowed, or divorced.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_authority",
-                "span_sv": "Skatteverkets folkbokföring"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "skild"
-              }
-            ],
-            "gloss": "divorced",
+            "gloss": "skild = divorced",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -222,127 +150,25 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Civilstånd",
-              "text_url": "https://sv.wikipedia.org/wiki/Civilst%C3%A5nd",
-              "sentence_id": "e856e20d",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "text_title": "Panamakanalens utbyggnad",
+              "text_url": "https://sv.wikipedia.org/wiki/Panamakanalens_utbyggnad",
+              "sentence_id": "c09a9cfa",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"skild\"]"
             }
           },
           {
-            "ex_id": "1662a7cfe95e8cb0bf9b7c79d4ec3e1b3e0bbdf5",
-            "sv": "Dhahri är skild och har två barn med två olika kvinnor.",
-            "en": "Dhahri is divorced and has two children with two different women.",
-            "frame_id": "frame_marriage",
+            "ex_id": "8c3053f857bc53859eb7b34e64e61d3c9bff092d",
+            "sv": "Från 2015 kom denna del att utgöra en egen småort, skild från Kubbe.",
+            "en": "From 2015 this part came to form its own small locality, separate from Kubbe.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Dhahri"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "skild"
+                "fe_id": "fe_partners",
+                "span_sv": "denna del"
               }
             ],
-            "gloss": "divorced",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Mounir Dhahri",
-              "text_url": "https://sv.wikipedia.org/wiki/Mounir_Dhahri",
-              "sentence_id": "f312c94d",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"skild\"]"
-            }
-          },
-          {
-            "ex_id": "ec1fde920f1ba2af7bcbbf69ec4807ebf9aa1446",
-            "sv": "Csihar är bosatt i Budapest, är skild och har två barn.",
-            "en": "Csihar lives in Budapest, is divorced, and has two children.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Csihar"
-              },
-              {
-                "fe_id": "fe_place",
-                "span_sv": "i Budapest"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "skild"
-              }
-            ],
-            "gloss": "divorced",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Attila Csihar",
-              "text_url": "https://sv.wikipedia.org/wiki/Attila_Csihar",
-              "sentence_id": "609ca7ed",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"skild\"]"
-            }
-          },
-          {
-            "ex_id": "27d872fb65623ca49d3c7e1b8ca8c3b83b5b564a",
-            "sv": "Ivey har varit gift och skild två gånger och har inga barn.",
-            "en": "Ivey has been married and divorced two times and has no children.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Ivey"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "skild"
-              }
-            ],
-            "gloss": "divorced",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Kay Ivey",
-              "text_url": "https://sv.wikipedia.org/wiki/Kay_Ivey",
-              "sentence_id": "5ddb527d",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"skild\"]"
-            }
-          },
-          {
-            "ex_id": "65fc822fcd51fe9a293a1771606798b1e52f57f3",
-            "sv": "Under sitt 43-åriga liv var han gift och skild tre gånger.",
-            "en": "During his 43-year life he was married and divorced three times.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_time",
-                "span_sv": "Under sitt 43-åriga liv"
-              },
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "skild"
-              }
-            ],
-            "gloss": "divorced",
+            "gloss": "skild = divorced",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -350,10 +176,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Robert Addie",
-              "text_url": "https://sv.wikipedia.org/wiki/Robert_Addie",
-              "sentence_id": "500d285a",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "text_title": "Norrflärke",
+              "text_url": "https://sv.wikipedia.org/wiki/Norrfl%C3%A4rke",
+              "sentence_id": "2287ec73",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"skild\"]"
             }
           },
@@ -361,22 +187,18 @@
             "ex_id": "48ed3d9397ba49959bd4385cbb283e2c18b62773",
             "sv": "Resnik var skild från Michael D. Oldak och hade inga barn.",
             "en": "Resnik was divorced from Michael D. Oldak and had no children.",
-            "frame_id": "frame_marriage",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
+                "fe_id": "fe_partner_1",
                 "span_sv": "Resnik"
               },
               {
-                "fe_id": "fe_relationship",
-                "span_sv": "skild"
-              },
-              {
-                "fe_id": "fe_spouse_2",
+                "fe_id": "fe_partner_2",
                 "span_sv": "Michael D. Oldak"
               }
             ],
-            "gloss": "divorced",
+            "gloss": "skild (från) = divorced (from)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -387,68 +209,22 @@
               "text_title": "Judith Resnik",
               "text_url": "https://sv.wikipedia.org/wiki/Judith_Resnik",
               "sentence_id": "0766970a",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"skild\"]"
             }
           },
           {
-            "ex_id": "7d933bdae234d7553c98ba243d040203fd0133d5",
-            "sv": "Piper är skild ifrån Leo, och de har en dotter som heter Melinda.",
-            "en": "Piper is divorced from Leo, and they have a daughter who is called Melinda.",
-            "frame_id": "frame_marriage",
+            "ex_id": "90f9060e7fb766d8fc6df790aadaa57677a81bb3",
+            "sv": "Magnus är skild och har ett förhållande med teckningslärarinnan på skolan där han arbetar.",
+            "en": "Magnus is divorced and has a relationship with the drawing teacher at the school where he works.",
+            "frame_id": "frame_personal_relationship",
             "fe_tags": [
               {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Piper"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "skild"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "Leo"
+                "fe_id": "fe_partner_1",
+                "span_sv": "Magnus"
               }
             ],
-            "gloss": "divorced",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Piper Halliwell",
-              "text_url": "https://sv.wikipedia.org/wiki/Piper_Halliwell",
-              "sentence_id": "afeb612e",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
-              "korp_query": "[word=\"skild\"]"
-            }
-          },
-          {
-            "ex_id": "94d5955428dc56256c45c3f2fa481e2fe8361f3e",
-            "sv": "Han har varit gift med läkaren Louise Storckenfeldt (född Hyldahl), men är numera skild.",
-            "en": "He has been married to the doctor Louise Storckenfeldt (born Hyldahl), but is nowadays divorced.",
-            "frame_id": "frame_marriage",
-            "fe_tags": [
-              {
-                "fe_id": "fe_spouse_1",
-                "span_sv": "Han"
-              },
-              {
-                "fe_id": "fe_spouse_2",
-                "span_sv": "Louise Storckenfeldt"
-              },
-              {
-                "fe_id": "fe_time",
-                "span_sv": "numera"
-              },
-              {
-                "fe_id": "fe_relationship",
-                "span_sv": "skild"
-              }
-            ],
-            "gloss": "divorced",
+            "gloss": "skild = divorced",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -456,10 +232,166 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Wilhelm Engström",
-              "text_url": "https://sv.wikipedia.org/wiki/Wilhelm_Engstr%C3%B6m",
-              "sentence_id": "526daa34",
-              "retrieved_at": "2026-01-17T23:21:08+00:00",
+              "text_title": "Bang! (film, 1977)",
+              "text_url": "https://sv.wikipedia.org/wiki/Bang!_(film,_1977)",
+              "sentence_id": "d24b4b15",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"skild\"]"
+            }
+          },
+          {
+            "ex_id": "c427f2a740dd39a0e093f8925c05c516f9d7bcbd",
+            "sv": "I England är i regel den civila rättskipningen skild från den kriminella.",
+            "en": "In England, as a rule, the civil administration of justice is separate from the criminal one.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "den civila rättskipningen"
+              }
+            ],
+            "gloss": "skild = divorced",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Brittiskt rättsväsen",
+              "text_url": "https://sv.wikipedia.org/wiki/Brittiskt_r%C3%A4ttsv%C3%A4sen",
+              "sentence_id": "fd4236ca",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"skild\"]"
+            }
+          },
+          {
+            "ex_id": "0313c68ffd199d5749c95d26f4e9ed4916aebdb0",
+            "sv": "Undersidan är vit, skild från ovansidan genom en orange linje.",
+            "en": "The underside is white, separated from the top side by an orange line.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "Undersidan"
+              }
+            ],
+            "gloss": "skild = divorced",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sciurus flammifer",
+              "text_url": "https://sv.wikipedia.org/wiki/Sciurus_flammifer",
+              "sentence_id": "a2c49800",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"skild\"]"
+            }
+          },
+          {
+            "ex_id": "df9dc3dd0d8388d1066550688e13b2c5996ce648",
+            "sv": "Genom Floridasundet är halvön i söder skild från Kuba och Bahamas.",
+            "en": "Through the Florida Strait, the peninsula in the south is separated from Cuba and the Bahamas.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "halvön i söder"
+              }
+            ],
+            "gloss": "skild = divorced",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Florida",
+              "text_url": "https://sv.wikipedia.org/wiki/Florida",
+              "sentence_id": "53227c05",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"skild\"]"
+            }
+          },
+          {
+            "ex_id": "f964c3d0d8de5963310d972657b1c313e449ca75",
+            "sv": "I låtsas-läge är istället den yttre verkligheten helt skild från den inre.",
+            "en": "In pretend mode, the outer reality is instead completely separate from the inner one.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partners",
+                "span_sv": "den yttre verkligheten"
+              }
+            ],
+            "gloss": "skild = divorced",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mentalisering",
+              "text_url": "https://sv.wikipedia.org/wiki/Mentalisering",
+              "sentence_id": "d808afc6",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"skild\"]"
+            }
+          },
+          {
+            "ex_id": "fb79840224b3038a267cf1b9ff25e4c3575378ad",
+            "sv": "Han har tidigare varit gift men är nu skild och har en vuxen son.",
+            "en": "He has previously been married but is now divorced and has an adult son.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "Han"
+              }
+            ],
+            "gloss": "skild = divorced",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Varg Veum",
+              "text_url": "https://sv.wikipedia.org/wiki/Varg_Veum",
+              "sentence_id": "5e7feace",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
+              "korp_query": "[word=\"skild\"]"
+            }
+          },
+          {
+            "ex_id": "b90aea0e4e9a75f49b368551ed55a5633b0fb5c2",
+            "sv": "Skatteverkets folkbokföring registrerar till exempel om man är ogift, änkling eller skild.",
+            "en": "The Swedish Tax Agency's population register records, for example, if you are unmarried, widowed, or divorced.",
+            "frame_id": "frame_personal_relationship",
+            "fe_tags": [
+              {
+                "fe_id": "fe_partner_1",
+                "span_sv": "man"
+              }
+            ],
+            "gloss": "skild = divorced",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Civilstånd",
+              "text_url": "https://sv.wikipedia.org/wiki/Civilst%C3%A5nd",
+              "sentence_id": "e856e20d",
+              "retrieved_at": "2026-01-20T01:27:06+00:00",
               "korp_query": "[word=\"skild\"]"
             }
           }
@@ -467,14 +399,20 @@
       }
     ],
     "pronunciation": {
-      "ipa": null,
-      "stress_hint": "one syllable; stress on skild"
+      "ipa": "ɧɪld",
+      "stress_hint": "One syllable; the main stress is on skild.",
+      "audio": {
+        "file": "audio/lu_geschieden.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "skild (common gender)",
-        "skilt (neuter)",
-        "skilda (plural/definite)"
+        "skild",
+        "skilt",
+        "skilda"
       ],
       "particle_or_reflexive": null
     }
