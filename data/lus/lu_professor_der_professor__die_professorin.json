@@ -3,7 +3,7 @@
     "id": "lu_professor_der_professor__die_professorin",
     "source_de": {
       "lu_de_raw": "Professor: der Professor / die Professorin",
-      "lu_de_normalized": "Professor",
+      "lu_de_normalized": "Professor/Professorin",
       "gender_variants_de": [
         "der Professor",
         "die Professorin"
@@ -35,7 +35,7 @@
         "def_sg": "professorn",
         "indef_pl": "professorer",
         "def_pl": "professorerna",
-        "note_en": "A title/role at a university; often used without an article in biographical style."
+        "note_en": "Job title at a university; used for people of any gender."
       },
       "verb": {
         "infinitive": null,
@@ -60,12 +60,7 @@
       {
         "word": "professur",
         "type_en": "noun",
-        "meaning_en": "a professorship (a professor position)"
-      },
-      {
-        "word": "professorstitel",
-        "type_en": "noun",
-        "meaning_en": "the title of professor"
+        "meaning_en": "a professor position/chair at a university"
       },
       {
         "word": "professorskollega",
@@ -73,19 +68,21 @@
         "meaning_en": "a colleague who is a professor"
       },
       {
+        "word": "professorsstol",
+        "type_en": "noun",
+        "meaning_en": "a professor’s chair/position (academic post)"
+      },
+      {
         "word": "professorsdotter",
         "type_en": "noun",
-        "meaning_en": "a professor’s daughter (family word)"
+        "meaning_en": "a professor’s daughter (family relation word)"
       }
     ],
     "synonyms_sv": [
-      "universitetslärare",
-      "lärare",
-      "akademiker"
+      "universitetsprofessor",
+      "lärare"
     ],
-    "antonyms_sv": [
-      "student"
-    ],
+    "antonyms_sv": [],
     "linked_frames": [
       {
         "frame_id": "frame_education",
@@ -98,47 +95,47 @@
       {
         "sense_id": "lu_professor_der_professor__die_professorin:1",
         "frame_id": "frame_education",
-        "meaning_en": "a person who teaches and works as a professor at a university",
+        "meaning_en": "a senior university teacher and researcher, often responsible for a subject area",
         "how_to_use_en": [
-          "Use for a university teacher with the title professor.",
-          "Often followed by the subject with i and the institution with vid."
+          "Use for a person’s academic title at a university.",
+          "Often followed by i + subject and/or vid + university."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "vara professor i + Ämne",
-            "meaning_en": "be professor of a subject",
+            "pattern": "vara professor i + ÄMNE",
+            "meaning_en": "be a professor of a subject",
             "note_en": "Used to state the academic field."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "vara professor vid + Institution",
-            "meaning_en": "be professor at an institution",
-            "note_en": "Common in biographies and CV-style text."
+            "pattern": "vara professor vid + INSTITUTION",
+            "meaning_en": "be a professor at an institution",
+            "note_en": "Common with universities and faculties."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "bli professor (där) + Årtal",
-            "meaning_en": "become a professor",
-            "note_en": "Often with a year and sometimes där referring to the institution."
+            "pattern": "vara professor i + ÄMNE + vid + INSTITUTION",
+            "meaning_en": "be a professor of X at Y",
+            "note_en": "Combines field and workplace."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "(idag) professor vid + Institution",
-            "meaning_en": "currently a professor at",
-            "note_en": "Idag marks the current situation."
+            "pattern": "bli professor (där) + ÅRTAL",
+            "meaning_en": "become a professor (there) + year",
+            "note_en": "Often used in biographies."
           }
         ],
         "common_errors_en": [
           {
             "error": "Using professor for any school teacher.",
-            "fix": "Use lärare for general teachers; use professor mainly at universities.",
-            "explain_en": "In Swedish, professor is a specific academic title, not a general word for teacher."
+            "fix": "Use lärare for general teacher; use professor for university title.",
+            "explain_en": "In Swedish, professor is mainly a university title, as in the examples."
           },
           {
-            "error": "Saying *professor på universitetet* in this sense.",
-            "fix": "Say professor vid [universitet].",
-            "explain_en": "The examples use vid to mark the institution."
+            "error": "Forgetting the preposition in subject/institution phrases.",
+            "fix": "Say professor i + ämne, professor vid + universitet.",
+            "explain_en": "The examples show i for the subject and vid for the institution."
           }
         ],
         "required_example_count": 10,
@@ -173,7 +170,7 @@
               "text_title": "Per Persson (språkvetare)",
               "text_url": "https://sv.wikipedia.org/wiki/Per_Persson_(spr%C3%A5kvetare)",
               "sentence_id": "49f721b7",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
@@ -203,14 +200,14 @@
               "text_title": "Powerformer",
               "text_url": "https://sv.wikipedia.org/wiki/Powerformer",
               "sentence_id": "a071a167",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
           {
             "ex_id": "db5917a2e98322b92174ec3a553311ecb9ca70c6",
             "sv": "Han var lärare och senare tillförordnad professor vid Åbo Akademi 1966-1977.",
-            "en": "He was a teacher and later acting professor at Åbo Akademi 1966–1977.",
+            "en": "He was a teacher and later acting professor at Åbo Akademi in 1966–1977.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -233,7 +230,7 @@
               "text_title": "Per Stenius (kemist)",
               "text_url": "https://sv.wikipedia.org/wiki/Per_Stenius_(kemist)",
               "sentence_id": "a2d797c2",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
@@ -263,23 +260,23 @@
               "text_title": "James Rainwater",
               "text_url": "https://sv.wikipedia.org/wiki/James_Rainwater",
               "sentence_id": "2a51956a",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
           {
-            "ex_id": "40ac18dfeb2319c74d9dab5041cd3b1c9cdad4b1",
-            "sv": "1999 blev hon professor vid Linköpings universitet, där hon leder ' Tema Gender '.",
-            "en": "In 1999 she became a professor at Linköping University, where she leads 'Tema Gender'.",
+            "ex_id": "5f837b3152f2b4fdf376ec56d1dbfef664f406a0",
+            "sv": "Han fick en post vid Johns Hopkins University och blev professor där 1937.",
+            "en": "He got a position at Johns Hopkins University and became a professor there in 1937.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_teacher",
-                "span_sv": "hon"
+                "span_sv": "Han"
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "Linköpings universitet"
+                "span_sv": "Johns Hopkins University"
               }
             ],
             "gloss": "professor (university teacher)",
@@ -290,10 +287,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Nina Lykke",
-              "text_url": "https://sv.wikipedia.org/wiki/Nina_Lykke",
-              "sentence_id": "4ba97fe3",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "text_title": "Oscar Zariski",
+              "text_url": "https://sv.wikipedia.org/wiki/Oscar_Zariski",
+              "sentence_id": "b9dbd1be",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
@@ -327,7 +324,41 @@
               "text_title": "Dan Egonsson",
               "text_url": "https://sv.wikipedia.org/wiki/Dan_Egonsson",
               "sentence_id": "8eab09ea",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"professor\"]"
+            }
+          },
+          {
+            "ex_id": "a6a4f0d651f6a6f3cf8616271fb35c9935bcb16c",
+            "sv": "Vid sin död var hon professor i etik och statsvetenskap vid Stanford University.",
+            "en": "At her death she was a professor of ethics and political science at Stanford University.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "etik och statsvetenskap"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Stanford University"
+              }
+            ],
+            "gloss": "professor (university teacher)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Susan Moller Okin",
+              "text_url": "https://sv.wikipedia.org/wiki/Susan_Moller_Okin",
+              "sentence_id": "4f543df9",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
@@ -357,48 +388,14 @@
               "text_title": "Viktor Undén",
               "text_url": "https://sv.wikipedia.org/wiki/Viktor_Und%C3%A9n",
               "sentence_id": "70494b30",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"professor\"]"
-            }
-          },
-          {
-            "ex_id": "39b0ab38011c883cb217234fb1cb735b6c249986",
-            "sv": "Oosterzee blev 1863 teologie professor och predikant vid universitetet i Utrecht.",
-            "en": "Oosterzee became in 1863 a professor of theology and a preacher at the University of Utrecht.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "Oosterzee"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "teologie"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "universitetet i Utrecht"
-              }
-            ],
-            "gloss": "professor (university teacher)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Johannes Jacobus van Oosterzee",
-              "text_url": "https://sv.wikipedia.org/wiki/Johannes_Jacobus_van_Oosterzee",
-              "sentence_id": "40cc1382",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
           {
             "ex_id": "9a572e3d5a25d120d0b4b605a174ef2bd6888520",
             "sv": "Han var professor i pedagogik och didaktik vid Helsingfors universitet 1862 – 1882.",
-            "en": "He was a professor of pedagogy and didactics at the University of Helsinki 1862–1882.",
+            "en": "He was a professor of pedagogy and didactics at the University of Helsinki in 1862–1882.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -425,7 +422,7 @@
               "text_title": "Zacharias Joachim Cleve",
               "text_url": "https://sv.wikipedia.org/wiki/Zacharias_Joachim_Cleve",
               "sentence_id": "32192bf9",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
@@ -459,7 +456,7 @@
               "text_title": "Martha Minow",
               "text_url": "https://sv.wikipedia.org/wiki/Martha_Minow",
               "sentence_id": "b40c54e4",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           }
@@ -467,12 +464,18 @@
       }
     ],
     "pronunciation": {
-      "ipa": "pruˈfɛsːʊr",
-      "stress_hint": "Stress is on the second syllable: pro-FESS-or."
+      "ipa": "prʊˈfɛsːʊr",
+      "stress_hint": "Stress is on the last part: pro-FESS-or.",
+      "audio": {
+        "file": "audio/lu_professor_der_professor__die_professorin.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "professor (en)",
+        "en professor",
         "professorn",
         "professorer",
         "professorerna"

@@ -21,7 +21,7 @@
     "forms": [
       "ett bibliotek",
       "biblioteket",
-      "flera bibliotek",
+      "bibliotek",
       "biblioteken"
     ],
     "english_equivalent_en": "library",
@@ -32,7 +32,7 @@
         "def_sg": "biblioteket",
         "indef_pl": "bibliotek",
         "def_pl": "biblioteken",
-        "note_en": "Neuter noun (ett). Plural is the same as singular: ett bibliotek – flera bibliotek."
+        "note_en": "Neuter noun (ett). Same form in singular and plural indefinite."
       },
       "verb": {
         "infinitive": null,
@@ -55,9 +55,19 @@
     },
     "derived_words_sv": [
       {
-        "word": "stadsbibliotek",
+        "word": "bibliotekarie",
         "type_en": "noun",
-        "meaning_en": "city public library"
+        "meaning_en": "librarian"
+      },
+      {
+        "word": "bibliotekschef",
+        "type_en": "noun",
+        "meaning_en": "head of a library"
+      },
+      {
+        "word": "biblioteksbok",
+        "type_en": "noun",
+        "meaning_en": "library book"
       },
       {
         "word": "skolbibliotek",
@@ -65,24 +75,15 @@
         "meaning_en": "school library"
       },
       {
-        "word": "universitetsbibliotek",
+        "word": "arbetarbibliotek",
         "type_en": "noun",
-        "meaning_en": "university library"
-      },
-      {
-        "word": "bibliotekarie",
-        "type_en": "noun",
-        "meaning_en": "librarian"
-      },
-      {
-        "word": "biblioteksbok",
-        "type_en": "noun",
-        "meaning_en": "library book"
+        "meaning_en": "workers' library"
       }
     ],
     "synonyms_sv": [
       "boklånesamling",
-      "stadsbibliotek"
+      "bokmagasin",
+      "läsesal"
     ],
     "antonyms_sv": [],
     "linked_frames": [
@@ -97,41 +98,42 @@
       {
         "sense_id": "lu_bibliothek_die:1",
         "frame_id": "frame_education",
-        "meaning_en": "a place or institution where people can access and borrow books and other materials",
+        "meaning_en": "a place or institution where people can read or borrow books and other materials",
         "how_to_use_en": [
-          "Use it for a public, school, or other institution with books and reading materials.",
-          "Often appears with an article: ett bibliotek, biblioteket."
+          "Use it for a public, school, or museum library as an institution or place.",
+          "Often used with a possessor: a town’s, school’s, or museum’s library.",
+          "Can be described with adjectives like offentligt or vetenskapligt."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "ett bibliotek",
-            "meaning_en": "a library (indefinite)",
-            "note_en": ""
+            "pattern": "X:s bibliotek",
+            "meaning_en": "someone’s/something’s library",
+            "note_en": "Common for institutions and places (e.g., a museum’s or a village’s library)."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "[platsens] bibliotek (t.ex. byns bibliotek)",
-            "meaning_en": "the library of a place",
-            "note_en": "Genitive -s shows belonging (the village’s library)."
+            "pattern": "ett bibliotek i + plats",
+            "meaning_en": "a library in a place",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "I [plats/institution] finns ett bibliotek",
-            "meaning_en": "there is a library in",
-            "note_en": ""
+            "pattern": "i/på + (platsens) bibliotek",
+            "meaning_en": "at/in the library",
+            "note_en": "Used for location (e.g., at a library in a city)."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "ett bibliotek med [material]",
-            "meaning_en": "a library with materials",
-            "note_en": "Often followed by numbers of books, magazines, etc."
+            "pattern": "ett + adj + bibliotek",
+            "meaning_en": "a library of a certain type",
+            "note_en": "For example offentligt, vetenskapligt."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "[namn] bibliotek (t.ex. Gamla stans bibliotek)",
-            "meaning_en": "named library",
-            "note_en": ""
+            "pattern": "ha ett bibliotek med + material",
+            "meaning_en": "have a library with materials",
+            "note_en": "Often followed by what it contains, e.g., many books."
           }
         ],
         "common_errors_en": [
@@ -142,24 +144,24 @@
           },
           {
             "error": "Making plural with -er: *biblioteker",
-            "fix": "Use zero plural: flera bibliotek",
-            "explain_en": "The plural form is the same as the singular."
+            "fix": "Use bibliotek (indefinite plural) / biblioteken (definite plural)",
+            "explain_en": "The indefinite plural is the same as the singular: bibliotek."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "d64084ef551570af4b08d1debf2b033025cf2e8f",
-            "sv": "Hon är utfryst och tar ibland sin tillflykt till byns bibliotek.",
-            "en": "She is excluded and sometimes takes refuge in the village library.",
+            "ex_id": "4c11220af135c8c0d60060bf4488565062c42da3",
+            "sv": "Åren 1941 – 1972 var han chef för Nordiska museets bibliotek.",
+            "en": "In the years 1941–1972 he was head of the Nordic Museum's library.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "byns bibliotek"
+                "span_sv": "Nordiska museets bibliotek"
               }
             ],
-            "gloss": "library",
+            "gloss": "bibliotek",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -167,40 +169,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Molly Moon",
-              "text_url": "https://sv.wikipedia.org/wiki/Molly_Moon",
-              "sentence_id": "d00661fe",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"bibliotek\"]"
-            }
-          },
-          {
-            "ex_id": "4a6c9b28f4af84a83df0f1645c516b8e5fda2941",
-            "sv": "I skolan finns ett bibliotek som även är öppet för allmänheten.",
-            "en": "In the school there is a library that is also open to the public.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "skolan"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "ett bibliotek"
-              }
-            ],
-            "gloss": "library",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Götlunda",
-              "text_url": "https://sv.wikipedia.org/wiki/G%C3%B6tlunda",
-              "sentence_id": "c20e33bf",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "text_title": "Sam Owen Jansson",
+              "text_url": "https://sv.wikipedia.org/wiki/Sam_Owen_Jansson",
+              "sentence_id": "a13f495e",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"bibliotek\"]"
             }
           },
@@ -215,7 +187,7 @@
                 "span_sv": "bibliotek"
               }
             ],
-            "gloss": "library",
+            "gloss": "bibliotek",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -226,26 +198,22 @@
               "text_title": "Bengtsheden",
               "text_url": "https://sv.wikipedia.org/wiki/Bengtsheden",
               "sentence_id": "49fa05af",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"bibliotek\"]"
             }
           },
           {
-            "ex_id": "947be3cc7c8b41eed483dbbaf5a00aee5aa691d2",
-            "sv": "Här finns bland annat en grundskola, ett bibliotek och en strandklubb.",
-            "en": "Here there is, among other things, a primary school, a library and a beach club.",
+            "ex_id": "0d7df4c35252936f94d9c85c5f0ee3cadf028819",
+            "sv": "Så står det också skrivet på en skylt på väggen till Skönsbergs bibliotek.",
+            "en": "That is also written on a sign on the wall to Skönsberg's library.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "en grundskola"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "ett bibliotek"
+                "span_sv": "Skönsbergs bibliotek"
               }
             ],
-            "gloss": "library",
+            "gloss": "bibliotek",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -253,36 +221,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Võsu",
-              "text_url": "https://sv.wikipedia.org/wiki/V%C3%B5su",
-              "sentence_id": "f3160d4f",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"grundskola\"]"
-            }
-          },
-          {
-            "ex_id": "298aaf827f7eda15340e1d9521404be31efd8f35",
-            "sv": "Stadsdelscentrumet genomgick år 2001 en omfattande ombyggnad, och har bland annat fått ett nytt bibliotek.",
-            "en": "The district centre underwent a major rebuilding in 2001, and has among other things got a new library.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "ett nytt bibliotek"
-              }
-            ],
-            "gloss": "library",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Råby, Västerås",
-              "text_url": "https://sv.wikipedia.org/wiki/R%C3%A5by,_V%C3%A4ster%C3%A5s",
-              "sentence_id": "faf2cc2d",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "text_title": "Skönsberg",
+              "text_url": "https://sv.wikipedia.org/wiki/Sk%C3%B6nsberg",
+              "sentence_id": "40dc70b9",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"bibliotek\"]"
             }
           },
@@ -294,10 +236,14 @@
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "ett offentligt vetenskapligt bibliotek"
+                "span_sv": "Tritonia"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "ett offentligt vetenskapligt bibliotek i Vasa"
               }
             ],
-            "gloss": "library",
+            "gloss": "bibliotek",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -308,7 +254,59 @@
               "text_title": "Vasa universitet",
               "text_url": "https://sv.wikipedia.org/wiki/Vasa_universitet",
               "sentence_id": "0283f1ad",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"bibliotek\"]"
+            }
+          },
+          {
+            "ex_id": "947be3cc7c8b41eed483dbbaf5a00aee5aa691d2",
+            "sv": "Här finns bland annat en grundskola, ett bibliotek och en strandklubb.",
+            "en": "Here there is, among other things, a primary school, a library and a beach club.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "ett bibliotek"
+              }
+            ],
+            "gloss": "bibliotek",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Võsu",
+              "text_url": "https://sv.wikipedia.org/wiki/V%C3%B5su",
+              "sentence_id": "f3160d4f",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"grundskola\"]"
+            }
+          },
+          {
+            "ex_id": "d64084ef551570af4b08d1debf2b033025cf2e8f",
+            "sv": "Hon är utfryst och tar ibland sin tillflykt till byns bibliotek.",
+            "en": "She is frozen out and sometimes takes refuge in the village's library.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "byns bibliotek"
+              }
+            ],
+            "gloss": "bibliotek",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Molly Moon",
+              "text_url": "https://sv.wikipedia.org/wiki/Molly_Moon",
+              "sentence_id": "d00661fe",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"bibliotek\"]"
             }
           },
@@ -327,7 +325,7 @@
                 "span_sv": "mer än 300 000 böcker"
               }
             ],
-            "gloss": "library",
+            "gloss": "bibliotek",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -338,30 +336,22 @@
               "text_title": "Karl Lagerfeld",
               "text_url": "https://sv.wikipedia.org/wiki/Karl_Lagerfeld",
               "sentence_id": "a0750b26",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"bibliotek\"]"
             }
           },
           {
-            "ex_id": "bfa1de00e278f280dd6c2de15a08d0234768a498",
-            "sv": "Till museet hör även ett bibliotek med över 15 000 böcker och många tidskrifter.",
-            "en": "The museum also has a library with over 15,000 books and many magazines.",
+            "ex_id": "e100a3f576166534577d799748e66230999a65ac",
+            "sv": "Svenska Barnboksakademin instiftades den 26 maj 1989 på Skärholmens bibliotek i Stockholm.",
+            "en": "The Swedish Children's Book Academy was founded on 26 May 1989 at Skärholmen's library in Stockholm.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "museet"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "ett bibliotek"
-              },
-              {
-                "fe_id": "fe_material",
-                "span_sv": "över 15 000 böcker och många tidskrifter"
+                "span_sv": "Skärholmens bibliotek i Stockholm"
               }
             ],
-            "gloss": "library",
+            "gloss": "bibliotek",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -369,55 +359,59 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Köpenhamns zoologiska museum",
-              "text_url": "https://sv.wikipedia.org/wiki/K%C3%B6penhamns_zoologiska_museum",
-              "sentence_id": "49f0fafd",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "text_title": "Svenska barnboksakademin",
+              "text_url": "https://sv.wikipedia.org/wiki/Svenska_barnboksakademin",
+              "sentence_id": "6bb7a5b3",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"bibliotek\"]"
             }
           },
           {
-            "ex_id": "37b2ebe8bc4910a60e514f45ff80537ef9153c2c",
-            "sv": "I anslutning till Variskan koulu i Korsnäståget öppnades ett bibliotek år 1990.",
-            "en": "Next to Variskan koulu in Korsnäståget, a library was opened in 1990.",
+            "ex_id": "4a6c9b28f4af84a83df0f1645c516b8e5fda2941",
+            "sv": "I skolan finns ett bibliotek som även är öppet för allmänheten.",
+            "en": "In the school there is a library that is also open to the public.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "Variskan koulu"
+                "span_sv": "skolan"
               },
               {
                 "fe_id": "fe_institution",
                 "span_sv": "ett bibliotek"
               }
             ],
-            "gloss": "library",
-            "level": "B1",
+            "gloss": "bibliotek",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Vasa stadsbibliotek",
-              "text_url": "https://sv.wikipedia.org/wiki/Vasa_stadsbibliotek",
-              "sentence_id": "9628ae83",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "text_title": "Götlunda",
+              "text_url": "https://sv.wikipedia.org/wiki/G%C3%B6tlunda",
+              "sentence_id": "c20e33bf",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"bibliotek\"]"
             }
           },
           {
-            "ex_id": "70463c3d35d13432cff4eae66efcfabbe8431e6b",
-            "sv": "I huset Tyska stallplan nr 2 öppnade 1937 Gamla stans bibliotek och stängde år 2013.",
-            "en": "In the building Tyska stallplan number 2, in 1937 the Old Town library opened and it closed in 2013.",
+            "ex_id": "aa648479cce45f20500e1becf6ad781096515ea0",
+            "sv": "Motala bibliotek har sitt ursprung som ett av landets äldsta arbetarbibliotek.",
+            "en": "Motala library has its origin as one of the country's oldest workers' libraries.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "Gamla stans bibliotek"
+                "span_sv": "Motala bibliotek"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "ett av landets äldsta arbetarbibliotek"
               }
             ],
-            "gloss": "library",
+            "gloss": "bibliotek",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -425,10 +419,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Kvarteret Juno",
-              "text_url": "https://sv.wikipedia.org/wiki/Kvarteret_Juno",
-              "sentence_id": "bd755c44",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "text_title": "Motala bibliotek",
+              "text_url": "https://sv.wikipedia.org/wiki/Motala_bibliotek",
+              "sentence_id": "58de56f6",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"bibliotek\"]"
             }
           }
@@ -437,7 +431,13 @@
     ],
     "pronunciation": {
       "ipa": "bɪblɪɔˈteːk",
-      "stress_hint": "Stress is usually on the last part: -tek."
+      "stress_hint": "Stress is usually on the last part: -teek.",
+      "audio": {
+        "file": "audio/lu_bibliothek_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [

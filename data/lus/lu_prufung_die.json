@@ -1,0 +1,486 @@
+{
+  "lexical_unit": {
+    "id": "lu_prufung_die",
+    "source_de": {
+      "lu_de_raw": "Prüfung, die",
+      "lu_de_normalized": "Prüfung",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "prov",
+    "display_sv": "prov",
+    "name_sv": "prov",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "prov",
+      "provet",
+      "prov (plural)",
+      "proven"
+    ],
+    "english_equivalent_en": "test",
+    "morphology_sv": {
+      "noun": {
+        "gender": "ett",
+        "indef_sg": "prov",
+        "def_sg": "provet",
+        "indef_pl": "prov",
+        "def_pl": "proven",
+        "note_en": "Neuter noun; plural is the same as singular in indefinite form."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "nationella prov",
+        "type_en": "noun",
+        "meaning_en": "national tests (in school)"
+      },
+      {
+        "word": "kunskapsprov",
+        "type_en": "noun",
+        "meaning_en": "knowledge test"
+      },
+      {
+        "word": "färdighetsprov",
+        "type_en": "noun",
+        "meaning_en": "skills test"
+      },
+      {
+        "word": "praktiskt prov",
+        "type_en": "other",
+        "meaning_en": "practical test"
+      },
+      {
+        "word": "teoretiskt prov",
+        "type_en": "other",
+        "meaning_en": "theoretical test"
+      },
+      {
+        "word": "avlägga prov",
+        "type_en": "verb",
+        "meaning_en": "take a test (formal)"
+      }
+    ],
+    "synonyms_sv": [
+      "test",
+      "examination",
+      "kunskapsprov",
+      "färdighetsprov"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_prufung_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_prufung_die:1",
+        "frame_id": "frame_education",
+        "meaning_en": "an exam or test used to check knowledge, skills, or suitability",
+        "how_to_use_en": [
+          "Use for school tests and other formal tests (for admission, licenses, etc.).",
+          "Often with verbs like ha, göra, or avlägga."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "ha ett prov",
+            "meaning_en": "have a test scheduled",
+            "note_en": "Often used when talking about a test happening on a certain day."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "göra prov (inom + ämne)",
+            "meaning_en": "do/take tests in a subject",
+            "note_en": "Used with subjects like matematik."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "avlägga (ett) prov",
+            "meaning_en": "take a test (formal)",
+            "note_en": "Common in official contexts (licenses, admission)."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "nationella prov",
+            "meaning_en": "national tests",
+            "note_en": "A fixed term in Swedish school context."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "prov på + färdigheter",
+            "meaning_en": "tests of skills",
+            "note_en": "Used when the test checks specific abilities."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using en prov.",
+            "fix": "Use ett prov.",
+            "explain_en": "Prov is an ett-word: ett prov, provet."
+          },
+          {
+            "error": "Mixing up prov (test) with prova (try).",
+            "fix": "Use prov for the noun; use prova for the verb.",
+            "explain_en": "Prov is a thing (a test); prova is an action (to try)."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "02c7c52383e9ba1d5a384a12fbc330b39ddd8515",
+            "sv": "Man har nationella prov i årskurs 9 sedan läsåret 1996 / 1997.",
+            "en": "People have national tests in grade 9 since the school year 1996/1997.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "nationella prov"
+              }
+            ],
+            "gloss": "prov",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Grundskolan i Sverige",
+              "text_url": "https://sv.wikipedia.org/wiki/Grundskolan_i_Sverige",
+              "sentence_id": "df75f8a6",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"prov\"]"
+            }
+          },
+          {
+            "ex_id": "2a3001cb40765116edd100298a1a949ebbb2776a",
+            "sv": "En lärare uppger att lärarna ska ha ett prov under veckan efter, på onsdag, torsdag eller fredag.",
+            "en": "A teacher says that the teachers will have a test during the following week, on Wednesday, Thursday, or Friday.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "En lärare"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "ett prov"
+              }
+            ],
+            "gloss": "prov",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Överraskningsparadoxen",
+              "text_url": "https://sv.wikipedia.org/wiki/%C3%96verraskningsparadoxen",
+              "sentence_id": "716671d7",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"prov\"]"
+            }
+          },
+          {
+            "ex_id": "76e2b0c664b4e8eaec2591ff27755b70221f2efa",
+            "sv": "Många missar många skoldagar, prov etc, då de inte har något skydd.",
+            "en": "Many miss many school days, tests, etc., because they do not have any protection.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "prov"
+              }
+            ],
+            "gloss": "prov",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kvinnors situation i Uganda",
+              "text_url": "https://sv.wikipedia.org/wiki/Kvinnors_situation_i_Uganda",
+              "sentence_id": "bfc2b3b1",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"prov\"]"
+            }
+          },
+          {
+            "ex_id": "7a8e1fc68643cf9880113096b0b561be52a0b8e5",
+            "sv": "För att bli antagen ska man också göra prov inom matematik, engelsk grammatik och medicinska bedömningar.",
+            "en": "To be accepted, you must also do tests in mathematics, English grammar, and medical assessments.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "göra prov"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "matematik"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "engelsk grammatik"
+              }
+            ],
+            "gloss": "prov",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gurkhasoldat",
+              "text_url": "https://sv.wikipedia.org/wiki/Gurkhasoldat",
+              "sentence_id": "1ecf55ef",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"prov\"]"
+            }
+          },
+          {
+            "ex_id": "26d009fe186d5b9927226c78bfe69779f98d7a72",
+            "sv": "Detta prov är inget kunskapsprov utan testar ens egenskaper och lämplighet att jobba inom vården.",
+            "en": "This test is not a knowledge test but tests your qualities and suitability to work in healthcare.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "Detta prov"
+              },
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "egenskaper och lämplighet"
+              }
+            ],
+            "gloss": "prov",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Utbildning i Storbritannien",
+              "text_url": "https://sv.wikipedia.org/wiki/Utbildning_i_Storbritannien",
+              "sentence_id": "1c351517",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"prov\"]"
+            }
+          },
+          {
+            "ex_id": "31c695cb1c4dc104d3c2fcdba0ee6b23e02ba0f5",
+            "sv": "Intagning sker genom teoretiska och praktiska prov eller via godkänd examen från godkända sommelierutbildningar.",
+            "en": "Admission happens through theoretical and practical tests or via an approved degree from approved sommelier educations.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "teoretiska och praktiska prov"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "godkänd examen"
+              }
+            ],
+            "gloss": "prov",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Svenska sommelierföreningen",
+              "text_url": "https://sv.wikipedia.org/wiki/Svenska_sommelierf%C3%B6reningen",
+              "sentence_id": "f5a115e5",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"prov\"]"
+            }
+          },
+          {
+            "ex_id": "6bfcbdb6f82e1d3dcea0e38787c2eb8d338a5957",
+            "sv": "För personer under 24 år gäller dubbla timmar på yrkesskola innan de får avlägga prov.",
+            "en": "For people under 24 years, double hours at vocational school apply before they are allowed to take a test.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "yrkesskola"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "avlägga prov"
+              }
+            ],
+            "gloss": "prov",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Trafiksäkerhetsutbildning",
+              "text_url": "https://sv.wikipedia.org/wiki/Trafiks%C3%A4kerhetsutbildning",
+              "sentence_id": "716a109b",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"prov\"]"
+            }
+          },
+          {
+            "ex_id": "8e35ce2f4fecb17578b829674bb9746c22071d52",
+            "sv": "Homer blir stoppad av polisen och då han saknar rätt licens får han avlägga ett prov på DMV.",
+            "en": "Homer is stopped by the police, and since he lacks the right license, he must take a test at the DMV.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "avlägga ett prov"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "DMV"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "rätt licens"
+              }
+            ],
+            "gloss": "prov",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Homer vs. Patty and Selma",
+              "text_url": "https://sv.wikipedia.org/wiki/Homer_vs._Patty_and_Selma",
+              "sentence_id": "1ec239ed",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"prov\"]"
+            }
+          },
+          {
+            "ex_id": "edf286762b68283f7208e28e83327b30bd7589c1",
+            "sv": "Nationella prov är prov utfärdade av Skolverket till stöd för likvärdig och rättvis bedömning och betygssättning i Sverige.",
+            "en": "National tests are tests issued by the National Agency for Education to support equal and fair assessment and grading in Sweden.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "Nationella prov"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Skolverket"
+              }
+            ],
+            "gloss": "prov",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Nationella prov i Sverige",
+              "text_url": "https://sv.wikipedia.org/wiki/Nationella_prov_i_Sverige",
+              "sentence_id": "d28ad6c8",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"prov\"]"
+            }
+          },
+          {
+            "ex_id": "db917b3557fed6676fc4dc852f72cc8f44970cdf",
+            "sv": "Under hela provet skall soldaten hålla arbetspuls, samtidigt som prov på färdigheter genomförs.",
+            "en": "During the whole test the soldier must keep a working pulse, at the same time as tests of skills are carried out.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "hela provet"
+              },
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "färdigheter"
+              }
+            ],
+            "gloss": "prov",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Soldatprov",
+              "text_url": "https://sv.wikipedia.org/wiki/Soldatprov",
+              "sentence_id": "f5a65c9c",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"prov\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "pruːv",
+      "stress_hint": "Long vowel: /uː/.",
+      "audio": {
+        "file": "audio/lu_prufung_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "prov – provet – prov – proven"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

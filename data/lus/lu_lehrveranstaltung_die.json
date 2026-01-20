@@ -73,11 +73,6 @@
         "word": "undervisningsmaterial",
         "type_en": "noun",
         "meaning_en": "teaching materials"
-      },
-      {
-        "word": "undervisningssal",
-        "type_en": "noun",
-        "meaning_en": "classroom; teaching room"
       }
     ],
     "synonyms_sv": [],
@@ -94,17 +89,17 @@
       {
         "sense_id": "lu_lehrveranstaltung_die:1",
         "frame_id": "frame_education",
-        "meaning_en": "a single occasion when teaching happens, for example one class meeting",
+        "meaning_en": "a single occasion when teaching happens, for example a class meeting",
         "how_to_use_en": [
-          "Use for one specific class/lesson event (one meeting).",
-          "Often used in school or university planning and schedules."
+          "Use for one specific class/lesson occasion, not the whole course.",
+          "Often used in formal or administrative contexts (schedules, planning)."
         ],
         "patterns": [],
         "common_errors_en": [
           {
-            "error": "Using it to mean a whole course.",
-            "fix": "Use kurs or utbildning for a whole course/program.",
-            "explain_en": "undervisningstillfälle is one session, not the entire course."
+            "error": "Using it to mean the whole course.",
+            "fix": "Use kurs or utbildning for the whole course/program.",
+            "explain_en": "Undervisningstillfälle refers to one teaching occasion, not the entire course."
           }
         ],
         "required_example_count": 10,
@@ -112,8 +107,14 @@
       }
     ],
     "pronunciation": {
-      "ipa": "ˈɵnːdɛrˌviːsnɪŋsˌtɪlːfɛlːɛ",
-      "stress_hint": "Main stress is on the first part: un-der-."
+      "ipa": "ˈɵnːdɛrviːsniŋstɪlˌfɛlːɛ",
+      "stress_hint": "Main stress is on the first part: UN-der-vis-.",
+      "audio": {
+        "file": "audio/lu_lehrveranstaltung_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [

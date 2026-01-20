@@ -19,9 +19,8 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "ett studenthem",
-      "studenthemmet",
       "studenthem",
+      "studenthemmet",
       "studenthemmen"
     ],
     "english_equivalent_en": "student dormitory",
@@ -32,7 +31,7 @@
         "def_sg": "studenthemmet",
         "indef_pl": "studenthem",
         "def_pl": "studenthemmen",
-        "note_en": "Neuter noun; plural is the same as singular (studenthem)."
+        "note_en": "Neuter noun; plural is the same as singular in indefinite form."
       },
       "verb": {
         "infinitive": null,
@@ -62,7 +61,7 @@
       {
         "word": "studenthemskorridor",
         "type_en": "noun",
-        "meaning_en": "a corridor/hallway in a student dormitory"
+        "meaning_en": "a corridor in a student dormitory (shared living)"
       },
       {
         "word": "studenthemsboende",
@@ -79,6 +78,7 @@
       "studentbostad",
       "studentboende",
       "studentkorridor",
+      "korridorboende",
       "studentresidens"
     ],
     "antonyms_sv": [
@@ -98,52 +98,51 @@
         "frame_id": "frame_education",
         "meaning_en": "a building where students live, often with shared facilities",
         "how_to_use_en": [
-          "Use it for student housing as a place (a dormitory building).",
-          "Often used with prepositions like på (“at/in”) and utanför (“outside”).",
-          "Can be named/owned by an institution (e.g., a university’s studenthem)."
+          "Use for housing for students (often run by a university or organization).",
+          "Often used with a place or institution name: a university’s studenthem."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "bo på studenthem",
             "meaning_en": "live in a student dormitory",
-            "note_en": "Used for where someone lives during studies."
+            "note_en": "Used for where someone lives while studying."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "utanför ett studenthem",
-            "meaning_en": "outside a student dormitory",
-            "note_en": ""
+            "pattern": "ett studenthem för [studenter]",
+            "meaning_en": "a dormitory for students",
+            "note_en": "Often specifies which students it is for."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "ett studenthem vid + address/place",
-            "meaning_en": "a dormitory located at",
-            "note_en": "Common in descriptions of buildings."
+            "pattern": "[Institutionens] studenthem",
+            "meaning_en": "the institution’s student dormitory",
+            "note_en": "Common with universities and other organizations."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "X:s studenthem",
-            "meaning_en": "X's dormitory",
-            "note_en": "Often used for an institution’s or organization’s dormitory."
+            "pattern": "bygga studenthem",
+            "meaning_en": "build student dormitories",
+            "note_en": "Used when talking about creating housing for students."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "bygga studenthem",
-            "meaning_en": "build student dormitories",
-            "note_en": "Often used when talking about planning or housing needs."
+            "pattern": "utanför ett studenthem",
+            "meaning_en": "outside a student dormitory",
+            "note_en": "Used to locate an event near the building."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using en studenthem.",
-            "fix": "Use ett studenthem.",
-            "explain_en": "Studenthem is a neuter (ett) noun."
+            "error": "Using *studenthem* for any student apartment.",
+            "fix": "Use *studentbostad* or *studentlägenhet* for an apartment; *studenthem* for a dormitory-type residence.",
+            "explain_en": "In the examples, studenthem is a residence building, not a specific apartment."
           },
           {
-            "error": "Mixing up studenthem (building) with studentrum (a room).",
-            "fix": "Use studenthem for the dormitory; use studentrum for one room.",
-            "explain_en": "The examples use studenthem as the place/building where students live."
+            "error": "Wrong article: *en studenthem*.",
+            "fix": "Say *ett studenthem*.",
+            "explain_en": "Studenthem is an ett-word (neuter)."
           }
         ],
         "required_example_count": 10,
@@ -151,7 +150,7 @@
           {
             "ex_id": "88084df43014ef4c45c5ff7a334308eab3812dad",
             "sv": "Eleverna reser utomlands i en ledarledd grupp och bor i värdfamilj eller på studenthem.",
-            "en": "The students travel abroad in a leader-led group and live with a host family or in a student dormitory.",
+            "en": "The pupils travel abroad in a leader-led group and live with a host family or in a student dormitory.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -170,7 +169,7 @@
               "text_title": "EF Education First",
               "text_url": "https://sv.wikipedia.org/wiki/EF_Education_First",
               "sentence_id": "ca52da89",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studenthem\"]"
             }
           },
@@ -196,45 +195,19 @@
               "text_title": "Lee Abbey",
               "text_url": "https://sv.wikipedia.org/wiki/Lee_Abbey",
               "sentence_id": "b9d492ad",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"studenthem\"]"
-            }
-          },
-          {
-            "ex_id": "22b1b956fffd919997410e2396857a9b7cb22e51",
-            "sv": "Den 22 augusti 2015 misshandlades Hagamannen utanför ett studenthem med en golfklubba.",
-            "en": "On 22 August 2015, the Hagaman was assaulted outside a student dormitory with a golf club.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "ett studenthem"
-              }
-            ],
-            "gloss": "student dormitory",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Hagamannen",
-              "text_url": "https://sv.wikipedia.org/wiki/Hagamannen",
-              "sentence_id": "8d64086c",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studenthem\"]"
             }
           },
           {
             "ex_id": "98b650ff03e4ae803a8650888eb2e7d185a23249",
             "sv": "Emilsborg är ett studenthem vid Gibraltargatan 78-94 i stadsdelen Krokslätt i Göteborg.",
-            "en": "Emilsborg is a student dormitory at Gibraltargatan 78-94 in the district of Krokslätt in Gothenburg.",
+            "en": "Emilsborg is a student dormitory at Gibraltargatan 78-94 in the district Krokslätt in Gothenburg.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "ett studenthem"
+                "span_sv": "Emilsborg"
               }
             ],
             "gloss": "student dormitory",
@@ -248,7 +221,7 @@
               "text_title": "Emilsborg",
               "text_url": "https://sv.wikipedia.org/wiki/Emilsborg",
               "sentence_id": "7fbc1066",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studenthem\"]"
             }
           },
@@ -274,45 +247,23 @@
               "text_title": "Hemtrevnad (byggnad)",
               "text_url": "https://sv.wikipedia.org/wiki/Hemtrevnad_(byggnad)",
               "sentence_id": "40e552ab",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studenthem\"]"
             }
           },
           {
-            "ex_id": "11faab23bb19c39dcff492a97e3025cf6dc92ad3",
-            "sv": "Liksom flera andra lundaspexare har Johan Wester bott på Thomanders studenthem.",
-            "en": "Like several other Lund spex people, Johan Wester has lived at Thomander's student dormitory.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Johan Wester"
-              }
-            ],
-            "gloss": "student dormitory",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Johan Wester",
-              "text_url": "https://sv.wikipedia.org/wiki/Johan_Wester",
-              "sentence_id": "cfa7877c",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"studenthem\"]"
-            }
-          },
-          {
-            "ex_id": "abe121038ae597433fe474bf778e6af566e3468f",
-            "sv": "Kvällen den 8 april 1930 i Leningrads statliga universitets studenthem blev gruppens sista.",
-            "en": "The evening of 8 April 1930 in the dormitory of Leningrad State University became the group's last.",
+            "ex_id": "2e75a0f5ef8610bf9893e888a6646c22dd2d1ab4",
+            "sv": "1618-1623 byggdes Regensen, som än idag tjänar som studenthem, som bostad för kommunitetens studenter.",
+            "en": "In 1618-1623 Regensen was built, which still serves as a student dormitory today, as housing for the community's students.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "Leningrads statliga universitets studenthem"
+                "span_sv": "Regensen"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "kommunitetens studenter"
               }
             ],
             "gloss": "student dormitory",
@@ -323,10 +274,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "OBERIU",
-              "text_url": "https://sv.wikipedia.org/wiki/OBERIU",
-              "sentence_id": "2284a040",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "text_title": "Kommunitet (universitet)",
+              "text_url": "https://sv.wikipedia.org/wiki/Kommunitet_(universitet)",
+              "sentence_id": "6219d20b",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studenthem\"]"
             }
           },
@@ -338,7 +289,7 @@
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "studenthem"
+                "span_sv": "nationens"
               }
             ],
             "gloss": "student dormitory",
@@ -352,23 +303,27 @@
               "text_title": "Värmlands nation, Uppsala",
               "text_url": "https://sv.wikipedia.org/wiki/V%C3%A4rmlands_nation,_Uppsala",
               "sentence_id": "ac146257",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studenthem\"]"
             }
           },
           {
             "ex_id": "666aaf4c831c0d7343eaf05bbf710e38a0f9ea2a",
             "sv": "Lunds studentskegård är ett studenthem för kvinnliga studenter i Lund som inrättades 1937.",
-            "en": "Lund's Studentskegård is a student dormitory for female students in Lund that was established in 1937.",
+            "en": "Lunds studentskegård is a student dormitory for female students in Lund that was established in 1937.",
             "frame_id": "frame_education",
             "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Lunds studentskegård"
+              },
               {
                 "fe_id": "fe_student",
                 "span_sv": "kvinnliga studenter"
               }
             ],
             "gloss": "student dormitory",
-            "level": "B1",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -378,19 +333,49 @@
               "text_title": "Lunds studentskegård",
               "text_url": "https://sv.wikipedia.org/wiki/Lunds_studentskeg%C3%A5rd",
               "sentence_id": "f6a94131",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studenthem\"]"
             }
           },
           {
-            "ex_id": "e6c0bb59350a347228294ee77fa4b3de881f0cc7",
-            "sv": "Göteborgs kristliga studenthem Jeriko på Föreningsgatan 32, ligger i det så kallade Hemtrevnads-huset.",
-            "en": "Gothenburg's Christian student dormitory Jeriko on Föreningsgatan 32 is located in the so-called Hemtrevnads building.",
+            "ex_id": "11faab23bb19c39dcff492a97e3025cf6dc92ad3",
+            "sv": "Liksom flera andra lundaspexare har Johan Wester bott på Thomanders studenthem.",
+            "en": "Like several other Lund spex people, Johan Wester has lived at Thomanders student dormitory.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Johan Wester"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Thomanders studenthem"
+              }
+            ],
+            "gloss": "student dormitory",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Johan Wester",
+              "text_url": "https://sv.wikipedia.org/wiki/Johan_Wester",
+              "sentence_id": "cfa7877c",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"studenthem\"]"
+            }
+          },
+          {
+            "ex_id": "22b1b956fffd919997410e2396857a9b7cb22e51",
+            "sv": "Den 22 augusti 2015 misshandlades Hagamannen utanför ett studenthem med en golfklubba.",
+            "en": "On 22 August 2015 Hagamannen was assaulted outside a student dormitory with a golf club.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "Göteborgs kristliga studenthem Jeriko"
+                "span_sv": "ett studenthem"
               }
             ],
             "gloss": "student dormitory",
@@ -401,10 +386,36 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Föreningsgatan, Göteborg",
-              "text_url": "https://sv.wikipedia.org/wiki/F%C3%B6reningsgatan,_G%C3%B6teborg",
-              "sentence_id": "8d664ddc",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "text_title": "Hagamannen",
+              "text_url": "https://sv.wikipedia.org/wiki/Hagamannen",
+              "sentence_id": "8d64086c",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"studenthem\"]"
+            }
+          },
+          {
+            "ex_id": "abe121038ae597433fe474bf778e6af566e3468f",
+            "sv": "Kvällen den 8 april 1930 i Leningrads statliga universitets studenthem blev gruppens sista.",
+            "en": "The evening of 8 April 1930 in Leningrad State University's student dormitory became the group's last.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Leningrads statliga universitets"
+              }
+            ],
+            "gloss": "student dormitory",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "OBERIU",
+              "text_url": "https://sv.wikipedia.org/wiki/OBERIU",
+              "sentence_id": "2284a040",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studenthem\"]"
             }
           }
@@ -412,8 +423,14 @@
       }
     ],
     "pronunciation": {
-      "ipa": "²stʉːdɛnˌhɛm",
-      "stress_hint": "Main stress is on STU-, with a secondary stress on -hem."
+      "ipa": "stʉˈdɛnːtˌhɛm",
+      "stress_hint": "Main stress is on -dent- in student-.",
+      "audio": {
+        "file": "audio/lu_studentenwohnheim_das.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [

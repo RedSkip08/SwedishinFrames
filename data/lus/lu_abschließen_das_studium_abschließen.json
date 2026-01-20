@@ -1,0 +1,258 @@
+{
+  "lexical_unit": {
+    "id": "lu_abschließen_das_studium_abschließen",
+    "source_de": {
+      "lu_de_raw": "abschließen (das Studium abschließen)",
+      "lu_de_normalized": "abschließen (das Studium abschließen)",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "avsluta",
+    "display_sv": "avsluta",
+    "name_sv": "avsluta",
+    "pos": "verb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "avsluta",
+      "avslutar",
+      "avslutade",
+      "avslutat"
+    ],
+    "english_equivalent_en": "finish (studies)",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "avsluta",
+        "present": "avslutar",
+        "past": "avslutade",
+        "supine": "avslutat",
+        "imperative": "avsluta",
+        "present_participle": "avslutande",
+        "past_participle": "avslutad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "avslut",
+        "type_en": "noun",
+        "meaning_en": "an ending; a conclusion"
+      },
+      {
+        "word": "avslutning",
+        "type_en": "noun",
+        "meaning_en": "ending; closing part (e.g., of a course/event)"
+      },
+      {
+        "word": "avslutad",
+        "type_en": "adjective",
+        "meaning_en": "finished; completed"
+      },
+      {
+        "word": "avslutningsvis",
+        "type_en": "adverb",
+        "meaning_en": "finally; in conclusion"
+      }
+    ],
+    "synonyms_sv": [
+      "fullfölja",
+      "slutföra",
+      "göra färdigt",
+      "bli klar med"
+    ],
+    "antonyms_sv": [
+      "påbörja",
+      "börja"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_education",
+        "frame_name_en": "Education",
+        "frame_slug": "education",
+        "sense_id": "lu_abschließen_das_studium_abschließen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_abschließen_das_studium_abschließen:1",
+        "frame_id": "frame_education",
+        "meaning_en": "finish and complete a period of education or studies.",
+        "how_to_use_en": [
+          "Use with a study noun: studier, utbildning.",
+          "Often used when someone completes (or must stop) their studies."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "avsluta + studierna / sina studier",
+            "meaning_en": "finish one’s studies",
+            "note_en": "Common with possessive: sina studier."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "avsluta + (sin) utbildning",
+            "meaning_en": "finish an education program",
+            "note_en": ""
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *avsluta* without an object: \"Jag avslutar.\"",
+            "fix": "Add what is finished: \"Jag avslutar studierna.\"",
+            "explain_en": "In this sense, the verb normally takes an object (the studies/education)."
+          },
+          {
+            "error": "Confusing *avsluta* with *sluta* in this context.",
+            "fix": "Use *avsluta* for completing studies; *sluta* often means stop/quit.",
+            "explain_en": "*Avsluta* focuses on bringing something to an end (often completing it)."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "df1ab8f917d857d1a19123ca131d0f2deff56e17",
+            "sv": "På grund av ekonomiska problem tvingades Kuula avsluta studierna och blev körledare i Vasa.",
+            "en": "Because of financial problems, Kuula was forced to finish his studies and became a choir leader in Vaasa.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Kuula"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "studierna"
+              }
+            ],
+            "gloss": "finish (studies)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Toivo Kuula",
+              "text_url": "https://sv.wikipedia.org/wiki/Toivo_Kuula",
+              "sentence_id": "e3d0a032",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"avsluta\"]"
+            }
+          },
+          {
+            "ex_id": "c881db0f873c53b58f88f02db8b23ea0e41989aa",
+            "sv": "Senare tillbringade hon en termin i Paris för att avsluta sina studier.",
+            "en": "Later she spent one term in Paris to finish her studies.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "sina studier"
+              }
+            ],
+            "gloss": "finish (studies)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lissie",
+              "text_url": "https://sv.wikipedia.org/wiki/Lissie",
+              "sentence_id": "f6a1638c",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"avsluta\"]"
+            }
+          },
+          {
+            "ex_id": "d386ed77226537abac66f5f60f64515d94194fee",
+            "sv": "Han kunde sedan avsluta sin medicinska utbildning och tog läkarexamen år 1917.",
+            "en": "He could then finish his medical education and took a medical degree in 1917.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "sin medicinska utbildning"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "läkarexamen"
+              }
+            ],
+            "gloss": "finish (education)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Albert Szent-Györgyi",
+              "text_url": "https://sv.wikipedia.org/wiki/Albert_Szent-Gy%C3%B6rgyi",
+              "sentence_id": "3619e444",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"avsluta\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈɑːvˌslʉːta",
+      "stress_hint": "Main stress on the first part: AV-sluta.",
+      "audio": {
+        "file": "audio/lu_abschließen_das_studium_abschließen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "avsluta",
+        "avslutar",
+        "avslutade",
+        "avslutat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

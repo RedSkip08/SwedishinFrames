@@ -21,10 +21,9 @@
     "forms": [
       "studieår",
       "studieåret",
-      "studieår",
       "studieåren"
     ],
-    "english_equivalent_en": "year of study",
+    "english_equivalent_en": "study year",
     "morphology_sv": {
       "noun": {
         "gender": "ett",
@@ -32,7 +31,7 @@
         "def_sg": "studieåret",
         "indef_pl": "studieår",
         "def_pl": "studieåren",
-        "note_en": "Neuter noun; plural is the same as singular (studieår)."
+        "note_en": "Neuter noun; same form in singular and plural indefinite."
       },
       "verb": {
         "infinitive": null,
@@ -55,35 +54,30 @@
     },
     "derived_words_sv": [
       {
-        "word": "första studieåret",
-        "type_en": "other",
-        "meaning_en": "the first year of study"
+        "word": "studieårskurs",
+        "type_en": "noun",
+        "meaning_en": "year group in a program (e.g., first-year students)"
       },
       {
-        "word": "andra studieåret",
-        "type_en": "other",
-        "meaning_en": "the second year of study"
+        "word": "studieårsbetyg",
+        "type_en": "noun",
+        "meaning_en": "grades/results for a study year"
       },
       {
-        "word": "fjärde studieåret",
-        "type_en": "other",
-        "meaning_en": "the fourth year of study"
+        "word": "studieårslön",
+        "type_en": "noun",
+        "meaning_en": "salary based on years of study (context-dependent)"
       },
       {
-        "word": "extra studieår",
+        "word": "studieår utomlands",
         "type_en": "other",
-        "meaning_en": "an extra year of study"
-      },
-      {
-        "word": "studieåren",
-        "type_en": "other",
-        "meaning_en": "the years of study (definite plural)"
+        "meaning_en": "a study year abroad"
       }
     ],
     "synonyms_sv": [
-      "studieperiod",
+      "studieårstid",
       "studietid",
-      "studietermin"
+      "studietid (år)"
     ],
     "antonyms_sv": [],
     "linked_frames": [
@@ -98,47 +92,54 @@
       {
         "sense_id": "lu_studienjahr_das:1",
         "frame_id": "frame_education",
-        "meaning_en": "a year (or years) spent studying in an education program",
+        "meaning_en": "one year of studies in a program, course, or at an institution",
         "how_to_use_en": [
-          "Use for one specific year (första/andra/fjärde studieår) or for several years (studieår).",
-          "Often used with under/efter + studieår, and can be linked to a course or institution."
+          "Use for a specific year in a study program (first, second, fourth).",
+          "Often used with ordinal numbers and possessives: sitt första/fjärde studieår.",
+          "Can also mean the period someone spent studying (often plural: sina studieår)."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "efter sitt/ sitt + ordinal + studieår",
+            "pattern": "efter sitt [ordinal] studieår",
             "meaning_en": "after a certain study year",
-            "note_en": "Used when something happens after completing that year."
+            "note_en": "Used to place an event after a specific year in a program."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "under sina/sitt + studieår",
-            "meaning_en": "during one’s years of study",
-            "note_en": "Often refers to a longer period (plural) in education."
+            "pattern": "under sitt [ordinal] studieår",
+            "meaning_en": "during a certain study year",
+            "note_en": "Common in biographies and narratives."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "efter studieår vid/på + Institution",
-            "meaning_en": "after studying at an institution",
-            "note_en": "Common in biographies to summarize a study period."
+            "pattern": "under sina studieår",
+            "meaning_en": "during one’s study years",
+            "note_en": "Usually plural, meaning the whole period of studying."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "ta/söka ett + (extra/andra) + studieår",
-            "meaning_en": "take/apply for a study year",
-            "note_en": "Used for adding or continuing a program with another year."
+            "pattern": "studieår vid [institution]",
+            "meaning_en": "study years at an institution",
+            "note_en": "Often used with \"vid\" to name where someone studied."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "söka ett [ordinal] studieår",
+            "meaning_en": "apply for another study year",
+            "note_en": "Used when a program offers an additional year."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using en: *en studieår",
-            "fix": "ett studieår",
-            "explain_en": "Studieår is an ett-word (neuter)."
+            "error": "Using *studieår* for a calendar year (e.g., 2024).",
+            "fix": "Use \"år\" or \"kalenderår\" for calendar years.",
+            "explain_en": "Studieår refers to a year within studies, not the calendar year."
           },
           {
-            "error": "Forgetting that plural is unchanged: *studieårar",
-            "fix": "studieår",
-            "explain_en": "The indefinite plural is the same form as singular: studieår."
+            "error": "Mixing up singular/plural because the indefinite form is the same.",
+            "fix": "Check the article and definite form: \"ett studieår\" vs \"studieåren\".",
+            "explain_en": "The indefinite singular and plural are both \"studieår\"."
           }
         ],
         "required_example_count": 10,
@@ -146,7 +147,7 @@
           {
             "ex_id": "3759bbc5befd277c7cf0bafac3cfc0278325bbb4",
             "sv": "Hon blev tvungen att begära ledigt från arkitektkursen efter sitt första studieår.",
-            "en": "She had to ask for leave from the architecture course after her first year of study.",
+            "en": "She had to ask for leave from the architecture course after her first study year.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -154,7 +155,7 @@
                 "span_sv": "arkitektkursen"
               }
             ],
-            "gloss": "year of study",
+            "gloss": "study year (year of studies in a program/course)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -165,174 +166,14 @@
               "text_title": "Mabel Bratt",
               "text_url": "https://sv.wikipedia.org/wiki/Mabel_Bratt",
               "sentence_id": "88b4c698",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"studieår\"]"
-            }
-          },
-          {
-            "ex_id": "10d1e16a51e2982812cae4d0c83f5d01930d2598",
-            "sv": "Under sina studieår där lärde han också känna bland andra Ferdinand Boberg.",
-            "en": "During his years of study there he also got to know, among others, Ferdinand Boberg.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "han"
-              }
-            ],
-            "gloss": "years of study",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Torben Grut",
-              "text_url": "https://sv.wikipedia.org/wiki/Torben_Grut",
-              "sentence_id": "db3ff5cc",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"studieår\"]"
-            }
-          },
-          {
-            "ex_id": "504784fce86b043f4bd1f0e02a9c5b7d4261761d",
-            "sv": "Under sina studieår påverkades Gumiljov av Valerij Brjusov och Konstantin Balmont.",
-            "en": "During his years of study Gumiljov was influenced by Valerij Brjusov and Konstantin Balmont.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Gumiljov"
-              }
-            ],
-            "gloss": "years of study",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Nikolaj Gumiljov",
-              "text_url": "https://sv.wikipedia.org/wiki/Nikolaj_Gumiljov",
-              "sentence_id": "afe4968c",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"studieår\"]"
-            }
-          },
-          {
-            "ex_id": "ceca31de8eff34c61ec77256ce919f981be8323d",
-            "sv": "Den svenske målaren Per Ekström tog under sina franska studieår intryck av denna skolbildning.",
-            "en": "The Swedish painter Per Ekström was influenced by this schooling during his French years of study.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Per Ekström"
-              }
-            ],
-            "gloss": "years of study",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Barbizonskolan",
-              "text_url": "https://sv.wikipedia.org/wiki/Barbizonskolan",
-              "sentence_id": "0bb40781",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"studieår\"]"
-            }
-          },
-          {
-            "ex_id": "da4f815013c905cb426414c419cc1448a4a65aca",
-            "sv": "Han slutförde därefter sina studieår 1880 efter perioder i München och Paris.",
-            "en": "He then completed his years of study in 1880 after periods in Munich and Paris.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Han"
-              }
-            ],
-            "gloss": "years of study",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Wilhelm Peters (konstnär)",
-              "text_url": "https://sv.wikipedia.org/wiki/Wilhelm_Peters_(konstn%C3%A4r)",
-              "sentence_id": "3213098b",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"studieår\"]"
-            }
-          },
-          {
-            "ex_id": "63d10304bec194180b04583bd51074df7f924287",
-            "sv": "Efter studieår vid Wiens konstakademi började Yngve Fredriksén sin verksamhet som arkitekt hos Ralph Erskine.",
-            "en": "After years of study at the Vienna Academy of Fine Arts, Yngve Fredriksén began his work as an architect with Ralph Erskine.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Wiens konstakademi"
-              }
-            ],
-            "gloss": "years of study",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Yngve Fredriksén",
-              "text_url": "https://sv.wikipedia.org/wiki/Yngve_Fredriks%C3%A9n",
-              "sentence_id": "f5a2f962",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"studieår\"]"
-            }
-          },
-          {
-            "ex_id": "86ede726195fe821bf32c07ef77febdf70ed7bd6",
-            "sv": "Gloria Rays (enda) studieår på Litte Rock High kom att bli besvärligt.",
-            "en": "Gloria Ray's (only) year of study at Little Rock High came to be difficult.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Gloria Ray"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Litte Rock High"
-              }
-            ],
-            "gloss": "year of study",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Gloria Ray Karlmark",
-              "text_url": "https://sv.wikipedia.org/wiki/Gloria_Ray_Karlmark",
-              "sentence_id": "39884d6d",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studieår\"]"
             }
           },
           {
             "ex_id": "6f2021ae76ad80575e4fa3d45023289a50e4e6b2",
             "sv": "Under sitt fjärde studieår hade Krebs bestämt att antingen ta en högre examen i organisk kemi eller studera medicin.",
-            "en": "During his fourth year of study, Krebs had decided either to take a higher degree in organic chemistry or study medicine.",
+            "en": "During his fourth study year, Krebs had decided either to take a higher degree in organic chemistry or to study medicine.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -352,7 +193,7 @@
                 "span_sv": "medicin"
               }
             ],
-            "gloss": "year of study",
+            "gloss": "study year (year of studies in a program/course)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -363,14 +204,14 @@
               "text_title": "Edwin G. Krebs",
               "text_url": "https://sv.wikipedia.org/wiki/Edwin_G._Krebs",
               "sentence_id": "7ac42335",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studieår\"]"
             }
           },
           {
             "ex_id": "c4c3b5a8931ad00d27edc97c9d1ff2b52b48628d",
             "sv": "Elever som gått någon av utbildningarna kan senare söka ett andra studieår där de går Individuell Studiegång.",
-            "en": "Students who have taken one of the programs can later apply for a second year of study where they do Individual Study Path.",
+            "en": "Students who have done one of the educations can later apply for a second study year where they do Individual Study Path.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -379,10 +220,14 @@
               },
               {
                 "fe_id": "fe_course",
-                "span_sv": "någon av utbildningarna"
+                "span_sv": "utbildningarna"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "Individuell Studiegång"
               }
             ],
-            "gloss": "year of study",
+            "gloss": "study year (year of studies in a program/course)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -393,22 +238,22 @@
               "text_title": "Birkagårdens folkhögskola",
               "text_url": "https://sv.wikipedia.org/wiki/Birkag%C3%A5rdens_folkh%C3%B6gskola",
               "sentence_id": "66a6871e",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studieår\"]"
             }
           },
           {
-            "ex_id": "a17600b24b4223a00766cd1285f364492b5897a2",
-            "sv": "Under många år fram till 1978 valde kårordförande att ta ett extra studieår för att hinna med sina åtaganden.",
-            "en": "For many years up to 1978, student union chairs chose to take an extra year of study to have time for their commitments.",
+            "ex_id": "ceca31de8eff34c61ec77256ce919f981be8323d",
+            "sv": "Den svenske målaren Per Ekström tog under sina franska studieår intryck av denna skolbildning.",
+            "en": "The Swedish painter Per Ekström was influenced by this schooling during his French study years.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "kårordförande"
+                "span_sv": "Per Ekström"
               }
             ],
-            "gloss": "year of study",
+            "gloss": "study year (year of studies in a program/course)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -416,10 +261,118 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Teknikum",
-              "text_url": "https://sv.wikipedia.org/wiki/Teknikum",
-              "sentence_id": "407fc9dd",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "text_title": "Barbizonskolan",
+              "text_url": "https://sv.wikipedia.org/wiki/Barbizonskolan",
+              "sentence_id": "0bb40781",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"studieår\"]"
+            }
+          },
+          {
+            "ex_id": "504784fce86b043f4bd1f0e02a9c5b7d4261761d",
+            "sv": "Under sina studieår påverkades Gumiljov av Valerij Brjusov och Konstantin Balmont.",
+            "en": "During his study years, Gumiljov was influenced by Valerij Brjusov and Konstantin Balmont.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Gumiljov"
+              }
+            ],
+            "gloss": "study year (year of studies in a program/course)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Nikolaj Gumiljov",
+              "text_url": "https://sv.wikipedia.org/wiki/Nikolaj_Gumiljov",
+              "sentence_id": "afe4968c",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"studieår\"]"
+            }
+          },
+          {
+            "ex_id": "10d1e16a51e2982812cae4d0c83f5d01930d2598",
+            "sv": "Under sina studieår där lärde han också känna bland andra Ferdinand Boberg.",
+            "en": "During his study years there, he also got to know, among others, Ferdinand Boberg.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "han"
+              }
+            ],
+            "gloss": "study year (year of studies in a program/course)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Torben Grut",
+              "text_url": "https://sv.wikipedia.org/wiki/Torben_Grut",
+              "sentence_id": "db3ff5cc",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"studieår\"]"
+            }
+          },
+          {
+            "ex_id": "63d10304bec194180b04583bd51074df7f924287",
+            "sv": "Efter studieår vid Wiens konstakademi började Yngve Fredriksén sin verksamhet som arkitekt hos Ralph Erskine.",
+            "en": "After study years at the Vienna Academy of Fine Arts, Yngve Fredriksén began his work as an architect with Ralph Erskine.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Wiens konstakademi"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Yngve Fredriksén"
+              }
+            ],
+            "gloss": "study year (year of studies in a program/course)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Yngve Fredriksén",
+              "text_url": "https://sv.wikipedia.org/wiki/Yngve_Fredriks%C3%A9n",
+              "sentence_id": "f5a2f962",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"studieår\"]"
+            }
+          },
+          {
+            "ex_id": "da4f815013c905cb426414c419cc1448a4a65aca",
+            "sv": "Han slutförde därefter sina studieår 1880 efter perioder i München och Paris.",
+            "en": "He then completed his study years in 1880 after periods in Munich and Paris.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Han"
+              }
+            ],
+            "gloss": "study year (year of studies in a program/course)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Wilhelm Peters (konstnär)",
+              "text_url": "https://sv.wikipedia.org/wiki/Wilhelm_Peters_(konstn%C3%A4r)",
+              "sentence_id": "3213098b",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studieår\"]"
             }
           }
@@ -428,14 +381,20 @@
     ],
     "pronunciation": {
       "ipa": "ˈstʉːdɪeˌoːr",
-      "stress_hint": "Main stress on STU-, and a weaker stress on -år."
+      "stress_hint": "Main stress on STU-, and a weaker stress on -år.",
+      "audio": {
+        "file": "audio/lu_studienjahr_das.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "studieår (indefinite singular)",
-        "studieåret (definite singular)",
-        "studieår (indefinite plural)",
-        "studieåren (definite plural)"
+        "ett studieår",
+        "studieåret",
+        "studieår",
+        "studieåren"
       ],
       "particle_or_reflexive": null
     }

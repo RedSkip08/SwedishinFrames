@@ -1,0 +1,987 @@
+{
+  "frame": {
+    "id": "frame_education",
+    "name_en": "Education",
+    "slug": "education",
+    "frame_description_en": "This frame describes a learning situation where a Student takes part in education, often guided by a Teacher. The learning can happen in a Course and/or at an Institution, and it may involve using Material such as books or online resources. During the process, the Student may learn a Fact (information or knowledge), develop a Skill (an ability to do something), or study a Subject (an area of knowledge). The education can also lead to a Qualification such as a grade, diploma, or degree.",
+    "frame_description_html": "This frame describes a learning situation where a <span class=\"Student\">Student</span> takes part in education, often guided by a <span class=\"Teacher\">Teacher</span>. The learning can happen in a <span class=\"Course\">Course</span> and/or at an <span class=\"Institution\">Institution</span>, and it may involve using <span class=\"Material\">Material</span> such as books or online resources. During the process, the <span class=\"Student\">Student</span> may learn a <span class=\"Fact\">Fact</span> (information or knowledge), develop a <span class=\"Skill\">Skill</span> (an ability to do something), or study a <span class=\"Subject\">Subject</span> (an area of knowledge). The education can also lead to a <span class=\"Qualification\">Qualification</span> such as a grade, diploma, or degree.",
+    "frame_description_fe_mentions": [
+      {
+        "fe_id": "fe_student",
+        "span_en": "Student"
+      },
+      {
+        "fe_id": "fe_teacher",
+        "span_en": "Teacher"
+      },
+      {
+        "fe_id": "fe_course",
+        "span_en": "Course"
+      },
+      {
+        "fe_id": "fe_institution",
+        "span_en": "Institution"
+      },
+      {
+        "fe_id": "fe_material",
+        "span_en": "Material"
+      },
+      {
+        "fe_id": "fe_fact",
+        "span_en": "Fact"
+      },
+      {
+        "fe_id": "fe_skill",
+        "span_en": "Skill"
+      },
+      {
+        "fe_id": "fe_subject",
+        "span_en": "Subject"
+      },
+      {
+        "fe_id": "fe_qualification",
+        "span_en": "Qualification"
+      }
+    ],
+    "elements": [
+      {
+        "id": "fe_student",
+        "name": "Student",
+        "published": 1,
+        "description_en": "The person (or group) who is learning or studying.",
+        "description_html": "The person (or group) who is learning or studying."
+      },
+      {
+        "id": "fe_teacher",
+        "name": "Teacher",
+        "published": 1,
+        "description_en": "The person (or group) who teaches, trains, or guides the Student.",
+        "description_html": "The person (or group) who teaches, trains, or guides the <span class=\"Student\">Student</span>."
+      },
+      {
+        "id": "fe_course",
+        "name": "Course",
+        "published": 1,
+        "description_en": "The organized learning activity or program (e.g., a course, class, lesson, studies, term).",
+        "description_html": "The organized learning activity or program (e.g., a course, class, lesson, studies, term)."
+      },
+      {
+        "id": "fe_institution",
+        "name": "Institution",
+        "published": 1,
+        "description_en": "The place or organization where education happens (e.g., a school, university, academy, learning centre).",
+        "description_html": "The place or organization where education happens (e.g., a school, university, academy, learning centre)."
+      },
+      {
+        "id": "fe_material",
+        "name": "Material",
+        "published": 1,
+        "description_en": "The learning resources used in education (e.g., books, websites, notes, tools).",
+        "description_html": "The learning resources used in education (e.g., books, websites, notes, tools)."
+      },
+      {
+        "id": "fe_fact",
+        "name": "Fact",
+        "published": 1,
+        "description_en": "A piece of information or knowledge that is learned, studied, or taught.",
+        "description_html": "A piece of information or knowledge that is learned, studied, or taught."
+      },
+      {
+        "id": "fe_skill",
+        "name": "Skill",
+        "published": 1,
+        "description_en": "An ability that is learned or taught (e.g., reading, programming, flying).",
+        "description_html": "An ability that is learned or taught (e.g., reading, programming, flying)."
+      },
+      {
+        "id": "fe_subject",
+        "name": "Subject",
+        "published": 1,
+        "description_en": "The topic or field that the education is about (e.g., maths, history, Swedish).",
+        "description_html": "The topic or field that the education is about (e.g., maths, history, Swedish)."
+      },
+      {
+        "id": "fe_qualification",
+        "name": "Qualification",
+        "published": 1,
+        "description_en": "A formal result or credential from education (e.g., a grade, diploma, exam, degree, licence).",
+        "description_html": "A formal result or credential from education (e.g., a grade, diploma, exam, degree, licence)."
+      }
+    ],
+    "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
+    "examples": [
+      {
+        "ex_id": "8891674f6b38fb92e37b62d002a1229d0ba88fb3",
+        "sv": "Men den propra fröken Lind får Sigge att ta sig i kragen och plugga ordentligt.",
+        "en": "But the proper Miss Lind makes Sigge pull himself together and study properly.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_teacher",
+            "span_sv": "fröken Lind"
+          },
+          {
+            "fe_id": "fe_student",
+            "span_sv": "Sigge"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Swing it, fröken!",
+          "text_url": "https://sv.wikipedia.org/wiki/Swing_it,_fr%C3%B6ken!",
+          "sentence_id": "5e88a8a2",
+          "retrieved_at": "2026-01-20T15:24:34+00:00",
+          "korp_query": "[word=\"plugga\"]"
+        }
+      },
+      {
+        "ex_id": "cb4b91de849356cd8ddfd9d493c8151480512175",
+        "sv": "Mattecentrum står bakom webbtjänsten Matteboken.se, ett gratisverktyg för att plugga matematik på nätet.",
+        "en": "Mattecentrum is behind the web service Matteboken.se, a free tool to study maths online.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_material",
+            "span_sv": "webbtjänsten Matteboken.se"
+          },
+          {
+            "fe_id": "fe_subject",
+            "span_sv": "matematik"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Mattecentrum",
+          "text_url": "https://sv.wikipedia.org/wiki/Mattecentrum",
+          "sentence_id": "d0007dc6",
+          "retrieved_at": "2026-01-20T15:24:34+00:00",
+          "korp_query": "[word=\"plugga\"]"
+        }
+      },
+      {
+        "ex_id": "6301a2ee731b46a2072267f0f2ff2fc650cd967a",
+        "sv": "Lina börjar plugga till veterinär på en gymnasieskola i Bramhed, 45 mil hemifrån.",
+        "en": "Lina starts studying to become a veterinarian at an upper secondary school in Bramhed, 450 km from home.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_student",
+            "span_sv": "Lina"
+          },
+          {
+            "fe_id": "fe_qualification",
+            "span_sv": "veterinär"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "en gymnasieskola i Bramhed"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Linas kvällsbok 2: Två killar och ett hjärta",
+          "text_url": "https://sv.wikipedia.org/wiki/Linas_kv%C3%A4llsbok_2:_Tv%C3%A5_killar_och_ett_hj%C3%A4rta",
+          "sentence_id": "c714691f",
+          "retrieved_at": "2026-01-20T15:24:34+00:00",
+          "korp_query": "[word=\"plugga\"]"
+        }
+      },
+      {
+        "ex_id": "01b84de9a66b98985898e4dd45fbed735df6a55f",
+        "sv": "1985 började hon studera matematik på University of California, San Diego.",
+        "en": "In 1985 she began to study mathematics at the University of California, San Diego.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_student",
+            "span_sv": "hon"
+          },
+          {
+            "fe_id": "fe_subject",
+            "span_sv": "matematik"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "University of California, San Diego"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Nicole Mitchell (musiker)",
+          "text_url": "https://sv.wikipedia.org/wiki/Nicole_Mitchell_(musiker)",
+          "sentence_id": "bf97580b",
+          "retrieved_at": "2026-01-20T15:24:34+00:00",
+          "korp_query": "[word=\"studera\"]"
+        }
+      },
+      {
+        "ex_id": "0c9066cceca5fa663a59009756b54dab7223563d",
+        "sv": "Han började studera vid Uppsala universitet 1886 och avlade teologisk-filosofisk examen 1887.",
+        "en": "He began to study at Uppsala University in 1886 and took a theology-philosophy degree in 1887.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_student",
+            "span_sv": "Han"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "Uppsala universitet"
+          },
+          {
+            "fe_id": "fe_qualification",
+            "span_sv": "teologisk-filosofisk examen"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Axel Hägerström",
+          "text_url": "https://sv.wikipedia.org/wiki/Axel_H%C3%A4gerstr%C3%B6m",
+          "sentence_id": "6cf8a696",
+          "retrieved_at": "2026-01-20T15:24:34+00:00",
+          "korp_query": "[word=\"studera\"]"
+        }
+      },
+      {
+        "ex_id": "0c59ce5eefc2a9ca153281f71c8293613ad2cbac",
+        "sv": "Hans föräldrar tog honom till dataklasser så han kunde lära sig att programmera.",
+        "en": "His parents took him to computer classes so he could learn to program.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_student",
+            "span_sv": "honom"
+          },
+          {
+            "fe_id": "fe_course",
+            "span_sv": "dataklasser"
+          },
+          {
+            "fe_id": "fe_skill",
+            "span_sv": "att programmera"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Leslie Benzies",
+          "text_url": "https://sv.wikipedia.org/wiki/Leslie_Benzies",
+          "sentence_id": "15e8dcb2",
+          "retrieved_at": "2026-01-20T15:24:34+00:00",
+          "korp_query": "[word=\"lära\"][word=\"sig\"]"
+        }
+      },
+      {
+        "ex_id": "48af58cd8924d61a4ff9bc39117e4b225e2e56f1",
+        "sv": "Vid en föreläsning läser eller berättar läraren, medan eleverna antecknar.",
+        "en": "At a lecture the teacher reads or tells, while the students take notes.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_course",
+            "span_sv": "en föreläsning"
+          },
+          {
+            "fe_id": "fe_teacher",
+            "span_sv": "läraren"
+          },
+          {
+            "fe_id": "fe_student",
+            "span_sv": "eleverna"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Utbildning",
+          "text_url": "https://sv.wikipedia.org/wiki/Utbildning",
+          "sentence_id": "3904cdb7",
+          "retrieved_at": "2026-01-20T15:24:35+00:00",
+          "korp_query": "[word=\"föreläsning\"]"
+        }
+      }
+    ],
+    "linked_lexical_units": [
+      {
+        "lu_id": "lu_lernen_für_den__einen_test",
+        "display_sv": "plugga",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_lernen_für_den__einen_test:1"
+      },
+      {
+        "lu_id": "lu_studieren",
+        "display_sv": "studera",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_studieren:1"
+      },
+      {
+        "lu_id": "lu_lernen",
+        "display_sv": "lära sig",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_lernen:1"
+      },
+      {
+        "lu_id": "lu_schule_die",
+        "display_sv": "skola",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_schule_die:1"
+      },
+      {
+        "lu_id": "lu_gymnasium_das",
+        "display_sv": "gymnasium",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_gymnasium_das:1"
+      },
+      {
+        "lu_id": "lu_uni_die",
+        "display_sv": "universitet",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_uni_die:1"
+      },
+      {
+        "lu_id": "lu_unterricht_der",
+        "display_sv": "undervisning",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_unterricht_der:1"
+      },
+      {
+        "lu_id": "lu_klasse_die",
+        "display_sv": "klass",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_klasse_die:1"
+      },
+      {
+        "lu_id": "lu_kurs_der",
+        "display_sv": "kurs",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_kurs_der:1"
+      },
+      {
+        "lu_id": "lu_lehren",
+        "display_sv": "undervisa",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_lehren:1"
+      },
+      {
+        "lu_id": "lu_unterrichten",
+        "display_sv": "undervisa",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_unterrichten:1"
+      },
+      {
+        "lu_id": "lu_beibringen",
+        "display_sv": "lära någon något",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_beibringen:1"
+      },
+      {
+        "lu_id": "lu_lehrer_der_lehrer__die_lehrerin",
+        "display_sv": "lärare",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_lehrer_der_lehrer__die_lehrerin:1"
+      },
+      {
+        "lu_id": "lu_dozent_der_dozent__die_dozentin",
+        "display_sv": "universitetslärare",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_dozent_der_dozent__die_dozentin:1"
+      },
+      {
+        "lu_id": "lu_professor_der_professor__die_professorin",
+        "display_sv": "professor",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_professor_der_professor__die_professorin:1"
+      },
+      {
+        "lu_id": "lu_student_der_student__die_studentin",
+        "display_sv": "student",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_student_der_student__die_studentin:1"
+      },
+      {
+        "lu_id": "lu_schüler_der_schüler__die_schülerin",
+        "display_sv": "elev",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_schüler_der_schüler__die_schülerin:1"
+      },
+      {
+        "lu_id": "lu_belegen",
+        "display_sv": "läsa",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_belegen:1"
+      },
+      {
+        "lu_id": "lu_bestehen_die_prüfung__den_test_bestehen",
+        "display_sv": "klara",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_bestehen_die_prüfung__den_test_bestehen:1"
+      },
+      {
+        "lu_id": "lu_durchfallen",
+        "display_sv": "kugga",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_durchfallen:1"
+      },
+      {
+        "lu_id": "lu_durchkommen",
+        "display_sv": "klara",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_durchkommen:1"
+      },
+      {
+        "lu_id": "lu_abschließen_das_studium_abschließen",
+        "display_sv": "avsluta",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_abschließen_das_studium_abschließen:1"
+      },
+      {
+        "lu_id": "lu_abitur_das_das_abitur_machen",
+        "display_sv": "gymnasieexamen",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_abitur_das_das_abitur_machen:1"
+      },
+      {
+        "lu_id": "lu_hauptschule_die",
+        "display_sv": "grundskola",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_hauptschule_die:1"
+      },
+      {
+        "lu_id": "lu_realschule_die",
+        "display_sv": "högstadium",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_realschule_die:1"
+      },
+      {
+        "lu_id": "lu_gesamtschule_die",
+        "display_sv": "grundskola",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_gesamtschule_die:1"
+      },
+      {
+        "lu_id": "lu_vorlesung_die",
+        "display_sv": "föreläsning",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_vorlesung_die:1"
+      },
+      {
+        "lu_id": "lu_unterrichtsstunde_die",
+        "display_sv": "lektion",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_unterrichtsstunde_die:1"
+      },
+      {
+        "lu_id": "lu_schulstunde_die",
+        "display_sv": "lektion",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_schulstunde_die:1"
+      },
+      {
+        "lu_id": "lu_lehrveranstaltung_die",
+        "display_sv": "undervisningstillfälle",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_lehrveranstaltung_die:1"
+      },
+      {
+        "lu_id": "lu_büffeln",
+        "display_sv": "plugga",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_büffeln:1"
+      },
+      {
+        "lu_id": "lu_schwänzen",
+        "display_sv": "skolka",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_schwänzen:1"
+      },
+      {
+        "lu_id": "lu_einschreiben_sich_einschreiben",
+        "display_sv": "skriva in sig",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_einschreiben_sich_einschreiben:1"
+      },
+      {
+        "lu_id": "lu_immatrikulieren_sich_immatrikulieren",
+        "display_sv": "skriva in sig",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_immatrikulieren_sich_immatrikulieren:1"
+      },
+      {
+        "lu_id": "lu_hörsaal_der",
+        "display_sv": "hörsal",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_hörsaal_der:1"
+      },
+      {
+        "lu_id": "lu_vorlesungsverzeichnis_das",
+        "display_sv": "kurskatalog",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_vorlesungsverzeichnis_das:1"
+      },
+      {
+        "lu_id": "lu_schuljahr_das",
+        "display_sv": "skolår",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_schuljahr_das:1"
+      },
+      {
+        "lu_id": "lu_studienjahr_das",
+        "display_sv": "studieår",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_studienjahr_das:1"
+      },
+      {
+        "lu_id": "lu_semester_das",
+        "display_sv": "termin",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_semester_das:1"
+      },
+      {
+        "lu_id": "lu_semesterferien_die",
+        "display_sv": "terminsuppehåll",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_semesterferien_die:1"
+      },
+      {
+        "lu_id": "lu_schulferien_die",
+        "display_sv": "skollov",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_schulferien_die:1"
+      },
+      {
+        "lu_id": "lu_studentenwohnheim_das",
+        "display_sv": "studenthem",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_studentenwohnheim_das:1"
+      },
+      {
+        "lu_id": "lu_studierende_der_studierende_ein_studierender_die_eine_studierende",
+        "display_sv": "student",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_studierende_der_studierende_ein_studierender_die_eine_studierende:1"
+      },
+      {
+        "lu_id": "lu_kommilitone_der_kommilitone_die_kommilitonin",
+        "display_sv": "kurskamrat",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_kommilitone_der_kommilitone_die_kommilitonin:1"
+      },
+      {
+        "lu_id": "lu_bafög_das",
+        "display_sv": "studiemedel",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_bafög_das:1"
+      },
+      {
+        "lu_id": "lu_zensur_die",
+        "display_sv": "betyg",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_zensur_die:1"
+      },
+      {
+        "lu_id": "lu_seminar_das",
+        "display_sv": "seminarium",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_seminar_das:1"
+      },
+      {
+        "lu_id": "lu_seminarraum_der",
+        "display_sv": "seminarierum",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_seminarraum_der:1"
+      },
+      {
+        "lu_id": "lu_klausur_die",
+        "display_sv": "tenta",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_klausur_die:1"
+      },
+      {
+        "lu_id": "lu_bibliothek_die",
+        "display_sv": "bibliotek",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_bibliothek_die:1"
+      },
+      {
+        "lu_id": "lu_zeugnis_das",
+        "display_sv": "betyg",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_zeugnis_das:1"
+      },
+      {
+        "lu_id": "lu_exmatrikulieren",
+        "display_sv": "avregistrera",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_exmatrikulieren:1"
+      },
+      {
+        "lu_id": "lu_mensa_die",
+        "display_sv": "studentmatsal",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_mensa_die:1"
+      },
+      {
+        "lu_id": "lu_kita_die",
+        "display_sv": "förskola",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_kita_die:1"
+      },
+      {
+        "lu_id": "lu_klassenzimmer_das",
+        "display_sv": "klassrum",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_klassenzimmer_das:1"
+      },
+      {
+        "lu_id": "lu_prufung_die",
+        "display_sv": "prov",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_prufung_die:1"
+      },
+      {
+        "lu_id": "lu_abiturient_der_abiturient__die_abiturientin",
+        "display_sv": "gymnasieelev",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_abiturient_der_abiturient__die_abiturientin:1"
+      },
+      {
+        "lu_id": "lu_absolvent_der_absolvent__die_absolventin",
+        "display_sv": "utexaminerad",
+        "lu_type": "single",
+        "pos": "adjective",
+        "sense_id": "lu_absolvent_der_absolvent__die_absolventin:1"
+      },
+      {
+        "lu_id": "lu_doktorand_der_doktorand__die_doktorandin",
+        "display_sv": "doktorand",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_doktorand_der_doktorand__die_doktorandin:1"
+      },
+      {
+        "lu_id": "lu_studienfach_das",
+        "display_sv": "ämne",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_studienfach_das:1"
+      },
+      {
+        "lu_id": "lu_note_die",
+        "display_sv": "betyg",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_note_die:1"
+      }
+    ],
+    "confusable_with": []
+  },
+  "constructions": [
+    {
+      "cxn_id": "cxn_1",
+      "cxn_name_linguistic_sv": "X pluggar Y",
+      "cxn_name_user_friendly_en": "Studying a subject",
+      "pattern": "SUBJ (X) + V plugga + OBJ (Y)",
+      "meaning_en": "Someone studies a subject (often schoolwork).",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_student"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_subject"
+        }
+      ],
+      "usage_notes_en": [
+        "Used with a direct object for the subject being studied."
+      ],
+      "examples": [
+        {
+          "ex_id": "cb4b91de849356cd8ddfd9d493c8151480512175",
+          "sv": "Mattecentrum står bakom webbtjänsten Matteboken.se, ett gratisverktyg för att plugga matematik på nätet.",
+          "en": "Mattecentrum is behind the web service Matteboken.se, a free tool to study maths online.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_material",
+              "span_sv": "webbtjänsten Matteboken.se"
+            },
+            {
+              "fe_id": "fe_subject",
+              "span_sv": "matematik"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Mattecentrum",
+            "text_url": "https://sv.wikipedia.org/wiki/Mattecentrum",
+            "sentence_id": "d0007dc6",
+            "retrieved_at": "2026-01-20T15:24:34+00:00",
+            "korp_query": "[word=\"plugga\"]"
+          }
+        },
+        {
+          "ex_id": "7f716f8aaea5dd0c7a39c1c4ccdaade89fba1688",
+          "sv": "Hon har fysiken men hon är inte alls lika bra på att plugga.",
+          "en": "She knows physics, but she is not at all as good at studying.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_student",
+              "span_sv": "Hon"
+            },
+            {
+              "fe_id": "fe_subject",
+              "span_sv": "fysiken"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Agentskolan",
+            "text_url": "https://sv.wikipedia.org/wiki/Agentskolan",
+            "sentence_id": "c1f1972c",
+            "retrieved_at": "2026-01-20T15:24:34+00:00",
+            "korp_query": "[word=\"plugga\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_2",
+      "cxn_name_linguistic_sv": "X pluggar för Y",
+      "cxn_name_user_friendly_en": "Studying for grades",
+      "pattern": "V plugga + PP-för (Y)",
+      "meaning_en": "Someone studies in order to achieve a result such as grades.",
+      "frame_mapping": [
+        {
+          "slot": "PP-för",
+          "maps_to_fe_id": "fe_qualification"
+        }
+      ],
+      "usage_notes_en": [
+        "Uses för + noun to express the goal/result of studying."
+      ],
+      "examples": [
+        {
+          "ex_id": "e39a09f8a8d070f4692f763cf1c296bb109c09db",
+          "sv": "Yttre motivation handlar om att undvika bestraffningar och erhålla belöningar, till exempel att plugga för betygen.",
+          "en": "External motivation is about avoiding punishments and getting rewards, for example studying for the grades.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_qualification",
+              "span_sv": "betygen"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Motivation",
+            "text_url": "https://sv.wikipedia.org/wiki/Motivation",
+            "sentence_id": "e34a4802",
+            "retrieved_at": "2026-01-20T15:24:34+00:00",
+            "korp_query": "[word=\"plugga\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_3",
+      "cxn_name_linguistic_sv": "X börjar plugga (till Y) (på Z)",
+      "cxn_name_user_friendly_en": "Starting to study",
+      "pattern": "SUBJ (X) + V börjar + V plugga + (PP-till (Y)) + (PP-på (Z))",
+      "meaning_en": "Someone starts studying, optionally aiming for a qualification and/or at an institution.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_student"
+        },
+        {
+          "slot": "PP-till",
+          "maps_to_fe_id": "fe_qualification"
+        },
+        {
+          "slot": "PP-på",
+          "maps_to_fe_id": "fe_institution"
+        }
+      ],
+      "usage_notes_en": [
+        "till + profession/role can express what you are studying to become.",
+        "på + institution can express where you study."
+      ],
+      "examples": [
+        {
+          "ex_id": "2a0491f7a56b95c22060e84ccc8a2c1e0f108549",
+          "sv": "Jocke vill förändra sitt liv och börja plugga efter fängelsestraffet, men istället fritas han från fängelset.",
+          "en": "Jocke wants to change his life and start studying after the prison sentence, but instead he is released from prison.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_student",
+              "span_sv": "Jocke"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Sökarna – Återkomsten",
+            "text_url": "https://sv.wikipedia.org/wiki/S%C3%B6karna_%E2%80%93_%C3%85terkomsten",
+            "sentence_id": "a135fe5a",
+            "retrieved_at": "2026-01-20T15:24:34+00:00",
+            "korp_query": "[word=\"plugga\"]"
+          }
+        },
+        {
+          "ex_id": "6301a2ee731b46a2072267f0f2ff2fc650cd967a",
+          "sv": "Lina börjar plugga till veterinär på en gymnasieskola i Bramhed, 45 mil hemifrån.",
+          "en": "Lina starts studying to become a veterinarian at an upper secondary school in Bramhed, 450 km from home.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_student",
+              "span_sv": "Lina"
+            },
+            {
+              "fe_id": "fe_qualification",
+              "span_sv": "veterinär"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "en gymnasieskola i Bramhed"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Linas kvällsbok 2: Två killar och ett hjärta",
+            "text_url": "https://sv.wikipedia.org/wiki/Linas_kv%C3%A4llsbok_2:_Tv%C3%A5_killar_och_ett_hj%C3%A4rta",
+            "sentence_id": "c714691f",
+            "retrieved_at": "2026-01-20T15:24:34+00:00",
+            "korp_query": "[word=\"plugga\"]"
+          }
+        },
+        {
+          "ex_id": "8c0dd5c192ae48bc5cf3d0dec8d6a300facf4340",
+          "sv": "Hon och Keitaro börjar plugga tillsammans för att komma in på Todai tillsammans.",
+          "en": "She and Keitaro start studying together to get into Todai together.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_student",
+              "span_sv": "Hon och Keitaro"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "Todai"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Love Hina",
+            "text_url": "https://sv.wikipedia.org/wiki/Love_Hina",
+            "sentence_id": "58d78ff5",
+            "retrieved_at": "2026-01-20T15:24:34+00:00",
+            "korp_query": "[word=\"plugga\"]"
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_examples": 5,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true
+  }
+}

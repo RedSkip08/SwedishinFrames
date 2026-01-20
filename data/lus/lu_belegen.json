@@ -12,7 +12,7 @@
     "display_sv": "läsa",
     "name_sv": "läsa",
     "pos": "verb",
-    "cefr": "A1",
+    "cefr": "A2",
     "multiword": {
       "mwe_type": null,
       "components_sv": [],
@@ -28,7 +28,7 @@
     "english_equivalent_en": "read",
     "morphology_sv": {
       "noun": {
-        "gender": "en",
+        "gender": null,
         "indef_sg": null,
         "def_sg": null,
         "indef_pl": null,
@@ -58,17 +58,17 @@
       {
         "word": "läsning",
         "type_en": "noun",
-        "meaning_en": "reading (the activity)"
+        "meaning_en": "reading (activity)"
       },
       {
         "word": "läsare",
         "type_en": "noun",
-        "meaning_en": "reader (person or device)"
+        "meaning_en": "reader"
       },
       {
-        "word": "läsbar",
-        "type_en": "adjective",
-        "meaning_en": "readable"
+        "word": "läsbok",
+        "type_en": "noun",
+        "meaning_en": "reading book (for practice)"
       },
       {
         "word": "läskunnig",
@@ -76,25 +76,16 @@
         "meaning_en": "able to read; literate"
       },
       {
-        "word": "lärobok",
-        "type_en": "noun",
-        "meaning_en": "textbook"
-      },
-      {
-        "word": "läsförståelse",
-        "type_en": "noun",
-        "meaning_en": "reading comprehension"
+        "word": "läsa om",
+        "type_en": "verb",
+        "meaning_en": "read again"
       }
     ],
     "synonyms_sv": [
       "läsa igenom",
-      "läsa upp",
-      "studera",
       "ta del av"
     ],
-    "antonyms_sv": [
-      "skriva"
-    ],
+    "antonyms_sv": [],
     "linked_frames": [
       {
         "frame_id": "frame_education",
@@ -107,58 +98,170 @@
       {
         "sense_id": "lu_belegen:1",
         "frame_id": "frame_education",
-        "meaning_en": "understand written words in a text, like a book, letter, or story.",
+        "meaning_en": "understand written text or symbols by looking at them.",
         "how_to_use_en": [
-          "Use it for the skill of reading: kunna läsa.",
-          "Use it with an object for what you read: läsa en bok/ett brev/en saga.",
-          "Often used with att + infinitive: börja/tycka om/be om att läsa."
+          "Use for reading texts like books, letters, or stories.",
+          "Also use for the skill of reading (often with skriva).",
+          "Can be used with music: läsa musik."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "lära (någon) att läsa",
-            "meaning_en": "teach someone to read",
-            "note_en": "Used for learning the basic skill."
+            "pattern": "läsa + Material",
+            "meaning_en": "read something",
+            "note_en": "Object can be a book, letter, story, etc."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "tycka om att läsa (Material)",
-            "meaning_en": "like reading",
-            "note_en": "Often followed by what you read, e.g. böcker."
+            "pattern": "börja läsa",
+            "meaning_en": "start reading",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "be (någon) om att läsa (Material)",
-            "meaning_en": "ask someone to read",
-            "note_en": "Common with stories or texts read aloud."
+            "pattern": "tycka om att läsa + Material",
+            "meaning_en": "like reading something",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "kunna läsa (och skriva)",
-            "meaning_en": "be able to read",
-            "note_en": "Often paired with *skriva*."
+            "pattern": "lära sig läsa (och skriva)",
+            "meaning_en": "learn to read (and write)",
+            "note_en": "Used for acquiring the skill, often in education contexts."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "ha svårigheter med att läsa",
-            "meaning_en": "have difficulty reading",
-            "note_en": "Used when talking about reading problems."
+            "pattern": "kunna läsa (och skriva)",
+            "meaning_en": "be able to read (and write)",
+            "note_en": ""
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *läsa* when you mean “study a subject/course” (e.g., *läsa matematik*).",
-            "fix": "Use *studera* or *läsa* only if the context clearly means studying.",
-            "explain_en": "In these examples, *läsa* means the reading skill or reading a text."
+            "error": "Using *lära* instead of läsa for the activity.",
+            "fix": "Use läsa for the activity; use lära sig läsa for learning the skill.",
+            "explain_en": "läsa = do the reading; lära sig läsa = learn how to read."
           },
           {
-            "error": "Forgetting the object when it matters (e.g., *läsa* without saying what).",
-            "fix": "Add the material: *läsa boken/brevet/en saga*.",
-            "explain_en": "Swedish often states what is being read when it is specific."
+            "error": "Forgetting the object after läsa when you mean a specific text.",
+            "fix": "Add what is read: läsa en saga / läsa böcker / läsa brevet.",
+            "explain_en": "In many contexts you specify the material being read."
           }
         ],
         "required_example_count": 10,
         "examples": [
+          {
+            "ex_id": "2cf85f250ec857c5e635e2b5567f7ee782e6c041",
+            "sv": "De börjar läsa och inser snabbt att det är något stort på spåren.",
+            "en": "They start to read and quickly realize that they are onto something big.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "De"
+              }
+            ],
+            "gloss": "read",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Illuminatus!",
+              "text_url": "https://sv.wikipedia.org/wiki/Illuminatus!",
+              "sentence_id": "7ab3023c",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"läsa\"]"
+            }
+          },
+          {
+            "ex_id": "a52b6d72d47c70b98e5baa61e3b91a667739a233",
+            "sv": "Ett gäng föräldralösa barn ber Musse Pigg om att läsa en saga.",
+            "en": "A group of orphan children ask Mickey Mouse to read a story.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "Musse Pigg"
+              },
+              {
+                "fe_id": "fe_material",
+                "span_sv": "en saga"
+              }
+            ],
+            "gloss": "read",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "I jättarnas land",
+              "text_url": "https://sv.wikipedia.org/wiki/I_j%C3%A4ttarnas_land",
+              "sentence_id": "4de0f17b",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"läsa\"]"
+            }
+          },
+          {
+            "ex_id": "8e4eb203e5deab53aad2661c42306ce96fc94ecb",
+            "sv": "Hon tycker också om att lyssna på musik, läsa böcker och att umgås med vänner.",
+            "en": "She also likes to listen to music, read books, and spend time with friends.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_material",
+                "span_sv": "böcker"
+              }
+            ],
+            "gloss": "read",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Katarina Srebotnik",
+              "text_url": "https://sv.wikipedia.org/wiki/Katarina_Srebotnik",
+              "sentence_id": "40e69884",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"läsa\"]"
+            }
+          },
+          {
+            "ex_id": "6147034df64948794622ce936f91cb5ae7f7f970",
+            "sv": "Den mesta av tiden tillbringar han med att läsa och leka med tennsoldater.",
+            "en": "He spends most of the time reading and playing with toy soldiers.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "han"
+              }
+            ],
+            "gloss": "read",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Krig (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Krig_(film)",
+              "sentence_id": "8ade4a0b",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"läsa\"]"
+            }
+          },
           {
             "ex_id": "2fa5eca011784ff181daa3c786bd527ac5c320fd",
             "sv": "1723 blev det lag på att föräldrar skulle lära sina barn att läsa.",
@@ -178,8 +281,8 @@
                 "span_sv": "läsa"
               }
             ],
-            "gloss": "läsa = read",
-            "level": "A2",
+            "gloss": "read",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -189,177 +292,41 @@
               "text_title": "Utbildning i Sverige",
               "text_url": "https://sv.wikipedia.org/wiki/Utbildning_i_Sverige",
               "sentence_id": "ee8d93ae",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"läsa\"]"
             }
           },
           {
-            "ex_id": "6147034df64948794622ce936f91cb5ae7f7f970",
-            "sv": "Den mesta av tiden tillbringar han med att läsa och leka med tennsoldater.",
-            "en": "Most of the time he spends reading and playing with toy soldiers.",
+            "ex_id": "cc171524ff098abef77fca3bb3d3c1a4251cd077",
+            "sv": "Han hade aldrig gått i skola, men hade lärt sig läsa och skriva som vuxen.",
+            "en": "He had never gone to school, but had learned to read and write as an adult.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "läsa"
-              }
-            ],
-            "gloss": "läsa = read",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Krig (film)",
-              "text_url": "https://sv.wikipedia.org/wiki/Krig_(film)",
-              "sentence_id": "8ade4a0b",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsa\"]"
-            }
-          },
-          {
-            "ex_id": "8e4eb203e5deab53aad2661c42306ce96fc94ecb",
-            "sv": "Hon tycker också om att lyssna på musik, läsa böcker och att umgås med vänner.",
-            "en": "She also likes listening to music, reading books, and spending time with friends.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Hon"
-              },
-              {
-                "fe_id": "fe_material",
-                "span_sv": "böcker"
-              },
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "läsa"
-              }
-            ],
-            "gloss": "läsa = read",
-            "level": "A1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Katarina Srebotnik",
-              "text_url": "https://sv.wikipedia.org/wiki/Katarina_Srebotnik",
-              "sentence_id": "40e69884",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsa\"]"
-            }
-          },
-          {
-            "ex_id": "a52b6d72d47c70b98e5baa61e3b91a667739a233",
-            "sv": "Ett gäng föräldralösa barn ber Musse Pigg om att läsa en saga.",
-            "en": "A group of orphan children ask Mickey Mouse to read a story.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Ett gäng föräldralösa barn"
-              },
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "Musse Pigg"
-              },
-              {
-                "fe_id": "fe_material",
-                "span_sv": "en saga"
-              },
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "läsa"
-              }
-            ],
-            "gloss": "läsa = read",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "I jättarnas land",
-              "text_url": "https://sv.wikipedia.org/wiki/I_j%C3%A4ttarnas_land",
-              "sentence_id": "4de0f17b",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsa\"]"
-            }
-          },
-          {
-            "ex_id": "1fb710e7c032843a50b7687eadc23410d6b1e342",
-            "sv": "Trots att Bastian läst boken tidigare, känner han behov att läsa den igen.",
-            "en": "Even though Bastian has read the book before, he feels a need to read it again.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Bastian"
-              },
-              {
-                "fe_id": "fe_material",
-                "span_sv": "boken"
-              },
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "läsa"
-              }
-            ],
-            "gloss": "läsa = read",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Den oändliga historien 2 - Nästa kapitel",
-              "text_url": "https://sv.wikipedia.org/wiki/Den_o%C3%A4ndliga_historien_2_-_N%C3%A4sta_kapitel",
-              "sentence_id": "8d677ff5",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsa\"]"
-            }
-          },
-          {
-            "ex_id": "36c58e76a99e42251faa9c9c3303b71ec21d29c3",
-            "sv": "Asa började tidigt i skolan och kunde läsa vid tre års ålder.",
-            "en": "Asa started school early and could read at the age of three.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Asa"
+                "span_sv": "Han"
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "skolan"
+                "span_sv": "skola"
               },
               {
                 "fe_id": "fe_skill",
-                "span_sv": "läsa"
+                "span_sv": "läsa och skriva"
               }
             ],
-            "gloss": "läsa = read",
-            "level": "A2",
+            "gloss": "read",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Asa Gray",
-              "text_url": "https://sv.wikipedia.org/wiki/Asa_Gray",
-              "sentence_id": "6377bdc2",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "text_title": "Johan Turi",
+              "text_url": "https://sv.wikipedia.org/wiki/Johan_Turi",
+              "sentence_id": "88b04674",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"läsa\"]"
             }
           },
@@ -375,10 +342,10 @@
               },
               {
                 "fe_id": "fe_skill",
-                "span_sv": "läsa"
+                "span_sv": "läsa och skriva"
               }
             ],
-            "gloss": "läsa = read",
+            "gloss": "read",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -389,60 +356,30 @@
               "text_title": "Nya Zeeland",
               "text_url": "https://sv.wikipedia.org/wiki/Nya_Zeeland",
               "sentence_id": "8ad680d9",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"läsa\"]"
             }
           },
           {
-            "ex_id": "062d6c0b2775e2a6f50710bc527391821609ee7b",
-            "sv": "Om någon trots skolgång har svårigheter med att läsa brukar man tala om att denne har dyslexi.",
-            "en": "If someone, despite schooling, has difficulties reading, people usually say that this person has dyslexia.",
+            "ex_id": "36c58e76a99e42251faa9c9c3303b71ec21d29c3",
+            "sv": "Asa började tidigt i skolan och kunde läsa vid tre års ålder.",
+            "en": "Asa started early in school and could read at the age of three.",
             "frame_id": "frame_education",
             "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Asa"
+              },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "skolgång"
-              },
-              {
-                "fe_id": "fe_student",
-                "span_sv": "någon"
+                "span_sv": "skolan"
               },
               {
                 "fe_id": "fe_skill",
                 "span_sv": "läsa"
               }
             ],
-            "gloss": "läsa = read",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Läsning",
-              "text_url": "https://sv.wikipedia.org/wiki/L%C3%A4sning",
-              "sentence_id": "b39b6045",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsa\"]"
-            }
-          },
-          {
-            "ex_id": "2cf85f250ec857c5e635e2b5567f7ee782e6c041",
-            "sv": "De börjar läsa och inser snabbt att det är något stort på spåren.",
-            "en": "They start reading and quickly realize that they are onto something big.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "De"
-              },
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "läsa"
-              }
-            ],
-            "gloss": "läsa = read",
+            "gloss": "read",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -450,10 +387,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Illuminatus!",
-              "text_url": "https://sv.wikipedia.org/wiki/Illuminatus!",
-              "sentence_id": "7ab3023c",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "text_title": "Asa Gray",
+              "text_url": "https://sv.wikipedia.org/wiki/Asa_Gray",
+              "sentence_id": "6377bdc2",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"läsa\"]"
             }
           },
@@ -470,13 +407,9 @@
               {
                 "fe_id": "fe_material",
                 "span_sv": "brevet"
-              },
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "läsa"
               }
             ],
-            "gloss": "läsa = read",
+            "gloss": "read",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -487,7 +420,41 @@
               "text_title": "Tiggarstudenten",
               "text_url": "https://sv.wikipedia.org/wiki/Tiggarstudenten",
               "sentence_id": "0a75b876",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"läsa\"]"
+            }
+          },
+          {
+            "ex_id": "578a5df7d87f8345253ee7de54603e4276f3a1f2",
+            "sv": "Coleman lärde sig spela saxofon och läsa musik från 14 års ålder.",
+            "en": "Coleman learned to play the saxophone and read music from the age of 14.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Coleman"
+              },
+              {
+                "fe_id": "fe_skill",
+                "span_sv": "läsa musik"
+              },
+              {
+                "fe_id": "fe_material",
+                "span_sv": "musik"
+              }
+            ],
+            "gloss": "read",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ornette Coleman",
+              "text_url": "https://sv.wikipedia.org/wiki/Ornette_Coleman",
+              "sentence_id": "d87075e4",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"läsa\"]"
             }
           }
@@ -496,7 +463,13 @@
     ],
     "pronunciation": {
       "ipa": "ˈlɛːsa",
-      "stress_hint": "Stress on the first syllable: LÄ-sa."
+      "stress_hint": "Stress on the first syllable: LÄ-sa.",
+      "audio": {
+        "file": "audio/lu_belegen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [

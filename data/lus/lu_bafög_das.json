@@ -31,7 +31,7 @@
         "def_sg": "studiemedlet",
         "indef_pl": "studiemedel",
         "def_pl": "studiemedlen",
-        "note_en": "Often used as a mass noun; singular and plural indefinite are the same form."
+        "note_en": "Uncountable-like noun: singular and plural indefinite are the same form."
       },
       "verb": {
         "infinitive": null,
@@ -59,14 +59,14 @@
         "meaning_en": "eligible for student financial aid"
       },
       {
-        "word": "studiemedelssystem",
+        "word": "studiemedelsrätt",
         "type_en": "noun",
-        "meaning_en": "system for student financial aid"
+        "meaning_en": "right/entitlement to student financial aid"
       },
       {
-        "word": "studiemedelsregler",
+        "word": "studiemedelssystem",
         "type_en": "noun",
-        "meaning_en": "rules for student financial aid"
+        "meaning_en": "the student aid system"
       },
       {
         "word": "studiemedelsansökan",
@@ -74,9 +74,9 @@
         "meaning_en": "application for student financial aid"
       },
       {
-        "word": "studiemedelsutbetalning",
+        "word": "studiemedelslån",
         "type_en": "noun",
-        "meaning_en": "payment of student financial aid"
+        "meaning_en": "loan part of student financial aid"
       }
     ],
     "synonyms_sv": [
@@ -96,54 +96,53 @@
       {
         "sense_id": "lu_bafög_das:1",
         "frame_id": "frame_education",
-        "meaning_en": "money from the state to support someone’s studies, often handled by CSN.",
+        "meaning_en": "money support (grant/loan) you can get from the state while studying.",
         "how_to_use_en": [
-          "Use about financial support for studies (loan and/or grant).",
-          "Common with verbs like få, söka, ansöka om, and with “från CSN”.",
-          "Often used in official or informational texts."
+          "Use about financial support for studies, often from CSN.",
+          "Common with verbs like få, söka, ansöka om, and with statliga."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "berättiga till studiemedel (från [Institution])",
             "meaning_en": "give the right to student aid",
-            "note_en": "Often used about an education or course."
+            "note_en": "Often used about an education/course and CSN."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "ansöka om / söka studiemedel",
+            "pattern": "ansöka om studiemedel",
             "meaning_en": "apply for student aid",
             "note_en": ""
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "få studiemedel (från [Institution])",
-            "meaning_en": "receive student aid",
-            "note_en": "Often with statliga and/or from CSN."
+            "pattern": "söka studiemedel (för [Course])",
+            "meaning_en": "apply for student aid",
+            "note_en": "Often with a purpose phrase: *för kurser/studier*."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "inte längre få studiemedel",
-            "meaning_en": "no longer receive student aid",
-            "note_en": ""
+            "pattern": "få (statliga) studiemedel",
+            "meaning_en": "receive student aid",
+            "note_en": "Often used with *inte* when someone is not eligible."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "studiemedel kan (inte) lämnas",
-            "meaning_en": "aid can (not) be granted",
-            "note_en": "Formal, administrative style."
+            "pattern": "studiemedel kan lämnas (för [Course])",
+            "meaning_en": "student aid can be granted",
+            "note_en": "Formal/administrative style."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using studiemedel as only “grant money”.",
-            "fix": "Use studiebidrag for the grant part; studiemedel is the broader support.",
-            "explain_en": "In the examples, studiemedel is contrasted with studiebidrag and is used as the general study support."
+            "error": "Using *studiemedel* as only a grant (bidrag).",
+            "fix": "Use *studiebidrag* for only the grant part; *studiemedel* can include loans.",
+            "explain_en": "In the examples, studiemedel is broader and can be something you apply for or receive."
           },
           {
-            "error": "Saying *ansöka studiemedel* without om.",
-            "fix": "Say ansöka om studiemedel.",
-            "explain_en": "The examples show the preposition om with ansöka."
+            "error": "Saying *ansöka studiemedel* without *om*.",
+            "fix": "Say *ansöka om studiemedel*.",
+            "explain_en": "The examples show the fixed preposition *om* after *ansöka*."
           }
         ],
         "required_example_count": 10,
@@ -174,14 +173,14 @@
               "text_title": "Lokförare",
               "text_url": "https://sv.wikipedia.org/wiki/Lokf%C3%B6rare",
               "sentence_id": "d88306cc",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studiemedel\"]"
             }
           },
           {
             "ex_id": "7557cb518dec69a49616205aa63cc4a6c8502f61",
             "sv": "När man fyller 20 upphör studiebidraget, och man kan då ansöka om studiemedel istället.",
-            "en": "When you turn 20, the study grant stops, and you can then apply for student financial aid instead.",
+            "en": "When you turn 20, the study grant stops, and then you can apply for student financial aid instead.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -200,7 +199,7 @@
               "text_title": "Studiebidrag",
               "text_url": "https://sv.wikipedia.org/wiki/Studiebidrag",
               "sentence_id": "e3d0f215",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studiemedel\"]"
             }
           },
@@ -226,7 +225,7 @@
               "text_title": "Studiemedel",
               "text_url": "https://sv.wikipedia.org/wiki/Studiemedel",
               "sentence_id": "2a5ce835",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studiemedel\"]"
             }
           },
@@ -238,11 +237,7 @@
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "Ljunggren"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "sina studier"
+                "span_sv": "han"
               }
             ],
             "gloss": "student financial aid",
@@ -256,70 +251,14 @@
               "text_title": "Kal P. Dal",
               "text_url": "https://sv.wikipedia.org/wiki/Kal_P._Dal",
               "sentence_id": "82e1853b",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"studiemedel\"]"
-            }
-          },
-          {
-            "ex_id": "704eef5b0e14fd3121bb98dfb122bb0984e34632",
-            "sv": "Så länge ABF stod som huvudman kunde eleverna inte få statliga studiemedel.",
-            "en": "As long as ABF was the main organizer, the students could not get state student financial aid.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "ABF"
-              },
-              {
-                "fe_id": "fe_student",
-                "span_sv": "eleverna"
-              }
-            ],
-            "gloss": "student financial aid",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Grafikskolan Forum",
-              "text_url": "https://sv.wikipedia.org/wiki/Grafikskolan_Forum",
-              "sentence_id": "c20e88a6",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"studiemedel\"]"
-            }
-          },
-          {
-            "ex_id": "b1fe0f63e82ff50d95637be3c20d3910bd0b41c2",
-            "sv": "Studiehjälp och studiemedel kan under vissa förutsättningar också lämnas för studier utomlands.",
-            "en": "Study support and student financial aid can, under certain conditions, also be given for studies abroad.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_course",
-                "span_sv": "studier utomlands"
-              }
-            ],
-            "gloss": "student financial aid",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Studiestöd i Sverige",
-              "text_url": "https://sv.wikipedia.org/wiki/Studiest%C3%B6d_i_Sverige",
-              "sentence_id": "36ea8627",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studiemedel\"]"
             }
           },
           {
             "ex_id": "7872ce92df8e68d6fba5a8fc0907afbe58eb2d3b",
             "sv": "Studenterna på skolan får statliga studiemedel samt CSN:s merkostnadslån för kursavgiften.",
-            "en": "The students at the school get state student financial aid and CSN’s extra cost loan for the course fee.",
+            "en": "The students at the school get state student financial aid and CSN's extra cost loan for the course fee.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -346,19 +285,19 @@
               "text_title": "Kiropraktik",
               "text_url": "https://sv.wikipedia.org/wiki/Kiropraktik",
               "sentence_id": "5d4f5eeb",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studiemedel\"]"
             }
           },
           {
-            "ex_id": "070680ef4a06e37d4d5de6ffbddad9dc1aa6906b",
-            "sv": "Dessutom höjdes åldersgränsen för att kunna få studiemedel från 50 till 54 år.",
-            "en": "In addition, the age limit to be able to get student financial aid was raised from 50 to 54 years.",
+            "ex_id": "b1fe0f63e82ff50d95637be3c20d3910bd0b41c2",
+            "sv": "Studiehjälp och studiemedel kan under vissa förutsättningar också lämnas för studier utomlands.",
+            "en": "Study support and student financial aid can, under certain conditions, also be given for studies abroad.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "att kunna få"
+                "fe_id": "fe_course",
+                "span_sv": "studier"
               }
             ],
             "gloss": "student financial aid",
@@ -369,17 +308,47 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Centrala studiestödsnämnden",
-              "text_url": "https://sv.wikipedia.org/wiki/Centrala_studiest%C3%B6dsn%C3%A4mnden",
-              "sentence_id": "f00ad50b",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "text_title": "Studiestöd i Sverige",
+              "text_url": "https://sv.wikipedia.org/wiki/Studiest%C3%B6d_i_Sverige",
+              "sentence_id": "36ea8627",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"studiemedel\"]"
+            }
+          },
+          {
+            "ex_id": "704eef5b0e14fd3121bb98dfb122bb0984e34632",
+            "sv": "Så länge ABF stod som huvudman kunde eleverna inte få statliga studiemedel.",
+            "en": "As long as ABF was the main organizer, the pupils could not get state student financial aid.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "ABF"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "eleverna"
+              }
+            ],
+            "gloss": "student financial aid",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Grafikskolan Forum",
+              "text_url": "https://sv.wikipedia.org/wiki/Grafikskolan_Forum",
+              "sentence_id": "c20e88a6",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studiemedel\"]"
             }
           },
           {
             "ex_id": "0dcdc5dad2c9929c4b29a5a9a8ea04b0276556d9",
             "sv": "Om den studerande har vissa ersättningar kan studiemedel över huvud taget inte lämnas.",
-            "en": "If the student has certain compensations, student financial aid cannot be given at all.",
+            "en": "If the student has certain benefits, student financial aid cannot be given at all.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -398,7 +367,7 @@
               "text_title": "Studiestöd i Sverige",
               "text_url": "https://sv.wikipedia.org/wiki/Studiest%C3%B6d_i_Sverige",
               "sentence_id": "36e7da1c",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studiemedel\"]"
             }
           },
@@ -424,7 +393,33 @@
               "text_title": "Centrala studiestödsnämnden",
               "text_url": "https://sv.wikipedia.org/wiki/Centrala_studiest%C3%B6dsn%C3%A4mnden",
               "sentence_id": "f00814fb",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"studiemedel\"]"
+            }
+          },
+          {
+            "ex_id": "070680ef4a06e37d4d5de6ffbddad9dc1aa6906b",
+            "sv": "Dessutom höjdes åldersgränsen för att kunna få studiemedel från 50 till 54 år.",
+            "en": "In addition, the age limit to be able to get student financial aid was raised from 50 to 54 years.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "kunna"
+              }
+            ],
+            "gloss": "student financial aid",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Centrala studiestödsnämnden",
+              "text_url": "https://sv.wikipedia.org/wiki/Centrala_studiest%C3%B6dsn%C3%A4mnden",
+              "sentence_id": "f00ad50b",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"studiemedel\"]"
             }
           }
@@ -433,7 +428,13 @@
     ],
     "pronunciation": {
       "ipa": "ˈstʉːdɪɛˌmeːdɛl",
-      "stress_hint": "Main stress on STU-, and a weaker stress on -ME-."
+      "stress_hint": "Main stress on STU-, secondary stress on -ME-.",
+      "audio": {
+        "file": "audio/lu_bafög_das.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [

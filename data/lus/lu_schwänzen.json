@@ -67,12 +67,12 @@
       {
         "word": "skolkning",
         "type_en": "noun",
-        "meaning_en": "the act of skipping school"
+        "meaning_en": "the act/habit of skipping school"
       },
       {
-        "word": "skolktrött",
-        "type_en": "adjective",
-        "meaning_en": "tired of school; unmotivated for school"
+        "word": "skolkdag",
+        "type_en": "noun",
+        "meaning_en": "a day when someone skips school"
       }
     ],
     "synonyms_sv": [
@@ -80,7 +80,7 @@
       "inte gå till skolan"
     ],
     "antonyms_sv": [
-      "gå i skolan"
+      "gå till skolan"
     ],
     "linked_frames": [
       {
@@ -94,54 +94,48 @@
       {
         "sense_id": "lu_schwänzen:1",
         "frame_id": "frame_education",
-        "meaning_en": "not go to school when you should, without permission.",
+        "meaning_en": "to not go to school when you should, without permission",
         "how_to_use_en": [
-          "Use about a student missing school on purpose.",
-          "Often used with börja/sluta: börja skolka, sluta skolka.",
-          "Can be used with från: skolka från skolan."
+          "Use about a student not attending school/classes on purpose.",
+          "Often used without an object: someone just “skolkar”.",
+          "You can add “från skolan” to say what they skip."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "X skolar",
+            "pattern": "X skolkar",
             "meaning_en": "X skips school",
-            "note_en": "The student is the subject."
+            "note_en": "The school is understood from context."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "börja skolka",
-            "meaning_en": "start skipping school",
+            "pattern": "X börjar skolka",
+            "meaning_en": "X starts skipping school",
             "note_en": ""
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "sluta skolka",
-            "meaning_en": "stop skipping school",
+            "pattern": "X slutar skolka",
+            "meaning_en": "X stops skipping school",
             "note_en": ""
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "skolka från skolan",
-            "meaning_en": "skip school (be absent from school)",
-            "note_en": "Uses från to name the institution."
-          },
-          {
-            "pattern_id": "pat_5",
-            "pattern": "skolka tillsammans med X",
-            "meaning_en": "skip school together with X",
-            "note_en": ""
+            "pattern": "X skolkar från skolan",
+            "meaning_en": "X skips school (from school)",
+            "note_en": "Use “från” to name the institution/place."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using skolka for missing work (a job).",
-            "fix": "Use skolka mainly for school; for work, say t.ex. vara borta från jobbet.",
-            "explain_en": "Skolka is tied to school attendance in the examples."
+            "error": "Using *skolka* for skipping work (a job).",
+            "fix": "Use “sjukanmäla sig” (if ill) or “inte gå till jobbet” instead.",
+            "explain_en": "Skolka is mainly used for school attendance, not regular employment."
           },
           {
             "error": "Saying *skolka skolan*.",
-            "fix": "Say skolka or skolka från skolan.",
-            "explain_en": "The examples show skolka alone and skolka från skolan."
+            "fix": "Say “skolka” or “skolka från skolan”.",
+            "explain_en": "In the examples, the place is expressed with “från skolan” or left implicit."
           }
         ],
         "required_example_count": 10,
@@ -161,7 +155,7 @@
                 "span_sv": "eleven"
               }
             ],
-            "gloss": "skolka = not go to school (skip school) without permission",
+            "gloss": "skip school",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -172,7 +166,7 @@
               "text_title": "Studiebidrag",
               "text_url": "https://sv.wikipedia.org/wiki/Studiebidrag",
               "sentence_id": "e3dd7923",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"skolka\"]"
             }
           },
@@ -183,15 +177,15 @@
             "frame_id": "frame_education",
             "fe_tags": [
               {
-                "fe_id": "fe_institution",
-                "span_sv": "högstadiet"
-              },
-              {
                 "fe_id": "fe_student",
                 "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "högstadiet"
               }
             ],
-            "gloss": "skolka = not go to school (skip school) without permission",
+            "gloss": "skip school",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -202,14 +196,14 @@
               "text_title": "Stina Stoor",
               "text_url": "https://sv.wikipedia.org/wiki/Stina_Stoor",
               "sentence_id": "fafabf44",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"skolka\"]"
             }
           },
           {
             "ex_id": "5a88da45dd4f9e9092a86e435b57b8acb9e0da8b",
             "sv": "Bart bestämmer sig för att skolka och skriver en falsk lapp att han ska besöka tandläkaren.",
-            "en": "Bart decides to skip school and writes a fake note that he is going to visit the dentist.",
+            "en": "Bart decides to skip school and writes a fake note that he will visit the dentist.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -217,7 +211,7 @@
                 "span_sv": "Bart"
               }
             ],
-            "gloss": "skolka = not go to school (skip school) without permission",
+            "gloss": "skip school",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -228,7 +222,7 @@
               "text_title": "The Boy Who Knew Too Much (Simpsons)",
               "text_url": "https://sv.wikipedia.org/wiki/The_Boy_Who_Knew_Too_Much_(Simpsons)",
               "sentence_id": "500eef20",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"skolka\"]"
             }
           },
@@ -247,7 +241,7 @@
                 "span_sv": "skolan"
               }
             ],
-            "gloss": "skolka = not go to school (skip school) without permission",
+            "gloss": "skip school",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -258,7 +252,7 @@
               "text_title": "Stefan Jarl",
               "text_url": "https://sv.wikipedia.org/wiki/Stefan_Jarl",
               "sentence_id": "ae27f154",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"skolka\"]"
             }
           },
@@ -274,14 +268,10 @@
               },
               {
                 "fe_id": "fe_student",
-                "span_sv": "Nathan"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "skolarbetet"
+                "span_sv": "honom"
               }
             ],
-            "gloss": "skolka = not go to school (skip school) without permission",
+            "gloss": "skip school",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -292,7 +282,7 @@
               "text_title": "Säsonger av One Tree Hill",
               "text_url": "https://sv.wikipedia.org/wiki/S%C3%A4songer_av_One_Tree_Hill",
               "sentence_id": "d8745ed1",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"skolka\"]"
             }
           }
@@ -301,7 +291,13 @@
     ],
     "pronunciation": {
       "ipa": "ˈskɔl.ka",
-      "stress_hint": "Stress on the first syllable: SKOL-ka."
+      "stress_hint": "Stress is on the first syllable: SKOL-ka.",
+      "audio": {
+        "file": "audio/lu_schwänzen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [

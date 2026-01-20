@@ -22,8 +22,7 @@
       "avregistrera",
       "avregistrerar",
       "avregistrerade",
-      "avregistrerat",
-      "avregistrerad"
+      "avregistrerat"
     ],
     "english_equivalent_en": "unsubscribe",
     "morphology_sv": {
@@ -58,22 +57,22 @@
       {
         "word": "avregistrering",
         "type_en": "noun",
-        "meaning_en": "unsubscribing; removal from a register"
+        "meaning_en": "unsubscribing; removal from a register/list"
       },
       {
         "word": "avregistrerad",
         "type_en": "adjective",
-        "meaning_en": "unsubscribed; removed from a register"
-      },
-      {
-        "word": "avregistrera sig",
-        "type_en": "other",
-        "meaning_en": "unsubscribe (oneself)"
+        "meaning_en": "unsubscribed; removed from a register/list"
       },
       {
         "word": "registrera",
         "type_en": "verb",
         "meaning_en": "register; sign up"
+      },
+      {
+        "word": "registrering",
+        "type_en": "noun",
+        "meaning_en": "registration"
       }
     ],
     "synonyms_sv": [
@@ -82,8 +81,7 @@
       "avsluta"
     ],
     "antonyms_sv": [
-      "registrera",
-      "anmäla"
+      "registrera"
     ],
     "linked_frames": [
       {
@@ -97,30 +95,29 @@
       {
         "sense_id": "lu_exmatrikulieren:1",
         "frame_id": "frame_education",
-        "meaning_en": "remove someone or yourself from a list or service, so you stop receiving messages.",
+        "meaning_en": "remove someone or yourself from a register or mailing list.",
         "how_to_use_en": [
-          "Often used with sig: avregistrera sig (unsubscribe).",
-          "Common with från + what you leave (e.g., future mailings).",
-          "Typical in formal or service contexts (emails, subscriptions)."
+          "Use for ending a subscription or being removed from a list/register.",
+          "Often used with “sig” when the person removes themself."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "avregistrera sig från + noun",
             "meaning_en": "unsubscribe from something",
-            "note_en": "Common for email lists and similar services."
+            "note_en": "Common for e-mail lists and other subscriptions."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *avregistrera* without saying what you leave.",
-            "fix": "Add från + noun: avregistrera sig från …",
-            "explain_en": "In this sense, Swedish usually states the list/service you unsubscribe from."
+            "error": "Using *avregistrera* without “sig” when the subject is the person leaving the list.",
+            "fix": "Use “avregistrera sig”.",
+            "explain_en": "In the example, the recipient removes themself from future mailings."
           },
           {
             "error": "Confusing *avregistrera* with *registrera*.",
-            "fix": "Use *registrera* for signing up and *avregistrera* for leaving.",
-            "explain_en": "They are opposites: register vs. remove from a register."
+            "fix": "Use *registrera* for signing up and *avregistrera* for signing off.",
+            "explain_en": "They are opposites in meaning."
           }
         ],
         "required_example_count": 10,
@@ -136,7 +133,7 @@
                 "span_sv": "Mottagaren"
               }
             ],
-            "gloss": "avregistrera = remove oneself from a register; unsubscribe",
+            "gloss": "avregistrera = remove oneself from a list / unsubscribe",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -147,7 +144,7 @@
               "text_title": "E-postmarknadsföring",
               "text_url": "https://sv.wikipedia.org/wiki/E-postmarknadsf%C3%B6ring",
               "sentence_id": "ca55ce47",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"avregistrera\"]"
             }
           }
@@ -156,7 +153,13 @@
     ],
     "pronunciation": {
       "ipa": "ˈɑːv.rɛ.ɡɪˌstreː.ra",
-      "stress_hint": "Stress is usually on the first part: AV-registrera."
+      "stress_hint": "Main stress is on the first part: AV-.",
+      "audio": {
+        "file": "audio/lu_exmatrikulieren.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
@@ -165,7 +168,7 @@
         "avregistrerade",
         "avregistrerat"
       ],
-      "particle_or_reflexive": "sig"
+      "particle_or_reflexive": null
     }
   },
   "constraints": {

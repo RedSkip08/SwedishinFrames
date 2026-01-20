@@ -12,7 +12,7 @@
     "display_sv": "klara",
     "name_sv": "klara",
     "pos": "verb",
-    "cefr": "B1",
+    "cefr": "A2",
     "multiword": {
       "mwe_type": null,
       "components_sv": [],
@@ -22,10 +22,9 @@
       "klara",
       "klarar",
       "klarade",
-      "klarat",
-      "klara (imperative)"
+      "klarat"
     ],
-    "english_equivalent_en": "manage",
+    "english_equivalent_en": "handle",
     "morphology_sv": {
       "noun": {
         "gender": "en",
@@ -52,18 +51,13 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "Often used with an object (klara + noun) or as the reflexive expression “klara sig”."
+      "note_en": ""
     },
     "derived_words_sv": [
       {
-        "word": "klara sig",
-        "type_en": "verb",
-        "meaning_en": "manage on your own; cope"
-      },
-      {
         "word": "avklara",
         "type_en": "verb",
-        "meaning_en": "settle; finish (a matter)"
+        "meaning_en": "finish or settle (a task or matter)"
       },
       {
         "word": "klargöra",
@@ -73,23 +67,23 @@
       {
         "word": "klargörande",
         "type_en": "noun",
-        "meaning_en": "clarification"
+        "meaning_en": "a clarification"
       },
       {
         "word": "klarspråk",
         "type_en": "noun",
-        "meaning_en": "plain language"
+        "meaning_en": "plain language; clear wording"
       }
     ],
     "synonyms_sv": [
       "hantera",
-      "orka",
       "stå ut med",
-      "fixa",
-      "reda sig"
+      "tåla",
+      "uthärda",
+      "bemästra"
     ],
     "antonyms_sv": [
-      "misslyckas"
+      "misslyckas med"
     ],
     "linked_frames": [
       {
@@ -103,63 +97,94 @@
       {
         "sense_id": "lu_durchkommen:1",
         "frame_id": "frame_education",
-        "meaning_en": "be able to handle something difficult, or meet a requirement or standard.",
+        "meaning_en": "be able to handle, cope with, or meet a demand or condition",
         "how_to_use_en": [
-          "Use with an object for what is handled: klara + noun.",
-          "Use “klara sig” when someone manages on their own."
+          "Use it for handling conditions, loads, heat, illness, or other challenges.",
+          "Often followed by what must be handled (a noun phrase).",
+          "Often used with an infinitive phrase: “för att klara …”."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "klara + noun (e.g., tyngden/hettan/avgaskraven/Euro 6)",
-            "meaning_en": "handle; meet a requirement",
-            "note_en": "Common with loads, heat, transports, and standards/requirements."
+            "pattern": "klara + noun phrase",
+            "meaning_en": "handle or withstand something",
+            "note_en": "Common with loads, heat, illness, threats, requirements."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "inte kunna klara + noun",
-            "meaning_en": "not be able to handle",
+            "pattern": "inte kunna klara + noun phrase",
+            "meaning_en": "be unable to handle something",
             "note_en": ""
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "klara sig",
-            "meaning_en": "manage; cope",
-            "note_en": "Often implies managing without help."
+            "pattern": "för att klara + noun phrase",
+            "meaning_en": "in order to meet/handle something",
+            "note_en": "Often explains why something is designed or upgraded."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "klara sig själv(a)",
-            "meaning_en": "manage on one’s own",
-            "note_en": "Used when someone is left to cope independently."
+            "pattern": "klara + noun phrase + bättre än + comparison",
+            "meaning_en": "cope better than someone/something",
+            "note_en": ""
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *klara* without an object when you mean “manage on your own”.",
-            "fix": "Use “klara sig”.",
-            "explain_en": "In the examples, independence is expressed with the reflexive form: klara sig."
+            "error": "Using *klara* without saying what is handled (when context is unclear).",
+            "fix": "Add the thing: “klara hettan/tyngden/kraven/sjukdomen”.",
+            "explain_en": "In this sense, *klara* usually needs an object (the challenge or requirement)."
           },
           {
-            "error": "Mixing up “klara” (manage/meet) with “vara klar” (be finished/ready).",
-            "fix": "Say “vara klar” for finished/ready; “klara” for coping/meeting requirements.",
-            "explain_en": "They are related in form but used differently."
+            "error": "Confusing *klara* (handle/meet) with *vara klar* (be finished/ready).",
+            "fix": "Say “vara klar” for finished/ready; use “klara” for coping/meeting demands.",
+            "explain_en": "They look similar but express different meanings."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "4306587cd1194d449ee9494e3af1e9d3e67196a1",
-            "sv": "Planerna skrinlades dock sedan studier visat att läktaren inte skulle klara tyngden.",
-            "en": "The plans were shelved, however, after studies showed that the stand would not manage the weight.",
+            "ex_id": "5bc8b593027a16a7c37cc3c3f8c78c1dae33571e",
+            "sv": "Datorns tillförlitlighet och förmåga att klara förhållandena i rymden var det viktigaste.",
+            "en": "The computer's reliability and ability to handle the conditions in space were the most important.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
-                "fe_id": "fe_material",
+                "fe_id": "fe_skill",
+                "span_sv": "förmåga att klara"
+              },
+              {
+                "fe_id": "fe_fact",
+                "span_sv": "förhållandena i rymden"
+              }
+            ],
+            "gloss": "klara = manage, cope with, handle",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Galileo (rymdsond)",
+              "text_url": "https://sv.wikipedia.org/wiki/Galileo_(rymdsond)",
+              "sentence_id": "ef59b221",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "4306587cd1194d449ee9494e3af1e9d3e67196a1",
+            "sv": "Planerna skrinlades dock sedan studier visat att läktaren inte skulle klara tyngden.",
+            "en": "The plans were shelved, however, after studies showed that the stand would not handle the weight.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_fact",
                 "span_sv": "studier"
               }
             ],
-            "gloss": "klara = manage, cope with",
+            "gloss": "klara = manage, cope with, handle",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -170,48 +195,22 @@
               "text_title": "Shea Stadium",
               "text_url": "https://sv.wikipedia.org/wiki/Shea_Stadium",
               "sentence_id": "30ceb8cd",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "4eead0b96533d4bf6464117d8f828a4c5e40cece",
-            "sv": "Space Shuttle hade keramiska beläggningar på undersidan för att klara hettan.",
-            "en": "The Space Shuttle had ceramic coatings on the underside to handle the heat.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_material",
-                "span_sv": "keramiska beläggningar"
-              }
-            ],
-            "gloss": "klara = manage, cope with",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Deltavinge",
-              "text_url": "https://sv.wikipedia.org/wiki/Deltavinge",
-              "sentence_id": "8cbf8a1d",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klara\"]"
             }
           },
           {
             "ex_id": "6ff046091aac46615418d1271254c7f21bd21735",
             "sv": "Under 1980-talet diskuterades det om man skulle riva bron då den inte kunde klara tunga transporter.",
-            "en": "During the 1980s it was discussed whether they should tear down the bridge because it could not handle heavy transports.",
+            "en": "During the 1980s it was discussed whether the bridge should be demolished because it could not handle heavy transports.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
-                "fe_id": "fe_skill",
-                "span_sv": "klara tunga transporter"
+                "fe_id": "fe_fact",
+                "span_sv": "diskuterades"
               }
             ],
-            "gloss": "klara = manage, cope with",
+            "gloss": "klara = manage, cope with, handle",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -222,22 +221,22 @@
               "text_title": "Humla socken",
               "text_url": "https://sv.wikipedia.org/wiki/Humla_socken",
               "sentence_id": "c0c24e1d",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klara\"]"
             }
           },
           {
             "ex_id": "a2a4243bcd3437b7400ae4142d5309d1e5c45c8e",
             "sv": "Bilen fick en betydligt rundare front och motorn uppgraderades för att klara avgaskraven.",
-            "en": "The car got a much rounder front and the engine was upgraded to meet the emission requirements.",
+            "en": "The car got a much rounder front and the engine was upgraded to meet the exhaust requirements.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
-                "fe_id": "fe_qualification",
+                "fe_id": "fe_fact",
                 "span_sv": "avgaskraven"
               }
             ],
-            "gloss": "klara = meet (requirements), manage",
+            "gloss": "klara = manage, cope with, handle",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -248,33 +247,33 @@
               "text_title": "Ford Escort",
               "text_url": "https://sv.wikipedia.org/wiki/Ford_Escort",
               "sentence_id": "57dd86f0",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klara\"]"
             }
           },
           {
-            "ex_id": "ce28b5de4275e7813ca81deea38b4572f3f4bc07",
-            "sv": "Dieselpersonbilar måste klara Euro 6 från 1 juli 2022 i miljözoner.",
-            "en": "Diesel passenger cars must meet Euro 6 from 1 July 2022 in environmental zones.",
+            "ex_id": "4eead0b96533d4bf6464117d8f828a4c5e40cece",
+            "sv": "Space Shuttle hade keramiska beläggningar på undersidan för att klara hettan.",
+            "en": "The Space Shuttle had ceramic coatings on the underside to withstand the heat.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
-                "fe_id": "fe_qualification",
-                "span_sv": "Euro 6"
+                "fe_id": "fe_fact",
+                "span_sv": "hettan"
               }
             ],
-            "gloss": "klara = meet (a standard), pass",
-            "level": "B1",
+            "gloss": "klara = manage, cope with, handle",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Miljözon",
-              "text_url": "https://sv.wikipedia.org/wiki/Milj%C3%B6zon",
-              "sentence_id": "0cd59025",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "text_title": "Deltavinge",
+              "text_url": "https://sv.wikipedia.org/wiki/Deltavinge",
+              "sentence_id": "8cbf8a1d",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klara\"]"
             }
           },
@@ -285,11 +284,11 @@
             "frame_id": "frame_education",
             "fe_tags": [
               {
-                "fe_id": "fe_material",
-                "span_sv": "De livsuppehållande systemen och förnödenheterna"
+                "fe_id": "fe_fact",
+                "span_sv": "en 7-dagars resa"
               }
             ],
-            "gloss": "klara = manage, cope with",
+            "gloss": "klara = manage, cope with, handle",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -300,85 +299,7 @@
               "text_title": "Sputnik 2",
               "text_url": "https://sv.wikipedia.org/wiki/Sputnik_2",
               "sentence_id": "63e1c4e1",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "df16973a389cebcd08e694f538753d5cd7d7e354",
-            "sv": "Eftersom nybygget låg så avlägset var man tvungna att klara sig själva på gården.",
-            "en": "Because the new building was so remote, they had to manage on their own on the farm.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "man"
-              }
-            ],
-            "gloss": "klara sig = manage on one's own",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ålviken",
-              "text_url": "https://sv.wikipedia.org/wiki/%C3%85lviken",
-              "sentence_id": "49fc7857",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "63c36cbae1d12a107006fd07498c261cd692adf2",
-            "sv": "Så hon bär tappert allt ensam och försöker klara sig ändå.",
-            "en": "So she bravely carries everything alone and tries to manage anyway.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "hon"
-              }
-            ],
-            "gloss": "klara sig = manage, cope",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Förnuft och känsla (film)",
-              "text_url": "https://sv.wikipedia.org/wiki/F%C3%B6rnuft_och_k%C3%A4nsla_(film)",
-              "sentence_id": "a26568a0",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "a7fbae41bdb0d437230bcf007a674c5db47dfc4f",
-            "sv": "Efter ungarna är avvanda lämnar honan dem att klara sig själva.",
-            "en": "After the young are weaned, the female leaves them to manage on their own.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "dem"
-              }
-            ],
-            "gloss": "klara sig = manage on one's own",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Sciurus granatensis",
-              "text_url": "https://sv.wikipedia.org/wiki/Sciurus_granatensis",
-              "sentence_id": "fd2add8d",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klara\"]"
             }
           },
@@ -391,9 +312,13 @@
               {
                 "fe_id": "fe_student",
                 "span_sv": "Små barn"
+              },
+              {
+                "fe_id": "fe_fact",
+                "span_sv": "sjukdomen"
               }
             ],
-            "gloss": "klara = cope with, manage",
+            "gloss": "klara = manage, cope with, handle",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -404,7 +329,85 @@
               "text_title": "Mykoplasmapneumoni",
               "text_url": "https://sv.wikipedia.org/wiki/Mykoplasmapneumoni",
               "sentence_id": "70bd779c",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "163d6a3ca42e2969b858dea8b5e2c0f955633b12",
+            "sv": "större biodiversitet) har bättre chans att klara hot från för området främmande arter.",
+            "en": "(greater biodiversity) has a better chance of coping with threats from species that are foreign to the area.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_fact",
+                "span_sv": "hot från för området främmande arter"
+              }
+            ],
+            "gloss": "klara = manage, cope with, handle",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ekologisk nisch",
+              "text_url": "https://sv.wikipedia.org/wiki/Ekologisk_nisch",
+              "sentence_id": "1763dfef",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "06f48bc868d9ed7bd820afd5ee5f690f8114da76",
+            "sv": "I 1945 års skärgårdsutredning kom man fram till att färjor inte kunde klara transportproblemet vid toppbelastningar.",
+            "en": "In the 1945 archipelago investigation, they concluded that ferries could not handle the transport problem at peak loads.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_fact",
+                "span_sv": "skärgårdsutredning"
+              }
+            ],
+            "gloss": "klara = manage, cope with, handle",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Djuröbron",
+              "text_url": "https://sv.wikipedia.org/wiki/Djur%C3%B6bron",
+              "sentence_id": "df76c984",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "ce28b5de4275e7813ca81deea38b4572f3f4bc07",
+            "sv": "Dieselpersonbilar måste klara Euro 6 från 1 juli 2022 i miljözoner.",
+            "en": "Diesel passenger cars must meet Euro 6 from 1 July 2022 in environmental zones.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_fact",
+                "span_sv": "Euro 6"
+              }
+            ],
+            "gloss": "klara = manage, cope with, handle",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Miljözon",
+              "text_url": "https://sv.wikipedia.org/wiki/Milj%C3%B6zon",
+              "sentence_id": "0cd59025",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klara\"]"
             }
           }
@@ -413,7 +416,13 @@
     ],
     "pronunciation": {
       "ipa": "ˈklɑːra",
-      "stress_hint": "Stress is on the first syllable: KLA-ra."
+      "stress_hint": "Stress on the first syllable: KLA-ra.",
+      "audio": {
+        "file": "audio/lu_durchkommen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
@@ -422,7 +431,7 @@
         "klarade",
         "klarat"
       ],
-      "particle_or_reflexive": "sig"
+      "particle_or_reflexive": null
     }
   },
   "constraints": {

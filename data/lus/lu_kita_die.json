@@ -20,7 +20,6 @@
     },
     "forms": [
       "förskola",
-      "en förskola",
       "förskolan",
       "förskolor",
       "förskolorna"
@@ -56,14 +55,14 @@
     },
     "derived_words_sv": [
       {
-        "word": "förskoleklass",
-        "type_en": "noun",
-        "meaning_en": "school year before grade 1 (often called preschool class)"
-      },
-      {
         "word": "förskolebarn",
         "type_en": "noun",
         "meaning_en": "child who goes to preschool"
+      },
+      {
+        "word": "förskoleklass",
+        "type_en": "noun",
+        "meaning_en": "school year before grade 1"
       },
       {
         "word": "förskolelärare",
@@ -71,14 +70,14 @@
         "meaning_en": "preschool teacher"
       },
       {
+        "word": "förskoleplats",
+        "type_en": "noun",
+        "meaning_en": "a place/spot in preschool"
+      },
+      {
         "word": "förskoleverksamhet",
         "type_en": "noun",
         "meaning_en": "preschool activities/operations"
-      },
-      {
-        "word": "förskoleplats",
-        "type_en": "noun",
-        "meaning_en": "a place/spot at a preschool"
       }
     ],
     "synonyms_sv": [
@@ -98,54 +97,53 @@
       {
         "sense_id": "lu_kita_die:1",
         "frame_id": "frame_education",
-        "meaning_en": "a place where young children go before primary school",
+        "meaning_en": "an institution where young children go before starting school",
         "how_to_use_en": [
-          "Use it for the institution (a preschool), often mentioned with other local services.",
-          "Common with existential phrases like “det finns …” and location phrases like “i X finns …”.",
-          "Often used with “en” in singular: “en förskola”."
+          "Use it for the place/institution (not the activity).",
+          "Often mentioned together with skola/grundskola when describing a town."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "Här finns (bland annat) ... förskola ...",
-            "meaning_en": "there is a preschool (here)",
-            "note_en": "Used to list what a place has."
-          },
-          {
-            "pattern_id": "pat_2",
-            "pattern": "På orten/I [plats] finns en förskola",
+            "pattern": "Här/I [plats] finns (bland annat) (en) förskola",
             "meaning_en": "there is a preschool in a place",
             "note_en": "Common in factual descriptions of towns/areas."
           },
           {
+            "pattern_id": "pat_2",
+            "pattern": "En förskola finns, där [barn] går",
+            "meaning_en": "children attend that preschool",
+            "note_en": "Uses gå to mean “attend” (go to)."
+          },
+          {
             "pattern_id": "pat_3",
-            "pattern": "det finns ... skola, förskola ...",
-            "meaning_en": "a place has school and preschool",
-            "note_en": "Often appears in lists of services."
+            "pattern": "(en) förskola och (en) skola/grundskola",
+            "meaning_en": "a preschool and a school",
+            "note_en": "Often listed as local institutions."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "göra om ... till förskola",
-            "meaning_en": "change something into a preschool",
-            "note_en": "Uses “till” to show the new function."
+            "pattern": "arbeta som [yrke] vid en förskola",
+            "meaning_en": "work at a preschool",
+            "note_en": "Vid = “at” (workplace)."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "arbeta som ... vid en förskola",
-            "meaning_en": "work at a preschool",
-            "note_en": "“vid” is a common preposition for workplaces."
+            "pattern": "göras om till förskola",
+            "meaning_en": "be converted into a preschool",
+            "note_en": "Used when a building changes function."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *förskola* for primary school.",
-            "fix": "Use “grundskola” for primary/compulsory school; use “förskola” for preschool.",
-            "explain_en": "In the examples, “förskola” is listed separately from “skola/grundskola”."
+            "error": "Using *förskola* for the school year before grade 1.",
+            "fix": "Use förskoleklass for that year; use förskola for the institution.",
+            "explain_en": "Förskola is preschool as a childcare/education institution; förskoleklass is a specific school class/year."
           },
           {
             "error": "Wrong article: *ett förskola*.",
-            "fix": "Say “en förskola”.",
-            "explain_en": "The noun is en-gender: en förskola, förskolan."
+            "fix": "Say en förskola.",
+            "explain_en": "Förskola is an en-word."
           }
         ],
         "required_example_count": 10,
@@ -172,59 +170,7 @@
               "text_title": "Rörbäcksnäs",
               "text_url": "https://sv.wikipedia.org/wiki/R%C3%B6rb%C3%A4cksn%C3%A4s",
               "sentence_id": "d1b2c8a0",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"förskola\"]"
-            }
-          },
-          {
-            "ex_id": "93b2ac3f1041faf3b1d83491f904b0effe105010",
-            "sv": "På orten finns en förskola, skola (årskurs 1-6).",
-            "en": "In the town there is a preschool, a school (grades 1–6).",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "en förskola"
-              }
-            ],
-            "gloss": "preschool",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Indal",
-              "text_url": "https://sv.wikipedia.org/wiki/Indal",
-              "sentence_id": "0bffe0d7",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"förskola\"]"
-            }
-          },
-          {
-            "ex_id": "d975bd6c3b2aebdcb35d0369f0c9bf8513d53a49",
-            "sv": "I Hult finns en förskola och en grundskola (årskurs 1-6).",
-            "en": "In Hult there is a preschool and a primary school (grades 1–6).",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "en förskola"
-              }
-            ],
-            "gloss": "preschool",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Hult, Eksjö kommun",
-              "text_url": "https://sv.wikipedia.org/wiki/Hult,_Eksj%C3%B6_kommun",
-              "sentence_id": "2b723957",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"förskola\"]"
             }
           },
@@ -254,7 +200,111 @@
               "text_title": "Bizau",
               "text_url": "https://sv.wikipedia.org/wiki/Bizau",
               "sentence_id": "b8778d9a",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"förskola\"]"
+            }
+          },
+          {
+            "ex_id": "93b2ac3f1041faf3b1d83491f904b0effe105010",
+            "sv": "På orten finns en förskola, skola (årskurs 1-6).",
+            "en": "In the town there is a preschool, a school (grades 1–6).",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en förskola"
+              }
+            ],
+            "gloss": "preschool",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Indal",
+              "text_url": "https://sv.wikipedia.org/wiki/Indal",
+              "sentence_id": "0bffe0d7",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"förskola\"]"
+            }
+          },
+          {
+            "ex_id": "d975bd6c3b2aebdcb35d0369f0c9bf8513d53a49",
+            "sv": "I Hult finns en förskola och en grundskola (årskurs 1-6).",
+            "en": "In Hult there is a preschool and a primary school (grades 1–6).",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en förskola"
+              }
+            ],
+            "gloss": "preschool",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hult, Eksjö kommun",
+              "text_url": "https://sv.wikipedia.org/wiki/Hult,_Eksj%C3%B6_kommun",
+              "sentence_id": "2b723957",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"förskola\"]"
+            }
+          },
+          {
+            "ex_id": "bd18a5c1df8e219d975de194acaec98148414fc9",
+            "sv": "I Huaröd finns Huaröds kyrka samt ett friluftsbad, förskola och skola.",
+            "en": "In Huaröd there is Huaröd church and also an outdoor swimming place, a preschool and a school.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "förskola"
+              }
+            ],
+            "gloss": "preschool",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Huaröd",
+              "text_url": "https://sv.wikipedia.org/wiki/Huar%C3%B6d",
+              "sentence_id": "2d528805",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"förskola\"]"
+            }
+          },
+          {
+            "ex_id": "f525af426b93f801b76d6be8011ad521329dcf47",
+            "sv": "I Blackstad finns Blackstads kyrka, förskola och skola med fritidshem.",
+            "en": "In Blackstad there is Blackstad church, a preschool and a school with an after-school center.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "förskola"
+              }
+            ],
+            "gloss": "preschool",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Blackstad",
+              "text_url": "https://sv.wikipedia.org/wiki/Blackstad",
+              "sentence_id": "35632c52",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"förskola\"]"
             }
           },
@@ -284,19 +334,19 @@
               "text_title": "Eggby",
               "text_url": "https://sv.wikipedia.org/wiki/Eggby",
               "sentence_id": "ca562e2f",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"förskola\"]"
             }
           },
           {
-            "ex_id": "45d7fcedebbae383eb17599661bcffbb29c48319",
-            "sv": "I Myggenäs finns förskola och grundskola med årskurserna F – 5.",
-            "en": "In Myggenäs there is a preschool and a primary school with grades F–5.",
+            "ex_id": "b898d636a7c2bb95068d40bdefe6c22913f1271a",
+            "sv": "På våren 2012 öppnade en förskola i en ny byggnad på innergården.",
+            "en": "In spring 2012 a preschool opened in a new building in the courtyard.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "förskola"
+                "span_sv": "en förskola"
               }
             ],
             "gloss": "preschool",
@@ -307,43 +357,17 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Myggenäs",
-              "text_url": "https://sv.wikipedia.org/wiki/Myggen%C3%A4s",
-              "sentence_id": "f723c8d4",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"förskola\"]"
-            }
-          },
-          {
-            "ex_id": "4a282b40b3c14128f66b979c19643c374a780ec6",
-            "sv": "Företagen är många och det finns även skola, förskola, restaurang och äldreboende.",
-            "en": "There are many companies and there is also a school, a preschool, a restaurant and an elderly home.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "förskola"
-              }
-            ],
-            "gloss": "preschool",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Rusksele",
-              "text_url": "https://sv.wikipedia.org/wiki/Rusksele",
-              "sentence_id": "50042e07",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "text_title": "Henriksdalsberget",
+              "text_url": "https://sv.wikipedia.org/wiki/Henriksdalsberget",
+              "sentence_id": "06bf15a8",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"förskola\"]"
             }
           },
           {
             "ex_id": "0487edb452b66e41d4094817d83086deabfe08d7",
             "sv": "Eleverna flyttades till Hökerums skola och skolbyggnaden gjordes om till förskola.",
-            "en": "The pupils were moved to Hökerum's school and the school building was changed into a preschool.",
+            "en": "The pupils were moved to Hökerum school and the school building was made into a preschool.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -352,15 +376,11 @@
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "Hökerums skola"
-              },
-              {
-                "fe_id": "fe_institution",
                 "span_sv": "förskola"
               }
             ],
             "gloss": "preschool",
-            "level": "B1",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -370,33 +390,7 @@
               "text_title": "Nitta",
               "text_url": "https://sv.wikipedia.org/wiki/Nitta",
               "sentence_id": "55c6d506",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"förskola\"]"
-            }
-          },
-          {
-            "ex_id": "60fba80dbdd5ec3d27be3279d7f21b72036427b2",
-            "sv": "Tom Tits Experiment driver också en egen förskola som öppnade år 2004.",
-            "en": "Tom Tits Experiment also runs its own preschool that opened in 2004.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "en egen förskola"
-              }
-            ],
-            "gloss": "preschool",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Tom Tits Experiment",
-              "text_url": "https://sv.wikipedia.org/wiki/Tom_Tits_Experiment",
-              "sentence_id": "57eb4c42",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"förskola\"]"
             }
           },
@@ -422,7 +416,7 @@
               "text_title": "Joanna Kulig",
               "text_url": "https://sv.wikipedia.org/wiki/Joanna_Kulig",
               "sentence_id": "63b85b25",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"förskola\"]"
             }
           }
@@ -430,8 +424,14 @@
       }
     ],
     "pronunciation": {
-      "ipa": "ˈfœ̂ːʂkuːla",
-      "stress_hint": "Stress on the first part: FÖR-."
+      "ipa": "ˈfœːʂˌskuːla",
+      "stress_hint": "Main stress on the first part: FÖR-.",
+      "audio": {
+        "file": "audio/lu_kita_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [

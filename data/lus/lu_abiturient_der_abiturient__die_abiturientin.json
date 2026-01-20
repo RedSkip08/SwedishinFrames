@@ -11,9 +11,9 @@
       "pos_de": "noun"
     },
     "lu_type": "single",
-    "lemma_sv": "student",
-    "display_sv": "student",
-    "name_sv": "student",
+    "lemma_sv": "gymnasieelev",
+    "display_sv": "gymnasieelev",
+    "name_sv": "gymnasieelev",
     "pos": "noun",
     "cefr": "A2",
     "multiword": {
@@ -22,20 +22,20 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "en student",
-      "studenten",
-      "studenter",
-      "studenterna"
+      "gymnasieelev",
+      "gymnasieeleven",
+      "gymnasieelever",
+      "gymnasieeleverna"
     ],
-    "english_equivalent_en": "university student",
+    "english_equivalent_en": "high school student",
     "morphology_sv": {
       "noun": {
         "gender": "en",
-        "indef_sg": "student",
-        "def_sg": "studenten",
-        "indef_pl": "studenter",
-        "def_pl": "studenterna",
-        "note_en": "Often used about someone studying at a university; in older/biographical texts it can also relate to qualifying for higher studies."
+        "indef_sg": "gymnasieelev",
+        "def_sg": "gymnasieeleven",
+        "indef_pl": "gymnasieelever",
+        "def_pl": "gymnasieeleverna",
+        "note_en": ""
       },
       "verb": {
         "infinitive": null,
@@ -58,36 +58,29 @@
     },
     "derived_words_sv": [
       {
-        "word": "studentliv",
+        "word": "gymnasieelevråd",
         "type_en": "noun",
-        "meaning_en": "life as a student"
+        "meaning_en": "student council at upper secondary school"
       },
       {
-        "word": "studentbostad",
-        "type_en": "noun",
-        "meaning_en": "housing for students"
+        "word": "gymnasieelevens",
+        "type_en": "other",
+        "meaning_en": "the high school student's (genitive form)"
       },
       {
-        "word": "studentkår",
-        "type_en": "noun",
-        "meaning_en": "student union"
+        "word": "gymnasieelever",
+        "type_en": "other",
+        "meaning_en": "high school students (plural)"
       },
       {
-        "word": "studentexamen",
+        "word": "gymnasieelevtid",
         "type_en": "noun",
-        "meaning_en": "upper secondary leaving exam (traditional term)"
-      },
-      {
-        "word": "studentmössa",
-        "type_en": "noun",
-        "meaning_en": "traditional graduation cap"
+        "meaning_en": "time when someone was a high school student"
       }
     ],
     "synonyms_sv": [
-      "universitetsstudent",
-      "högskolestudent",
-      "studerande",
-      "elev"
+      "elev",
+      "gymnasist"
     ],
     "antonyms_sv": [],
     "linked_frames": [
@@ -102,68 +95,62 @@
       {
         "sense_id": "lu_abiturient_der_abiturient__die_abiturientin:1",
         "frame_id": "frame_education",
-        "meaning_en": "a person who studies, especially at a university",
+        "meaning_en": "a student who goes to gymnasium (upper secondary school).",
         "how_to_use_en": [
-          "Use for someone enrolled at a university/higher education institution.",
-          "Often used with an institution: \"student vid\" + university.",
-          "In biographies, \"blev student\" can mean started university studies or qualified for them."
+          "Use for someone studying at Swedish gymnasium (ages about 16–19).",
+          "Often used with en/ett and adjectives: en blyg gymnasieelev.",
+          "Common in phrases like som gymnasieelev (“as a high school student”)."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "bli student vid + Institution",
-            "meaning_en": "become a student at an institution",
-            "note_en": "Common in biographies with a year."
+            "pattern": "en + (adjektiv) + gymnasieelev",
+            "meaning_en": "a high school student with a description",
+            "note_en": "Used to describe the student (e.g., blyg)."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "bli student i + Place",
-            "meaning_en": "become a student in a place",
-            "note_en": "Used when the city is mentioned rather than the institution."
+            "pattern": "som gymnasieelev",
+            "meaning_en": "as a high school student",
+            "note_en": "Often used when talking about an earlier period in life."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "student vid + Institution",
-            "meaning_en": "student at an institution",
-            "note_en": ""
-          },
-          {
-            "pattern_id": "pat_4",
-            "pattern": "student från + Institution",
-            "meaning_en": "student from a school",
-            "note_en": "Can refer to finishing/qualifying from a school (older usage)."
+            "pattern": "gymnasieelev i + plats",
+            "meaning_en": "a high school student in a place",
+            "note_en": "States where the person was a student."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using student for any school pupil in all contexts.",
-            "fix": "Use elev for a pupil; use student mainly for university/higher education.",
-            "explain_en": "In Swedish, student often means someone at university, while elev is common for school."
+            "error": "Using gymnasieelev for a university student.",
+            "fix": "Use student (university) or universitetsstudent.",
+            "explain_en": "gymnasieelev is specifically for upper secondary school."
           },
           {
-            "error": "Saying *student på Uppsala universitet in this sense.",
-            "fix": "Say student vid Uppsala universitet.",
-            "explain_en": "With institutions, vid is the most typical preposition in the examples."
+            "error": "Confusing gymnasium (Swedish school) with English gym (sports).",
+            "fix": "Remember gymnasium = upper secondary school in Swedish.",
+            "explain_en": "The word is about education, not a fitness place."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "aadd36cdd90286dcd2a98e2c4ebdbb48113df719",
-            "sv": "Wallman studerade i Linköping och blev 1730 student vid Uppsala universitet.",
-            "en": "Wallman studied in Linköping and in 1730 became a student at Uppsala University.",
+            "ex_id": "94c5f6216de56ef5970d1523c3a8558c53004283",
+            "sv": "Filmen berättar historien om Kenji Koiso, en blyg gymnasieelev som är duktig på matematik.",
+            "en": "The film tells the story of Kenji Koiso, a shy high school student who is good at maths.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "Wallman"
+                "span_sv": "Kenji Koiso, en blyg gymnasieelev"
               },
               {
-                "fe_id": "fe_institution",
-                "span_sv": "Uppsala universitet"
+                "fe_id": "fe_subject",
+                "span_sv": "matematik"
               }
             ],
-            "gloss": "student = person who studies at a university",
+            "gloss": "high school student",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -171,33 +158,25 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Daniel Wallman",
-              "text_url": "https://sv.wikipedia.org/wiki/Daniel_Wallman",
-              "sentence_id": "3dae0b82",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"student\"]"
+              "text_title": "Summer Wars",
+              "text_url": "https://sv.wikipedia.org/wiki/Summer_Wars",
+              "sentence_id": "876aeb16",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"gymnasieelev\"]"
             }
           },
           {
-            "ex_id": "2d74d08197df5cbf18b403582cb88b1150d114c2",
-            "sv": "Han blev student vid Lunds universitet 1854 och avlade officersexamen 1855.",
-            "en": "He became a student at Lund University in 1854 and took an officer exam in 1855.",
+            "ex_id": "fc69b75039c45f0bf30f42372cbeb1bda0aa2449",
+            "sv": "Han fick sin banbrytande filmroll som gymnasieelev i filmen Vänd dem inte ryggen!",
+            "en": "He got his groundbreaking film role as a high school student in the film Do not turn your back on them!",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "Han"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Lunds universitet"
-              },
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "officersexamen"
+                "span_sv": "gymnasieelev"
               }
             ],
-            "gloss": "student = person who studies at a university",
+            "gloss": "high school student",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -205,67 +184,25 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Henrik Rappe",
-              "text_url": "https://sv.wikipedia.org/wiki/Henrik_Rappe",
-              "sentence_id": "4bb6ba23",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"student\"]"
+              "text_title": "Sidney Poitier",
+              "text_url": "https://sv.wikipedia.org/wiki/Sidney_Poitier",
+              "sentence_id": "83c87ee2",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"gymnasieelev\"]"
             }
           },
           {
-            "ex_id": "5096389cc49ae248dae3444f3a107a05485e211d",
-            "sv": "Westrin blev 1869 student vid Uppsala universitet och 1875 filosofie doktor.",
-            "en": "Westrin became a student at Uppsala University in 1869 and in 1875 a Doctor of Philosophy.",
+            "ex_id": "9eb850d796b7fd2d8ad87b653ae1411cc35360ea",
+            "sv": "• Alyssa Lynch - Renee Bellamy, en gymnasieelev och Trevors flickvän.",
+            "en": "Alyssa Lynch - Renee Bellamy, a high school student and Trevor's girlfriend.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "Westrin"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Uppsala universitet"
-              },
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "student"
+                "span_sv": "Renee Bellamy, en gymnasieelev"
               }
             ],
-            "gloss": "student = person who studies at a university",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Theodor Westrin",
-              "text_url": "https://sv.wikipedia.org/wiki/Theodor_Westrin",
-              "sentence_id": "e0003a89",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"student\"]"
-            }
-          },
-          {
-            "ex_id": "ce7ab55d675b205f872cd9409dffc595fe7ca674",
-            "sv": "Han var först elev vid Linköpings gymnasium och blev senare student i Uppsala.",
-            "en": "He was first a pupil at Linköping upper secondary school and later became a student in Uppsala.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Han"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Linköpings gymnasium"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Uppsala"
-              }
-            ],
-            "gloss": "student = person who studies (often at a university)",
+            "gloss": "high school student",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -273,33 +210,25 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Lars Anders Chierlin",
-              "text_url": "https://sv.wikipedia.org/wiki/Lars_Anders_Chierlin",
-              "sentence_id": "d32c16c3",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"student\"]"
+              "text_title": "Travelers",
+              "text_url": "https://sv.wikipedia.org/wiki/Travelers",
+              "sentence_id": "40d95853",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"gymnasieelev\"]"
             }
           },
           {
-            "ex_id": "e51d50eb49b403da2373a5820c6c6710e109ab2e",
-            "sv": "Uppström blev student i Uppsala 1865, avlade jur. kand.-examen 1870.",
-            "en": "Uppström became a student in Uppsala in 1865 and took a law degree exam in 1870.",
+            "ex_id": "6588df426b7f555ffb181e69d23670595a32b846",
+            "sv": "Redan som gymnasieelev höll Nipkow på med experiment rörande telefoni som även skulle överföra rörliga bilder.",
+            "en": "Already as a high school student, Nipkow worked on experiments about telephony that would also transmit moving pictures.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "Uppström"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Uppsala"
-              },
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "jur. kand.-examen"
+                "span_sv": "gymnasieelev"
               }
             ],
-            "gloss": "student = person who studies at a university",
+            "gloss": "high school student",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -307,33 +236,63 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Carl David Uppström",
-              "text_url": "https://sv.wikipedia.org/wiki/Carl_David_Uppstr%C3%B6m",
-              "sentence_id": "ad9e94a3",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"student\"]"
+              "text_title": "Paul Nipkow",
+              "text_url": "https://sv.wikipedia.org/wiki/Paul_Nipkow",
+              "sentence_id": "d873bc83",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"gymnasieelev\"]"
             }
           },
           {
-            "ex_id": "d3c7e2eeb8ff9f4ed3f1deb873e73b2b1cef6bd8",
-            "sv": "Han blev student vid Uppsala universitet 1749 och tog bergsexamen 1753.",
-            "en": "He became a student at Uppsala University in 1749 and took a mining exam in 1753.",
+            "ex_id": "4c82351ec3a8fc1b51d8b3ca7f2a552b7703b808",
+            "sv": "Som gymnasieelev i Los Angeles kunde Karagozian ta lektioner i både ingenjörsvetenskap och armenisk litteratur vid UCLA.",
+            "en": "As a high school student in Los Angeles, Karagozian could take lessons in both engineering science and Armenian literature at UCLA.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "Han"
+                "span_sv": "gymnasieelev"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "ingenjörsvetenskap"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "armenisk litteratur"
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "Uppsala universitet"
-              },
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "bergsexamen"
+                "span_sv": "UCLA"
               }
             ],
-            "gloss": "student = person who studies at a university",
+            "gloss": "high school student",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ann Karagozian",
+              "text_url": "https://sv.wikipedia.org/wiki/Ann_Karagozian",
+              "sentence_id": "3468b8b7",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"gymnasieelev\"]"
+            }
+          },
+          {
+            "ex_id": "467eff32f25b52d9294f7ae52559116dafc48d0b",
+            "sv": "Airi Katagiri (片桐 愛梨, Katagiri Airi) Airi är en gymnasieelev och Satorus medarbetare på Oasi Pizza.",
+            "en": "Airi Katagiri (片桐 愛梨, Katagiri Airi) Airi is a high school student and Satoru's co-worker at Oasi Pizza.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Airi är en gymnasieelev"
+              }
+            ],
+            "gloss": "high school student",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -341,162 +300,29 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Johan Gustaf Edelfelt",
-              "text_url": "https://sv.wikipedia.org/wiki/Johan_Gustaf_Edelfelt",
-              "sentence_id": "5b425238",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"student\"]"
-            }
-          },
-          {
-            "ex_id": "9a7286931946cb2d888824b0493f8d5f81b9c7fb",
-            "sv": "Efter mogenhetsexamen vid Malmö högre allmänna läroverk 1901 blev han student vid Lunds universitet.",
-            "en": "After the matriculation exam at Malmö Higher General School in 1901, he became a student at Lund University.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Malmö högre allmänna läroverk"
-              },
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "mogenhetsexamen"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Lunds universitet"
-              }
-            ],
-            "gloss": "student = person who studies at a university",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Axel Lindqvist (språkforskare)",
-              "text_url": "https://sv.wikipedia.org/wiki/Axel_Lindqvist_(spr%C3%A5kforskare)",
-              "sentence_id": "9ee34788",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"student\"]"
-            }
-          },
-          {
-            "ex_id": "5bab4348e24550b2c5c6065b76828ecd65e11c28",
-            "sv": "Efter undervisning i hemmet av informator blev han student vid Uppsala universitet 1772.",
-            "en": "After teaching at home by a tutor, he became a student at Uppsala University in 1772.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "informator"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Uppsala universitet"
-              }
-            ],
-            "gloss": "student = person who studies at a university",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Carl Birger Rutström",
-              "text_url": "https://sv.wikipedia.org/wiki/Carl_Birger_Rutstr%C3%B6m",
-              "sentence_id": "fa1304d6",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"student\"]"
-            }
-          },
-          {
-            "ex_id": "62496585baa58819f0555fcc78098caa36d3aa35",
-            "sv": "Enckell är född och uppvuxen i Tammerfors och blev student från Tammerfors svenska samskola.",
-            "en": "Enckell was born and grew up in Tampere and became a student from Tampere Swedish co-educational school.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Enckell"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Tammerfors svenska samskola"
-              }
-            ],
-            "gloss": "student = person who has finished school and is qualified for further studies",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Biskopsvalet i Borgå stift 2019",
-              "text_url": "https://sv.wikipedia.org/wiki/Biskopsvalet_i_Borg%C3%A5_stift_2019",
-              "sentence_id": "f4a93f77",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"student\"]"
-            }
-          },
-          {
-            "ex_id": "f6c349740da2d9b26afb38b09e7a53333e1a091f",
-            "sv": "Amanuens kan även vara en student som anställts för att undervisa studenter som inte kommit lika långt i utbildningen.",
-            "en": "An assistant can also be a student who has been employed to teach students who have not come as far in the education.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "en student"
-              },
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "undervisa"
-              },
-              {
-                "fe_id": "fe_student",
-                "span_sv": "studenter"
-              }
-            ],
-            "gloss": "student = person who studies (often at a university)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Amanuens",
-              "text_url": "https://sv.wikipedia.org/wiki/Amanuens",
-              "sentence_id": "f7899b71",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"student\"]"
+              "text_title": "Boku dake ga inai machi",
+              "text_url": "https://sv.wikipedia.org/wiki/Boku_dake_ga_inai_machi",
+              "sentence_id": "14374406",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"gymnasieelev\"]"
             }
           }
         ]
       }
     ],
     "pronunciation": {
-      "ipa": "stʉˈdɛnːt",
-      "stress_hint": "Stress on the second syllable: stu-DENT."
+      "ipa": "jʏmˈnɑːsi.ɛˌeːlɛv",
+      "stress_hint": "Main stress is on -na- in gymnasie-.",
+      "audio": {
+        "file": "audio/lu_abiturient_der_abiturient__die_abiturientin.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "student",
-        "studenten",
-        "studenter",
-        "studenterna"
+        "gymnasieelev (en) – gymnasieeleven – gymnasieelever – gymnasieeleverna"
       ],
       "particle_or_reflexive": null
     }

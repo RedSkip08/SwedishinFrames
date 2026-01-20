@@ -3,7 +3,7 @@
     "id": "lu_abitur_das_das_abitur_machen",
     "source_de": {
       "lu_de_raw": "Abitur, das: das Abitur machen",
-      "lu_de_normalized": "Abitur",
+      "lu_de_normalized": "Abitur, das: das Abitur machen",
       "gender_variants_de": [],
       "pos_de": "noun"
     },
@@ -25,11 +25,11 @@
     "morphology_sv": {
       "noun": {
         "gender": "ett",
-        "indef_sg": "ett gymnasieexamen",
+        "indef_sg": "gymnasieexamen",
         "def_sg": "gymnasieexamenet",
         "indef_pl": "gymnasieexamina",
         "def_pl": "gymnasieexamina",
-        "note_en": "Often used without an article in general statements (e.g., Efter gymnasieexamen ...)."
+        "note_en": "Often used without plural in everyday talk; plural is mostly for formal texts."
       },
       "verb": {
         "infinitive": null,
@@ -52,29 +52,24 @@
     },
     "derived_words_sv": [
       {
-        "word": "gymnasie",
-        "type_en": "other",
-        "meaning_en": "upper secondary (used in compounds)"
+        "word": "gymnasieexamenbevis",
+        "type_en": "noun",
+        "meaning_en": "diploma certificate document"
       },
       {
-        "word": "examen",
+        "word": "gymnasieexamenkrav",
         "type_en": "noun",
-        "meaning_en": "exam; degree"
+        "meaning_en": "requirement to have a diploma"
       },
       {
-        "word": "magisterexamen",
+        "word": "gymnasieexamennivå",
         "type_en": "noun",
-        "meaning_en": "master’s degree (Swedish degree title)"
+        "meaning_en": "upper-secondary level"
       },
       {
-        "word": "realskoleexamen",
+        "word": "gymnasieexamenår",
         "type_en": "noun",
-        "meaning_en": "lower secondary school exam (historical)"
-      },
-      {
-        "word": "juris kandidatexamen",
-        "type_en": "noun",
-        "meaning_en": "law degree (juris kandidat)"
+        "meaning_en": "year someone got the diploma"
       }
     ],
     "synonyms_sv": [
@@ -94,54 +89,54 @@
       {
         "sense_id": "lu_abitur_das_das_abitur_machen:1",
         "frame_id": "frame_education",
-        "meaning_en": "a formal qualification showing you have finished upper secondary school (gymnasium).",
+        "meaning_en": "a qualification showing you finished upper secondary school (gymnasium).",
         "how_to_use_en": [
-          "Use it for the qualification you get after completing gymnasium.",
-          "Often used with verbs like ta (“get”) or with efter (“after”).",
-          "Can be described as fullständig (“complete”)."
+          "Use it for the diploma/qualification, often with verbs like ta (“get”).",
+          "Common in formal contexts about admission requirements and education history.",
+          "Often used with efter (“after”) to talk about what happened next."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "leda till en gymnasieexamen",
-            "meaning_en": "lead to a diploma",
-            "note_en": "Used about an education/program."
+            "pattern": "leda inte till (en) gymnasieexamen",
+            "meaning_en": "not result in a diploma",
+            "note_en": "Used to say an education does not give this qualification."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "ta gymnasieexamen",
-            "meaning_en": "get a diploma",
-            "note_en": "Common in biographies and timelines."
+            "pattern": "X tog (ÅR) gymnasieexamen",
+            "meaning_en": "X got a diploma",
+            "note_en": "Often followed by a year."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "efter (sin) gymnasieexamen",
+            "pattern": "Efter (sin) gymnasieexamen, ...",
             "meaning_en": "after finishing upper secondary",
-            "note_en": "Often followed by what someone did next (e.g., started studying)."
+            "note_en": "Introduces what happened next (studies, work, travel)."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "gymnasieexamen vid [institution]",
-            "meaning_en": "diploma at an institution",
-            "note_en": "States where the qualification was taken."
+            "pattern": "(en) gymnasieexamen vid [institution]",
+            "meaning_en": "a diploma at an institution",
+            "note_en": "Mentions where the qualification was obtained."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "en fullständig gymnasieexamen",
-            "meaning_en": "a complete diploma",
-            "note_en": "Used when talking about requirements for further study."
+            "pattern": "(en) gymnasieexamen i [ämne]",
+            "meaning_en": "a diploma in a subject",
+            "note_en": "Adds a subject area (e.g., statsvetenskap)."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using it as the school itself: *Jag går på gymnasieexamen.",
-            "fix": "Jag går på gymnasiet.",
-            "explain_en": "gymnasieexamen is the qualification, not the school."
+            "error": "Using it for the school itself (\"*på gymnasieexamen\").",
+            "fix": "Use gymnasiet/gymnasieskola for the school; gymnasieexamen is the diploma.",
+            "explain_en": "Gymnasieexamen names the qualification, not the institution."
           },
           {
-            "error": "Forgetting that it is a qualification: *Jag studerar gymnasieexamen.",
-            "fix": "Jag tar gymnasieexamen.",
-            "explain_en": "You ‘take/get’ a qualification; you don’t ‘study’ it."
+            "error": "Mixing up with examen at university level.",
+            "fix": "Use kandidatexamen/juris kandidat-examen etc. for higher education degrees.",
+            "explain_en": "Gymnasieexamen is specifically upper secondary level."
           }
         ],
         "required_example_count": 10,
@@ -172,14 +167,14 @@
               "text_title": "Introduktionsprogrammet",
               "text_url": "https://sv.wikipedia.org/wiki/Introduktionsprogrammet",
               "sentence_id": "b6da8dfd",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"gymnasieexamen\"]"
             }
           },
           {
             "ex_id": "49d532e3c4e77ac95047fbbd6a7734ba57835b3d",
             "sv": "Carin Bratt tog 1982 gymnasieexamen och 1989 juris kandidat-examen vid Uppsala universitet.",
-            "en": "Carin Bratt got a upper secondary school diploma in 1982 and in 1989 a law candidate degree at Uppsala University.",
+            "en": "Carin Bratt got an upper secondary school diploma in 1982 and in 1989 a law degree at Uppsala University.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -189,6 +184,10 @@
               {
                 "fe_id": "fe_qualification",
                 "span_sv": "gymnasieexamen"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "juris kandidat-examen"
               },
               {
                 "fe_id": "fe_institution",
@@ -206,7 +205,75 @@
               "text_title": "Carin Bratt",
               "text_url": "https://sv.wikipedia.org/wiki/Carin_Bratt",
               "sentence_id": "dbf0fe2c",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"gymnasieexamen\"]"
+            }
+          },
+          {
+            "ex_id": "cc9c01bef234723412bdcca174f2afd1fb0f32b8",
+            "sv": "Ressa tog gymnasieexamen 1982 och fortsatte studera biologi och engelska vid Princeton University.",
+            "en": "Ressa got an upper secondary school diploma in 1982 and continued to study biology and English at Princeton University.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Ressa"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "gymnasieexamen"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "biologi och engelska"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Princeton University"
+              }
+            ],
+            "gloss": "upper secondary school diploma",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Maria Ressa",
+              "text_url": "https://sv.wikipedia.org/wiki/Maria_Ressa",
+              "sentence_id": "79ed7a71",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"gymnasieexamen\"]"
+            }
+          },
+          {
+            "ex_id": "ea09b83cc4b4adc7db9c9914df6e3eaaf6b46f76",
+            "sv": "Efter gymnasieexamen 1914, gjorde han flera studieresor till olika delar av Europa.",
+            "en": "After an upper secondary school diploma in 1914, he made several study trips to different parts of Europe.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "gymnasieexamen"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "han"
+              }
+            ],
+            "gloss": "upper secondary school diploma",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Yrjö Soini",
+              "text_url": "https://sv.wikipedia.org/wiki/Yrj%C3%B6_Soini",
+              "sentence_id": "e82a16f7",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"gymnasieexamen\"]"
             }
           },
@@ -240,7 +307,7 @@
               "text_title": "Frances Hugle",
               "text_url": "https://sv.wikipedia.org/wiki/Frances_Hugle",
               "sentence_id": "b0483743",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"gymnasieexamen\"]"
             }
           },
@@ -250,6 +317,14 @@
             "en": "After 1968, the student exam and final grades were abolished and the new upper secondary school diploma was introduced.",
             "frame_id": "frame_education",
             "fe_tags": [
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "studentexamen"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "slutbetyg"
+              },
               {
                 "fe_id": "fe_qualification",
                 "span_sv": "den nya gymnasieexamen"
@@ -266,14 +341,14 @@
               "text_title": "Studentexamen",
               "text_url": "https://sv.wikipedia.org/wiki/Studentexamen",
               "sentence_id": "e7690161",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"gymnasieexamen\"]"
             }
           },
           {
             "ex_id": "5ffa349e9ab69c5256789dbc5574caf74c830316",
             "sv": "Han tog gymnasieexamen i statsvetenskap och trädde i tjänst vid Utrikesdepartementet.",
-            "en": "He got a upper secondary school diploma in political science and then started work at the Ministry for Foreign Affairs.",
+            "en": "He got an upper secondary school diploma in political science and started working at the Ministry for Foreign Affairs.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -300,14 +375,14 @@
               "text_title": "Ali Akbar Dehkhoda",
               "text_url": "https://sv.wikipedia.org/wiki/Ali_Akbar_Dehkhoda",
               "sentence_id": "f72d94bd",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"gymnasieexamen\"]"
             }
           },
           {
             "ex_id": "ff228441371bc8c9eb3965d6abded1aed58369b1",
             "sv": "Han tog gymnasieexamen vid 16 års ålder och flyttade sedan till universitetet i Turin.",
-            "en": "He got a upper secondary school diploma at the age of 16 and then moved to the university in Turin.",
+            "en": "He got an upper secondary school diploma at the age of 16 and then moved to the university in Turin.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -334,33 +409,7 @@
               "text_title": "Renato Dulbecco",
               "text_url": "https://sv.wikipedia.org/wiki/Renato_Dulbecco",
               "sentence_id": "4ef93ad1",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"gymnasieexamen\"]"
-            }
-          },
-          {
-            "ex_id": "c92b0bd86d70d2735b0a86e9d041ad1ecc072d56",
-            "sv": "Denna examen kan sägas ha legat mellan en realskoleexamen och gymnasieexamen.",
-            "en": "This exam can be said to have been between a lower secondary school exam and a upper secondary school diploma.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "gymnasieexamen"
-              }
-            ],
-            "gloss": "upper secondary school diploma",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Högre lärarinneseminariet",
-              "text_url": "https://sv.wikipedia.org/wiki/H%C3%B6gre_l%C3%A4rarinneseminariet",
-              "sentence_id": "48b6edb2",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"gymnasieexamen\"]"
             }
           },
@@ -373,6 +422,10 @@
               {
                 "fe_id": "fe_qualification",
                 "span_sv": "En fullständig gymnasieexamen"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "Slutbetyg"
               }
             ],
             "gloss": "upper secondary school diploma",
@@ -386,23 +439,23 @@
               "text_title": "Gymnasieskola",
               "text_url": "https://sv.wikipedia.org/wiki/Gymnasieskola",
               "sentence_id": "c20ec0d1",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"gymnasieexamen\"]"
             }
           },
           {
             "ex_id": "f51dfbdc645ddbfe29720e02b54da2d5e0eeba0a",
             "sv": "Efter gymnasieexamen började hon studera samhällsvetenskap, vilket hon hoppade av från.",
-            "en": "After upper secondary school diploma, she started to study social science, which she dropped out of.",
+            "en": "After an upper secondary school diploma, she started to study social science, which she dropped out of.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "hon"
-              },
-              {
                 "fe_id": "fe_qualification",
                 "span_sv": "gymnasieexamen"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "hon"
               },
               {
                 "fe_id": "fe_subject",
@@ -420,41 +473,7 @@
               "text_title": "Bianca Claßen",
               "text_url": "https://sv.wikipedia.org/wiki/Bianca_Cla%C3%9Fen",
               "sentence_id": "fd256ae8",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"gymnasieexamen\"]"
-            }
-          },
-          {
-            "ex_id": "e913effb63b191c3c2db091c1168f5917c7852b7",
-            "sv": "Waris tog gymnasieexamen 1932 och en magisterexamen 1935 från Åbo universitet.",
-            "en": "Waris got a upper secondary school diploma in 1932 and a master's degree in 1935 from Åbo University.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Waris"
-              },
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "gymnasieexamen"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Åbo universitet"
-              }
-            ],
-            "gloss": "upper secondary school diploma",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Klaus Waris",
-              "text_url": "https://sv.wikipedia.org/wiki/Klaus_Waris",
-              "sentence_id": "44ae69bf",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"gymnasieexamen\"]"
             }
           }
@@ -462,8 +481,14 @@
       }
     ],
     "pronunciation": {
-      "ipa": "jʏmˈnɑːsi.ɛkˌsɑːmɛn",
-      "stress_hint": "Main stress is on -na- in gymnasie-."
+      "ipa": "jʏmˈnɑːsiɛkˌsɑːmɛn",
+      "stress_hint": "Main stress is on -na- in gymnasie-.",
+      "audio": {
+        "file": "audio/lu_abitur_das_das_abitur_machen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [

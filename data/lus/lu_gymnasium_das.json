@@ -32,7 +32,7 @@
         "def_sg": "gymnasiet",
         "indef_pl": "gymnasier",
         "def_pl": "gymnasierna",
-        "note_en": "In everyday Swedish, the definite form gymnasiet is very common when talking about the school level."
+        "note_en": "Often used in the definite form: gymnasiet."
       },
       "verb": {
         "infinitive": null,
@@ -57,12 +57,12 @@
       {
         "word": "gymnasieskola",
         "type_en": "noun",
-        "meaning_en": "upper secondary school (more explicit term)"
+        "meaning_en": "upper secondary school (synonym)"
       },
       {
         "word": "gymnasieelev",
         "type_en": "noun",
-        "meaning_en": "student at upper secondary school"
+        "meaning_en": "upper secondary school student"
       },
       {
         "word": "gymnasielärare",
@@ -97,187 +97,53 @@
       {
         "sense_id": "lu_gymnasium_das:1",
         "frame_id": "frame_education",
-        "meaning_en": "a school for upper secondary education, after compulsory school.",
+        "meaning_en": "a school level after lower secondary, for teenagers, preparing for work or further studies",
         "how_to_use_en": [
-          "Use for the school level (upper secondary) or a specific school name.",
-          "Often appears in names: X gymnasium.",
-          "Common after prepositions like i and efter."
+          "Use for the school level/institution after högstadium.",
+          "Common with verbs like gå i (attend) and after (Efter gymnasium).",
+          "Often appears in school names: X gymnasium."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "X gymnasium är en skola ...",
-            "meaning_en": "X is an upper secondary school",
-            "note_en": "Common in descriptions of specific schools."
+            "pattern": "gå i gymnasium",
+            "meaning_en": "attend upper secondary school",
+            "note_en": "Used to say someone studies at this school level."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "i gymnasium",
-            "meaning_en": "in upper secondary school",
-            "note_en": "Used with gå i (attend) or undervisa i (teach in)."
+            "pattern": "efter gymnasium",
+            "meaning_en": "after upper secondary school",
+            "note_en": "Used when describing what happened next in education or life."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "efter gymnasium",
-            "meaning_en": "after upper secondary school",
-            "note_en": "Used when describing what someone did next in education or life."
+            "pattern": "X gymnasium är ...",
+            "meaning_en": "X upper secondary school is ...",
+            "note_en": "Common in descriptions of a specific school."
           },
           {
             "pattern_id": "pat_4",
             "pattern": "grundskolan och gymnasium",
             "meaning_en": "primary school and upper secondary school",
-            "note_en": "Often used to list school levels."
+            "note_en": "Often listed with other school types."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "med gymnasium, fackhögskola och ...",
-            "meaning_en": "with a gymnasium (as an institution)",
-            "note_en": "Used when listing institutions a place has."
+            "pattern": "med gymnasium, ...",
+            "meaning_en": "with an upper secondary school",
+            "note_en": "Used when listing what a place has (institutions)."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using gymnasium to mean a sports hall (English 'gym').",
-            "fix": "Use idrottshall or gym (for fitness center).",
-            "explain_en": "Swedish gymnasium usually means an upper secondary school, not a place to exercise."
+            "error": "Using gymnasium to mean a sports gym.",
+            "fix": "Use gym (or träningsgym) for a fitness gym; use gymnasium for school.",
+            "explain_en": "In Swedish, gymnasium normally means upper secondary school, not a place to work out."
           }
         ],
         "required_example_count": 10,
         "examples": [
-          {
-            "ex_id": "5e71c23376ce8e7679a841e512d0ee8b453b986d",
-            "sv": "Tumba gymnasium är en kommunal gymnasieskola i Tumba, Botkyrka kommun.",
-            "en": "Tumba gymnasium is a municipal upper secondary school in Tumba, Botkyrka Municipality.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Tumba gymnasium"
-              }
-            ],
-            "gloss": "upper secondary school",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Tumba gymnasium",
-              "text_url": "https://sv.wikipedia.org/wiki/Tumba_gymnasium",
-              "sentence_id": "c4de4747",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"gymnasium\"]"
-            }
-          },
-          {
-            "ex_id": "a64c56c8c5367ecde42220075fa5adeeaf43c435",
-            "sv": "Anna Whitlocks gymnasium är en skola i Stockholm som öppnade 2018.",
-            "en": "Anna Whitlock's gymnasium is a school in Stockholm that opened in 2018.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Anna Whitlocks gymnasium"
-              }
-            ],
-            "gloss": "upper secondary school",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Anna Whitlock",
-              "text_url": "https://sv.wikipedia.org/wiki/Anna_Whitlock",
-              "sentence_id": "361f5547",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"gymnasium\"]"
-            }
-          },
-          {
-            "ex_id": "0a82f99b2138c8cc8f124e2113a2d936f83fb4c0",
-            "sv": "S:t Botvids gymnasium är en kommunal gymnasieskola belägen i norra Botkyrka kommun.",
-            "en": "S:t Botvid's gymnasium is a municipal upper secondary school located in northern Botkyrka Municipality.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "S:t Botvids gymnasium"
-              }
-            ],
-            "gloss": "upper secondary school",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "S:t Botvids gymnasium",
-              "text_url": "https://sv.wikipedia.org/wiki/S:t_Botvids_gymnasium",
-              "sentence_id": "7def5db1",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"gymnasium\"]"
-            }
-          },
-          {
-            "ex_id": "959ff1ffbed99629ad2c47da9f2083d13099aa7b",
-            "sv": "Korsholms gymnasium är en svenskspråkig gymnasieskola i Korsholm grundad 1 augusti 1975.",
-            "en": "Korsholm gymnasium is a Swedish-language upper secondary school in Korsholm, founded on 1 August 1975.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Korsholms gymnasium"
-              }
-            ],
-            "gloss": "upper secondary school",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Korsholms gymnasium",
-              "text_url": "https://sv.wikipedia.org/wiki/Korsholms_gymnasium",
-              "sentence_id": "d0068cc5",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"gymnasium\"]"
-            }
-          },
-          {
-            "ex_id": "c6c82a43d6d309a3c425226820e20dc44a6956fd",
-            "sv": "Väsby Nya Gymnasium ersatte hösten 2011 Vilunda gymnasium, efter denna skolas nedläggning.",
-            "en": "Väsby Nya Gymnasium replaced Vilunda gymnasium in autumn 2011, after this school was closed down.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Väsby Nya Gymnasium"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Vilunda gymnasium"
-              }
-            ],
-            "gloss": "upper secondary school",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Väsby Nya Gymnasium",
-              "text_url": "https://sv.wikipedia.org/wiki/V%C3%A4sby_Nya_Gymnasium",
-              "sentence_id": "028ea748",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"gymnasium\"]"
-            }
-          },
           {
             "ex_id": "1264bdd99f44d1b7aa3647fdc4071796166004e2",
             "sv": "Ungdomar i högstadium och gymnasium får pendla till Vänersborg eller Trollhättan.",
@@ -285,12 +151,16 @@
             "frame_id": "frame_education",
             "fe_tags": [
               {
+                "fe_id": "fe_student",
+                "span_sv": "Ungdomar"
+              },
+              {
                 "fe_id": "fe_institution",
-                "span_sv": "gymnasium"
+                "span_sv": "högstadium och gymnasium"
               }
             ],
             "gloss": "upper secondary school",
-            "level": "B1",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -300,52 +170,14 @@
               "text_title": "Vargön",
               "text_url": "https://sv.wikipedia.org/wiki/Varg%C3%B6n",
               "sentence_id": "03ae93d4",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"gymnasium\"]"
-            }
-          },
-          {
-            "ex_id": "7fd92843ef86e45f5f672c68f301979c178bad40",
-            "sv": "Efter gymnasium blev han 1965 student på Kungliga Veterinärhögskolan där han senare tog veterinärexamen.",
-            "en": "After gymnasium he became a student in 1965 at the Royal Veterinary College, where he later took a veterinary degree.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "gymnasium"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Kungliga Veterinärhögskolan"
-              },
-              {
-                "fe_id": "fe_student",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "veterinärexamen"
-              }
-            ],
-            "gloss": "upper secondary school",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Sven Tolling",
-              "text_url": "https://sv.wikipedia.org/wiki/Sven_Tolling",
-              "sentence_id": "50c7e758",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:34+00:00",
               "korp_query": "[word=\"gymnasium\"]"
             }
           },
           {
             "ex_id": "a8b1e48ec032ac427fb3b5a9c8eee0816f99f0c5",
             "sv": "Josef gick i gymnasium i Solothurn och sedan i köpmanslära i Bologna.",
-            "en": "Josef went to gymnasium in Solothurn and then to merchant training in Bologna.",
+            "en": "Josef went to upper secondary school in Solothurn and then to merchant training in Bologna.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -368,14 +200,52 @@
               "text_title": "Josef Munzinger",
               "text_url": "https://sv.wikipedia.org/wiki/Josef_Munzinger",
               "sentence_id": "1b91dcf3",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "korp_query": "[word=\"gymnasium\"]"
+            }
+          },
+          {
+            "ex_id": "7fd92843ef86e45f5f672c68f301979c178bad40",
+            "sv": "Efter gymnasium blev han 1965 student på Kungliga Veterinärhögskolan där han senare tog veterinärexamen.",
+            "en": "After upper secondary school he became a student in 1965 at the Royal Veterinary College, where he later took a veterinary degree.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "gymnasium"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Kungliga Veterinärhögskolan"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "veterinärexamen"
+              }
+            ],
+            "gloss": "upper secondary school",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sven Tolling",
+              "text_url": "https://sv.wikipedia.org/wiki/Sven_Tolling",
+              "sentence_id": "50c7e758",
+              "retrieved_at": "2026-01-20T15:24:34+00:00",
               "korp_query": "[word=\"gymnasium\"]"
             }
           },
           {
             "ex_id": "d56177b2055b1aa224e7d87fd5786cd71d3e7a63",
             "sv": "Kaldhol är utbildad lärare, och har undervisat i grundskolan och gymnasium.",
-            "en": "Kaldhol is a trained teacher, and has taught in primary school and gymnasium.",
+            "en": "Kaldhol is a trained teacher, and has taught in primary school and upper secondary school.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -384,7 +254,7 @@
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "gymnasium"
+                "span_sv": "grundskolan och gymnasium"
               }
             ],
             "gloss": "upper secondary school",
@@ -398,19 +268,19 @@
               "text_title": "Marit Kaldhol",
               "text_url": "https://sv.wikipedia.org/wiki/Marit_Kaldhol",
               "sentence_id": "2a54dc40",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:34+00:00",
               "korp_query": "[word=\"gymnasium\"]"
             }
           },
           {
-            "ex_id": "996f5cf154fa77613edae3cdb00daf7f2902f27d",
-            "sv": "Staden är ett regionalt centrum med gymnasium, fackhögskola och sjukhus.",
-            "en": "The town is a regional center with a gymnasium, a vocational college, and a hospital.",
+            "ex_id": "5e71c23376ce8e7679a841e512d0ee8b453b986d",
+            "sv": "Tumba gymnasium är en kommunal gymnasieskola i Tumba, Botkyrka kommun.",
+            "en": "Tumba upper secondary school is a municipal upper secondary school in Tumba, Botkyrka Municipality.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "gymnasium"
+                "span_sv": "Tumba gymnasium"
               }
             ],
             "gloss": "upper secondary school",
@@ -421,10 +291,144 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tumba gymnasium",
+              "text_url": "https://sv.wikipedia.org/wiki/Tumba_gymnasium",
+              "sentence_id": "c4de4747",
+              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "korp_query": "[word=\"gymnasium\"]"
+            }
+          },
+          {
+            "ex_id": "a64c56c8c5367ecde42220075fa5adeeaf43c435",
+            "sv": "Anna Whitlocks gymnasium är en skola i Stockholm som öppnade 2018.",
+            "en": "Anna Whitlock's upper secondary school is a school in Stockholm that opened in 2018.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Anna Whitlocks gymnasium"
+              }
+            ],
+            "gloss": "upper secondary school",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Anna Whitlock",
+              "text_url": "https://sv.wikipedia.org/wiki/Anna_Whitlock",
+              "sentence_id": "361f5547",
+              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "korp_query": "[word=\"gymnasium\"]"
+            }
+          },
+          {
+            "ex_id": "0a82f99b2138c8cc8f124e2113a2d936f83fb4c0",
+            "sv": "S:t Botvids gymnasium är en kommunal gymnasieskola belägen i norra Botkyrka kommun.",
+            "en": "S:t Botvid's upper secondary school is a municipal upper secondary school located in northern Botkyrka Municipality.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "S:t Botvids gymnasium"
+              }
+            ],
+            "gloss": "upper secondary school",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "S:t Botvids gymnasium",
+              "text_url": "https://sv.wikipedia.org/wiki/S:t_Botvids_gymnasium",
+              "sentence_id": "7def5db1",
+              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "korp_query": "[word=\"gymnasium\"]"
+            }
+          },
+          {
+            "ex_id": "959ff1ffbed99629ad2c47da9f2083d13099aa7b",
+            "sv": "Korsholms gymnasium är en svenskspråkig gymnasieskola i Korsholm grundad 1 augusti 1975.",
+            "en": "Korsholm upper secondary school is a Swedish-speaking upper secondary school in Korsholm, founded on 1 August 1975.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Korsholms gymnasium"
+              }
+            ],
+            "gloss": "upper secondary school",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Korsholms gymnasium",
+              "text_url": "https://sv.wikipedia.org/wiki/Korsholms_gymnasium",
+              "sentence_id": "d0068cc5",
+              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "korp_query": "[word=\"gymnasium\"]"
+            }
+          },
+          {
+            "ex_id": "996f5cf154fa77613edae3cdb00daf7f2902f27d",
+            "sv": "Staden är ett regionalt centrum med gymnasium, fackhögskola och sjukhus.",
+            "en": "The city is a regional center with an upper secondary school, a vocational college, and a hospital.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "gymnasium"
+              }
+            ],
+            "gloss": "upper secondary school",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
               "text_title": "Olten",
               "text_url": "https://sv.wikipedia.org/wiki/Olten",
               "sentence_id": "83cbb46f",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "korp_query": "[word=\"gymnasium\"]"
+            }
+          },
+          {
+            "ex_id": "c09542322fdf49f672724c7c891f509e6ea9079e",
+            "sv": "Unikt för skolan är att kombinationen gymnasium - högstadium har behållits.",
+            "en": "Unique for the school is that the combination upper secondary school - lower secondary school has been kept.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skolan"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "gymnasium - högstadium"
+              }
+            ],
+            "gloss": "upper secondary school",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Spånga gymnasium",
+              "text_url": "https://sv.wikipedia.org/wiki/Sp%C3%A5nga_gymnasium",
+              "sentence_id": "5dc029cc",
+              "retrieved_at": "2026-01-20T15:24:34+00:00",
               "korp_query": "[word=\"gymnasium\"]"
             }
           }
@@ -433,14 +437,17 @@
     ],
     "pronunciation": {
       "ipa": "jʏmˈnɑːsɪɵm",
-      "stress_hint": "Stress is on the second syllable: gym-NA-si-um."
+      "stress_hint": "Stress is usually on the second syllable: gym-NA-si-um.",
+      "audio": {
+        "file": "audio/lu_gymnasium_das.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "gymnasium",
-        "gymnasiet",
-        "gymnasier",
-        "gymnasierna"
+        "gymnasium (ett) – gymnasiet – gymnasier – gymnasierna"
       ],
       "particle_or_reflexive": null
     }

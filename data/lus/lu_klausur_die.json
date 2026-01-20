@@ -8,30 +8,31 @@
       "pos_de": "noun"
     },
     "lu_type": "single",
-    "lemma_sv": "salstentamen",
-    "display_sv": "salstentamen",
-    "name_sv": "salstentamen",
+    "lemma_sv": "tenta",
+    "display_sv": "tenta",
+    "name_sv": "tenta",
     "pos": "noun",
-    "cefr": "B1",
+    "cefr": "A2",
     "multiword": {
       "mwe_type": null,
       "components_sv": [],
       "spacing_notes_en": ""
     },
     "forms": [
-      "salstentamen",
-      "salstentamenen",
-      "salstentamina"
+      "tenta",
+      "tentan",
+      "tentor",
+      "tentorna"
     ],
-    "english_equivalent_en": "in-class exam",
+    "english_equivalent_en": "exam",
     "morphology_sv": {
       "noun": {
         "gender": "en",
-        "indef_sg": "salstentamen",
-        "def_sg": "salstentamenen",
-        "indef_pl": "salstentamina",
-        "def_pl": "salstentamina",
-        "note_en": "Often used in higher education; plural is uncommon in everyday use."
+        "indef_sg": "tenta",
+        "def_sg": "tentan",
+        "indef_pl": "tentor",
+        "def_pl": "tentorna",
+        "note_en": "Common in university contexts; also used in compounds like salstenta."
       },
       "verb": {
         "infinitive": null,
@@ -55,38 +56,35 @@
     "derived_words_sv": [
       {
         "word": "salstenta",
-        "type_en": "verb",
-        "meaning_en": "take an in-class exam"
-      },
-      {
-        "word": "salstentera",
-        "type_en": "verb",
-        "meaning_en": "sit an in-class exam (formal)"
-      },
-      {
-        "word": "tentamenssal",
         "type_en": "noun",
-        "meaning_en": "exam hall"
+        "meaning_en": "written in-person exam in an exam hall"
       },
       {
-        "word": "tentamensvakt",
+        "word": "hemtenta",
         "type_en": "noun",
-        "meaning_en": "exam invigilator"
+        "meaning_en": "take-home exam done at home"
       },
       {
         "word": "omtentamen",
         "type_en": "noun",
         "meaning_en": "re-sit exam"
+      },
+      {
+        "word": "tentamensperiod",
+        "type_en": "noun",
+        "meaning_en": "exam period"
+      },
+      {
+        "word": "tentaplugg",
+        "type_en": "noun",
+        "meaning_en": "studying for an exam"
       }
     ],
     "synonyms_sv": [
-      "tentamen",
-      "skrivning",
-      "skrivtentamen"
+      "prov",
+      "examination"
     ],
-    "antonyms_sv": [
-      "hemtentamen"
-    ],
+    "antonyms_sv": [],
     "linked_frames": [
       {
         "frame_id": "frame_education",
@@ -99,68 +97,37 @@
       {
         "sense_id": "lu_klausur_die:1",
         "frame_id": "frame_education",
-        "meaning_en": "a written exam taken in an exam hall at a set time",
+        "meaning_en": "an exam, especially at university",
         "how_to_use_en": [
-          "Use for a supervised exam on campus (not at home).",
-          "Often contrasted with hemtentamen (take-home exam) and munta (oral exam)."
+          "Use for a university exam (often a written test).",
+          "Often appears in compounds (hemtenta, salstenta).",
+          "Common with verbs like skriva or göra (not included here)."
         ],
-        "patterns": [
-          {
-            "pattern_id": "pat_1",
-            "pattern": "betyg + på + salstentamen",
-            "meaning_en": "a grade on the in-class exam",
-            "note_en": "Used when reporting the result of the exam."
-          }
-        ],
+        "patterns": [],
         "common_errors_en": [
           {
-            "error": "Using salstentamen for any exam.",
-            "fix": "Use tentamen for general “exam”, and salstentamen only for an exam in an exam hall.",
-            "explain_en": "Salstentamen specifically means a supervised in-person written exam."
+            "error": "Using tenta for any small school test.",
+            "fix": "Use prov for a general test; use tenta mainly for university exams.",
+            "explain_en": "Tenta is strongly associated with higher education in Swedish."
           }
         ],
         "required_example_count": 10,
-        "examples": [
-          {
-            "ex_id": "2e4f05b5c1f10478bfef3694a23a0db9c7506789",
-            "sv": "Munta och / eller hemtentamen förekommer som kompletteringsuppgift vid betyg Fx på salstentamen (European Credit Transfer System).",
-            "en": "Oral and/or take-home exams occur as a supplementary task when you get the grade Fx on the in-class exam (European Credit Transfer System).",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_course",
-                "span_sv": "salstentamen"
-              },
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "betyg Fx"
-              }
-            ],
-            "gloss": "salstentamen = an exam taken in an exam hall (in-class exam)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Tentamen",
-              "text_url": "https://sv.wikipedia.org/wiki/Tentamen",
-              "sentence_id": "3bdbb3ec",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"salstentamen\"]"
-            }
-          }
-        ]
+        "examples": []
       }
     ],
     "pronunciation": {
-      "ipa": "ˈsɑːlsˌtɛnːamɛn",
-      "stress_hint": "Main stress on SALS-, secondary stress on -TEN-."
+      "ipa": "ˈtɛnːta",
+      "stress_hint": "Stress on the first syllable.",
+      "audio": {
+        "file": "audio/lu_klausur_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "salstentamen (en)"
+        "tenta – tentan – tentor – tentorna"
       ],
       "particle_or_reflexive": null
     }

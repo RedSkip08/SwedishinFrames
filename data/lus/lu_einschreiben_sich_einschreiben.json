@@ -20,7 +20,7 @@
         "in",
         "sig"
       ],
-      "spacing_notes_en": "Particle verb + reflexive pronoun; written as separate words."
+      "spacing_notes_en": "Particle verb + reflexive pronoun; often followed by 'på' (skriva in sig på en kurs)."
     },
     "forms": [
       "skriva in sig",
@@ -55,7 +55,7 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "Multiword verb phrase. It is used with the reflexive pronoun sig (skriva in sig)."
+      "note_en": "Multiword verb phrase; commonly used with reflexive sig and often followed by på/vid + institution."
     },
     "derived_words_sv": [
       {
@@ -69,14 +69,19 @@
         "meaning_en": "enrolled; registered"
       },
       {
-        "word": "inskrivningsdatum",
-        "type_en": "noun",
-        "meaning_en": "enrollment date"
+        "word": "inskriva",
+        "type_en": "verb",
+        "meaning_en": "to enroll/register (someone); to enter in a register"
       },
       {
-        "word": "inskrivningsblankett",
+        "word": "utskrivning",
         "type_en": "noun",
-        "meaning_en": "enrollment form"
+        "meaning_en": "discharge; deregistration"
+      },
+      {
+        "word": "skriva ut sig",
+        "type_en": "other",
+        "meaning_en": "to deregister; to check out (from an institution)"
       }
     ],
     "synonyms_sv": [
@@ -99,53 +104,41 @@
       {
         "sense_id": "lu_einschreiben_sich_einschreiben:1",
         "frame_id": "frame_education",
-        "meaning_en": "register yourself as a student at a school, university, or similar institution.",
+        "meaning_en": "register yourself officially at an institution, especially to start studying there.",
         "how_to_use_en": [
-          "Use it when someone becomes officially registered at an institution.",
-          "Often followed by på/vid + institution name."
+          "Use about becoming officially registered at a school, university, faculty, or similar institution.",
+          "Often followed by på or vid + the institution."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "X skriver in sig på Y",
-            "meaning_en": "enroll at a school/place",
-            "note_en": "Common with skola and similar places."
+            "meaning_en": "enroll at an institution",
+            "note_en": "Common with skolan and similar places."
           },
           {
             "pattern_id": "pat_2",
             "pattern": "X skriver in sig vid Y",
             "meaning_en": "enroll at an institution",
-            "note_en": "Often used with universitet and formal institutions."
+            "note_en": "Often used with universitet/fakultet and formal contexts."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "X låter skriva in sig (vid/på Y)",
-            "meaning_en": "have oneself enrolled",
-            "note_en": "More formal/older style; someone arranges the enrollment."
-          },
-          {
-            "pattern_id": "pat_4",
-            "pattern": "X vägrar att skriva in sig",
-            "meaning_en": "refuse to enroll",
-            "note_en": ""
-          },
-          {
-            "pattern_id": "pat_5",
-            "pattern": "X hindras/förbjuds att skriva in sig vid Y",
-            "meaning_en": "be prevented from enrolling",
-            "note_en": "Passive meaning: someone else stops the enrollment."
+            "pattern": "X lät skriva in sig vid/på Y",
+            "meaning_en": "had themself enrolled",
+            "note_en": "More formal/older style; focuses on arranging the enrollment."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using it without sig: *skriva in på skolan",
-            "fix": "skriva in sig på skolan",
-            "explain_en": "In this sense it is reflexive: the person enrolls themself."
+            "error": "Using it without sig (e.g., *skriva in på skolan).",
+            "fix": "Use the reflexive: skriva in sig (på/vid skolan).",
+            "explain_en": "In this sense, the verb phrase normally needs sig to mean 'enroll/register yourself'."
           },
           {
-            "error": "Mixing prepositions: *skriva in sig i skolan (in this meaning)",
-            "fix": "skriva in sig på skolan / vid universitetet",
-            "explain_en": "The examples use på (school) and vid (university/institution)."
+            "error": "Mixing up på and vid randomly.",
+            "fix": "Use på for 'at/on (a school)' and vid for 'at (a university/faculty)'.",
+            "explain_en": "Both occur with institutions; choose the preposition that fits the type of institution and style."
           }
         ],
         "required_example_count": 10,
@@ -165,7 +158,7 @@
                 "span_sv": "skolan"
               }
             ],
-            "gloss": "enroll (register as a student)",
+            "gloss": "enroll (register oneself as a student)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -176,14 +169,14 @@
               "text_title": "Timo K. Mukka",
               "text_url": "https://sv.wikipedia.org/wiki/Timo_K._Mukka",
               "sentence_id": "726fda5b",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
             }
           },
           {
             "ex_id": "42abe342457bd3302af624b59fd865c494f7eea5",
             "sv": "Istället lät han skriva in sig på Filosofiska fakulteten vid Zagrebs universitet.",
-            "en": "Instead he had himself enrolled in the Faculty of Philosophy at the University of Zagreb.",
+            "en": "Instead, he had himself enrolled at the Faculty of Philosophy at the University of Zagreb.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -192,14 +185,10 @@
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "Zagrebs universitet"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "Filosofiska fakulteten"
+                "span_sv": "Filosofiska fakulteten vid Zagrebs universitet"
               }
             ],
-            "gloss": "enroll (register as a student)",
+            "gloss": "enroll (register oneself as a student)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -210,7 +199,7 @@
               "text_title": "Tin Ujević",
               "text_url": "https://sv.wikipedia.org/wiki/Tin_Ujevi%C4%87",
               "sentence_id": "afe267d8",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
             }
           },
@@ -225,7 +214,7 @@
                 "span_sv": "Hoxha"
               }
             ],
-            "gloss": "enroll (register as a student)",
+            "gloss": "enroll (register oneself as a student)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -236,14 +225,44 @@
               "text_title": "Enver Hoxha",
               "text_url": "https://sv.wikipedia.org/wiki/Enver_Hoxha",
               "sentence_id": "f78ba456",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "94606187eb466f033dc04d14be4d92f89e7a7dbd",
+            "sv": "• 1962 – Den färgade studenten James Meredith hindras att skriva in sig vid University of Mississippi.",
+            "en": "1962 – The Black student James Meredith is prevented from enrolling at the University of Mississippi.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Den färgade studenten James Meredith"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "University of Mississippi"
+              }
+            ],
+            "gloss": "enroll (register oneself as a student)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "20 september",
+              "text_url": "https://sv.wikipedia.org/wiki/20_september",
+              "sentence_id": "aa9dc9ad",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
             }
           },
           {
             "ex_id": "92649262455af1295854b6d96c2c09cfc7dd9a5a",
             "sv": "1964 wallraffade en medarbetare vid Stockholmstidningen genom att själv skriva in sig på vårdhemmet.",
-            "en": "In 1964 an employee at Stockholmstidningen did undercover reporting by enrolling himself at the nursing home.",
+            "en": "In 1964, an employee at Stockholmstidningen did undercover reporting by enrolling himself at the nursing home.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -266,26 +285,26 @@
               "text_title": "Vårdhemmet Högalid",
               "text_url": "https://sv.wikipedia.org/wiki/V%C3%A5rdhemmet_H%C3%B6galid",
               "sentence_id": "a7d3191c",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
             }
           },
           {
-            "ex_id": "94606187eb466f033dc04d14be4d92f89e7a7dbd",
-            "sv": "• 1962 – Den färgade studenten James Meredith hindras att skriva in sig vid University of Mississippi.",
-            "en": "1962 – The Black student James Meredith is prevented from enrolling at the University of Mississippi.",
+            "ex_id": "6ee6a95c20a4c9654a7608a72ec9ce424a164e67",
+            "sv": "Då han var efterlyst var det omöjligt för Bane att skriva in sig på ett sjukhus, trots sitt försämrade tillstånd.",
+            "en": "Since he was wanted, it was impossible for Bane to register at a hospital, despite his worsened condition.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "Den färgade studenten James Meredith"
+                "span_sv": "Bane"
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "University of Mississippi"
+                "span_sv": "ett sjukhus"
               }
             ],
-            "gloss": "enroll (register as a student)",
+            "gloss": "register oneself (as a patient)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -293,40 +312,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "20 september",
-              "text_url": "https://sv.wikipedia.org/wiki/20_september",
-              "sentence_id": "aa9dc9ad",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
-            }
-          },
-          {
-            "ex_id": "56fffbf5adf6ecf69788d3ea6d71a328c3078443",
-            "sv": "Petrini lät år 1858 skriva in sig som elev till kronometerfabrikant Söderberg i Stockholm.",
-            "en": "In 1858 Petrini had himself enrolled as a pupil with the chronometer maker Söderberg in Stockholm.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Petrini"
-              },
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "kronometerfabrikant Söderberg"
-              }
-            ],
-            "gloss": "enroll (register as a pupil/apprentice)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Hilda Petrini",
-              "text_url": "https://sv.wikipedia.org/wiki/Hilda_Petrini",
-              "sentence_id": "4efa6571",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "text_title": "Bane (seriefigur)",
+              "text_url": "https://sv.wikipedia.org/wiki/Bane_(seriefigur)",
+              "sentence_id": "108b906e",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
             }
           },
@@ -345,7 +334,7 @@
                 "span_sv": "Uppsala universitet"
               }
             ],
-            "gloss": "enroll (register as a student)",
+            "gloss": "enroll (register oneself as a student)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -356,37 +345,7 @@
               "text_title": "Knut Lundmark",
               "text_url": "https://sv.wikipedia.org/wiki/Knut_Lundmark",
               "sentence_id": "143d3efb",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
-            }
-          },
-          {
-            "ex_id": "4e2e2373e95712592958f9aa302531d415f23a8e",
-            "sv": "År 1790 lät han dock skriva in sig vid Kanslikollegium i Stockholm, men återvände redan 1791 till Uppsala.",
-            "en": "In 1790, however, he had himself enrolled at the Chancellery College in Stockholm, but already in 1791 he returned to Uppsala.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Kanslikollegium i Stockholm"
-              }
-            ],
-            "gloss": "enroll (register oneself)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Benjamin Höijer",
-              "text_url": "https://sv.wikipedia.org/wiki/Benjamin_H%C3%B6ijer",
-              "sentence_id": "fa19f6f3",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
             }
           },
@@ -405,7 +364,7 @@
                 "span_sv": "Friedrich-Wilhelms-Universität Berlin"
               }
             ],
-            "gloss": "enroll (register as a student)",
+            "gloss": "enroll (register oneself as a student)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -416,7 +375,67 @@
               "text_title": "Marcel Reich-Ranicki",
               "text_url": "https://sv.wikipedia.org/wiki/Marcel_Reich-Ranicki",
               "sentence_id": "f317a779",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "4e2e2373e95712592958f9aa302531d415f23a8e",
+            "sv": "År 1790 lät han dock skriva in sig vid Kanslikollegium i Stockholm, men återvände redan 1791 till Uppsala.",
+            "en": "In 1790, however, he had himself registered at the Chancellery College in Stockholm, but already in 1791 he returned to Uppsala.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Kanslikollegium i Stockholm"
+              }
+            ],
+            "gloss": "register oneself (be entered on an institution’s rolls)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Benjamin Höijer",
+              "text_url": "https://sv.wikipedia.org/wiki/Benjamin_H%C3%B6ijer",
+              "sentence_id": "fa19f6f3",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "56fffbf5adf6ecf69788d3ea6d71a328c3078443",
+            "sv": "Petrini lät år 1858 skriva in sig som elev till kronometerfabrikant Söderberg i Stockholm.",
+            "en": "In 1858, Petrini had himself enrolled as a pupil with the chronometer maker Söderberg in Stockholm.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Petrini"
+              },
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "kronometerfabrikant Söderberg"
+              }
+            ],
+            "gloss": "enroll (register oneself as a pupil/apprentice)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hilda Petrini",
+              "text_url": "https://sv.wikipedia.org/wiki/Hilda_Petrini",
+              "sentence_id": "4efa6571",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
             }
           }
@@ -425,7 +444,13 @@
     ],
     "pronunciation": {
       "ipa": "ˈskriːva ˈɪn sɛj",
-      "stress_hint": "Main stress is on skriva; in sig is unstressed."
+      "stress_hint": "Main stress is on skriva and in; sig is unstressed.",
+      "audio": {
+        "file": "audio/lu_einschreiben_sich_einschreiben.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [

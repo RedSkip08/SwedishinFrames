@@ -35,7 +35,7 @@
         "def_sg": "doktoranden",
         "indef_pl": "doktorander",
         "def_pl": "doktoranderna",
-        "note_en": "A person admitted to doctoral (research) studies."
+        "note_en": ""
       },
       "verb": {
         "infinitive": null,
@@ -58,19 +58,14 @@
     },
     "derived_words_sv": [
       {
-        "word": "doktorandutbildning",
-        "type_en": "noun",
-        "meaning_en": "doctoral education; PhD programme"
-      },
-      {
         "word": "doktorandtid",
         "type_en": "noun",
-        "meaning_en": "time period as a PhD student"
+        "meaning_en": "time period when someone is a PhD student"
       },
       {
-        "word": "doktorandtjänst",
+        "word": "doktorandstudier",
         "type_en": "noun",
-        "meaning_en": "PhD position (employment as a doctoral student)"
+        "meaning_en": "PhD studies"
       },
       {
         "word": "doktorandkurs",
@@ -78,9 +73,14 @@
         "meaning_en": "course for PhD students"
       },
       {
-        "word": "doktorandseminarium",
+        "word": "doktorandanställning",
         "type_en": "noun",
-        "meaning_en": "seminar for PhD students"
+        "meaning_en": "employment as a PhD student"
+      },
+      {
+        "word": "doktorandprogram",
+        "type_en": "noun",
+        "meaning_en": "PhD programme"
       }
     ],
     "synonyms_sv": [
@@ -100,53 +100,54 @@
       {
         "sense_id": "lu_doktorand_der_doktorand__die_doktorandin:1",
         "frame_id": "frame_education",
-        "meaning_en": "a student admitted to doctoral-level studies at a university or similar institution",
+        "meaning_en": "a person studying for a doctoral degree (PhD), usually at a university or institute",
         "how_to_use_en": [
-          "Use for someone doing a PhD (doctoral studies).",
-          "Often followed by place with vid/på, or field with i."
+          "Use for someone doing doctoral studies at a university/institute.",
+          "Often used with som (“as”) or with i + subject (“in [field]”).",
+          "Can be used with an institution: vid + university/institute (“at”)."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "som doktorand",
             "meaning_en": "as a PhD student",
-            "note_en": "Used to describe what someone did during that period."
+            "note_en": "Used to describe someone’s role/status."
           },
           {
             "pattern_id": "pat_2",
             "pattern": "doktorand vid + Institution",
             "meaning_en": "PhD student at an institution",
-            "note_en": "Common with universities, institutes, departments."
+            "note_en": "Common with universitetet/institutet."
           },
           {
             "pattern_id": "pat_3",
             "pattern": "doktorand i + Subject",
             "meaning_en": "PhD student in a subject",
-            "note_en": "Names the research/study field."
+            "note_en": "Names the research/degree field."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "bli doktorand",
-            "meaning_en": "become a PhD student",
-            "note_en": "Often used when someone starts doctoral studies."
+            "pattern": "anställd som doktorand",
+            "meaning_en": "employed as a PhD student",
+            "note_en": "In Sweden, doctoral students can be employed."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "antagen som doktorand",
+            "pattern": "antogs som doktorand",
             "meaning_en": "admitted as a PhD student",
-            "note_en": "Formal wording about admission to doctoral studies."
+            "note_en": "Used when someone is accepted into doctoral studies."
           }
         ],
         "common_errors_en": [
           {
             "error": "Using doktorand for someone who already has a PhD.",
-            "fix": "Use doktor (or disputerad person) instead.",
-            "explain_en": "A doktorand is still studying at doctoral level, not finished."
+            "fix": "Use doktor (or forskare, depending on context).",
+            "explain_en": "Doktorand is still studying; after the defence they are no longer a doktorand."
           },
           {
-            "error": "Mixing up i and vid after doktorand.",
-            "fix": "Use i for the subject/field and vid for the institution.",
-            "explain_en": "Examples show doktorand i [subject] and doktorand vid [university/institute]."
+            "error": "Saying *doktorand på universitetet* in this sense.",
+            "fix": "Say doktorand vid universitetet.",
+            "explain_en": "The examples use vid for affiliation with an institution."
           }
         ],
         "required_example_count": 10,
@@ -177,7 +178,7 @@
               "text_title": "Siri Hustvedt",
               "text_url": "https://sv.wikipedia.org/wiki/Siri_Hustvedt",
               "sentence_id": "342e6a05",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"doktorand\"]"
             }
           },
@@ -211,14 +212,48 @@
               "text_title": "Dmitrij Medvedev",
               "text_url": "https://sv.wikipedia.org/wiki/Dmitrij_Medvedev",
               "sentence_id": "f31688a6",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"doktorand\"]"
+            }
+          },
+          {
+            "ex_id": "e4d44170d5ca54cf5a844c4605a5cb625202db4a",
+            "sv": "Bäckelie är sedan 2012 anställd som doktorand i religionsvetenskap vid Göteborgs universitet.",
+            "en": "Since 2012, Bäckelie has been employed as a PhD student in religious studies at the University of Gothenburg.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Bäckelie"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "religionsvetenskap"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Göteborgs universitet"
+              }
+            ],
+            "gloss": "doktorand = PhD student",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jonatan Bäckelie",
+              "text_url": "https://sv.wikipedia.org/wiki/Jonatan_B%C3%A4ckelie",
+              "sentence_id": "ef52d0c8",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"doktorand\"]"
             }
           },
           {
             "ex_id": "afd972832b11a5f7eee7e465d852a30940676a73",
             "sv": "Han slutförde kursen 2014 och är sedan dess doktorand vid institutet.",
-            "en": "He finished the course in 2014 and has been a PhD student at the institute since then.",
+            "en": "He finished the course in 2014 and since then he has been a PhD student at the institute.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -235,7 +270,7 @@
               }
             ],
             "gloss": "doktorand = PhD student",
-            "level": "B1",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -245,14 +280,14 @@
               "text_title": "Jacob Barnett",
               "text_url": "https://sv.wikipedia.org/wiki/Jacob_Barnett",
               "sentence_id": "f807ed6d",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"doktorand\"]"
             }
           },
           {
             "ex_id": "007dd2c8fe7309a9e9212549bde8a41c9e6dd2ee",
             "sv": "Efter detta studerade han vidare som doktorand vid institutionen för högspänningsteknik.",
-            "en": "After this he continued studying as a PhD student at the department of high-voltage engineering.",
+            "en": "After this, he continued studying as a PhD student at the department of high-voltage engineering.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -275,19 +310,27 @@
               "text_title": "Mats Leijon",
               "text_url": "https://sv.wikipedia.org/wiki/Mats_Leijon",
               "sentence_id": "1ea0758e",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"doktorand\"]"
             }
           },
           {
-            "ex_id": "d03de993c82bd661f34702d9cb293c9c22fb56ef",
-            "sv": "Som doktorand var Högberg verksam som gästforskare i Tanzania och Zambia.",
-            "en": "As a PhD student, Högberg worked as a visiting researcher in Tanzania and Zambia.",
+            "ex_id": "284bfc44887f5e2a063368fcaa2b71fd4e458b4f",
+            "sv": "Wåhlstedt tog civilekonomexamen 1984 och blev doktorand i företagsekonomi med naturekonomisk inriktning.",
+            "en": "Wåhlstedt got a degree in business and economics in 1984 and became a PhD student in business administration with an environmental economics focus.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "Högberg"
+                "span_sv": "Wåhlstedt"
+              },
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "civilekonomexamen"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "företagsekonomi"
               }
             ],
             "gloss": "doktorand = PhD student",
@@ -298,17 +341,17 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Peter Högberg",
-              "text_url": "https://sv.wikipedia.org/wiki/Peter_H%C3%B6gberg",
-              "sentence_id": "3d1e73b6",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "text_title": "Håkan Wåhlstedt",
+              "text_url": "https://sv.wikipedia.org/wiki/H%C3%A5kan_W%C3%A5hlstedt",
+              "sentence_id": "a7680f99",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"doktorand\"]"
             }
           },
           {
             "ex_id": "37c72a2fd3dd13c34a5f261b592ac2039f1f30fa",
             "sv": "Hon blev därefter doktorand vid Karolinska Institutet, där hon disputerade 1995.",
-            "en": "She then became a PhD student at Karolinska Institutet, where she defended her thesis in 1995.",
+            "en": "After that she became a PhD student at Karolinska Institutet, where she defended her PhD in 1995.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -331,37 +374,7 @@
               "text_title": "Juleen Zierath",
               "text_url": "https://sv.wikipedia.org/wiki/Juleen_Zierath",
               "sentence_id": "14378a73",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"doktorand\"]"
-            }
-          },
-          {
-            "ex_id": "8b435b4c1419d1e0fe3c2f7830ed27e24888a793",
-            "sv": "Hon studerade därefter vidare vid Uppsala universitet, och blev sedan doktorand där 1985.",
-            "en": "She then continued studying at Uppsala University, and later became a PhD student there in 1985.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Hon"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Uppsala universitet"
-              }
-            ],
-            "gloss": "doktorand = PhD student",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Madelene Sandström",
-              "text_url": "https://sv.wikipedia.org/wiki/Madelene_Sandstr%C3%B6m",
-              "sentence_id": "8a6f7f96",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"doktorand\"]"
             }
           },
@@ -374,6 +387,10 @@
               {
                 "fe_id": "fe_student",
                 "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Chicago"
               }
             ],
             "gloss": "doktorand = PhD student",
@@ -387,53 +404,31 @@
               "text_title": "Philip Roth",
               "text_url": "https://sv.wikipedia.org/wiki/Philip_Roth",
               "sentence_id": "a2cdd6bb",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"doktorand\"]"
             }
           },
           {
-            "ex_id": "d4ef2ddb7303c1e4bf11079fbe5962cc6966cc25",
-            "sv": "Den student som är antagen till och bedriver utbildning på forskarnivå betecknas som doktorand, oavsett finansieringsform.",
-            "en": "The student who is admitted to and studies at doctoral level is called a PhD student, regardless of how it is funded.",
+            "ex_id": "170a4b9534eabce03a0f6010120678a7789b29cf",
+            "sv": "Efter att ha avlagt magisterexamen i historia var han doktorand i kyrkohistoria.",
+            "en": "After completing a master's degree in history, he was a PhD student in church history.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "Den student"
-              }
-            ],
-            "gloss": "doktorand = PhD student",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Akademiker",
-              "text_url": "https://sv.wikipedia.org/wiki/Akademiker",
-              "sentence_id": "d00c7c32",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"doktorand\"]"
-            }
-          },
-          {
-            "ex_id": "e20a15e4cdc9969271736e010a733b6462a58565",
-            "sv": "Ida Hallgren är doktorand i praktisk filosofi vid Göteborgs universitet och legitimerad psykolog.",
-            "en": "Ida Hallgren is a PhD student in practical philosophy at the University of Gothenburg and a licensed psychologist.",
-            "frame_id": "frame_education",
-            "fe_tags": [
+                "span_sv": "han"
+              },
               {
-                "fe_id": "fe_student",
-                "span_sv": "Ida Hallgren"
+                "fe_id": "fe_qualification",
+                "span_sv": "magisterexamen"
               },
               {
                 "fe_id": "fe_subject",
-                "span_sv": "praktisk filosofi"
+                "span_sv": "historia"
               },
               {
-                "fe_id": "fe_institution",
-                "span_sv": "Göteborgs universitet"
+                "fe_id": "fe_subject",
+                "span_sv": "kyrkohistoria"
               }
             ],
             "gloss": "doktorand = PhD student",
@@ -444,10 +439,40 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ida Hallgren",
-              "text_url": "https://sv.wikipedia.org/wiki/Ida_Hallgren",
-              "sentence_id": "ef556454",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "text_title": "Alexander Maurits",
+              "text_url": "https://sv.wikipedia.org/wiki/Alexander_Maurits",
+              "sentence_id": "e3a49f00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"doktorand\"]"
+            }
+          },
+          {
+            "ex_id": "17cb7bf09c013a0ef403955524ec3508e0fb913b",
+            "sv": "Han var doktorand i historia och hade en bakgrund inom tjänstemannarörelsen.",
+            "en": "He was a PhD student in history and had a background in the white-collar workers' movement.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "historia"
+              }
+            ],
+            "gloss": "doktorand = PhD student",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "TAM-Arkiv",
+              "text_url": "https://sv.wikipedia.org/wiki/TAM-Arkiv",
+              "sentence_id": "54b9c3fa",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"doktorand\"]"
             }
           }
@@ -456,14 +481,20 @@
     ],
     "pronunciation": {
       "ipa": "dɔkˈtʊːrand",
-      "stress_hint": "Stress is usually on the second part: -rand."
+      "stress_hint": "Stress is on the second part: -rand.",
+      "audio": {
+        "file": "audio/lu_doktorand_der_doktorand__die_doktorandin.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "doktorand (indefinite singular)",
-        "doktoranden (definite singular)",
-        "doktorander (indefinite plural)",
-        "doktoranderna (definite plural)"
+        "doktorand (en)",
+        "doktoranden",
+        "doktorander",
+        "doktoranderna"
       ],
       "particle_or_reflexive": null
     }

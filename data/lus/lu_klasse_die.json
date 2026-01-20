@@ -32,7 +32,7 @@
         "def_sg": "klassen",
         "indef_pl": "klasser",
         "def_pl": "klasserna",
-        "note_en": "Also used in fixed school labels like “klass 6A” and “klass 1 B”."
+        "note_en": ""
       },
       "verb": {
         "infinitive": null,
@@ -67,12 +67,12 @@
       {
         "word": "klasslista",
         "type_en": "noun",
-        "meaning_en": "class list (names of students)"
+        "meaning_en": "class list (names of pupils)"
       },
       {
         "word": "klassföreståndare",
         "type_en": "noun",
-        "meaning_en": "form teacher; teacher responsible for a class"
+        "meaning_en": "form teacher; class tutor"
       },
       {
         "word": "klassindelning",
@@ -83,7 +83,7 @@
     "synonyms_sv": [
       "skolklass",
       "klassgrupp",
-      "elevgrupp"
+      "undervisningsgrupp"
     ],
     "antonyms_sv": [],
     "linked_frames": [
@@ -98,48 +98,54 @@
       {
         "sense_id": "lu_klasse_die:1",
         "frame_id": "frame_education",
-        "meaning_en": "a group of students in a school, or a school grade level",
+        "meaning_en": "a group of pupils who study together in school, often named by grade and letter.",
         "how_to_use_en": [
-          "Use for a school group: en klass, klass 6A.",
-          "Use with an ordinal for grade level: femte klass.",
-          "Often mentioned together with a school: på skolan finns en klass per årskurs."
+          "Use for a school group (e.g., klass 6A) or a grade level (e.g., femte klass).",
+          "Often used with a number/letter or with an adjective (vanlig/öppen).",
+          "Can be linked to a school: På skolan finns en klass per årskurs."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "en klass (per årskurs)",
-            "meaning_en": "a class group",
-            "note_en": "Often used when describing how a school is organized."
+            "pattern": "en klass per årskurs",
+            "meaning_en": "one class for each grade",
+            "note_en": "Used when describing how a school is organized."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "i klass + number + letter (t.ex. klass 6A, klass 1 B)",
-            "meaning_en": "in a specific class",
-            "note_en": "Common school label with number and sometimes a letter."
+            "pattern": "från femte klass",
+            "meaning_en": "from fifth grade",
+            "note_en": "Here klass refers to grade level."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "ordinal + klass (t.ex. femte klass)",
-            "meaning_en": "a grade level",
-            "note_en": "Refers to the school year level, not the group name."
+            "pattern": "i klass 1 B / klass 6A",
+            "meaning_en": "in class 1B/6A",
+            "note_en": "Number + letter commonly names a specific class group."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "en vanlig/öppen klass",
-            "meaning_en": "a type of class group",
-            "note_en": "An adjective can describe what kind of class it is."
+            "pattern": "gå i en vanlig klass",
+            "meaning_en": "attend a regular class",
+            "note_en": "Used to contrast with special arrangements."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "en öppen klass (för ...)",
+            "meaning_en": "an open/special class (for ...)",
+            "note_en": "Often followed by a phrase describing the pupil group."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using klass for a single lesson (like English “class” = lesson).",
-            "fix": "Use lektion (or kurs) when you mean a lesson/course.",
-            "explain_en": "In these examples, klass means a school group or grade level, not one lesson."
+            "error": "Using klass for a single lesson (e.g., “a math class” as one session).",
+            "fix": "Use lektion (one lesson) or kurs (a course) instead.",
+            "explain_en": "In these examples, klass means a pupil group or grade level, not one meeting."
           },
           {
-            "error": "Saying *i skolan* when you mean the class group.",
-            "fix": "Say i en klass / i klass 6A.",
-            "explain_en": "Use i + klass to place someone in a specific class group."
+            "error": "Mixing up klass (group) and årskurs (grade/year).",
+            "fix": "Use årskurs for the school year level; use klass for the group (often with a letter).",
+            "explain_en": "You can have one klass per årskurs, and classes can be merged across årskurser."
           }
         ],
         "required_example_count": 10,
@@ -156,11 +162,11 @@
               },
               {
                 "fe_id": "fe_course",
-                "span_sv": "en klass"
+                "span_sv": "en klass per årskurs"
               }
             ],
             "gloss": "class (school group)",
-            "level": "A2",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -170,7 +176,7 @@
               "text_title": "Arboga",
               "text_url": "https://sv.wikipedia.org/wiki/Arboga",
               "sentence_id": "3904ca22",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klass\"]"
             }
           },
@@ -200,7 +206,7 @@
               "text_title": "Wettingen-Mehreraus kloster",
               "text_url": "https://sv.wikipedia.org/wiki/Wettingen-Mehreraus_kloster",
               "sentence_id": "f677acf4",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klass\"]"
             }
           },
@@ -223,8 +229,8 @@
                 "span_sv": "klass 1 B"
               }
             ],
-            "gloss": "class (school group)",
-            "level": "A1",
+            "gloss": "class (school group/level)",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -234,7 +240,7 @@
               "text_title": "Var är bus-Alfons?",
               "text_url": "https://sv.wikipedia.org/wiki/Var_%C3%A4r_bus-Alfons%3F",
               "sentence_id": "500d188e",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klass\"]"
             }
           },
@@ -264,7 +270,7 @@
               "text_title": "Öreskoga",
               "text_url": "https://sv.wikipedia.org/wiki/%C3%96reskoga",
               "sentence_id": "24be0fae",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klass\"]"
             }
           },
@@ -283,7 +289,7 @@
                 "span_sv": "en vanlig klass"
               }
             ],
-            "gloss": "class (school group)",
+            "gloss": "class (regular school class)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -294,7 +300,7 @@
               "text_title": "Särskola",
               "text_url": "https://sv.wikipedia.org/wiki/S%C3%A4rskola",
               "sentence_id": "6bb2e2ae",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klass\"]"
             }
           },
@@ -313,7 +319,7 @@
                 "span_sv": "funktionshindrade barn"
               }
             ],
-            "gloss": "class (school group)",
+            "gloss": "class (special/open class)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -324,7 +330,7 @@
               "text_title": "Eskilscupen",
               "text_url": "https://sv.wikipedia.org/wiki/Eskilscupen",
               "sentence_id": "7573073c",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klass\"]"
             }
           }
@@ -332,15 +338,18 @@
       }
     ],
     "pronunciation": {
-      "ipa": "/klasː/",
-      "stress_hint": "One syllable; long s-sound at the end."
+      "ipa": "klasː",
+      "stress_hint": "Long s-sound: the double -ss- is pronounced long.",
+      "audio": {
+        "file": "audio/lu_klasse_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "klass",
-        "klassen",
-        "klasser",
-        "klasserna"
+        "klass (en) – klassen – klasser – klasserna"
       ],
       "particle_or_reflexive": null
     }

@@ -32,7 +32,7 @@
         "def_sg": "undervisningen",
         "indef_pl": "undervisningar",
         "def_pl": "undervisningarna",
-        "note_en": "Often used as an uncountable noun for the activity; plural is possible for different types/instances."
+        "note_en": "Often used as an uncountable noun for the activity (e.g., research and teaching)."
       },
       "verb": {
         "infinitive": null,
@@ -57,7 +57,7 @@
       {
         "word": "undervisa",
         "type_en": "verb",
-        "meaning_en": "teach; give instruction"
+        "meaning_en": "teach (a subject or someone)"
       },
       {
         "word": "undervisningsmaterial",
@@ -75,16 +75,16 @@
         "meaning_en": "language of instruction"
       },
       {
-        "word": "undervisningstid",
+        "word": "undervisningsform",
         "type_en": "noun",
-        "meaning_en": "teaching time; lesson time"
+        "meaning_en": "type/mode of teaching"
       }
     ],
     "synonyms_sv": [
-      "utbildning",
-      "instruktion",
+      "lärande",
       "lektioner",
-      "handledning"
+      "utbildning",
+      "instruktion"
     ],
     "antonyms_sv": [],
     "linked_frames": [
@@ -99,70 +99,70 @@
       {
         "sense_id": "lu_unterricht_der:1",
         "frame_id": "frame_education",
-        "meaning_en": "organized teaching or instruction, often in a school or course setting",
+        "meaning_en": "the activity of teaching, often in a school or course",
         "how_to_use_en": [
-          "Use for the activity of teaching (often in schools, courses, or training).",
-          "Common with prepositions like i (in a subject) and på (at an institution).",
-          "Can be used with verbs like bedriva, erbjuda, få, ge."
+          "Use for teaching as an activity in schools, universities, or courses.",
+          "Often appears with a subject (i) or with who receives it (för).",
+          "Can be used with verbs like erbjuda, få, bedriva, ägna sig åt."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "undervisning i + Ämne",
+            "pattern": "undervisning i + ämne",
             "meaning_en": "teaching in a subject",
-            "note_en": "Used for fields, languages, or topics."
+            "note_en": "Used for the field/subject taught."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "undervisning på + Institution",
-            "meaning_en": "teaching at an institution",
-            "note_en": "Often with bedrivs/bedriva."
+            "pattern": "undervisning för + grupp",
+            "meaning_en": "teaching for a group",
+            "note_en": "Often for grades or a target group."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "få undervisning (av + Lärare)",
-            "meaning_en": "receive teaching (from someone)",
+            "pattern": "få undervisning (hemma) (ett år)",
+            "meaning_en": "receive teaching",
             "note_en": "Focuses on the learner receiving instruction."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "erbjuda undervisning för + Studenter",
-            "meaning_en": "offer teaching for learners",
-            "note_en": "Often used about schools and grade levels."
+            "pattern": "få undervisning av + lärare",
+            "meaning_en": "be taught by someone",
+            "note_en": "Names the teacher/instructor."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "ge + Studenter + undervisning",
-            "meaning_en": "give teaching to learners",
-            "note_en": "Often paired with another noun like rådgivning."
+            "pattern": "bedriva/ägna sig åt + undervisning",
+            "meaning_en": "carry out/do teaching",
+            "note_en": "Common in formal texts, often with forskning."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *undervisning* when you mean the school as an institution.",
-            "fix": "Use skola/lärosäte for the institution; use undervisning for the teaching activity.",
-            "explain_en": "Undervisning is what happens (teaching), not the place/organization."
+            "error": "Using *undervisning* when you mean the whole education/program.",
+            "fix": "Use utbildning for a full education/program; use undervisning for the teaching part.",
+            "explain_en": "In the examples, undervisning is the teaching activity (often alongside forskning)."
           },
           {
-            "error": "Forgetting the preposition in subject expressions (e.g., *undervisning matematik*).",
-            "fix": "Say undervisning i matematik.",
-            "explain_en": "In the examples, the subject is introduced with i."
+            "error": "Saying *undervisning på* for a subject.",
+            "fix": "Say undervisning i + subject.",
+            "explain_en": "The examples show undervisning i högskolepedagogik / i facken ... / i språken ..."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "6875840bdc23ca495d3da3f7a634e563bbb54359",
-            "sv": "Från 1858 bedrevs undervisning i facken maskinteknik, lantmäteri, arkitektur och kemi.",
-            "en": "From 1858, teaching was carried out in the fields of mechanical engineering, surveying, architecture and chemistry.",
+            "ex_id": "42fa4553ee4cbf9de959de8e2abeabaf3b586d77",
+            "sv": "Sedan dess har man ägnat sig åt teologisk forskning och undervisning.",
+            "en": "Since then, people have devoted themselves to theological research and teaching.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_subject",
-                "span_sv": "maskinteknik, lantmäteri, arkitektur och kemi"
+                "span_sv": "teologisk"
               }
             ],
-            "gloss": "teaching, instruction",
+            "gloss": "teaching; instruction",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -170,17 +170,17 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Tekniska högskolan, Helsingfors",
-              "text_url": "https://sv.wikipedia.org/wiki/Tekniska_h%C3%B6gskolan,_Helsingfors",
-              "sentence_id": "526faf12",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "text_title": "Teologiska fakulteten, Uppsala universitet",
+              "text_url": "https://sv.wikipedia.org/wiki/Teologiska_fakulteten,_Uppsala_universitet",
+              "sentence_id": "1bd8b8b7",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"undervisning\"]"
             }
           },
           {
             "ex_id": "615d1b90c22290543ce94b2909e7d859e1fbbc24",
             "sv": "Forskning och undervisning i högskolepedagogik bedrivs på alla högre lärosäten i Sverige.",
-            "en": "Research and teaching in higher education pedagogy is carried out at all higher education institutions in Sweden.",
+            "en": "Research and teaching in higher-education pedagogy is carried out at all higher education institutions in Sweden.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -192,7 +192,7 @@
                 "span_sv": "alla högre lärosäten i Sverige"
               }
             ],
-            "gloss": "teaching, instruction",
+            "gloss": "teaching; instruction",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -203,70 +203,14 @@
               "text_title": "Högskolepedagogik",
               "text_url": "https://sv.wikipedia.org/wiki/H%C3%B6gskolepedagogik",
               "sentence_id": "3daba595",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"undervisning\"]"
             }
           },
           {
-            "ex_id": "43f02b7de2210d525b42c2cf103ff67d9d8bbacf",
-            "sv": "Hon återvände och fick undervisning av den judiska konstnären Osip Braz.",
-            "en": "She returned and received teaching from the Jewish artist Osip Braz.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Hon"
-              },
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "den judiska konstnären Osip Braz"
-              }
-            ],
-            "gloss": "teaching, instruction",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Zinaida Serebrjakova",
-              "text_url": "https://sv.wikipedia.org/wiki/Zinaida_Serebrjakova",
-              "sentence_id": "03a40508",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"undervisning\"]"
-            }
-          },
-          {
-            "ex_id": "5fc490935a8bfa21a92b4a7b6ff5312812b7d43a",
-            "sv": "År 1876 förbjöds undervisning på ukrainska och utgivning av ukrainska böcker och tidskrifter.",
-            "en": "In 1876, teaching in Ukrainian and the publishing of Ukrainian books and magazines were forbidden.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "ukrainska"
-              }
-            ],
-            "gloss": "teaching, instruction",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ukrainas historia",
-              "text_url": "https://sv.wikipedia.org/wiki/Ukrainas_historia",
-              "sentence_id": "176e7a0a",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"undervisning\"]"
-            }
-          },
-          {
-            "ex_id": "ce0f776f9cfccc03b8ea8e2a7ba366441e1ba162",
-            "sv": "Skolan ansågs vara den första flickskolan i Danmark som erbjöd seriös undervisning för flickor.",
-            "en": "The school was considered the first girls' school in Denmark that offered serious teaching for girls.",
+            "ex_id": "176975b91ed6b06624628b29e0c261927bad769e",
+            "sv": "Skolan erbjuder undervisning för årskurserna 1-6 och hade 203 elever läsåret 2020-2021.",
+            "en": "The school offers teaching for grades 1–6 and had 203 pupils in the school year 2020–2021.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -275,28 +219,28 @@
               },
               {
                 "fe_id": "fe_student",
-                "span_sv": "flickor"
+                "span_sv": "203 elever"
               }
             ],
-            "gloss": "teaching, instruction",
-            "level": "B1",
+            "gloss": "teaching; instruction",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Døtreskolen af 1791",
-              "text_url": "https://sv.wikipedia.org/wiki/D%C3%B8treskolen_af_1791",
-              "sentence_id": "fa1a6f20",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "text_title": "Karamalmens skola",
+              "text_url": "https://sv.wikipedia.org/wiki/Karamalmens_skola",
+              "sentence_id": "7fb6e396",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"undervisning\"]"
             }
           },
           {
             "ex_id": "52f4bcc455ec5cdbf44865234a6a76e31086568e",
             "sv": "Eleverna i årskurserna 7-9 har sin undervisning i lokaler som byggdes till Östratornskolan 1997.",
-            "en": "The students in grades 7–9 have their teaching in rooms that were added to Östratornskolan in 1997.",
+            "en": "The pupils in grades 7–9 have their teaching in premises that were added to Östratornskolan in 1997.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -308,8 +252,8 @@
                 "span_sv": "Östratornskolan"
               }
             ],
-            "gloss": "teaching, instruction",
-            "level": "A2",
+            "gloss": "teaching; instruction",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -319,22 +263,104 @@
               "text_title": "Östra Torn",
               "text_url": "https://sv.wikipedia.org/wiki/%C3%96stra_Torn",
               "sentence_id": "d326a7b5",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"undervisning\"]"
             }
           },
           {
-            "ex_id": "beb068af89ee92e46c12c8270150503a82cf9bc3",
-            "sv": "Samtidigt ämnade man att övervaka spädbarnen medicinskt och ge mödrarna undervisning och rådgivning.",
-            "en": "At the same time, they intended to monitor the infants medically and give the mothers teaching and advice.",
+            "ex_id": "a6fd8bead7ee6a5ac6b3676ef365338753540ee4",
+            "sv": "Äppelviksskolan har undervisning i årskurserna 6, 7, 8 och 9.",
+            "en": "Äppelviksskolan has teaching in grades 6, 7, 8 and 9.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Äppelviksskolan"
+              }
+            ],
+            "gloss": "teaching; instruction",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Äppelviksskolan",
+              "text_url": "https://sv.wikipedia.org/wiki/%C3%84ppelviksskolan",
+              "sentence_id": "0f11820a",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"undervisning\"]"
+            }
+          },
+          {
+            "ex_id": "0f18d705b986d5a04f275594a289bee576098254",
+            "sv": "Han fick undervisning hemma ett år och avverkade två årskurser på den tiden.",
+            "en": "He got teaching at home for one year and completed two grades in that time.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "mödrarna"
+                "span_sv": "Han"
               }
             ],
-            "gloss": "teaching, instruction",
+            "gloss": "teaching; instruction",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Isaak Babel",
+              "text_url": "https://sv.wikipedia.org/wiki/Isaak_Babel",
+              "sentence_id": "14347c90",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"undervisning\"]"
+            }
+          },
+          {
+            "ex_id": "43f02b7de2210d525b42c2cf103ff67d9d8bbacf",
+            "sv": "Hon återvände och fick undervisning av den judiska konstnären Osip Braz.",
+            "en": "She returned and got teaching from the Jewish artist Osip Braz.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "den judiska konstnären Osip Braz"
+              }
+            ],
+            "gloss": "teaching; instruction",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Zinaida Serebrjakova",
+              "text_url": "https://sv.wikipedia.org/wiki/Zinaida_Serebrjakova",
+              "sentence_id": "03a40508",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"undervisning\"]"
+            }
+          },
+          {
+            "ex_id": "6875840bdc23ca495d3da3f7a634e563bbb54359",
+            "sv": "Från 1858 bedrevs undervisning i facken maskinteknik, lantmäteri, arkitektur och kemi.",
+            "en": "From 1858, teaching was carried out in the fields mechanical engineering, surveying, architecture and chemistry.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "maskinteknik, lantmäteri, arkitektur och kemi"
+              }
+            ],
+            "gloss": "teaching; instruction",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -342,10 +368,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Svensk barnhälsovård under 1900-talet",
-              "text_url": "https://sv.wikipedia.org/wiki/Svensk_barnh%C3%A4lsov%C3%A5rd_under_1900-talet",
-              "sentence_id": "25075da2",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "text_title": "Tekniska högskolan, Helsingfors",
+              "text_url": "https://sv.wikipedia.org/wiki/Tekniska_h%C3%B6gskolan,_Helsingfors",
+              "sentence_id": "526faf12",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"undervisning\"]"
             }
           },
@@ -360,8 +386,8 @@
                 "span_sv": "de bibliska språken hebreiska och grekiska"
               }
             ],
-            "gloss": "teaching, instruction",
-            "level": "A2",
+            "gloss": "teaching; instruction",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -371,63 +397,33 @@
               "text_title": "Enskilda högskolan Stockholm",
               "text_url": "https://sv.wikipedia.org/wiki/Enskilda_h%C3%B6gskolan_Stockholm",
               "sentence_id": "43c882dc",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"undervisning\"]"
             }
           },
           {
-            "ex_id": "176975b91ed6b06624628b29e0c261927bad769e",
-            "sv": "Skolan erbjuder undervisning för årskurserna 1-6 och hade 203 elever läsåret 2020-2021.",
-            "en": "The school offers teaching for grades 1–6 and had 203 students in the school year 2020–2021.",
+            "ex_id": "636ffae562de749e1875ef52c81e4d3cb073c881",
+            "sv": "Utbildningen bedrevs av både muntlig undervisning i Härnösand och självstudier i hemorten.",
+            "en": "The education was carried out through both oral teaching in Härnösand and self-study in the home town.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "Skolan"
-              },
-              {
-                "fe_id": "fe_student",
-                "span_sv": "årskurserna 1-6"
+                "span_sv": "Härnösand"
               }
             ],
-            "gloss": "teaching, instruction",
-            "level": "A2",
+            "gloss": "teaching; instruction",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Karamalmens skola",
-              "text_url": "https://sv.wikipedia.org/wiki/Karamalmens_skola",
-              "sentence_id": "7fb6e396",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"undervisning\"]"
-            }
-          },
-          {
-            "ex_id": "0f18d705b986d5a04f275594a289bee576098254",
-            "sv": "Han fick undervisning hemma ett år och avverkade två årskurser på den tiden.",
-            "en": "He received teaching at home for one year and completed two grades in that time.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Han"
-              }
-            ],
-            "gloss": "teaching, instruction",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Isaak Babel",
-              "text_url": "https://sv.wikipedia.org/wiki/Isaak_Babel",
-              "sentence_id": "14347c90",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "text_title": "Statens gymnasium för vuxna i Härnösand",
+              "text_url": "https://sv.wikipedia.org/wiki/Statens_gymnasium_f%C3%B6r_vuxna_i_H%C3%A4rn%C3%B6sand",
+              "sentence_id": "2a5a8cde",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"undervisning\"]"
             }
           }
@@ -436,7 +432,13 @@
     ],
     "pronunciation": {
       "ipa": "ˈɵnːdɛrˌviːs.nɪŋ",
-      "stress_hint": "Main stress is on the first part: UN-der-."
+      "stress_hint": "Main stress on the first part: UN-der-.",
+      "audio": {
+        "file": "audio/lu_unterricht_der.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [

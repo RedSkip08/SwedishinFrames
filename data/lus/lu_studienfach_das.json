@@ -32,7 +32,7 @@
         "def_sg": "ämnet",
         "indef_pl": "ämnen",
         "def_pl": "ämnena",
-        "note_en": ""
+        "note_en": "In this sense, it means a subject you study in school or university."
       },
       "verb": {
         "infinitive": null,
@@ -62,17 +62,17 @@
       {
         "word": "ämneslärare",
         "type_en": "noun",
-        "meaning_en": "a teacher for a specific subject"
+        "meaning_en": "teacher for a specific subject"
       },
       {
         "word": "ämnesplan",
         "type_en": "noun",
-        "meaning_en": "a syllabus/plan for a subject"
+        "meaning_en": "syllabus/plan for a subject"
       },
       {
         "word": "ämnesområde",
         "type_en": "noun",
-        "meaning_en": "a subject area or field"
+        "meaning_en": "subject area, field of study"
       },
       {
         "word": "ämneskunskap",
@@ -82,10 +82,10 @@
     ],
     "synonyms_sv": [
       "skolämne",
-      "läroämne",
       "studieämne",
       "disciplin",
-      "område"
+      "läroämne",
+      "ämnesområde"
     ],
     "antonyms_sv": [],
     "linked_frames": [
@@ -100,54 +100,48 @@
       {
         "sense_id": "lu_studienfach_das:1",
         "frame_id": "frame_education",
-        "meaning_en": "a topic or field that you study or teach in school or at a university",
+        "meaning_en": "a school or university subject that people study and teach",
         "how_to_use_en": [
-          "Use for school/university subjects (e.g., teknik, filosofi).",
-          "Often used with adjectives like teoretiskt, akademiskt, obligatoriskt.",
-          "Common with prepositions: inom (within) and vid (at an institution)."
+          "Use for a subject in school or higher education (e.g., teckning, teknik).",
+          "Often with an adjective: obligatoriskt ämne, teoretiskt ämne, akademiskt ämne."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "X är ett ämne (inom Y)",
-            "meaning_en": "X is a subject (within Y)",
-            "note_en": "Used to classify a field inside a broader field."
+            "pattern": "Ämnet + [subject name]",
+            "meaning_en": "the subject (named)",
+            "note_en": "Used when talking about a specific school subject."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "ämnet + (namn)",
-            "meaning_en": "the subject + name",
-            "note_en": "Common when listing or comparing school subjects."
+            "pattern": "[X] är ett ämne",
+            "meaning_en": "X is a subject",
+            "note_en": "Common in descriptions of academic fields."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "ett + adjektiv + ämne",
-            "meaning_en": "a + adjective + subject",
-            "note_en": "E.g. teoretiskt, akademiskt, obligatoriskt, tvärvetenskapligt."
+            "pattern": "ett + adjective + ämne",
+            "meaning_en": "a subject with a quality",
+            "note_en": "E.g. teoretiskt, akademiskt, obligatoriskt, självständigt."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "samma ämne",
-            "meaning_en": "the same subject",
-            "note_en": "Used when someone studies/teaches the same field again."
+            "pattern": "ämne inom + [field]",
+            "meaning_en": "a subject within a field",
+            "note_en": "Shows that the subject belongs to a larger discipline."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "ämne vid + institution",
-            "meaning_en": "subject at an institution",
-            "note_en": "Used for universities/högskolor where the subject exists."
+            "pattern": "ämne på + [institution]",
+            "meaning_en": "a subject at an institution",
+            "note_en": "Used for subjects offered at universities/högskolor."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using ämne for “topic of conversation” in these education contexts.",
-            "fix": "Use ämne here only for a school/university subject/field.",
-            "explain_en": "In this frame, ämne means a subject of study, not just any topic."
-          },
-          {
-            "error": "Wrong article: *en ämne.",
-            "fix": "ett ämne.",
-            "explain_en": "Ämne is an ett-word."
+            "error": "Using ämne when you mean “topic of conversation”.",
+            "fix": "Use ämne here only for a school/university subject.",
+            "explain_en": "This entry covers the education sense (a subject you study), not a discussion topic."
           }
         ],
         "required_example_count": 10,
@@ -178,7 +172,7 @@
               "text_title": "Skolämnen i Sverige",
               "text_url": "https://sv.wikipedia.org/wiki/Skol%C3%A4mnen_i_Sverige",
               "sentence_id": "3d15443c",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"ämne\"]"
             }
           },
@@ -204,7 +198,7 @@
               "text_title": "Ellära",
               "text_url": "https://sv.wikipedia.org/wiki/Ell%C3%A4ra",
               "sentence_id": "1ec045a1",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"ämne\"]"
             }
           },
@@ -217,10 +211,6 @@
               {
                 "fe_id": "fe_subject",
                 "span_sv": "Kulturens geografi"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "geografin"
               }
             ],
             "gloss": "school/university subject",
@@ -234,7 +224,7 @@
               "text_title": "Kulturens geografi",
               "text_url": "https://sv.wikipedia.org/wiki/Kulturens_geografi",
               "sentence_id": "cfa318a6",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"ämne\"]"
             }
           },
@@ -251,10 +241,6 @@
               {
                 "fe_id": "fe_subject",
                 "span_sv": "ett speciellt ämne"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "kursen"
               }
             ],
             "gloss": "school/university subject",
@@ -268,14 +254,14 @@
               "text_title": "Folkhögskola",
               "text_url": "https://sv.wikipedia.org/wiki/Folkh%C3%B6gskola",
               "sentence_id": "726dfe62",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"ämne\"]"
             }
           },
           {
             "ex_id": "740d16f16795163f9e31e278f2d325aa3c08973f",
             "sv": "Genom bokade skolvisningar kan skolbarn undervisas i samma ämne enligt läroplanen.",
-            "en": "Through booked school tours, schoolchildren can be taught the same subject according to the curriculum.",
+            "en": "Through booked school visits, schoolchildren can be taught in the same subject according to the curriculum.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -298,7 +284,7 @@
               "text_title": "Djurpark",
               "text_url": "https://sv.wikipedia.org/wiki/Djurpark",
               "sentence_id": "44a739b1",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"ämne\"]"
             }
           },
@@ -311,10 +297,6 @@
               {
                 "fe_id": "fe_subject",
                 "span_sv": "Socialt arbete"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "ämne"
               },
               {
                 "fe_id": "fe_institution",
@@ -332,87 +314,19 @@
               "text_title": "Socialt arbete",
               "text_url": "https://sv.wikipedia.org/wiki/Socialt_arbete",
               "sentence_id": "e76c0c7b",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"ämne\"]"
-            }
-          },
-          {
-            "ex_id": "0fbea643b69bb27fd191ba573f06dd03c4016bc2",
-            "sv": "mag. i filosofi och så småningom även påbörjade forskarstudier i samma ämne.",
-            "en": "Master of Arts in philosophy and eventually also started doctoral studies in the same subject.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "filosofi"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "samma ämne"
-              }
-            ],
-            "gloss": "school/university subject",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Susan Sontag",
-              "text_url": "https://sv.wikipedia.org/wiki/Susan_Sontag",
-              "sentence_id": "afea44f9",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"ämne\"]"
-            }
-          },
-          {
-            "ex_id": "afa00d0afef68bf2e8b45618870f6e5596bdd19d",
-            "sv": "1958 – 1964 var han professor i samma ämne vid Lunds universitet.",
-            "en": "1958–1964 he was a professor in the same subject at Lund University.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "professor"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "samma ämne"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Lunds universitet"
-              }
-            ],
-            "gloss": "school/university subject",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Aron Borelius",
-              "text_url": "https://sv.wikipedia.org/wiki/Aron_Borelius",
-              "sentence_id": "126ae11b",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"ämne\"]"
             }
           },
           {
             "ex_id": "679fae92157a912aa9a5fe890b4b318e3a4968bb",
             "sv": "Hushållsvetenskap var ett tvärvetenskapligt ämne som numera ingår i disciplinen kostvetenskap.",
-            "en": "Home economics was an interdisciplinary subject that now is included in the discipline of nutrition science.",
+            "en": "Home economics was an interdisciplinary subject that is now included in the discipline of nutrition science.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_subject",
                 "span_sv": "Hushållsvetenskap"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "kostvetenskap"
               }
             ],
             "gloss": "school/university subject",
@@ -426,14 +340,66 @@
               "text_title": "Hushållsvetenskap",
               "text_url": "https://sv.wikipedia.org/wiki/Hush%C3%A5llsvetenskap",
               "sentence_id": "ea7732a3",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"ämne\"]"
+            }
+          },
+          {
+            "ex_id": "8de96d2b7c60a5e7a7b8ed1da12904760047ba29",
+            "sv": "Det är i denna tidsanda som arbetsvetenskap etableras som eget självständigt ämne.",
+            "en": "It is in this spirit of the times that work science is established as its own independent subject.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "arbetsvetenskap"
+              }
+            ],
+            "gloss": "school/university subject",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Arbetsvetenskap",
+              "text_url": "https://sv.wikipedia.org/wiki/Arbetsvetenskap",
+              "sentence_id": "45cf7587",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"ämne\"]"
+            }
+          },
+          {
+            "ex_id": "05f0ee567d36295234abfb0ca5c48087783b3bd0",
+            "sv": "Titeln liknar hedersdoktor och ges för att personen har utmärkt sig inom ett akademiskt ämne eller forskning.",
+            "en": "The title is similar to honorary doctor and is given because the person has distinguished themself within an academic subject or research.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "ett akademiskt ämne"
+              }
+            ],
+            "gloss": "school/university subject",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Honorary Fellow",
+              "text_url": "https://sv.wikipedia.org/wiki/Honorary_Fellow",
+              "sentence_id": "757700b8",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"ämne\"]"
             }
           },
           {
             "ex_id": "3dd8132d27de7ef2bc96ce8800d03b40e91efd1e",
             "sv": "Hembygdskunskap var ett samhällsorienterande ämne som i Sverige blev obligatoriskt i folkskolan 1919.",
-            "en": "Local studies was a social-studies subject that in Sweden became compulsory in the elementary school in 1919.",
+            "en": "Local studies was a social studies subject that in Sweden became compulsory in the elementary school in 1919.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -456,7 +422,7 @@
               "text_title": "Hembygd",
               "text_url": "https://sv.wikipedia.org/wiki/Hembygd",
               "sentence_id": "4765246d",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"ämne\"]"
             }
           }
@@ -464,12 +430,18 @@
       }
     ],
     "pronunciation": {
-      "ipa": "ˈɛmːnɛ",
-      "stress_hint": "Stress on the first syllable; the m is long."
+      "ipa": "ˈɛm.nɛ",
+      "stress_hint": "Stress on the first syllable: ÄM-ne.",
+      "audio": {
+        "file": "audio/lu_studienfach_das.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "ämne",
+        "ett ämne",
         "ämnet",
         "ämnen",
         "ämnena"

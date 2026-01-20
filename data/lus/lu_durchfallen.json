@@ -7,30 +7,27 @@
       "gender_variants_de": [],
       "pos_de": "verb"
     },
-    "lu_type": "multiword",
-    "lemma_sv": "bli underkänd",
-    "display_sv": "bli underkänd",
-    "name_sv": "bli underkänd",
-    "pos": "multiword",
-    "cefr": "A2",
+    "lu_type": "single",
+    "lemma_sv": "kugga",
+    "display_sv": "kugga",
+    "name_sv": "kugga",
+    "pos": "verb",
+    "cefr": "B1",
     "multiword": {
-      "mwe_type": "fixed_phrase",
-      "components_sv": [
-        "bli",
-        "underkänd"
-      ],
-      "spacing_notes_en": "Copula + participle; often with 'på': 'bli underkänd på provet'."
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
     },
     "forms": [
-      "bli underkänd",
-      "blir underkänd",
-      "blev underkänd",
-      "blivit underkänd"
+      "kugga",
+      "kuggar",
+      "kuggade",
+      "kuggat"
     ],
-    "english_equivalent_en": "fail (a subject)",
+    "english_equivalent_en": "fail (an exam)",
     "morphology_sv": {
       "noun": {
-        "gender": "en",
+        "gender": null,
         "indef_sg": null,
         "def_sg": null,
         "indef_pl": null,
@@ -38,13 +35,13 @@
         "note_en": ""
       },
       "verb": {
-        "infinitive": null,
-        "present": null,
-        "past": null,
-        "supine": null,
-        "imperative": null,
-        "present_participle": null,
-        "past_participle": null,
+        "infinitive": "kugga",
+        "present": "kuggar",
+        "past": "kuggade",
+        "supine": "kuggat",
+        "imperative": "kugga",
+        "present_participle": "kuggande",
+        "past_participle": "kuggad",
         "alternatives": []
       },
       "adjective": {
@@ -54,39 +51,32 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "Multiword expression: verb bli + adjective underkänd. Inflect bli (blir/blev/blivit) and keep underkänd to agree with the person/thing."
+      "note_en": ""
     },
     "derived_words_sv": [
       {
-        "word": "underkänd",
-        "type_en": "adjective",
-        "meaning_en": "failed; not approved (grade/result)"
-      },
-      {
-        "word": "underkänna",
-        "type_en": "verb",
-        "meaning_en": "to fail someone; not approve"
-      },
-      {
-        "word": "underkännande",
+        "word": "kuggning",
         "type_en": "noun",
-        "meaning_en": "a failing; non-approval"
+        "meaning_en": "failing someone (in an exam); a fail decision"
       },
       {
-        "word": "godkänd",
+        "word": "kuggad",
         "type_en": "adjective",
-        "meaning_en": "approved; passed"
+        "meaning_en": "failed (in an exam)"
+      },
+      {
+        "word": "kuggfråga",
+        "type_en": "noun",
+        "meaning_en": "trick question that makes people fail"
+      },
+      {
+        "word": "kuggprov",
+        "type_en": "noun",
+        "meaning_en": "test designed to make people fail"
       }
     ],
-    "synonyms_sv": [
-      "inte bli godkänd",
-      "få underkänt",
-      "bli kuggad"
-    ],
-    "antonyms_sv": [
-      "bli godkänd",
-      "klara"
-    ],
+    "synonyms_sv": [],
+    "antonyms_sv": [],
     "linked_frames": [
       {
         "frame_id": "frame_education",
@@ -99,78 +89,39 @@
       {
         "sense_id": "lu_durchfallen:1",
         "frame_id": "frame_education",
-        "meaning_en": "not pass a subject or course; get a failing result.",
+        "meaning_en": "not pass an exam or course requirement",
         "how_to_use_en": [
-          "Use about a student’s result in a subject/course.",
-          "Often with i + subject (e.g., i idrott).",
-          "Often with nära att when it is almost happening."
+          "Use about exams, tests, or course assessments.",
+          "Often with an object: someone is failed in a subject/test."
         ],
-        "patterns": [
-          {
-            "pattern_id": "pat_1",
-            "pattern": "[Student] bli underkänd i [Subject]",
-            "meaning_en": "fail in a subject",
-            "note_en": "The subject is commonly introduced with i."
-          },
-          {
-            "pattern_id": "pat_2",
-            "pattern": "[Student] vara nära att bli underkänd i [Subject]",
-            "meaning_en": "be close to failing",
-            "note_en": "Used when someone risks failing."
-          }
-        ],
+        "patterns": [],
         "common_errors_en": [
           {
-            "error": "Using *bli underkänd* for a test you already failed.",
-            "fix": "Use *bli underkänd* for the result; for the event you can also say *få underkänt*.",
-            "explain_en": "Bli underkänd focuses on the resulting status (being failed)."
+            "error": "Using kugga for general failure (e.g., a project).",
+            "fix": "Use misslyckas for general failure.",
+            "explain_en": "kugga is mainly used in education/testing contexts."
           }
         ],
         "required_example_count": 10,
-        "examples": [
-          {
-            "ex_id": "956efd86cda6bcdb41d2f547d2993b5a88a4aa85",
-            "sv": "Lisa får reda på att hon är nära att bli underkänd i idrott.",
-            "en": "Lisa finds out that she is close to being failed in PE.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Lisa"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "idrott"
-              }
-            ],
-            "gloss": "to be failed (not pass)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Lisa on Ice",
-              "text_url": "https://sv.wikipedia.org/wiki/Lisa_on_Ice",
-              "sentence_id": "02adc03d",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"bli\"][word=\"underkänd\"]"
-            }
-          }
-        ]
+        "examples": []
       }
     ],
     "pronunciation": {
-      "ipa": "bliː ˈʉnːdɛrˌɕɛnːd",
-      "stress_hint": "Main stress is on underkänd."
+      "ipa": "ˈkɵɡːa",
+      "stress_hint": "Stress is on the first syllable.",
+      "audio": {
+        "file": "audio/lu_durchfallen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "bli underkänd",
-        "blir underkänd",
-        "blev underkänd",
-        "blivit underkänd"
+        "kugga",
+        "kuggar",
+        "kuggade",
+        "kuggat"
       ],
       "particle_or_reflexive": null
     }

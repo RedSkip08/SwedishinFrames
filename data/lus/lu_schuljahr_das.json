@@ -8,9 +8,9 @@
       "pos_de": "noun"
     },
     "lu_type": "single",
-    "lemma_sv": "läsår",
-    "display_sv": "läsår",
-    "name_sv": "läsår",
+    "lemma_sv": "skolår",
+    "display_sv": "skolår",
+    "name_sv": "skolår",
     "pos": "noun",
     "cefr": "A2",
     "multiword": {
@@ -19,20 +19,20 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "ett läsår",
-      "läsåret",
-      "läsår",
-      "läsåren"
+      "skolår",
+      "skolåret",
+      "skolår",
+      "skolåren"
     ],
     "english_equivalent_en": "school year",
     "morphology_sv": {
       "noun": {
         "gender": "ett",
-        "indef_sg": "läsår",
-        "def_sg": "läsåret",
-        "indef_pl": "läsår",
-        "def_pl": "läsåren",
-        "note_en": "Neuter noun; plural is the same as singular (läsår)."
+        "indef_sg": "skolår",
+        "def_sg": "skolåret",
+        "indef_pl": "skolår",
+        "def_pl": "skolåren",
+        "note_en": "Neuter noun; plural is the same as singular (skolår)."
       },
       "verb": {
         "infinitive": null,
@@ -55,29 +55,34 @@
     },
     "derived_words_sv": [
       {
-        "word": "läsårsstart",
+        "word": "skolår 7–9",
+        "type_en": "other",
+        "meaning_en": "school years 7–9 (a year level range)"
+      },
+      {
+        "word": "skolåret",
+        "type_en": "other",
+        "meaning_en": "the school year (definite form)"
+      },
+      {
+        "word": "skolåren",
+        "type_en": "other",
+        "meaning_en": "the school years (definite plural)"
+      },
+      {
+        "word": "skolårsstart",
         "type_en": "noun",
         "meaning_en": "start of the school year"
       },
       {
-        "word": "läsårsavslutning",
+        "word": "skolårsavslutning",
         "type_en": "noun",
         "meaning_en": "end-of-year school ceremony; end of the school year"
-      },
-      {
-        "word": "läsårsindelning",
-        "type_en": "noun",
-        "meaning_en": "how the school year is divided (e.g., into terms)"
-      },
-      {
-        "word": "läsårstider",
-        "type_en": "noun",
-        "meaning_en": "dates/periods during the school year"
       }
     ],
     "synonyms_sv": [
-      "skolår",
-      "studieår"
+      "läsår",
+      "skoltermin"
     ],
     "antonyms_sv": [],
     "linked_frames": [
@@ -92,96 +97,71 @@
       {
         "sense_id": "lu_schuljahr_das:1",
         "frame_id": "frame_education",
-        "meaning_en": "the yearly period when a school or education program runs",
+        "meaning_en": "a year-long period of study at school, often counted as year 1, 2, etc.",
         "how_to_use_en": [
-          "Use for the school’s yearly cycle, often divided into terms.",
-          "Common with time words like nästa, varje, första, ett helt."
+          "Use for the school year as a unit of time in education.",
+          "Often used with numbers (skolår 8) or with adjectives (ett nytt skolår).",
+          "Can be used in plural for several years (nio eller tio skolår)."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "Ett läsår i [Institution] ...",
-            "meaning_en": "a school year at an institution",
-            "note_en": "Often followed by information about terms or dates."
+            "pattern": "ett/ett nytt + skolår",
+            "meaning_en": "a (new) school year",
+            "note_en": "Used when a school year begins."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "nästa läsår",
-            "meaning_en": "next school year",
-            "note_en": ""
+            "pattern": "mellan två + skolår",
+            "meaning_en": "between two school years",
+            "note_en": "Often about holidays between years."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "under en termin eller ett läsår",
-            "meaning_en": "for a term or a school year",
-            "note_en": ""
+            "pattern": "i skolår + tal (t.ex. 8)",
+            "meaning_en": "in school year (number)",
+            "note_en": "Refers to a specific year level."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "under ett helt läsår",
-            "meaning_en": "for a whole school year",
-            "note_en": ""
+            "pattern": "i nio/tio + skolår",
+            "meaning_en": "for nine/ten school years",
+            "note_en": "Used to state duration in years."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "varje läsår",
-            "meaning_en": "each school year",
-            "note_en": "Used for repeated yearly events (e.g., admits/teaches students)."
+            "pattern": "per skolår",
+            "meaning_en": "per school year",
+            "note_en": "Common with fees or costs."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *år* when you mean the school’s academic year.",
-            "fix": "Use läsår for the school year; use år for a calendar year.",
-            "explain_en": "Läsår is tied to school/education, not the calendar."
+            "error": "Using en: *en skolår",
+            "fix": "ett skolår",
+            "explain_en": "skolår is an ett-word (neuter)."
           },
           {
-            "error": "Wrong article: *en läsår*.",
-            "fix": "Say ett läsår.",
-            "explain_en": "Läsår is an ett-word."
+            "error": "Confusing skolår with termin",
+            "fix": "Use skolår for the whole year; termin for a half-year term.",
+            "explain_en": "A skolår typically includes two terminer."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "28193bccbfe9635ab46e38519d3e99dbfd459f12",
-            "sv": "Ett läsår i svenska skolor brukar vanligen delas in i hösttermin och vårtermin.",
-            "en": "A school year in Swedish schools is usually divided into the autumn term and the spring term.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "svenska skolor"
-              }
-            ],
-            "gloss": "school year",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Termin",
-              "text_url": "https://sv.wikipedia.org/wiki/Termin",
-              "sentence_id": "e3d9336d",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsår\"]"
-            }
-          },
-          {
-            "ex_id": "aa09ea762e310da78d56525be76008c84ef18fa4",
-            "sv": "Förskolan riktar sig till barn som nästa läsår skall börja skolan.",
-            "en": "Preschool is for children who next school year will start school.",
+            "ex_id": "c308b4321e8e72164ab8e32665a1b6ac682b5285",
+            "sv": "För de skoleleverna i Sverige innebär det ledighet mellan två olika skolår.",
+            "en": "For the school pupils in Sweden, it means time off between two different school years.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "barn"
+                "span_sv": "de skoleleverna i Sverige"
               },
               {
-                "fe_id": "fe_institution",
-                "span_sv": "skolan"
+                "fe_id": "fe_course",
+                "span_sv": "två olika skolår"
               }
             ],
             "gloss": "school year",
@@ -192,48 +172,60 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Förskola",
-              "text_url": "https://sv.wikipedia.org/wiki/F%C3%B6rskola",
-              "sentence_id": "dad7686c",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsår\"]"
+              "text_title": "Sommarlov",
+              "text_url": "https://sv.wikipedia.org/wiki/Sommarlov",
+              "sentence_id": "deeae8dd",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"skolår\"]"
             }
           },
           {
-            "ex_id": "14eef92145c18200f450750b9d5e8841e73bec65",
-            "sv": "• Ett läsår i den svenska grundskolan börjar i augusti och pågår till juni kommande år.",
-            "en": "A school year in the Swedish compulsory school starts in August and lasts until June the next year.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "den svenska grundskolan"
-              }
-            ],
-            "gloss": "school year",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "År",
-              "text_url": "https://sv.wikipedia.org/wiki/%C3%85r",
-              "sentence_id": "3890df5f",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsår\"]"
-            }
-          },
-          {
-            "ex_id": "0deed2b5b7890dd4afe30a0dce1c973c38059782",
-            "sv": "Kursen omfattar 100 poäng och läses under en termin eller ett läsår.",
-            "en": "The course is 100 credits and is studied during one term or one school year.",
+            "ex_id": "e6230b3e73e2c800d6c2bc92bbac79e4f507f9d6",
+            "sv": "Ett nytt skolår på Middleton High börjar för Kim och hennes bästa vän Ron.",
+            "en": "A new school year at Middleton High begins for Kim and her best friend Ron.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_course",
-                "span_sv": "Kursen"
+                "span_sv": "Ett nytt skolår"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Middleton High"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "Kim och hennes bästa vän Ron"
+              }
+            ],
+            "gloss": "school year",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kim Possible: Tidsapan",
+              "text_url": "https://sv.wikipedia.org/wiki/Kim_Possible:_Tidsapan",
+              "sentence_id": "b2922e7c",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"skolår\"]"
+            }
+          },
+          {
+            "ex_id": "56c67bb0b39d18a3a516126f5d811e1caae67197",
+            "sv": "Tidigare hade eleverna även rätt till ett tionde, frivilligt skolår, för att komplettera utbildningen.",
+            "en": "Earlier, the students also had the right to a tenth, voluntary school year, to complete the education.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "eleverna"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "ett tionde, frivilligt skolår"
               }
             ],
             "gloss": "school year",
@@ -244,22 +236,90 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Matematik 4",
-              "text_url": "https://sv.wikipedia.org/wiki/Matematik_4",
-              "sentence_id": "ab52e0a8",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsår\"]"
+              "text_title": "Grundsärskola",
+              "text_url": "https://sv.wikipedia.org/wiki/Grunds%C3%A4rskola",
+              "sentence_id": "2cb25078",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"skolår\"]"
             }
           },
           {
-            "ex_id": "2e12d8b20f805740a50a0176acba94fc1e64fa4f",
-            "sv": "Utbildningen till syntolk ges numera på kvartsfart under ett helt läsår.",
-            "en": "The training to become an interpreter for the visually impaired is now given at quarter speed during a whole school year.",
+            "ex_id": "43f09899b5cdfd7d717c61ccd4635349e6baca58",
+            "sv": "Oftast börjar den för barn i åldern 6-7 och varar i nio eller tio skolår.",
+            "en": "Most often it starts for children aged 6–7 and lasts for nine or ten school years.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_student",
+                "span_sv": "barn i åldern 6-7"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "nio eller tio skolår"
+              }
+            ],
+            "gloss": "school year",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Skolplikt",
+              "text_url": "https://sv.wikipedia.org/wiki/Skolplikt",
+              "sentence_id": "4dbe1ce4",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"skolår\"]"
+            }
+          },
+          {
+            "ex_id": "fcb0c020d9294e3dd52a782635c7e5179f92f4be",
+            "sv": "I skolår 7 – 9 kan eleverna välja profilerna drama, matte och engelska.",
+            "en": "In school years 7–9 the students can choose the profiles drama, maths, and English.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_course",
-                "span_sv": "Utbildningen till syntolk"
+                "span_sv": "skolår 7 – 9"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "eleverna"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "drama, matte och engelska"
+              }
+            ],
+            "gloss": "school year",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Södermalmsskolan",
+              "text_url": "https://sv.wikipedia.org/wiki/S%C3%B6dermalmsskolan",
+              "sentence_id": "0fac9ab5",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"skolår\"]"
+            }
+          },
+          {
+            "ex_id": "44f0fc9c8b6478bc9cdf1b608bd74508dad4e3d3",
+            "sv": "Betyg ges liksom i grundskolan från skolår 8, men endast om eleven och föräldrarna önskar detta.",
+            "en": "Grades are given, as in compulsory school, from school year 8, but only if the pupil and the parents want this.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "skolår 8"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "eleven"
               }
             ],
             "gloss": "school year",
@@ -270,22 +330,26 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Syntolkning",
-              "text_url": "https://sv.wikipedia.org/wiki/Syntolkning",
-              "sentence_id": "f8da0e4d",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsår\"]"
+              "text_title": "Särskolan i Sverige",
+              "text_url": "https://sv.wikipedia.org/wiki/S%C3%A4rskolan_i_Sverige",
+              "sentence_id": "55ba53d9",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"skolår\"]"
             }
           },
           {
-            "ex_id": "f094db78d2799e0095dde919c2dd54ca1504d9ba",
-            "sv": "Årligen tillbringar cirka 250 studerande en termin eller ett helt läsår utomlands.",
-            "en": "Each year about 250 students spend one term or a whole school year abroad.",
+            "ex_id": "1ee4eae5359c42a740bdf316fc898a8832eebeab",
+            "sv": "Greta Thunberg oroade sig under sina tidiga skolår starkt över miljö- och klimatfrågor.",
+            "en": "Greta Thunberg worried a lot during her early school years about environmental and climate issues.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "250 studerande"
+                "span_sv": "Greta Thunberg"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "sina tidiga skolår"
               }
             ],
             "gloss": "school year",
@@ -296,56 +360,30 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Svenska handelshögskolan",
-              "text_url": "https://sv.wikipedia.org/wiki/Svenska_handelsh%C3%B6gskolan",
-              "sentence_id": "2a5c466a",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsår\"]"
+              "text_title": "Klimatångest",
+              "text_url": "https://sv.wikipedia.org/wiki/Klimat%C3%A5ngest",
+              "sentence_id": "1583ffc7",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"skolår\"]"
             }
           },
           {
-            "ex_id": "60e8bef4eab1a4d211f386f3973d211e57c5a2a4",
-            "sv": "I semesterskolan kan elever gå från en vecka upp till ett helt läsår.",
-            "en": "In the holiday school, pupils can attend from one week up to a whole school year.",
+            "ex_id": "ac0e4b87ba42e0cf6d79dc3d89a5d4fa429eda39",
+            "sv": "Han växte upp på Östermalm och gick sina första skolår i Franska skolan.",
+            "en": "He grew up in Östermalm and did his first school years at the French School.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
-                "fe_id": "fe_institution",
-                "span_sv": "semesterskolan"
+                "fe_id": "fe_student",
+                "span_sv": "Han"
               },
               {
-                "fe_id": "fe_student",
-                "span_sv": "elever"
-              }
-            ],
-            "gloss": "school year",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Semesterskola",
-              "text_url": "https://sv.wikipedia.org/wiki/Semesterskola",
-              "sentence_id": "72ef19e2",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsår\"]"
-            }
-          },
-          {
-            "ex_id": "3502d9297e0f21da5eaa63aaad23705fed15cf29",
-            "sv": "Skolan har funnits sedan 1966 och antar varje läsår 24 studenter.",
-            "en": "The school has existed since 1966 and admits 24 students each school year.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Skolan"
+                "fe_id": "fe_course",
+                "span_sv": "sina första skolår"
               },
               {
-                "fe_id": "fe_student",
-                "span_sv": "24 studenter"
+                "fe_id": "fe_institution",
+                "span_sv": "Franska skolan"
               }
             ],
             "gloss": "school year",
@@ -356,78 +394,92 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Fotoskolan Göteborg",
-              "text_url": "https://sv.wikipedia.org/wiki/Fotoskolan_G%C3%B6teborg",
-              "sentence_id": "d873436c",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsår\"]"
+              "text_title": "Erik \"Bullen\" Berglund",
+              "text_url": "https://sv.wikipedia.org/wiki/Erik_%22Bullen%22_Berglund",
+              "sentence_id": "cbf719bd",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"skolår\"]"
             }
           },
           {
-            "ex_id": "7e36bc29e5049e63cfa87a0582306e6b868e5dd0",
-            "sv": "Här undervisas varje läsår runt 100 elever mellan sex och sjutton år.",
-            "en": "Here, each school year about 100 pupils between six and seventeen years old are taught.",
+            "ex_id": "9dab41ad743d15ae6b32695bb8d2e32daec1e945",
+            "sv": "Skolavgiften ligger på 30 000 dollar per skolår exklusive kurslitteratur, måltider och studentrum.",
+            "en": "The school fee is 30,000 dollars per school year, excluding course books, meals, and student rooms.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "runt 100 elever"
+                "fe_id": "fe_course",
+                "span_sv": "per skolår"
+              },
+              {
+                "fe_id": "fe_material",
+                "span_sv": "kurslitteratur"
               }
             ],
             "gloss": "school year",
-            "level": "A2",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Manillaskolan",
-              "text_url": "https://sv.wikipedia.org/wiki/Manillaskolan",
-              "sentence_id": "d8025f33",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsår\"]"
+              "text_title": "Juilliard School",
+              "text_url": "https://sv.wikipedia.org/wiki/Juilliard_School",
+              "sentence_id": "7acb9131",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"skolår\"]"
             }
           },
           {
-            "ex_id": "9306340d363a76a26bf09be98be23a414ca5d148",
-            "sv": "1894 stod skolan klar och inledde sitt första läsår på hösten.",
-            "en": "In 1894 the school was finished and started its first school year in the autumn.",
+            "ex_id": "48b792530f80254c7de8578027825fc15060c1e2",
+            "sv": "1882 tillkom två nya skolår i folkskolan, och folkskolan blev 6-årig.",
+            "en": "In 1882, two new school years were added in the elementary school, and the elementary school became six years long.",
             "frame_id": "frame_education",
             "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "två nya skolår"
+              },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "skolan"
+                "span_sv": "folkskolan"
               }
             ],
             "gloss": "school year",
-            "level": "A2",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Hirvlax, Nykarleby",
-              "text_url": "https://sv.wikipedia.org/wiki/Hirvlax,_Nykarleby",
-              "sentence_id": "24669a53",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"läsår\"]"
+              "text_title": "Utbildning i Sverige",
+              "text_url": "https://sv.wikipedia.org/wiki/Utbildning_i_Sverige",
+              "sentence_id": "ee861305",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"skolår\"]"
             }
           }
         ]
       }
     ],
     "pronunciation": {
-      "ipa": "ˈlɛːsˌoːr",
-      "stress_hint": "Main stress on the first part: LÄS-."
+      "ipa": "ˈskuːlˌoːr",
+      "stress_hint": "Main stress on the first part: SKOL-.",
+      "audio": {
+        "file": "audio/lu_schuljahr_das.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "ett läsår",
-        "läsåret",
-        "läsår",
-        "läsåren"
+        "ett skolår",
+        "skolåret",
+        "skolår",
+        "skolåren"
       ],
       "particle_or_reflexive": null
     }

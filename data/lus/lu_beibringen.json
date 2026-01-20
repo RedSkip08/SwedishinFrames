@@ -8,27 +8,22 @@
       "pos_de": "verb"
     },
     "lu_type": "multiword",
-    "lemma_sv": "lära ut",
-    "display_sv": "lära ut",
-    "name_sv": "lära ut",
+    "lemma_sv": "lära någon något",
+    "display_sv": "lära någon något",
+    "name_sv": "lära någon något",
     "pos": "multiword",
     "cefr": "A2",
     "multiword": {
-      "mwe_type": "particle_verb",
+      "mwe_type": "other",
       "components_sv": [
-        "lära",
-        "ut"
+        "lära"
       ],
-      "spacing_notes_en": "Written as two words; particle verb."
+      "spacing_notes_en": "Often used with an indirect object: lära någon något; also possible: lära någon att + infinitive."
     },
     "forms": [
-      "lära ut",
-      "lär ut",
-      "lärde ut",
-      "lärt ut",
-      "lära ut (att + infinitiv)"
+      "lära någon något"
     ],
-    "english_equivalent_en": "teach",
+    "english_equivalent_en": "teach someone something",
     "morphology_sv": {
       "noun": {
         "gender": null,
@@ -55,44 +50,41 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "Multiword verb (verb + particle): lära ut. Inflect lära (lär, lärde, lärt) while ut stays the same."
+      "note_en": "Multiword expression. Core verb is lära (lära–lär–lärde–lärt). Object order is: person (indirect object) + thing (direct object)."
     },
     "derived_words_sv": [
       {
-        "word": "lärare",
-        "type_en": "noun",
-        "meaning_en": "teacher"
+        "word": "lära",
+        "type_en": "verb",
+        "meaning_en": "learn; teach (depending on context)"
       },
       {
-        "word": "undervisning",
-        "type_en": "noun",
-        "meaning_en": "teaching; instruction"
+        "word": "lära ut",
+        "type_en": "verb",
+        "meaning_en": "teach; pass on knowledge"
       },
       {
-        "word": "utbildning",
+        "word": "inlära",
+        "type_en": "verb",
+        "meaning_en": "learn; acquire (more formal)"
+      },
+      {
+        "word": "inlärning",
         "type_en": "noun",
-        "meaning_en": "education; training"
+        "meaning_en": "learning (the process)"
       },
       {
         "word": "lärande",
         "type_en": "noun",
-        "meaning_en": "learning (process)"
-      },
-      {
-        "word": "lärarutbildning",
-        "type_en": "noun",
-        "meaning_en": "teacher training (program)"
+        "meaning_en": "learning (general/ongoing)"
       }
     ],
     "synonyms_sv": [
-      "undervisa",
-      "instruera",
-      "utbilda",
-      "förmedla"
+      "undervisa någon i något",
+      "lära ut något",
+      "visa någon hur man gör"
     ],
-    "antonyms_sv": [
-      "lära sig"
-    ],
+    "antonyms_sv": [],
     "linked_frames": [
       {
         "frame_id": "frame_education",
@@ -105,377 +97,50 @@
       {
         "sense_id": "lu_beibringen:1",
         "frame_id": "frame_education",
-        "meaning_en": "teach someone knowledge or a skill, often in an organized way.",
+        "meaning_en": "help someone learn a fact or skill by teaching it.",
         "how_to_use_en": [
-          "Use it for teaching a subject, skill, or knowledge.",
-          "Often followed by what is taught; sometimes also who learns (till + group).",
-          "Can be used generally: att lära ut."
+          "Use when a teacher/person gives knowledge or a skill to a learner.",
+          "Put the learner after lära, then the thing learned."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "lära ut + Fact",
-            "meaning_en": "teach information or knowledge",
-            "note_en": "Often used with words like kunskap or a clause."
-          },
-          {
-            "pattern_id": "pat_2",
-            "pattern": "lära ut + Subject",
-            "meaning_en": "teach a school subject",
-            "note_en": ""
-          },
-          {
-            "pattern_id": "pat_3",
-            "pattern": "lära ut + Skill",
-            "meaning_en": "teach a practical skill",
-            "note_en": ""
-          },
-          {
-            "pattern_id": "pat_4",
-            "pattern": "lära ut + Skill + på + Institution",
-            "meaning_en": "teach a skill at a school",
-            "note_en": "Use på for the place/institution."
-          },
-          {
-            "pattern_id": "pat_5",
-            "pattern": "att lära ut",
-            "meaning_en": "teach (in general)",
-            "note_en": "Used when talking about teaching as an activity."
+            "pattern": "lära [Student] [Fact/Skill/Subject]",
+            "meaning_en": "teach someone something",
+            "note_en": "The first object is the learner; the second is the content."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *lära ut* when you mean “learn”.",
-            "fix": "Use lära sig for “learn”.",
-            "explain_en": "Lära ut = give teaching; lära sig = receive learning."
+            "error": "Using the wrong object order: *lära något någon*.",
+            "fix": "Use: lära någon något.",
+            "explain_en": "In this construction, the person comes before the thing."
           },
           {
-            "error": "Forgetting the particle ut (saying only *lära*).",
-            "fix": "Say lära ut when you mean “teach”.",
-            "explain_en": "In these examples, the teaching meaning is expressed with the particle ut."
+            "error": "Mixing up teach vs learn in English.",
+            "fix": "Translate as “teach someone something” here.",
+            "explain_en": "Swedish lära can relate to both teaching and learning; this pattern is teaching."
           }
         ],
         "required_example_count": 10,
-        "examples": [
-          {
-            "ex_id": "83fae59ed00c37af32157e6b8a4e2841d9dd1f39",
-            "sv": "De förbjöds därför att predika och lära ut vad de trodde på.",
-            "en": "They were therefore forbidden to preach and teach what they believed in.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "vad de trodde på"
-              }
-            ],
-            "gloss": "teach (pass on knowledge/ideas)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Salamancaskolan",
-              "text_url": "https://sv.wikipedia.org/wiki/Salamancaskolan",
-              "sentence_id": "b51b89db",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"lära\"]"
-            }
-          },
-          {
-            "ex_id": "d8ad311968db11040feebaef3fd4bb85c0c3f178",
-            "sv": "Efter en karriär som lärare och dramatiker började Johnstone lära ut drama.",
-            "en": "After a career as a teacher and playwright, Johnstone began to teach drama.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "Johnstone"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "drama"
-              }
-            ],
-            "gloss": "teach (a subject)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Keith Johnstone",
-              "text_url": "https://sv.wikipedia.org/wiki/Keith_Johnstone",
-              "sentence_id": "07665993",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"lära\"][word=\"ut\"]"
-            }
-          },
-          {
-            "ex_id": "715e40ebce963106f327b39edc8bcdbf9106932a",
-            "sv": "Ett år senare började Vallvé lära ut trumspelande på den lokala musikskolan.",
-            "en": "One year later Vallvé began to teach drumming at the local music school.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "Vallvé"
-              },
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "trumspelande"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "den lokala musikskolan"
-              }
-            ],
-            "gloss": "teach (a skill) at a school",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Pau Vallvé",
-              "text_url": "https://sv.wikipedia.org/wiki/Pau_Vallv%C3%A9",
-              "sentence_id": "35557f44",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"lära\"][word=\"ut\"]"
-            }
-          },
-          {
-            "ex_id": "e94308ed2094abe04d9c74302b06a20132e72652",
-            "sv": "Det är trafikskolorna som har till uppgift att lära ut denna kunskap.",
-            "en": "It is the driving schools that have the task of teaching this knowledge.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "trafikskolorna"
-              },
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "denna kunskap"
-              }
-            ],
-            "gloss": "teach (knowledge)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Trafikkunskap",
-              "text_url": "https://sv.wikipedia.org/wiki/Trafikkunskap",
-              "sentence_id": "6bbcd3ac",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"lära\"][word=\"ut\"]"
-            }
-          },
-          {
-            "ex_id": "fc75165df67c6d568555e327cf713ed51ca89e67",
-            "sv": "Abckiria var en ABC-bok avsedd att lära ut grundläggande läsning och skrivning.",
-            "en": "Abckiria was an ABC book intended to teach basic reading and writing.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_material",
-                "span_sv": "en ABC-bok"
-              },
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "grundläggande läsning och skrivning"
-              }
-            ],
-            "gloss": "teach (basic skills) using a book",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Abckiria",
-              "text_url": "https://sv.wikipedia.org/wiki/Abckiria",
-              "sentence_id": "aa906a15",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"lära\"][word=\"ut\"]"
-            }
-          },
-          {
-            "ex_id": "d6d36cd72223999051458bf8cf3989828801b5aa",
-            "sv": "Som Divemaster är man inte behörig att lära ut dykning, det kan bara en instruktör göra.",
-            "en": "As a Divemaster you are not qualified to teach diving; only an instructor can do that.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "dykning"
-              },
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "en instruktör"
-              }
-            ],
-            "gloss": "teach (a skill); be qualified to teach",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Professional Association of Diving Instructors",
-              "text_url": "https://sv.wikipedia.org/wiki/Professional_Association_of_Diving_Instructors",
-              "sentence_id": "59f111da",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"lära\"][word=\"ut\"]"
-            }
-          },
-          {
-            "ex_id": "9edf1668ac36ad59a3ddaec267b1c2aac635b6e0",
-            "sv": "Khan Academy är en ideell organisation med syftet att lära ut kunskap gratis med hjälp av Youtube-klipp.",
-            "en": "Khan Academy is a non-profit organization with the aim of teaching knowledge for free with the help of YouTube clips.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Khan Academy"
-              },
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "kunskap"
-              },
-              {
-                "fe_id": "fe_material",
-                "span_sv": "Youtube-klipp"
-              }
-            ],
-            "gloss": "teach (knowledge), using videos",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Khan Academy",
-              "text_url": "https://sv.wikipedia.org/wiki/Khan_Academy",
-              "sentence_id": "40c2aa5b",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"lära\"][word=\"ut\"]"
-            }
-          },
-          {
-            "ex_id": "311089bc4bda410a2fd31b605e1fa82915f3efd0",
-            "sv": "Man fokuserade sig därför mer på att väcka intresse och mindre på att lära ut.",
-            "en": "They therefore focused more on creating interest and less on teaching.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_course",
-                "span_sv": "att lära ut"
-              }
-            ],
-            "gloss": "teach (in general)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Fem myror är fler än fyra elefanter",
-              "text_url": "https://sv.wikipedia.org/wiki/Fem_myror_%C3%A4r_fler_%C3%A4n_fyra_elefanter",
-              "sentence_id": "2d527bcb",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"lära\"][word=\"ut\"]"
-            }
-          },
-          {
-            "ex_id": "c9a4888dcf14105fdea1a7141639051f25dcbd89",
-            "sv": "Anthony Furness var kritiskt till hur den svenska skolan försökte lära ut matematik till barn.",
-            "en": "Anthony Furness was critical of how the Swedish school tried to teach mathematics to children.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "den svenska skolan"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "matematik"
-              },
-              {
-                "fe_id": "fe_student",
-                "span_sv": "barn"
-              }
-            ],
-            "gloss": "teach (a subject) to students",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Kalejdoskopet öppnar sig",
-              "text_url": "https://sv.wikipedia.org/wiki/Kalejdoskopet_%C3%B6ppnar_sig",
-              "sentence_id": "621293dc",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"lära\"][word=\"ut\"]"
-            }
-          },
-          {
-            "ex_id": "12d19fa76f10386d1fb850108f284cbb24b0e2b9",
-            "sv": "Träningen är lekfull men strikt för att lära ut hänsyn för kamrater och instruktörer.",
-            "en": "The training is playful but strict in order to teach consideration for friends and instructors.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_course",
-                "span_sv": "Träningen"
-              },
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "hänsyn"
-              }
-            ],
-            "gloss": "teach (an attitude/knowledge) through training",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ju-jutsu Kai",
-              "text_url": "https://sv.wikipedia.org/wiki/Ju-jutsu_Kai",
-              "sentence_id": "ca33815b",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"lära\"][word=\"ut\"]"
-            }
-          }
-        ]
+        "examples": []
       }
     ],
     "pronunciation": {
-      "ipa": "ˈlɛːra ʉːt",
-      "stress_hint": "Main stress is on lä- in lära."
+      "ipa": "ˈlɛːra ˈnɔːɡɔn ˈnɔːɡɔt",
+      "stress_hint": "Main stress is on lära; the pronouns are usually unstressed.",
+      "audio": {
+        "file": "audio/lu_beibringen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "lära ut",
-        "lär ut",
-        "lärde ut",
-        "lärt ut"
+        "lära – lär – lärde – lärt"
       ],
-      "particle_or_reflexive": "upp"
+      "particle_or_reflexive": null
     }
   },
   "constraints": {

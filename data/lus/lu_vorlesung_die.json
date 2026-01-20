@@ -62,7 +62,7 @@
       {
         "word": "föreläsare",
         "type_en": "noun",
-        "meaning_en": "lecturer (person who gives a lecture)"
+        "meaning_en": "lecturer (person who gives lectures)"
       },
       {
         "word": "gästföreläsare",
@@ -81,9 +81,10 @@
       }
     ],
     "synonyms_sv": [
-      "presentation",
       "föredrag",
-      "blixttal"
+      "presentation",
+      "genomgång",
+      "lektion"
     ],
     "antonyms_sv": [],
     "linked_frames": [
@@ -98,53 +99,53 @@
       {
         "sense_id": "lu_vorlesung_die:1",
         "frame_id": "frame_education",
-        "meaning_en": "a teaching session where someone speaks and others listen, often at a school or university",
+        "meaning_en": "a talk where a teacher or speaker explains a subject to an audience, often in education",
         "how_to_use_en": [
-          "Use for a planned talk in an educational setting.",
-          "Often with hålla (“give”) and with a topic: om / i + subject."
+          "Use it for an organized talk in a school, university, or similar setting.",
+          "Common with verbs like hålla (“give”) and with topics using om or i."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "Vid en föreläsning ...",
+            "pattern": "Vid en föreläsning + verb ...",
             "meaning_en": "during a lecture",
-            "note_en": "Vid marks what happens in that situation."
+            "note_en": "Used to describe what typically happens in a lecture."
           },
           {
             "pattern_id": "pat_2",
             "pattern": "hålla en föreläsning",
             "meaning_en": "give a lecture",
-            "note_en": ""
+            "note_en": "Very common collocation for the speaker/teacher."
           },
           {
             "pattern_id": "pat_3",
             "pattern": "hålla en föreläsning om + ämne",
-            "meaning_en": "give a lecture about a topic",
-            "note_en": ""
+            "meaning_en": "lecture about a topic",
+            "note_en": "Use om for the topic/content."
           },
           {
             "pattern_id": "pat_4",
             "pattern": "hålla en föreläsning i + ämne",
-            "meaning_en": "give a lecture in a subject",
-            "note_en": "Common with school/university subjects (e.g., matematik)."
+            "meaning_en": "lecture in a subject",
+            "note_en": "Use i especially for school/university subjects (e.g., i matematik)."
           },
           {
             "pattern_id": "pat_5",
             "pattern": "en föreläsning av + person",
             "meaning_en": "a lecture by someone",
-            "note_en": ""
+            "note_en": "Names the lecturer/speaker."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *föreläsning* for any meeting or discussion.",
-            "fix": "Use it for a talk where one person mainly speaks; otherwise use möte or diskussion.",
-            "explain_en": "A föreläsning is typically one-way teaching/presenting, not a group meeting."
+            "error": "Using *föreläsning* for any casual talk or chat.",
+            "fix": "Use *föredrag* or *prat* for more general talks.",
+            "explain_en": "In the examples, *föreläsning* is a planned, formal teaching-style talk."
           },
           {
-            "error": "Mixing up om and i for the topic.",
-            "fix": "Use om + theme (om omdöme) and i + school subject (i matematik).",
-            "explain_en": "Both introduce the topic, but i is common with academic subjects."
+            "error": "Saying *göra en föreläsning*.",
+            "fix": "Say *hålla en föreläsning*.",
+            "explain_en": "The examples show the common verb is *hålla* with *föreläsning*."
           }
         ],
         "required_example_count": 10,
@@ -152,7 +153,7 @@
           {
             "ex_id": "48af58cd8924d61a4ff9bc39117e4b225e2e56f1",
             "sv": "Vid en föreläsning läser eller berättar läraren, medan eleverna antecknar.",
-            "en": "In a lecture, the teacher reads or tells, while the students take notes.",
+            "en": "At a lecture the teacher reads or tells, while the students take notes.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -168,7 +169,7 @@
                 "span_sv": "eleverna"
               }
             ],
-            "gloss": "lecture (a teaching session where a teacher speaks and students listen)",
+            "gloss": "lecture",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -179,14 +180,14 @@
               "text_title": "Utbildning",
               "text_url": "https://sv.wikipedia.org/wiki/Utbildning",
               "sentence_id": "3904cdb7",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"föreläsning\"]"
             }
           },
           {
             "ex_id": "3cec789d8b780e4bf76e02de124c1a6f2d138420",
             "sv": "En föreläsning som är utsatt till till exempel klockan 10 börjar på minuten klockan 10.15.",
-            "en": "A lecture that is set for, for example, 10 o'clock starts exactly at 10:15.",
+            "en": "A lecture that is set for, for example, 10 o'clock starts exactly at 10.15.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -205,14 +206,14 @@
               "text_title": "Akademisk kvart",
               "text_url": "https://sv.wikipedia.org/wiki/Akademisk_kvart",
               "sentence_id": "401aeca1",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"föreläsning\"]"
             }
           },
           {
             "ex_id": "17c04a213b921ce3513ac25faeda79e18d5c2f29",
             "sv": "• En gästföreläsare från Systembolaget håller en föreläsning om omdöme på Stjärnstaden.",
-            "en": "A guest lecturer from Systembolaget gives a lecture about judgement at Stjärnstaden.",
+            "en": "A guest lecturer from Systembolaget gives a lecture about judgement in Stjärnstaden.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -243,37 +244,7 @@
               "text_title": "Percy tårar",
               "text_url": "https://sv.wikipedia.org/wiki/Percy_t%C3%A5rar",
               "sentence_id": "726e3983",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"föreläsning\"]"
-            }
-          },
-          {
-            "ex_id": "9c6e632ac63c7190d71d3954f6ddab8cfea2e7d9",
-            "sv": "Författaren Gerard Reve lämnar Amsterdam för att hålla en föreläsning i Vlissingen.",
-            "en": "The author Gerard Reve leaves Amsterdam to give a lecture in Vlissingen.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "Författaren Gerard Reve"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "en föreläsning"
-              }
-            ],
-            "gloss": "lecture",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Den fjärde mannen (film)",
-              "text_url": "https://sv.wikipedia.org/wiki/Den_fj%C3%A4rde_mannen_(film)",
-              "sentence_id": "2ffb90af",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"föreläsning\"]"
             }
           },
@@ -303,7 +274,37 @@
               "text_title": "Gudarna måste vara tokiga II",
               "text_url": "https://sv.wikipedia.org/wiki/Gudarna_m%C3%A5ste_vara_tokiga_II",
               "sentence_id": "c0cd1ad5",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"föreläsning\"]"
+            }
+          },
+          {
+            "ex_id": "9c6e632ac63c7190d71d3954f6ddab8cfea2e7d9",
+            "sv": "Författaren Gerard Reve lämnar Amsterdam för att hålla en föreläsning i Vlissingen.",
+            "en": "The author Gerard Reve leaves Amsterdam to give a lecture in Vlissingen.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "Författaren Gerard Reve"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "en föreläsning"
+              }
+            ],
+            "gloss": "lecture",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Den fjärde mannen (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Den_fj%C3%A4rde_mannen_(film)",
+              "sentence_id": "2ffb90af",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"föreläsning\"]"
             }
           },
@@ -333,59 +334,7 @@
               "text_title": "Peter Pontvik",
               "text_url": "https://sv.wikipedia.org/wiki/Peter_Pontvik",
               "sentence_id": "49536034",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"föreläsning\"]"
-            }
-          },
-          {
-            "ex_id": "2429adcf3e1810e7256d3ade4bb646b834b9cafd",
-            "sv": "Ett blixttal eller lightning talk är en föreläsning eller presentation som är starkt tidsbegränsad.",
-            "en": "A short talk or lightning talk is a lecture or presentation that is strongly time-limited.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_course",
-                "span_sv": "en föreläsning eller presentation"
-              }
-            ],
-            "gloss": "lecture",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Blixttal",
-              "text_url": "https://sv.wikipedia.org/wiki/Blixttal",
-              "sentence_id": "770d12ef",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
-              "korp_query": "[word=\"föreläsning\"]"
-            }
-          },
-          {
-            "ex_id": "02087be3a3647f98b1f3bce8fa0e3c269401dd0f",
-            "sv": "Lokalerna har olika ändamål som konferens, föreläsning, idrott, konsert med mera.",
-            "en": "The premises have different purposes such as conference, lecture, sports, concert and more.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_course",
-                "span_sv": "föreläsning"
-              }
-            ],
-            "gloss": "lecture",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Korskyrkan, Uppsala",
-              "text_url": "https://sv.wikipedia.org/wiki/Korskyrkan,_Uppsala",
-              "sentence_id": "284e6d74",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"föreläsning\"]"
             }
           },
@@ -423,23 +372,45 @@
               "text_title": "Berget på månens baksida",
               "text_url": "https://sv.wikipedia.org/wiki/Berget_p%C3%A5_m%C3%A5nens_baksida",
               "sentence_id": "637b5408",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"föreläsning\"]"
             }
           },
           {
-            "ex_id": "af6c94ecebc608022e913e243d1e09202febfd95",
-            "sv": "Våren 2020 hade Backa Folkets hus i Göteborg bokats för hennes föreläsning.",
-            "en": "In spring 2020, Backa Folkets hus in Gothenburg had been booked for her lecture.",
+            "ex_id": "02087be3a3647f98b1f3bce8fa0e3c269401dd0f",
+            "sv": "Lokalerna har olika ändamål som konferens, föreläsning, idrott, konsert med mera.",
+            "en": "The premises have different purposes such as conference, lecture, sports, concert and more.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
-                "fe_id": "fe_institution",
-                "span_sv": "Backa Folkets hus i Göteborg"
-              },
+                "fe_id": "fe_course",
+                "span_sv": "föreläsning"
+              }
+            ],
+            "gloss": "lecture",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Korskyrkan, Uppsala",
+              "text_url": "https://sv.wikipedia.org/wiki/Korskyrkan,_Uppsala",
+              "sentence_id": "284e6d74",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"föreläsning\"]"
+            }
+          },
+          {
+            "ex_id": "2429adcf3e1810e7256d3ade4bb646b834b9cafd",
+            "sv": "Ett blixttal eller lightning talk är en föreläsning eller presentation som är starkt tidsbegränsad.",
+            "en": "A short talk or lightning talk is a lecture or presentation that is strongly time-limited.",
+            "frame_id": "frame_education",
+            "fe_tags": [
               {
                 "fe_id": "fe_course",
-                "span_sv": "hennes föreläsning"
+                "span_sv": "en föreläsning eller presentation"
               }
             ],
             "gloss": "lecture",
@@ -450,10 +421,44 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Linda Karlström",
-              "text_url": "https://sv.wikipedia.org/wiki/Linda_Karlstr%C3%B6m",
-              "sentence_id": "15e3001b",
-              "retrieved_at": "2026-01-20T09:10:19+00:00",
+              "text_title": "Blixttal",
+              "text_url": "https://sv.wikipedia.org/wiki/Blixttal",
+              "sentence_id": "770d12ef",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"föreläsning\"]"
+            }
+          },
+          {
+            "ex_id": "198ff0aaa33f682e3ad54443dedf35946e51ff65",
+            "sv": "Sveriges dåvarande statsminister Olof Palme inbjöds av anrika Harvard University att hålla en föreläsning.",
+            "en": "Sweden's then prime minister Olof Palme was invited by the old Harvard University to give a lecture.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "Sveriges dåvarande statsminister Olof Palme"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Harvard University"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "en föreläsning"
+              }
+            ],
+            "gloss": "lecture",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Harvardaffären",
+              "text_url": "https://sv.wikipedia.org/wiki/Harvardaff%C3%A4ren",
+              "sentence_id": "efa3163a",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"föreläsning\"]"
             }
           }
@@ -462,7 +467,13 @@
     ],
     "pronunciation": {
       "ipa": "ˈføːrɛˌlɛːs.nɪŋ",
-      "stress_hint": "Main stress on the first part: FÖRE-läs-ning."
+      "stress_hint": "Main stress on FÖR-, and a weaker stress on -LÄS-.",
+      "audio": {
+        "file": "audio/lu_vorlesung_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [

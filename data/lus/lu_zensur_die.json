@@ -32,7 +32,7 @@
         "def_sg": "betyget",
         "indef_pl": "betyg",
         "def_pl": "betygen",
-        "note_en": "Same form in singular and plural: ett betyg, flera betyg."
+        "note_en": "Same form in singular and plural indefinite: ett betyg, flera betyg."
       },
       "verb": {
         "infinitive": null,
@@ -55,35 +55,35 @@
     },
     "derived_words_sv": [
       {
-        "word": "skolbetyg",
+        "word": "betygssättning",
         "type_en": "noun",
-        "meaning_en": "a grade from school"
+        "meaning_en": "grading; the act/system of giving grades"
       },
       {
-        "word": "slutbetyg",
+        "word": "betygsskala",
         "type_en": "noun",
-        "meaning_en": "final grades (at the end of a program)"
-      },
-      {
-        "word": "betygssystem",
-        "type_en": "noun",
-        "meaning_en": "grading system"
-      },
-      {
-        "word": "betygskriterier",
-        "type_en": "noun",
-        "meaning_en": "grading criteria"
+        "meaning_en": "grading scale (e.g., A–F)"
       },
       {
         "word": "betygsätta",
         "type_en": "verb",
-        "meaning_en": "to grade; to give grades"
+        "meaning_en": "to grade; to give a grade"
+      },
+      {
+        "word": "betygsgrund",
+        "type_en": "noun",
+        "meaning_en": "basis for grading"
+      },
+      {
+        "word": "betygsinflation",
+        "type_en": "noun",
+        "meaning_en": "grade inflation"
       }
     ],
     "synonyms_sv": [
+      "skolbetyg",
       "vitsord",
-      "omdöme",
-      "skolbetyg"
+      "omdöme"
     ],
     "antonyms_sv": [],
     "linked_frames": [
@@ -98,54 +98,54 @@
       {
         "sense_id": "lu_zensur_die:1",
         "frame_id": "frame_education",
-        "meaning_en": "a mark showing how well a student did in a subject or course",
+        "meaning_en": "a school mark showing how well someone performed in a subject or course",
         "how_to_use_en": [
-          "Use for school marks (often letters like A–F).",
-          "Often used with adjectives: bra/dåliga betyg.",
-          "Common with prepositions: betyg i + subject."
+          "Use about school results (A–F, good/bad grades).",
+          "Often used with verbs like få, ge, sätta, and ges.",
+          "Common with a subject: betyg i + ämne."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "få + (adjektiv) + betyg",
+            "pattern": "få + (A och B / bra / dåliga / ett nytt) + betyg",
             "meaning_en": "get grades",
-            "note_en": "Often with bra/dåliga/bästa."
+            "note_en": "Used for the student's result."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "ge + någon + (adjektiv) + betyg",
+            "pattern": "ge + någon + (bra) betyg",
             "meaning_en": "give someone grades",
-            "note_en": "Used when a teacher assesses a student."
+            "note_en": "Teacher/examiner gives a grade to a student."
           },
           {
             "pattern_id": "pat_3",
             "pattern": "sätta betyg",
             "meaning_en": "set grades",
-            "note_en": "Common in school policy/administration contexts."
+            "note_en": "Often about who is allowed to grade."
           },
           {
             "pattern_id": "pat_4",
             "pattern": "betyg i + ämne",
-            "meaning_en": "a grade in a subject",
-            "note_en": "E.g. betyg i Svenska som andraspråk."
+            "meaning_en": "grade in a subject",
+            "note_en": "Names the subject the grade belongs to."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "betyg + bokstav (t.ex. E eller F)",
-            "meaning_en": "a letter grade",
-            "note_en": "Used to name the grade itself."
+            "pattern": "(inga) betyg ges",
+            "meaning_en": "grades are (not) given",
+            "note_en": "Passive-style statement about a school system."
           }
         ],
         "common_errors_en": [
           {
             "error": "Using *en betyg*.",
             "fix": "Use ett betyg.",
-            "explain_en": "Betyg is an ett-word."
+            "explain_en": "Betyg is an ett-word (neuter)."
           },
           {
-            "error": "Adding plural -er: *betyger*.",
-            "fix": "Use betyg (plural is the same as singular).",
-            "explain_en": "The plural form is betyg, not *betyger*."
+            "error": "Mixing up betyg (grade) with biljett (ticket) or betyg (certificate) in other contexts.",
+            "fix": "In school contexts, betyg means a grade/mark.",
+            "explain_en": "This entry covers the education sense: a mark given by a school/teacher."
           }
         ],
         "required_example_count": 10,
@@ -180,7 +180,7 @@
               "text_title": "Andreasgymnasiet",
               "text_url": "https://sv.wikipedia.org/wiki/Andreasgymnasiet",
               "sentence_id": "3e958505",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"betyg\"]"
             }
           },
@@ -210,14 +210,14 @@
               "text_title": "Al Gore",
               "text_url": "https://sv.wikipedia.org/wiki/Al_Gore",
               "sentence_id": "fa133f85",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"betyg\"]"
             }
           },
           {
             "ex_id": "93f9295e1e8cb0ef6c2fe5e201bbb5e24e99d358",
             "sv": "I gymnasieutredningen förekommer diskussioner att obehöriga lärare inte ska få sätta betyg.",
-            "en": "In the upper-secondary inquiry there are discussions that unqualified teachers should not be allowed to set grades.",
+            "en": "In the upper secondary school inquiry there are discussions that unqualified teachers should not be allowed to set grades.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -240,7 +240,7 @@
               "text_title": "Betyg (Lpo 94)",
               "text_url": "https://sv.wikipedia.org/wiki/Betyg_(Lpo_94)",
               "sentence_id": "a3c86aba",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"betyg\"]"
             }
           },
@@ -274,7 +274,7 @@
               "text_title": "Ernst-Hugo Järegård",
               "text_url": "https://sv.wikipedia.org/wiki/Ernst-Hugo_J%C3%A4reg%C3%A5rd",
               "sentence_id": "db287ede",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"betyg\"]"
             }
           },
@@ -289,16 +289,16 @@
                 "span_sv": "Denne"
               },
               {
+                "fe_id": "fe_material",
+                "span_sv": "uppsatsen"
+              },
+              {
                 "fe_id": "fe_student",
                 "span_sv": "Mikaela"
               },
               {
                 "fe_id": "fe_qualification",
                 "span_sv": "bra betyg"
-              },
-              {
-                "fe_id": "fe_material",
-                "span_sv": "uppsatsen"
               }
             ],
             "gloss": "grade (school mark)",
@@ -312,7 +312,7 @@
               "text_title": "Svart Lucia",
               "text_url": "https://sv.wikipedia.org/wiki/Svart_Lucia",
               "sentence_id": "8918fe6f",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"betyg\"]"
             }
           },
@@ -324,7 +324,7 @@
             "fe_tags": [
               {
                 "fe_id": "fe_student",
-                "span_sv": "Bart"
+                "span_sv": "Barts"
               },
               {
                 "fe_id": "fe_qualification",
@@ -342,41 +342,7 @@
               "text_title": "Bart Gets an F",
               "text_url": "https://sv.wikipedia.org/wiki/Bart_Gets_an_F",
               "sentence_id": "2ff2737b",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"betyg\"]"
-            }
-          },
-          {
-            "ex_id": "c63712d270af7613ae458479819304868f759374",
-            "sv": "Wolfman lämnade skolan med dåliga betyg och utbildade sig till rörmokare.",
-            "en": "Wolfman left school with bad grades and trained to become a plumber.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Wolfman"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "skolan"
-              },
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "dåliga betyg"
-              }
-            ],
-            "gloss": "grade (school mark)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Peter Wolfe",
-              "text_url": "https://sv.wikipedia.org/wiki/Peter_Wolfe",
-              "sentence_id": "e006f662",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"betyg\"]"
             }
           },
@@ -402,7 +368,7 @@
               "text_title": "Gymnasiearbetet",
               "text_url": "https://sv.wikipedia.org/wiki/Gymnasiearbetet",
               "sentence_id": "ea7df96b",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"betyg\"]"
             }
           },
@@ -436,23 +402,23 @@
               "text_title": "Lovskola",
               "text_url": "https://sv.wikipedia.org/wiki/Lovskola",
               "sentence_id": "19d985f5",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"betyg\"]"
             }
           },
           {
-            "ex_id": "f84af2f95985a5b78c413acb9bc4ba904b1b740a",
-            "sv": "Det ges inga betyg och traditionella klasser och klassrum saknas också.",
-            "en": "No grades are given, and traditional classes and classrooms are also missing.",
+            "ex_id": "0caf23a1e10bb67dfe51aa516c565842466d1f94",
+            "sv": "Antagningen sker antingen baserat på betyg eller på resultat av antagningsprovet, som ordnas av de deltagande universiteten.",
+            "en": "Admission happens either based on grades or on results of the entrance test, which is arranged by the participating universities.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_qualification",
-                "span_sv": "inga betyg"
+                "span_sv": "betyg"
               },
               {
-                "fe_id": "fe_course",
-                "span_sv": "traditionella klasser"
+                "fe_id": "fe_institution",
+                "span_sv": "de deltagande universiteten"
               }
             ],
             "gloss": "grade (school mark)",
@@ -463,10 +429,36 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Diplomingenjörs- och arkitektutbildningens gemensamma antagning",
+              "text_url": "https://sv.wikipedia.org/wiki/Diplomingenj%C3%B6rs-_och_arkitektutbildningens_gemensamma_antagning",
+              "sentence_id": "108eb976",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"betyg\"]"
+            }
+          },
+          {
+            "ex_id": "f84af2f95985a5b78c413acb9bc4ba904b1b740a",
+            "sv": "Det ges inga betyg och traditionella klasser och klassrum saknas också.",
+            "en": "No grades are given and traditional classes and classrooms are also missing.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_qualification",
+                "span_sv": "inga betyg"
+              }
+            ],
+            "gloss": "grade (school mark)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
               "text_title": "Sudbury Valley School",
               "text_url": "https://sv.wikipedia.org/wiki/Sudbury_Valley_School",
               "sentence_id": "6f2d8c6c",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"betyg\"]"
             }
           }
@@ -475,11 +467,17 @@
     ],
     "pronunciation": {
       "ipa": "bɛˈtyːɡ",
-      "stress_hint": "Stress on the second syllable: be-TYG."
+      "stress_hint": "Stress on the second syllable: be-TYG.",
+      "audio": {
+        "file": "audio/lu_zensur_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "betyg (ett)",
+        "ett betyg",
         "betyget",
         "betyg",
         "betygen"

@@ -21,7 +21,7 @@
     "forms": [
       "klassrum",
       "klassrummet",
-      "klassrum",
+      "klassrum (plural)",
       "klassrummen"
     ],
     "english_equivalent_en": "classroom",
@@ -32,7 +32,7 @@
         "def_sg": "klassrummet",
         "indef_pl": "klassrum",
         "def_pl": "klassrummen",
-        "note_en": "Neuter noun; plural is the same as singular (klassrum)."
+        "note_en": "Neuter noun (ett). Plural is the same as singular: ett klassrum – flera klassrum."
       },
       "verb": {
         "infinitive": null,
@@ -60,6 +60,11 @@
         "meaning_en": "teaching that happens in a classroom"
       },
       {
+        "word": "klassrumsarbete",
+        "type_en": "noun",
+        "meaning_en": "work done in the classroom"
+      },
+      {
         "word": "klassrumsmiljö",
         "type_en": "noun",
         "meaning_en": "the classroom environment"
@@ -67,12 +72,7 @@
       {
         "word": "klassrumsdörr",
         "type_en": "noun",
-        "meaning_en": "a classroom door"
-      },
-      {
-        "word": "klassrumsarbete",
-        "type_en": "noun",
-        "meaning_en": "work done in the classroom"
+        "meaning_en": "classroom door"
       }
     ],
     "synonyms_sv": [
@@ -93,41 +93,41 @@
       {
         "sense_id": "lu_klassenzimmer_das:1",
         "frame_id": "frame_education",
-        "meaning_en": "a room in a school where students are taught",
+        "meaning_en": "a room in a school where students have lessons and teaching happens",
         "how_to_use_en": [
-          "Use it for the physical room where lessons or exams happen.",
-          "Often used with a number (två/tre/åtta klassrum) when describing a school building."
+          "Use for the physical room where teaching takes place.",
+          "Often used with location words like i/på and with school words like skola/skolhus."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "i ett/ett + klassrum",
+            "pattern": "i ett klassrum",
             "meaning_en": "in a classroom",
             "note_en": "Common for describing where something happens."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "X har/fick + [number] + klassrum",
-            "meaning_en": "X has/got classrooms",
-            "note_en": "Used when describing school buildings and facilities."
+            "pattern": "skolan/skolhuset har [tal] klassrum",
+            "meaning_en": "a school has [number] classrooms",
+            "note_en": "Used when describing buildings and facilities."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "klassrum eller andra skollokaler",
-            "meaning_en": "classrooms or other school premises",
-            "note_en": "Used to contrast classrooms with other school spaces."
+            "pattern": "klassrum för [grupp]",
+            "meaning_en": "classrooms for a group",
+            "note_en": "Often about which students the rooms are for."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "ett klassrum utrustat med + [material]",
-            "meaning_en": "a classroom equipped with",
-            "note_en": "Often used for special-purpose rooms."
+            "pattern": "ett klassrum utrustat med [utrustning]",
+            "meaning_en": "a classroom equipped with something",
+            "note_en": "Used for special rooms like labs."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "paviljonger med klassrum",
-            "meaning_en": "pavilions with classrooms",
-            "note_en": "Used when classrooms are located in separate buildings."
+            "pattern": "i klassrum eller andra skollokaler",
+            "meaning_en": "in classrooms or other school rooms",
+            "note_en": "Used when contrasting different possible locations."
           }
         ],
         "common_errors_en": [
@@ -137,9 +137,9 @@
             "explain_en": "klassrum is an ett-word (neuter)."
           },
           {
-            "error": "Adding -er in plural: *klassrumer",
+            "error": "Making plural with -er: *klassrumer",
             "fix": "klassrum",
-            "explain_en": "The plural form is the same as singular: klassrum."
+            "explain_en": "Plural is the same form as singular: flera klassrum."
           }
         ],
         "required_example_count": 10,
@@ -151,19 +151,19 @@
             "frame_id": "frame_education",
             "fe_tags": [
               {
-                "fe_id": "fe_course",
-                "span_sv": "ett klassrum"
-              },
-              {
                 "fe_id": "fe_institution",
-                "span_sv": "skolan"
+                "span_sv": "i skolan"
               },
               {
                 "fe_id": "fe_student",
                 "span_sv": "elever"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "en tentamen"
               }
             ],
-            "gloss": "klassrum",
+            "gloss": "classroom",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -174,90 +174,22 @@
               "text_title": "Skolmassakern i Kauhajoki",
               "text_url": "https://sv.wikipedia.org/wiki/Skolmassakern_i_Kauhajoki",
               "sentence_id": "f8d7752d",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"klassrum\"]"
-            }
-          },
-          {
-            "ex_id": "f6fa2b65951ac77d9e9992a7c6a646333b86074f",
-            "sv": "Julavslutningar hålls ofta i klassrum eller andra skollokaler och mer sällan i kyrkan.",
-            "en": "Christmas end-of-term events are often held in classrooms or other school premises and more rarely in the church.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_course",
-                "span_sv": "klassrum"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "skollokaler"
-              }
-            ],
-            "gloss": "klassrum",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Skolavslutning",
-              "text_url": "https://sv.wikipedia.org/wiki/Skolavslutning",
-              "sentence_id": "5d47dcea",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"klassrum\"]"
-            }
-          },
-          {
-            "ex_id": "43354e9fcb921118a04e1590b3f4ee879383a5cc",
-            "sv": "Språklabb är ett klassrum utrustat med speciell utrustning för att underlätta språkinlärning.",
-            "en": "A language lab is a classroom equipped with special equipment to make language learning easier.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_course",
-                "span_sv": "ett klassrum"
-              },
-              {
-                "fe_id": "fe_material",
-                "span_sv": "speciell utrustning"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "språkinlärning"
-              }
-            ],
-            "gloss": "klassrum",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Språklabb",
-              "text_url": "https://sv.wikipedia.org/wiki/Spr%C3%A5klabb",
-              "sentence_id": "b519dd42",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klassrum\"]"
             }
           },
           {
             "ex_id": "d2d230019bd4d71da70ff7fe26c4535a5c452d72",
             "sv": "I bottenvåningen har skolhuset två klassrum och på vinden en lärarbostad.",
-            "en": "On the ground floor the school building has two classrooms and in the attic a teacher's residence.",
+            "en": "On the ground floor the school building has two classrooms and in the attic a teacher’s home.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
                 "span_sv": "skolhuset"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "två klassrum"
               }
             ],
-            "gloss": "klassrum",
+            "gloss": "classroom",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -268,7 +200,7 @@
               "text_title": "Stäket, Järfälla kommun",
               "text_url": "https://sv.wikipedia.org/wiki/St%C3%A4ket,_J%C3%A4rf%C3%A4lla_kommun",
               "sentence_id": "681bba90",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klassrum\"]"
             }
           },
@@ -281,13 +213,9 @@
               {
                 "fe_id": "fe_institution",
                 "span_sv": "Skolan i Röstånga"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "tre klassrum"
               }
             ],
-            "gloss": "klassrum",
+            "gloss": "classroom",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -298,7 +226,33 @@
               "text_title": "Röstånga",
               "text_url": "https://sv.wikipedia.org/wiki/R%C3%B6st%C3%A5nga",
               "sentence_id": "6bbe7603",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"klassrum\"]"
+            }
+          },
+          {
+            "ex_id": "7a83aa2d0bdf30317b2b4b7f83413a8c24072741",
+            "sv": "2015 kompletterades skolan med en ny matsalsbyggnad som även innehåller klassrum.",
+            "en": "In 2015 the school was expanded with a new dining hall building that also contains classrooms.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skolan"
+              }
+            ],
+            "gloss": "classroom",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Örby, Stockholms kommun",
+              "text_url": "https://sv.wikipedia.org/wiki/%C3%96rby,_Stockholms_kommun",
+              "sentence_id": "aa95760d",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klassrum\"]"
             }
           },
@@ -309,11 +263,11 @@
             "frame_id": "frame_education",
             "fe_tags": [
               {
-                "fe_id": "fe_course",
-                "span_sv": "sexton klassrum"
+                "fe_id": "fe_institution",
+                "span_sv": "den nya tillbyggnaden"
               }
             ],
-            "gloss": "klassrum",
+            "gloss": "classroom",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -324,14 +278,14 @@
               "text_title": "Ulvsättraskolan",
               "text_url": "https://sv.wikipedia.org/wiki/Ulvs%C3%A4ttraskolan",
               "sentence_id": "c4d9446a",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klassrum\"]"
             }
           },
           {
             "ex_id": "03b52e021744d4e0deff98c776de8f8e3b11b84b",
             "sv": "Runt skolans gård finns flera mindre paviljonger med klassrum för de lägre klasserna.",
-            "en": "Around the school yard there are several smaller pavilions with classrooms for the lower grades.",
+            "en": "Around the school yard there are several smaller pavilions with classrooms for the lower classes.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
@@ -339,11 +293,11 @@
                 "span_sv": "skolans"
               },
               {
-                "fe_id": "fe_course",
-                "span_sv": "klassrum"
+                "fe_id": "fe_student",
+                "span_sv": "de lägre klasserna"
               }
             ],
-            "gloss": "klassrum",
+            "gloss": "classroom",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -354,30 +308,26 @@
               "text_title": "Kristofferskolan",
               "text_url": "https://sv.wikipedia.org/wiki/Kristofferskolan",
               "sentence_id": "6cfa7ae9",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klassrum\"]"
             }
           },
           {
-            "ex_id": "bd6b6243f756f1458755ad9035e5e08e55b170ff",
-            "sv": "1883 byggdes detta till så att folkskolan och småskolan fick separata klassrum.",
-            "en": "In 1883 this was extended so that the elementary school and the small school got separate classrooms.",
+            "ex_id": "43354e9fcb921118a04e1590b3f4ee879383a5cc",
+            "sv": "Språklabb är ett klassrum utrustat med speciell utrustning för att underlätta språkinlärning.",
+            "en": "A language lab is a classroom equipped with special equipment to make language learning easier.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
-                "fe_id": "fe_institution",
-                "span_sv": "folkskolan"
+                "fe_id": "fe_material",
+                "span_sv": "speciell utrustning"
               },
               {
-                "fe_id": "fe_institution",
-                "span_sv": "småskolan"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "separata klassrum"
+                "fe_id": "fe_subject",
+                "span_sv": "språkinlärning"
               }
             ],
-            "gloss": "klassrum",
+            "gloss": "classroom",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -385,59 +335,25 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ramstorp",
-              "text_url": "https://sv.wikipedia.org/wiki/Ramstorp",
-              "sentence_id": "587f1b93",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "text_title": "Språklabb",
+              "text_url": "https://sv.wikipedia.org/wiki/Spr%C3%A5klabb",
+              "sentence_id": "b519dd42",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klassrum\"]"
             }
           },
           {
-            "ex_id": "46bb7de2c2d6558cdc9ea35a9a7707090c847a24",
-            "sv": "Två klassrum och bibliotek inrymdes i lokalerna och idag används de som klassrum och lärararbetsrum.",
-            "en": "Two classrooms and a library were housed in the premises and today they are used as classrooms and teacher work rooms.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_course",
-                "span_sv": "Två klassrum"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "klassrum"
-              }
-            ],
-            "gloss": "klassrum",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Landshövdingestallet",
-              "text_url": "https://sv.wikipedia.org/wiki/Landsh%C3%B6vdingestallet",
-              "sentence_id": "1a913f55",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
-              "korp_query": "[word=\"klassrum\"]"
-            }
-          },
-          {
-            "ex_id": "172fae986fbce8006480f97545133ab11c99fc32",
-            "sv": "Innan skolan byggdes ut hade den åtta klassrum, varav ett användes som gymnastiksal.",
-            "en": "Before the school was expanded it had eight classrooms, one of which was used as a gym hall.",
+            "ex_id": "f6fa2b65951ac77d9e9992a7c6a646333b86074f",
+            "sv": "Julavslutningar hålls ofta i klassrum eller andra skollokaler och mer sällan i kyrkan.",
+            "en": "Christmas end-of-term events are often held in classrooms or other school rooms and more rarely in the church.",
             "frame_id": "frame_education",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "skolan"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "åtta klassrum"
+                "span_sv": "skollokaler"
               }
             ],
-            "gloss": "klassrum",
+            "gloss": "classroom",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -445,10 +361,70 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Böskolan",
-              "text_url": "https://sv.wikipedia.org/wiki/B%C3%B6skolan",
-              "sentence_id": "e3a0de22",
-              "retrieved_at": "2026-01-20T09:10:20+00:00",
+              "text_title": "Skolavslutning",
+              "text_url": "https://sv.wikipedia.org/wiki/Skolavslutning",
+              "sentence_id": "5d47dcea",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"klassrum\"]"
+            }
+          },
+          {
+            "ex_id": "48afca9697c1b9658c73a8ece050668750470bfb",
+            "sv": "De hade inte ens några egna klassrum, utan lärarna gick hem till dem och höll lektioner.",
+            "en": "They did not even have any classrooms of their own, but the teachers went to their homes and held lessons.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "lärarna"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "lektioner"
+              },
+              {
+                "fe_id": "fe_student",
+                "span_sv": "dem"
+              }
+            ],
+            "gloss": "classroom",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Brommas skolhistoria",
+              "text_url": "https://sv.wikipedia.org/wiki/Brommas_skolhistoria",
+              "sentence_id": "80bd4765",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "korp_query": "[word=\"klassrum\"]"
+            }
+          },
+          {
+            "ex_id": "7897602c8da6b95fa66780f6b3e68fd17eca522f",
+            "sv": "De skadade fördes först till ett klassrum och sedan till Kungälvs lasarett.",
+            "en": "The injured people were taken first to a classroom and then to Kungälv hospital.",
+            "frame_id": "frame_education",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "ett klassrum"
+              }
+            ],
+            "gloss": "classroom",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Skottdramat i Kungälv",
+              "text_url": "https://sv.wikipedia.org/wiki/Skottdramat_i_Kung%C3%A4lv",
+              "sentence_id": "6f2b7d35",
+              "retrieved_at": "2026-01-20T15:24:35+00:00",
               "korp_query": "[word=\"klassrum\"]"
             }
           }
@@ -457,14 +433,17 @@
     ],
     "pronunciation": {
       "ipa": "ˈklasːrɵm",
-      "stress_hint": "Stress on the first part: KLAS-."
+      "stress_hint": "Stress on the first part: KLAS-.",
+      "audio": {
+        "file": "audio/lu_klassenzimmer_das.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
     },
     "morphology": {
       "principal_parts": [
-        "klassrum (indefinite singular)",
-        "klassrummet (definite singular)",
-        "klassrum (indefinite plural)",
-        "klassrummen (definite plural)"
+        "klassrum – klassrummet – klassrum – klassrummen"
       ],
       "particle_or_reflexive": null
     }
