@@ -86,10 +86,10 @@ body{
   display: inline-flex;
   align-items: center;
   padding: 2px 8px;
-  border-radius: 999px;
   border: 1px solid hsla(var(--fe-h), 50%, 60%, 0.55);
-  background: hsla(var(--fe-h), 70%, 88%, 1);
+  background: hsla(var(--fe-h), var(--fe-s, 70%), var(--fe-l, 88%), 1);
   color: hsl(var(--fe-h), 55%, 25%);
+  border-radius: 999px;
   font-weight: 650;
   font-size: 12px;
   letter-spacing: 0.02em;
@@ -436,7 +436,7 @@ body{
 .fe-span{
   padding: 0 4px;
   border-radius: 8px;
-  background: hsl(var(--fe-h) 60% 88%);
+  background: hsl(var(--fe-h) var(--fe-s, 60%) var(--fe-l, 88%));
   border: 1px solid hsl(var(--fe-h) 60% 70%);
 }
 

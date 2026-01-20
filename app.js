@@ -42,15 +42,30 @@ function hash32(str) {
   return h >>> 0;
 }
 
-function feHue(feId) {
-  // Spread hues across the wheel, stable per FE id.
-  return hash32(`fe:${feId}`) % 360;
+// Pick from a curated set of well-separated hues (more distinguishable than 0..359)
+const FE_HUES = [
+  0, 25, 45, 60, 80, 100, 130, 160, 190, 210, 235, 260, 285, 310, 330
+];
+
+// Optional: lightness bands to reduce “same hue” collisions even more
+const FE_LIGHTNESS = [86, 80, 74]; // %
+const FE_SAT = 70; // %
+
+function feStyleVars(feId) {
+  const h = hash32(`fe:${String(feId ?? "").trim()}`);
+  const hue = FE_HUES[h % FE_HUES.length];
+  const l = FE_LIGHTNESS[(h >>> 8) % FE_LIGHTNESS.length];
+  return `--fe-h:${hue};--fe-s:${FE_SAT}%;--fe-l:${l}%`;
 }
 
 function feChipHtml(label, feId) {
-  const h = feHue(feId);
-  return `<span class="fe-chip" style="--fe-h:${h}" data-fe="${esc(feId)}">${esc(label)}</span>`;
+  return `<span class="fe-chip" style="${feStyleVars(feId)}" data-fe="${esc(feId)}">${esc(label)}</span>`;
 }
+
+function escapeRegExp(s) {
+  return String(s ?? "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
 
 function decorateFeHtml(html, feMentions) {
   const src = String(html ?? "");
@@ -58,15 +73,29 @@ function decorateFeHtml(html, feMentions) {
   if (!src.trim() || !mentions.length) return src;
 
   let out = src;
+
   for (const m of mentions) {
-    if (!m?.fe_id || !m?.span_en) continue;
-    const h = feHue(m.fe_id);
-    const cls = String(m.span_en).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    const re = new RegExp(`<span\\s+class=\\"${cls}\\"\\s*>`, "g");
-    out = out.replace(re, `<span class="fe-chip" style="--fe-h:${h}" data-fe="${esc(m.fe_id)}">`);
+    const feId = m?.fe_id;
+    const clsRaw = m?.span_en || m?.span_sv;
+    if (!feId || !clsRaw) continue;
+
+    const cls = escapeRegExp(String(clsRaw).trim());
+
+    const re = new RegExp(
+      `<span\\b[^>]*class=(["'])[^"']*\\b${cls}\\b[^"']*\\1[^>]*>`,
+      "g"
+    );
+
+    out = out.replace(
+      re,
+      `<span class="fe-chip" style="${feStyleVars(feId)}" data-fe="${esc(feId)}">`
+    );
   }
+
   return out;
 }
+
+
 
 function setEntryHeader(title, typeLabel, typeKey = "") {
   const h = document.getElementById("entryTitle");
@@ -659,8 +688,8 @@ function renderSentenceWithSpans(sentence, fe_tags, frame) {
   for (const r of used) {
     out += esc(text.slice(pos, r.start));
     const label = feLabel(frame, r.fe_id);
-    const hue = feHue(r.fe_id);
-    out += `<span class="fe-span" title="${esc(label)}" data-fe="${esc(r.fe_id)}" style="--fe-h:${hue}">${esc(text.slice(r.start, r.end))}</span>`;
+    out += `<span class="fe-span" title="${esc(label)}" data-fe="${esc(r.fe_id)}" style="${feStyleVars(r.fe_id)}">${esc(text.slice(r.start, r.end))}</span>`;
+
     pos = r.end;
   }
   out += esc(text.slice(pos));
