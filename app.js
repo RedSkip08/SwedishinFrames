@@ -1284,7 +1284,7 @@ function renderLu(lu) {
   }
 
   const lexicalRelHtml =
-    listBlock("Derived words", lu.derived_words_sv) +
+    listBlock("Related words", lu.derived_words_sv) +
     listBlock("Synonyms", lu.synonyms_sv) +
     listBlock("Antonyms", lu.antonyms_sv);
 
