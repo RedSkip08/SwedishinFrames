@@ -1,0 +1,673 @@
+{
+  "frame": {
+    "id": "frame_origin",
+    "name_en": "Origin",
+    "slug": "origin",
+    "frame_description_en": "This frame describes a situation where an Entity is said to come from an Origin. The Origin can be understood in different ways depending on the Source_type (for example, a place, a family background, or a material source). Sometimes a Path is mentioned to show a route or intermediate step connected to the origin relation. The statement can be anchored in Time (when the Entity originated or when the relation holds) and in Place (the current or reference location from which the origin is stated). The speaker or text may also give Evidence that supports or motivates the claim about where the Entity comes from.",
+    "frame_description_html": "This frame describes a situation where an <span class=\"Entity\">Entity</span> is said to come from an <span class=\"Origin\">Origin</span>. The <span class=\"Origin\">Origin</span> can be understood in different ways depending on the <span class=\"Source_type\">Source_type</span> (for example, a place, a family background, or a material source). Sometimes a <span class=\"Path\">Path</span> is mentioned to show a route or intermediate step connected to the origin relation. The statement can be anchored in <span class=\"Time\">Time</span> (when the <span class=\"Entity\">Entity</span> originated or when the relation holds) and in <span class=\"Place\">Place</span> (the current or reference location from which the origin is stated). The speaker or text may also give <span class=\"Evidence\">Evidence</span> that supports or motivates the claim about where the <span class=\"Entity\">Entity</span> comes from.",
+    "frame_description_fe_mentions": [
+      {
+        "fe_id": "fe_entity",
+        "span_en": "Entity"
+      },
+      {
+        "fe_id": "fe_origin",
+        "span_en": "Origin"
+      },
+      {
+        "fe_id": "fe_source_type",
+        "span_en": "Source_type"
+      },
+      {
+        "fe_id": "fe_path",
+        "span_en": "Path"
+      },
+      {
+        "fe_id": "fe_time",
+        "span_en": "Time"
+      },
+      {
+        "fe_id": "fe_place",
+        "span_en": "Place"
+      },
+      {
+        "fe_id": "fe_evidence",
+        "span_en": "Evidence"
+      }
+    ],
+    "elements": [
+      {
+        "id": "fe_entity",
+        "name": "Entity",
+        "published": 1,
+        "description_en": "The person, thing, or group whose origin is being talked about.",
+        "description_html": "The person, thing, or group whose <span class=\"Origin\">Origin</span> is being talked about."
+      },
+      {
+        "id": "fe_origin",
+        "name": "Origin",
+        "published": 1,
+        "description_en": "The place, source, or background that the Entity comes from.",
+        "description_html": "The place, source, or background that the <span class=\"Entity\">Entity</span> comes from."
+      },
+      {
+        "id": "fe_source_type",
+        "name": "Source_type",
+        "published": 1,
+        "description_en": "What kind of origin it is (for example: place, family line, language, material, cause).",
+        "description_html": "What kind of <span class=\"Origin\">Origin</span> it is (for example: place, family line, language, material, cause)."
+      },
+      {
+        "id": "fe_path",
+        "name": "Path",
+        "published": 1,
+        "description_en": "A route or intermediate location connected to the origin relation, if mentioned.",
+        "description_html": "A route or intermediate location connected to the <span class=\"Origin\">Origin</span> relation, if mentioned."
+      },
+      {
+        "id": "fe_time",
+        "name": "Time",
+        "published": 1,
+        "description_en": "When the Entity originated, or the starting time for the origin relation.",
+        "description_html": "When the <span class=\"Entity\">Entity</span> originated, or the starting <span class=\"Time\">Time</span> for the origin relation."
+      },
+      {
+        "id": "fe_place",
+        "name": "Place",
+        "published": 1,
+        "description_en": "The current or reference location from which the origin is stated.",
+        "description_html": "The current or reference location from which the <span class=\"Origin\">Origin</span> is stated."
+      },
+      {
+        "id": "fe_evidence",
+        "name": "Evidence",
+        "published": 1,
+        "description_en": "Information, clues, or reported belief used to support the origin claim.",
+        "description_html": "Information, clues, or reported belief used to support the <span class=\"Origin\">Origin</span> claim."
+      }
+    ],
+    "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
+    "examples": [
+      {
+        "ex_id": "934fd9d8b947c86123941926e1adde9db03c2e91",
+        "sv": "Ön är av vulkaniskt ursprung och har en areal om ca 1,5 km².",
+        "en": "The island is of volcanic origin and has an area of about 1.5 km².",
+        "fe_tags": [
+          {
+            "fe_id": "fe_entity",
+            "span_sv": "Ön"
+          },
+          {
+            "fe_id": "fe_origin",
+            "span_sv": "vulkaniskt ursprung"
+          },
+          {
+            "fe_id": "fe_source_type",
+            "span_sv": "vulkaniskt"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Salt Island",
+          "text_url": "https://sv.wikipedia.org/wiki/Salt_Island",
+          "sentence_id": "7a01d88f",
+          "retrieved_at": "2026-01-20T14:44:53+00:00",
+          "korp_query": "[word=\"ursprung\"]"
+        }
+      },
+      {
+        "ex_id": "42811c588059d1c43e1a05a04af68a1edf398f11",
+        "sv": "Harry Belafonte var här viktig men hans calypso hade sitt ursprung i Jamaica.",
+        "en": "Harry Belafonte was important here, but his calypso had its origin in Jamaica.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_entity",
+            "span_sv": "hans calypso"
+          },
+          {
+            "fe_id": "fe_place",
+            "span_sv": "här"
+          },
+          {
+            "fe_id": "fe_origin",
+            "span_sv": "i Jamaica"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Musik på Trinidad och Tobago",
+          "text_url": "https://sv.wikipedia.org/wiki/Musik_p%C3%A5_Trinidad_och_Tobago",
+          "sentence_id": "19db22e4",
+          "retrieved_at": "2026-01-20T14:44:53+00:00",
+          "korp_query": "[word=\"ursprung\"]"
+        }
+      },
+      {
+        "ex_id": "e32d42c53f5d568c40c03b20fc879651bdcc4fa8",
+        "sv": "Svartsjuk - ordet finns i svenskan sedan 1650 men har oklart ursprung.",
+        "en": "Jealous — the word has been in Swedish since 1650 but has an unclear origin.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_entity",
+            "span_sv": "ordet"
+          },
+          {
+            "fe_id": "fe_time",
+            "span_sv": "sedan 1650"
+          },
+          {
+            "fe_id": "fe_origin",
+            "span_sv": "oklart ursprung"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Svart",
+          "text_url": "https://sv.wikipedia.org/wiki/Svart",
+          "sentence_id": "27e60a9c",
+          "retrieved_at": "2026-01-20T14:44:53+00:00",
+          "korp_query": "[word=\"ursprung\"]"
+        }
+      },
+      {
+        "ex_id": "fc5336414001fe12092cc805abe4663364a77a26",
+        "sv": "På grund av dessa organismers speciella flageller tror man att de har ett gemensamt ursprung.",
+        "en": "Because of these organisms' special flagella, people think that they have a common origin.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_entity",
+            "span_sv": "de"
+          },
+          {
+            "fe_id": "fe_evidence",
+            "span_sv": "På grund av dessa organismers speciella flageller"
+          },
+          {
+            "fe_id": "fe_origin",
+            "span_sv": "ett gemensamt ursprung"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Kiselalger",
+          "text_url": "https://sv.wikipedia.org/wiki/Kiselalger",
+          "sentence_id": "158b2fca",
+          "retrieved_at": "2026-01-20T14:44:53+00:00",
+          "korp_query": "[word=\"ursprung\"]"
+        }
+      },
+      {
+        "ex_id": "12d9317592f21795c3bc8e6bd6c6391fab54405c",
+        "sv": "De främsta intäkterna skulle till en början komma från reklam och sponsorintäkter.",
+        "en": "The main income would at first come from advertising and sponsor income.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_entity",
+            "span_sv": "De främsta intäkterna"
+          },
+          {
+            "fe_id": "fe_origin",
+            "span_sv": "reklam och sponsorintäkter"
+          },
+          {
+            "fe_id": "fe_time",
+            "span_sv": "till en början"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Big TV",
+          "text_url": "https://sv.wikipedia.org/wiki/Big_TV",
+          "sentence_id": "b6df870e",
+          "retrieved_at": "2026-01-20T14:44:53+00:00",
+          "korp_query": "[word=\"komma\"][word=\"från\"]"
+        }
+      },
+      {
+        "ex_id": "50d9b8245fab713ecb230eef52ee676d9cd31e66",
+        "sv": "Pesten sades komma från Marseilles hamn, och den fortsatte härifrån upp genom Frankrike.",
+        "en": "The plague was said to come from the port of Marseilles, and it continued from here up through France.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_entity",
+            "span_sv": "Pesten"
+          },
+          {
+            "fe_id": "fe_origin",
+            "span_sv": "Marseilles hamn"
+          },
+          {
+            "fe_id": "fe_path",
+            "span_sv": "upp genom Frankrike"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Marseille",
+          "text_url": "https://sv.wikipedia.org/wiki/Marseille",
+          "sentence_id": "4be413fc",
+          "retrieved_at": "2026-01-20T14:44:53+00:00",
+          "korp_query": "[word=\"komma\"][word=\"från\"]"
+        }
+      }
+    ],
+    "linked_lexical_units": [
+      {
+        "lu_id": "lu_herkunft_die",
+        "display_sv": "ursprung",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_herkunft_die:1"
+      },
+      {
+        "lu_id": "lu_kommen_aus",
+        "display_sv": "komma från",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_kommen_aus:1"
+      },
+      {
+        "lu_id": "lu_stammen",
+        "display_sv": "härstamma",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_stammen:1"
+      },
+      {
+        "lu_id": "lu_aus",
+        "display_sv": "från",
+        "lu_type": "single",
+        "pos": "preposition",
+        "sense_id": "lu_aus:1"
+      },
+      {
+        "lu_id": "lu_abstammen_von",
+        "display_sv": "stamma från",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_abstammen_von:1"
+      },
+      {
+        "lu_id": "lu_woher",
+        "display_sv": "varifrån",
+        "lu_type": "single",
+        "pos": "adverb",
+        "sense_id": "lu_woher:1"
+      },
+      {
+        "lu_id": "lu_herkommen",
+        "display_sv": "komma från",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_herkommen:1"
+      }
+    ],
+    "confusable_with": []
+  },
+  "constructions": [
+    {
+      "cxn_id": "cxn_1",
+      "cxn_name_linguistic_sv": "X vara av Y ursprung",
+      "cxn_name_user_friendly_en": "Being of an origin",
+      "pattern": "SUBJ vara av ORIGIN (ursprung)",
+      "meaning_en": "Says what kind of origin/background something or someone has.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_entity"
+        },
+        {
+          "slot": "ORIGIN",
+          "maps_to_fe_id": "fe_origin"
+        }
+      ],
+      "usage_notes_en": [
+        "Often uses an adjective to specify the type of origin (e.g. vulkaniskt, kinesiskt)."
+      ],
+      "examples": [
+        {
+          "ex_id": "934fd9d8b947c86123941926e1adde9db03c2e91",
+          "sv": "Ön är av vulkaniskt ursprung och har en areal om ca 1,5 km².",
+          "en": "The island is of volcanic origin and has an area of about 1.5 km².",
+          "fe_tags": [
+            {
+              "fe_id": "fe_entity",
+              "span_sv": "Ön"
+            },
+            {
+              "fe_id": "fe_origin",
+              "span_sv": "vulkaniskt ursprung"
+            },
+            {
+              "fe_id": "fe_source_type",
+              "span_sv": "vulkaniskt"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Salt Island",
+            "text_url": "https://sv.wikipedia.org/wiki/Salt_Island",
+            "sentence_id": "7a01d88f",
+            "retrieved_at": "2026-01-20T14:44:53+00:00",
+            "korp_query": "[word=\"ursprung\"]"
+          }
+        },
+        {
+          "ex_id": "afff310f90de634f633ddba4cc7a2e9942cdda60",
+          "sv": "Chow mein (kinesiska: 炒麵 chǎomiàn) är en maträtt av kinesiskt ursprung.",
+          "en": "Chow mein (Chinese: 炒麵 chǎomiàn) is a dish of Chinese origin.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_entity",
+              "span_sv": "Chow mein (kinesiska: 炒麵 chǎomiàn)"
+            },
+            {
+              "fe_id": "fe_origin",
+              "span_sv": "kinesiskt ursprung"
+            },
+            {
+              "fe_id": "fe_source_type",
+              "span_sv": "kinesiskt"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Chow mein",
+            "text_url": "https://sv.wikipedia.org/wiki/Chow_mein",
+            "sentence_id": "e3ad4cf5",
+            "retrieved_at": "2026-01-20T14:44:53+00:00",
+            "korp_query": "[word=\"ursprung\"]"
+          }
+        },
+        {
+          "ex_id": "552fb70509fb66a1dce72574fc03c2cd0aa97414",
+          "sv": "Bissets mor är av engelskt och franskt ursprung; fadern är amerikansk.",
+          "en": "Bisset's mother is of English and French origin; the father is American.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_entity",
+              "span_sv": "Bissets mor"
+            },
+            {
+              "fe_id": "fe_origin",
+              "span_sv": "engelskt och franskt ursprung"
+            },
+            {
+              "fe_id": "fe_source_type",
+              "span_sv": "engelskt och franskt"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Jacqueline Bisset",
+            "text_url": "https://sv.wikipedia.org/wiki/Jacqueline_Bisset",
+            "sentence_id": "0788dc93",
+            "retrieved_at": "2026-01-20T14:44:53+00:00",
+            "korp_query": "[word=\"ursprung\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_2",
+      "cxn_name_linguistic_sv": "X ha sitt ursprung i Y",
+      "cxn_name_user_friendly_en": "Having its origin in",
+      "pattern": "SUBJ ha sitt ursprung i ORIGIN",
+      "meaning_en": "States where something originates (often a place or source).",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_entity"
+        },
+        {
+          "slot": "ORIGIN",
+          "maps_to_fe_id": "fe_origin"
+        }
+      ],
+      "usage_notes_en": [
+        "The origin is expressed with i + place/source."
+      ],
+      "examples": [
+        {
+          "ex_id": "1fb7007329d4543bb5310e5e38b61350f01103c6",
+          "sv": "De flesta felaktiga särskrivningar har sitt ursprung i okunskap om i dag vedertagna skrivregler.",
+          "en": "Most incorrect split spellings have their origin in ignorance about writing rules accepted today.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_entity",
+              "span_sv": "De flesta felaktiga särskrivningar"
+            },
+            {
+              "fe_id": "fe_origin",
+              "span_sv": "i okunskap om i dag vedertagna skrivregler"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Särskrivning",
+            "text_url": "https://sv.wikipedia.org/wiki/S%C3%A4rskrivning",
+            "sentence_id": "5e8fd887",
+            "retrieved_at": "2026-01-20T14:44:53+00:00",
+            "korp_query": "[word=\"ursprung\"]"
+          }
+        },
+        {
+          "ex_id": "42811c588059d1c43e1a05a04af68a1edf398f11",
+          "sv": "Harry Belafonte var här viktig men hans calypso hade sitt ursprung i Jamaica.",
+          "en": "Harry Belafonte was important here, but his calypso had its origin in Jamaica.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_entity",
+              "span_sv": "hans calypso"
+            },
+            {
+              "fe_id": "fe_place",
+              "span_sv": "här"
+            },
+            {
+              "fe_id": "fe_origin",
+              "span_sv": "i Jamaica"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Musik på Trinidad och Tobago",
+            "text_url": "https://sv.wikipedia.org/wiki/Musik_p%C3%A5_Trinidad_och_Tobago",
+            "sentence_id": "19db22e4",
+            "retrieved_at": "2026-01-20T14:44:53+00:00",
+            "korp_query": "[word=\"ursprung\"]"
+          }
+        },
+        {
+          "ex_id": "8a1864941c7a9e3369d1fcfb53744f541acbe395",
+          "sv": "Hanni tillhör således den släkt som har sitt ursprung i Västergötland.",
+          "en": "Hanni therefore belongs to the family that has its origin in Västergötland.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_entity",
+              "span_sv": "den släkt"
+            },
+            {
+              "fe_id": "fe_origin",
+              "span_sv": "i Västergötland"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Beronius",
+            "text_url": "https://sv.wikipedia.org/wiki/Beronius",
+            "sentence_id": "fa126cb1",
+            "retrieved_at": "2026-01-20T14:44:53+00:00",
+            "korp_query": "[word=\"ursprung\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_3",
+      "cxn_name_linguistic_sv": "X komma från Y",
+      "cxn_name_user_friendly_en": "Coming from a source",
+      "pattern": "SUBJ komma från ORIGIN",
+      "meaning_en": "Says where something/someone comes from (place, source, or time period).",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_entity"
+        },
+        {
+          "slot": "ORIGIN",
+          "maps_to_fe_id": "fe_origin"
+        }
+      ],
+      "usage_notes_en": [
+        "The origin is expressed with från + noun phrase.",
+        "The origin can also be a time period."
+      ],
+      "examples": [
+        {
+          "ex_id": "e89832f9525f0a44ba1b2dd6ac6dabcd78674ee3",
+          "sv": "Lasaros sägs komma från Bethania och vara bror till Maria och Marta.",
+          "en": "Lazarus is said to come from Bethany and be the brother of Mary and Martha.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_entity",
+              "span_sv": "Lasaros"
+            },
+            {
+              "fe_id": "fe_origin",
+              "span_sv": "Bethania"
+            },
+            {
+              "fe_id": "fe_evidence",
+              "span_sv": "sägs"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Lasaros",
+            "text_url": "https://sv.wikipedia.org/wiki/Lasaros",
+            "sentence_id": "02a043b7",
+            "retrieved_at": "2026-01-20T14:44:53+00:00",
+            "korp_query": "[word=\"komma\"][word=\"från\"]"
+          }
+        },
+        {
+          "ex_id": "12d9317592f21795c3bc8e6bd6c6391fab54405c",
+          "sv": "De främsta intäkterna skulle till en början komma från reklam och sponsorintäkter.",
+          "en": "The main income would at first come from advertising and sponsor income.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_entity",
+              "span_sv": "De främsta intäkterna"
+            },
+            {
+              "fe_id": "fe_origin",
+              "span_sv": "reklam och sponsorintäkter"
+            },
+            {
+              "fe_id": "fe_time",
+              "span_sv": "till en början"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Big TV",
+            "text_url": "https://sv.wikipedia.org/wiki/Big_TV",
+            "sentence_id": "b6df870e",
+            "retrieved_at": "2026-01-20T14:44:53+00:00",
+            "korp_query": "[word=\"komma\"][word=\"från\"]"
+          }
+        },
+        {
+          "ex_id": "74d15d8865866bc928a841bfc71ed9ccd8477866",
+          "sv": "Då några skepp har lastutrymmen antas de komma från 1700- och 1800-talen.",
+          "en": "Since some ships have cargo holds, they are assumed to come from the 1700s and 1800s.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_entity",
+              "span_sv": "de"
+            },
+            {
+              "fe_id": "fe_origin",
+              "span_sv": "1700- och 1800-talen"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Vetenskapsåret 2002",
+            "text_url": "https://sv.wikipedia.org/wiki/Vetenskaps%C3%A5ret_2002",
+            "sentence_id": "bd06c521",
+            "retrieved_at": "2026-01-20T14:44:53+00:00",
+            "korp_query": "[word=\"komma\"][word=\"från\"]"
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_examples": 5,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true
+  }
+}

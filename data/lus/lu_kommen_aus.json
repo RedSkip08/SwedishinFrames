@@ -1,0 +1,504 @@
+{
+  "lexical_unit": {
+    "id": "lu_kommen_aus",
+    "source_de": {
+      "lu_de_raw": "kommen aus",
+      "lu_de_normalized": "kommen aus",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "komma från",
+    "display_sv": "komma från",
+    "name_sv": "komma från",
+    "pos": "multiword",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": "prep_phrase",
+      "components_sv": [
+        "komma",
+        "från"
+      ],
+      "spacing_notes_en": "Written as two words; verb + preposition."
+    },
+    "forms": [
+      "komma från",
+      "kommer från",
+      "kom från",
+      "kommit från"
+    ],
+    "english_equivalent_en": "come from",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword expression: verb komma + preposition från. The verb inflects (kommer/kom/kommit) while från stays the same."
+    },
+    "derived_words_sv": [
+      {
+        "word": "ursprung",
+        "type_en": "noun",
+        "meaning_en": "origin; where something comes from"
+      },
+      {
+        "word": "ursprunglig",
+        "type_en": "adjective",
+        "meaning_en": "original; from the beginning"
+      },
+      {
+        "word": "ursprungligen",
+        "type_en": "other",
+        "meaning_en": "originally; at first"
+      },
+      {
+        "word": "härkomst",
+        "type_en": "noun",
+        "meaning_en": "background; descent/origin"
+      },
+      {
+        "word": "härstamma",
+        "type_en": "verb",
+        "meaning_en": "originate; descend from"
+      }
+    ],
+    "synonyms_sv": [
+      "härstamma från",
+      "stamma från",
+      "komma ur",
+      "ha sitt ursprung i"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_origin",
+        "frame_name_en": "Origin",
+        "frame_slug": "origin",
+        "sense_id": "lu_kommen_aus:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_kommen_aus:1",
+        "frame_id": "frame_origin",
+        "meaning_en": "have an origin or source in a place, person, or thing",
+        "how_to_use_en": [
+          "Use with a source after från: a place, person, thing, or field.",
+          "Often used with kan/måste/skulle to talk about possible or necessary sources.",
+          "Can be used for people, things, information, money, threats, etc."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "[Entity] kan komma från [Origin]",
+            "meaning_en": "can have its source in",
+            "note_en": "Used for possible sources (e.g., winds, threats, radiation)."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "[Entity] skulle till en början komma från [Origin]",
+            "meaning_en": "would initially come from",
+            "note_en": "Adds a time phrase to show when the source applies."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "[Entity] sägs komma från [Origin]",
+            "meaning_en": "is said to come from",
+            "note_en": "Marks the origin as reported information."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "[Entity] måste komma från [Origin]",
+            "meaning_en": "must come from",
+            "note_en": "Used when the source is necessary or logically required."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "[Entity] kommer ofta från [Origin]",
+            "meaning_en": "often comes from",
+            "note_en": "Used for typical/recurring sources."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *komma från* for destination (where someone goes).",
+            "fix": "Use åka/gå/komma till for destination.",
+            "explain_en": "Komma från tells the source/origin, not the goal."
+          },
+          {
+            "error": "Forgetting från: *Det kommer reklam.*",
+            "fix": "Say: Det kommer från reklam.",
+            "explain_en": "The source is introduced with från."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "a2f58100cf2ee3bdcc7eb848e2fd69f8aa2d445d",
+            "sv": "Klimatet är ofta varmt och behagligt, vindarna kan komma från vilken riktning som helst.",
+            "en": "The climate is often warm and pleasant, the winds can come from any direction.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "vindarna"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "vilken riktning som helst"
+              }
+            ],
+            "gloss": "come from (have an origin/source in)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Rohan (Midgård)",
+              "text_url": "https://sv.wikipedia.org/wiki/Rohan_(Midg%C3%A5rd)",
+              "sentence_id": "61cfe5c3",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"komma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "12d9317592f21795c3bc8e6bd6c6391fab54405c",
+            "sv": "De främsta intäkterna skulle till en början komma från reklam och sponsorintäkter.",
+            "en": "The main income would at first come from advertising and sponsor income.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "De främsta intäkterna"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "reklam och sponsorintäkter"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "till en början"
+              }
+            ],
+            "gloss": "come from (have an origin/source in)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Big TV",
+              "text_url": "https://sv.wikipedia.org/wiki/Big_TV",
+              "sentence_id": "b6df870e",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"komma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "e89832f9525f0a44ba1b2dd6ac6dabcd78674ee3",
+            "sv": "Lasaros sägs komma från Bethania och vara bror till Maria och Marta.",
+            "en": "Lazarus is said to come from Bethany and be the brother of Mary and Martha.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Lasaros"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "Bethania"
+              },
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "sägs"
+              }
+            ],
+            "gloss": "come from (have an origin/source in)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lasaros",
+              "text_url": "https://sv.wikipedia.org/wiki/Lasaros",
+              "sentence_id": "02a043b7",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"komma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "058aa18e8c35be855d560f56d39b6dfceae367bf",
+            "sv": "Hotet kan komma från konkurrerande kriminella, men ofta kommer det från beskyddaren själv.",
+            "en": "The threat can come from competing criminals, but often it comes from the protector himself.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Hotet"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "konkurrerande kriminella"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "beskyddaren själv"
+              }
+            ],
+            "gloss": "come from (have an origin/source in)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Beskyddarverksamhet",
+              "text_url": "https://sv.wikipedia.org/wiki/Beskyddarverksamhet",
+              "sentence_id": "0f1c6d7b",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"komma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "c0f39a87f8fba5f0062f8ad8b0d05aeb241aaf92",
+            "sv": "De anlag som inte är gemensamma mellan mor och barn måste komma från barnets far.",
+            "en": "The traits that are not shared between mother and child must come from the child's father.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "De anlag som inte är gemensamma mellan mor och barn"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "barnets far"
+              },
+              {
+                "fe_id": "fe_source_type",
+                "span_sv": "anlag"
+              }
+            ],
+            "gloss": "come from (have an origin/source in)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Blodundersökning",
+              "text_url": "https://sv.wikipedia.org/wiki/Blodunders%C3%B6kning",
+              "sentence_id": "770e2047",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"komma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "1ada9fcea0957fecfcf935f7bb692007ede5831f",
+            "sv": "Detta skulle visa sig komma från en mindre skärva som brutits loss från meteoriten.",
+            "en": "This would turn out to come from a smaller fragment that had broken off from the meteorite.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Detta"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "en mindre skärva som brutits loss från meteoriten"
+              }
+            ],
+            "gloss": "come from (have an origin/source in)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ekebymeteoriten",
+              "text_url": "https://sv.wikipedia.org/wiki/Ekebymeteoriten",
+              "sentence_id": "0cd6961e",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"komma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "b791dae3feab7039c00915b78e623061731b28bf",
+            "sv": "Mjölk kan komma från både kvinnliga och manliga spädbarns bröstvårtor (kallas ibland för häxmjölk).",
+            "en": "Milk can come from both female and male babies' nipples (is sometimes called witch milk).",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Mjölk"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "både kvinnliga och manliga spädbarns bröstvårtor"
+              }
+            ],
+            "gloss": "come from (have an origin/source in)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Spädbarn",
+              "text_url": "https://sv.wikipedia.org/wiki/Sp%C3%A4dbarn",
+              "sentence_id": "50cd65ac",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"komma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "f1f7f680a20006e9470cfe0469b2bfb1e655d745",
+            "sv": "Hanen ruvar äggen som kan komma från så många som fyra olika honor.",
+            "en": "The male broods the eggs that can come from as many as four different females.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "äggen"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "så många som fyra olika honor"
+              }
+            ],
+            "gloss": "come from (have an origin/source in)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kamtinamo",
+              "text_url": "https://sv.wikipedia.org/wiki/Kamtinamo",
+              "sentence_id": "b408012a",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"komma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "c0ca6f731d80ccd8f068d53460ce662c69c04561",
+            "sv": "Varje kunskap om den tidiga mänskliga utvecklingen måste alltså komma från arkeologin.",
+            "en": "So all knowledge about early human development must come from archaeology.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Varje kunskap om den tidiga mänskliga utvecklingen"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "arkeologin"
+              }
+            ],
+            "gloss": "come from (have an origin/source in)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Arkeologi",
+              "text_url": "https://sv.wikipedia.org/wiki/Arkeologi",
+              "sentence_id": "609f6e0f",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"komma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "43a311d11f9ab71f1b3c83bf8315026c59918f7b",
+            "sv": "Systemet är en källa till röntgenstrålning, som kan komma från följeslagaren.",
+            "en": "The system is a source of X-ray radiation, which can come from the companion.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "röntgenstrålning"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "följeslagaren"
+              }
+            ],
+            "gloss": "come from (have an origin/source in)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "13 Comae Berenices",
+              "text_url": "https://sv.wikipedia.org/wiki/13_Comae_Berenices",
+              "sentence_id": "45c33971",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"komma\"][word=\"från\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈkɔmːa frɔːn",
+      "stress_hint": "Stress is on KOM- in komma; från is unstressed.",
+      "audio": {
+        "file": "audio/lu_kommen_aus.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "komma från",
+        "kommer från",
+        "kom från",
+        "kommit från"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

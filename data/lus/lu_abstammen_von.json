@@ -1,0 +1,492 @@
+{
+  "lexical_unit": {
+    "id": "lu_abstammen_von",
+    "source_de": {
+      "lu_de_raw": "abstammen (von)",
+      "lu_de_normalized": "abstammen (von)",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "multiword",
+    "lemma_sv": "stamma från",
+    "display_sv": "stamma från",
+    "name_sv": "stamma från",
+    "pos": "multiword",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": "prep_phrase",
+      "components_sv": [
+        "stamma",
+        "från"
+      ],
+      "spacing_notes_en": "Written as two words; verb + preposition. Note: 'stamma' alone can also mean 'stutter', but 'stamma från' is the origin/descend sense."
+    },
+    "forms": [
+      "stamma från"
+    ],
+    "english_equivalent_en": "originate from",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Multiword expression: verb stamma + preposition från. It is often used in passive/reporting style (e.g., anses/tros/torde stamma från)."
+    },
+    "derived_words_sv": [
+      {
+        "word": "stamma",
+        "type_en": "verb",
+        "meaning_en": "to originate; to come from (formal)"
+      },
+      {
+        "word": "härstamma",
+        "type_en": "verb",
+        "meaning_en": "to descend from; to originate from"
+      },
+      {
+        "word": "härstamning",
+        "type_en": "noun",
+        "meaning_en": "descent; origin (especially family line)"
+      },
+      {
+        "word": "ursprung",
+        "type_en": "noun",
+        "meaning_en": "origin; source"
+      },
+      {
+        "word": "ursprunglig",
+        "type_en": "adjective",
+        "meaning_en": "original; from the beginning"
+      }
+    ],
+    "synonyms_sv": [
+      "komma från",
+      "härstamma från",
+      "ha sitt ursprung i",
+      "ha sitt ursprung från"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_origin",
+        "frame_name_en": "Origin",
+        "frame_slug": "origin",
+        "sense_id": "lu_abstammen_von:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_abstammen_von:1",
+        "frame_id": "frame_origin",
+        "meaning_en": "to have an origin in something; to come from an earlier source, person, or time",
+        "how_to_use_en": [
+          "Use with an Origin after från: X stammar från Y.",
+          "Common in factual or academic style about words, species, objects, or ancestry.",
+          "Often used with uncertainty/reporting verbs: anses/tros/torde stamma från."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "[Entity] stamma från [Origin]",
+            "meaning_en": "originate from a source",
+            "note_en": "Used for ancestry, etymology, biological origin, or where something dates from."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "[Entity] anses/tros/torde stamma från [Origin]",
+            "meaning_en": "be believed to originate from",
+            "note_en": "Signals uncertainty or that it is someone’s view."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *stamma* without från for origin.",
+            "fix": "Use the full expression: stamma från + origin.",
+            "explain_en": "In these examples, the origin is expressed with från."
+          },
+          {
+            "error": "Using it for a person’s current location (where someone is now).",
+            "fix": "Use komma från for simple hometown/country statements.",
+            "explain_en": "Stamma från is more formal and focuses on origin/background, not where someone is located now."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "c37f2dc60aaae50d50f21266ec38b29aba0ea099",
+            "sv": "Undersökningar av DNA har visat att ungar i samma kull kan stamma från olika fäder.",
+            "en": "DNA studies have shown that young in the same litter can come from different fathers.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "Undersökningar av DNA har visat"
+              },
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "ungar i samma kull"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "olika fäder"
+              }
+            ],
+            "gloss": "come from; originate from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Snabelpungdjur",
+              "text_url": "https://sv.wikipedia.org/wiki/Snabelpungdjur",
+              "sentence_id": "07838ca6",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"stamma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "34aa28baee3758cf32d5db7b60be29de931a653c",
+            "sv": "Detta senare ord anses stamma från lågtyskans gaddere som även det betyder galler.",
+            "en": "This later word is considered to come from the Low German gaddere, which also means grating.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Detta senare ord"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "lågtyskans gaddere"
+              }
+            ],
+            "gloss": "come from; originate from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Galler (stängsel)",
+              "text_url": "https://sv.wikipedia.org/wiki/Galler_(st%C3%A4ngsel)",
+              "sentence_id": "2c16d596",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"stamma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "900bebefe9eefac156348307cfdc91de3e44bc56",
+            "sv": "Trollkrabborna anses stamma från eremitkräftlika föregångare, vilket kan förklara deras asymmetri hos vuxna exemplar.",
+            "en": "The king crabs are considered to come from hermit-crab-like predecessors, which can explain their asymmetry in adult specimens.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Trollkrabborna"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "eremitkräftlika föregångare"
+              }
+            ],
+            "gloss": "come from; originate from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Trollkrabbor",
+              "text_url": "https://sv.wikipedia.org/wiki/Trollkrabbor",
+              "sentence_id": "7adf9b99",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"stamma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "9c99503de143f717367895a04f0f4cd4e52f4022",
+            "sv": "Under medeltiden var delar av området klosterhemman, och de rikt förekommande medicinalväxterna tros stamma från tidigare klosterträdgårdar.",
+            "en": "In the Middle Ages, parts of the area were monastery farms, and the many medicinal plants are believed to come from earlier monastery gardens.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Under medeltiden"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "delar av området"
+              },
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "de rikt förekommande medicinalväxterna"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "tidigare klosterträdgårdar"
+              }
+            ],
+            "gloss": "come from; originate from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Färjås",
+              "text_url": "https://sv.wikipedia.org/wiki/F%C3%A4rj%C3%A5s",
+              "sentence_id": "f8081b8a",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"stamma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "472b05db5cc2f0477b0f0cc66131faa7e61f6436",
+            "sv": "Den nuvarande huvudbyggnaden på Årnäs uppfördes 1770 – 1790, men källaren kan eventuellt stamma från en äldre byggnad.",
+            "en": "The current main building at Årnäs was built in 1770–1790, but the cellar may possibly come from an older building.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "källaren"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "en äldre byggnad"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "på Årnäs"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1770 – 1790"
+              }
+            ],
+            "gloss": "date from; come from (earlier source)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Årnäs",
+              "text_url": "https://sv.wikipedia.org/wiki/%C3%85rn%C3%A4s",
+              "sentence_id": "e34eaf1e",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"stamma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "f84aad0405ce697fbc444d20cb344ea141a775a0",
+            "sv": "Ordet torde stamma från litauiska perkunas eller lettiska perkons som hade att göra med deras åskgud.",
+            "en": "The word probably comes from the Lithuanian perkunas or the Latvian perkons, which had to do with their thunder god.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Ordet"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "litauiska perkunas eller lettiska perkons"
+              }
+            ],
+            "gloss": "come from; originate from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Perkele",
+              "text_url": "https://sv.wikipedia.org/wiki/Perkele",
+              "sentence_id": "4bbb75e9",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"stamma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "13df31271dfc6cc2f204e6c6403259e2e881d350",
+            "sv": "Namnet Plejaderna, eller grekiskans Πλειάδες troddes tidigare stamma från deras moders namn Pleione, på grekiska Πληιόνη.",
+            "en": "The name Pleiades, or the Greek Πλειάδες, was earlier believed to come from their mother’s name Pleione, in Greek Πληιόνη.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Namnet Plejaderna, eller grekiskans Πλειάδες"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "deras moders namn Pleione"
+              }
+            ],
+            "gloss": "come from; originate from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Plejaderna (mytologi)",
+              "text_url": "https://sv.wikipedia.org/wiki/Plejaderna_(mytologi)",
+              "sentence_id": "30c4588a",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"stamma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "768a56a6eaa6374eb666303e6fb3e2255ca54ef7",
+            "sv": "Åmots tullkvarn är byggd på en plats där en kvarn fanns redan 1762, men torde stamma från 1800-talet.",
+            "en": "Åmot’s customs mill is built on a place where a mill already existed in 1762, but it probably dates from the 1800s.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Åmots tullkvarn"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "1800-talet"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1762"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "på en plats"
+              }
+            ],
+            "gloss": "date from; originate from (a time period)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Åmot, Ockelbo kommun",
+              "text_url": "https://sv.wikipedia.org/wiki/%C3%85mot,_Ockelbo_kommun",
+              "sentence_id": "2396ed47",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"stamma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "7e952340d9f2e3b0047dab49cede72ec73194c11",
+            "sv": "Gädda antogs tidigare stamma från Sven Trottason, som förde två korslagda färlor i sitt vapen.",
+            "en": "Gädda was earlier assumed to come from Sven Trottason, who had two crossed staffs in his coat of arms.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Gädda"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "Sven Trottason"
+              }
+            ],
+            "gloss": "come from; originate from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gäddaätten",
+              "text_url": "https://sv.wikipedia.org/wiki/G%C3%A4dda%C3%A4tten",
+              "sentence_id": "d414ca70",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"stamma\"][word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "4ac4e0d4ae9b82e0d5d5c8f44cb9d98bf7d21dd3",
+            "sv": "Den kallas även majstång, av vissa ansett stamma från det åldriga ordet maja, som betyder löva.",
+            "en": "It is also called majstång, by some considered to come from the old word maja, which means to leaf (decorate with leaves).",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Den"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "det åldriga ordet maja"
+              }
+            ],
+            "gloss": "come from; originate from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Midsommar i Sverige",
+              "text_url": "https://sv.wikipedia.org/wiki/Midsommar_i_Sverige",
+              "sentence_id": "4285c17f",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"stamma\"][word=\"från\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈstamːa frɔn",
+      "stress_hint": "Main stress is on stam- in stamma.",
+      "audio": {
+        "file": "audio/lu_abstammen_von.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "stamma från"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "lexical_unit": {
+    "id": "lu_aus",
+    "source_de": {
+      "lu_de_raw": "aus",
+      "lu_de_normalized": "aus",
+      "gender_variants_de": [],
+      "pos_de": "preposition"
+    },
+    "lu_type": "single",
+    "lemma_sv": "från",
+    "display_sv": "från",
+    "name_sv": "från",
+    "pos": "preposition",
+    "cefr": "A1",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "från"
+    ],
+    "english_equivalent_en": "from",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Preposition; no inflection."
+    },
+    "derived_words_sv": [
+      {
+        "word": "härifrån",
+        "type_en": "other",
+        "meaning_en": "from here"
+      },
+      {
+        "word": "därifrån",
+        "type_en": "other",
+        "meaning_en": "from there"
+      },
+      {
+        "word": "varifrån",
+        "type_en": "other",
+        "meaning_en": "from where"
+      },
+      {
+        "word": "utifrån",
+        "type_en": "preposition",
+        "meaning_en": "from; based on (outside/from a perspective)"
+      },
+      {
+        "word": "ifrån",
+        "type_en": "preposition",
+        "meaning_en": "from (away from a place)"
+      }
+    ],
+    "synonyms_sv": [
+      "utifrån"
+    ],
+    "antonyms_sv": [
+      "till"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_origin",
+        "frame_name_en": "Origin",
+        "frame_slug": "origin",
+        "sense_id": "lu_aus:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_aus:1",
+        "frame_id": "frame_origin",
+        "meaning_en": "shows where someone or something comes from, or the starting point in time, distance, or comparison",
+        "how_to_use_en": [
+          "Put från before a place, time, or source.",
+          "Use it for a starting point: time, distance, or origin.",
+          "It can also mark what something differs from or is prevented from."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X från [plats/land]",
+            "meaning_en": "origin from a place",
+            "note_en": "Used for people/things with a geographical background."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "från [årtal/tid] (till/fram till Y)",
+            "meaning_en": "starting time",
+            "note_en": "Often paired with till or fram till for an end point."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "[antal] kilometer från [plats]",
+            "meaning_en": "distance from a place",
+            "note_en": ""
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "skilja sig från [något]",
+            "meaning_en": "differ from something",
+            "note_en": "Used in comparisons."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "rädda/stoppa någon från att + infinitive",
+            "meaning_en": "prevent someone from doing",
+            "note_en": "Från introduces the unwanted action."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using från when you mean direction/goal (to).",
+            "fix": "Use till for the goal: till Stockholm.",
+            "explain_en": "Från marks the source/start; till marks the destination."
+          },
+          {
+            "error": "Forgetting att after från before a verb.",
+            "fix": "Use från att + infinitive: från att begå ...",
+            "explain_en": "In this use, från introduces an action that is avoided/prevented."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "0a1e22c3f92fd6712feb15ef7fd9420fbfeb4acf",
+            "sv": "Runt ruinen ligger kyrkogården med gravar från tidig medeltid till idag.",
+            "en": "Around the ruin is the cemetery with graves from the early Middle Ages until today.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "gravar"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från tidig medeltid"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "till idag"
+              }
+            ],
+            "gloss": "from (time period)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ytterby",
+              "text_url": "https://sv.wikipedia.org/wiki/Ytterby",
+              "sentence_id": "66ac95f4",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "c52da95205e96bd2d32fa02dda4463864c82b2ef",
+            "sv": "Bush från Texas och den demokratiske guvernören Bill Clinton från Arkansas.",
+            "en": "Bush from Texas and the Democratic governor Bill Clinton from Arkansas.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Bush"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från Texas"
+              },
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Bill Clinton"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från Arkansas"
+              }
+            ],
+            "gloss": "from (place of origin)",
+            "level": "A1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Presidentvalet i USA 1992",
+              "text_url": "https://sv.wikipedia.org/wiki/Presidentvalet_i_USA_1992",
+              "sentence_id": "75764eda",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "8cfaa09851115ac163ad797fea26b07d022c171e",
+            "sv": "Majoriteten av Qatars invånare är arbetskraft från andra länder, tack vare oljeindustrin.",
+            "en": "Most of Qatar's inhabitants are labor from other countries, thanks to the oil industry.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "arbetskraft"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från andra länder"
+              }
+            ],
+            "gloss": "from (place/background)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Qatar",
+              "text_url": "https://sv.wikipedia.org/wiki/Qatar",
+              "sentence_id": "ca31d485",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "b4f55993d153778d8768d02717717a075c76be92",
+            "sv": "Han representerade delstaten Missouri i USA:s senat från 1873 fram till sin död.",
+            "en": "He represented the state of Missouri in the US Senate from 1873 until his death.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från 1873"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "fram till sin död"
+              }
+            ],
+            "gloss": "from (starting time)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lewis V. Bogy",
+              "text_url": "https://sv.wikipedia.org/wiki/Lewis_V._Bogy",
+              "sentence_id": "44538756",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "64054dadcf9f5402035f0778977490080506198f",
+            "sv": "Trasorna är i många fall smutsiga från början och kan ge infektioner snabbt.",
+            "en": "The rags are in many cases dirty from the beginning and can cause infections quickly.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Trasorna"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från början"
+              }
+            ],
+            "gloss": "from (the start)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kvinnors situation i Uganda",
+              "text_url": "https://sv.wikipedia.org/wiki/Kvinnors_situation_i_Uganda",
+              "sentence_id": "bfcc61c3",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "095e242c246775edef915c63b573ae07e8e4fded",
+            "sv": "• Den judiske köpmannen Aaron Isaac flyttar till Stockholm från Tyskland.",
+            "en": "The Jewish merchant Aaron Isaac moves to Stockholm from Germany.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Aaron Isaac"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från Tyskland"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "till Stockholm"
+              }
+            ],
+            "gloss": "from (place of origin)",
+            "level": "A1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "1774",
+              "text_url": "https://sv.wikipedia.org/wiki/1774",
+              "sentence_id": "e34a4fee",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "28981d7899866727fdae7e24038603b4dcc82bf1",
+            "sv": "Thailändsk massage skiljer sig på flera sätt från många västerländska massageformer.",
+            "en": "Thai massage differs in several ways from many Western massage forms.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Thailändsk massage"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från många västerländska massageformer"
+              }
+            ],
+            "gloss": "from (in comparison to)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Thailändsk massage",
+              "text_url": "https://sv.wikipedia.org/wiki/Thail%C3%A4ndsk_massage",
+              "sentence_id": "6779eab9",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "5e272c30bae3313f0fa36dbc3a825fec4b1602f5",
+            "sv": "Bond räddar en kvinna från att begå självmord, men kvinnan flyr.",
+            "en": "Bond saves a woman from committing suicide, but the woman runs away.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "en kvinna"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från att begå självmord"
+              }
+            ],
+            "gloss": "from (preventing something)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "I hennes majestäts hemliga tjänst",
+              "text_url": "https://sv.wikipedia.org/wiki/I_hennes_majest%C3%A4ts_hemliga_tj%C3%A4nst",
+              "sentence_id": "0fa278fc",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "5961e56e826ab0c6c25d7f8e038ecffc8a5c3b2d",
+            "sv": "Tidigare kallades byn Strömforsen vilket troligen kommer från ån som flyter genom byn.",
+            "en": "Earlier the village was called Strömforsen, which probably comes from the river that flows through the village.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "vilket"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från ån"
+              },
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "troligen"
+              }
+            ],
+            "gloss": "from (source/origin)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kovjoki",
+              "text_url": "https://sv.wikipedia.org/wiki/Kovjoki",
+              "sentence_id": "891efde0",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"från\"]"
+            }
+          },
+          {
+            "ex_id": "0e6e9d00083f74226fc86bf83c93fe1513bae81c",
+            "sv": "En del av kommunen har kuststräcka men centralorten ligger runt 15 kilometer från Medelhavet.",
+            "en": "Part of the municipality has a coastline, but the main town is about 15 kilometers from the Mediterranean Sea.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "centralorten"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från Medelhavet"
+              }
+            ],
+            "gloss": "from (distance from a place)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Elx",
+              "text_url": "https://sv.wikipedia.org/wiki/Elx",
+              "sentence_id": "57dd6e86",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"från\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "frɔːn",
+      "stress_hint": "Long å-sound; the word is stressed when it carries important information.",
+      "audio": {
+        "file": "audio/lu_aus.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "från"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

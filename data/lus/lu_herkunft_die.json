@@ -1,0 +1,503 @@
+{
+  "lexical_unit": {
+    "id": "lu_herkunft_die",
+    "source_de": {
+      "lu_de_raw": "Herkunft, die",
+      "lu_de_normalized": "Herkunft",
+      "gender_variants_de": [],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "ursprung",
+    "display_sv": "ursprung",
+    "name_sv": "ursprung",
+    "pos": "noun",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "ett ursprung",
+      "ursprunget",
+      "ursprung",
+      "ursprungen"
+    ],
+    "english_equivalent_en": "origin",
+    "morphology_sv": {
+      "noun": {
+        "gender": "ett",
+        "indef_sg": "ursprung",
+        "def_sg": "ursprunget",
+        "indef_pl": "ursprung",
+        "def_pl": "ursprungen",
+        "note_en": "Often used in singular; plural exists but is less common in everyday use."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "ursprunglig",
+        "type_en": "adjective",
+        "meaning_en": "original; from the beginning"
+      },
+      {
+        "word": "ursprungligen",
+        "type_en": "other",
+        "meaning_en": "originally"
+      },
+      {
+        "word": "ursprungsland",
+        "type_en": "noun",
+        "meaning_en": "country of origin"
+      },
+      {
+        "word": "ursprungsbefolkning",
+        "type_en": "noun",
+        "meaning_en": "Indigenous people"
+      },
+      {
+        "word": "ursprungsmyt",
+        "type_en": "noun",
+        "meaning_en": "origin myth"
+      }
+    ],
+    "synonyms_sv": [
+      "härkomst",
+      "bakgrund",
+      "ursprång",
+      "källa"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_origin",
+        "frame_name_en": "Origin",
+        "frame_slug": "origin",
+        "sense_id": "lu_herkunft_die:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_herkunft_die:1",
+        "frame_id": "frame_origin",
+        "meaning_en": "where something or someone comes from; the starting source or background.",
+        "how_to_use_en": [
+          "Use to talk about where something comes from (place, culture, cause, or history).",
+          "Common with “av … ursprung” and “ha sitt ursprung i …”.",
+          "Often used in factual descriptions (e.g., food, words, families, phenomena)."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X är av + (adjektiv) + ursprung",
+            "meaning_en": "X is of … origin",
+            "note_en": "Often describes type/source (e.g., volcanic, Chinese, English)."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "X har (ett) + (adjektiv) + ursprung",
+            "meaning_en": "X has a … origin",
+            "note_en": "Common with adjectives like oklart/okänt/gemensamt."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "X har sitt ursprung i + plats/orsak",
+            "meaning_en": "X originates in/from …",
+            "note_en": "Used for places and also causes (e.g., “i okunskap …”)."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "X är … med ursprung i + plats",
+            "meaning_en": "X is … with origin in …",
+            "note_en": "Often used for names, families, or groups."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *ursprung* for a person’s birthplace when you mean the exact place they were born.",
+            "fix": "Use “födelseort” for birthplace; use “ursprung” for background/origin.",
+            "explain_en": "Ursprung is broader (background/source), while födelseort is the specific birth place."
+          },
+          {
+            "error": "Saying *i ursprung* when you mean “of … origin”.",
+            "fix": "Say “av + adjective + ursprung” (e.g., “av vulkaniskt ursprung”).",
+            "explain_en": "The examples show the fixed pattern “av … ursprung” for type/source."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "934fd9d8b947c86123941926e1adde9db03c2e91",
+            "sv": "Ön är av vulkaniskt ursprung och har en areal om ca 1,5 km².",
+            "en": "The island is of volcanic origin and has an area of about 1.5 km².",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Ön"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "vulkaniskt ursprung"
+              },
+              {
+                "fe_id": "fe_source_type",
+                "span_sv": "vulkaniskt"
+              }
+            ],
+            "gloss": "origin",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Salt Island",
+              "text_url": "https://sv.wikipedia.org/wiki/Salt_Island",
+              "sentence_id": "7a01d88f",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"ursprung\"]"
+            }
+          },
+          {
+            "ex_id": "8901a538b455f792aa325aae773615b7afe5494c",
+            "sv": "Dess ursprung är okänt och är möjligen en förvildad variant av rybs.",
+            "en": "Its origin is unknown and it is possibly a wild variant of turnip rape.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Dess"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "okänt"
+              }
+            ],
+            "gloss": "origin",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Åkerkål",
+              "text_url": "https://sv.wikipedia.org/wiki/%C3%85kerk%C3%A5l",
+              "sentence_id": "9b07d03c",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"ursprung\"]"
+            }
+          },
+          {
+            "ex_id": "1fb7007329d4543bb5310e5e38b61350f01103c6",
+            "sv": "De flesta felaktiga särskrivningar har sitt ursprung i okunskap om i dag vedertagna skrivregler.",
+            "en": "Most incorrect split spellings have their origin in ignorance about writing rules accepted today.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "De flesta felaktiga särskrivningar"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "i okunskap om i dag vedertagna skrivregler"
+              }
+            ],
+            "gloss": "origin",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Särskrivning",
+              "text_url": "https://sv.wikipedia.org/wiki/S%C3%A4rskrivning",
+              "sentence_id": "5e8fd887",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"ursprung\"]"
+            }
+          },
+          {
+            "ex_id": "42811c588059d1c43e1a05a04af68a1edf398f11",
+            "sv": "Harry Belafonte var här viktig men hans calypso hade sitt ursprung i Jamaica.",
+            "en": "Harry Belafonte was important here, but his calypso had its origin in Jamaica.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "hans calypso"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "här"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "i Jamaica"
+              }
+            ],
+            "gloss": "origin",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Musik på Trinidad och Tobago",
+              "text_url": "https://sv.wikipedia.org/wiki/Musik_p%C3%A5_Trinidad_och_Tobago",
+              "sentence_id": "19db22e4",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"ursprung\"]"
+            }
+          },
+          {
+            "ex_id": "e32d42c53f5d568c40c03b20fc879651bdcc4fa8",
+            "sv": "Svartsjuk - ordet finns i svenskan sedan 1650 men har oklart ursprung.",
+            "en": "Jealous — the word has been in Swedish since 1650 but has an unclear origin.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "ordet"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "sedan 1650"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "oklart ursprung"
+              }
+            ],
+            "gloss": "origin",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Svart",
+              "text_url": "https://sv.wikipedia.org/wiki/Svart",
+              "sentence_id": "27e60a9c",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"ursprung\"]"
+            }
+          },
+          {
+            "ex_id": "9f1df8ae16d527d3870107c0a31c715ef6a1e7fd",
+            "sv": "Skragge är en svensk släkt och ett efternamn med ursprung i Norge.",
+            "en": "Skragge is a Swedish family and a surname with origin in Norway.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Skragge"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "i Norge"
+              }
+            ],
+            "gloss": "origin",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Skragge",
+              "text_url": "https://sv.wikipedia.org/wiki/Skragge",
+              "sentence_id": "a2cdaae2",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"ursprung\"]"
+            }
+          },
+          {
+            "ex_id": "afff310f90de634f633ddba4cc7a2e9942cdda60",
+            "sv": "Chow mein (kinesiska: 炒麵 chǎomiàn) är en maträtt av kinesiskt ursprung.",
+            "en": "Chow mein (Chinese: 炒麵 chǎomiàn) is a dish of Chinese origin.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Chow mein (kinesiska: 炒麵 chǎomiàn)"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "kinesiskt ursprung"
+              },
+              {
+                "fe_id": "fe_source_type",
+                "span_sv": "kinesiskt"
+              }
+            ],
+            "gloss": "origin",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Chow mein",
+              "text_url": "https://sv.wikipedia.org/wiki/Chow_mein",
+              "sentence_id": "e3ad4cf5",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"ursprung\"]"
+            }
+          },
+          {
+            "ex_id": "552fb70509fb66a1dce72574fc03c2cd0aa97414",
+            "sv": "Bissets mor är av engelskt och franskt ursprung; fadern är amerikansk.",
+            "en": "Bisset's mother is of English and French origin; the father is American.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Bissets mor"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "engelskt och franskt ursprung"
+              },
+              {
+                "fe_id": "fe_source_type",
+                "span_sv": "engelskt och franskt"
+              }
+            ],
+            "gloss": "origin",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jacqueline Bisset",
+              "text_url": "https://sv.wikipedia.org/wiki/Jacqueline_Bisset",
+              "sentence_id": "0788dc93",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"ursprung\"]"
+            }
+          },
+          {
+            "ex_id": "8a1864941c7a9e3369d1fcfb53744f541acbe395",
+            "sv": "Hanni tillhör således den släkt som har sitt ursprung i Västergötland.",
+            "en": "Hanni therefore belongs to the family that has its origin in Västergötland.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "den släkt"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "i Västergötland"
+              }
+            ],
+            "gloss": "origin",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Beronius",
+              "text_url": "https://sv.wikipedia.org/wiki/Beronius",
+              "sentence_id": "fa126cb1",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"ursprung\"]"
+            }
+          },
+          {
+            "ex_id": "fc5336414001fe12092cc805abe4663364a77a26",
+            "sv": "På grund av dessa organismers speciella flageller tror man att de har ett gemensamt ursprung.",
+            "en": "Because of these organisms' special flagella, people think that they have a common origin.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "de"
+              },
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "På grund av dessa organismers speciella flageller"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "ett gemensamt ursprung"
+              }
+            ],
+            "gloss": "origin",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kiselalger",
+              "text_url": "https://sv.wikipedia.org/wiki/Kiselalger",
+              "sentence_id": "158b2fca",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"ursprung\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈʉːʂprʉŋ",
+      "stress_hint": "Stress is on the first syllable: URS-.",
+      "audio": {
+        "file": "audio/lu_herkunft_die.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "ursprung (indefinite singular)",
+        "ursprunget (definite singular)",
+        "ursprung (indefinite plural)",
+        "ursprungen (definite plural)"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

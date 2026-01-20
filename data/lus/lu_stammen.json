@@ -1,0 +1,516 @@
+{
+  "lexical_unit": {
+    "id": "lu_stammen",
+    "source_de": {
+      "lu_de_raw": "stammen",
+      "lu_de_normalized": "stammen",
+      "gender_variants_de": [],
+      "pos_de": "verb"
+    },
+    "lu_type": "single",
+    "lemma_sv": "härstamma",
+    "display_sv": "härstamma",
+    "name_sv": "härstamma",
+    "pos": "verb",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "härstamma",
+      "härstammar",
+      "härstammade",
+      "härstammat"
+    ],
+    "english_equivalent_en": "originate from",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": "härstamma",
+        "present": "härstammar",
+        "past": "härstammade",
+        "supine": "härstammat",
+        "imperative": "härstamma",
+        "present_participle": "härstammande",
+        "past_participle": "härstammad",
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "härstamning",
+        "type_en": "noun",
+        "meaning_en": "origin; descent"
+      },
+      {
+        "word": "ursprung",
+        "type_en": "noun",
+        "meaning_en": "origin; source"
+      },
+      {
+        "word": "ursprunglig",
+        "type_en": "adjective",
+        "meaning_en": "original; from the beginning"
+      },
+      {
+        "word": "ursprungsland",
+        "type_en": "noun",
+        "meaning_en": "country of origin"
+      }
+    ],
+    "synonyms_sv": [
+      "komma från",
+      "ha sitt ursprung i",
+      "stamma från",
+      "härleda sig från"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_origin",
+        "frame_name_en": "Origin",
+        "frame_slug": "origin",
+        "sense_id": "lu_stammen:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_stammen:1",
+        "frame_id": "frame_origin",
+        "meaning_en": "to come from an earlier source, place, group, or time; to have an origin",
+        "how_to_use_en": [
+          "Use it to state where something comes from: härstamma från + origin.",
+          "Often used in factual or formal writing (history, science).",
+          "Can also be used about time: härstamma från + year/century."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "X härstammar från Y",
+            "meaning_en": "X originates from Y",
+            "note_en": "Common for animals, objects, diseases, and traditions."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "X anses/tros/lär/sägs (sig) härstamma från Y",
+            "meaning_en": "X is believed to originate from Y",
+            "note_en": "Often used when the origin is uncertain or reported."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "X härstammar från + tid (år/århundrade)",
+            "meaning_en": "X dates from a time",
+            "note_en": "Used for buildings, parts, ships, etc."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *härstamma* without från (e.g., *härstamma Indien*).",
+            "fix": "Use från: härstamma från Indien.",
+            "explain_en": "In the examples, the origin is introduced with från."
+          },
+          {
+            "error": "Using it for a person’s current location (meaning 'come from' as in travel).",
+            "fix": "Use komma från for simple everyday origin; use härstamma for deeper origin/roots.",
+            "explain_en": "Härstamma is typically about origin/roots, not where someone just arrived from."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "ddf301db6938546265bb86057e0355225da75d00",
+            "sv": "Smittan tros härstamma från fladdermöss som smittat andra djurarter och slutligen människan.",
+            "en": "The infection is believed to come from bats that infected other animal species and finally humans.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Smittan"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från fladdermöss"
+              },
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "tros"
+              }
+            ],
+            "gloss": "come from; originate from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Coronavirus",
+              "text_url": "https://sv.wikipedia.org/wiki/Coronavirus",
+              "sentence_id": "23959e0b",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"härstamma\"]"
+            }
+          },
+          {
+            "ex_id": "5dc332561b1361a3e3d3f0d52d818c45ec12c788",
+            "sv": "Schackspelet anses härstamma från Indien, och de siffror vi kallar arabiska har egentligen indiskt ursprung.",
+            "en": "Chess is considered to come from India, and the numbers we call Arabic actually have Indian origin.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Schackspelet"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från Indien"
+              },
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "anses"
+              }
+            ],
+            "gloss": "come from; originate from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Indien",
+              "text_url": "https://sv.wikipedia.org/wiki/Indien",
+              "sentence_id": "ef5497fd",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"härstamma\"]"
+            }
+          },
+          {
+            "ex_id": "cea9f258a5d968546d598422dce80a83aa35f0d0",
+            "sv": "Den europeiska kaninen anses härstamma från Spanien och spreds över Europa av romarna.",
+            "en": "The European rabbit is considered to come from Spain and was spread across Europe by the Romans.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Den europeiska kaninen"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från Spanien"
+              },
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "anses"
+              }
+            ],
+            "gloss": "come from; originate from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Europeisk kanin",
+              "text_url": "https://sv.wikipedia.org/wiki/Europeisk_kanin",
+              "sentence_id": "f315f86d",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"härstamma\"]"
+            }
+          },
+          {
+            "ex_id": "371d9cbf586d0753e32bfeba227dea94f2837a14",
+            "sv": "Olja tros härstamma främst från förhistoriska plankton och alger, medan växtdelar förvandlas till kol.",
+            "en": "Oil is believed to come mainly from prehistoric plankton and algae, while plant parts turn into coal.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Olja"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från förhistoriska plankton och alger"
+              },
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "tros"
+              }
+            ],
+            "gloss": "come from; originate from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Petroleum",
+              "text_url": "https://sv.wikipedia.org/wiki/Petroleum",
+              "sentence_id": "ee459406",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"härstamma\"]"
+            }
+          },
+          {
+            "ex_id": "f0384ed7e1e4008e8e824001721b66eecc340288",
+            "sv": "En stor del av El Salvadors befolkning säger sig dock härstamma från pipilerna.",
+            "en": "A large part of El Salvador's population says, however, that they come from the Pipil people.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "En stor del av El Salvadors befolkning"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från pipilerna"
+              },
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "säger sig"
+              }
+            ],
+            "gloss": "come from; be descended from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Pipiler",
+              "text_url": "https://sv.wikipedia.org/wiki/Pipiler",
+              "sentence_id": "4bba9348",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"härstamma\"]"
+            }
+          },
+          {
+            "ex_id": "4c05ff58d071f0901ff0fcfdc173d32c29ba1332",
+            "sv": "Aall var en ansedd norsk familj, som ursprungligen lär härstamma från Jylland.",
+            "en": "Aall was a respected Norwegian family, which originally is said to come from Jutland.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Aall"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från Jylland"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "ursprungligen"
+              },
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "lär"
+              }
+            ],
+            "gloss": "come from; originate from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Aall",
+              "text_url": "https://sv.wikipedia.org/wiki/Aall",
+              "sentence_id": "57e9957f",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"härstamma\"]"
+            }
+          },
+          {
+            "ex_id": "23b6587bfa1805a5af5fccfe68e037784f661b84",
+            "sv": "Sennenhundarna anses härstamma från molosserhundar som romarna lämnade efter sig på 400-talet.",
+            "en": "The Sennen dogs are considered to come from Molosser dogs that the Romans left behind in the 5th century.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Sennenhundarna"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från molosserhundar"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "på 400-talet"
+              },
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "anses"
+              }
+            ],
+            "gloss": "come from; be descended from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sennenhund",
+              "text_url": "https://sv.wikipedia.org/wiki/Sennenhund",
+              "sentence_id": "1b9dbf35",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"härstamma\"]"
+            }
+          },
+          {
+            "ex_id": "b1c58d8e81f61ed83e599da02f3cc0d98d185c6f",
+            "sv": "Ett ägg som påstods härstamma från dronten finns på museet East London i Sydafrika.",
+            "en": "An egg that was claimed to come from the dodo is in the East London museum in South Africa.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "Ett ägg"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "från dronten"
+              },
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "påstods"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "på museet East London i Sydafrika"
+              }
+            ],
+            "gloss": "come from; originate from",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Dront",
+              "text_url": "https://sv.wikipedia.org/wiki/Dront",
+              "sentence_id": "b6ded58a",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"härstamma\"]"
+            }
+          },
+          {
+            "ex_id": "1785b9ec41f603a6557d5f482afe66604835e32d",
+            "sv": "Med hänsyn till nödvändig träbearbetning inom varvsindustrin uppskattas det skeppet härstamma från cirka 1195.",
+            "en": "Considering necessary wood processing in the shipyard industry, that ship is estimated to date from about 1195.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "det skeppet"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "från cirka 1195"
+              },
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "uppskattas"
+              }
+            ],
+            "gloss": "date from; originate from (a time)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Galtabäcksskeppet",
+              "text_url": "https://sv.wikipedia.org/wiki/Galtab%C3%A4cksskeppet",
+              "sentence_id": "dad125b8",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"härstamma\"]"
+            }
+          },
+          {
+            "ex_id": "00b77883bc300f3ebe73847b18a8a25a6da89721",
+            "sv": "De äldsta delarna härstamma från 1100-talet och kyrkan nämns i handlingarna första gången år 1375.",
+            "en": "The oldest parts date from the 12th century and the church is mentioned in the documents for the first time in the year 1375.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "De äldsta delarna"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "från 1100-talet"
+              }
+            ],
+            "gloss": "date from; originate from (a time)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mellby gamla kyrka",
+              "text_url": "https://sv.wikipedia.org/wiki/Mellby_gamla_kyrka",
+              "sentence_id": "76fd9f8a",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"härstamma\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈhɛːrˌstamːa",
+      "stress_hint": "Main stress on här-, with a clear double m sound.",
+      "audio": {
+        "file": "audio/lu_stammen.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "härstamma",
+        "härstammar",
+        "härstammade",
+        "härstammat"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

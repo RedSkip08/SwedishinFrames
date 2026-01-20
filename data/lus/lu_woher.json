@@ -1,0 +1,463 @@
+{
+  "lexical_unit": {
+    "id": "lu_woher",
+    "source_de": {
+      "lu_de_raw": "woher",
+      "lu_de_normalized": "woher",
+      "gender_variants_de": [],
+      "pos_de": "ADV/WH"
+    },
+    "lu_type": "single",
+    "lemma_sv": "varifrån",
+    "display_sv": "varifrån",
+    "name_sv": "varifrån",
+    "pos": "adverb",
+    "cefr": "A2",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "varifrån"
+    ],
+    "english_equivalent_en": "from where",
+    "morphology_sv": {
+      "noun": {
+        "gender": null,
+        "indef_sg": null,
+        "def_sg": null,
+        "indef_pl": null,
+        "def_pl": null,
+        "note_en": ""
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": "Adverb (question/relative): no inflection."
+    },
+    "derived_words_sv": [
+      {
+        "word": "var",
+        "type_en": "other",
+        "meaning_en": "where"
+      },
+      {
+        "word": "vart",
+        "type_en": "other",
+        "meaning_en": "to where (destination)"
+      },
+      {
+        "word": "härifrån",
+        "type_en": "other",
+        "meaning_en": "from here"
+      },
+      {
+        "word": "därifrån",
+        "type_en": "other",
+        "meaning_en": "from there"
+      },
+      {
+        "word": "någonstans ifrån",
+        "type_en": "other",
+        "meaning_en": "from somewhere"
+      }
+    ],
+    "synonyms_sv": [
+      "från var",
+      "varifrån då"
+    ],
+    "antonyms_sv": [],
+    "linked_frames": [
+      {
+        "frame_id": "frame_origin",
+        "frame_name_en": "Origin",
+        "frame_slug": "origin",
+        "sense_id": "lu_woher:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_woher:1",
+        "frame_id": "frame_origin",
+        "meaning_en": "from what place; from where something or someone comes",
+        "how_to_use_en": [
+          "Use to ask or state an origin/source.",
+          "Often introduces a clause after a place noun (like “from which”).",
+          "Common in written/formal style."
+        ],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "…, [Origin] varifrån [Entity] + verb",
+            "meaning_en": "from which place something happens",
+            "note_en": "Often follows a noun phrase naming the place/source."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "utläsa/höra … varifrån [Entity] + verb",
+            "meaning_en": "tell where someone/something comes from",
+            "note_en": "Used with evidence like numbers or dialect."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "teorier om varifrån [Entity] kommer",
+            "meaning_en": "theories about an origin",
+            "note_en": "Common with words, ideas, traditions, etc."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "Det var inte … varifrån [Entity] kom …",
+            "meaning_en": "focus on origin (contrast)",
+            "note_en": "Often used in contrasts: not where from, but something else."
+          }
+        ],
+        "common_errors_en": [
+          {
+            "error": "Using *varifrån* when you mean destination (to where).",
+            "fix": "Use *vart* for destination.",
+            "explain_en": "*Varifrån* is about origin/source; *vart* is about where someone/something is going."
+          },
+          {
+            "error": "Mixing up *varifrån* with *var* in statements.",
+            "fix": "Use *var* for location, *varifrån* for origin.",
+            "explain_en": "*Var* answers “where (is it)?” while *varifrån* answers “from where (does it come)?”"
+          }
+        ],
+        "required_example_count": 10,
+        "examples": [
+          {
+            "ex_id": "f46afb7bf7659ea2faacbef3d009e7ce6c23f823",
+            "sv": "Nedanför berget ligger Kebnekaise fjällstation, varifrån toppturer med guide utgår.",
+            "en": "Below the mountain is the Kebnekaise mountain station, from where guided summit trips start.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "Kebnekaise fjällstation"
+              },
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "toppturer med guide"
+              }
+            ],
+            "gloss": "varifrån = from where",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kebnekaise",
+              "text_url": "https://sv.wikipedia.org/wiki/Kebnekaise",
+              "sentence_id": "0cdfb96b",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"varifrån\"]"
+            }
+          },
+          {
+            "ex_id": "314de2f6d0775320d2bcfa53be10771a055873d9",
+            "sv": "På varje plan finns gallerior runt ljusgården varifrån man når samtliga rum.",
+            "en": "On each floor there are galleries around the atrium, from where you reach all the rooms.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "gallerior runt ljusgården"
+              },
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "man"
+              }
+            ],
+            "gloss": "varifrån = from where",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Barnhusbarnet 1",
+              "text_url": "https://sv.wikipedia.org/wiki/Barnhusbarnet_1",
+              "sentence_id": "53291265",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"varifrån\"]"
+            }
+          },
+          {
+            "ex_id": "282cb982c9453bbd9f55d22702a7c8a837c0941d",
+            "sv": "Inom området finns det även två husgrunder och en uthuggen källa, varifrån färskvatten hämtades.",
+            "en": "In the area there are also two house foundations and a carved-out spring, from where fresh water was fetched.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "en uthuggen källa"
+              },
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "färskvatten"
+              }
+            ],
+            "gloss": "varifrån = from where",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Borgberget (Ytterlännäs)",
+              "text_url": "https://sv.wikipedia.org/wiki/Borgberget_(Ytterl%C3%A4nn%C3%A4s)",
+              "sentence_id": "d00bad5b",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"varifrån\"]"
+            }
+          },
+          {
+            "ex_id": "63251d1d7acd71c4b8dae786ff546cd0d47e0881",
+            "sv": "Idag används den som utsiktstorn, varifrån man i bra väder kan se Sveriges kust.",
+            "en": "Today it is used as a lookout tower, from where in good weather you can see Sweden's coast.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "utsiktstorn"
+              },
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "man"
+              }
+            ],
+            "gloss": "varifrån = from where",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hammeren",
+              "text_url": "https://sv.wikipedia.org/wiki/Hammeren",
+              "sentence_id": "36a4b0ff",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"varifrån\"]"
+            }
+          },
+          {
+            "ex_id": "35d73050b47b37a05c7fbac087b0c742559ae73b",
+            "sv": "Makarska har en busstation varifrån bussar går till många städer, både i Kroatien och andra länder.",
+            "en": "Makarska has a bus station from where buses go to many cities, both in Croatia and other countries.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "en busstation"
+              },
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "bussar"
+              }
+            ],
+            "gloss": "varifrån = from where",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Makarska",
+              "text_url": "https://sv.wikipedia.org/wiki/Makarska",
+              "sentence_id": "b409ec8f",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"varifrån\"]"
+            }
+          },
+          {
+            "ex_id": "08149121a60d9e93ce5e0937b5e5937fa6778b85",
+            "sv": "Därefter reste hon till Danmark, varifrån hon skrev till svenska myndigheterna och anmälde sig själv.",
+            "en": "After that she travelled to Denmark, from where she wrote to the Swedish authorities and reported herself.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_origin",
+                "span_sv": "Danmark"
+              }
+            ],
+            "gloss": "varifrån = from where",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ulrika Eleonora Stålhammar",
+              "text_url": "https://sv.wikipedia.org/wiki/Ulrika_Eleonora_St%C3%A5lhammar",
+              "sentence_id": "ae25b1e4",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"varifrån\"]"
+            }
+          },
+          {
+            "ex_id": "c92dfdb2d1bd52c0cf02be96701057ab8ed66228",
+            "sv": "Av de två första siffrorna kan man utläsa varifrån fordonet kommer, det vill säga är registrerat.",
+            "en": "From the first two digits you can read where the vehicle comes from, that is, where it is registered.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "fordonet"
+              },
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "de två första siffrorna"
+              }
+            ],
+            "gloss": "varifrån = from where",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Registreringsskylt",
+              "text_url": "https://sv.wikipedia.org/wiki/Registreringsskylt",
+              "sentence_id": "79e1e013",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"varifrån\"]"
+            }
+          },
+          {
+            "ex_id": "e76bf6e7d6e1adabae5edeec840cc9bc75812c93",
+            "sv": "Man hör lätt på en utjämnad dialekt ungefär varifrån talaren härstammar.",
+            "en": "You can easily hear from a levelled-out dialect roughly where the speaker comes from.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "talaren"
+              },
+              {
+                "fe_id": "fe_evidence",
+                "span_sv": "en utjämnad dialekt"
+              }
+            ],
+            "gloss": "varifrån = from where",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Dialekt",
+              "text_url": "https://sv.wikipedia.org/wiki/Dialekt",
+              "sentence_id": "2467760a",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"varifrån\"]"
+            }
+          },
+          {
+            "ex_id": "2370e5a257d5099acae6ee12bf179b4c310cb8ce",
+            "sv": "Det var inte intressant varifrån du kom utan vad du ägde.",
+            "en": "It was not interesting where you came from but what you owned.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "du"
+              }
+            ],
+            "gloss": "varifrån = from where",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Grevinnan Mariza",
+              "text_url": "https://sv.wikipedia.org/wiki/Grevinnan_Mariza",
+              "sentence_id": "b049aaf8",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"varifrån\"]"
+            }
+          },
+          {
+            "ex_id": "0c4464a59844e1f72206f70086f69d9fb2fc31f5",
+            "sv": "Det finns flera olika teorier om varifrån ordet” ska” kommer.",
+            "en": "There are several different theories about where the word “ska” comes from.",
+            "frame_id": "frame_origin",
+            "fe_tags": [
+              {
+                "fe_id": "fe_entity",
+                "span_sv": "ordet” ska”"
+              }
+            ],
+            "gloss": "varifrån = from where",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ska",
+              "text_url": "https://sv.wikipedia.org/wiki/Ska",
+              "sentence_id": "7a058687",
+              "retrieved_at": "2026-01-20T14:44:53+00:00",
+              "korp_query": "[word=\"varifrån\"]"
+            }
+          }
+        ]
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈvɑːrɪfrɔːn",
+      "stress_hint": "Stress is on the first part: VAR-.",
+      "audio": {
+        "file": "audio/lu_woher.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "varifrån"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}
