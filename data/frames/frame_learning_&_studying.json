@@ -1,0 +1,578 @@
+{
+  "frame": {
+    "id": "frame_learning_&_studying",
+    "name_en": "Learning & Studying",
+    "slug": "learning_&_studying",
+    "frame_description_en": "This frame is about a situation where a Learner works to gain knowledge or skill in a Subject. The Learner may use specific Material and follow a particular Method, often connected to an Institution such as a school or course provider. The learning can happen at a certain Time and last for a certain Duration, and it may be done to reach a Goal (for example a qualification) or to prepare for an Assessment (such as a test or exam).",
+    "frame_description_html": "This frame is about a situation where a <span class=\"Learner\">Learner</span> works to gain knowledge or skill in a <span class=\"Subject\">Subject</span>. The <span class=\"Learner\">Learner</span> may use specific <span class=\"Material\">Material</span> and follow a particular <span class=\"Method\">Method</span>, often connected to an <span class=\"Institution\">Institution</span> such as a school or course provider. The learning can happen at a certain <span class=\"Time\">Time</span> and last for a certain <span class=\"Duration\">Duration</span>, and it may be done to reach a <span class=\"Goal\">Goal</span> (for example a qualification) or to prepare for an <span class=\"Assessment\">Assessment</span> (such as a test or exam).",
+    "frame_description_fe_mentions": [
+      {
+        "fe_id": "fe_learner",
+        "span_en": "Learner"
+      },
+      {
+        "fe_id": "fe_subject",
+        "span_en": "Subject"
+      },
+      {
+        "fe_id": "fe_material",
+        "span_en": "Material"
+      },
+      {
+        "fe_id": "fe_method",
+        "span_en": "Method"
+      },
+      {
+        "fe_id": "fe_institution",
+        "span_en": "Institution"
+      },
+      {
+        "fe_id": "fe_time",
+        "span_en": "Time"
+      },
+      {
+        "fe_id": "fe_duration",
+        "span_en": "Duration"
+      },
+      {
+        "fe_id": "fe_goal",
+        "span_en": "Goal"
+      },
+      {
+        "fe_id": "fe_assessment",
+        "span_en": "Assessment"
+      }
+    ],
+    "elements": [
+      {
+        "id": "fe_learner",
+        "name": "Learner",
+        "published": 1,
+        "description_en": "The person who is doing the learning or studying.",
+        "description_html": "The person who is doing the <span class=\"Learner\">Learner</span>’s learning or studying."
+      },
+      {
+        "id": "fe_subject",
+        "name": "Subject",
+        "published": 1,
+        "description_en": "What is being learned or studied (a topic, skill, or field).",
+        "description_html": "What is being learned or studied (a topic, skill, or field): <span class=\"Subject\">Subject</span>."
+      },
+      {
+        "id": "fe_material",
+        "name": "Material",
+        "published": 1,
+        "description_en": "The resources used for learning, such as books, notes, websites, or exercises.",
+        "description_html": "The resources used for learning, such as books, notes, websites, or exercises: <span class=\"Material\">Material</span>."
+      },
+      {
+        "id": "fe_goal",
+        "name": "Goal",
+        "published": 1,
+        "description_en": "The intended result of the learning, such as getting a qualification or being accepted somewhere.",
+        "description_html": "The intended result of the learning, such as getting a qualification or being accepted somewhere: <span class=\"Goal\">Goal</span>."
+      },
+      {
+        "id": "fe_assessment",
+        "name": "Assessment",
+        "published": 1,
+        "description_en": "A test, exam, or other evaluation that the learning is connected to or preparing for.",
+        "description_html": "A test, exam, or other evaluation that the learning is connected to or preparing for: <span class=\"Assessment\">Assessment</span>."
+      },
+      {
+        "id": "fe_institution",
+        "name": "Institution",
+        "published": 1,
+        "description_en": "The organization or place where studying happens, such as a school, university, or course provider.",
+        "description_html": "The organization or place where studying happens, such as a school, university, or course provider: <span class=\"Institution\">Institution</span>."
+      },
+      {
+        "id": "fe_time",
+        "name": "Time",
+        "published": 1,
+        "description_en": "When the learning or studying happens (a date, period, or point in time).",
+        "description_html": "When the learning or studying happens (a date, period, or point in time): <span class=\"Time\">Time</span>."
+      },
+      {
+        "id": "fe_duration",
+        "name": "Duration",
+        "published": 1,
+        "description_en": "How long the learning or studying takes.",
+        "description_html": "How long the learning or studying takes: <span class=\"Duration\">Duration</span>."
+      },
+      {
+        "id": "fe_method",
+        "name": "Method",
+        "published": 1,
+        "description_en": "How the learning is done, for example reading, practising, memorising, or studying together/online.",
+        "description_html": "How the learning is done, for example reading, practising, memorising, or studying together/online: <span class=\"Method\">Method</span>."
+      }
+    ],
+    "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
+    "examples": [
+      {
+        "ex_id": "cb4b91de849356cd8ddfd9d493c8151480512175",
+        "sv": "Mattecentrum står bakom webbtjänsten Matteboken.se, ett gratisverktyg för att plugga matematik på nätet.",
+        "en": "Mattecentrum is behind the web service Matteboken.se, a free tool to study maths online.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_material",
+            "span_sv": "webbtjänsten Matteboken.se, ett gratisverktyg"
+          },
+          {
+            "fe_id": "fe_subject",
+            "span_sv": "matematik"
+          },
+          {
+            "fe_id": "fe_method",
+            "span_sv": "på nätet"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Mattecentrum",
+          "text_url": "https://sv.wikipedia.org/wiki/Mattecentrum",
+          "sentence_id": "d0007dc6",
+          "retrieved_at": "2026-01-20T18:24:01+00:00",
+          "korp_query": "[word=\"plugga\"]"
+        }
+      },
+      {
+        "ex_id": "6301a2ee731b46a2072267f0f2ff2fc650cd967a",
+        "sv": "Lina börjar plugga till veterinär på en gymnasieskola i Bramhed, 45 mil hemifrån.",
+        "en": "Lina starts studying to become a veterinarian at an upper secondary school in Bramhed, 450 km from home.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_learner",
+            "span_sv": "Lina"
+          },
+          {
+            "fe_id": "fe_goal",
+            "span_sv": "till veterinär"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "en gymnasieskola i Bramhed"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Linas kvällsbok 2: Två killar och ett hjärta",
+          "text_url": "https://sv.wikipedia.org/wiki/Linas_kv%C3%A4llsbok_2:_Tv%C3%A5_killar_och_ett_hj%C3%A4rta",
+          "sentence_id": "c714691f",
+          "retrieved_at": "2026-01-20T18:24:01+00:00",
+          "korp_query": "[word=\"plugga\"]"
+        }
+      },
+      {
+        "ex_id": "8c0dd5c192ae48bc5cf3d0dec8d6a300facf4340",
+        "sv": "Hon och Keitaro börjar plugga tillsammans för att komma in på Todai tillsammans.",
+        "en": "She and Keitaro start studying together in order to get into Todai together.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_learner",
+            "span_sv": "Hon och Keitaro"
+          },
+          {
+            "fe_id": "fe_method",
+            "span_sv": "tillsammans"
+          },
+          {
+            "fe_id": "fe_goal",
+            "span_sv": "för att komma in på Todai"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Love Hina",
+          "text_url": "https://sv.wikipedia.org/wiki/Love_Hina",
+          "sentence_id": "58d78ff5",
+          "retrieved_at": "2026-01-20T18:24:01+00:00",
+          "korp_query": "[word=\"plugga\"]"
+        }
+      },
+      {
+        "ex_id": "01b84de9a66b98985898e4dd45fbed735df6a55f",
+        "sv": "1985 började hon studera matematik på University of California, San Diego.",
+        "en": "In 1985 she began to study mathematics at the University of California, San Diego.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_time",
+            "span_sv": "1985"
+          },
+          {
+            "fe_id": "fe_learner",
+            "span_sv": "hon"
+          },
+          {
+            "fe_id": "fe_subject",
+            "span_sv": "matematik"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "University of California, San Diego"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Nicole Mitchell (musiker)",
+          "text_url": "https://sv.wikipedia.org/wiki/Nicole_Mitchell_(musiker)",
+          "sentence_id": "bf97580b",
+          "retrieved_at": "2026-01-20T18:24:01+00:00",
+          "korp_query": "[word=\"studera\"]"
+        }
+      },
+      {
+        "ex_id": "90adbf2ab32df964bee028ac08d227210f3a4937",
+        "sv": "Dessutom tog det ungefär en månad för honom att lära sig ett främmande språk.",
+        "en": "Also, it took about a month for him to learn a foreign language.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_duration",
+            "span_sv": "ungefär en månad"
+          },
+          {
+            "fe_id": "fe_learner",
+            "span_sv": "honom"
+          },
+          {
+            "fe_id": "fe_subject",
+            "span_sv": "ett främmande språk"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Kim Ung-yong",
+          "text_url": "https://sv.wikipedia.org/wiki/Kim_Ung-yong",
+          "sentence_id": "fd4ec408",
+          "retrieved_at": "2026-01-20T18:24:01+00:00",
+          "korp_query": "[word=\"lära\"][word=\"sig\"]"
+        }
+      },
+      {
+        "ex_id": "8797ecc4b640bed68ef3d5233ceaf9634a7b2429",
+        "sv": "På grund av detta är onsdagar ofta lektionsfria, där eleven själv ska studera under eget ansvar.",
+        "en": "Because of this, Wednesdays are often free of lessons, where the student must study on their own responsibility.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_time",
+            "span_sv": "onsdagar"
+          },
+          {
+            "fe_id": "fe_learner",
+            "span_sv": "eleven"
+          },
+          {
+            "fe_id": "fe_method",
+            "span_sv": "under eget ansvar"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Donnergymnasiet",
+          "text_url": "https://sv.wikipedia.org/wiki/Donnergymnasiet",
+          "sentence_id": "a3c26933",
+          "retrieved_at": "2026-01-20T18:24:01+00:00",
+          "korp_query": "[word=\"studera\"]"
+        }
+      },
+      {
+        "ex_id": "7ba2c0a6ad8306d0143919a9b5ba87d52eaf7621",
+        "sv": "Han tog studentexamen i juni 1908, och kunde genom ett stipendium skriva in sig vid Uppsala universitet senare samma år.",
+        "en": "He took his school-leaving exam in June 1908, and with a scholarship he could enroll at Uppsala University later the same year.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_learner",
+            "span_sv": "Han"
+          },
+          {
+            "fe_id": "fe_assessment",
+            "span_sv": "studentexamen"
+          },
+          {
+            "fe_id": "fe_time",
+            "span_sv": "i juni 1908"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "vid Uppsala universitet"
+          },
+          {
+            "fe_id": "fe_time",
+            "span_sv": "senare samma år"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Knut Lundmark",
+          "text_url": "https://sv.wikipedia.org/wiki/Knut_Lundmark",
+          "sentence_id": "143d3efb",
+          "retrieved_at": "2026-01-20T18:24:01+00:00",
+          "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+        }
+      }
+    ],
+    "linked_lexical_units": [
+      {
+        "lu_id": "lu_lernen_für_den__einen_test",
+        "display_sv": "plugga",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_lernen_für_den__einen_test:1"
+      },
+      {
+        "lu_id": "lu_studieren",
+        "display_sv": "studera",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_studieren:1"
+      },
+      {
+        "lu_id": "lu_lernen",
+        "display_sv": "lära sig",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_lernen:1"
+      },
+      {
+        "lu_id": "lu_büffeln",
+        "display_sv": "råplugga",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_büffeln:1"
+      },
+      {
+        "lu_id": "lu_schwänzen",
+        "display_sv": "skolka",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_schwänzen:1"
+      },
+      {
+        "lu_id": "lu_einschreiben_sich_einschreiben",
+        "display_sv": "skriva in sig",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_einschreiben_sich_einschreiben:1"
+      },
+      {
+        "lu_id": "lu_immatrikulieren_sich_immatrikulieren",
+        "display_sv": "skriva in sig",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_immatrikulieren_sich_immatrikulieren:1"
+      }
+    ],
+    "confusable_with": []
+  },
+  "constructions": [
+    {
+      "cxn_id": "cxn_1",
+      "cxn_name_linguistic_sv": "X pluggar Y",
+      "cxn_name_user_friendly_en": "Studying a subject",
+      "pattern": "SUBJ + V(plugga) + OBJ",
+      "meaning_en": "Someone studies a subject/topic.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_learner"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_subject"
+        }
+      ],
+      "usage_notes_en": [
+        "The subject is expressed as a direct object (no preposition)."
+      ],
+      "examples": [
+        {
+          "ex_id": "cb4b91de849356cd8ddfd9d493c8151480512175",
+          "sv": "Mattecentrum står bakom webbtjänsten Matteboken.se, ett gratisverktyg för att plugga matematik på nätet.",
+          "en": "Mattecentrum is behind the web service Matteboken.se, a free tool to study maths online.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_material",
+              "span_sv": "webbtjänsten Matteboken.se, ett gratisverktyg"
+            },
+            {
+              "fe_id": "fe_subject",
+              "span_sv": "matematik"
+            },
+            {
+              "fe_id": "fe_method",
+              "span_sv": "på nätet"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Mattecentrum",
+            "text_url": "https://sv.wikipedia.org/wiki/Mattecentrum",
+            "sentence_id": "d0007dc6",
+            "retrieved_at": "2026-01-20T18:24:01+00:00",
+            "korp_query": "[word=\"plugga\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_2",
+      "cxn_name_linguistic_sv": "X pluggar för Y",
+      "cxn_name_user_friendly_en": "Studying for a goal",
+      "pattern": "V(plugga) + PP-för",
+      "meaning_en": "Someone studies in order to achieve a result/goal.",
+      "frame_mapping": [
+        {
+          "slot": "PP-för",
+          "maps_to_fe_id": "fe_goal"
+        }
+      ],
+      "usage_notes_en": [
+        "The goal is expressed with för + noun phrase."
+      ],
+      "examples": [
+        {
+          "ex_id": "e39a09f8a8d070f4692f763cf1c296bb109c09db",
+          "sv": "Yttre motivation handlar om att undvika bestraffningar och erhålla belöningar, till exempel att plugga för betygen.",
+          "en": "External motivation is about avoiding punishments and getting rewards, for example studying for the grades.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_goal",
+              "span_sv": "för betygen"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Motivation",
+            "text_url": "https://sv.wikipedia.org/wiki/Motivation",
+            "sentence_id": "e34a4802",
+            "retrieved_at": "2026-01-20T18:24:01+00:00",
+            "korp_query": "[word=\"plugga\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_3",
+      "cxn_name_linguistic_sv": "X skriver in sig vid/på Y",
+      "cxn_name_user_friendly_en": "Enrolling at an institution",
+      "pattern": "SUBJ + V(skriva in sig) + PP-vid/på",
+      "meaning_en": "Someone enrolls/registers themselves at an institution.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_learner"
+        },
+        {
+          "slot": "PP-vid/på",
+          "maps_to_fe_id": "fe_institution"
+        }
+      ],
+      "usage_notes_en": [
+        "The institution is expressed with vid or på."
+      ],
+      "examples": [
+        {
+          "ex_id": "94606187eb466f033dc04d14be4d92f89e7a7dbd",
+          "sv": "• 1962 – Den färgade studenten James Meredith hindras att skriva in sig vid University of Mississippi.",
+          "en": "1962 – The Black student James Meredith is prevented from enrolling at the University of Mississippi.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_time",
+              "span_sv": "1962"
+            },
+            {
+              "fe_id": "fe_learner",
+              "span_sv": "James Meredith"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "vid University of Mississippi"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "20 september",
+            "text_url": "https://sv.wikipedia.org/wiki/20_september",
+            "sentence_id": "aa9dc9ad",
+            "retrieved_at": "2026-01-20T18:24:01+00:00",
+            "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+          }
+        },
+        {
+          "ex_id": "1aef38d9c49a0c11171b89edfe92ae56b057163e",
+          "sv": "Han var den yngste eleven någonsin att skriva in sig på skolan.",
+          "en": "He was the youngest student ever to enroll at the school.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_learner",
+              "span_sv": "Han"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "på skolan"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Timo K. Mukka",
+            "text_url": "https://sv.wikipedia.org/wiki/Timo_K._Mukka",
+            "sentence_id": "726fda5b",
+            "retrieved_at": "2026-01-20T18:24:01+00:00",
+            "korp_query": "[word=\"skriva\"][word=\"in\"][word=\"sig\"]"
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_examples": 5,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true
+  }
+}

@@ -22,12 +22,12 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "professor",
+      "en professor",
       "professorn",
       "professorer",
       "professorerna"
     ],
-    "english_equivalent_en": "university professor",
+    "english_equivalent_en": "professor",
     "morphology_sv": {
       "noun": {
         "gender": "en",
@@ -35,7 +35,7 @@
         "def_sg": "professorn",
         "indef_pl": "professorer",
         "def_pl": "professorerna",
-        "note_en": "Job title at a university; used for people of any gender."
+        "note_en": "Job title at a university; used with en-forms."
       },
       "verb": {
         "infinitive": null,
@@ -60,7 +60,7 @@
       {
         "word": "professur",
         "type_en": "noun",
-        "meaning_en": "a professor position/chair at a university"
+        "meaning_en": "a professorship (a professor position)"
       },
       {
         "word": "professorskollega",
@@ -68,74 +68,80 @@
         "meaning_en": "a colleague who is a professor"
       },
       {
-        "word": "professorsstol",
-        "type_en": "noun",
-        "meaning_en": "a professor’s chair/position (academic post)"
-      },
-      {
         "word": "professorsdotter",
         "type_en": "noun",
-        "meaning_en": "a professor’s daughter (family relation word)"
+        "meaning_en": "a professor’s daughter (family word)"
+      },
+      {
+        "word": "professorsson",
+        "type_en": "noun",
+        "meaning_en": "a professor’s son (family word)"
       }
     ],
     "synonyms_sv": [
-      "universitetsprofessor",
+      "universitetslärare",
       "lärare"
     ],
     "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_people",
+        "frame_name_en": "People",
+        "frame_slug": "people",
         "sense_id": "lu_professor_der_professor__die_professorin:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_professor_der_professor__die_professorin:1",
-        "frame_id": "frame_education",
-        "meaning_en": "a senior university teacher and researcher, often responsible for a subject area",
+        "frame_id": "frame_people",
+        "meaning_en": "a university teacher and researcher with the title professor",
         "how_to_use_en": [
           "Use for a person’s academic title at a university.",
-          "Often followed by i + subject and/or vid + university."
+          "Often followed by i + subject area and/or vid + university."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "vara professor i + ÄMNE",
+            "pattern": "vara professor i + [ämne]",
             "meaning_en": "be a professor of a subject",
-            "note_en": "Used to state the academic field."
+            "note_en": "Used to name the academic field."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "vara professor vid + INSTITUTION",
+            "pattern": "vara professor vid + [universitet/institution]",
             "meaning_en": "be a professor at an institution",
-            "note_en": "Common with universities and faculties."
+            "note_en": "Vid introduces the university or faculty."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "vara professor i + ÄMNE + vid + INSTITUTION",
-            "meaning_en": "be a professor of X at Y",
-            "note_en": "Combines field and workplace."
+            "pattern": "bli professor (där) + [årtal]",
+            "meaning_en": "become a professor (there)",
+            "note_en": "Often used in biographies with a year."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "bli professor (där) + ÅRTAL",
-            "meaning_en": "become a professor (there) + year",
-            "note_en": "Often used in biographies."
+            "pattern": "idag professor vid + [universitet]",
+            "meaning_en": "today a professor at",
+            "note_en": "Common in short descriptions of a person."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "tillförordnad professor vid + [institution]",
+            "meaning_en": "acting professor at",
+            "note_en": "Tillförordnad means temporary/acting."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using professor for any school teacher.",
-            "fix": "Use lärare for general teacher; use professor for university title.",
-            "explain_en": "In Swedish, professor is mainly a university title, as in the examples."
+            "error": "Using *på* for the institution in this sense (e.g., *professor på universitetet*).",
+            "fix": "Use vid for the institution (e.g., professor vid Uppsala universitet).",
+            "explain_en": "In the examples, the institution is introduced with vid."
           },
           {
-            "error": "Forgetting the preposition in subject/institution phrases.",
-            "fix": "Say professor i + ämne, professor vid + universitet.",
-            "explain_en": "The examples show i for the subject and vid for the institution."
+            "error": "Forgetting i before the subject area (e.g., *professor juridik*).",
+            "fix": "Use professor i + field (e.g., professor i juridik).",
+            "explain_en": "The field is expressed with i in the examples."
           }
         ],
         "required_example_count": 10,
@@ -144,14 +150,18 @@
             "ex_id": "3f99fc2ed1c93c67ebd84a372bac6f08a31c815c",
             "sv": "Åren 1895-1922 var han professor i latinska språket och litteraturen vid Uppsala universitet.",
             "en": "In the years 1895–1922 he was a professor of the Latin language and literature at Uppsala University.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
                 "span_sv": "han"
               },
               {
-                "fe_id": "fe_subject",
+                "fe_id": "fe_role",
+                "span_sv": "professor"
+              },
+              {
+                "fe_id": "fe_field",
                 "span_sv": "latinska språket och litteraturen"
               },
               {
@@ -159,7 +169,7 @@
                 "span_sv": "Uppsala universitet"
               }
             ],
-            "gloss": "professor (university teacher)",
+            "gloss": "professor (university teacher/researcher)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -170,7 +180,7 @@
               "text_title": "Per Persson (språkvetare)",
               "text_url": "https://sv.wikipedia.org/wiki/Per_Persson_(spr%C3%A5kvetare)",
               "sentence_id": "49f721b7",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
@@ -178,18 +188,22 @@
             "ex_id": "50426bfaa41068705897cf4ec0e1b556abc11363",
             "sv": "Ansvarig för utvecklingen var Mats Leijon, idag professor vid Uppsala universitet.",
             "en": "Responsible for the development was Mats Leijon, today a professor at Uppsala University.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
                 "span_sv": "Mats Leijon"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "professor"
               },
               {
                 "fe_id": "fe_institution",
                 "span_sv": "Uppsala universitet"
               }
             ],
-            "gloss": "professor (university teacher)",
+            "gloss": "professor (university teacher/researcher)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -200,7 +214,7 @@
               "text_title": "Powerformer",
               "text_url": "https://sv.wikipedia.org/wiki/Powerformer",
               "sentence_id": "a071a167",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
@@ -208,18 +222,22 @@
             "ex_id": "db5917a2e98322b92174ec3a553311ecb9ca70c6",
             "sv": "Han var lärare och senare tillförordnad professor vid Åbo Akademi 1966-1977.",
             "en": "He was a teacher and later acting professor at Åbo Akademi in 1966–1977.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
                 "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "tillförordnad professor"
               },
               {
                 "fe_id": "fe_institution",
                 "span_sv": "Åbo Akademi"
               }
             ],
-            "gloss": "professor (university teacher)",
+            "gloss": "professor (university teacher/researcher)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -230,7 +248,7 @@
               "text_title": "Per Stenius (kemist)",
               "text_url": "https://sv.wikipedia.org/wiki/Per_Stenius_(kemist)",
               "sentence_id": "a2d797c2",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
@@ -238,18 +256,22 @@
             "ex_id": "e4729591dd9459f051b43330b9ebe7afd9a1c4d9",
             "sv": "Han anslöt sig till fysikfakulteten vid Columbia 1946 och blev professor där 1952.",
             "en": "He joined the physics faculty at Columbia in 1946 and became a professor there in 1952.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
                 "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "professor"
               },
               {
                 "fe_id": "fe_institution",
                 "span_sv": "Columbia"
               }
             ],
-            "gloss": "professor (university teacher)",
+            "gloss": "professor (university teacher/researcher)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -260,7 +282,7 @@
               "text_title": "James Rainwater",
               "text_url": "https://sv.wikipedia.org/wiki/James_Rainwater",
               "sentence_id": "2a51956a",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
@@ -268,18 +290,22 @@
             "ex_id": "5f837b3152f2b4fdf376ec56d1dbfef664f406a0",
             "sv": "Han fick en post vid Johns Hopkins University och blev professor där 1937.",
             "en": "He got a position at Johns Hopkins University and became a professor there in 1937.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
                 "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "professor"
               },
               {
                 "fe_id": "fe_institution",
                 "span_sv": "Johns Hopkins University"
               }
             ],
-            "gloss": "professor (university teacher)",
+            "gloss": "professor (university teacher/researcher)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -290,7 +316,7 @@
               "text_title": "Oscar Zariski",
               "text_url": "https://sv.wikipedia.org/wiki/Oscar_Zariski",
               "sentence_id": "b9dbd1be",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
@@ -298,14 +324,18 @@
             "ex_id": "645da7823568f66057ad99bc960f9647b7d4bb5a",
             "sv": "Dan Egonsson, född 1956, är professor i praktisk filosofi vid Lunds universitet.",
             "en": "Dan Egonsson, born in 1956, is a professor of practical philosophy at Lund University.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
                 "span_sv": "Dan Egonsson"
               },
               {
-                "fe_id": "fe_subject",
+                "fe_id": "fe_role",
+                "span_sv": "professor"
+              },
+              {
+                "fe_id": "fe_field",
                 "span_sv": "praktisk filosofi"
               },
               {
@@ -313,7 +343,7 @@
                 "span_sv": "Lunds universitet"
               }
             ],
-            "gloss": "professor (university teacher)",
+            "gloss": "professor (university teacher/researcher)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -324,7 +354,7 @@
               "text_title": "Dan Egonsson",
               "text_url": "https://sv.wikipedia.org/wiki/Dan_Egonsson",
               "sentence_id": "8eab09ea",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
@@ -332,14 +362,18 @@
             "ex_id": "a6a4f0d651f6a6f3cf8616271fb35c9935bcb16c",
             "sv": "Vid sin död var hon professor i etik och statsvetenskap vid Stanford University.",
             "en": "At her death she was a professor of ethics and political science at Stanford University.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
                 "span_sv": "hon"
               },
               {
-                "fe_id": "fe_subject",
+                "fe_id": "fe_role",
+                "span_sv": "professor"
+              },
+              {
+                "fe_id": "fe_field",
                 "span_sv": "etik och statsvetenskap"
               },
               {
@@ -347,7 +381,7 @@
                 "span_sv": "Stanford University"
               }
             ],
-            "gloss": "professor (university teacher)",
+            "gloss": "professor (university teacher/researcher)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -358,26 +392,30 @@
               "text_title": "Susan Moller Okin",
               "text_url": "https://sv.wikipedia.org/wiki/Susan_Moller_Okin",
               "sentence_id": "4f543df9",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
           {
             "ex_id": "e487e0a40272ab77662c1829caba0f0a8209b660",
             "sv": "Den senare var professor i juridik och Sveriges utrikesminister under två perioder.",
-            "en": "The latter was a professor of law and Sweden's foreign minister during two periods.",
-            "frame_id": "frame_education",
+            "en": "The latter was a professor of law and Sweden's foreign minister for two periods.",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_group",
                 "span_sv": "Den senare"
               },
               {
-                "fe_id": "fe_subject",
+                "fe_id": "fe_role",
+                "span_sv": "professor"
+              },
+              {
+                "fe_id": "fe_field",
                 "span_sv": "juridik"
               }
             ],
-            "gloss": "professor (university teacher)",
+            "gloss": "professor (university teacher/researcher)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -388,30 +426,30 @@
               "text_title": "Viktor Undén",
               "text_url": "https://sv.wikipedia.org/wiki/Viktor_Und%C3%A9n",
               "sentence_id": "70494b30",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
           {
-            "ex_id": "9a572e3d5a25d120d0b4b605a174ef2bd6888520",
-            "sv": "Han var professor i pedagogik och didaktik vid Helsingfors universitet 1862 – 1882.",
-            "en": "He was a professor of pedagogy and didactics at the University of Helsinki in 1862–1882.",
-            "frame_id": "frame_education",
+            "ex_id": "39b0ab38011c883cb217234fb1cb735b6c249986",
+            "sv": "Oosterzee blev 1863 teologie professor och predikant vid universitetet i Utrecht.",
+            "en": "Oosterzee became in 1863 a professor of theology and a preacher at the University of Utrecht.",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
-                "span_sv": "Han"
+                "fe_id": "fe_person",
+                "span_sv": "Oosterzee"
               },
               {
-                "fe_id": "fe_subject",
-                "span_sv": "pedagogik och didaktik"
+                "fe_id": "fe_role",
+                "span_sv": "teologie professor"
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "Helsingfors universitet"
+                "span_sv": "universitetet i Utrecht"
               }
             ],
-            "gloss": "professor (university teacher)",
+            "gloss": "professor (university teacher/researcher)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -419,10 +457,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Zacharias Joachim Cleve",
-              "text_url": "https://sv.wikipedia.org/wiki/Zacharias_Joachim_Cleve",
-              "sentence_id": "32192bf9",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "text_title": "Johannes Jacobus van Oosterzee",
+              "text_url": "https://sv.wikipedia.org/wiki/Johannes_Jacobus_van_Oosterzee",
+              "sentence_id": "40cc1382",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           },
@@ -430,14 +468,18 @@
             "ex_id": "5e8ff8f837f8904ac7d85ff31afebc13bb617712",
             "sv": "Martha Minow är professor i juridik vid Harvard Universitys juridiska fakultet.",
             "en": "Martha Minow is a professor of law at Harvard University's law faculty.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
                 "span_sv": "Martha Minow"
               },
               {
-                "fe_id": "fe_subject",
+                "fe_id": "fe_role",
+                "span_sv": "professor"
+              },
+              {
+                "fe_id": "fe_field",
                 "span_sv": "juridik"
               },
               {
@@ -445,7 +487,7 @@
                 "span_sv": "Harvard Universitys juridiska fakultet"
               }
             ],
-            "gloss": "professor (university teacher)",
+            "gloss": "professor (university teacher/researcher)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -456,7 +498,7 @@
               "text_title": "Martha Minow",
               "text_url": "https://sv.wikipedia.org/wiki/Martha_Minow",
               "sentence_id": "b40c54e4",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"professor\"]"
             }
           }
@@ -465,7 +507,7 @@
     ],
     "pronunciation": {
       "ipa": "prʊˈfɛsːʊr",
-      "stress_hint": "Stress is on the last part: pro-FESS-or.",
+      "stress_hint": "Stress is on the second syllable: pro-FESS-or.",
       "audio": {
         "file": "audio/lu_professor_der_professor__die_professorin.mp3",
         "model": "gpt-4o-mini-tts",
@@ -475,7 +517,7 @@
     },
     "morphology": {
       "principal_parts": [
-        "en professor",
+        "professor",
         "professorn",
         "professorer",
         "professorerna"

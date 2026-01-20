@@ -1,0 +1,112 @@
+{
+  "frame": {
+    "id": "frame_graduating",
+    "name_en": "Graduating",
+    "slug": "graduating",
+    "frame_description_en": "This frame describes a situation where a Graduate finishes an educational program at an Institution and is officially recognized as having completed it. The Graduate may receive a Degree, often after completing certain Requirements in a particular Field_of_study. The completion can be marked by an Event, and it can be located in Time and Place.",
+    "frame_description_html": "This frame describes a situation where a <span class=\"Graduate\">Graduate</span> finishes an educational program at an <span class=\"Institution\">Institution</span> and is officially recognized as having completed it. The <span class=\"Graduate\">Graduate</span> may receive a <span class=\"Degree\">Degree</span>, often after completing certain <span class=\"Requirements\">Requirements</span> in a particular <span class=\"Field_of_study\">Field_of_study</span>. The completion can be marked by an <span class=\"Event\">Event</span>, and it can be located in <span class=\"Time\">Time</span> and <span class=\"Place\">Place</span>.",
+    "frame_description_fe_mentions": [
+      {
+        "fe_id": "fe_graduate",
+        "span_en": "Graduate"
+      },
+      {
+        "fe_id": "fe_institution",
+        "span_en": "Institution"
+      },
+      {
+        "fe_id": "fe_degree",
+        "span_en": "Degree"
+      },
+      {
+        "fe_id": "fe_requirements",
+        "span_en": "Requirements"
+      },
+      {
+        "fe_id": "fe_field_of_study",
+        "span_en": "Field_of_study"
+      },
+      {
+        "fe_id": "fe_event",
+        "span_en": "Event"
+      },
+      {
+        "fe_id": "fe_time",
+        "span_en": "Time"
+      },
+      {
+        "fe_id": "fe_place",
+        "span_en": "Place"
+      }
+    ],
+    "elements": [
+      {
+        "id": "fe_graduate",
+        "name": "Graduate",
+        "published": 1,
+        "description_en": "The person who finishes the studies and is recognized as having completed them.",
+        "description_html": "The person who finishes the studies and is recognized as having completed them."
+      },
+      {
+        "id": "fe_institution",
+        "name": "Institution",
+        "published": 1,
+        "description_en": "The school, university, or program where the Graduate studied and from which they finish.",
+        "description_html": "The school, university, or program where the <span class=\"Graduate\">Graduate</span> studied and from which they finish."
+      },
+      {
+        "id": "fe_degree",
+        "name": "Degree",
+        "published": 1,
+        "description_en": "The qualification or diploma that the Graduate is awarded for completing the program.",
+        "description_html": "The qualification or diploma that the <span class=\"Graduate\">Graduate</span> is awarded for completing the program."
+      },
+      {
+        "id": "fe_field_of_study",
+        "name": "Field_of_study",
+        "published": 1,
+        "description_en": "The subject area that the Graduate studied in the program.",
+        "description_html": "The subject area that the <span class=\"Graduate\">Graduate</span> studied in the program."
+      },
+      {
+        "id": "fe_requirements",
+        "name": "Requirements",
+        "published": 1,
+        "description_en": "The conditions that must be completed in order to graduate (for example credits, exams, or a thesis).",
+        "description_html": "The conditions that must be completed in order to graduate (for example credits, exams, or a thesis)."
+      },
+      {
+        "id": "fe_event",
+        "name": "Event",
+        "published": 1,
+        "description_en": "The graduation ceremony or other occasion that marks the completion.",
+        "description_html": "The graduation ceremony or other occasion that marks the completion."
+      },
+      {
+        "id": "fe_time",
+        "name": "Time",
+        "published": 1,
+        "description_en": "When the graduation (or the graduation Event) happens.",
+        "description_html": "When the graduation (or the graduation <span class=\"Event\">Event</span>) happens."
+      },
+      {
+        "id": "fe_place",
+        "name": "Place",
+        "published": 1,
+        "description_en": "Where the graduation or the graduation Event happens.",
+        "description_html": "Where the graduation or the graduation <span class=\"Event\">Event</span>) happens."
+      }
+    ],
+    "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
+    "examples": [],
+    "linked_lexical_units": [],
+    "confusable_with": []
+  },
+  "constructions": [],
+  "constraints": {
+    "min_examples": 5,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true
+  }
+}

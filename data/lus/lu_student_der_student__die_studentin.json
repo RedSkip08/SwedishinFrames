@@ -3,7 +3,7 @@
     "id": "lu_student_der_student__die_studentin",
     "source_de": {
       "lu_de_raw": "Student: der Student / die Studentin",
-      "lu_de_normalized": "Student",
+      "lu_de_normalized": "Student/Studentin",
       "gender_variants_de": [
         "der Student",
         "die Studentin"
@@ -15,14 +15,14 @@
     "display_sv": "student",
     "name_sv": "student",
     "pos": "noun",
-    "cefr": "A1",
+    "cefr": "A2",
     "multiword": {
       "mwe_type": null,
       "components_sv": [],
       "spacing_notes_en": ""
     },
     "forms": [
-      "en student",
+      "student",
       "studenten",
       "studenter",
       "studenterna"
@@ -35,7 +35,7 @@
         "def_sg": "studenten",
         "indef_pl": "studenter",
         "def_pl": "studenterna",
-        "note_en": "Often used about someone studying at a university or similar institution."
+        "note_en": ""
       },
       "verb": {
         "infinitive": null,
@@ -60,12 +60,12 @@
       {
         "word": "studentliv",
         "type_en": "noun",
-        "meaning_en": "life as a student"
+        "meaning_en": "student life"
       },
       {
         "word": "studentbostad",
         "type_en": "noun",
-        "meaning_en": "housing for students"
+        "meaning_en": "student housing"
       },
       {
         "word": "studentkår",
@@ -75,81 +75,74 @@
       {
         "word": "studentexamen",
         "type_en": "noun",
-        "meaning_en": "upper secondary graduation exam (traditional term)"
+        "meaning_en": "upper secondary graduation exam"
       },
       {
         "word": "studentmössa",
         "type_en": "noun",
-        "meaning_en": "traditional student cap"
+        "meaning_en": "traditional graduation cap"
       }
     ],
     "synonyms_sv": [
       "studerande",
       "universitetsstudent",
-      "högskolestudent",
-      "elev"
+      "högskolestudent"
     ],
     "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_people",
+        "frame_name_en": "People",
+        "frame_slug": "people",
         "sense_id": "lu_student_der_student__die_studentin:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_student_der_student__die_studentin:1",
-        "frame_id": "frame_education",
-        "meaning_en": "a person who studies at a school, college, or university",
+        "frame_id": "frame_people",
+        "meaning_en": "a person who studies, especially at a university or similar school",
         "how_to_use_en": [
-          "Use about someone enrolled in education, often at a university.",
-          "Common after verbs like vara (“be”) and bli (“become”).",
-          "Often followed by a place with på/vid (“at”)."
+          "Use for someone enrolled in education (often university).",
+          "Often followed by a place/institution: i Uppsala, vid ett universitet."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "X är student",
             "meaning_en": "X is a student",
-            "note_en": ""
+            "note_en": "States someone’s role/occupation."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "en student som + verb",
-            "meaning_en": "a student who does something",
-            "note_en": "Used to add information about the student."
+            "pattern": "bli student (vid + Institution)",
+            "meaning_en": "become a student at",
+            "note_en": "Common in biographies for starting studies at an institution."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "som student på + Institution",
-            "meaning_en": "as a student at an institution",
-            "note_en": ""
+            "pattern": "student vid + Institution",
+            "meaning_en": "student at an institution",
+            "note_en": "Used to specify where someone studies."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "bli student vid + Institution",
-            "meaning_en": "become a student at",
-            "note_en": "Often used in biographies about starting university."
+            "pattern": "student i + Place",
+            "meaning_en": "student in a place",
+            "note_en": "Used when the city stands for the university there."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "intagen som student vid + Institution",
-            "meaning_en": "admitted as a student at",
-            "note_en": ""
+            "pattern": "som student (på/vid + Institution)",
+            "meaning_en": "as a student at",
+            "note_en": "Gives background for what someone did while studying."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *student* for any school pupil.",
-            "fix": "Use elev for school; use student especially for university/college.",
-            "explain_en": "In Swedish, student often suggests higher education, while elev is more general for school."
-          },
-          {
-            "error": "Wrong preposition: *student i universitetet*.",
-            "fix": "Say student vid/på universitetet.",
-            "explain_en": "The examples use vid/på for institutions."
+            "error": "Using *student* for a school pupil in general.",
+            "fix": "Use elev for a pupil; use student mainly for higher education.",
+            "explain_en": "In Swedish, student often means university/college student, not any learner."
           }
         ],
         "required_example_count": 10,
@@ -157,15 +150,19 @@
           {
             "ex_id": "d9e6aa8c60bb6fa737b51ae9b86602908071ce8f",
             "sv": "(ordagrant: denne mans hans son student är) Denne mans son är student.",
-            "en": "(literally: this man's his son student is) This man's son is a student.",
-            "frame_id": "frame_education",
+            "en": "(word for word: this man's his son student is) This man's son is a student.",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_person",
                 "span_sv": "Denne mans son"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "student"
               }
             ],
-            "gloss": "student (person who studies at a school/university)",
+            "gloss": "student",
             "level": "A1",
             "origin": "korp",
             "source": {
@@ -176,157 +173,7 @@
               "text_title": "Hindi",
               "text_url": "https://sv.wikipedia.org/wiki/Hindi",
               "sentence_id": "1b9b02fd",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"student\"]"
-            }
-          },
-          {
-            "ex_id": "f6c349740da2d9b26afb38b09e7a53333e1a091f",
-            "sv": "Amanuens kan även vara en student som anställts för att undervisa studenter som inte kommit lika långt i utbildningen.",
-            "en": "An assistant can also be a student who has been employed to teach students who have not come as far in the education.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "en student"
-              },
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "undervisa"
-              }
-            ],
-            "gloss": "student (person who studies)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Amanuens",
-              "text_url": "https://sv.wikipedia.org/wiki/Amanuens",
-              "sentence_id": "f7899b71",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"student\"]"
-            }
-          },
-          {
-            "ex_id": "53ba1b46e5552146b3f92637e5b3b8f866e1ea76",
-            "sv": "Karolina är en nyseparerad konstprofessor som handleder en student med en sensationell infallsvinkel på en kvinnlig symbolist.",
-            "en": "Karolina is a newly separated art professor who supervises a student with a sensational angle on a female symbolist.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "konstprofessor"
-              },
-              {
-                "fe_id": "fe_student",
-                "span_sv": "en student"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "en kvinnlig symbolist"
-              }
-            ],
-            "gloss": "student (learner at a university)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Aftonland (roman)",
-              "text_url": "https://sv.wikipedia.org/wiki/Aftonland_(roman)",
-              "sentence_id": "d4113be7",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"student\"]"
-            }
-          },
-          {
-            "ex_id": "5e0394684eb5d3c274d18c76f4c624aef4883e88",
-            "sv": "Som student på Fresno State University innehar Luczak rekord i antal NCAA-mästerskapstitlar.",
-            "en": "As a student at Fresno State University, Luczak holds the record in number of NCAA championship titles.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "student"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Fresno State University"
-              }
-            ],
-            "gloss": "student (person enrolled at an institution)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Peter Luczak",
-              "text_url": "https://sv.wikipedia.org/wiki/Peter_Luczak",
-              "sentence_id": "8ade559f",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"student\"]"
-            }
-          },
-          {
-            "ex_id": "ad177ddc85ed248cb29bec191447f03ed0bc1f61",
-            "sv": "Det innebär att den placerade helst varken skall se som traditionellt anställd hushållspersonal eller som en traditionell student.",
-            "en": "That means that the placed person preferably should be seen neither as traditionally employed household staff nor as a traditional student.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "en traditionell student"
-              }
-            ],
-            "gloss": "student (person in education)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Europeiska au pair-avtalet",
-              "text_url": "https://sv.wikipedia.org/wiki/Europeiska_au_pair-avtalet",
-              "sentence_id": "b07baa5c",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"student\"]"
-            }
-          },
-          {
-            "ex_id": "dc52858930c09a81a84bb70ddfc756e59236be6a",
-            "sv": "År 1923 blev han intagen som student vid Boulleskolan, där han studerade fram till 1926.",
-            "en": "In 1923 he was admitted as a student at Boulleskolan, where he studied until 1926.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Boulleskolan"
-              }
-            ],
-            "gloss": "student (admitted learner at a school)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Gustave Singier",
-              "text_url": "https://sv.wikipedia.org/wiki/Gustave_Singier",
-              "sentence_id": "076f87a6",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"student\"]"
             }
           },
@@ -334,18 +181,26 @@
             "ex_id": "aadd36cdd90286dcd2a98e2c4ebdbb48113df719",
             "sv": "Wallman studerade i Linköping och blev 1730 student vid Uppsala universitet.",
             "en": "Wallman studied in Linköping and in 1730 became a student at Uppsala University.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_person",
                 "span_sv": "Wallman"
+              },
+              {
+                "fe_id": "fe_activity",
+                "span_sv": "studerade"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "student"
               },
               {
                 "fe_id": "fe_institution",
                 "span_sv": "Uppsala universitet"
               }
             ],
-            "gloss": "student (person enrolled at a university)",
+            "gloss": "student",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -356,7 +211,7 @@
               "text_title": "Daniel Wallman",
               "text_url": "https://sv.wikipedia.org/wiki/Daniel_Wallman",
               "sentence_id": "3dae0b82",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"student\"]"
             }
           },
@@ -364,22 +219,22 @@
             "ex_id": "2d74d08197df5cbf18b403582cb88b1150d114c2",
             "sv": "Han blev student vid Lunds universitet 1854 och avlade officersexamen 1855.",
             "en": "He became a student at Lund University in 1854 and took an officer exam in 1855.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_person",
                 "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "student"
               },
               {
                 "fe_id": "fe_institution",
                 "span_sv": "Lunds universitet"
-              },
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "officersexamen"
               }
             ],
-            "gloss": "student (person enrolled at a university)",
+            "gloss": "student",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -390,7 +245,113 @@
               "text_title": "Henrik Rappe",
               "text_url": "https://sv.wikipedia.org/wiki/Henrik_Rappe",
               "sentence_id": "4bb6ba23",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
+              "korp_query": "[word=\"student\"]"
+            }
+          },
+          {
+            "ex_id": "5096389cc49ae248dae3444f3a107a05485e211d",
+            "sv": "Westrin blev 1869 student vid Uppsala universitet och 1875 filosofie doktor.",
+            "en": "Westrin became a student at Uppsala University in 1869 and in 1875 a Doctor of Philosophy.",
+            "frame_id": "frame_people",
+            "fe_tags": [
+              {
+                "fe_id": "fe_person",
+                "span_sv": "Westrin"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "student"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Uppsala universitet"
+              }
+            ],
+            "gloss": "student",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Theodor Westrin",
+              "text_url": "https://sv.wikipedia.org/wiki/Theodor_Westrin",
+              "sentence_id": "e0003a89",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
+              "korp_query": "[word=\"student\"]"
+            }
+          },
+          {
+            "ex_id": "dc52858930c09a81a84bb70ddfc756e59236be6a",
+            "sv": "År 1923 blev han intagen som student vid Boulleskolan, där han studerade fram till 1926.",
+            "en": "In 1923 he was admitted as a student at Boulleskolan, where he studied until 1926.",
+            "frame_id": "frame_people",
+            "fe_tags": [
+              {
+                "fe_id": "fe_person",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "student"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Boulleskolan"
+              },
+              {
+                "fe_id": "fe_activity",
+                "span_sv": "studerade"
+              }
+            ],
+            "gloss": "student",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gustave Singier",
+              "text_url": "https://sv.wikipedia.org/wiki/Gustave_Singier",
+              "sentence_id": "076f87a6",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
+              "korp_query": "[word=\"student\"]"
+            }
+          },
+          {
+            "ex_id": "8ef365522cc2dd87c582ec9a02e3b024d4d4fde6",
+            "sv": "Palmqvist blev vårterminen 1838 student vid Kungliga Musikaliska Akademien i Stockholm.",
+            "en": "Palmqvist became a student in the spring term of 1838 at the Royal College of Music in Stockholm.",
+            "frame_id": "frame_people",
+            "fe_tags": [
+              {
+                "fe_id": "fe_person",
+                "span_sv": "Palmqvist"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "student"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Kungliga Musikaliska Akademien i Stockholm"
+              }
+            ],
+            "gloss": "student",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Per Palmqvist",
+              "text_url": "https://sv.wikipedia.org/wiki/Per_Palmqvist",
+              "sentence_id": "b39c974c",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"student\"]"
             }
           },
@@ -398,18 +359,22 @@
             "ex_id": "ce7ab55d675b205f872cd9409dffc595fe7ca674",
             "sv": "Han var först elev vid Linköpings gymnasium och blev senare student i Uppsala.",
             "en": "He was first a pupil at Linköping upper secondary school and later became a student in Uppsala.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_person",
                 "span_sv": "Han"
               },
               {
+                "fe_id": "fe_role",
+                "span_sv": "student"
+              },
+              {
                 "fe_id": "fe_institution",
-                "span_sv": "Linköpings gymnasium"
+                "span_sv": "Uppsala"
               }
             ],
-            "gloss": "student (person studying, especially at university)",
+            "gloss": "student",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -420,41 +385,109 @@
               "text_title": "Lars Anders Chierlin",
               "text_url": "https://sv.wikipedia.org/wiki/Lars_Anders_Chierlin",
               "sentence_id": "d32c16c3",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"student\"]"
             }
           },
           {
-            "ex_id": "f42c178aff8a5e8544694675b2bc5251dc9501c7",
-            "sv": "Han blev student vid Uppsala universitet 18 år gammal och filosofie kandidat där 1841.",
-            "en": "He became a student at Uppsala University at 18 years old and a Bachelor of Philosophy there in 1841.",
-            "frame_id": "frame_education",
+            "ex_id": "5e0394684eb5d3c274d18c76f4c624aef4883e88",
+            "sv": "Som student på Fresno State University innehar Luczak rekord i antal NCAA-mästerskapstitlar.",
+            "en": "As a student at Fresno State University, Luczak holds the record for the number of NCAA championship titles.",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "Han"
+                "fe_id": "fe_person",
+                "span_sv": "Luczak"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "student"
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "Uppsala universitet"
-              },
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "student"
+                "span_sv": "Fresno State University"
               }
             ],
-            "gloss": "student (person enrolled at a university)",
-            "level": "A2",
+            "gloss": "student",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Anton Niklas Sundberg",
-              "text_url": "https://sv.wikipedia.org/wiki/Anton_Niklas_Sundberg",
-              "sentence_id": "8ee0e649",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "text_title": "Peter Luczak",
+              "text_url": "https://sv.wikipedia.org/wiki/Peter_Luczak",
+              "sentence_id": "8ade559f",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
+              "korp_query": "[word=\"student\"]"
+            }
+          },
+          {
+            "ex_id": "f6c349740da2d9b26afb38b09e7a53333e1a091f",
+            "sv": "Amanuens kan även vara en student som anställts för att undervisa studenter som inte kommit lika långt i utbildningen.",
+            "en": "An assistant can also be a student who has been employed to teach students who have not come as far in the education.",
+            "frame_id": "frame_people",
+            "fe_tags": [
+              {
+                "fe_id": "fe_role",
+                "span_sv": "student"
+              },
+              {
+                "fe_id": "fe_activity",
+                "span_sv": "undervisa"
+              },
+              {
+                "fe_id": "fe_group",
+                "span_sv": "studenter"
+              }
+            ],
+            "gloss": "student",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Amanuens",
+              "text_url": "https://sv.wikipedia.org/wiki/Amanuens",
+              "sentence_id": "f7899b71",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
+              "korp_query": "[word=\"student\"]"
+            }
+          },
+          {
+            "ex_id": "53ba1b46e5552146b3f92637e5b3b8f866e1ea76",
+            "sv": "Karolina är en nyseparerad konstprofessor som handleder en student med en sensationell infallsvinkel på en kvinnlig symbolist.",
+            "en": "Karolina is a newly separated art professor who supervises a student with a sensational angle on a female symbolist.",
+            "frame_id": "frame_people",
+            "fe_tags": [
+              {
+                "fe_id": "fe_person",
+                "span_sv": "en student"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "student"
+              },
+              {
+                "fe_id": "fe_field",
+                "span_sv": "konst"
+              }
+            ],
+            "gloss": "student",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Aftonland (roman)",
+              "text_url": "https://sv.wikipedia.org/wiki/Aftonland_(roman)",
+              "sentence_id": "d4113be7",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"student\"]"
             }
           }
@@ -473,10 +506,7 @@
     },
     "morphology": {
       "principal_parts": [
-        "student",
-        "studenten",
-        "studenter",
-        "studenterna"
+        "student (en) – studenten – studenter – studenterna"
       ],
       "particle_or_reflexive": null
     }

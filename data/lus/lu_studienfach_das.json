@@ -8,9 +8,9 @@
       "pos_de": "noun"
     },
     "lu_type": "single",
-    "lemma_sv": "ämne",
-    "display_sv": "ämne",
-    "name_sv": "ämne",
+    "lemma_sv": "huvudämne",
+    "display_sv": "huvudämne",
+    "name_sv": "huvudämne",
     "pos": "noun",
     "cefr": "A2",
     "multiword": {
@@ -19,20 +19,20 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "ett ämne",
-      "ämnet",
-      "ämnen",
-      "ämnena"
+      "ett huvudämne",
+      "huvudämnet",
+      "huvudämnen",
+      "huvudämnena"
     ],
-    "english_equivalent_en": "school subject",
+    "english_equivalent_en": "major subject",
     "morphology_sv": {
       "noun": {
         "gender": "ett",
-        "indef_sg": "ämne",
-        "def_sg": "ämnet",
-        "indef_pl": "ämnen",
-        "def_pl": "ämnena",
-        "note_en": "In this sense, it means a subject you study in school or university."
+        "indef_sg": "huvudämne",
+        "def_sg": "huvudämnet",
+        "indef_pl": "huvudämnen",
+        "def_pl": "huvudämnena",
+        "note_en": "A neuter noun (ett-word)."
       },
       "verb": {
         "infinitive": null,
@@ -55,165 +55,176 @@
     },
     "derived_words_sv": [
       {
-        "word": "skolämne",
+        "word": "huvudämnesstudier",
         "type_en": "noun",
-        "meaning_en": "a subject taught in school"
+        "meaning_en": "studies in the main subject"
       },
       {
-        "word": "ämneslärare",
+        "word": "huvudämneskurs",
         "type_en": "noun",
-        "meaning_en": "teacher for a specific subject"
+        "meaning_en": "course in the main subject"
       },
       {
-        "word": "ämnesplan",
+        "word": "huvudämnesval",
         "type_en": "noun",
-        "meaning_en": "syllabus/plan for a subject"
+        "meaning_en": "choice of main subject"
       },
       {
-        "word": "ämnesområde",
+        "word": "huvudämneslärare",
         "type_en": "noun",
-        "meaning_en": "subject area, field of study"
-      },
-      {
-        "word": "ämneskunskap",
-        "type_en": "noun",
-        "meaning_en": "knowledge in a subject"
+        "meaning_en": "teacher in the main subject"
       }
     ],
     "synonyms_sv": [
-      "skolämne",
-      "studieämne",
-      "disciplin",
-      "läroämne",
-      "ämnesområde"
+      "huvudområde",
+      "huvudinriktning",
+      "inriktning",
+      "specialisering",
+      "ämne"
     ],
-    "antonyms_sv": [],
+    "antonyms_sv": [
+      "biämne"
+    ],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_classes_&_courses",
+        "frame_name_en": "Classes & Courses",
+        "frame_slug": "classes_&_courses",
         "sense_id": "lu_studienfach_das:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_studienfach_das:1",
-        "frame_id": "frame_education",
-        "meaning_en": "a school or university subject that people study and teach",
+        "frame_id": "frame_classes_&_courses",
+        "meaning_en": "the main subject someone studies in a degree program at a university",
         "how_to_use_en": [
-          "Use for a subject in school or higher education (e.g., teckning, teknik).",
-          "Often with an adjective: obligatoriskt ämne, teoretiskt ämne, akademiskt ämne."
+          "Use it for the main field in a degree (often at university).",
+          "Common with “som huvudämne” after the subject name.",
+          "Also used with “välja/ha/läsa” when talking about studies."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "Ämnet + [subject name]",
-            "meaning_en": "the subject (named)",
-            "note_en": "Used when talking about a specific school subject."
+            "pattern": "X som huvudämne",
+            "meaning_en": "X as the major",
+            "note_en": "Very common in descriptions of degrees and studies."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "[X] är ett ämne",
-            "meaning_en": "X is a subject",
-            "note_en": "Common in descriptions of academic fields."
+            "pattern": "ha X som huvudämne",
+            "meaning_en": "have X as a major",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "ett + adjective + ämne",
-            "meaning_en": "a subject with a quality",
-            "note_en": "E.g. teoretiskt, akademiskt, obligatoriskt, självständigt."
+            "pattern": "välja X som huvudämne",
+            "meaning_en": "choose X as a major",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "ämne inom + [field]",
-            "meaning_en": "a subject within a field",
-            "note_en": "Shows that the subject belongs to a larger discipline."
+            "pattern": "läsa (vilket) huvudämne",
+            "meaning_en": "study a (which) major",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "ämne på + [institution]",
-            "meaning_en": "a subject at an institution",
-            "note_en": "Used for subjects offered at universities/högskolor."
+            "pattern": "med X som huvudämne",
+            "meaning_en": "with X as the major",
+            "note_en": "Often used when talking about an exam/degree."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using ämne when you mean “topic of conversation”.",
-            "fix": "Use ämne here only for a school/university subject.",
-            "explain_en": "This entry covers the education sense (a subject you study), not a discussion topic."
+            "error": "Using huvudämne for a single school lesson (one class session).",
+            "fix": "Use lektion/klass for one session; use huvudämne for the main field in a program.",
+            "explain_en": "Huvudämne is about a degree’s main subject, not one meeting."
+          },
+          {
+            "error": "Saying *huvudämne i universitetet*.",
+            "fix": "Say på universitetet / vid universitetet.",
+            "explain_en": "Place/institution is typically expressed with på/vid."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "ab89b226507774ec1c278bc224d85666c6914658",
-            "sv": "Ämnet teckning ersattes av bild och ämnet teknik blev ett obligatoriskt ämne.",
-            "en": "The subject drawing was replaced by art, and the subject technology became a compulsory subject.",
-            "frame_id": "frame_education",
+            "ex_id": "fe3b220d0f0cc4c6993ace6a01e88a2331b37564",
+            "sv": "Medicine kandidat är en generell examen med medicinsk vetenskap som huvudämne.",
+            "en": "Bachelor of Medicine is a general degree with medical science as the main subject.",
+            "frame_id": "frame_classes_&_courses",
             "fe_tags": [
               {
                 "fe_id": "fe_subject",
-                "span_sv": "Ämnet teckning"
+                "span_sv": "medicinsk vetenskap"
+              }
+            ],
+            "gloss": "main subject (major)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kandidatexamen",
+              "text_url": "https://sv.wikipedia.org/wiki/Kandidatexamen",
+              "sentence_id": "d7b1fec0",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"huvudämne\"]"
+            }
+          },
+          {
+            "ex_id": "b5e9bb3a98b57dd2c2083384efd462e4c820de0a",
+            "sv": "I Finland kan man studera finska som huvudämne vid åtta universitet.",
+            "en": "In Finland you can study Finnish as a main subject at eight universities.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "finska"
               },
               {
-                "fe_id": "fe_subject",
-                "span_sv": "ämnet teknik"
+                "fe_id": "fe_institution",
+                "span_sv": "åtta universitet"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "I Finland"
               }
             ],
-            "gloss": "school/university subject",
-            "level": "B1",
+            "gloss": "main subject (major)",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Skolämnen i Sverige",
-              "text_url": "https://sv.wikipedia.org/wiki/Skol%C3%A4mnen_i_Sverige",
-              "sentence_id": "3d15443c",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"ämne\"]"
+              "text_title": "Finska",
+              "text_url": "https://sv.wikipedia.org/wiki/Finska",
+              "sentence_id": "7deec885",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"huvudämne\"]"
             }
           },
           {
-            "ex_id": "d94e9c09430c89de6fa92d48fbe3ba2bc9cad6e4",
-            "sv": "Ellära är rent teoretiskt ämne och dess praktiska motsvarighet kallas elkunskap eller elkompetens.",
-            "en": "Electrical theory is a purely theoretical subject, and its practical equivalent is called electrical knowledge or electrical competence.",
-            "frame_id": "frame_education",
+            "ex_id": "6dc73f4ca723e4dfc76a3706ca4c8073c8417800",
+            "sv": "På socialhögskolornas förvaltningslinje kunde man ha statskunskap som huvudämne i examen.",
+            "en": "In the social colleges' administration program you could have political science as the main subject in the degree.",
+            "frame_id": "frame_classes_&_courses",
             "fe_tags": [
               {
                 "fe_id": "fe_subject",
-                "span_sv": "Ellära"
-              }
-            ],
-            "gloss": "school/university subject",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ellära",
-              "text_url": "https://sv.wikipedia.org/wiki/Ell%C3%A4ra",
-              "sentence_id": "1ec045a1",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"ämne\"]"
-            }
-          },
-          {
-            "ex_id": "28adbe4183ccd1a0e51a220c1cbdf3ba343dfb2d",
-            "sv": "Kulturens geografi är ett ämne inom geografin som studerar relationen mellan rum och kultur.",
-            "en": "Cultural geography is a subject within geography that studies the relationship between space and culture.",
-            "frame_id": "frame_education",
-            "fe_tags": [
+                "span_sv": "statskunskap"
+              },
               {
-                "fe_id": "fe_subject",
-                "span_sv": "Kulturens geografi"
+                "fe_id": "fe_course",
+                "span_sv": "socialhögskolornas förvaltningslinje"
               }
             ],
-            "gloss": "school/university subject",
+            "gloss": "main subject (major)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -221,29 +232,25 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Kulturens geografi",
-              "text_url": "https://sv.wikipedia.org/wiki/Kulturens_geografi",
-              "sentence_id": "cfa318a6",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"ämne\"]"
+              "text_title": "Statsvetenskap",
+              "text_url": "https://sv.wikipedia.org/wiki/Statsvetenskap",
+              "sentence_id": "6bb37e09",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"huvudämne\"]"
             }
           },
           {
-            "ex_id": "47131109fe105156c838ca50d0015ff045c27d22",
-            "sv": "• Särskilda kurser är inriktade på ett speciellt ämne som största delen av kursen ägnas åt.",
-            "en": "Special courses are focused on a special subject that most of the course is devoted to.",
-            "frame_id": "frame_education",
+            "ex_id": "73cbfe657cefe145326d8b31e217d39c024da82c",
+            "sv": "Utbildningen genomförs i en av tre profiler, beroende på vilket huvudämne man läser.",
+            "en": "The education is carried out in one of three profiles, depending on which main subject you study.",
+            "frame_id": "frame_classes_&_courses",
             "fe_tags": [
               {
                 "fe_id": "fe_course",
-                "span_sv": "Särskilda kurser"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "ett speciellt ämne"
+                "span_sv": "Utbildningen"
               }
             ],
-            "gloss": "school/university subject",
+            "gloss": "main subject (major)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -251,59 +258,93 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Folkhögskola",
-              "text_url": "https://sv.wikipedia.org/wiki/Folkh%C3%B6gskola",
-              "sentence_id": "726dfe62",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"ämne\"]"
+              "text_title": "Officersprogrammet",
+              "text_url": "https://sv.wikipedia.org/wiki/Officersprogrammet",
+              "sentence_id": "6bb277a7",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"huvudämne\"]"
             }
           },
           {
-            "ex_id": "740d16f16795163f9e31e278f2d325aa3c08973f",
-            "sv": "Genom bokade skolvisningar kan skolbarn undervisas i samma ämne enligt läroplanen.",
-            "en": "Through booked school visits, schoolchildren can be taught in the same subject according to the curriculum.",
-            "frame_id": "frame_education",
+            "ex_id": "c5e6cdc4c590d4dff6f77b9571ce2b0dca959816",
+            "sv": "Efter gymnasiet blev det naturligt för henne att välja juridik som huvudämne på universitetet.",
+            "en": "After upper secondary school it felt natural for her to choose law as the main subject at the university.",
+            "frame_id": "frame_classes_&_courses",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "skolbarn"
+                "fe_id": "fe_learner",
+                "span_sv": "henne"
               },
               {
                 "fe_id": "fe_subject",
-                "span_sv": "samma ämne"
-              }
-            ],
-            "gloss": "school/university subject",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Djurpark",
-              "text_url": "https://sv.wikipedia.org/wiki/Djurpark",
-              "sentence_id": "44a739b1",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"ämne\"]"
-            }
-          },
-          {
-            "ex_id": "163cc0b00fbda5786f74a7fd9c838061a649a692",
-            "sv": "Socialt arbete blev ett akademiskt ämne i Sverige 1977 och finns som ämne på universitet och högskolor.",
-            "en": "Social work became an academic subject in Sweden in 1977 and exists as a subject at universities and university colleges.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "Socialt arbete"
+                "span_sv": "juridik"
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "universitet och högskolor"
+                "span_sv": "universitetet"
               }
             ],
-            "gloss": "school/university subject",
+            "gloss": "main subject (major)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Malin Thunberg Schunke",
+              "text_url": "https://sv.wikipedia.org/wiki/Malin_Thunberg_Schunke",
+              "sentence_id": "3897e51d",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"huvudämne\"]"
+            }
+          },
+          {
+            "ex_id": "286610824477c3e8efed832f4fd55daa891f92dc",
+            "sv": "Han valde först konsthistoria som huvudämne, men ändrade senare detta till geografi.",
+            "en": "He first chose art history as the main subject, but later changed this to geography.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "konsthistoria"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "geografi"
+              }
+            ],
+            "gloss": "main subject (major)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Prins William, hertig av Cambridge",
+              "text_url": "https://sv.wikipedia.org/wiki/Prins_William,_hertig_av_Cambridge",
+              "sentence_id": "19d49fd7",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"huvudämne\"]"
+            }
+          },
+          {
+            "ex_id": "08d8da59799321fb1daf3ebeba2ef5d6aa0891b8",
+            "sv": "Hans huvudämne var nordiska språk och han forskade framför allt på västgötska.",
+            "en": "His main subject was Nordic languages and he did research mainly on Westrogothian.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "nordiska språk"
+              }
+            ],
+            "gloss": "main subject (major)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -311,127 +352,125 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Socialt arbete",
-              "text_url": "https://sv.wikipedia.org/wiki/Socialt_arbete",
-              "sentence_id": "e76c0c7b",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"ämne\"]"
+              "text_title": "Johan Götlind",
+              "text_url": "https://sv.wikipedia.org/wiki/Johan_G%C3%B6tlind",
+              "sentence_id": "b29c32de",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"huvudämne\"]"
             }
           },
           {
-            "ex_id": "679fae92157a912aa9a5fe890b4b318e3a4968bb",
-            "sv": "Hushållsvetenskap var ett tvärvetenskapligt ämne som numera ingår i disciplinen kostvetenskap.",
-            "en": "Home economics was an interdisciplinary subject that is now included in the discipline of nutrition science.",
-            "frame_id": "frame_education",
+            "ex_id": "dbffa2f6a5d68a5953b52bf4e25858f9241bf77a",
+            "sv": "Han tog examen från University of Georgia, där hans huvudämne var jordbruk.",
+            "en": "He graduated from the University of Georgia, where his main subject was agriculture.",
+            "frame_id": "frame_classes_&_courses",
             "fe_tags": [
               {
-                "fe_id": "fe_subject",
-                "span_sv": "Hushållsvetenskap"
-              }
-            ],
-            "gloss": "school/university subject",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Hushållsvetenskap",
-              "text_url": "https://sv.wikipedia.org/wiki/Hush%C3%A5llsvetenskap",
-              "sentence_id": "ea7732a3",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"ämne\"]"
-            }
-          },
-          {
-            "ex_id": "8de96d2b7c60a5e7a7b8ed1da12904760047ba29",
-            "sv": "Det är i denna tidsanda som arbetsvetenskap etableras som eget självständigt ämne.",
-            "en": "It is in this spirit of the times that work science is established as its own independent subject.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "arbetsvetenskap"
-              }
-            ],
-            "gloss": "school/university subject",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Arbetsvetenskap",
-              "text_url": "https://sv.wikipedia.org/wiki/Arbetsvetenskap",
-              "sentence_id": "45cf7587",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"ämne\"]"
-            }
-          },
-          {
-            "ex_id": "05f0ee567d36295234abfb0ca5c48087783b3bd0",
-            "sv": "Titeln liknar hedersdoktor och ges för att personen har utmärkt sig inom ett akademiskt ämne eller forskning.",
-            "en": "The title is similar to honorary doctor and is given because the person has distinguished themself within an academic subject or research.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "ett akademiskt ämne"
-              }
-            ],
-            "gloss": "school/university subject",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Honorary Fellow",
-              "text_url": "https://sv.wikipedia.org/wiki/Honorary_Fellow",
-              "sentence_id": "757700b8",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"ämne\"]"
-            }
-          },
-          {
-            "ex_id": "3dd8132d27de7ef2bc96ce8800d03b40e91efd1e",
-            "sv": "Hembygdskunskap var ett samhällsorienterande ämne som i Sverige blev obligatoriskt i folkskolan 1919.",
-            "en": "Local studies was a social studies subject that in Sweden became compulsory in the elementary school in 1919.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "Hembygdskunskap"
+                "fe_id": "fe_learner",
+                "span_sv": "Han"
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "folkskolan"
+                "span_sv": "University of Georgia"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "jordbruk"
               }
             ],
-            "gloss": "school/university subject",
-            "level": "B1",
+            "gloss": "main subject (major)",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Hembygd",
-              "text_url": "https://sv.wikipedia.org/wiki/Hembygd",
-              "sentence_id": "4765246d",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"ämne\"]"
+              "text_title": "Brian Kemp",
+              "text_url": "https://sv.wikipedia.org/wiki/Brian_Kemp",
+              "sentence_id": "e3ac809d",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"huvudämne\"]"
+            }
+          },
+          {
+            "ex_id": "af6e7067c5f034f775d7652b6e8132d414721291",
+            "sv": "Sedan började han på UCLA där han hade animering som huvudämne.",
+            "en": "Then he started at UCLA where he had animation as the main subject.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "UCLA"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "animering"
+              }
+            ],
+            "gloss": "main subject (major)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "David Silverman",
+              "text_url": "https://sv.wikipedia.org/wiki/David_Silverman",
+              "sentence_id": "83d83c23",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"huvudämne\"]"
+            }
+          },
+          {
+            "ex_id": "7e228d25e2d83185e118f51bdfb881eca765db32",
+            "sv": "Han avlade 1974 sin grundexamen vid Yale University med ryska som huvudämne.",
+            "en": "In 1974 he completed his bachelor's degree at Yale University with Russian as the main subject.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1974"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Yale University"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "ryska"
+              }
+            ],
+            "gloss": "main subject (major)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Sherrod Brown",
+              "text_url": "https://sv.wikipedia.org/wiki/Sherrod_Brown",
+              "sentence_id": "64a21097",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"huvudämne\"]"
             }
           }
         ]
       }
     ],
     "pronunciation": {
-      "ipa": "ˈɛm.nɛ",
-      "stress_hint": "Stress on the first syllable: ÄM-ne.",
+      "ipa": "ˈhʉːvʉdˌɛmːnɛ",
+      "stress_hint": "Main stress on HU-, and a weaker stress on -äm-.",
       "audio": {
         "file": "audio/lu_studienfach_das.mp3",
         "model": "gpt-4o-mini-tts",
@@ -441,10 +480,10 @@
     },
     "morphology": {
       "principal_parts": [
-        "ett ämne",
-        "ämnet",
-        "ämnen",
-        "ämnena"
+        "huvudämne (ett)",
+        "huvudämnet",
+        "huvudämnen",
+        "huvudämnena"
       ],
       "particle_or_reflexive": null
     }

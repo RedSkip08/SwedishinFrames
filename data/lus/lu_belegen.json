@@ -8,24 +8,25 @@
       "pos_de": "verb"
     },
     "lu_type": "single",
-    "lemma_sv": "läsa",
-    "display_sv": "läsa",
-    "name_sv": "läsa",
+    "lemma_sv": "gå",
+    "display_sv": "gå",
+    "name_sv": "gå",
     "pos": "verb",
-    "cefr": "A2",
+    "cefr": "A1",
     "multiword": {
       "mwe_type": null,
       "components_sv": [],
       "spacing_notes_en": ""
     },
     "forms": [
-      "läsa",
-      "läser",
-      "läste",
-      "läst",
-      "läs"
+      "gå",
+      "går",
+      "gick",
+      "gått",
+      "gående",
+      "gången"
     ],
-    "english_equivalent_en": "read",
+    "english_equivalent_en": "walk",
     "morphology_sv": {
       "noun": {
         "gender": null,
@@ -36,14 +37,17 @@
         "note_en": ""
       },
       "verb": {
-        "infinitive": "läsa",
-        "present": "läser",
-        "past": "läste",
-        "supine": "läst",
-        "imperative": "läs",
-        "present_participle": "läsande",
-        "past_participle": "läst",
-        "alternatives": []
+        "infinitive": "gå",
+        "present": "går",
+        "past": "gick",
+        "supine": "gått",
+        "imperative": "gå",
+        "present_participle": "gående",
+        "past_participle": "gången",
+        "alternatives": [
+          "gånget",
+          "gångna"
+        ]
       },
       "adjective": {
         "base": null,
@@ -52,300 +56,219 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": ""
+      "note_en": "Strong verb with vowel change: gå–gick–gått."
     },
     "derived_words_sv": [
       {
-        "word": "läsning",
+        "word": "gång",
         "type_en": "noun",
-        "meaning_en": "reading (activity)"
+        "meaning_en": "walking; a walk; also a corridor (different sense)."
       },
       {
-        "word": "läsare",
+        "word": "gångväg",
         "type_en": "noun",
-        "meaning_en": "reader"
+        "meaning_en": "footpath; walkway."
       },
       {
-        "word": "läsbok",
+        "word": "gångavstånd",
         "type_en": "noun",
-        "meaning_en": "reading book (for practice)"
+        "meaning_en": "walking distance."
       },
       {
-        "word": "läskunnig",
-        "type_en": "adjective",
-        "meaning_en": "able to read; literate"
-      },
-      {
-        "word": "läsa om",
+        "word": "gå ut",
         "type_en": "verb",
-        "meaning_en": "read again"
+        "meaning_en": "go out; leave (a place)."
+      },
+      {
+        "word": "gå in",
+        "type_en": "verb",
+        "meaning_en": "go in; enter."
+      },
+      {
+        "word": "gå till sängs",
+        "type_en": "verb",
+        "meaning_en": "go to bed."
       }
     ],
     "synonyms_sv": [
-      "läsa igenom",
-      "ta del av"
+      "promenera",
+      "vandra",
+      "traska",
+      "knalla"
     ],
-    "antonyms_sv": [],
+    "antonyms_sv": [
+      "stanna"
+    ],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_passing_&_failing",
+        "frame_name_en": "Passing & Failing",
+        "frame_slug": "passing_&_failing",
         "sense_id": "lu_belegen:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_belegen:1",
-        "frame_id": "frame_education",
-        "meaning_en": "understand written text or symbols by looking at them.",
+        "frame_id": "frame_passing_&_failing",
+        "meaning_en": "move on foot; also used for going in/out/to bed.",
         "how_to_use_en": [
-          "Use for reading texts like books, letters, or stories.",
-          "Also use for the skill of reading (often with skriva).",
-          "Can be used with music: läsa musik."
+          "Use gå for walking or moving by foot.",
+          "Often combine with a direction word or place: gå till/ut/in/fram till.",
+          "Use gå till sängs for the routine action “go to bed”."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "läsa + Material",
-            "meaning_en": "read something",
-            "note_en": "Object can be a book, letter, story, etc."
+            "pattern": "gå till + plats",
+            "meaning_en": "walk/go to a place",
+            "note_en": "Often about walking; context can also mean simply “go to”."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "börja läsa",
-            "meaning_en": "start reading",
-            "note_en": ""
+            "pattern": "gå till sängs",
+            "meaning_en": "go to bed",
+            "note_en": "Fixed expression."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "tycka om att läsa + Material",
-            "meaning_en": "like reading something",
-            "note_en": ""
+            "pattern": "gå ut",
+            "meaning_en": "go out; leave",
+            "note_en": "Common when leaving a room/building."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "lära sig läsa (och skriva)",
-            "meaning_en": "learn to read (and write)",
-            "note_en": "Used for acquiring the skill, often in education contexts."
+            "pattern": "gå in (i + plats)",
+            "meaning_en": "go in; enter",
+            "note_en": "Often with i + building/place."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "kunna läsa (och skriva)",
-            "meaning_en": "be able to read (and write)",
-            "note_en": ""
+            "pattern": "gå fram till + mål",
+            "meaning_en": "walk up to something",
+            "note_en": "Used for approaching a specific target."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *lära* instead of läsa for the activity.",
-            "fix": "Use läsa for the activity; use lära sig läsa for learning the skill.",
-            "explain_en": "läsa = do the reading; lära sig läsa = learn how to read."
+            "error": "Using *gå* for travel by vehicle (e.g., *gå till Stockholm* when you mean by train).",
+            "fix": "Use åka for travel by vehicle.",
+            "explain_en": "gå focuses on moving on foot; for transport, Swedish usually uses åka."
           },
           {
-            "error": "Forgetting the object after läsa when you mean a specific text.",
-            "fix": "Add what is read: läsa en saga / läsa böcker / läsa brevet.",
-            "explain_en": "In many contexts you specify the material being read."
+            "error": "Saying *gå till sängen* when you mean “go to bed (sleep)”.",
+            "fix": "Say gå till sängs.",
+            "explain_en": "gå till sängs is the fixed expression for going to bed to sleep."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "2cf85f250ec857c5e635e2b5567f7ee782e6c041",
-            "sv": "De börjar läsa och inser snabbt att det är något stort på spåren.",
-            "en": "They start to read and quickly realize that they are onto something big.",
-            "frame_id": "frame_education",
+            "ex_id": "4b93a10fc393a535597f978ee6bb117cc27d1372",
+            "sv": "Det tar cirka 30 min att gå till Skövde centrum respektive 15 minuter att cykla.",
+            "en": "It takes about 30 minutes to walk to Skövde city centre and 15 minutes to cycle.",
+            "frame_id": "frame_passing_&_failing",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "De"
-              }
-            ],
-            "gloss": "read",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Illuminatus!",
-              "text_url": "https://sv.wikipedia.org/wiki/Illuminatus!",
-              "sentence_id": "7ab3023c",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"läsa\"]"
-            }
-          },
-          {
-            "ex_id": "a52b6d72d47c70b98e5baa61e3b91a667739a233",
-            "sv": "Ett gäng föräldralösa barn ber Musse Pigg om att läsa en saga.",
-            "en": "A group of orphan children ask Mickey Mouse to read a story.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "Musse Pigg"
+                "fe_id": "fe_time",
+                "span_sv": "cirka 30 min"
               },
               {
-                "fe_id": "fe_material",
-                "span_sv": "en saga"
+                "fe_id": "fe_place",
+                "span_sv": "till Skövde centrum"
               }
             ],
-            "gloss": "read",
-            "level": "A2",
+            "gloss": "gå = walk",
+            "level": "A1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "I jättarnas land",
-              "text_url": "https://sv.wikipedia.org/wiki/I_j%C3%A4ttarnas_land",
-              "sentence_id": "4de0f17b",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"läsa\"]"
+              "text_title": "Hentorp",
+              "text_url": "https://sv.wikipedia.org/wiki/Hentorp",
+              "sentence_id": "1438547b",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"gå\"]"
             }
           },
           {
-            "ex_id": "8e4eb203e5deab53aad2661c42306ce96fc94ecb",
-            "sv": "Hon tycker också om att lyssna på musik, läsa böcker och att umgås med vänner.",
-            "en": "She also likes to listen to music, read books, and spend time with friends.",
-            "frame_id": "frame_education",
+            "ex_id": "47100aaf4a2350afc62f55fbe4645947ebb935b8",
+            "sv": "Därefter kan de gå till sängs och vid sänggaveln kan de hänga upp sina strumpor.",
+            "en": "After that they can go to bed, and at the head of the bed they can hang up their socks.",
+            "frame_id": "frame_passing_&_failing",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "Hon"
+                "fe_id": "fe_time",
+                "span_sv": "Därefter"
               },
               {
-                "fe_id": "fe_material",
-                "span_sv": "böcker"
+                "fe_id": "fe_place",
+                "span_sv": "till sängs"
               }
             ],
-            "gloss": "read",
-            "level": "A2",
+            "gloss": "gå till sängs = go to bed",
+            "level": "A1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Katarina Srebotnik",
-              "text_url": "https://sv.wikipedia.org/wiki/Katarina_Srebotnik",
-              "sentence_id": "40e69884",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"läsa\"]"
+              "text_title": "Trandagen",
+              "text_url": "https://sv.wikipedia.org/wiki/Trandagen",
+              "sentence_id": "239acb47",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"gå\"]"
             }
           },
           {
-            "ex_id": "6147034df64948794622ce936f91cb5ae7f7f970",
-            "sv": "Den mesta av tiden tillbringar han med att läsa och leka med tennsoldater.",
-            "en": "He spends most of the time reading and playing with toy soldiers.",
-            "frame_id": "frame_education",
+            "ex_id": "b37efafa98656e49ddbf589c5feb1fc1789d3ef3",
+            "sv": "Han får i stället gå till sängs utan middag och efterrätt som bestraffning.",
+            "en": "Instead, he has to go to bed without dinner and dessert as punishment.",
+            "frame_id": "frame_passing_&_failing",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "han"
-              }
-            ],
-            "gloss": "read",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Krig (film)",
-              "text_url": "https://sv.wikipedia.org/wiki/Krig_(film)",
-              "sentence_id": "8ade4a0b",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"läsa\"]"
-            }
-          },
-          {
-            "ex_id": "2fa5eca011784ff181daa3c786bd527ac5c320fd",
-            "sv": "1723 blev det lag på att föräldrar skulle lära sina barn att läsa.",
-            "en": "In 1723 it became law that parents should teach their children to read.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "föräldrar"
-              },
-              {
-                "fe_id": "fe_student",
-                "span_sv": "sina barn"
-              },
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "läsa"
-              }
-            ],
-            "gloss": "read",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Utbildning i Sverige",
-              "text_url": "https://sv.wikipedia.org/wiki/Utbildning_i_Sverige",
-              "sentence_id": "ee8d93ae",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"läsa\"]"
-            }
-          },
-          {
-            "ex_id": "cc171524ff098abef77fca3bb3d3c1a4251cd077",
-            "sv": "Han hade aldrig gått i skola, men hade lärt sig läsa och skriva som vuxen.",
-            "en": "He had never gone to school, but had learned to read and write as an adult.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
+                "fe_id": "fe_candidate",
                 "span_sv": "Han"
               },
               {
-                "fe_id": "fe_institution",
-                "span_sv": "skola"
-              },
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "läsa och skriva"
+                "fe_id": "fe_place",
+                "span_sv": "till sängs"
               }
             ],
-            "gloss": "read",
-            "level": "B1",
+            "gloss": "gå till sängs = go to bed",
+            "level": "A1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Johan Turi",
-              "text_url": "https://sv.wikipedia.org/wiki/Johan_Turi",
-              "sentence_id": "88b04674",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"läsa\"]"
+              "text_title": "Det osynliga barnet",
+              "text_url": "https://sv.wikipedia.org/wiki/Det_osynliga_barnet",
+              "sentence_id": "df77ba18",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"gå\"]"
             }
           },
           {
-            "ex_id": "86f51e26fd59e671c420c7ba11fa029c817be907",
-            "sv": "Nittionio procent av befolkningen över 15 år kan läsa och skriva.",
-            "en": "Ninety-nine percent of the population over 15 years can read and write.",
-            "frame_id": "frame_education",
+            "ex_id": "f7353636f067c84d562b2353829918d19b3c8d56",
+            "sv": "Barn som inte kan gå än men kryper brukar få en övning som kallas OHL.",
+            "en": "Children who cannot walk yet but crawl usually get an exercise called OHL.",
+            "frame_id": "frame_passing_&_failing",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "befolkningen över 15 år"
+                "fe_id": "fe_candidate",
+                "span_sv": "Barn"
               },
               {
-                "fe_id": "fe_skill",
-                "span_sv": "läsa och skriva"
+                "fe_id": "fe_time",
+                "span_sv": "än"
               }
             ],
-            "gloss": "read",
+            "gloss": "gå = walk",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -353,33 +276,25 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Nya Zeeland",
-              "text_url": "https://sv.wikipedia.org/wiki/Nya_Zeeland",
-              "sentence_id": "8ad680d9",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"läsa\"]"
+              "text_title": "Domanmetoden",
+              "text_url": "https://sv.wikipedia.org/wiki/Domanmetoden",
+              "sentence_id": "944af9a7",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"gå\"]"
             }
           },
           {
-            "ex_id": "36c58e76a99e42251faa9c9c3303b71ec21d29c3",
-            "sv": "Asa började tidigt i skolan och kunde läsa vid tre års ålder.",
-            "en": "Asa started early in school and could read at the age of three.",
-            "frame_id": "frame_education",
+            "ex_id": "4990e9fa469913c77cdda0b0d27827b3fd1d1bac",
+            "sv": "Brenda lyckas uppmuntra Selma till att gå med hjälp av olika ljud.",
+            "en": "Brenda manages to encourage Selma to walk with the help of different sounds.",
+            "frame_id": "frame_passing_&_failing",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "Asa"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "skolan"
-              },
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "läsa"
+                "fe_id": "fe_candidate",
+                "span_sv": "Selma"
               }
             ],
-            "gloss": "read",
+            "gloss": "gå = walk",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -387,83 +302,165 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Asa Gray",
-              "text_url": "https://sv.wikipedia.org/wiki/Asa_Gray",
-              "sentence_id": "6377bdc2",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"läsa\"]"
+              "text_title": "Dancer in the Dark",
+              "text_url": "https://sv.wikipedia.org/wiki/Dancer_in_the_Dark",
+              "sentence_id": "76fbdb4d",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"gå\"]"
             }
           },
           {
-            "ex_id": "7c25d0a85e2a55ec4f5040f1ca924d5425b9fb94",
-            "sv": "Ollendorf inser att brevet kommer förstöra hans plan och övertalar Lauras mor att inte läsa brevet.",
-            "en": "Ollendorf realizes that the letter will ruin his plan and persuades Laura's mother not to read the letter.",
-            "frame_id": "frame_education",
+            "ex_id": "3f81445d4cc342aa84ca2ba5d3b568361b4d3e10",
+            "sv": "Vid användandet av en automatisk parkeringsskiva behöver man bara öppna förardörren, gå ut och stänga den.",
+            "en": "When using an automatic parking disc, you only need to open the driver’s door, go out, and close it.",
+            "frame_id": "frame_passing_&_failing",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "Lauras mor"
-              },
-              {
-                "fe_id": "fe_material",
-                "span_sv": "brevet"
+                "fe_id": "fe_place",
+                "span_sv": "ut"
               }
             ],
-            "gloss": "read",
-            "level": "B1",
+            "gloss": "gå ut = go out",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Tiggarstudenten",
-              "text_url": "https://sv.wikipedia.org/wiki/Tiggarstudenten",
-              "sentence_id": "0a75b876",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"läsa\"]"
+              "text_title": "Parkeringsskiva",
+              "text_url": "https://sv.wikipedia.org/wiki/Parkeringsskiva",
+              "sentence_id": "36981f8f",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"gå\"]"
             }
           },
           {
-            "ex_id": "578a5df7d87f8345253ee7de54603e4276f3a1f2",
-            "sv": "Coleman lärde sig spela saxofon och läsa musik från 14 års ålder.",
-            "en": "Coleman learned to play the saxophone and read music from the age of 14.",
-            "frame_id": "frame_education",
+            "ex_id": "6e6f66d396f135ae43c868b8eef4a7664aa0f4a3",
+            "sv": "När K. ska gå hör han konstiga ljud från ett angränsande rum.",
+            "en": "When K. is going to leave, he hears strange sounds from a neighbouring room.",
+            "frame_id": "frame_passing_&_failing",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "Coleman"
+                "fe_id": "fe_time",
+                "span_sv": "När"
               },
               {
-                "fe_id": "fe_skill",
-                "span_sv": "läsa musik"
-              },
-              {
-                "fe_id": "fe_material",
-                "span_sv": "musik"
+                "fe_id": "fe_candidate",
+                "span_sv": "K."
               }
             ],
-            "gloss": "read",
-            "level": "B1",
+            "gloss": "ska gå = is going to leave",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ornette Coleman",
-              "text_url": "https://sv.wikipedia.org/wiki/Ornette_Coleman",
-              "sentence_id": "d87075e4",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"läsa\"]"
+              "text_title": "The Trial (opera)",
+              "text_url": "https://sv.wikipedia.org/wiki/The_Trial_(opera)",
+              "sentence_id": "b510e1bc",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"gå\"]"
+            }
+          },
+          {
+            "ex_id": "c3e4d07dd706ddfc2e5f14023b62ed5b5687fd08",
+            "sv": "Numera är det dock inte tillåtet att gå in i alla byggnader.",
+            "en": "Nowadays, however, it is not allowed to go into all buildings.",
+            "frame_id": "frame_passing_&_failing",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Numera"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i alla byggnader"
+              }
+            ],
+            "gloss": "gå in = go in",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Prypjat (stad)",
+              "text_url": "https://sv.wikipedia.org/wiki/Prypjat_(stad)",
+              "sentence_id": "94f6b68f",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"gå\"]"
+            }
+          },
+          {
+            "ex_id": "93dd5a559acd998e004d3dc80579233e5ad01a72",
+            "sv": "Vid den tidpunkten tilläts vi inte att gå fram till bilen.",
+            "en": "At that time we were not allowed to go up to the car.",
+            "frame_id": "frame_passing_&_failing",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Vid den tidpunkten"
+              },
+              {
+                "fe_id": "fe_candidate",
+                "span_sv": "vi"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "till bilen"
+              }
+            ],
+            "gloss": "gå fram till = go up to",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mordechaj Podchlebnik",
+              "text_url": "https://sv.wikipedia.org/wiki/Mordechaj_Podchlebnik",
+              "sentence_id": "2842f1c4",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"gå\"]"
+            }
+          },
+          {
+            "ex_id": "03d3d468e8077fea9afa2ebb6134f9cc33bb5553",
+            "sv": "Det var en lång väg att gå och några allmänna kommunikationer fanns inte.",
+            "en": "It was a long way to walk, and there was no public transport.",
+            "frame_id": "frame_passing_&_failing",
+            "fe_tags": [
+              {
+                "fe_id": "fe_standard",
+                "span_sv": "en lång väg"
+              }
+            ],
+            "gloss": "en lång väg att gå = a long way to walk",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Segeltorpsskolan",
+              "text_url": "https://sv.wikipedia.org/wiki/Segeltorpsskolan",
+              "sentence_id": "83ccaf72",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"gå\"]"
             }
           }
         ]
       }
     ],
     "pronunciation": {
-      "ipa": "ˈlɛːsa",
-      "stress_hint": "Stress on the first syllable: LÄ-sa.",
+      "ipa": "ɡoː",
+      "stress_hint": "Long vowel: håll o-ljudet långt.",
       "audio": {
         "file": "audio/lu_belegen.mp3",
         "model": "gpt-4o-mini-tts",
@@ -473,10 +470,10 @@
     },
     "morphology": {
       "principal_parts": [
-        "läsa",
-        "läser",
-        "läste",
-        "läst"
+        "gå",
+        "går",
+        "gick",
+        "gått"
       ],
       "particle_or_reflexive": null
     }

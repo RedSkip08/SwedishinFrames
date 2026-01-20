@@ -8,22 +8,22 @@
       "pos_de": "verb"
     },
     "lu_type": "multiword",
-    "lemma_sv": "lära någon något",
-    "display_sv": "lära någon något",
-    "name_sv": "lära någon något",
+    "lemma_sv": "lära (någon) att",
+    "display_sv": "lära (någon) att",
+    "name_sv": "lära (någon) att",
     "pos": "multiword",
     "cefr": "A2",
     "multiword": {
-      "mwe_type": "other",
+      "mwe_type": "fixed_phrase",
       "components_sv": [
-        "lära"
+        "lära",
+        "(någon)",
+        "att"
       ],
-      "spacing_notes_en": "Often used with an indirect object: lära någon något; also possible: lära någon att + infinitive."
+      "spacing_notes_en": "Often used with an infinitive clause: 'lära någon att + verb'."
     },
-    "forms": [
-      "lära någon något"
-    ],
-    "english_equivalent_en": "teach someone something",
+    "forms": [],
+    "english_equivalent_en": "teach someone to",
     "morphology_sv": {
       "noun": {
         "gender": null,
@@ -50,76 +50,65 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": "Multiword expression. Core verb is lära (lära–lär–lärde–lärt). Object order is: person (indirect object) + thing (direct object)."
+      "note_en": "Multiword expression; inflect the verb lära (e.g., lärde, lärt) and keep att before the infinitive clause."
     },
     "derived_words_sv": [
       {
-        "word": "lära",
-        "type_en": "verb",
-        "meaning_en": "learn; teach (depending on context)"
-      },
-      {
         "word": "lära ut",
         "type_en": "verb",
-        "meaning_en": "teach; pass on knowledge"
+        "meaning_en": "teach (a skill/knowledge), instruct"
       },
       {
         "word": "inlära",
         "type_en": "verb",
-        "meaning_en": "learn; acquire (more formal)"
+        "meaning_en": "learn by practice; acquire (often formal)"
       },
       {
         "word": "inlärning",
         "type_en": "noun",
-        "meaning_en": "learning (the process)"
+        "meaning_en": "learning (process)"
       },
       {
         "word": "lärande",
         "type_en": "noun",
-        "meaning_en": "learning (general/ongoing)"
+        "meaning_en": "learning (ongoing activity)"
+      },
+      {
+        "word": "lärare",
+        "type_en": "noun",
+        "meaning_en": "teacher"
       }
     ],
-    "synonyms_sv": [
-      "undervisa någon i något",
-      "lära ut något",
-      "visa någon hur man gör"
-    ],
+    "synonyms_sv": [],
     "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_teaching",
+        "frame_name_en": "Teaching",
+        "frame_slug": "teaching",
         "sense_id": "lu_beibringen:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_beibringen:1",
-        "frame_id": "frame_education",
-        "meaning_en": "help someone learn a fact or skill by teaching it.",
+        "frame_id": "frame_teaching",
+        "meaning_en": "teach someone to do something; help them learn a skill or habit.",
         "how_to_use_en": [
-          "Use when a teacher/person gives knowledge or a skill to a learner.",
-          "Put the learner after lära, then the thing learned."
+          "Use with a person as object: lära någon att + infinitive.",
+          "Use for skills, habits, or rules someone learns to do."
         ],
-        "patterns": [
-          {
-            "pattern_id": "pat_1",
-            "pattern": "lära [Student] [Fact/Skill/Subject]",
-            "meaning_en": "teach someone something",
-            "note_en": "The first object is the learner; the second is the content."
-          }
-        ],
+        "patterns": [],
         "common_errors_en": [
           {
-            "error": "Using the wrong object order: *lära något någon*.",
-            "fix": "Use: lära någon något.",
-            "explain_en": "In this construction, the person comes before the thing."
+            "error": "Jag lär honom att svenska.",
+            "fix": "Jag lär honom svenska. / Jag lär honom att tala svenska.",
+            "explain_en": "After att you normally need a verb (infinitive), not just a noun."
           },
           {
-            "error": "Mixing up teach vs learn in English.",
-            "fix": "Translate as “teach someone something” here.",
-            "explain_en": "Swedish lära can relate to both teaching and learning; this pattern is teaching."
+            "error": "Jag lär honom för att göra det.",
+            "fix": "Jag lär honom att göra det.",
+            "explain_en": "Use att (not för att) when the meaning is 'teach someone to do'."
           }
         ],
         "required_example_count": 10,
@@ -127,8 +116,8 @@
       }
     ],
     "pronunciation": {
-      "ipa": "ˈlɛːra ˈnɔːɡɔn ˈnɔːɡɔt",
-      "stress_hint": "Main stress is on lära; the pronouns are usually unstressed.",
+      "ipa": "ˈlɛːra (ˈnɔɳ) atː",
+      "stress_hint": "Main stress on lära; att is unstressed.",
       "audio": {
         "file": "audio/lu_beibringen.mp3",
         "model": "gpt-4o-mini-tts",
@@ -137,9 +126,7 @@
       }
     },
     "morphology": {
-      "principal_parts": [
-        "lära – lär – lärde – lärt"
-      ],
+      "principal_parts": [],
       "particle_or_reflexive": null
     }
   },

@@ -8,23 +8,23 @@
       "pos_de": "verb"
     },
     "lu_type": "single",
-    "lemma_sv": "plugga",
-    "display_sv": "plugga",
-    "name_sv": "plugga",
+    "lemma_sv": "råplugga",
+    "display_sv": "råplugga",
+    "name_sv": "råplugga",
     "pos": "verb",
-    "cefr": "A2",
+    "cefr": "B1",
     "multiword": {
       "mwe_type": null,
       "components_sv": [],
       "spacing_notes_en": ""
     },
     "forms": [
-      "plugga",
-      "pluggar",
-      "pluggade",
-      "pluggat"
+      "råplugga",
+      "råpluggar",
+      "råpluggade",
+      "råpluggat"
     ],
-    "english_equivalent_en": "study",
+    "english_equivalent_en": "cram",
     "morphology_sv": {
       "noun": {
         "gender": null,
@@ -35,13 +35,13 @@
         "note_en": ""
       },
       "verb": {
-        "infinitive": "plugga",
-        "present": "pluggar",
-        "past": "pluggade",
-        "supine": "pluggat",
-        "imperative": "plugga",
-        "present_participle": "pluggande",
-        "past_participle": "pluggad",
+        "infinitive": "råplugga",
+        "present": "råpluggar",
+        "past": "råpluggade",
+        "supine": "råpluggat",
+        "imperative": "råplugga",
+        "present_participle": "råpluggande",
+        "past_participle": "råpluggad",
         "alternatives": []
       },
       "adjective": {
@@ -55,403 +55,73 @@
     },
     "derived_words_sv": [
       {
-        "word": "plugg",
+        "word": "råplugg",
         "type_en": "noun",
-        "meaning_en": "studying (informal)"
+        "meaning_en": "cramming (intense studying)"
       },
       {
-        "word": "pluggande",
-        "type_en": "other",
-        "meaning_en": "studying (as an activity; present participle)"
-      },
-      {
-        "word": "pluggis",
+        "word": "råpluggare",
         "type_en": "noun",
-        "meaning_en": "a person who studies a lot (informal)"
+        "meaning_en": "a person who crams a lot"
       },
       {
-        "word": "plugghäst",
-        "type_en": "noun",
-        "meaning_en": "a very hard-working student; swot"
-      },
-      {
-        "word": "plugga in",
+        "word": "tentaplugga",
         "type_en": "verb",
-        "meaning_en": "memorize; cram (often before a test)"
+        "meaning_en": "study hard for an exam"
+      },
+      {
+        "word": "plugga",
+        "type_en": "verb",
+        "meaning_en": "study (informal)"
       }
     ],
     "synonyms_sv": [
-      "studera",
-      "läsa",
-      "läsa på"
+      "plugga",
+      "tentaplugga",
+      "storkplugga",
+      "nöta"
     ],
-    "antonyms_sv": [],
+    "antonyms_sv": [
+      "slappa"
+    ],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_learning_&_studying",
+        "frame_name_en": "Learning & Studying",
+        "frame_slug": "learning_&_studying",
         "sense_id": "lu_büffeln:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_büffeln:1",
-        "frame_id": "frame_education",
-        "meaning_en": "study to learn knowledge or prepare for school, exams, or a qualification.",
+        "frame_id": "frame_learning_&_studying",
+        "meaning_en": "study very hard, often by memorizing quickly before a test.",
         "how_to_use_en": [
-          "Use for doing schoolwork or learning a subject.",
-          "Often with a subject (e.g. matematik) or a goal (e.g. för betygen).",
-          "Can mean starting an education: börja plugga."
+          "Use for intense, often last-minute studying.",
+          "Often implies memorizing rather than deep understanding.",
+          "Common in student contexts (exams, tests)."
         ],
-        "patterns": [
-          {
-            "pattern_id": "pat_1",
-            "pattern": "plugga",
-            "meaning_en": "study (in general)",
-            "note_en": "Often implies school-related studying."
-          },
-          {
-            "pattern_id": "pat_2",
-            "pattern": "plugga + ämne",
-            "meaning_en": "study a subject",
-            "note_en": "Example: plugga matematik."
-          },
-          {
-            "pattern_id": "pat_3",
-            "pattern": "plugga för + mål",
-            "meaning_en": "study for a goal",
-            "note_en": "Example: plugga för betygen."
-          },
-          {
-            "pattern_id": "pat_4",
-            "pattern": "börja plugga",
-            "meaning_en": "start studying",
-            "note_en": "Used for starting studies/education."
-          },
-          {
-            "pattern_id": "pat_5",
-            "pattern": "plugga till + yrke/utbildning",
-            "meaning_en": "study to become something",
-            "note_en": "Example: plugga till veterinär."
-          }
-        ],
+        "patterns": [],
         "common_errors_en": [
           {
-            "error": "Using plugga only for reading books.",
-            "fix": "Use plugga for studying in general, not just reading.",
-            "explain_en": "In the examples, plugga covers learning and preparing (e.g. for grades or a profession)."
+            "error": "Using råplugga for normal, calm studying.",
+            "fix": "Use plugga or studera instead.",
+            "explain_en": "Råplugga suggests unusually intense cramming."
           },
           {
-            "error": "Saying *plugga till betygen*.",
-            "fix": "Say plugga för betygen.",
-            "explain_en": "The goal/reason is expressed with för in the examples."
+            "error": "Saying *råplugga på något* without a clear study target.",
+            "fix": "Say råplugga inför en tenta/prov or råplugga (ett ämne).",
+            "explain_en": "The verb typically connects to an exam/time or a subject."
           }
         ],
         "required_example_count": 10,
-        "examples": [
-          {
-            "ex_id": "7f716f8aaea5dd0c7a39c1c4ccdaade89fba1688",
-            "sv": "Hon har fysiken men hon är inte alls lika bra på att plugga.",
-            "en": "She knows physics, but she is not at all as good at studying.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Hon"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "fysiken"
-              }
-            ],
-            "gloss": "study",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Agentskolan",
-              "text_url": "https://sv.wikipedia.org/wiki/Agentskolan",
-              "sentence_id": "c1f1972c",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"plugga\"]"
-            }
-          },
-          {
-            "ex_id": "8891674f6b38fb92e37b62d002a1229d0ba88fb3",
-            "sv": "Men den propra fröken Lind får Sigge att ta sig i kragen och plugga ordentligt.",
-            "en": "But the proper Miss Lind makes Sigge pull himself together and study properly.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "fröken Lind"
-              },
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Sigge"
-              }
-            ],
-            "gloss": "study",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Swing it, fröken!",
-              "text_url": "https://sv.wikipedia.org/wiki/Swing_it,_fr%C3%B6ken!",
-              "sentence_id": "5e88a8a2",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"plugga\"]"
-            }
-          },
-          {
-            "ex_id": "cb4b91de849356cd8ddfd9d493c8151480512175",
-            "sv": "Mattecentrum står bakom webbtjänsten Matteboken.se, ett gratisverktyg för att plugga matematik på nätet.",
-            "en": "Mattecentrum is behind the web service Matteboken.se, a free tool for studying mathematics online.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Mattecentrum"
-              },
-              {
-                "fe_id": "fe_material",
-                "span_sv": "ett gratisverktyg"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "matematik"
-              }
-            ],
-            "gloss": "study",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Mattecentrum",
-              "text_url": "https://sv.wikipedia.org/wiki/Mattecentrum",
-              "sentence_id": "d0007dc6",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"plugga\"]"
-            }
-          },
-          {
-            "ex_id": "e39a09f8a8d070f4692f763cf1c296bb109c09db",
-            "sv": "Yttre motivation handlar om att undvika bestraffningar och erhålla belöningar, till exempel att plugga för betygen.",
-            "en": "External motivation is about avoiding punishments and getting rewards, for example studying for the grades.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "betygen"
-              }
-            ],
-            "gloss": "study",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Motivation",
-              "text_url": "https://sv.wikipedia.org/wiki/Motivation",
-              "sentence_id": "e34a4802",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"plugga\"]"
-            }
-          },
-          {
-            "ex_id": "2a0491f7a56b95c22060e84ccc8a2c1e0f108549",
-            "sv": "Jocke vill förändra sitt liv och börja plugga efter fängelsestraffet, men istället fritas han från fängelset.",
-            "en": "Jocke wants to change his life and start studying after the prison sentence, but instead he is released from prison.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Jocke"
-              }
-            ],
-            "gloss": "study",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Sökarna – Återkomsten",
-              "text_url": "https://sv.wikipedia.org/wiki/S%C3%B6karna_%E2%80%93_%C3%85terkomsten",
-              "sentence_id": "a135fe5a",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"plugga\"]"
-            }
-          },
-          {
-            "ex_id": "c34c4f07cd84ddfc01f015b89f1dde23492b6fee",
-            "sv": "Berry tar också över Ichigos ledarroll eftersom Ichigo stuckit till England för att plugga.",
-            "en": "Berry also takes over Ichigo's leadership role because Ichigo has gone to England to study.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Ichigo"
-              }
-            ],
-            "gloss": "study",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Tokyo Mew Mew à la Mode",
-              "text_url": "https://sv.wikipedia.org/wiki/Tokyo_Mew_Mew_%C3%A0_la_Mode",
-              "sentence_id": "5e70480a",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"plugga\"]"
-            }
-          },
-          {
-            "ex_id": "6301a2ee731b46a2072267f0f2ff2fc650cd967a",
-            "sv": "Lina börjar plugga till veterinär på en gymnasieskola i Bramhed, 45 mil hemifrån.",
-            "en": "Lina starts studying to become a veterinarian at an upper secondary school in Bramhed, 450 km from home.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Lina"
-              },
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "veterinär"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "en gymnasieskola i Bramhed"
-              }
-            ],
-            "gloss": "study",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Linas kvällsbok 2: Två killar och ett hjärta",
-              "text_url": "https://sv.wikipedia.org/wiki/Linas_kv%C3%A4llsbok_2:_Tv%C3%A5_killar_och_ett_hj%C3%A4rta",
-              "sentence_id": "c714691f",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"plugga\"]"
-            }
-          },
-          {
-            "ex_id": "2220987a168a4165f7bada544a5a08af34c72d79",
-            "sv": "Ordet plugga används för att ta till sig information och kunskap.",
-            "en": "The word study is used to take in information and knowledge.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "information"
-              },
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "kunskap"
-              }
-            ],
-            "gloss": "study",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Plugghäst",
-              "text_url": "https://sv.wikipedia.org/wiki/Pluggh%C3%A4st",
-              "sentence_id": "c09f26e5",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"plugga\"]"
-            }
-          },
-          {
-            "ex_id": "8c0dd5c192ae48bc5cf3d0dec8d6a300facf4340",
-            "sv": "Hon och Keitaro börjar plugga tillsammans för att komma in på Todai tillsammans.",
-            "en": "She and Keitaro start studying together in order to get into Todai together.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Hon"
-              },
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Keitaro"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Todai"
-              }
-            ],
-            "gloss": "study",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Love Hina",
-              "text_url": "https://sv.wikipedia.org/wiki/Love_Hina",
-              "sentence_id": "58d78ff5",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"plugga\"]"
-            }
-          },
-          {
-            "ex_id": "b475144817d577b96b2d82e83c37738efb5d12d7",
-            "sv": "• Måndagsläsare kallas den student som hela tiden säger sig ska börja plugga på måndag.",
-            "en": "A Monday reader is what you call the student who keeps saying they will start studying on Monday.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "den student"
-              }
-            ],
-            "gloss": "study",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Måndag",
-              "text_url": "https://sv.wikipedia.org/wiki/M%C3%A5ndag",
-              "sentence_id": "22130c49",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"plugga\"]"
-            }
-          }
-        ]
+        "examples": []
       }
     ],
     "pronunciation": {
-      "ipa": "ˈplɵɡːa",
-      "stress_hint": "Stress on the first syllable.",
+      "ipa": "ˈroːˌplɵɡːa",
+      "stress_hint": "Main stress on rå-, secondary stress on -plugga.",
       "audio": {
         "file": "audio/lu_büffeln.mp3",
         "model": "gpt-4o-mini-tts",
@@ -461,10 +131,10 @@
     },
     "morphology": {
       "principal_parts": [
-        "plugga",
-        "pluggar",
-        "pluggade",
-        "pluggat"
+        "råplugga",
+        "råpluggar",
+        "råpluggade",
+        "råpluggat"
       ],
       "particle_or_reflexive": null
     }

@@ -22,9 +22,9 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "lärare",
+      "en lärare",
       "läraren",
-      "lärare",
+      "lärare (plural)",
       "lärarna"
     ],
     "english_equivalent_en": "teacher",
@@ -68,9 +68,9 @@
         "meaning_en": "the teaching profession"
       },
       {
-        "word": "lärarjobb",
+        "word": "lärarstudent",
         "type_en": "noun",
-        "meaning_en": "a teaching job"
+        "meaning_en": "student training to become a teacher"
       },
       {
         "word": "folkskollärare",
@@ -78,44 +78,43 @@
         "meaning_en": "primary school teacher (older term)"
       },
       {
-        "word": "lärarstudent",
+        "word": "lärarjobb",
         "type_en": "noun",
-        "meaning_en": "student training to become a teacher"
+        "meaning_en": "teaching job"
       }
     ],
     "synonyms_sv": [
       "pedagog",
       "undervisare",
-      "instruktör",
-      "lärarexpert"
+      "skollärare"
     ],
     "antonyms_sv": [
       "elev"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_people",
+        "frame_name_en": "People",
+        "frame_slug": "people",
         "sense_id": "lu_lehrer_der_lehrer__die_lehrerin:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_lehrer_der_lehrer__die_lehrerin:1",
-        "frame_id": "frame_education",
-        "meaning_en": "a person who teaches students a subject or skill, often in a school or other institution",
+        "frame_id": "frame_people",
+        "meaning_en": "a person whose job is to teach, especially in a school or similar institution",
         "how_to_use_en": [
-          "Use for someone whose job is to teach (in a school or similar).",
-          "Often followed by what they teach (i + subject/skill) or where they work (vid + institution).",
-          "Can also mean a private teacher for a skill (e.g., music)."
+          "Use for someone who teaches (a profession or role).",
+          "Often used with a possessive: någons lärare (“someone’s teacher”).",
+          "Can be counted: en lärare, 70 lärare."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "X:s lärare",
-            "meaning_en": "someone’s teacher",
-            "note_en": "Genitive shows who the teacher teaches (e.g., Griegs lärare)."
+            "pattern": "en av [Person]s lärare",
+            "meaning_en": "one of someone’s teachers",
+            "note_en": "Used to identify a teacher connected to a person."
           },
           {
             "pattern_id": "pat_2",
@@ -125,33 +124,33 @@
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "arbeta som lärare (vid + institution)",
+            "pattern": "vara verksam som lärare",
             "meaning_en": "work as a teacher",
-            "note_en": "Often adds workplace with vid."
+            "note_en": "Common in biographies and formal writing."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "vara lärare i + ämne",
-            "meaning_en": "teach a subject",
-            "note_en": "Uses i before the subject area (e.g., i sång)."
+            "pattern": "[antal] är lärare",
+            "meaning_en": "[number] are teachers",
+            "note_en": "Used for groups and statistics."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "lärare som + verb",
-            "meaning_en": "teachers who do something",
-            "note_en": "Common for describing what teachers provide (e.g., give bilingual teaching)."
+            "pattern": "undervisas av [antal] lärare",
+            "meaning_en": "be taught by [number] teachers",
+            "note_en": ""
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *en lärar* as the singular form.",
-            "fix": "Use en lärare.",
-            "explain_en": "The singular indefinite is lärare (not lärar)."
+            "error": "Using *lärare* as a verb (e.g., *jag lärare svenska*).",
+            "fix": "Use the verb: jag undervisar i svenska / jag är lärare i svenska.",
+            "explain_en": "Lärare is a noun (a person), not an action."
           },
           {
-            "error": "Adding -er in plural: *lärares* or *lärares*.",
-            "fix": "Use lärare (plural) and lärarna (definite plural).",
-            "explain_en": "Indefinite plural is the same as singular: lärare."
+            "error": "Adding -s plural: *lärares*.",
+            "fix": "Plural is the same form: flera lärare.",
+            "explain_en": "Indefinite plural does not add -s here."
           }
         ],
         "required_example_count": 10,
@@ -160,11 +159,15 @@
             "ex_id": "7b971b4586b3a1a5b1f10a8cc2f785d9f02da077",
             "sv": "En av Griegs lärare, Wenzel, hade varit Schumanns vän.",
             "en": "One of Grieg's teachers, Wenzel, had been Schumann's friend.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
-                "span_sv": "Griegs lärare"
+                "fe_id": "fe_role",
+                "span_sv": "lärare"
+              },
+              {
+                "fe_id": "fe_person",
+                "span_sv": "Wenzel"
               }
             ],
             "gloss": "teacher",
@@ -178,27 +181,27 @@
               "text_title": "Pianokonsert (Grieg)",
               "text_url": "https://sv.wikipedia.org/wiki/Pianokonsert_(Grieg)",
               "sentence_id": "8765ca9f",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"lärare\"]"
             }
           },
           {
             "ex_id": "80a6316cb6ef05516e80ad668a4c4b8ce102ade9",
             "sv": "Svensson utbildade sig till lärare i Göteborg och avlade 1910 folkskollärarexamen.",
-            "en": "Svensson trained to become a teacher in Gothenburg and in 1910 took the primary school teacher exam.",
-            "frame_id": "frame_education",
+            "en": "Svensson trained to become a teacher in Gothenburg and in 1910 took a primary school teacher exam.",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
+                "span_sv": "Svensson"
+              },
+              {
+                "fe_id": "fe_role",
                 "span_sv": "lärare"
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "i Göteborg"
-              },
-              {
-                "fe_id": "fe_qualification",
-                "span_sv": "folkskollärarexamen"
+                "span_sv": "Göteborg"
               }
             ],
             "gloss": "teacher",
@@ -212,7 +215,7 @@
               "text_title": "Hilding Svensson",
               "text_url": "https://sv.wikipedia.org/wiki/Hilding_Svensson",
               "sentence_id": "2f730e31",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"lärare\"]"
             }
           },
@@ -220,23 +223,23 @@
             "ex_id": "4ff3cc457889b7bb0d5229619c0d5462ecea5144",
             "sv": "Skolan har runt 800 elever och runt 110 som är personal varav omkring 80 är lärare.",
             "en": "The school has around 800 pupils and around 110 who are staff, of which about 80 are teachers.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
                 "span_sv": "Skolan"
               },
               {
-                "fe_id": "fe_student",
-                "span_sv": "800 elever"
+                "fe_id": "fe_group",
+                "span_sv": "omkring 80"
               },
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_role",
                 "span_sv": "lärare"
               }
             ],
             "gloss": "teacher",
-            "level": "A2",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -246,7 +249,7 @@
               "text_title": "Knut Hahnsskolan",
               "text_url": "https://sv.wikipedia.org/wiki/Knut_Hahnsskolan",
               "sentence_id": "ebb48dd2",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"lärare\"]"
             }
           },
@@ -254,19 +257,23 @@
             "ex_id": "76bcf4d982a9284174f392737cab5b5cb64ad3a9",
             "sv": "Det sammanlagda antalet elever var året 2014 713 stycken som undervisades av 70 lärare.",
             "en": "The total number of pupils in the year 2014 was 713, who were taught by 70 teachers.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "713 stycken"
+                "fe_id": "fe_group",
+                "span_sv": "70"
               },
               {
-                "fe_id": "fe_teacher",
-                "span_sv": "70 lärare"
+                "fe_id": "fe_role",
+                "span_sv": "lärare"
+              },
+              {
+                "fe_id": "fe_activity",
+                "span_sv": "undervisades"
               }
             ],
             "gloss": "teacher",
-            "level": "A2",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -276,7 +283,71 @@
               "text_title": "Matteusskolan, Stockholm",
               "text_url": "https://sv.wikipedia.org/wiki/Matteusskolan,_Stockholm",
               "sentence_id": "d8012cbf",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
+              "korp_query": "[word=\"lärare\"]"
+            }
+          },
+          {
+            "ex_id": "2eeb074f708107840981029d15f63ad5568f174f",
+            "sv": "Moses utexaminerades 1876 från Mercer University och var sedan verksam som lärare och jordbrukare.",
+            "en": "Moses graduated in 1876 from Mercer University and then worked as a teacher and a farmer.",
+            "frame_id": "frame_people",
+            "fe_tags": [
+              {
+                "fe_id": "fe_person",
+                "span_sv": "Moses"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Mercer University"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "lärare"
+              }
+            ],
+            "gloss": "teacher",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Charles L. Moses",
+              "text_url": "https://sv.wikipedia.org/wiki/Charles_L._Moses",
+              "sentence_id": "496248b3",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
+              "korp_query": "[word=\"lärare\"]"
+            }
+          },
+          {
+            "ex_id": "a527736b0bcc8c2ca175a9be3cd04a4d42360971",
+            "sv": "Han var sedan verksam som lärare, bokhandlare och politiker på delstatsnivå.",
+            "en": "He then worked as a teacher, a bookseller, and a politician at state level.",
+            "frame_id": "frame_people",
+            "fe_tags": [
+              {
+                "fe_id": "fe_person",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "lärare"
+              }
+            ],
+            "gloss": "teacher",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jack R. Gage",
+              "text_url": "https://sv.wikipedia.org/wiki/Jack_R._Gage",
+              "sentence_id": "b2fbd4c9",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"lärare\"]"
             }
           },
@@ -284,23 +355,27 @@
             "ex_id": "248a7502f7b4223fc74f5fa41f4726b23ca5a829",
             "sv": "Båda hennes föräldrar var lärare, hennes far i engelsk litteratur och hennes mor i historia.",
             "en": "Both her parents were teachers, her father in English literature and her mother in history.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_group",
+                "span_sv": "Båda hennes föräldrar"
+              },
+              {
+                "fe_id": "fe_role",
                 "span_sv": "lärare"
               },
               {
-                "fe_id": "fe_subject",
+                "fe_id": "fe_field",
                 "span_sv": "engelsk litteratur"
               },
               {
-                "fe_id": "fe_subject",
+                "fe_id": "fe_field",
                 "span_sv": "historia"
               }
             ],
             "gloss": "teacher",
-            "level": "A2",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -310,112 +385,22 @@
               "text_title": "Lauren Holly",
               "text_url": "https://sv.wikipedia.org/wiki/Lauren_Holly",
               "sentence_id": "b6dd7d6a",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"lärare\"]"
             }
           },
           {
-            "ex_id": "9f98c956fe2f3adb2c3606449cf7977cc1494ea2",
-            "sv": "På senare år har han arbetat som lärare vid Lorraines konsthögskola.",
-            "en": "In later years he has worked as a teacher at Lorraine's art college.",
-            "frame_id": "frame_education",
+            "ex_id": "0c967f8aa96d7cdabf4a596e93da1bce1319a5fe",
+            "sv": "När kungen dör, får Brahe fortsatt stöd av sin gamle lärare Branting.",
+            "en": "When the king dies, Brahe gets continued support from his old teacher Branting.",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
-                "span_sv": "lärare"
+                "fe_id": "fe_person",
+                "span_sv": "Branting"
               },
               {
-                "fe_id": "fe_institution",
-                "span_sv": "vid Lorraines konsthögskola"
-              }
-            ],
-            "gloss": "teacher",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Baru",
-              "text_url": "https://sv.wikipedia.org/wiki/Baru",
-              "sentence_id": "1a94dfad",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"lärare\"]"
-            }
-          },
-          {
-            "ex_id": "5f5a35630f8ef4d37263c4ad6c7a02644b2a627d",
-            "sv": "Björn Ståbi började tidigt spela fiol, först med fadern Erik som lärare.",
-            "en": "Björn Ståbi started playing the violin early, first with his father Erik as teacher.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "fadern Erik som lärare"
-              },
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "spela fiol"
-              }
-            ],
-            "gloss": "teacher",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Björn Ståbi",
-              "text_url": "https://sv.wikipedia.org/wiki/Bj%C3%B6rn_St%C3%A5bi",
-              "sentence_id": "c7172981",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"lärare\"]"
-            }
-          },
-          {
-            "ex_id": "61720b57773a2e4ce011bbc4cfe151a8f84535fd",
-            "sv": "Åren 1949 – 1963 var han lärare i sång vid Musikhögskolan.",
-            "en": "In the years 1949–1963 he was a teacher in singing at the Music Academy.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "lärare"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "sång"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "vid Musikhögskolan"
-              }
-            ],
-            "gloss": "teacher",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Claes Göran Stenhammar",
-              "text_url": "https://sv.wikipedia.org/wiki/Claes_G%C3%B6ran_Stenhammar",
-              "sentence_id": "f7827722",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"lärare\"]"
-            }
-          },
-          {
-            "ex_id": "55ee788d75a22e3764f57388b8c43542c4198def",
-            "sv": "Hans far arbetade en tid som kolgruvearbetare och hans mamma var lärare till yrket.",
-            "en": "His father worked for a time as a coal miner and his mother was a teacher by profession.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_role",
                 "span_sv": "lärare"
               }
             ],
@@ -427,10 +412,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Al MacInnis",
-              "text_url": "https://sv.wikipedia.org/wiki/Al_MacInnis",
-              "sentence_id": "6a51f310",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "text_title": "Stjärneborg (roman)",
+              "text_url": "https://sv.wikipedia.org/wiki/Stj%C3%A4rneborg_(roman)",
+              "sentence_id": "1c3edb29",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"lärare\"]"
             }
           },
@@ -438,15 +423,15 @@
             "ex_id": "af3fe5846a98e39adea744650e3d8f71f67bf2c6",
             "sv": "Det finns lärare som ger tvåspråklig undervisning på ca 20 olika språk.",
             "en": "There are teachers who give bilingual teaching in about 20 different languages.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_role",
                 "span_sv": "lärare"
               },
               {
-                "fe_id": "fe_course",
-                "span_sv": "tvåspråklig undervisning"
+                "fe_id": "fe_activity",
+                "span_sv": "ger tvåspråklig undervisning"
               }
             ],
             "gloss": "teacher",
@@ -460,7 +445,37 @@
               "text_title": "Rykkinn",
               "text_url": "https://sv.wikipedia.org/wiki/Rykkinn",
               "sentence_id": "1c35fa85",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
+              "korp_query": "[word=\"lärare\"]"
+            }
+          },
+          {
+            "ex_id": "6d3fcbf37a6db3eebed4b2878f556cc159af562b",
+            "sv": "Malmström, som fick smeknamnet Kulan, var en uppskattad lärare.",
+            "en": "Malmström, who got the nickname Kulan, was an appreciated teacher.",
+            "frame_id": "frame_people",
+            "fe_tags": [
+              {
+                "fe_id": "fe_person",
+                "span_sv": "Malmström"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "lärare"
+              }
+            ],
+            "gloss": "teacher",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "August Malmström",
+              "text_url": "https://sv.wikipedia.org/wiki/August_Malmstr%C3%B6m",
+              "sentence_id": "fd2f8672",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"lärare\"]"
             }
           }
@@ -469,7 +484,7 @@
     ],
     "pronunciation": {
       "ipa": "ˈlɛːrarɛ",
-      "stress_hint": "Stress on the first syllable: LÄ-ra-re.",
+      "stress_hint": "Stress on the first syllable: LÄ-rare.",
       "audio": {
         "file": "audio/lu_lehrer_der_lehrer__die_lehrerin.mp3",
         "model": "gpt-4o-mini-tts",
@@ -479,7 +494,7 @@
     },
     "morphology": {
       "principal_parts": [
-        "en lärare",
+        "lärare",
         "läraren",
         "lärare",
         "lärarna"

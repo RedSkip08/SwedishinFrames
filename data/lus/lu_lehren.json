@@ -12,7 +12,7 @@
     "display_sv": "undervisa",
     "name_sv": "undervisa",
     "pos": "verb",
-    "cefr": "A2",
+    "cefr": "B1",
     "multiword": {
       "mwe_type": null,
       "components_sv": [],
@@ -27,7 +27,7 @@
     "english_equivalent_en": "teach",
     "morphology_sv": {
       "noun": {
-        "gender": null,
+        "gender": "en",
         "indef_sg": null,
         "def_sg": null,
         "indef_pl": null,
@@ -75,78 +75,76 @@
         "meaning_en": "teaching method"
       },
       {
-        "word": "undervisningsspråk",
+        "word": "undervisningsrätt",
         "type_en": "noun",
-        "meaning_en": "language of instruction"
+        "meaning_en": "right/permission to teach"
       }
     ],
     "synonyms_sv": [
       "lära ut",
-      "hålla lektioner",
       "instruera",
-      "utbilda"
+      "utbilda",
+      "ge undervisning"
     ],
-    "antonyms_sv": [
-      "lära sig"
-    ],
+    "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_teaching",
+        "frame_name_en": "Teaching",
+        "frame_slug": "teaching",
         "sense_id": "lu_lehren:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_lehren:1",
-        "frame_id": "frame_education",
-        "meaning_en": "to teach someone a subject or skill, often in a school or course setting",
+        "frame_id": "frame_teaching",
+        "meaning_en": "to teach someone a subject or skill, often in a school or organized setting",
         "how_to_use_en": [
-          "Use for teaching a subject/skill, often formally (school, course, institution).",
-          "Common with i + subject and vid/på + institution.",
-          "Can be used without an object when the activity is the focus."
+          "Use for giving instruction in a subject (often with i + subject).",
+          "Often used about teaching at a school or institution (vid/på + place).",
+          "Can be used generally: undervisa (without saying what)."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "undervisa i + Ämne",
+            "pattern": "undervisa i + ämne",
             "meaning_en": "teach a subject",
-            "note_en": "Used for school subjects and academic fields."
+            "note_en": "Common with school subjects and fields."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "undervisa + Elev/Person",
-            "meaning_en": "teach someone",
-            "note_en": "Direct object is the learner (e.g., a person or group)."
+            "pattern": "undervisa + någon + i + ämne",
+            "meaning_en": "teach someone something",
+            "note_en": "The learner is an object (e.g., dem, barn)."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "undervisa + Elev/Person + i + Ämne",
-            "meaning_en": "teach someone a subject",
-            "note_en": ""
+            "pattern": "undervisa vid + institution",
+            "meaning_en": "teach at an institution",
+            "note_en": "Used with universities/colleges in the examples."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "undervisa vid/på + Institution",
-            "meaning_en": "teach at an institution",
-            "note_en": "Both vid and på occur with schools/colleges."
+            "pattern": "undervisa på + skolor",
+            "meaning_en": "teach at schools",
+            "note_en": "Often with types of schools (e.g., folkskolor)."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "undervisa + (andra/barn/befolkningen) + Hur/att + Färdighet",
-            "meaning_en": "teach how to do something",
-            "note_en": "Often introduces a skill with hur + clause."
+            "pattern": "börja undervisa",
+            "meaning_en": "start teaching",
+            "note_en": "Very common in biographical contexts with a time expression."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *undervisa* when you mean “learn” (lära sig).",
-            "fix": "Use lära sig for learning; use undervisa for teaching.",
-            "explain_en": "Undervisa focuses on the teacher’s action, not the student’s learning."
+            "error": "Using *undervisa* for 'learn' (studying yourself).",
+            "fix": "Use lära sig or studera for 'learn/study'.",
+            "explain_en": "Undervisa focuses on the teacher giving instruction, not the learner."
           },
           {
-            "error": "Forgetting the preposition i before a subject (e.g., *undervisa tyska*).",
+            "error": "Saying *undervisa tyska* without i.",
             "fix": "Say undervisa i tyska.",
             "explain_en": "In the examples, the subject is introduced with i."
           }
@@ -157,91 +155,23 @@
             "ex_id": "d21b44e19ce317c17d33d9f41b34466fb9a02693",
             "sv": "Året efter började han undervisa i Klassisk grekiska vid Merton College.",
             "en": "The year after, he began to teach Classical Greek at Merton College.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_teaching",
             "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Året efter"
+              },
               {
                 "fe_id": "fe_teacher",
                 "span_sv": "han"
               },
               {
                 "fe_id": "fe_subject",
-                "span_sv": "Klassisk grekiska"
+                "span_sv": "i Klassisk grekiska"
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "Merton College"
-              }
-            ],
-            "gloss": "teach",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Thomas Bodley",
-              "text_url": "https://sv.wikipedia.org/wiki/Thomas_Bodley",
-              "sentence_id": "d8a2008c",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"undervisa\"]"
-            }
-          },
-          {
-            "ex_id": "10800c3b1b014c91106e6cd4192368627ca0533f",
-            "sv": "År 1987 lärde han att spela alboka och gaita och började undervisa andra.",
-            "en": "In 1987 he learned to play alboka and gaita and began to teach others.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_student",
-                "span_sv": "andra"
-              }
-            ],
-            "gloss": "teach",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ibon Koteron",
-              "text_url": "https://sv.wikipedia.org/wiki/Ibon_Koteron",
-              "sentence_id": "d88f1e08",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"undervisa\"]"
-            }
-          },
-          {
-            "ex_id": "87882275a7032775bbac38d67a2dd8de769affd2",
-            "sv": "Hon fick bara undervisa barn i tyska, medan de manliga lärarna fick undervisa de äldre.",
-            "en": "She was only allowed to teach children in German, while the male teachers were allowed to teach the older ones.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "Hon"
-              },
-              {
-                "fe_id": "fe_student",
-                "span_sv": "barn"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "tyska"
-              },
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "de manliga lärarna"
-              },
-              {
-                "fe_id": "fe_student",
-                "span_sv": "de äldre"
+                "span_sv": "vid Merton College"
               }
             ],
             "gloss": "teach",
@@ -252,10 +182,48 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Clara Holst",
-              "text_url": "https://sv.wikipedia.org/wiki/Clara_Holst",
-              "sentence_id": "45ca4bb8",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "text_title": "Thomas Bodley",
+              "text_url": "https://sv.wikipedia.org/wiki/Thomas_Bodley",
+              "sentence_id": "d8a2008c",
+              "retrieved_at": "2026-01-20T18:32:45+00:00",
+              "korp_query": "[word=\"undervisa\"]"
+            }
+          },
+          {
+            "ex_id": "6d2e941934ff5fed60b2ced88dc8f89af26c38c3",
+            "sv": "År 1856 började han undervisa; från 1862 vid École Normale Supérieure.",
+            "en": "In 1856 he began to teach; from 1862 at École Normale Supérieure.",
+            "frame_id": "frame_teaching",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "År 1856"
+              },
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "från 1862"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "vid École Normale Supérieure"
+              }
+            ],
+            "gloss": "teach",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Théodule Ribot (psykolog)",
+              "text_url": "https://sv.wikipedia.org/wiki/Th%C3%A9odule_Ribot_(psykolog)",
+              "sentence_id": "bb068554",
+              "retrieved_at": "2026-01-20T18:32:45+00:00",
               "korp_query": "[word=\"undervisa\"]"
             }
           },
@@ -263,15 +231,61 @@
             "ex_id": "47f1ccea1932e6faccab25a48f0ea7479108d303",
             "sv": "Samma år kom hon till Malmö, där hon började undervisa på folkskolor.",
             "en": "The same year she came to Malmö, where she began to teach at primary schools.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_teaching",
             "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Samma år"
+              },
               {
                 "fe_id": "fe_teacher",
                 "span_sv": "hon"
               },
               {
+                "fe_id": "fe_place",
+                "span_sv": "till Malmö"
+              },
+              {
                 "fe_id": "fe_institution",
-                "span_sv": "folkskolor"
+                "span_sv": "på folkskolor"
+              }
+            ],
+            "gloss": "teach",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Naemi Uddenberg",
+              "text_url": "https://sv.wikipedia.org/wiki/Naemi_Uddenberg",
+              "sentence_id": "db39ed27",
+              "retrieved_at": "2026-01-20T18:32:45+00:00",
+              "korp_query": "[word=\"undervisa\"]"
+            }
+          },
+          {
+            "ex_id": "c91f75b0fb030ce4ae1d49745fef770b0a86d7f6",
+            "sv": "I stället började han undervisa i musik vid skolor på landsbygden.",
+            "en": "Instead he began to teach music at schools in the countryside.",
+            "frame_id": "frame_teaching",
+            "fe_tags": [
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "i musik"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "vid skolor"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "på landsbygden"
               }
             ],
             "gloss": "teach",
@@ -282,18 +296,74 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Naemi Uddenberg",
-              "text_url": "https://sv.wikipedia.org/wiki/Naemi_Uddenberg",
-              "sentence_id": "db39ed27",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "text_title": "Igor Krutoj",
+              "text_url": "https://sv.wikipedia.org/wiki/Igor_Krutoj",
+              "sentence_id": "e007ad1a",
+              "retrieved_at": "2026-01-20T18:32:45+00:00",
+              "korp_query": "[word=\"undervisa\"]"
+            }
+          },
+          {
+            "ex_id": "99dae49eeaf272aef8e69bca05ab40c730fcf28c",
+            "sv": "Fadern började undervisa i folkhälsa, och blev senare professor i ämnet.",
+            "en": "The father began to teach public health, and later became a professor in the subject.",
+            "frame_id": "frame_teaching",
+            "fe_tags": [
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "Fadern"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "i folkhälsa"
+              }
+            ],
+            "gloss": "teach",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "W.H. Auden",
+              "text_url": "https://sv.wikipedia.org/wiki/W.H._Auden",
+              "sentence_id": "aa92466d",
+              "retrieved_at": "2026-01-20T18:32:45+00:00",
+              "korp_query": "[word=\"undervisa\"]"
+            }
+          },
+          {
+            "ex_id": "f940b98ad004a3affe8bccc48ff001b762cb65fb",
+            "sv": "Systern Charlotte betalade hans utbildning med pengar hon tjänade genom att undervisa.",
+            "en": "The sister Charlotte paid for his education with money she earned by teaching.",
+            "frame_id": "frame_teaching",
+            "fe_tags": [
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "hon"
+              }
+            ],
+            "gloss": "teach",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Branwell Brontë",
+              "text_url": "https://sv.wikipedia.org/wiki/Branwell_Bront%C3%AB",
+              "sentence_id": "ad9c9f75",
+              "retrieved_at": "2026-01-20T18:32:45+00:00",
               "korp_query": "[word=\"undervisa\"]"
             }
           },
           {
             "ex_id": "1b257304af41c4e235f808728284cea0047accfc",
             "sv": "Författarens syfte är inte att undervisa, bara att röra och roa.",
-            "en": "The author's purpose is not to teach, only to move and entertain.",
-            "frame_id": "frame_education",
+            "en": "The author's aim is not to teach, only to move and entertain.",
+            "frame_id": "frame_teaching",
             "fe_tags": [
               {
                 "fe_id": "fe_teacher",
@@ -311,78 +381,18 @@
               "text_title": "En lustig comedia vid namn Tisbe",
               "text_url": "https://sv.wikipedia.org/wiki/En_lustig_comedia_vid_namn_Tisbe",
               "sentence_id": "7262d6b6",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"undervisa\"]"
-            }
-          },
-          {
-            "ex_id": "41ceb8ddc81a288857386503f11ddf45086c7246",
-            "sv": "År 1999 slutade han att undervisa för att kunna skriva på heltid.",
-            "en": "In 1999 he stopped teaching in order to be able to write full time.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "han"
-              }
-            ],
-            "gloss": "teach",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Peter Verhelst",
-              "text_url": "https://sv.wikipedia.org/wiki/Peter_Verhelst",
-              "sentence_id": "87738842",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"undervisa\"]"
-            }
-          },
-          {
-            "ex_id": "c91f75b0fb030ce4ae1d49745fef770b0a86d7f6",
-            "sv": "I stället började han undervisa i musik vid skolor på landsbygden.",
-            "en": "Instead he began to teach music at schools in the countryside.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "musik"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "skolor"
-              }
-            ],
-            "gloss": "teach",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Igor Krutoj",
-              "text_url": "https://sv.wikipedia.org/wiki/Igor_Krutoj",
-              "sentence_id": "e007ad1a",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:32:45+00:00",
               "korp_query": "[word=\"undervisa\"]"
             }
           },
           {
             "ex_id": "15bada172042db3587d5e68efe80e072e55e0931",
             "sv": "Rätten att undervisa var inte alltid automatiskt knuten till en läraranställning.",
-            "en": "The right to teach was not always automatically linked to a teacher job.",
-            "frame_id": "frame_education",
+            "en": "The right to teach was not always automatically linked to a teaching job.",
+            "frame_id": "frame_teaching",
             "fe_tags": [
               {
-                "fe_id": "fe_qualification",
+                "fe_id": "fe_lesson",
                 "span_sv": "Rätten att undervisa"
               }
             ],
@@ -397,57 +407,35 @@
               "text_title": "Docent",
               "text_url": "https://sv.wikipedia.org/wiki/Docent",
               "sentence_id": "efa75484",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:32:45+00:00",
               "korp_query": "[word=\"undervisa\"]"
             }
           },
           {
-            "ex_id": "50cda2cfb4fbad88313ab48a74af0593af73857d",
-            "sv": "Alexanders far Filip hade kallat honom till Makedonien, för att undervisa Alexander.",
-            "en": "Alexander's father Philip had called him to Macedonia, to teach Alexander.",
-            "frame_id": "frame_education",
+            "ex_id": "87882275a7032775bbac38d67a2dd8de769affd2",
+            "sv": "Hon fick bara undervisa barn i tyska, medan de manliga lärarna fick undervisa de äldre.",
+            "en": "She was only allowed to teach children German, while the male teachers were allowed to teach the older ones.",
+            "frame_id": "frame_teaching",
             "fe_tags": [
               {
                 "fe_id": "fe_teacher",
-                "span_sv": "honom"
+                "span_sv": "Hon"
               },
               {
-                "fe_id": "fe_student",
-                "span_sv": "Alexander"
-              }
-            ],
-            "gloss": "teach",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Alexander den store",
-              "text_url": "https://sv.wikipedia.org/wiki/Alexander_den_store",
-              "sentence_id": "94478196",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"undervisa\"]"
-            }
-          },
-          {
-            "ex_id": "5419d7dbf319bfbb768a99717f853b193da43b1f",
-            "sv": "Gruppen satte läkarstudenter att undervisa befolkningen i byarna runtom staden hur man bäst undvek smittan.",
-            "en": "The group made medical students teach the population in the villages around the city how to best avoid the infection.",
-            "frame_id": "frame_education",
-            "fe_tags": [
+                "fe_id": "fe_learner",
+                "span_sv": "barn"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "i tyska"
+              },
               {
                 "fe_id": "fe_teacher",
-                "span_sv": "läkarstudenter"
+                "span_sv": "de manliga lärarna"
               },
               {
-                "fe_id": "fe_student",
-                "span_sv": "befolkningen"
-              },
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "hur man bäst undvek smittan"
+                "fe_id": "fe_learner",
+                "span_sv": "de äldre"
               }
             ],
             "gloss": "teach",
@@ -458,10 +446,48 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Anders Tegnell",
-              "text_url": "https://sv.wikipedia.org/wiki/Anders_Tegnell",
-              "sentence_id": "6f90bab3",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "text_title": "Clara Holst",
+              "text_url": "https://sv.wikipedia.org/wiki/Clara_Holst",
+              "sentence_id": "45ca4bb8",
+              "retrieved_at": "2026-01-20T18:32:45+00:00",
+              "korp_query": "[word=\"undervisa\"]"
+            }
+          },
+          {
+            "ex_id": "1ed0ebc82011a578d0a8d54039e815a957c48072",
+            "sv": "Under den åldern har föräldrarna alltså rätt att bestämma barnens religion och undervisa dem i den.",
+            "en": "At that age the parents therefore have the right to decide the children's religion and teach them it.",
+            "frame_id": "frame_teaching",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Under den åldern"
+              },
+              {
+                "fe_id": "fe_teacher",
+                "span_sv": "föräldrarna"
+              },
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "dem"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "i den"
+              }
+            ],
+            "gloss": "teach",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Religionsfrihet",
+              "text_url": "https://sv.wikipedia.org/wiki/Religionsfrihet",
+              "sentence_id": "250a8c64",
+              "retrieved_at": "2026-01-20T18:32:45+00:00",
               "korp_query": "[word=\"undervisa\"]"
             }
           }

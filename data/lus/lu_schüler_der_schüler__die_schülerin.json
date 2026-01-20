@@ -3,7 +3,7 @@
     "id": "lu_schüler_der_schüler__die_schülerin",
     "source_de": {
       "lu_de_raw": "Schüler: der Schüler / die Schülerin",
-      "lu_de_normalized": "Schüler",
+      "lu_de_normalized": "Schüler/Schülerin",
       "gender_variants_de": [
         "der Schüler",
         "die Schülerin"
@@ -23,7 +23,6 @@
     },
     "forms": [
       "elev",
-      "en elev",
       "eleven",
       "elever",
       "eleverna"
@@ -61,12 +60,12 @@
       {
         "word": "elevskola",
         "type_en": "noun",
-        "meaning_en": "a school/training program for students"
+        "meaning_en": "school or program for students (often within an institution)"
       },
       {
         "word": "elevhem",
         "type_en": "noun",
-        "meaning_en": "boarding house for students"
+        "meaning_en": "boarding house/dorm for students"
       },
       {
         "word": "elevråd",
@@ -76,77 +75,71 @@
       {
         "word": "elevkår",
         "type_en": "noun",
-        "meaning_en": "student association"
+        "meaning_en": "student association (especially at a school)"
       },
       {
-        "word": "elevplats",
+        "word": "elevhälsa",
         "type_en": "noun",
-        "meaning_en": "a place/spot for a student (in a school/program)"
+        "meaning_en": "student health and support services at school"
       }
     ],
     "synonyms_sv": [
-      "studerande",
+      "skolbarn",
       "skolelev",
-      "lärjunge"
+      "lärjunge",
+      "studerande"
     ],
     "antonyms_sv": [
-      "lärare",
-      "instruktör"
+      "lärare"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_people",
+        "frame_name_en": "People",
+        "frame_slug": "people",
         "sense_id": "lu_schüler_der_schüler__die_schülerin:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_schüler_der_schüler__die_schülerin:1",
-        "frame_id": "frame_education",
-        "meaning_en": "a person who learns in a school or training setting",
+        "frame_id": "frame_people",
+        "meaning_en": "a person who studies at a school or training institution",
         "how_to_use_en": [
-          "Use for someone learning under a teacher/instructor.",
-          "Often used about school, but can also be used in other training (e.g., dojo).",
-          "Common with “vara elev” and “elev vid/på” + institution."
+          "Use for someone who attends a school or similar institution.",
+          "Often followed by “på” + the institution name."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "en/elev",
-            "meaning_en": "a student (indefinite)",
-            "note_en": "Often introduced with en: en elev."
+            "pattern": "en elev",
+            "meaning_en": "a student (one person)",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "vara elev på + Institution",
-            "meaning_en": "be a student at (institution)",
-            "note_en": ""
+            "pattern": "elev på + Institution",
+            "meaning_en": "student at a place",
+            "note_en": "Used for schools, academies, training centers, etc."
           },
           {
             "pattern_id": "pat_3",
             "pattern": "vara elev vid + Institution",
-            "meaning_en": "be a student at (institution)",
-            "note_en": "Often used in more formal/biographical style."
+            "meaning_en": "be a student at",
+            "note_en": "More formal; common in biographies and official texts."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "Lärare och elev",
-            "meaning_en": "teacher and student",
-            "note_en": "A common pairing when describing roles."
+            "pattern": "antagen som elev vid + Institution",
+            "meaning_en": "accepted as a student at",
+            "note_en": "Often used when someone is admitted to a program or school."
           }
         ],
         "common_errors_en": [
           {
             "error": "Using elev for university students in general.",
-            "fix": "Use student for university; use elev mainly for school/training contexts.",
-            "explain_en": "In Swedish, elev often sounds like school pupil, while student is common at university."
-          },
-          {
-            "error": "Wrong preposition after elev (e.g., *elev i skolan).",
-            "fix": "Say elev på skolan or elev vid skolan.",
-            "explain_en": "The examples show elev på/vid + institution."
+            "fix": "Use student (at universitet/högskola) unless it is a school-like program.",
+            "explain_en": "Elev is most typical for school pupils or trainees at an institution."
           }
         ],
         "required_example_count": 10,
@@ -155,18 +148,18 @@
             "ex_id": "a20ef5955e8263fee9957ccc04c92da4776be1e5",
             "sv": "• Ingen elev får lämna dojon utan att först ha hänvänt sig till instruktören.",
             "en": "No student may leave the dojo without first speaking to the instructor.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_person",
                 "span_sv": "elev"
               },
               {
-                "fe_id": "fe_teacher",
-                "span_sv": "instruktören"
+                "fe_id": "fe_institution",
+                "span_sv": "dojon"
               }
             ],
-            "gloss": "elev = student, pupil",
+            "gloss": "elev = student",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -177,7 +170,7 @@
               "text_title": "Kyokushinkai",
               "text_url": "https://sv.wikipedia.org/wiki/Kyokushinkai",
               "sentence_id": "7e365589",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"elev\"]"
             }
           },
@@ -185,14 +178,14 @@
             "ex_id": "3e8a70d15221060df863b951c724cc6f305dd618",
             "sv": "Skolverket definierar en hemmasittare som en elev som har 100 procent skolfrånvaro i en månads tid eller mer.",
             "en": "The National Agency for Education defines a home-sitter as a student who has 100 percent school absence for a month or more.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_person",
                 "span_sv": "en elev"
               }
             ],
-            "gloss": "elev = student, pupil",
+            "gloss": "elev = student",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -203,7 +196,7 @@
               "text_title": "Skolk",
               "text_url": "https://sv.wikipedia.org/wiki/Skolk",
               "sentence_id": "2209ce8d",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"elev\"]"
             }
           },
@@ -211,18 +204,18 @@
             "ex_id": "8cea94b35321d07228038069e599fc546d6afed4",
             "sv": "Lärare och elev satt i varsin sittbrunn som var placerade i tandem.",
             "en": "Teacher and student sat in separate cockpits that were placed in tandem.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_role",
                 "span_sv": "Lärare"
               },
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_person",
                 "span_sv": "elev"
               }
             ],
-            "gloss": "elev = student, pupil",
+            "gloss": "elev = student",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -233,7 +226,7 @@
               "text_title": "Kjeller F.F. 9 Kaje",
               "text_url": "https://sv.wikipedia.org/wiki/Kjeller_F.F._9_Kaje",
               "sentence_id": "b1ef770e",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"elev\"]"
             }
           },
@@ -241,18 +234,22 @@
             "ex_id": "ecd682d523b5e7844467d4a4c80b513490162f5e",
             "sv": "Sidney är en elev på Enriched Learning Center for Gifted Children och pratar baklänges.",
             "en": "Sidney is a student at Enriched Learning Center for Gifted Children and speaks backwards.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_person",
                 "span_sv": "Sidney"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "en elev"
               },
               {
                 "fe_id": "fe_institution",
                 "span_sv": "Enriched Learning Center for Gifted Children"
               }
             ],
-            "gloss": "elev = student, pupil",
+            "gloss": "elev = student",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -263,37 +260,7 @@
               "text_title": "Lista över engångsfigurer i Simpsons",
               "text_url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_eng%C3%A5ngsfigurer_i_Simpsons",
               "sentence_id": "b1ea386a",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"elev\"]"
-            }
-          },
-          {
-            "ex_id": "ee8fa23f851b1334c982cc0b2a2b82f385220d5d",
-            "sv": "Raynar är också elev på Jedi-akademin och tycker om att gå klädd i färgglada och pråliga kläder.",
-            "en": "Raynar is also a student at the Jedi Academy and likes to be dressed in colorful and flashy clothes.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Raynar"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Jedi-akademin"
-              }
-            ],
-            "gloss": "elev = student, pupil",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Young Jedi Knights",
-              "text_url": "https://sv.wikipedia.org/wiki/Young_Jedi_Knights",
-              "sentence_id": "3e90d35d",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"elev\"]"
             }
           },
@@ -301,10 +268,10 @@
             "ex_id": "46e3bd1bb39f7dd1cbe3395f3025f2aee00776c8",
             "sv": "En ny elev börjar på Springfield Elementary, vampyren Edmund som blir kär i Lisa Simpson.",
             "en": "A new student starts at Springfield Elementary, the vampire Edmund who falls in love with Lisa Simpson.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_person",
                 "span_sv": "En ny elev"
               },
               {
@@ -312,7 +279,7 @@
                 "span_sv": "Springfield Elementary"
               }
             ],
-            "gloss": "elev = student, pupil",
+            "gloss": "elev = student",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -323,22 +290,26 @@
               "text_title": "Treehouse of Horror XXI",
               "text_url": "https://sv.wikipedia.org/wiki/Treehouse_of_Horror_XXI",
               "sentence_id": "c098594d",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"elev\"]"
             }
           },
           {
             "ex_id": "79c65b0c8efc47d74e978a5711c2ccca286388b7",
             "sv": "En annan stor rickrollning som har skett var den 20 februari 2009 då en elev hackade Göteborgs kommuns skolnät.",
-            "en": "Another big rickrolling that happened was on 20 February 2009 when a student hacked Gothenburg municipality's school network.",
-            "frame_id": "frame_education",
+            "en": "Another big rickroll that happened was on 20 February 2009 when a student hacked the Gothenburg municipality school network.",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_person",
                 "span_sv": "en elev"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Göteborgs kommuns skolnät"
               }
             ],
-            "gloss": "elev = student, pupil",
+            "gloss": "elev = student",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -349,26 +320,30 @@
               "text_title": "Rick Astley",
               "text_url": "https://sv.wikipedia.org/wiki/Rick_Astley",
               "sentence_id": "b51bcbb7",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"elev\"]"
             }
           },
           {
-            "ex_id": "f2e30103641c133d869394ae63d700baf6eedcd5",
-            "sv": "Åren strax före flytten var Prins Philip, hertig av Edinburgh elev vid skolan.",
-            "en": "In the years just before the move, Prince Philip, Duke of Edinburgh, was a student at the school.",
-            "frame_id": "frame_education",
+            "ex_id": "f5ba5a8258768806e77e194f58e92b32df558875",
+            "sv": "Hans äldre syster Sigrid var elev på Tekniska skolan (Konstfack) och var också konstnärlig.",
+            "en": "His older sister Sigrid was a student at the Technical School (Konstfack) and was also artistic.",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "Prins Philip, hertig av Edinburgh"
+                "fe_id": "fe_person",
+                "span_sv": "Sigrid"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "elev"
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "skolan"
+                "span_sv": "Tekniska skolan (Konstfack)"
               }
             ],
-            "gloss": "elev = student, pupil",
+            "gloss": "elev = student",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -376,29 +351,67 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Cheam School",
-              "text_url": "https://sv.wikipedia.org/wiki/Cheam_School",
-              "sentence_id": "3210d879",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "text_title": "Olle Ohlsson",
+              "text_url": "https://sv.wikipedia.org/wiki/Olle_Ohlsson",
+              "sentence_id": "b43c6c97",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
+              "korp_query": "[word=\"elev\"]"
+            }
+          },
+          {
+            "ex_id": "2d4e321fdb290aa5621123e0ecdb4995382ffc25",
+            "sv": "Från 1902 till 1907 var Lunn elev vid privatskolan Harrow i London.",
+            "en": "From 1902 to 1907 Lunn was a student at the private school Harrow in London.",
+            "frame_id": "frame_people",
+            "fe_tags": [
+              {
+                "fe_id": "fe_person",
+                "span_sv": "Lunn"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "elev"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "privatskolan Harrow"
+              }
+            ],
+            "gloss": "elev = student",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Arnold Lunn",
+              "text_url": "https://sv.wikipedia.org/wiki/Arnold_Lunn",
+              "sentence_id": "e001d232",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"elev\"]"
             }
           },
           {
             "ex_id": "2458facbf0fe5c8f98d8df6df40e42f2b25253b2",
             "sv": "På hösten 1861 blev han antagen som elev vid Kungliga teaterns elevskola.",
-            "en": "In the autumn of 1861 he was accepted as a student at the Royal Theatre's pupil school.",
-            "frame_id": "frame_education",
+            "en": "In the autumn of 1861 he was accepted as a student at the Royal Theatre's student school.",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_person",
                 "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "elev"
               },
               {
                 "fe_id": "fe_institution",
                 "span_sv": "Kungliga teaterns elevskola"
               }
             ],
-            "gloss": "elev = student, pupil",
+            "gloss": "elev = student",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -409,26 +422,30 @@
               "text_title": "Frithiof Raa",
               "text_url": "https://sv.wikipedia.org/wiki/Frithiof_Raa",
               "sentence_id": "e33fa271",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"elev\"]"
             }
           },
           {
-            "ex_id": "57d743bce046caff8aa23aaa3985c8e5bf60b3c7",
-            "sv": "Mellan 1839 och 1849 var han elev vid Musterschule i Frankfurt am Main.",
-            "en": "Between 1839 and 1849 he was a student at Musterschule in Frankfurt am Main.",
-            "frame_id": "frame_education",
+            "ex_id": "ee8fa23f851b1334c982cc0b2a2b82f385220d5d",
+            "sv": "Raynar är också elev på Jedi-akademin och tycker om att gå klädd i färgglada och pråliga kläder.",
+            "en": "Raynar is also a student at the Jedi academy and likes to wear colorful and flashy clothes.",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "han"
+                "fe_id": "fe_person",
+                "span_sv": "Raynar"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "elev"
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "Musterschule"
+                "span_sv": "Jedi-akademin"
               }
             ],
-            "gloss": "elev = student, pupil",
+            "gloss": "elev = student",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -436,10 +453,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Otto Scholderer",
-              "text_url": "https://sv.wikipedia.org/wiki/Otto_Scholderer",
-              "sentence_id": "7161814f",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "text_title": "Young Jedi Knights",
+              "text_url": "https://sv.wikipedia.org/wiki/Young_Jedi_Knights",
+              "sentence_id": "3e90d35d",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"elev\"]"
             }
           }

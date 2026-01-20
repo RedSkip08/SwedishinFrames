@@ -19,7 +19,7 @@
       "spacing_notes_en": ""
     },
     "forms": [
-      "en lektion",
+      "lektion",
       "lektionen",
       "lektioner",
       "lektionerna"
@@ -67,7 +67,7 @@
       {
         "word": "lektionsplanering",
         "type_en": "noun",
-        "meaning_en": "planning a lesson"
+        "meaning_en": "planning for a lesson"
       },
       {
         "word": "lektionsmaterial",
@@ -77,361 +77,90 @@
       {
         "word": "lektionsavsnitt",
         "type_en": "noun",
-        "meaning_en": "a lesson section in a course/book"
+        "meaning_en": "a section/unit within a lesson"
       }
     ],
     "synonyms_sv": [
       "undervisningstillfälle",
       "lektionstillfälle",
-      "undervisningspass",
-      "pass",
-      "klass"
+      "klass",
+      "undervisningspass"
     ],
     "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_classes_&_courses",
+        "frame_name_en": "Classes & Courses",
+        "frame_slug": "classes_&_courses",
         "sense_id": "lu_unterrichtsstunde_die:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_unterrichtsstunde_die:1",
-        "frame_id": "frame_education",
-        "meaning_en": "a teaching session, or a numbered unit in a course or book.",
+        "frame_id": "frame_classes_&_courses",
+        "meaning_en": "one teaching session in a course, often numbered or about a specific subject",
         "how_to_use_en": [
-          "Use for a class session: under/en lektion, dagens första lektion.",
-          "Use with a subject: en lektion i ryska.",
-          "Use with numbers for course units: i lektion 1, i lektion 2."
+          "Use for one class meeting: en lektion.",
+          "Often with a number (lektion 1, lektion 2) or with a subject (lektion i ryska).",
+          "Use with prepositions like i, under, på depending on context."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "i sin första/tredje lektion",
-            "meaning_en": "in someone’s nth lesson",
-            "note_en": "Used for a sequence of training/teaching sessions."
+            "pattern": "i lektion + siffra",
+            "meaning_en": "in lesson (number)",
+            "note_en": "Common in textbooks or course units: i lektion 1, i lektion 2."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "under en lektion",
+            "pattern": "i/på/under en lektion",
             "meaning_en": "during a lesson",
-            "note_en": ""
+            "note_en": "Choice of preposition depends on meaning: under = during; på = attending/being in lessons."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "på lektion",
-            "meaning_en": "in lessons (as an activity)",
-            "note_en": "Often about regularly taking part in lessons/training."
+            "pattern": "en lektion i + ämne",
+            "meaning_en": "a lesson in (subject)",
+            "note_en": "Used for the topic taught: en lektion i ryska."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "en lektion i + ämne",
-            "meaning_en": "a lesson in a subject",
-            "note_en": "For example languages or school subjects."
-          },
-          {
-            "pattern_id": "pat_5",
-            "pattern": "i lektion + siffra",
-            "meaning_en": "in lesson (unit) number",
-            "note_en": "Used for numbered units in a course/book."
+            "pattern": "sin första/tredje lektion",
+            "meaning_en": "one’s first/third lesson",
+            "note_en": "Often used when someone is learning a skill over several lessons."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *klass* when you mean one teaching session.",
-            "fix": "Use lektion for one session; klass is often the group/class.",
-            "explain_en": "In Swedish, lektion commonly means the time slot/session, not the group of students."
+            "error": "Using *klass* when you mean one scheduled teaching session.",
+            "fix": "Use lektion for one session; use klass/klassrum for the group/room.",
+            "explain_en": "Lektion focuses on the session/period, not the group of students."
           },
           {
-            "error": "Saying *på en lektion i ryska* when you mean 'during'.",
-            "fix": "Say under en lektion i ryska for 'during'.",
-            "explain_en": "Under is the normal preposition for something happening during a lesson."
+            "error": "Saying *på lektion 1* for numbered lessons in texts.",
+            "fix": "Prefer i lektion 1 / i lektion 2.",
+            "explain_en": "The examples show i + lektion + number for lesson units/chapters."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "be8c36ece5609058f947c8060414b17814240efc",
-            "sv": "Harry lär sig denna formel i sin första lektion i försvar mot svartkonster.",
-            "en": "Harry learns this formula in his first lesson in defence against the dark arts.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Harry"
-              },
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "denna formel"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "sin första lektion"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "försvar mot svartkonster"
-              }
-            ],
-            "gloss": "lesson (class session)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Harry Potter och fången från Azkaban (spel)",
-              "text_url": "https://sv.wikipedia.org/wiki/Harry_Potter_och_f%C3%A5ngen_fr%C3%A5n_Azkaban_(spel)",
-              "sentence_id": "4577de47",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"lektion\"]"
-            }
-          },
-          {
-            "ex_id": "b912edea36bf3b6a2419573ea146efec071d1e6e",
-            "sv": "Han avled hastigt under en lektion i slöjdskolans lokal i Karlskrona.",
-            "en": "He died suddenly during a lesson in the craft school’s premises in Karlskrona.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_course",
-                "span_sv": "en lektion"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "slöjdskolans lokal"
-              }
-            ],
-            "gloss": "lesson (class session)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Axel Dahl",
-              "text_url": "https://sv.wikipedia.org/wiki/Axel_Dahl",
-              "sentence_id": "2b839daa",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"lektion\"]"
-            }
-          },
-          {
-            "ex_id": "bd2a0f5f4c31923c3f99ca73480d036fb90b7533",
-            "sv": "Ridskolehästar får sitt rörelsebehov tillfredsställt genom att gå flera timmar på lektion.",
-            "en": "Riding school horses get their need for movement satisfied by doing several hours in lessons.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_course",
-                "span_sv": "lektion"
-              }
-            ],
-            "gloss": "lesson (training session)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Spilta",
-              "text_url": "https://sv.wikipedia.org/wiki/Spilta",
-              "sentence_id": "50c4faa8",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"lektion\"]"
-            }
-          },
-          {
-            "ex_id": "49c16ac5a7dae7d4ca915b7d7ddc1145643735b1",
-            "sv": "På sin tredje lektion lyckades han få upp flygplanet i luften och genomföra en vid sväng.",
-            "en": "In his third lesson he managed to get the airplane up in the air and make a wide turn.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "han"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "sin tredje lektion"
-              },
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "få upp flygplanet i luften och genomföra en vid sväng"
-              }
-            ],
-            "gloss": "lesson (training session)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Louis Mitchell (flygare)",
-              "text_url": "https://sv.wikipedia.org/wiki/Louis_Mitchell_(flygare)",
-              "sentence_id": "58dcf717",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"lektion\"]"
-            }
-          },
-          {
-            "ex_id": "e434bca7137ec134ad20c104f6995c965cb08968",
-            "sv": "Lektor Carl felzenbäumer blir under en lektion utsatt för ett skämt.",
-            "en": "Lecturer Carl felzenbäumer is subjected to a joke during a lesson.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "Lektor Carl felzenbäumer"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "en lektion"
-              }
-            ],
-            "gloss": "lesson (class session)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Erkänn eller dö",
-              "text_url": "https://sv.wikipedia.org/wiki/Erk%C3%A4nn_eller_d%C3%B6",
-              "sentence_id": "43cc08c8",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"lektion\"]"
-            }
-          },
-          {
-            "ex_id": "daf104842e56f37efbc1826f83acad3a3ae1ad87",
-            "sv": "De besökte också företaget LM Ericsson samt Brännkyrka Läroverk där de närvarade på en lektion i ryska.",
-            "en": "They also visited the company LM Ericsson and Brännkyrka Läroverk, where they attended a lesson in Russian.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "De"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Brännkyrka Läroverk"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "en lektion"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "ryska"
-              }
-            ],
-            "gloss": "lesson (class session)",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Jurij Gagarin",
-              "text_url": "https://sv.wikipedia.org/wiki/Jurij_Gagarin",
-              "sentence_id": "c6dd84b8",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"lektion\"]"
-            }
-          },
-          {
-            "ex_id": "88426f1016b5109dcee7651c51dc5144f82dd0ed",
-            "sv": "Under en tid rådde det närvaroplikt på skolans morgonböner, vilka skedde 15 minuter innan dagens första lektion.",
-            "en": "For a time there was compulsory attendance at the school’s morning prayers, which happened 15 minutes before the day’s first lesson.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "skolans"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "dagens första lektion"
-              }
-            ],
-            "gloss": "lesson (class session)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Katedralskolan, Linköping",
-              "text_url": "https://sv.wikipedia.org/wiki/Katedralskolan,_Link%C3%B6ping",
-              "sentence_id": "cca64d87",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"lektion\"]"
-            }
-          },
-          {
-            "ex_id": "b1526152d8b0b058c794081bc3306d91871aa86e",
-            "sv": "Paty var lärare i geografi och historia som i början av oktober höll en årligen återkommande lektion i yttrandefrihet.",
-            "en": "Paty was a teacher in geography and history who at the beginning of October held a yearly recurring lesson in freedom of speech.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "Paty"
-              },
-              {
-                "fe_id": "fe_course",
-                "span_sv": "en årligen återkommande lektion"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "yttrandefrihet"
-              }
-            ],
-            "gloss": "lesson (class session)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Mordet på Samuel Paty",
-              "text_url": "https://sv.wikipedia.org/wiki/Mordet_p%C3%A5_Samuel_Paty",
-              "sentence_id": "d875af9b",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"lektion\"]"
-            }
-          },
-          {
             "ex_id": "e864ec6a210674bcd301795fbf97b7f1b8fa95c2",
             "sv": "I lektion 2 övas alla tecknen från lektion 1 med tillägg av B och D.",
-            "en": "In lesson 2 all the signs from lesson 1 are practised, with the addition of B and D.",
-            "frame_id": "frame_education",
+            "en": "In lesson 2, all the signs from lesson 1 are practiced, with the addition of B and D.",
+            "frame_id": "frame_classes_&_courses",
             "fe_tags": [
               {
-                "fe_id": "fe_course",
+                "fe_id": "fe_class_session",
                 "span_sv": "lektion 2"
               },
               {
-                "fe_id": "fe_material",
-                "span_sv": "alla tecknen från lektion 1"
-              },
-              {
-                "fe_id": "fe_material",
-                "span_sv": "B och D"
+                "fe_id": "fe_class_session",
+                "span_sv": "lektion 1"
               }
             ],
-            "gloss": "lesson (unit in a course/book)",
+            "gloss": "lektion = a lesson (one class session)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -442,27 +171,23 @@
               "text_title": "Morsealfabetet",
               "text_url": "https://sv.wikipedia.org/wiki/Morsealfabetet",
               "sentence_id": "b6e19f82",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
               "korp_query": "[word=\"lektion\"]"
             }
           },
           {
             "ex_id": "13ffe88e1eaeb86b01f72ca9e9619f83e187e823",
             "sv": "I lektion 1 inlärs procedurtecknen = och + som förekommer i alla lektionsavsnitt.",
-            "en": "In lesson 1 the procedure signs = and + are learned, which occur in all lesson sections.",
-            "frame_id": "frame_education",
+            "en": "In lesson 1, the procedure signs = and + are learned, which occur in all lesson sections.",
+            "frame_id": "frame_classes_&_courses",
             "fe_tags": [
               {
-                "fe_id": "fe_course",
+                "fe_id": "fe_class_session",
                 "span_sv": "lektion 1"
-              },
-              {
-                "fe_id": "fe_material",
-                "span_sv": "procedurtecknen = och +"
               }
             ],
-            "gloss": "lesson (unit in a course/book)",
-            "level": "B1",
+            "gloss": "lektion = a lesson (one class session)",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -472,7 +197,279 @@
               "text_title": "Morsealfabetet",
               "text_url": "https://sv.wikipedia.org/wiki/Morsealfabetet",
               "sentence_id": "b6ecdbf1",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"lektion\"]"
+            }
+          },
+          {
+            "ex_id": "be8c36ece5609058f947c8060414b17814240efc",
+            "sv": "Harry lär sig denna formel i sin första lektion i försvar mot svartkonster.",
+            "en": "Harry learns this formula in his first lesson in defence against the dark arts.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "Harry"
+              },
+              {
+                "fe_id": "fe_class_session",
+                "span_sv": "sin första lektion"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "försvar mot svartkonster"
+              }
+            ],
+            "gloss": "lektion = a lesson (one class session)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Harry Potter och fången från Azkaban (spel)",
+              "text_url": "https://sv.wikipedia.org/wiki/Harry_Potter_och_f%C3%A5ngen_fr%C3%A5n_Azkaban_(spel)",
+              "sentence_id": "4577de47",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"lektion\"]"
+            }
+          },
+          {
+            "ex_id": "49c16ac5a7dae7d4ca915b7d7ddc1145643735b1",
+            "sv": "På sin tredje lektion lyckades han få upp flygplanet i luften och genomföra en vid sväng.",
+            "en": "In his third lesson, he managed to get the airplane up in the air and make a wide turn.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_class_session",
+                "span_sv": "sin tredje lektion"
+              },
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "han"
+              }
+            ],
+            "gloss": "lektion = a lesson (one class session)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Louis Mitchell (flygare)",
+              "text_url": "https://sv.wikipedia.org/wiki/Louis_Mitchell_(flygare)",
+              "sentence_id": "58dcf717",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"lektion\"]"
+            }
+          },
+          {
+            "ex_id": "b912edea36bf3b6a2419573ea146efec071d1e6e",
+            "sv": "Han avled hastigt under en lektion i slöjdskolans lokal i Karlskrona.",
+            "en": "He died suddenly during a lesson in the craft school's premises in Karlskrona.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_class_session",
+                "span_sv": "en lektion"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "slöjdskolans"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Karlskrona"
+              }
+            ],
+            "gloss": "lektion = a lesson (one class session)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Axel Dahl",
+              "text_url": "https://sv.wikipedia.org/wiki/Axel_Dahl",
+              "sentence_id": "2b839daa",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"lektion\"]"
+            }
+          },
+          {
+            "ex_id": "daf104842e56f37efbc1826f83acad3a3ae1ad87",
+            "sv": "De besökte också företaget LM Ericsson samt Brännkyrka Läroverk där de närvarade på en lektion i ryska.",
+            "en": "They also visited the company LM Ericsson and Brännkyrka Läroverk, where they attended a lesson in Russian.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "De"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Brännkyrka Läroverk"
+              },
+              {
+                "fe_id": "fe_class_session",
+                "span_sv": "en lektion"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "ryska"
+              }
+            ],
+            "gloss": "lektion = a lesson (one class session)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Jurij Gagarin",
+              "text_url": "https://sv.wikipedia.org/wiki/Jurij_Gagarin",
+              "sentence_id": "c6dd84b8",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"lektion\"]"
+            }
+          },
+          {
+            "ex_id": "bd2a0f5f4c31923c3f99ca73480d036fb90b7533",
+            "sv": "Ridskolehästar får sitt rörelsebehov tillfredsställt genom att gå flera timmar på lektion.",
+            "en": "Riding school horses get their need for movement satisfied by going for several hours in lessons.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_duration",
+                "span_sv": "flera timmar"
+              },
+              {
+                "fe_id": "fe_class_session",
+                "span_sv": "på lektion"
+              }
+            ],
+            "gloss": "lektion = a lesson (one class session)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Spilta",
+              "text_url": "https://sv.wikipedia.org/wiki/Spilta",
+              "sentence_id": "50c4faa8",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"lektion\"]"
+            }
+          },
+          {
+            "ex_id": "c548833c345456be11f68be57af4f278d6477ab7",
+            "sv": "CKY kom till av en massa material Bam Margera filmat när han egentligen skulle ha lektion i rörlig bild.",
+            "en": "CKY came from a lot of material that Bam Margera filmed when he was actually supposed to have a lesson in moving image.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_class_session",
+                "span_sv": "lektion"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "rörlig bild"
+              }
+            ],
+            "gloss": "lektion = a lesson (one class session)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "CKY Landspeed",
+              "text_url": "https://sv.wikipedia.org/wiki/CKY_Landspeed",
+              "sentence_id": "4886c382",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"lektion\"]"
+            }
+          },
+          {
+            "ex_id": "b1526152d8b0b058c794081bc3306d91871aa86e",
+            "sv": "Paty var lärare i geografi och historia som i början av oktober höll en årligen återkommande lektion i yttrandefrihet.",
+            "en": "Paty was a teacher in geography and history who at the beginning of October held a yearly recurring lesson in freedom of expression.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instructor",
+                "span_sv": "Paty"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "i början av oktober"
+              },
+              {
+                "fe_id": "fe_class_session",
+                "span_sv": "en årligen återkommande lektion"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "yttrandefrihet"
+              }
+            ],
+            "gloss": "lektion = a lesson (one class session)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Mordet på Samuel Paty",
+              "text_url": "https://sv.wikipedia.org/wiki/Mordet_p%C3%A5_Samuel_Paty",
+              "sentence_id": "d875af9b",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"lektion\"]"
+            }
+          },
+          {
+            "ex_id": "e434bca7137ec134ad20c104f6995c965cb08968",
+            "sv": "Lektor Carl felzenbäumer blir under en lektion utsatt för ett skämt.",
+            "en": "Lecturer Carl felzenbäumer is, during a lesson, subjected to a joke.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_instructor",
+                "span_sv": "Lektor Carl felzenbäumer"
+              },
+              {
+                "fe_id": "fe_class_session",
+                "span_sv": "en lektion"
+              }
+            ],
+            "gloss": "lektion = a lesson (one class session)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Erkänn eller dö",
+              "text_url": "https://sv.wikipedia.org/wiki/Erk%C3%A4nn_eller_d%C3%B6",
+              "sentence_id": "43cc08c8",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
               "korp_query": "[word=\"lektion\"]"
             }
           }
@@ -481,7 +478,7 @@
     ],
     "pronunciation": {
       "ipa": "lɛkˈɧuːn",
-      "stress_hint": "Stress on the last syllable: lek-TION.",
+      "stress_hint": "Stress is on the last part: lek-TJON.",
       "audio": {
         "file": "audio/lu_unterrichtsstunde_die.mp3",
         "model": "gpt-4o-mini-tts",
@@ -491,7 +488,7 @@
     },
     "morphology": {
       "principal_parts": [
-        "lektion",
+        "en lektion",
         "lektionen",
         "lektioner",
         "lektionerna"

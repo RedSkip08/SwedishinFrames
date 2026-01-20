@@ -2,8 +2,10 @@
   "lus": [
     "data/lus/lu_abitur_das_das_abitur_machen.json",
     "data/lus/lu_abiturient_der_abiturient__die_abiturientin.json",
+    "data/lus/lu_abiturient_der_abiturient_die_abiturientin.json",
     "data/lus/lu_abschließen_das_studium_abschließen.json",
     "data/lus/lu_absolvent_der_absolvent__die_absolventin.json",
+    "data/lus/lu_absolvent_der_absolvent_die_absolventin.json",
     "data/lus/lu_abstammen_von.json",
     "data/lus/lu_affare_die.json",
     "data/lus/lu_affäre_die.json",
@@ -26,6 +28,7 @@
     "data/lus/lu_clique_die.json",
     "data/lus/lu_creme_die.json",
     "data/lus/lu_doktorand_der_doktorand__die_doktorandin.json",
+    "data/lus/lu_doktorand_der_doktorand_die_doktorandin.json",
     "data/lus/lu_dozent_der_dozent__die_dozentin.json",
     "data/lus/lu_durchfallen.json",
     "data/lus/lu_durchkommen.json",
@@ -147,14 +150,21 @@
     "data/lus/lu_zusammen_sein_mit_jdm_zusammen_sein.json"
   ],
   "frames": [
+    "data/frames/frame_classes_&_courses.json",
     "data/frames/frame_dating.json",
     "data/frames/frame_eating_and_drinking_old.json",
     "data/frames/frame_education.json",
     "data/frames/frame_friendship.json",
+    "data/frames/frame_graduating.json",
     "data/frames/frame_grooming.json",
+    "data/frames/frame_learning_&_studying.json",
     "data/frames/frame_marriage.json",
     "data/frames/frame_origin.json",
+    "data/frames/frame_passing_&_failing.json",
+    "data/frames/frame_people.json",
     "data/frames/frame_personal_relationship.json",
+    "data/frames/frame_schools.json",
+    "data/frames/frame_teaching.json",
     "data/frames/frame_travel_-_under_construction.json"
   ],
   "constructions": []

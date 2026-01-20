@@ -8,31 +8,31 @@
       "pos_de": "noun"
     },
     "lu_type": "single",
-    "lemma_sv": "undervisningstillfälle",
-    "display_sv": "undervisningstillfälle",
-    "name_sv": "undervisningstillfälle",
+    "lemma_sv": "kurs",
+    "display_sv": "kurs",
+    "name_sv": "kurs",
     "pos": "noun",
-    "cefr": "B1",
+    "cefr": "A2",
     "multiword": {
       "mwe_type": null,
       "components_sv": [],
       "spacing_notes_en": ""
     },
     "forms": [
-      "undervisningstillfälle",
-      "undervisningstillfället",
-      "undervisningstillfällen",
-      "undervisningstillfällena"
+      "en kurs",
+      "kursen",
+      "kurser",
+      "kurserna"
     ],
-    "english_equivalent_en": "teaching session",
+    "english_equivalent_en": "course",
     "morphology_sv": {
       "noun": {
-        "gender": "ett",
-        "indef_sg": "undervisningstillfälle",
-        "def_sg": "undervisningstillfället",
-        "indef_pl": "undervisningstillfällen",
-        "def_pl": "undervisningstillfällena",
-        "note_en": "A compound noun: undervisning + tillfälle."
+        "gender": "en",
+        "indef_sg": "kurs",
+        "def_sg": "kursen",
+        "indef_pl": "kurser",
+        "def_pl": "kurserna",
+        "note_en": ""
       },
       "verb": {
         "infinitive": null,
@@ -55,60 +55,461 @@
     },
     "derived_words_sv": [
       {
-        "word": "undervisning",
+        "word": "grundkurs",
         "type_en": "noun",
-        "meaning_en": "teaching; instruction"
+        "meaning_en": "basic course"
       },
       {
-        "word": "tillfälle",
+        "word": "fristående kurs",
         "type_en": "noun",
-        "meaning_en": "occasion; opportunity"
+        "meaning_en": "standalone course (not part of a program)"
       },
       {
-        "word": "undervisningstid",
+        "word": "kursdeltagare",
         "type_en": "noun",
-        "meaning_en": "teaching time; class time"
+        "meaning_en": "course participant"
       },
       {
-        "word": "undervisningsmaterial",
+        "word": "kursledare",
         "type_en": "noun",
-        "meaning_en": "teaching materials"
+        "meaning_en": "course leader/instructor"
+      },
+      {
+        "word": "kursplan",
+        "type_en": "noun",
+        "meaning_en": "course syllabus"
+      },
+      {
+        "word": "kursstart",
+        "type_en": "noun",
+        "meaning_en": "course start date"
       }
     ],
-    "synonyms_sv": [],
+    "synonyms_sv": [
+      "utbildning",
+      "utbildningskurs",
+      "studiekurs",
+      "lektionserie"
+    ],
     "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_classes_&_courses",
+        "frame_name_en": "Classes & Courses",
+        "frame_slug": "classes_&_courses",
         "sense_id": "lu_lehrveranstaltung_die:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_lehrveranstaltung_die:1",
-        "frame_id": "frame_education",
-        "meaning_en": "a single occasion when teaching happens, for example a class meeting",
+        "frame_id": "frame_classes_&_courses",
+        "meaning_en": "an organized set of lessons to learn a subject, often at a school or organization",
         "how_to_use_en": [
-          "Use for one specific class/lesson occasion, not the whole course.",
-          "Often used in formal or administrative contexts (schedules, planning)."
+          "Use for a course someone takes or a school offers.",
+          "Often followed by i + subject (kurs i X) or at an institution (kurs vid/på X).",
+          "Common with verbs like gå, anmäla sig till, påbörja."
         ],
-        "patterns": [],
+        "patterns": [
+          {
+            "pattern_id": "pat_1",
+            "pattern": "gå en kurs",
+            "meaning_en": "take a course",
+            "note_en": "Very common with learners/participants."
+          },
+          {
+            "pattern_id": "pat_2",
+            "pattern": "en kurs i + ämne",
+            "meaning_en": "a course in a subject",
+            "note_en": "Used for the topic/field (e.g., HLR, japanska, skådespeleri)."
+          },
+          {
+            "pattern_id": "pat_3",
+            "pattern": "en kurs genom + institution",
+            "meaning_en": "a course through an organization",
+            "note_en": "Highlights who provides/arranges the course."
+          },
+          {
+            "pattern_id": "pat_4",
+            "pattern": "en kurs vid + institution",
+            "meaning_en": "a course at an institution",
+            "note_en": "Common with schools, studios, etc."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "anmäla sig till en kurs",
+            "meaning_en": "sign up for a course",
+            "note_en": "Focuses on registration."
+          }
+        ],
         "common_errors_en": [
           {
-            "error": "Using it to mean the whole course.",
-            "fix": "Use kurs or utbildning for the whole course/program.",
-            "explain_en": "Undervisningstillfälle refers to one teaching occasion, not the entire course."
+            "error": "Using *klass* when you mean a course/program unit.",
+            "fix": "Use kurs for the organized teaching unit; klass is usually a school group or a single class.",
+            "explain_en": "In these examples, kurs is the unit you take (e.g., a CPR course), not the group of students."
+          },
+          {
+            "error": "Forgetting the plural form *kurser*.",
+            "fix": "Say kurser (indefinite plural) and kurserna (definite plural).",
+            "explain_en": "The plural changes vowel and adds -er."
           }
         ],
         "required_example_count": 10,
-        "examples": []
+        "examples": [
+          {
+            "ex_id": "682580be26f74c08c669676c971188e9b939834a",
+            "sv": "Svenska HLR-rådet rekommenderar att privatpersoner går en kurs i HLR varje år.",
+            "en": "The Swedish CPR Council recommends that private individuals take a CPR course every year.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "privatpersoner"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "en kurs i HLR"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "HLR"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "varje år"
+              }
+            ],
+            "gloss": "kurs",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hjärt-lungräddning",
+              "text_url": "https://sv.wikipedia.org/wiki/Hj%C3%A4rt-lungr%C3%A4ddning",
+              "sentence_id": "8141f458",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "9bf4fffc97338af80ac92cc29b32eb1b449c162b",
+            "sv": "Det är en kurs genom arbetsförmedlingen./... / Jag har varit på några anställningsintervjuer.",
+            "en": "It is a course through the employment service./... / I have been to some job interviews.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "en kurs"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "arbetsförmedlingen"
+              }
+            ],
+            "gloss": "kurs",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Safe European Home",
+              "text_url": "https://sv.wikipedia.org/wiki/Safe_European_Home",
+              "sentence_id": "b6de7f08",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "35cddc6e4588814b12c61859f26a91e87b4f1507",
+            "sv": "Några av de kortare kurserna är Kyrkans grundkurs och en kurs i japanska.",
+            "en": "Some of the shorter courses are the Church's basic course and a course in Japanese.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "Kyrkans grundkurs"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "en kurs i japanska"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "japanska"
+              }
+            ],
+            "gloss": "kurs",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Helsjöns folkhögskola",
+              "text_url": "https://sv.wikipedia.org/wiki/Helsj%C3%B6ns_folkh%C3%B6gskola",
+              "sentence_id": "398023f8",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "6cf355ab6a152bae7995a0a97b46b5b06ddf60f3",
+            "sv": "1969 anmälde sig Edler till en kurs på Elektronmusikstudion (EMS) i Stockholm.",
+            "en": "In 1969, Edler signed up for a course at the Electronic Music Studio (EMS) in Stockholm.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "1969"
+              },
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "Edler"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "en kurs"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Elektronmusikstudion (EMS)"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Stockholm"
+              }
+            ],
+            "gloss": "kurs",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Hans Edler",
+              "text_url": "https://sv.wikipedia.org/wiki/Hans_Edler",
+              "sentence_id": "43c0db0a",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "bda7aaa806ba960e82f3a9a2e2809a801f7f0ce3",
+            "sv": "Väl tillbaka i Sverige gick hon en kurs vid Tekniska skolan i Stockholm.",
+            "en": "Back in Sweden, she took a course at the Technical School in Stockholm.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Sverige"
+              },
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "hon"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "en kurs"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Tekniska skolan"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i Stockholm"
+              }
+            ],
+            "gloss": "kurs",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Carola Eneroth",
+              "text_url": "https://sv.wikipedia.org/wiki/Carola_Eneroth",
+              "sentence_id": "220941bf",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "e33a759c1acf015b5822154ef554a6dbaf456f51",
+            "sv": "Greene inledde studier i psykologi, men påbörjade även en kurs i skådespeleri.",
+            "en": "Greene began studies in psychology, but also started a course in acting.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "Greene"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "en kurs i skådespeleri"
+              },
+              {
+                "fe_id": "fe_subject",
+                "span_sv": "skådespeleri"
+              }
+            ],
+            "gloss": "kurs",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Ashley Greene",
+              "text_url": "https://sv.wikipedia.org/wiki/Ashley_Greene",
+              "sentence_id": "ca5e26dc",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "00724a21640d43ecc5146cd3d5ec2f15e047a72b",
+            "sv": "Skolan har så kallad allmän kurs som läses i huvudsak för att ge allmän behörighet för högskolestudier.",
+            "en": "The school has a so-called general course that is mainly studied to give general eligibility for higher education studies.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Skolan"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "allmän kurs"
+              }
+            ],
+            "gloss": "kurs",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Kvarnby folkhögskola",
+              "text_url": "https://sv.wikipedia.org/wiki/Kvarnby_folkh%C3%B6gskola",
+              "sentence_id": "13c13d76",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "63bbe9e8fd6114d4e47f2d21349549cb75bc3f51",
+            "sv": "Teknik 1 (TEKTEK01) är en kurs i den svenska gymnasieskolan.",
+            "en": "Technology 1 (TEKTEK01) is a course in the Swedish upper secondary school.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "Teknik 1 (TEKTEK01)"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "den svenska gymnasieskolan"
+              }
+            ],
+            "gloss": "kurs",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Teknik 1",
+              "text_url": "https://sv.wikipedia.org/wiki/Teknik_1",
+              "sentence_id": "f8dc7a7d",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "4df7f9f6f541e80b76ab506f1d8a2fe81101d651",
+            "sv": "De båda träffas på en \" lär känna dig själv \" - kurs på en kurort.",
+            "en": "The two meet at a \"get to know yourself\" course at a spa resort.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "De båda"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "en \" lär känna dig själv \" - kurs"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "på en kurort"
+              }
+            ],
+            "gloss": "kurs",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Att göra en pudel (film)",
+              "text_url": "https://sv.wikipedia.org/wiki/Att_g%C3%B6ra_en_pudel_(film)",
+              "sentence_id": "ca5513a0",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          },
+          {
+            "ex_id": "1cd935e4616747f42f4193c991ebb5dd8430cc4e",
+            "sv": "Kursen kan läsas som fristående kurs eller som en kurs inom vissa rättsvetenskapliga eller ekonomiska universitetsprogram.",
+            "en": "The course can be studied as a standalone course or as a course within certain law or economics university programs.",
+            "frame_id": "frame_classes_&_courses",
+            "fe_tags": [
+              {
+                "fe_id": "fe_course",
+                "span_sv": "Kursen"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "fristående kurs"
+              },
+              {
+                "fe_id": "fe_course",
+                "span_sv": "en kurs"
+              }
+            ],
+            "gloss": "kurs",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Juridisk översiktskurs",
+              "text_url": "https://sv.wikipedia.org/wiki/Juridisk_%C3%B6versiktskurs",
+              "sentence_id": "8e14b099",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
+              "korp_query": "[word=\"kurs\"]"
+            }
+          }
+        ]
       }
     ],
     "pronunciation": {
-      "ipa": "ˈɵnːdɛrviːsniŋstɪlˌfɛlːɛ",
-      "stress_hint": "Main stress is on the first part: UN-der-vis-.",
+      "ipa": "/kɵːʂ/",
+      "stress_hint": "Stress is on the single syllable.",
       "audio": {
         "file": "audio/lu_lehrveranstaltung_die.mp3",
         "model": "gpt-4o-mini-tts",
@@ -118,10 +519,10 @@
     },
     "morphology": {
       "principal_parts": [
-        "ett undervisningstillfälle",
-        "undervisningstillfället",
-        "undervisningstillfällen",
-        "undervisningstillfällena"
+        "kurs",
+        "kursen",
+        "kurser",
+        "kurserna"
       ],
       "particle_or_reflexive": null
     }

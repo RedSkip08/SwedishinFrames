@@ -1,0 +1,484 @@
+{
+  "frame": {
+    "id": "frame_passing_&_failing",
+    "name_en": "Passing & Failing",
+    "slug": "passing_&_failing",
+    "frame_description_en": "This frame is about a situation where a Candidate tries to meet the requirements of an Assessment, and an Evaluator decides the Result by comparing the performance to a Standard. The event can be described as happening at a particular Time and in a particular Place, and it can be linked to a specific Attempt (for example, a first try or a retake).",
+    "frame_description_html": "This frame is about a situation where a <span class=\"Candidate\">Candidate</span> tries to meet the requirements of an <span class=\"Assessment\">Assessment</span>, and an <span class=\"Evaluator\">Evaluator</span> decides the <span class=\"Result\">Result</span> by comparing the performance to a <span class=\"Standard\">Standard</span>. The event can be described as happening at a particular <span class=\"Time\">Time</span> and in a particular <span class=\"Place\">Place</span>, and it can be linked to a specific <span class=\"Attempt\">Attempt</span> (for example, a first try or a retake).",
+    "frame_description_fe_mentions": [
+      {
+        "fe_id": "fe_candidate",
+        "span_en": "Candidate"
+      },
+      {
+        "fe_id": "fe_assessment",
+        "span_en": "Assessment"
+      },
+      {
+        "fe_id": "fe_evaluator",
+        "span_en": "Evaluator"
+      },
+      {
+        "fe_id": "fe_result",
+        "span_en": "Result"
+      },
+      {
+        "fe_id": "fe_standard",
+        "span_en": "Standard"
+      },
+      {
+        "fe_id": "fe_time",
+        "span_en": "Time"
+      },
+      {
+        "fe_id": "fe_place",
+        "span_en": "Place"
+      },
+      {
+        "fe_id": "fe_attempt",
+        "span_en": "Attempt"
+      }
+    ],
+    "elements": [
+      {
+        "id": "fe_candidate",
+        "name": "Candidate",
+        "published": 1,
+        "description_en": "The person or group whose performance is being judged (the one who tries to pass or may fail).",
+        "description_html": "The person or group whose performance is being judged (the one who tries to pass or may fail)."
+      },
+      {
+        "id": "fe_assessment",
+        "name": "Assessment",
+        "published": 1,
+        "description_en": "The exam, test, course, task, or requirement that the Candidate is trying to pass or complete.",
+        "description_html": "The exam, test, course, task, or requirement that the <span class=\"Candidate\">Candidate</span> is trying to pass or complete."
+      },
+      {
+        "id": "fe_result",
+        "name": "Result",
+        "published": 1,
+        "description_en": "The outcome for the Candidate, such as pass, fail, or just barely pass.",
+        "description_html": "The outcome for the <span class=\"Candidate\">Candidate</span>, such as pass, fail, or just barely pass."
+      },
+      {
+        "id": "fe_standard",
+        "name": "Standard",
+        "published": 1,
+        "description_en": "The required level, score, or threshold that must be reached to pass the Assessment.",
+        "description_html": "The required level, score, or threshold that must be reached to pass the <span class=\"Assessment\">Assessment</span>."
+      },
+      {
+        "id": "fe_attempt",
+        "name": "Attempt",
+        "published": 1,
+        "description_en": "One particular try at the Assessment (for example, the first attempt or a retake).",
+        "description_html": "One particular try at the <span class=\"Assessment\">Assessment</span> (for example, the first attempt or a retake)."
+      },
+      {
+        "id": "fe_time",
+        "name": "Time",
+        "published": 1,
+        "description_en": "When the passing or failing (the Result) happens or is decided.",
+        "description_html": "When the passing or failing (the <span class=\"Result\">Result</span>) happens or is decided."
+      },
+      {
+        "id": "fe_place",
+        "name": "Place",
+        "published": 1,
+        "description_en": "Where the Assessment is taken or where the Result is decided.",
+        "description_html": "Where the <span class=\"Assessment\">Assessment</span> is taken or where the <span class=\"Result\">Result</span> is decided."
+      },
+      {
+        "id": "fe_evaluator",
+        "name": "Evaluator",
+        "published": 1,
+        "description_en": "The person or institution that judges the Candidate’s performance and decides the Result.",
+        "description_html": "The person or institution that judges the <span class=\"Candidate\">Candidate</span>’s performance and decides the <span class=\"Result\">Result</span>."
+      }
+    ],
+    "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
+    "examples": [
+      {
+        "ex_id": "0cc5a710548e8e037c0a980f7625c138e17dbc9c",
+        "sv": "Om man enbart vill söka licens för hagelvapen så räcker det att klara det teoretiska provet och hagelgevärsprovet.",
+        "en": "If you only want to apply for a license for a shotgun, it is enough to pass the theory test and the shotgun test.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_assessment",
+            "span_sv": "det teoretiska provet och hagelgevärsprovet"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Jägarexamen",
+          "text_url": "https://sv.wikipedia.org/wiki/J%C3%A4garexamen",
+          "sentence_id": "efa65359",
+          "retrieved_at": "2026-01-20T18:52:51+00:00",
+          "korp_query": "[word=\"klara\"]"
+        }
+      },
+      {
+        "ex_id": "38ad33dbd9be65d6fd3566908c3d1ed705fadd54",
+        "sv": "Efter att ha följt skoldebatten ville han göra något konkret för att hjälpa fler unga att klara skolan.",
+        "en": "After following the school debate, he wanted to do something concrete to help more young people pass school.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_candidate",
+            "span_sv": "fler unga"
+          },
+          {
+            "fe_id": "fe_assessment",
+            "span_sv": "skolan"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Stiftelsen Läxhjälpen",
+          "text_url": "https://sv.wikipedia.org/wiki/Stiftelsen_L%C3%A4xhj%C3%A4lpen",
+          "sentence_id": "5dc3cf86",
+          "retrieved_at": "2026-01-20T18:52:51+00:00",
+          "korp_query": "[word=\"klara\"]"
+        }
+      },
+      {
+        "ex_id": "33d5079f2144a743c90c5bf58eed7d6ef9e295c8",
+        "sv": "Par är det resultat en scratchspelare (elitspelare) förväntas klara på hålet.",
+        "en": "Par is the result that a scratch player (elite player) is expected to achieve on the hole.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_result",
+            "span_sv": "Par"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Lista över golftermer",
+          "text_url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_golftermer",
+          "sentence_id": "d7b5aba2",
+          "retrieved_at": "2026-01-20T18:52:51+00:00",
+          "korp_query": "[word=\"klara\"]"
+        }
+      },
+      {
+        "ex_id": "36017e27eaa10cf0c75577a06f27b142aeebc3db",
+        "sv": "Spelläget går ut på att klara ett antal banor för att få pengar och tillgång till nästa bana.",
+        "en": "The game mode is about clearing a number of levels to get money and access to the next level.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_assessment",
+            "span_sv": "ett antal banor"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Tony Hawk's Pro Skater 2",
+          "text_url": "https://sv.wikipedia.org/wiki/Tony_Hawk%27s_Pro_Skater_2",
+          "sentence_id": "44ad522e",
+          "retrieved_at": "2026-01-20T18:52:51+00:00",
+          "korp_query": "[word=\"klara\"]"
+        }
+      },
+      {
+        "ex_id": "a526e7a50d89cbb054132f302884b76ced8580f9",
+        "sv": "Mamman jobbar på en restaurang på kvällarna och då får syskonen klara sig själva.",
+        "en": "The mother works at a restaurant in the evenings and then the siblings have to manage on their own.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_candidate",
+            "span_sv": "syskonen"
+          },
+          {
+            "fe_id": "fe_time",
+            "span_sv": "på kvällarna"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Man kan inte säga allt",
+          "text_url": "https://sv.wikipedia.org/wiki/Man_kan_inte_s%C3%A4ga_allt",
+          "sentence_id": "2a49bce1",
+          "retrieved_at": "2026-01-20T18:52:51+00:00",
+          "korp_query": "[word=\"klara\"][word=\"sig\"]"
+        }
+      },
+      {
+        "ex_id": "1cafb625ec9dafa806cb068998841df3c5cb7725",
+        "sv": "Väl på den nya ön övergavs de och fick klara sig själva.",
+        "en": "Once on the new island they were abandoned and had to manage on their own.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_candidate",
+            "span_sv": "de"
+          },
+          {
+            "fe_id": "fe_place",
+            "span_sv": "på den nya ön"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Tasmanska aboriginer",
+          "text_url": "https://sv.wikipedia.org/wiki/Tasmanska_aboriginer",
+          "sentence_id": "0a752027",
+          "retrieved_at": "2026-01-20T18:52:51+00:00",
+          "korp_query": "[word=\"klara\"][word=\"sig\"]"
+        }
+      }
+    ],
+    "linked_lexical_units": [
+      {
+        "lu_id": "lu_belegen",
+        "display_sv": "gå",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_belegen:1"
+      },
+      {
+        "lu_id": "lu_bestehen_die_prüfung__den_test_bestehen",
+        "display_sv": "klara",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_bestehen_die_prüfung__den_test_bestehen:1"
+      },
+      {
+        "lu_id": "lu_durchfallen",
+        "display_sv": "kugga",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_durchfallen:1"
+      },
+      {
+        "lu_id": "lu_durchkommen",
+        "display_sv": "klara sig",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_durchkommen:1"
+      }
+    ],
+    "confusable_with": []
+  },
+  "constructions": [
+    {
+      "cxn_id": "cxn_1",
+      "cxn_name_linguistic_sv": "X klarar Y",
+      "cxn_name_user_friendly_en": "Passing a test or course",
+      "pattern": "SUBJ V OBJ",
+      "meaning_en": "Someone passes/completes an exam, school/course requirements, or a set of levels/tasks.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_candidate"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_assessment"
+        }
+      ],
+      "usage_notes_en": [
+        "The object names what is passed/completed (e.g. a test, school, levels).",
+        "The candidate (SUBJ) can be omitted in impersonal/general statements with man."
+      ],
+      "examples": [
+        {
+          "ex_id": "0cc5a710548e8e037c0a980f7625c138e17dbc9c",
+          "sv": "Om man enbart vill söka licens för hagelvapen så räcker det att klara det teoretiska provet och hagelgevärsprovet.",
+          "en": "If you only want to apply for a license for a shotgun, it is enough to pass the theory test and the shotgun test.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_assessment",
+              "span_sv": "det teoretiska provet och hagelgevärsprovet"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Jägarexamen",
+            "text_url": "https://sv.wikipedia.org/wiki/J%C3%A4garexamen",
+            "sentence_id": "efa65359",
+            "retrieved_at": "2026-01-20T18:52:51+00:00",
+            "korp_query": "[word=\"klara\"]"
+          }
+        },
+        {
+          "ex_id": "38ad33dbd9be65d6fd3566908c3d1ed705fadd54",
+          "sv": "Efter att ha följt skoldebatten ville han göra något konkret för att hjälpa fler unga att klara skolan.",
+          "en": "After following the school debate, he wanted to do something concrete to help more young people pass school.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_candidate",
+              "span_sv": "fler unga"
+            },
+            {
+              "fe_id": "fe_assessment",
+              "span_sv": "skolan"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Stiftelsen Läxhjälpen",
+            "text_url": "https://sv.wikipedia.org/wiki/Stiftelsen_L%C3%A4xhj%C3%A4lpen",
+            "sentence_id": "5dc3cf86",
+            "retrieved_at": "2026-01-20T18:52:51+00:00",
+            "korp_query": "[word=\"klara\"]"
+          }
+        },
+        {
+          "ex_id": "36017e27eaa10cf0c75577a06f27b142aeebc3db",
+          "sv": "Spelläget går ut på att klara ett antal banor för att få pengar och tillgång till nästa bana.",
+          "en": "The game mode is about clearing a number of levels to get money and access to the next level.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_assessment",
+              "span_sv": "ett antal banor"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Tony Hawk's Pro Skater 2",
+            "text_url": "https://sv.wikipedia.org/wiki/Tony_Hawk%27s_Pro_Skater_2",
+            "sentence_id": "44ad522e",
+            "retrieved_at": "2026-01-20T18:52:51+00:00",
+            "korp_query": "[word=\"klara\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_2",
+      "cxn_name_linguistic_sv": "X klarar sig (själv)",
+      "cxn_name_user_friendly_en": "Managing on your own",
+      "pattern": "SUBJ V sig (själv)",
+      "meaning_en": "Someone manages/copes, often meaning they can handle things without help.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_candidate"
+        }
+      ],
+      "usage_notes_en": [
+        "själv/själva can be added to emphasize ‘on one’s own’."
+      ],
+      "examples": [
+        {
+          "ex_id": "a526e7a50d89cbb054132f302884b76ced8580f9",
+          "sv": "Mamman jobbar på en restaurang på kvällarna och då får syskonen klara sig själva.",
+          "en": "The mother works at a restaurant in the evenings and then the siblings have to manage on their own.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_candidate",
+              "span_sv": "syskonen"
+            },
+            {
+              "fe_id": "fe_time",
+              "span_sv": "på kvällarna"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Man kan inte säga allt",
+            "text_url": "https://sv.wikipedia.org/wiki/Man_kan_inte_s%C3%A4ga_allt",
+            "sentence_id": "2a49bce1",
+            "retrieved_at": "2026-01-20T18:52:51+00:00",
+            "korp_query": "[word=\"klara\"][word=\"sig\"]"
+          }
+        },
+        {
+          "ex_id": "1cafb625ec9dafa806cb068998841df3c5cb7725",
+          "sv": "Väl på den nya ön övergavs de och fick klara sig själva.",
+          "en": "Once on the new island they were abandoned and had to manage on their own.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_candidate",
+              "span_sv": "de"
+            },
+            {
+              "fe_id": "fe_place",
+              "span_sv": "på den nya ön"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Tasmanska aboriginer",
+            "text_url": "https://sv.wikipedia.org/wiki/Tasmanska_aboriginer",
+            "sentence_id": "0a752027",
+            "retrieved_at": "2026-01-20T18:52:51+00:00",
+            "korp_query": "[word=\"klara\"][word=\"sig\"]"
+          }
+        },
+        {
+          "ex_id": "6634a301a161f7724e6364cbc922ba6e771194a9",
+          "sv": "Om hon inte lär sig kontrollera gåvan kommer hon inte klara sig.",
+          "en": "If she does not learn to control the gift, she will not manage.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_candidate",
+              "span_sv": "hon"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Vild magi",
+            "text_url": "https://sv.wikipedia.org/wiki/Vild_magi",
+            "sentence_id": "1bd9036e",
+            "retrieved_at": "2026-01-20T18:52:51+00:00",
+            "korp_query": "[word=\"klara\"][word=\"sig\"]"
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_examples": 5,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true
+  }
+}

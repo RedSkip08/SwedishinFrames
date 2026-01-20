@@ -1,0 +1,729 @@
+{
+  "frame": {
+    "id": "frame_schools",
+    "name_en": "Schools",
+    "slug": "schools",
+    "frame_description_en": "This frame is about an education setting where an Institution provides organized learning. Students attend the Institution and Teachers work there, often at a particular Level (such as compulsory school, upper secondary school, or university). The Institution may offer a specific Programme, and teaching or study can focus on a particular Subject. The frame can also describe where the Institution is (Location) and when the schooling, study, or work happens (Time).",
+    "frame_description_html": "This frame is about an education setting where an <span class=\"Institution\">Institution</span> provides organized learning. <span class=\"Students\">Students</span> attend the <span class=\"Institution\">Institution</span> and <span class=\"Teachers\">Teachers</span> work there, often at a particular <span class=\"Level\">Level</span> (such as compulsory school, upper secondary school, or university). The <span class=\"Institution\">Institution</span> may offer a specific <span class=\"Programme\">Programme</span>, and teaching or study can focus on a particular <span class=\"Subject\">Subject</span>. The frame can also describe where the <span class=\"Institution\">Institution</span> is (<span class=\"Location\">Location</span>) and when the schooling, study, or work happens (<span class=\"Time\">Time</span>).",
+    "frame_description_fe_mentions": [
+      {
+        "fe_id": "fe_institution",
+        "span_en": "Institution"
+      },
+      {
+        "fe_id": "fe_students",
+        "span_en": "Students"
+      },
+      {
+        "fe_id": "fe_teachers",
+        "span_en": "Teachers"
+      },
+      {
+        "fe_id": "fe_level",
+        "span_en": "Level"
+      },
+      {
+        "fe_id": "fe_programme",
+        "span_en": "Programme"
+      },
+      {
+        "fe_id": "fe_subject",
+        "span_en": "Subject"
+      },
+      {
+        "fe_id": "fe_location",
+        "span_en": "Location"
+      },
+      {
+        "fe_id": "fe_time",
+        "span_en": "Time"
+      }
+    ],
+    "elements": [
+      {
+        "id": "fe_institution",
+        "name": "Institution",
+        "published": 1,
+        "description_en": "The school, college, or university being talked about as an educational organization.",
+        "description_html": "The <span class=\"Institution\">Institution</span> being talked about as an educational organization."
+      },
+      {
+        "id": "fe_students",
+        "name": "Students",
+        "published": 1,
+        "description_en": "The people who attend the Institution to learn there.",
+        "description_html": "The <span class=\"Students\">Students</span> who attend the <span class=\"Institution\">Institution</span> to learn there."
+      },
+      {
+        "id": "fe_teachers",
+        "name": "Teachers",
+        "published": 1,
+        "description_en": "The people who teach or work as teachers at the Institution.",
+        "description_html": "The <span class=\"Teachers\">Teachers</span> who teach or work as teachers at the <span class=\"Institution\">Institution</span>."
+      },
+      {
+        "id": "fe_level",
+        "name": "Level",
+        "published": 1,
+        "description_en": "The educational stage or type of the Institution (for example, compulsory school, upper secondary school, or university).",
+        "description_html": "The <span class=\"Level\">Level</span>: the educational stage or type of the <span class=\"Institution\">Institution</span> (for example, compulsory school, upper secondary school, or university)."
+      },
+      {
+        "id": "fe_programme",
+        "name": "Programme",
+        "published": 1,
+        "description_en": "A named course of study or track offered at the Institution.",
+        "description_html": "A <span class=\"Programme\">Programme</span>: a named course of study or track offered at the <span class=\"Institution\">Institution</span>."
+      },
+      {
+        "id": "fe_subject",
+        "name": "Subject",
+        "published": 1,
+        "description_en": "A topic or school subject that is taught or studied at the Institution.",
+        "description_html": "A <span class=\"Subject\">Subject</span>: a topic or school subject that is taught or studied at the <span class=\"Institution\">Institution</span>."
+      },
+      {
+        "id": "fe_location",
+        "name": "Location",
+        "published": 1,
+        "description_en": "The place where the Institution is situated (city, area, country, etc.).",
+        "description_html": "The <span class=\"Location\">Location</span>: the place where the <span class=\"Institution\">Institution</span> is situated (city, area, country, etc.)."
+      },
+      {
+        "id": "fe_time",
+        "name": "Time",
+        "published": 1,
+        "description_en": "The time period when the schooling, teaching, or studying at the Institution happens.",
+        "description_html": "The <span class=\"Time\">Time</span>: the time period when the schooling, teaching, or studying at the <span class=\"Institution\">Institution</span> happens."
+      }
+    ],
+    "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
+    "examples": [
+      {
+        "ex_id": "25a4350a8055f130d78c1f2878a18aaace0feba7",
+        "sv": "Petrova började spela handboll i elvaårsåldern i en skola i Volgograd.",
+        "en": "Petrova started playing handball at the age of eleven in a school in Volgograd.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "en skola"
+          },
+          {
+            "fe_id": "fe_location",
+            "span_sv": "i Volgograd"
+          },
+          {
+            "fe_id": "fe_time",
+            "span_sv": "i elvaårsåldern"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Maja Petrova",
+          "text_url": "https://sv.wikipedia.org/wiki/Maja_Petrova",
+          "sentence_id": "1eac64da",
+          "retrieved_at": "2026-01-20T18:36:34+00:00",
+          "korp_query": "[word=\"skola\"]"
+        }
+      },
+      {
+        "ex_id": "fc16fb176653c06c6c9fd891a140ebcf375ff504",
+        "sv": "Bemböle skola är en svenskspråkig skola i Bemböle i Esbo i Finland.",
+        "en": "Bemböle school is a Swedish-language school in Bemböle in Esbo in Finland.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "Bemböle skola"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "en svenskspråkig skola"
+          },
+          {
+            "fe_id": "fe_location",
+            "span_sv": "i Bemböle i Esbo i Finland"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Bemböle skola",
+          "text_url": "https://sv.wikipedia.org/wiki/Bemb%C3%B6le_skola",
+          "sentence_id": "46b9d93b",
+          "retrieved_at": "2026-01-20T18:36:34+00:00",
+          "korp_query": "[word=\"skola\"]"
+        }
+      },
+      {
+        "ex_id": "5e71c23376ce8e7679a841e512d0ee8b453b986d",
+        "sv": "Tumba gymnasium är en kommunal gymnasieskola i Tumba, Botkyrka kommun.",
+        "en": "Tumba upper secondary school is a municipal upper secondary school in Tumba, Botkyrka Municipality.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "Tumba gymnasium"
+          },
+          {
+            "fe_id": "fe_level",
+            "span_sv": "gymnasieskola"
+          },
+          {
+            "fe_id": "fe_location",
+            "span_sv": "i Tumba, Botkyrka kommun"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Tumba gymnasium",
+          "text_url": "https://sv.wikipedia.org/wiki/Tumba_gymnasium",
+          "sentence_id": "c4de4747",
+          "retrieved_at": "2026-01-20T18:36:34+00:00",
+          "korp_query": "[word=\"gymnasium\"]"
+        }
+      },
+      {
+        "ex_id": "1fc0b75e33fd20e5160a405c030469b9ddc342b0",
+        "sv": "Ed har ett gymnasium med bland annat turismledarutbildning, programmet har riksintag.",
+        "en": "Ed has an upper secondary school with, among other things, tourism guide training; the programme has national intake.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_location",
+            "span_sv": "Ed"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "ett gymnasium"
+          },
+          {
+            "fe_id": "fe_programme",
+            "span_sv": "turismledarutbildning"
+          },
+          {
+            "fe_id": "fe_programme",
+            "span_sv": "programmet"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Ed, Dals-Eds kommun",
+          "text_url": "https://sv.wikipedia.org/wiki/Ed,_Dals-Eds_kommun",
+          "sentence_id": "df713251",
+          "retrieved_at": "2026-01-20T18:36:34+00:00",
+          "korp_query": "[word=\"gymnasium\"]"
+        }
+      },
+      {
+        "ex_id": "d56177b2055b1aa224e7d87fd5786cd71d3e7a63",
+        "sv": "Kaldhol är utbildad lärare, och har undervisat i grundskolan och gymnasium.",
+        "en": "Kaldhol is a trained teacher, and has taught in compulsory school and upper secondary school.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_teachers",
+            "span_sv": "Kaldhol"
+          },
+          {
+            "fe_id": "fe_level",
+            "span_sv": "grundskolan och gymnasium"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Marit Kaldhol",
+          "text_url": "https://sv.wikipedia.org/wiki/Marit_Kaldhol",
+          "sentence_id": "2a54dc40",
+          "retrieved_at": "2026-01-20T18:36:34+00:00",
+          "korp_query": "[word=\"gymnasium\"]"
+        }
+      },
+      {
+        "ex_id": "00b2edbe1e96c0a4f9811f345aad8ab87f3fd2ab",
+        "sv": "Vid sidan av författandet arbetar Jenni som biologilärare vid en högstadieskola i Lyon.",
+        "en": "Besides writing, Jenni works as a biology teacher at a lower secondary school in Lyon.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_teachers",
+            "span_sv": "Jenni"
+          },
+          {
+            "fe_id": "fe_subject",
+            "span_sv": "biologilärare"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "en högstadieskola"
+          },
+          {
+            "fe_id": "fe_location",
+            "span_sv": "i Lyon"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Alexis Jenni",
+          "text_url": "https://sv.wikipedia.org/wiki/Alexis_Jenni",
+          "sentence_id": "afec9111",
+          "retrieved_at": "2026-01-20T18:36:34+00:00",
+          "korp_query": "[word=\"högstadieskola\"]"
+        }
+      },
+      {
+        "ex_id": "758a1bf440a64b36bbb5c75549c81be906ea893e",
+        "sv": "Eklidens skola är en kommunal högstadieskola som ligger i centrala Nacka.",
+        "en": "Eklidens school is a municipal lower secondary school that is located in central Nacka.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "Eklidens skola"
+          },
+          {
+            "fe_id": "fe_level",
+            "span_sv": "högstadieskola"
+          },
+          {
+            "fe_id": "fe_location",
+            "span_sv": "i centrala Nacka"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Eklidens skola",
+          "text_url": "https://sv.wikipedia.org/wiki/Eklidens_skola",
+          "sentence_id": "96257379",
+          "retrieved_at": "2026-01-20T18:36:34+00:00",
+          "korp_query": "[word=\"högstadieskola\"]"
+        }
+      },
+      {
+        "ex_id": "b1e329b7a96859f890674180216b620a4db8ad62",
+        "sv": "Senare blev han professor i fonetik vid Umeå universitet (1969 – 1988).",
+        "en": "Later he became a professor of phonetics at Umeå University (1969–1988).",
+        "fe_tags": [
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "Umeå universitet"
+          },
+          {
+            "fe_id": "fe_subject",
+            "span_sv": "fonetik"
+          },
+          {
+            "fe_id": "fe_time",
+            "span_sv": "1969 – 1988"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Claes-Christian Elert",
+          "text_url": "https://sv.wikipedia.org/wiki/Claes-Christian_Elert",
+          "sentence_id": "0836721b",
+          "retrieved_at": "2026-01-20T18:36:34+00:00",
+          "korp_query": "[word=\"universitet\"]"
+        }
+      }
+    ],
+    "linked_lexical_units": [
+      {
+        "lu_id": "lu_schule_die",
+        "display_sv": "skola",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_schule_die:1"
+      },
+      {
+        "lu_id": "lu_gymnasium_das",
+        "display_sv": "gymnasium",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_gymnasium_das:1"
+      },
+      {
+        "lu_id": "lu_uni_die",
+        "display_sv": "universitet",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_uni_die:1"
+      },
+      {
+        "lu_id": "lu_hauptschule_die",
+        "display_sv": "högstadieskola",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_hauptschule_die:1"
+      },
+      {
+        "lu_id": "lu_realschule_die",
+        "display_sv": "högstadieskola",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_realschule_die:1"
+      },
+      {
+        "lu_id": "lu_gesamtschule_die",
+        "display_sv": "grundskola",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_gesamtschule_die:1"
+      }
+    ],
+    "confusable_with": []
+  },
+  "constructions": [
+    {
+      "cxn_id": "cxn_1",
+      "cxn_name_linguistic_sv": "X är en skola i Y",
+      "cxn_name_user_friendly_en": "A school is in a place",
+      "pattern": "SUBJ (Institution) + vara + NP (Institution) + PP-i (Location)",
+      "meaning_en": "Used to identify a school (or other educational institution) and say what kind it is, and where it is located.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_institution"
+        },
+        {
+          "slot": "NP",
+          "maps_to_fe_id": "fe_institution"
+        },
+        {
+          "slot": "PP-i",
+          "maps_to_fe_id": "fe_location"
+        }
+      ],
+      "usage_notes_en": [
+        "Often used for definitions/descriptions: a named institution + “är” + a type of school + “i” + place."
+      ],
+      "examples": [
+        {
+          "ex_id": "fc16fb176653c06c6c9fd891a140ebcf375ff504",
+          "sv": "Bemböle skola är en svenskspråkig skola i Bemböle i Esbo i Finland.",
+          "en": "Bemböle school is a Swedish-language school in Bemböle in Esbo in Finland.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "Bemböle skola"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "en svenskspråkig skola"
+            },
+            {
+              "fe_id": "fe_location",
+              "span_sv": "i Bemböle i Esbo i Finland"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Bemböle skola",
+            "text_url": "https://sv.wikipedia.org/wiki/Bemb%C3%B6le_skola",
+            "sentence_id": "46b9d93b",
+            "retrieved_at": "2026-01-20T18:36:34+00:00",
+            "korp_query": "[word=\"skola\"]"
+          }
+        },
+        {
+          "ex_id": "5e71c23376ce8e7679a841e512d0ee8b453b986d",
+          "sv": "Tumba gymnasium är en kommunal gymnasieskola i Tumba, Botkyrka kommun.",
+          "en": "Tumba upper secondary school is a municipal upper secondary school in Tumba, Botkyrka Municipality.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "Tumba gymnasium"
+            },
+            {
+              "fe_id": "fe_level",
+              "span_sv": "gymnasieskola"
+            },
+            {
+              "fe_id": "fe_location",
+              "span_sv": "i Tumba, Botkyrka kommun"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Tumba gymnasium",
+            "text_url": "https://sv.wikipedia.org/wiki/Tumba_gymnasium",
+            "sentence_id": "c4de4747",
+            "retrieved_at": "2026-01-20T18:36:34+00:00",
+            "korp_query": "[word=\"gymnasium\"]"
+          }
+        },
+        {
+          "ex_id": "758a1bf440a64b36bbb5c75549c81be906ea893e",
+          "sv": "Eklidens skola är en kommunal högstadieskola som ligger i centrala Nacka.",
+          "en": "Eklidens school is a municipal lower secondary school that is located in central Nacka.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "Eklidens skola"
+            },
+            {
+              "fe_id": "fe_level",
+              "span_sv": "högstadieskola"
+            },
+            {
+              "fe_id": "fe_location",
+              "span_sv": "i centrala Nacka"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Eklidens skola",
+            "text_url": "https://sv.wikipedia.org/wiki/Eklidens_skola",
+            "sentence_id": "96257379",
+            "retrieved_at": "2026-01-20T18:36:34+00:00",
+            "korp_query": "[word=\"högstadieskola\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_2",
+      "cxn_name_linguistic_sv": "X har en skola",
+      "cxn_name_user_friendly_en": "A place has a school",
+      "pattern": "SUBJ (Location) + ha + OBJ (Institution) (+ PP-med (Programme))",
+      "meaning_en": "Used to say that a place/community has a school (and sometimes mention what programmes it offers).",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_location"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_institution"
+        },
+        {
+          "slot": "PP-med",
+          "maps_to_fe_id": "fe_programme"
+        }
+      ],
+      "usage_notes_en": [
+        "Common in descriptions of towns/places: “X har …” + school as one item in a list.",
+        "A “med …” phrase can add what the school offers (e.g., a programme/training)."
+      ],
+      "examples": [
+        {
+          "ex_id": "b554805c10362373187d6b27705ec5d291b39d4f",
+          "sv": "Orten har en tämligen nybyggd skola, Bjästaskolan, och ett sjukhem.",
+          "en": "The place has a fairly newly built school, Bjästaskolan, and a nursing home.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_location",
+              "span_sv": "Orten"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "en tämligen nybyggd skola"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "Bjästaskolan"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Bjästa",
+            "text_url": "https://sv.wikipedia.org/wiki/Bj%C3%A4sta",
+            "sentence_id": "dbb5f184",
+            "retrieved_at": "2026-01-20T18:36:34+00:00",
+            "korp_query": "[word=\"skola\"]"
+          }
+        },
+        {
+          "ex_id": "bef56470c7d212fc5c021162331fc289ca5671f9",
+          "sv": "Åby har flera låg- och mellanstadieskolor och en högstadieskola, Hultdalsskolan.",
+          "en": "Åby has several primary and middle schools and a lower secondary school, Hultdalsskolan.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_location",
+              "span_sv": "Åby"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "en högstadieskola, Hultdalsskolan"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Åby",
+            "text_url": "https://sv.wikipedia.org/wiki/%C3%85by",
+            "sentence_id": "35681a96",
+            "retrieved_at": "2026-01-20T18:36:34+00:00",
+            "korp_query": "[word=\"högstadieskola\"]"
+          }
+        },
+        {
+          "ex_id": "1fc0b75e33fd20e5160a405c030469b9ddc342b0",
+          "sv": "Ed har ett gymnasium med bland annat turismledarutbildning, programmet har riksintag.",
+          "en": "Ed has an upper secondary school with, among other things, tourism guide training; the programme has national intake.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_location",
+              "span_sv": "Ed"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "ett gymnasium"
+            },
+            {
+              "fe_id": "fe_programme",
+              "span_sv": "turismledarutbildning"
+            },
+            {
+              "fe_id": "fe_programme",
+              "span_sv": "programmet"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Ed, Dals-Eds kommun",
+            "text_url": "https://sv.wikipedia.org/wiki/Ed,_Dals-Eds_kommun",
+            "sentence_id": "df713251",
+            "retrieved_at": "2026-01-20T18:36:34+00:00",
+            "korp_query": "[word=\"gymnasium\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_3",
+      "cxn_name_linguistic_sv": "X studerar vid Y",
+      "cxn_name_user_friendly_en": "Studying at an institution",
+      "pattern": "SUBJ + studera + PP-vid (Institution) (+ PP-från (Time))",
+      "meaning_en": "Used to say that someone studies at a school/university, sometimes with a starting time.",
+      "frame_mapping": [
+        {
+          "slot": "PP-vid",
+          "maps_to_fe_id": "fe_institution"
+        },
+        {
+          "slot": "PP-från",
+          "maps_to_fe_id": "fe_time"
+        }
+      ],
+      "usage_notes_en": [
+        "The institution is introduced with “vid”.",
+        "A time expression can be added with “från” to show when the studies started."
+      ],
+      "examples": [
+        {
+          "ex_id": "129af9106ee71853cde176800b5b8ae2419fc835",
+          "sv": "Han studerade vid Visby läroverk och vid Uppsala universitet från 1832.",
+          "en": "He studied at Visby secondary school and at Uppsala University from 1832.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "Visby läroverk"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "Uppsala universitet"
+            },
+            {
+              "fe_id": "fe_time",
+              "span_sv": "från 1832"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Carl Johan Laurin",
+            "text_url": "https://sv.wikipedia.org/wiki/Carl_Johan_Laurin",
+            "sentence_id": "2202e5f0",
+            "retrieved_at": "2026-01-20T18:36:34+00:00",
+            "korp_query": "[word=\"universitet\"]"
+          }
+        },
+        {
+          "ex_id": "aab0ed01d099ce03603e0e98650d2f2eaf35ef75",
+          "sv": "Hon studerade vid Uppsala universitet och tog en filosofie kandidatexamen 1954.",
+          "en": "She studied at Uppsala University and took a Bachelor of Arts degree in 1954.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "Uppsala universitet"
+            },
+            {
+              "fe_id": "fe_time",
+              "span_sv": "1954"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Monica Boëthius",
+            "text_url": "https://sv.wikipedia.org/wiki/Monica_Bo%C3%ABthius",
+            "sentence_id": "4baa0e80",
+            "retrieved_at": "2026-01-20T18:36:34+00:00",
+            "korp_query": "[word=\"universitet\"]"
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_examples": 5,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true
+  }
+}

@@ -55,169 +55,118 @@
     },
     "derived_words_sv": [
       {
+        "word": "grundskola",
+        "type_en": "noun",
+        "meaning_en": "compulsory school (primary/lower secondary)"
+      },
+      {
+        "word": "gymnasieskola",
+        "type_en": "noun",
+        "meaning_en": "upper secondary school"
+      },
+      {
         "word": "skolgång",
         "type_en": "noun",
-        "meaning_en": "time a person spends in school"
+        "meaning_en": "schooling; time spent in school"
       },
       {
         "word": "skolbarn",
         "type_en": "noun",
-        "meaning_en": "child who goes to school"
+        "meaning_en": "schoolchild"
       },
       {
-        "word": "skolklass",
-        "type_en": "noun",
-        "meaning_en": "a class/group of students in a school"
-      },
-      {
-        "word": "skolbyggnad",
+        "word": "skolhus",
         "type_en": "noun",
         "meaning_en": "school building"
-      },
-      {
-        "word": "skolstart",
-        "type_en": "noun",
-        "meaning_en": "start of the school term"
       }
     ],
     "synonyms_sv": [
       "läroanstalt",
       "utbildningsinstitution",
-      "grundskola",
-      "gymnasium"
+      "skolbyggnad"
     ],
     "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_schools",
+        "frame_name_en": "Schools",
+        "frame_slug": "schools",
         "sense_id": "lu_schule_die:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_schule_die:1",
-        "frame_id": "frame_education",
-        "meaning_en": "an institution where people study and get education",
+        "frame_id": "frame_schools",
+        "meaning_en": "an educational institution or school building where teaching and learning happen",
         "how_to_use_en": [
-          "Use for a school as an institution or building.",
-          "Often used with a place name: skola i + place.",
-          "Can be part of a proper name: X skola."
+          "Use for a school as an institution or a physical place.",
+          "Often used with a place phrase: i + city/area.",
+          "Can be part of a school name: X skola."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "gå i skola (i + PLATS)",
-            "meaning_en": "attend school",
-            "note_en": "Used for being a student; the place can be added."
+            "pattern": "en skola",
+            "meaning_en": "a (non-specified) school",
+            "note_en": "Used when introducing a school for the first time."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "en skola",
-            "meaning_en": "a school (one institution)",
-            "note_en": ""
+            "pattern": "skola i + plats",
+            "meaning_en": "a school in a place",
+            "note_en": "Location is commonly added with i + place name."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "skola (som del av en uppräkning)",
-            "meaning_en": "school as a local service",
-            "note_en": "Often listed with other community facilities (e.g., affär, sjukhus)."
+            "pattern": "X skola",
+            "meaning_en": "a named school",
+            "note_en": "Common in proper names (e.g., a local school name)."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "X skola",
-            "meaning_en": "named school",
-            "note_en": "Common in proper names of schools."
+            "pattern": "skola, + (other institutions)",
+            "meaning_en": "school as one facility among others",
+            "note_en": "Often listed with other local services (e.g., shop, nursing home)."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "rätt till + skola",
+            "meaning_en": "right to schooling",
+            "note_en": "Used in policy/rights contexts."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *ett skola*.",
-            "fix": "Use en: en skola.",
-            "explain_en": "Skola is an en-word."
+            "error": "Using *skola* when you mean the activity ‘school/education’ in general.",
+            "fix": "Use *skola* for the institution/place; for the activity, often use *skolgång*.",
+            "explain_en": "In the examples, *skola* refers to a specific school (often with location or as a named institution)."
           },
           {
-            "error": "Confusing skola with klass (class).",
-            "fix": "Use skola for the institution/building; klass for the student group.",
-            "explain_en": "In the examples, skola refers to the institution (often with a location or name)."
+            "error": "Forgetting the definite form when referring to a specific known school.",
+            "fix": "Use *skolan* when the school is specific/known in context.",
+            "explain_en": "Example: “den nybyggda skolan”."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "6f502ae46f69f64cfb8cb055ee4bd021902176e6",
-            "sv": "Morfadern avled 1770 varefter Hagström fick gå i skola i Falun och gymnasiet i Västerås.",
-            "en": "The grandfather died in 1770, after which Hagström got to go to school in Falun and to the upper secondary school in Västerås.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Hagström"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "skola i Falun"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "gymnasiet i Västerås"
-              }
-            ],
-            "gloss": "skola",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Erik Hagström",
-              "text_url": "https://sv.wikipedia.org/wiki/Erik_Hagstr%C3%B6m",
-              "sentence_id": "1764c931",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"skola\"]"
-            }
-          },
-          {
-            "ex_id": "73c6b99c664d04393bd79f6351681d3eab1665cf",
-            "sv": "• Papperslösa ska ha samma rätt till vård och skola som alla andra",
-            "en": "Undocumented people should have the same right to healthcare and school as everyone else.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Papperslösa"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "skola"
-              }
-            ],
-            "gloss": "skola",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "SSU-kongressen 2009",
-              "text_url": "https://sv.wikipedia.org/wiki/SSU-kongressen_2009",
-              "sentence_id": "a13b02e6",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"skola\"]"
-            }
-          },
-          {
-            "ex_id": "505f6c2656dbb99238eb7e33c84bec137918fdcf",
-            "sv": "Gården utgjorde då ett eget litet samhälle med skola, affär, missionshus och mejeri.",
-            "en": "The farm then made up its own small community with a school, a shop, a mission house, and a dairy.",
-            "frame_id": "frame_education",
+            "ex_id": "9ab2ff0ffd5c3115d460e13918d9818c0809125c",
+            "sv": "Stadens första skola, en grekisk skola, byggdes år 1663.",
+            "en": "The city's first school, a Greek school, was built in the year 1663.",
+            "frame_id": "frame_schools",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
-                "span_sv": "skola"
+                "span_sv": "Stadens första skola"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en grekisk skola"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "år 1663"
               }
             ],
             "gloss": "skola",
@@ -228,22 +177,30 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Renstad",
-              "text_url": "https://sv.wikipedia.org/wiki/Renstad",
-              "sentence_id": "a2d79ad8",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "text_title": "Gjirokastra",
+              "text_url": "https://sv.wikipedia.org/wiki/Gjirokastra",
+              "sentence_id": "e15aa13e",
+              "retrieved_at": "2026-01-20T18:36:34+00:00",
               "korp_query": "[word=\"skola\"]"
             }
           },
           {
-            "ex_id": "f122e77f8897dc7dcb4c20a951cb78d6388e3175",
-            "sv": "Tornbyggnaden i rödtegel byggdes år 1826 och ursprungligen var den en skola.",
-            "en": "The tower building in red brick was built in 1826 and originally it was a school.",
-            "frame_id": "frame_education",
+            "ex_id": "25a4350a8055f130d78c1f2878a18aaace0feba7",
+            "sv": "Petrova började spela handboll i elvaårsåldern i en skola i Volgograd.",
+            "en": "Petrova started playing handball at the age of eleven in a school in Volgograd.",
+            "frame_id": "frame_schools",
             "fe_tags": [
               {
                 "fe_id": "fe_institution",
                 "span_sv": "en skola"
+              },
+              {
+                "fe_id": "fe_location",
+                "span_sv": "i Volgograd"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "i elvaårsåldern"
               }
             ],
             "gloss": "skola",
@@ -254,10 +211,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Fiskars Tornursbyggnaden",
-              "text_url": "https://sv.wikipedia.org/wiki/Fiskars_Tornursbyggnaden",
-              "sentence_id": "80b6f5c8",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "text_title": "Maja Petrova",
+              "text_url": "https://sv.wikipedia.org/wiki/Maja_Petrova",
+              "sentence_id": "1eac64da",
+              "retrieved_at": "2026-01-20T18:36:34+00:00",
               "korp_query": "[word=\"skola\"]"
             }
           },
@@ -265,8 +222,16 @@
             "ex_id": "8bcebc7d730c261656a6c18430d66b98e939c3b9",
             "sv": "Under tiden i Dapitan grundade han en skola och ett sjukhus.",
             "en": "During the time in Dapitan he founded a school and a hospital.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_schools",
             "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Under tiden"
+              },
+              {
+                "fe_id": "fe_location",
+                "span_sv": "i Dapitan"
+              },
               {
                 "fe_id": "fe_institution",
                 "span_sv": "en skola"
@@ -283,16 +248,50 @@
               "text_title": "José Rizal",
               "text_url": "https://sv.wikipedia.org/wiki/Jos%C3%A9_Rizal",
               "sentence_id": "70475cfb",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "retrieved_at": "2026-01-20T18:36:34+00:00",
+              "korp_query": "[word=\"skola\"]"
+            }
+          },
+          {
+            "ex_id": "f122e77f8897dc7dcb4c20a951cb78d6388e3175",
+            "sv": "Tornbyggnaden i rödtegel byggdes år 1826 och ursprungligen var den en skola.",
+            "en": "The tower building in red brick was built in the year 1826 and originally it was a school.",
+            "frame_id": "frame_schools",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en skola"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "år 1826"
+              }
+            ],
+            "gloss": "skola",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Fiskars Tornursbyggnaden",
+              "text_url": "https://sv.wikipedia.org/wiki/Fiskars_Tornursbyggnaden",
+              "sentence_id": "80b6f5c8",
+              "retrieved_at": "2026-01-20T18:36:34+00:00",
               "korp_query": "[word=\"skola\"]"
             }
           },
           {
             "ex_id": "a8198485711ae61ce70d34d30252295f0ffb8e22",
             "sv": "Vallargärdet är en villaförort med skola, lanthandel och flera föreningar.",
-            "en": "Vallargärdet is a villa suburb with a school, a local shop, and several associations.",
-            "frame_id": "frame_education",
+            "en": "Vallargärdet is a villa suburb with a school, a local shop and several associations.",
+            "frame_id": "frame_schools",
             "fe_tags": [
+              {
+                "fe_id": "fe_location",
+                "span_sv": "Vallargärdet"
+              },
               {
                 "fe_id": "fe_institution",
                 "span_sv": "skola"
@@ -309,53 +308,23 @@
               "text_title": "Vallargärdet",
               "text_url": "https://sv.wikipedia.org/wiki/Vallarg%C3%A4rdet",
               "sentence_id": "e0094a7b",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "retrieved_at": "2026-01-20T18:36:34+00:00",
               "korp_query": "[word=\"skola\"]"
             }
           },
           {
-            "ex_id": "83e5030bc1f13d780f7b6417ea46250f8e954dd1",
-            "sv": "Därefter var Lövsta skola inrymd i den nybyggda skolan i Långbacka.",
-            "en": "After that, Lövsta school was housed in the newly built school in Långbacka.",
-            "frame_id": "frame_education",
+            "ex_id": "505f6c2656dbb99238eb7e33c84bec137918fdcf",
+            "sv": "Gården utgjorde då ett eget litet samhälle med skola, affär, missionshus och mejeri.",
+            "en": "The farm then made up its own small community with a school, a shop, a mission house and a dairy.",
+            "frame_id": "frame_schools",
             "fe_tags": [
               {
-                "fe_id": "fe_institution",
-                "span_sv": "Lövsta skola"
+                "fe_id": "fe_time",
+                "span_sv": "då"
               },
               {
                 "fe_id": "fe_institution",
-                "span_sv": "den nybyggda skolan i Långbacka"
-              }
-            ],
-            "gloss": "skola",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Görvälns skola",
-              "text_url": "https://sv.wikipedia.org/wiki/G%C3%B6rv%C3%A4lns_skola",
-              "sentence_id": "e15d5ef8",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"skola\"]"
-            }
-          },
-          {
-            "ex_id": "fc16fb176653c06c6c9fd891a140ebcf375ff504",
-            "sv": "Bemböle skola är en svenskspråkig skola i Bemböle i Esbo i Finland.",
-            "en": "Bemböle school is a Swedish-language school in Bemböle in Espoo in Finland.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Bemböle skola"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "en svenskspråkig skola"
+                "span_sv": "skola"
               }
             ],
             "gloss": "skola",
@@ -366,36 +335,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Bemböle skola",
-              "text_url": "https://sv.wikipedia.org/wiki/Bemb%C3%B6le_skola",
-              "sentence_id": "46b9d93b",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"skola\"]"
-            }
-          },
-          {
-            "ex_id": "3832206b7c9c5fcdc2ca9cd34d1d8fd460a79090",
-            "sv": "En skola - Brolyckans skola vid Kilsplan - byggdes redan under åren 1881-82.",
-            "en": "A school—Brolyckan school at Kilsplan—was built already in the years 1881–82.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "En skola - Brolyckans skola vid Kilsplan -"
-              }
-            ],
-            "gloss": "skola",
-            "level": "A2",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Väster, Örebro",
-              "text_url": "https://sv.wikipedia.org/wiki/V%C3%A4ster,_%C3%96rebro",
-              "sentence_id": "526d1909",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "text_title": "Renstad",
+              "text_url": "https://sv.wikipedia.org/wiki/Renstad",
+              "sentence_id": "a2d79ad8",
+              "retrieved_at": "2026-01-20T18:36:34+00:00",
               "korp_query": "[word=\"skola\"]"
             }
           },
@@ -403,11 +346,19 @@
             "ex_id": "b554805c10362373187d6b27705ec5d291b39d4f",
             "sv": "Orten har en tämligen nybyggd skola, Bjästaskolan, och ett sjukhem.",
             "en": "The place has a fairly newly built school, Bjästaskolan, and a nursing home.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_schools",
             "fe_tags": [
               {
+                "fe_id": "fe_location",
+                "span_sv": "Orten"
+              },
+              {
                 "fe_id": "fe_institution",
-                "span_sv": "en tämligen nybyggd skola, Bjästaskolan"
+                "span_sv": "en tämligen nybyggd skola"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Bjästaskolan"
               }
             ],
             "gloss": "skola",
@@ -421,7 +372,105 @@
               "text_title": "Bjästa",
               "text_url": "https://sv.wikipedia.org/wiki/Bj%C3%A4sta",
               "sentence_id": "dbb5f184",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "retrieved_at": "2026-01-20T18:36:34+00:00",
+              "korp_query": "[word=\"skola\"]"
+            }
+          },
+          {
+            "ex_id": "fc16fb176653c06c6c9fd891a140ebcf375ff504",
+            "sv": "Bemböle skola är en svenskspråkig skola i Bemböle i Esbo i Finland.",
+            "en": "Bemböle school is a Swedish-language school in Bemböle in Esbo in Finland.",
+            "frame_id": "frame_schools",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Bemböle skola"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "en svenskspråkig skola"
+              },
+              {
+                "fe_id": "fe_location",
+                "span_sv": "i Bemböle i Esbo i Finland"
+              }
+            ],
+            "gloss": "skola",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Bemböle skola",
+              "text_url": "https://sv.wikipedia.org/wiki/Bemb%C3%B6le_skola",
+              "sentence_id": "46b9d93b",
+              "retrieved_at": "2026-01-20T18:36:34+00:00",
+              "korp_query": "[word=\"skola\"]"
+            }
+          },
+          {
+            "ex_id": "83e5030bc1f13d780f7b6417ea46250f8e954dd1",
+            "sv": "Därefter var Lövsta skola inrymd i den nybyggda skolan i Långbacka.",
+            "en": "After that, Lövsta school was housed in the newly built school in Långbacka.",
+            "frame_id": "frame_schools",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "Därefter"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "Lövsta skola"
+              },
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "den nybyggda skolan"
+              },
+              {
+                "fe_id": "fe_location",
+                "span_sv": "i Långbacka"
+              }
+            ],
+            "gloss": "skola",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Görvälns skola",
+              "text_url": "https://sv.wikipedia.org/wiki/G%C3%B6rv%C3%A4lns_skola",
+              "sentence_id": "e15d5ef8",
+              "retrieved_at": "2026-01-20T18:36:34+00:00",
+              "korp_query": "[word=\"skola\"]"
+            }
+          },
+          {
+            "ex_id": "73c6b99c664d04393bd79f6351681d3eab1665cf",
+            "sv": "• Papperslösa ska ha samma rätt till vård och skola som alla andra",
+            "en": "• People without papers must have the same right to care and school as everyone else.",
+            "frame_id": "frame_schools",
+            "fe_tags": [
+              {
+                "fe_id": "fe_institution",
+                "span_sv": "skola"
+              }
+            ],
+            "gloss": "skola",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "SSU-kongressen 2009",
+              "text_url": "https://sv.wikipedia.org/wiki/SSU-kongressen_2009",
+              "sentence_id": "a13b02e6",
+              "retrieved_at": "2026-01-20T18:36:34+00:00",
               "korp_query": "[word=\"skola\"]"
             }
           }
@@ -430,7 +479,7 @@
     ],
     "pronunciation": {
       "ipa": "ˈskuːla",
-      "stress_hint": "Stress on the first syllable: SKU-la.",
+      "stress_hint": "Stress is on the first syllable: SKU-la.",
       "audio": {
         "file": "audio/lu_schule_die.mp3",
         "model": "gpt-4o-mini-tts",
@@ -440,10 +489,10 @@
     },
     "morphology": {
       "principal_parts": [
-        "skola (indefinite singular)",
-        "skolan (definite singular)",
-        "skolor (indefinite plural)",
-        "skolorna (definite plural)"
+        "skola",
+        "skolan",
+        "skolor",
+        "skolorna"
       ],
       "particle_or_reflexive": null
     }

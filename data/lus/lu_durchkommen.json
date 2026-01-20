@@ -7,27 +7,31 @@
       "gender_variants_de": [],
       "pos_de": "verb"
     },
-    "lu_type": "single",
-    "lemma_sv": "klara",
-    "display_sv": "klara",
-    "name_sv": "klara",
-    "pos": "verb",
+    "lu_type": "multiword",
+    "lemma_sv": "klara sig",
+    "display_sv": "klara sig",
+    "name_sv": "klara sig",
+    "pos": "multiword",
     "cefr": "A2",
     "multiword": {
-      "mwe_type": null,
-      "components_sv": [],
-      "spacing_notes_en": ""
+      "mwe_type": "reflexive_verb",
+      "components_sv": [
+        "klara",
+        "sig"
+      ],
+      "spacing_notes_en": "Written as two words; 'sig' is the reflexive pronoun."
     },
     "forms": [
-      "klara",
-      "klarar",
-      "klarade",
-      "klarat"
+      "klarar sig",
+      "klarade sig",
+      "klarat sig",
+      "klara sig själv",
+      "klara sig själva"
     ],
-    "english_equivalent_en": "handle",
+    "english_equivalent_en": "manage",
     "morphology_sv": {
       "noun": {
-        "gender": "en",
+        "gender": null,
         "indef_sg": null,
         "def_sg": null,
         "indef_pl": null,
@@ -35,13 +39,13 @@
         "note_en": ""
       },
       "verb": {
-        "infinitive": "klara",
-        "present": "klarar",
-        "past": "klarade",
-        "supine": "klarat",
-        "imperative": "klara",
-        "present_participle": "klarande",
-        "past_participle": "klarad",
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
         "alternatives": []
       },
       "adjective": {
@@ -51,218 +55,123 @@
         "neuter": null,
         "plural_def": null
       },
-      "note_en": ""
+      "note_en": "Multiword verb phrase: klara + reflexive pronoun (sig). Inflect klara; sig changes with person (mig, dig, sig, oss, er)."
     },
     "derived_words_sv": [
       {
-        "word": "avklara",
+        "word": "klara",
         "type_en": "verb",
-        "meaning_en": "finish or settle (a task or matter)"
+        "meaning_en": "manage; succeed; make it"
       },
       {
-        "word": "klargöra",
+        "word": "klara av",
         "type_en": "verb",
-        "meaning_en": "make clear; clarify"
+        "meaning_en": "manage to do; cope with"
       },
       {
-        "word": "klargörande",
-        "type_en": "noun",
-        "meaning_en": "a clarification"
+        "word": "självständig",
+        "type_en": "adjective",
+        "meaning_en": "independent; able to manage alone"
       },
       {
-        "word": "klarspråk",
+        "word": "självständighet",
         "type_en": "noun",
-        "meaning_en": "plain language; clear wording"
+        "meaning_en": "independence"
+      },
+      {
+        "word": "ekonomi",
+        "type_en": "noun",
+        "meaning_en": "finances; economy"
       }
     ],
     "synonyms_sv": [
-      "hantera",
-      "stå ut med",
-      "tåla",
-      "uthärda",
-      "bemästra"
+      "reda sig",
+      "klara sig själv",
+      "komma igenom"
     ],
     "antonyms_sv": [
-      "misslyckas med"
+      "misslyckas"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_passing_&_failing",
+        "frame_name_en": "Passing & Failing",
+        "frame_slug": "passing_&_failing",
         "sense_id": "lu_durchkommen:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_durchkommen:1",
-        "frame_id": "frame_education",
-        "meaning_en": "be able to handle, cope with, or meet a demand or condition",
+        "frame_id": "frame_passing_&_failing",
+        "meaning_en": "be able to cope or manage, often without help or with limited resources",
         "how_to_use_en": [
-          "Use it for handling conditions, loads, heat, illness, or other challenges.",
-          "Often followed by what must be handled (a noun phrase).",
-          "Often used with an infinitive phrase: “för att klara …”."
+          "Use about coping in life situations (alone, financially, without something).",
+          "Often followed by själv/själva or an adverb like ekonomiskt.",
+          "Can be used with utan + thing to mean “manage without”."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "klara + noun phrase",
-            "meaning_en": "handle or withstand something",
-            "note_en": "Common with loads, heat, illness, threats, requirements."
+            "pattern": "X får klara sig själv/själva",
+            "meaning_en": "X must manage alone",
+            "note_en": "Used when someone is left without help."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "inte kunna klara + noun phrase",
-            "meaning_en": "be unable to handle something",
+            "pattern": "X har svårt/svårigheter att klara sig",
+            "meaning_en": "X has trouble coping",
             "note_en": ""
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "för att klara + noun phrase",
-            "meaning_en": "in order to meet/handle something",
-            "note_en": "Often explains why something is designed or upgraded."
+            "pattern": "klara sig ekonomiskt",
+            "meaning_en": "manage financially",
+            "note_en": ""
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "klara + noun phrase + bättre än + comparison",
-            "meaning_en": "cope better than someone/something",
+            "pattern": "klara sig på + noun",
+            "meaning_en": "get by on something",
+            "note_en": "Often about money/income (e.g., pension)."
+          },
+          {
+            "pattern_id": "pat_5",
+            "pattern": "klara sig utan + noun",
+            "meaning_en": "manage without something",
             "note_en": ""
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *klara* without saying what is handled (when context is unclear).",
-            "fix": "Add the thing: “klara hettan/tyngden/kraven/sjukdomen”.",
-            "explain_en": "In this sense, *klara* usually needs an object (the challenge or requirement)."
+            "error": "Using *klara sig* for passing an exam (e.g., *klara sig provet*).",
+            "fix": "Use klara provet / klara tentan (without sig).",
+            "explain_en": "In these examples, klara sig means “cope/manage”, not “pass”."
           },
           {
-            "error": "Confusing *klara* (handle/meet) with *vara klar* (be finished/ready).",
-            "fix": "Say “vara klar” for finished/ready; use “klara” for coping/meeting demands.",
-            "explain_en": "They look similar but express different meanings."
+            "error": "Forgetting the reflexive pronoun (e.g., *de fick klara själva*).",
+            "fix": "Say de fick klara sig själva.",
+            "explain_en": "The phrase normally needs sig (or mig/dig/oss/er)."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "5bc8b593027a16a7c37cc3c3f8c78c1dae33571e",
-            "sv": "Datorns tillförlitlighet och förmåga att klara förhållandena i rymden var det viktigaste.",
-            "en": "The computer's reliability and ability to handle the conditions in space were the most important.",
-            "frame_id": "frame_education",
+            "ex_id": "a526e7a50d89cbb054132f302884b76ced8580f9",
+            "sv": "Mamman jobbar på en restaurang på kvällarna och då får syskonen klara sig själva.",
+            "en": "The mother works at a restaurant in the evenings and then the siblings have to manage on their own.",
+            "frame_id": "frame_passing_&_failing",
             "fe_tags": [
               {
-                "fe_id": "fe_skill",
-                "span_sv": "förmåga att klara"
+                "fe_id": "fe_candidate",
+                "span_sv": "syskonen"
               },
               {
-                "fe_id": "fe_fact",
-                "span_sv": "förhållandena i rymden"
+                "fe_id": "fe_time",
+                "span_sv": "på kvällarna"
               }
             ],
-            "gloss": "klara = manage, cope with, handle",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Galileo (rymdsond)",
-              "text_url": "https://sv.wikipedia.org/wiki/Galileo_(rymdsond)",
-              "sentence_id": "ef59b221",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "4306587cd1194d449ee9494e3af1e9d3e67196a1",
-            "sv": "Planerna skrinlades dock sedan studier visat att läktaren inte skulle klara tyngden.",
-            "en": "The plans were shelved, however, after studies showed that the stand would not handle the weight.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "studier"
-              }
-            ],
-            "gloss": "klara = manage, cope with, handle",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Shea Stadium",
-              "text_url": "https://sv.wikipedia.org/wiki/Shea_Stadium",
-              "sentence_id": "30ceb8cd",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "6ff046091aac46615418d1271254c7f21bd21735",
-            "sv": "Under 1980-talet diskuterades det om man skulle riva bron då den inte kunde klara tunga transporter.",
-            "en": "During the 1980s it was discussed whether the bridge should be demolished because it could not handle heavy transports.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "diskuterades"
-              }
-            ],
-            "gloss": "klara = manage, cope with, handle",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Humla socken",
-              "text_url": "https://sv.wikipedia.org/wiki/Humla_socken",
-              "sentence_id": "c0c24e1d",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "a2a4243bcd3437b7400ae4142d5309d1e5c45c8e",
-            "sv": "Bilen fick en betydligt rundare front och motorn uppgraderades för att klara avgaskraven.",
-            "en": "The car got a much rounder front and the engine was upgraded to meet the exhaust requirements.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "avgaskraven"
-              }
-            ],
-            "gloss": "klara = manage, cope with, handle",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ford Escort",
-              "text_url": "https://sv.wikipedia.org/wiki/Ford_Escort",
-              "sentence_id": "57dd86f0",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "4eead0b96533d4bf6464117d8f828a4c5e40cece",
-            "sv": "Space Shuttle hade keramiska beläggningar på undersidan för att klara hettan.",
-            "en": "The Space Shuttle had ceramic coatings on the underside to withstand the heat.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "hettan"
-              }
-            ],
-            "gloss": "klara = manage, cope with, handle",
+            "gloss": "manage on one’s own",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -270,55 +179,59 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Deltavinge",
-              "text_url": "https://sv.wikipedia.org/wiki/Deltavinge",
-              "sentence_id": "8cbf8a1d",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
+              "text_title": "Man kan inte säga allt",
+              "text_url": "https://sv.wikipedia.org/wiki/Man_kan_inte_s%C3%A4ga_allt",
+              "sentence_id": "2a49bce1",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"klara\"][word=\"sig\"]"
             }
           },
           {
-            "ex_id": "d2da19dd89070f33eaa30aeb60abea004cde7292",
-            "sv": "De livsuppehållande systemen och förnödenheterna för Lajka utformades för att klara en 7-dagars resa.",
-            "en": "The life-support systems and the supplies for Laika were designed to manage a 7-day trip.",
-            "frame_id": "frame_education",
+            "ex_id": "1cafb625ec9dafa806cb068998841df3c5cb7725",
+            "sv": "Väl på den nya ön övergavs de och fick klara sig själva.",
+            "en": "Once on the new island they were abandoned and had to manage on their own.",
+            "frame_id": "frame_passing_&_failing",
             "fe_tags": [
               {
-                "fe_id": "fe_fact",
-                "span_sv": "en 7-dagars resa"
-              }
-            ],
-            "gloss": "klara = manage, cope with, handle",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Sputnik 2",
-              "text_url": "https://sv.wikipedia.org/wiki/Sputnik_2",
-              "sentence_id": "63e1c4e1",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "74aa1e1cd245ed2186f2868dec9178a4d0dee5af",
-            "sv": "Små barn verkar klara sjukdomen bättre än ungdomar och unga vuxna, och deras symtom är lindrigare.",
-            "en": "Small children seem to cope with the disease better than teenagers and young adults, and their symptoms are milder.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Små barn"
+                "fe_id": "fe_candidate",
+                "span_sv": "de"
               },
               {
-                "fe_id": "fe_fact",
-                "span_sv": "sjukdomen"
+                "fe_id": "fe_place",
+                "span_sv": "på den nya ön"
               }
             ],
-            "gloss": "klara = manage, cope with, handle",
+            "gloss": "manage on one’s own",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tasmanska aboriginer",
+              "text_url": "https://sv.wikipedia.org/wiki/Tasmanska_aboriginer",
+              "sentence_id": "0a752027",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"klara\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "df16973a389cebcd08e694f538753d5cd7d7e354",
+            "sv": "Eftersom nybygget låg så avlägset var man tvungna att klara sig själva på gården.",
+            "en": "Because the new settlement was so remote, they had to manage on their own on the farm.",
+            "frame_id": "frame_passing_&_failing",
+            "fe_tags": [
+              {
+                "fe_id": "fe_candidate",
+                "span_sv": "man"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "på gården"
+              }
+            ],
+            "gloss": "manage on one’s own",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -326,25 +239,25 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Mykoplasmapneumoni",
-              "text_url": "https://sv.wikipedia.org/wiki/Mykoplasmapneumoni",
-              "sentence_id": "70bd779c",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "text_title": "Ålviken",
+              "text_url": "https://sv.wikipedia.org/wiki/%C3%85lviken",
+              "sentence_id": "49fc7857",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
               "korp_query": "[word=\"klara\"]"
             }
           },
           {
-            "ex_id": "163d6a3ca42e2969b858dea8b5e2c0f955633b12",
-            "sv": "större biodiversitet) har bättre chans att klara hot från för området främmande arter.",
-            "en": "(greater biodiversity) has a better chance of coping with threats from species that are foreign to the area.",
-            "frame_id": "frame_education",
+            "ex_id": "1618698834bcf395c29324b4a6fbff5c1fcef497",
+            "sv": "Helena väljer att dra sig tillbaka, men har stora svårigheter att klara sig ekonomiskt.",
+            "en": "Helena chooses to withdraw, but has great difficulties managing financially.",
+            "frame_id": "frame_passing_&_failing",
             "fe_tags": [
               {
-                "fe_id": "fe_fact",
-                "span_sv": "hot från för området främmande arter"
+                "fe_id": "fe_candidate",
+                "span_sv": "Helena"
               }
             ],
-            "gloss": "klara = manage, cope with, handle",
+            "gloss": "manage (financially)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -352,71 +265,179 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ekologisk nisch",
-              "text_url": "https://sv.wikipedia.org/wiki/Ekologisk_nisch",
-              "sentence_id": "1763dfef",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "text_title": "Ett hemligt giftermål eller Bekännelsen på dödsbädden",
+              "text_url": "https://sv.wikipedia.org/wiki/Ett_hemligt_gifterm%C3%A5l_eller_Bek%C3%A4nnelsen_p%C3%A5_d%C3%B6dsb%C3%A4dden",
+              "sentence_id": "43cea2d0",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"klara\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "ef48b0de36e751fa7466a7b1d4aa0014d0cc987e",
+            "sv": "Drottning Josefina uppmärksammade kvinnor som inte var utfattiga men ändå hade svårt att klara sig.",
+            "en": "Queen Josefina noticed women who were not destitute but still had difficulty managing.",
+            "frame_id": "frame_passing_&_failing",
+            "fe_tags": [
+              {
+                "fe_id": "fe_candidate",
+                "span_sv": "kvinnor"
+              }
+            ],
+            "gloss": "manage (cope)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Stiftelsen Konung Oscar I:s Minne",
+              "text_url": "https://sv.wikipedia.org/wiki/Stiftelsen_Konung_Oscar_I:s_Minne",
+              "sentence_id": "814d0b14",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"klara\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "f15ffa1919970ee008f04ffe743e3333d96114a9",
+            "sv": "Folkpension infördes 1913 men pensionsbeloppet var lågt och många hade svårt att klara sig på pensionen.",
+            "en": "The national pension was introduced in 1913, but the pension amount was low and many had difficulty managing on the pension.",
+            "frame_id": "frame_passing_&_failing",
+            "fe_tags": [
+              {
+                "fe_id": "fe_candidate",
+                "span_sv": "många"
+              }
+            ],
+            "gloss": "manage (live on a pension)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tilläggspension (allmän)",
+              "text_url": "https://sv.wikipedia.org/wiki/Till%C3%A4ggspension_(allm%C3%A4n)",
+              "sentence_id": "7e8ebf65",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"klara\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "26736de790d06204e22e7647dff86f40d27a8326",
+            "sv": "Han saknade medel att finansiera sina studier och kunde klara sig endast med hjälp av stipendier.",
+            "en": "He lacked the means to finance his studies and could manage only with the help of scholarships.",
+            "frame_id": "frame_passing_&_failing",
+            "fe_tags": [
+              {
+                "fe_id": "fe_candidate",
+                "span_sv": "Han"
+              }
+            ],
+            "gloss": "manage (get by)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Johan Olof Lindgren",
+              "text_url": "https://sv.wikipedia.org/wiki/Johan_Olof_Lindgren",
+              "sentence_id": "40e16e37",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"klara\"][word=\"sig\"]"
+            }
+          },
+          {
+            "ex_id": "6a397aead5c215d048d575c5a385d7a9d50826f7",
+            "sv": "Den gick ut på att vintertid klara sig utan tält under långfärder i fjällen.",
+            "en": "It was about managing without a tent in winter during long trips in the mountains.",
+            "frame_id": "frame_passing_&_failing",
+            "fe_tags": [
+              {
+                "fe_id": "fe_time",
+                "span_sv": "vintertid"
+              },
+              {
+                "fe_id": "fe_place",
+                "span_sv": "i fjällen"
+              }
+            ],
+            "gloss": "manage without (something)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Gustaf Birch-Lindgren",
+              "text_url": "https://sv.wikipedia.org/wiki/Gustaf_Birch-Lindgren",
+              "sentence_id": "8d6fe4c3",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
               "korp_query": "[word=\"klara\"]"
             }
           },
           {
-            "ex_id": "06f48bc868d9ed7bd820afd5ee5f690f8114da76",
-            "sv": "I 1945 års skärgårdsutredning kom man fram till att färjor inte kunde klara transportproblemet vid toppbelastningar.",
-            "en": "In the 1945 archipelago investigation, they concluded that ferries could not handle the transport problem at peak loads.",
-            "frame_id": "frame_education",
+            "ex_id": "a11896fa15df6a978fd123c39e58685c4670f825",
+            "sv": "Om möjligt dricker de regelbundet men de kan klara sig längre tider utan vatten.",
+            "en": "If possible they drink regularly, but they can manage for longer periods without water.",
+            "frame_id": "frame_passing_&_failing",
             "fe_tags": [
               {
-                "fe_id": "fe_fact",
-                "span_sv": "skärgårdsutredning"
+                "fe_id": "fe_candidate",
+                "span_sv": "de"
               }
             ],
-            "gloss": "klara = manage, cope with, handle",
-            "level": "B1",
+            "gloss": "manage without (something)",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Djuröbron",
-              "text_url": "https://sv.wikipedia.org/wiki/Djur%C3%B6bron",
-              "sentence_id": "df76c984",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
+              "text_title": "Hartebeest",
+              "text_url": "https://sv.wikipedia.org/wiki/Hartebeest",
+              "sentence_id": "db3f0975",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"klara\"][word=\"sig\"]"
             }
           },
           {
-            "ex_id": "ce28b5de4275e7813ca81deea38b4572f3f4bc07",
-            "sv": "Dieselpersonbilar måste klara Euro 6 från 1 juli 2022 i miljözoner.",
-            "en": "Diesel passenger cars must meet Euro 6 from 1 July 2022 in environmental zones.",
-            "frame_id": "frame_education",
+            "ex_id": "6634a301a161f7724e6364cbc922ba6e771194a9",
+            "sv": "Om hon inte lär sig kontrollera gåvan kommer hon inte klara sig.",
+            "en": "If she does not learn to control the gift, she will not manage.",
+            "frame_id": "frame_passing_&_failing",
             "fe_tags": [
               {
-                "fe_id": "fe_fact",
-                "span_sv": "Euro 6"
+                "fe_id": "fe_candidate",
+                "span_sv": "hon"
               }
             ],
-            "gloss": "klara = manage, cope with, handle",
-            "level": "B1",
+            "gloss": "manage (cope, succeed)",
+            "level": "A2",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Miljözon",
-              "text_url": "https://sv.wikipedia.org/wiki/Milj%C3%B6zon",
-              "sentence_id": "0cd59025",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
+              "text_title": "Vild magi",
+              "text_url": "https://sv.wikipedia.org/wiki/Vild_magi",
+              "sentence_id": "1bd9036e",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"klara\"][word=\"sig\"]"
             }
           }
         ]
       }
     ],
     "pronunciation": {
-      "ipa": "ˈklɑːra",
-      "stress_hint": "Stress on the first syllable: KLA-ra.",
+      "ipa": "ˈklɑːra sɛj",
+      "stress_hint": "Main stress is on KLAR- in klara.",
       "audio": {
         "file": "audio/lu_durchkommen.mp3",
         "model": "gpt-4o-mini-tts",
@@ -426,12 +447,12 @@
     },
     "morphology": {
       "principal_parts": [
-        "klara",
-        "klarar",
-        "klarade",
-        "klarat"
+        "klara sig",
+        "klarar sig",
+        "klarade sig",
+        "klarat sig"
       ],
-      "particle_or_reflexive": null
+      "particle_or_reflexive": "sig"
     }
   },
   "constraints": {

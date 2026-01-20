@@ -61,13 +61,13 @@
       },
       {
         "word": "pluggande",
-        "type_en": "other",
-        "meaning_en": "studying (present participle used as adjective/noun)"
+        "type_en": "adjective",
+        "meaning_en": "studying; doing schoolwork"
       },
       {
         "word": "pluggis",
         "type_en": "noun",
-        "meaning_en": "a very studious person (informal)"
+        "meaning_en": "a person who studies a lot (informal)"
       },
       {
         "word": "pluggkväll",
@@ -75,78 +75,79 @@
         "meaning_en": "an evening for studying"
       },
       {
-        "word": "pluggkompis",
-        "type_en": "noun",
-        "meaning_en": "study buddy"
+        "word": "plugga ihop",
+        "type_en": "verb",
+        "meaning_en": "study together"
       }
     ],
     "synonyms_sv": [
       "studera",
-      "läsa"
+      "läsa",
+      "läsa på"
     ],
     "antonyms_sv": [
       "slappa"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_learning_&_studying",
+        "frame_name_en": "Learning & Studying",
+        "frame_slug": "learning_&_studying",
         "sense_id": "lu_lernen_für_den__einen_test:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_lernen_für_den__einen_test:1",
-        "frame_id": "frame_education",
-        "meaning_en": "do school or university study, often to prepare for grades, tests, or a qualification.",
+        "frame_id": "frame_learning_&_studying",
+        "meaning_en": "do schoolwork to learn a subject, often to reach a goal like good grades or admission.",
         "how_to_use_en": [
-          "Use for studying as a student (often informal).",
-          "Often with a subject (plugga matematik) or a goal (plugga för betygen).",
-          "Common with börja to mean “start studying”."
+          "Use for studying at school/university or preparing for results (grades, admission).",
+          "Often followed by what you study (a subject) or why you study (a goal).",
+          "Common in everyday Swedish; slightly informal compared to studera."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "plugga (ordentligt)",
-            "meaning_en": "study (hard/properly)",
-            "note_en": "Often used when someone needs to make an effort."
+            "pattern": "plugga (adverb)",
+            "meaning_en": "study in a certain way",
+            "note_en": "Often with words like ordentligt or tillsammans."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "plugga + ämne",
+            "pattern": "plugga + Subject",
             "meaning_en": "study a subject",
             "note_en": "Example: plugga matematik."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "plugga för + mål",
-            "meaning_en": "study for a goal",
-            "note_en": "Example: plugga för betygen."
+            "pattern": "plugga + Method/Place",
+            "meaning_en": "study using a method/place",
+            "note_en": "Example: plugga på nätet; plugga i böcker."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "börja plugga",
-            "meaning_en": "start studying",
-            "note_en": "Used for starting education or getting back to studies."
+            "pattern": "plugga för + Goal",
+            "meaning_en": "study in order to achieve something",
+            "note_en": "Example: plugga för betygen."
           },
           {
             "pattern_id": "pat_5",
-            "pattern": "plugga till + yrke",
-            "meaning_en": "study to become something",
-            "note_en": "Example: plugga till veterinär."
+            "pattern": "börja plugga (Time)",
+            "meaning_en": "start studying",
+            "note_en": "Often used for starting education, sometimes after a life change."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using plugga for learning a hobby skill (e.g., cooking) outside education.",
-            "fix": "Use lära sig or öva for general skills.",
-            "explain_en": "In these examples, plugga is tied to school/university study and qualifications."
+            "error": "Using plugga for learning a practical skill (e.g., driving) in formal contexts.",
+            "fix": "Use lära sig or utbilda sig when it is not school-style studying.",
+            "explain_en": "Plugga is mainly for school/university-style studying and reading/working with material."
           },
           {
-            "error": "Saying *plugga på matematik* for the subject in general.",
-            "fix": "Say plugga matematik.",
-            "explain_en": "The examples show direct object without på for the subject."
+            "error": "Saying *plugga till provet* when you mean the purpose.",
+            "fix": "Say plugga för provet / plugga inför provet.",
+            "explain_en": "Purpose is commonly expressed with för (and also inför)."
           }
         ],
         "required_example_count": 10,
@@ -155,18 +156,18 @@
             "ex_id": "8891674f6b38fb92e37b62d002a1229d0ba88fb3",
             "sv": "Men den propra fröken Lind får Sigge att ta sig i kragen och plugga ordentligt.",
             "en": "But the proper Miss Lind makes Sigge pull himself together and study properly.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_learning_&_studying",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
-                "span_sv": "fröken Lind"
+                "fe_id": "fe_learner",
+                "span_sv": "Sigge"
               },
               {
-                "fe_id": "fe_student",
-                "span_sv": "Sigge"
+                "fe_id": "fe_method",
+                "span_sv": "ordentligt"
               }
             ],
-            "gloss": "study (hard), do schoolwork",
+            "gloss": "study (work seriously with schoolwork)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -177,7 +178,7 @@
               "text_title": "Swing it, fröken!",
               "text_url": "https://sv.wikipedia.org/wiki/Swing_it,_fr%C3%B6ken!",
               "sentence_id": "5e88a8a2",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "retrieved_at": "2026-01-20T18:24:01+00:00",
               "korp_query": "[word=\"plugga\"]"
             }
           },
@@ -185,18 +186,22 @@
             "ex_id": "cb4b91de849356cd8ddfd9d493c8151480512175",
             "sv": "Mattecentrum står bakom webbtjänsten Matteboken.se, ett gratisverktyg för att plugga matematik på nätet.",
             "en": "Mattecentrum is behind the web service Matteboken.se, a free tool to study maths online.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_learning_&_studying",
             "fe_tags": [
               {
                 "fe_id": "fe_material",
-                "span_sv": "webbtjänsten Matteboken.se"
+                "span_sv": "webbtjänsten Matteboken.se, ett gratisverktyg"
               },
               {
                 "fe_id": "fe_subject",
                 "span_sv": "matematik"
+              },
+              {
+                "fe_id": "fe_method",
+                "span_sv": "på nätet"
               }
             ],
-            "gloss": "study (a subject), do schoolwork",
+            "gloss": "study (learn a subject)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -207,7 +212,7 @@
               "text_title": "Mattecentrum",
               "text_url": "https://sv.wikipedia.org/wiki/Mattecentrum",
               "sentence_id": "d0007dc6",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "retrieved_at": "2026-01-20T18:24:01+00:00",
               "korp_query": "[word=\"plugga\"]"
             }
           },
@@ -215,14 +220,14 @@
             "ex_id": "e39a09f8a8d070f4692f763cf1c296bb109c09db",
             "sv": "Yttre motivation handlar om att undvika bestraffningar och erhålla belöningar, till exempel att plugga för betygen.",
             "en": "External motivation is about avoiding punishments and getting rewards, for example studying for the grades.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_learning_&_studying",
             "fe_tags": [
               {
-                "fe_id": "fe_qualification",
-                "span_sv": "betygen"
+                "fe_id": "fe_goal",
+                "span_sv": "för betygen"
               }
             ],
-            "gloss": "study (for an exam/grades)",
+            "gloss": "study (in order to achieve a result)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -233,7 +238,7 @@
               "text_title": "Motivation",
               "text_url": "https://sv.wikipedia.org/wiki/Motivation",
               "sentence_id": "e34a4802",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "retrieved_at": "2026-01-20T18:24:01+00:00",
               "korp_query": "[word=\"plugga\"]"
             }
           },
@@ -241,15 +246,19 @@
             "ex_id": "2a0491f7a56b95c22060e84ccc8a2c1e0f108549",
             "sv": "Jocke vill förändra sitt liv och börja plugga efter fängelsestraffet, men istället fritas han från fängelset.",
             "en": "Jocke wants to change his life and start studying after the prison sentence, but instead he is released from prison.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_learning_&_studying",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_learner",
                 "span_sv": "Jocke"
+              },
+              {
+                "fe_id": "fe_time",
+                "span_sv": "efter fängelsestraffet"
               }
             ],
-            "gloss": "start studying (education)",
-            "level": "A2",
+            "gloss": "start studying (often education)",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -259,7 +268,7 @@
               "text_title": "Sökarna – Återkomsten",
               "text_url": "https://sv.wikipedia.org/wiki/S%C3%B6karna_%E2%80%93_%C3%85terkomsten",
               "sentence_id": "a135fe5a",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "retrieved_at": "2026-01-20T18:24:01+00:00",
               "korp_query": "[word=\"plugga\"]"
             }
           },
@@ -267,14 +276,14 @@
             "ex_id": "c34c4f07cd84ddfc01f015b89f1dde23492b6fee",
             "sv": "Berry tar också över Ichigos ledarroll eftersom Ichigo stuckit till England för att plugga.",
             "en": "Berry also takes over Ichigo's leadership role because Ichigo has gone to England to study.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_learning_&_studying",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_learner",
                 "span_sv": "Ichigo"
               }
             ],
-            "gloss": "study (often at a school/university)",
+            "gloss": "study (often at a school/university, possibly abroad)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -285,33 +294,7 @@
               "text_title": "Tokyo Mew Mew à la Mode",
               "text_url": "https://sv.wikipedia.org/wiki/Tokyo_Mew_Mew_%C3%A0_la_Mode",
               "sentence_id": "5e70480a",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
-              "korp_query": "[word=\"plugga\"]"
-            }
-          },
-          {
-            "ex_id": "e554e0d92ad3ee08cf989be71bfd1d3cfcc7e660",
-            "sv": "Hon struntar i sina fastrars varningar om att plugga och misslyckas på sin första prövning.",
-            "en": "She ignores her aunts' warnings about studying and fails her first test.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_student",
-                "span_sv": "Hon"
-              }
-            ],
-            "gloss": "study, do schoolwork",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Sabrina tonårshäxan",
-              "text_url": "https://sv.wikipedia.org/wiki/Sabrina_ton%C3%A5rsh%C3%A4xan",
-              "sentence_id": "e7607569",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "retrieved_at": "2026-01-20T18:24:01+00:00",
               "korp_query": "[word=\"plugga\"]"
             }
           },
@@ -319,22 +302,22 @@
             "ex_id": "6301a2ee731b46a2072267f0f2ff2fc650cd967a",
             "sv": "Lina börjar plugga till veterinär på en gymnasieskola i Bramhed, 45 mil hemifrån.",
             "en": "Lina starts studying to become a veterinarian at an upper secondary school in Bramhed, 450 km from home.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_learning_&_studying",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_learner",
                 "span_sv": "Lina"
               },
               {
-                "fe_id": "fe_qualification",
-                "span_sv": "veterinär"
+                "fe_id": "fe_goal",
+                "span_sv": "till veterinär"
               },
               {
                 "fe_id": "fe_institution",
                 "span_sv": "en gymnasieskola i Bramhed"
               }
             ],
-            "gloss": "study to become (a profession)",
+            "gloss": "study (education/training for a profession)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -345,26 +328,30 @@
               "text_title": "Linas kvällsbok 2: Två killar och ett hjärta",
               "text_url": "https://sv.wikipedia.org/wiki/Linas_kv%C3%A4llsbok_2:_Tv%C3%A5_killar_och_ett_hj%C3%A4rta",
               "sentence_id": "c714691f",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "retrieved_at": "2026-01-20T18:24:01+00:00",
               "korp_query": "[word=\"plugga\"]"
             }
           },
           {
             "ex_id": "8c0dd5c192ae48bc5cf3d0dec8d6a300facf4340",
             "sv": "Hon och Keitaro börjar plugga tillsammans för att komma in på Todai tillsammans.",
-            "en": "She and Keitaro start studying together to get into Todai together.",
-            "frame_id": "frame_education",
+            "en": "She and Keitaro start studying together in order to get into Todai together.",
+            "frame_id": "frame_learning_&_studying",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_learner",
                 "span_sv": "Hon och Keitaro"
               },
               {
-                "fe_id": "fe_institution",
-                "span_sv": "Todai"
+                "fe_id": "fe_method",
+                "span_sv": "tillsammans"
+              },
+              {
+                "fe_id": "fe_goal",
+                "span_sv": "för att komma in på Todai"
               }
             ],
-            "gloss": "study (to get into a school/university)",
+            "gloss": "study (prepare to be accepted somewhere)",
             "level": "A2",
             "origin": "korp",
             "source": {
@@ -375,22 +362,22 @@
               "text_title": "Love Hina",
               "text_url": "https://sv.wikipedia.org/wiki/Love_Hina",
               "sentence_id": "58d78ff5",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "retrieved_at": "2026-01-20T18:24:01+00:00",
               "korp_query": "[word=\"plugga\"]"
             }
           },
           {
-            "ex_id": "b475144817d577b96b2d82e83c37738efb5d12d7",
-            "sv": "• Måndagsläsare kallas den student som hela tiden säger sig ska börja plugga på måndag.",
-            "en": "A Monday reader is what you call the student who always says they will start studying on Monday.",
-            "frame_id": "frame_education",
+            "ex_id": "7e277362fb328ee5355b36fda24f19ddbb72f5b1",
+            "sv": "I och med moderns sjukdom blev Sunde omotiverad att plugga och skolan gick sämre hemma i Sverige.",
+            "en": "Because of the mother's illness, Sunde became unmotivated to study and school went worse at home in Sweden.",
+            "frame_id": "frame_learning_&_studying",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
-                "span_sv": "den student"
+                "fe_id": "fe_learner",
+                "span_sv": "Sunde"
               }
             ],
-            "gloss": "study, do schoolwork",
+            "gloss": "study (do schoolwork)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -398,10 +385,40 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Måndag",
-              "text_url": "https://sv.wikipedia.org/wiki/M%C3%A5ndag",
-              "sentence_id": "22130c49",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "text_title": "Peter Sunde",
+              "text_url": "https://sv.wikipedia.org/wiki/Peter_Sunde",
+              "sentence_id": "3695b584",
+              "retrieved_at": "2026-01-20T18:24:01+00:00",
+              "korp_query": "[word=\"plugga\"]"
+            }
+          },
+          {
+            "ex_id": "c4da4d41934e35f6c7680304d4cf7191e32af017",
+            "sv": "Ryan besöker Luke för att plugga, när de är färdiga så vill Luke visa sin pappas bilföretag.",
+            "en": "Ryan visits Luke to study; when they are finished, Luke wants to show his dad's car company.",
+            "frame_id": "frame_learning_&_studying",
+            "fe_tags": [
+              {
+                "fe_id": "fe_learner",
+                "span_sv": "Ryan"
+              },
+              {
+                "fe_id": "fe_method",
+                "span_sv": "besöker Luke"
+              }
+            ],
+            "gloss": "study (do schoolwork, often together)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Chris Carmack",
+              "text_url": "https://sv.wikipedia.org/wiki/Chris_Carmack",
+              "sentence_id": "d7b69b95",
+              "retrieved_at": "2026-01-20T18:24:01+00:00",
               "korp_query": "[word=\"plugga\"]"
             }
           },
@@ -409,18 +426,14 @@
             "ex_id": "3513948bfc95a77fa0801b827fc09d502bd5fae5",
             "sv": "Det lär man sig minst lika mycket av som att gå på en kurs och plugga i böcker.",
             "en": "You learn at least as much from that as from taking a course and studying in books.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_learning_&_studying",
             "fe_tags": [
               {
-                "fe_id": "fe_course",
-                "span_sv": "en kurs"
-              },
-              {
                 "fe_id": "fe_material",
-                "span_sv": "böcker"
+                "span_sv": "i böcker"
               }
             ],
-            "gloss": "study (from books), do coursework",
+            "gloss": "study (read and learn from books)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -431,7 +444,7 @@
               "text_title": "Logos",
               "text_url": "https://sv.wikipedia.org/wiki/Logos",
               "sentence_id": "621752b3",
-              "retrieved_at": "2026-01-20T15:24:34+00:00",
+              "retrieved_at": "2026-01-20T18:24:01+00:00",
               "korp_query": "[word=\"plugga\"]"
             }
           }

@@ -1,0 +1,698 @@
+{
+  "frame": {
+    "id": "frame_teaching",
+    "name_en": "Teaching",
+    "slug": "teaching",
+    "frame_description_en": "This frame describes a situation where a Teacher helps a Learner learn a Subject during a Lesson. The teaching can use a particular Method and may involve specific Material. It may happen within an Institution, at a particular Place, and at a particular Time.",
+    "frame_description_html": "This frame describes a situation where a <span class=\"Teacher\">Teacher</span> helps a <span class=\"Learner\">Learner</span> learn a <span class=\"Subject\">Subject</span> during a <span class=\"Lesson\">Lesson</span>. The teaching can use a particular <span class=\"Method\">Method</span> and may involve specific <span class=\"Material\">Material</span>. It may happen within an <span class=\"Institution\">Institution</span>, at a particular <span class=\"Place\">Place</span>, and at a particular <span class=\"Time\">Time</span>.",
+    "frame_description_fe_mentions": [
+      {
+        "fe_id": "fe_teacher",
+        "span_en": "Teacher"
+      },
+      {
+        "fe_id": "fe_learner",
+        "span_en": "Learner"
+      },
+      {
+        "fe_id": "fe_subject",
+        "span_en": "Subject"
+      },
+      {
+        "fe_id": "fe_lesson",
+        "span_en": "Lesson"
+      },
+      {
+        "fe_id": "fe_method",
+        "span_en": "Method"
+      },
+      {
+        "fe_id": "fe_material",
+        "span_en": "Material"
+      },
+      {
+        "fe_id": "fe_institution",
+        "span_en": "Institution"
+      },
+      {
+        "fe_id": "fe_place",
+        "span_en": "Place"
+      },
+      {
+        "fe_id": "fe_time",
+        "span_en": "Time"
+      }
+    ],
+    "elements": [
+      {
+        "id": "fe_teacher",
+        "name": "Teacher",
+        "published": 1,
+        "description_en": "The person or group that gives instruction and guides learning.",
+        "description_html": "The person or group that gives instruction and guides learning."
+      },
+      {
+        "id": "fe_learner",
+        "name": "Learner",
+        "published": 1,
+        "description_en": "The person or group that receives instruction and is intended to learn.",
+        "description_html": "The person or group that receives instruction and is intended to learn."
+      },
+      {
+        "id": "fe_subject",
+        "name": "Subject",
+        "published": 1,
+        "description_en": "The knowledge, skill, or topic that the Learner is taught.",
+        "description_html": "The knowledge, skill, or topic that the <span class=\"Learner\">Learner</span> is taught."
+      },
+      {
+        "id": "fe_lesson",
+        "name": "Lesson",
+        "published": 1,
+        "description_en": "The teaching occasion or activity in which the Teacher teaches the Learner.",
+        "description_html": "The teaching occasion or activity in which the <span class=\"Teacher\">Teacher</span> teaches the <span class=\"Learner\">Learner</span>."
+      },
+      {
+        "id": "fe_method",
+        "name": "Method",
+        "published": 1,
+        "description_en": "The approach, style, or technique used to teach the Subject.",
+        "description_html": "The approach, style, or technique used to teach the <span class=\"Subject\">Subject</span>."
+      },
+      {
+        "id": "fe_material",
+        "name": "Material",
+        "published": 1,
+        "description_en": "The resources used in teaching, such as books, exercises, or tools.",
+        "description_html": "The resources used in teaching, such as books, exercises, or tools."
+      },
+      {
+        "id": "fe_institution",
+        "name": "Institution",
+        "published": 1,
+        "description_en": "The organization (for example a school) that the teaching is connected to, if mentioned.",
+        "description_html": "The organization (for example a school) that the teaching is connected to, if mentioned."
+      },
+      {
+        "id": "fe_place",
+        "name": "Place",
+        "published": 1,
+        "description_en": "The location where the teaching happens.",
+        "description_html": "The location where the teaching happens."
+      },
+      {
+        "id": "fe_time",
+        "name": "Time",
+        "published": 1,
+        "description_en": "The time period or point in time when the teaching happens.",
+        "description_html": "The time period or point in time when the teaching happens."
+      }
+    ],
+    "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
+    "examples": [
+      {
+        "ex_id": "d21b44e19ce317c17d33d9f41b34466fb9a02693",
+        "sv": "Året efter började han undervisa i Klassisk grekiska vid Merton College.",
+        "en": "The year after, he began to teach Classical Greek at Merton College.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_time",
+            "span_sv": "Året efter"
+          },
+          {
+            "fe_id": "fe_teacher",
+            "span_sv": "han"
+          },
+          {
+            "fe_id": "fe_subject",
+            "span_sv": "i Klassisk grekiska"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "vid Merton College"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Thomas Bodley",
+          "text_url": "https://sv.wikipedia.org/wiki/Thomas_Bodley",
+          "sentence_id": "d8a2008c",
+          "retrieved_at": "2026-01-20T18:32:45+00:00",
+          "korp_query": "[word=\"undervisa\"]"
+        }
+      },
+      {
+        "ex_id": "47f1ccea1932e6faccab25a48f0ea7479108d303",
+        "sv": "Samma år kom hon till Malmö, där hon började undervisa på folkskolor.",
+        "en": "The same year she came to Malmö, where she began to teach at primary schools.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_time",
+            "span_sv": "Samma år"
+          },
+          {
+            "fe_id": "fe_teacher",
+            "span_sv": "hon"
+          },
+          {
+            "fe_id": "fe_place",
+            "span_sv": "till Malmö"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "på folkskolor"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Naemi Uddenberg",
+          "text_url": "https://sv.wikipedia.org/wiki/Naemi_Uddenberg",
+          "sentence_id": "db39ed27",
+          "retrieved_at": "2026-01-20T18:32:45+00:00",
+          "korp_query": "[word=\"undervisa\"]"
+        }
+      },
+      {
+        "ex_id": "c91f75b0fb030ce4ae1d49745fef770b0a86d7f6",
+        "sv": "I stället började han undervisa i musik vid skolor på landsbygden.",
+        "en": "Instead he began to teach music at schools in the countryside.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_teacher",
+            "span_sv": "han"
+          },
+          {
+            "fe_id": "fe_subject",
+            "span_sv": "i musik"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "vid skolor"
+          },
+          {
+            "fe_id": "fe_place",
+            "span_sv": "på landsbygden"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Igor Krutoj",
+          "text_url": "https://sv.wikipedia.org/wiki/Igor_Krutoj",
+          "sentence_id": "e007ad1a",
+          "retrieved_at": "2026-01-20T18:32:45+00:00",
+          "korp_query": "[word=\"undervisa\"]"
+        }
+      },
+      {
+        "ex_id": "87882275a7032775bbac38d67a2dd8de769affd2",
+        "sv": "Hon fick bara undervisa barn i tyska, medan de manliga lärarna fick undervisa de äldre.",
+        "en": "She was only allowed to teach children German, while the male teachers were allowed to teach the older ones.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_teacher",
+            "span_sv": "Hon"
+          },
+          {
+            "fe_id": "fe_learner",
+            "span_sv": "barn"
+          },
+          {
+            "fe_id": "fe_subject",
+            "span_sv": "i tyska"
+          },
+          {
+            "fe_id": "fe_teacher",
+            "span_sv": "de manliga lärarna"
+          },
+          {
+            "fe_id": "fe_learner",
+            "span_sv": "de äldre"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Clara Holst",
+          "text_url": "https://sv.wikipedia.org/wiki/Clara_Holst",
+          "sentence_id": "45ca4bb8",
+          "retrieved_at": "2026-01-20T18:32:45+00:00",
+          "korp_query": "[word=\"undervisa\"]"
+        }
+      },
+      {
+        "ex_id": "1ed0ebc82011a578d0a8d54039e815a957c48072",
+        "sv": "Under den åldern har föräldrarna alltså rätt att bestämma barnens religion och undervisa dem i den.",
+        "en": "At that age the parents therefore have the right to decide the children's religion and teach them it.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_time",
+            "span_sv": "Under den åldern"
+          },
+          {
+            "fe_id": "fe_teacher",
+            "span_sv": "föräldrarna"
+          },
+          {
+            "fe_id": "fe_learner",
+            "span_sv": "dem"
+          },
+          {
+            "fe_id": "fe_subject",
+            "span_sv": "i den"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Religionsfrihet",
+          "text_url": "https://sv.wikipedia.org/wiki/Religionsfrihet",
+          "sentence_id": "250a8c64",
+          "retrieved_at": "2026-01-20T18:32:45+00:00",
+          "korp_query": "[word=\"undervisa\"]"
+        }
+      },
+      {
+        "ex_id": "f2adb32c73a08b7c3bbd9334a1247563fbe84262",
+        "sv": "Det blev även möjligt att undervisa tvärvetenskapligt inom och mellan skolämnena.",
+        "en": "It also became possible to teach in an interdisciplinary way within and between the school subjects.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_method",
+            "span_sv": "tvärvetenskapligt"
+          },
+          {
+            "fe_id": "fe_subject",
+            "span_sv": "skolämnena"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Ole Vig Jensen",
+          "text_url": "https://sv.wikipedia.org/wiki/Ole_Vig_Jensen",
+          "sentence_id": "45cba571",
+          "retrieved_at": "2026-01-20T18:32:45+00:00",
+          "korp_query": "[word=\"undervisa\"]"
+        }
+      },
+      {
+        "ex_id": "5419d7dbf319bfbb768a99717f853b193da43b1f",
+        "sv": "Gruppen satte läkarstudenter att undervisa befolkningen i byarna runtom staden hur man bäst undvek smittan.",
+        "en": "The group made medical students teach the population in the villages around the city how to best avoid the infection.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_teacher",
+            "span_sv": "läkarstudenter"
+          },
+          {
+            "fe_id": "fe_learner",
+            "span_sv": "befolkningen"
+          },
+          {
+            "fe_id": "fe_place",
+            "span_sv": "i byarna runtom staden"
+          },
+          {
+            "fe_id": "fe_subject",
+            "span_sv": "hur man bäst undvek smittan"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Anders Tegnell",
+          "text_url": "https://sv.wikipedia.org/wiki/Anders_Tegnell",
+          "sentence_id": "6f90bab3",
+          "retrieved_at": "2026-01-20T18:32:45+00:00",
+          "korp_query": "[word=\"undervisa\"]"
+        }
+      }
+    ],
+    "linked_lexical_units": [
+      {
+        "lu_id": "lu_lehren",
+        "display_sv": "undervisa",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_lehren:1"
+      },
+      {
+        "lu_id": "lu_unterrichten",
+        "display_sv": "undervisa",
+        "lu_type": "single",
+        "pos": "verb",
+        "sense_id": "lu_unterrichten:1"
+      },
+      {
+        "lu_id": "lu_beibringen",
+        "display_sv": "lära (någon) att",
+        "lu_type": "multiword",
+        "pos": "multiword",
+        "sense_id": "lu_beibringen:1"
+      }
+    ],
+    "confusable_with": []
+  },
+  "constructions": [
+    {
+      "cxn_id": "cxn_1",
+      "cxn_name_linguistic_sv": "X undervisar (Y) i Z",
+      "cxn_name_user_friendly_en": "Teaching someone a subject",
+      "pattern": "SUBJ V OBJ PP-i",
+      "meaning_en": "Someone (the teacher) teaches someone (the learner) a subject/topic.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_teacher"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_learner"
+        },
+        {
+          "slot": "PP-i",
+          "maps_to_fe_id": "fe_subject"
+        }
+      ],
+      "usage_notes_en": [
+        "The learner can be omitted: “undervisa i X” = teach (a subject).",
+        "The subject is commonly expressed with “i + NP” (e.g. “i tyska”, “i den”)."
+      ],
+      "examples": [
+        {
+          "ex_id": "87882275a7032775bbac38d67a2dd8de769affd2",
+          "sv": "Hon fick bara undervisa barn i tyska, medan de manliga lärarna fick undervisa de äldre.",
+          "en": "She was only allowed to teach children German, while the male teachers were allowed to teach the older ones.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_teacher",
+              "span_sv": "Hon"
+            },
+            {
+              "fe_id": "fe_learner",
+              "span_sv": "barn"
+            },
+            {
+              "fe_id": "fe_subject",
+              "span_sv": "i tyska"
+            },
+            {
+              "fe_id": "fe_teacher",
+              "span_sv": "de manliga lärarna"
+            },
+            {
+              "fe_id": "fe_learner",
+              "span_sv": "de äldre"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Clara Holst",
+            "text_url": "https://sv.wikipedia.org/wiki/Clara_Holst",
+            "sentence_id": "45ca4bb8",
+            "retrieved_at": "2026-01-20T18:32:45+00:00",
+            "korp_query": "[word=\"undervisa\"]"
+          }
+        },
+        {
+          "ex_id": "1ed0ebc82011a578d0a8d54039e815a957c48072",
+          "sv": "Under den åldern har föräldrarna alltså rätt att bestämma barnens religion och undervisa dem i den.",
+          "en": "At that age the parents therefore have the right to decide the children's religion and teach them it.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_time",
+              "span_sv": "Under den åldern"
+            },
+            {
+              "fe_id": "fe_teacher",
+              "span_sv": "föräldrarna"
+            },
+            {
+              "fe_id": "fe_learner",
+              "span_sv": "dem"
+            },
+            {
+              "fe_id": "fe_subject",
+              "span_sv": "i den"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Religionsfrihet",
+            "text_url": "https://sv.wikipedia.org/wiki/Religionsfrihet",
+            "sentence_id": "250a8c64",
+            "retrieved_at": "2026-01-20T18:32:45+00:00",
+            "korp_query": "[word=\"undervisa\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_2",
+      "cxn_name_linguistic_sv": "X undervisar i Y (vid/på Z)",
+      "cxn_name_user_friendly_en": "Teaching a subject at a place",
+      "pattern": "SUBJ V PP-i PP-vid/på",
+      "meaning_en": "Someone teaches a subject, often specifying the institution (and sometimes also a place).",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_teacher"
+        },
+        {
+          "slot": "PP-i",
+          "maps_to_fe_id": "fe_subject"
+        },
+        {
+          "slot": "PP-vid/på",
+          "maps_to_fe_id": "fe_institution"
+        }
+      ],
+      "usage_notes_en": [
+        "The institution is commonly expressed with “vid” (e.g. “vid Merton College”) or “på” (e.g. “på folkskolor”).",
+        "A separate place phrase can also occur (e.g. “på landsbygden”), but it is not required by the pattern."
+      ],
+      "examples": [
+        {
+          "ex_id": "d21b44e19ce317c17d33d9f41b34466fb9a02693",
+          "sv": "Året efter började han undervisa i Klassisk grekiska vid Merton College.",
+          "en": "The year after, he began to teach Classical Greek at Merton College.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_time",
+              "span_sv": "Året efter"
+            },
+            {
+              "fe_id": "fe_teacher",
+              "span_sv": "han"
+            },
+            {
+              "fe_id": "fe_subject",
+              "span_sv": "i Klassisk grekiska"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "vid Merton College"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Thomas Bodley",
+            "text_url": "https://sv.wikipedia.org/wiki/Thomas_Bodley",
+            "sentence_id": "d8a2008c",
+            "retrieved_at": "2026-01-20T18:32:45+00:00",
+            "korp_query": "[word=\"undervisa\"]"
+          }
+        },
+        {
+          "ex_id": "47f1ccea1932e6faccab25a48f0ea7479108d303",
+          "sv": "Samma år kom hon till Malmö, där hon började undervisa på folkskolor.",
+          "en": "The same year she came to Malmö, where she began to teach at primary schools.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_time",
+              "span_sv": "Samma år"
+            },
+            {
+              "fe_id": "fe_teacher",
+              "span_sv": "hon"
+            },
+            {
+              "fe_id": "fe_place",
+              "span_sv": "till Malmö"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "på folkskolor"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Naemi Uddenberg",
+            "text_url": "https://sv.wikipedia.org/wiki/Naemi_Uddenberg",
+            "sentence_id": "db39ed27",
+            "retrieved_at": "2026-01-20T18:32:45+00:00",
+            "korp_query": "[word=\"undervisa\"]"
+          }
+        },
+        {
+          "ex_id": "c91f75b0fb030ce4ae1d49745fef770b0a86d7f6",
+          "sv": "I stället började han undervisa i musik vid skolor på landsbygden.",
+          "en": "Instead he began to teach music at schools in the countryside.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_teacher",
+              "span_sv": "han"
+            },
+            {
+              "fe_id": "fe_subject",
+              "span_sv": "i musik"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "vid skolor"
+            },
+            {
+              "fe_id": "fe_place",
+              "span_sv": "på landsbygden"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Igor Krutoj",
+            "text_url": "https://sv.wikipedia.org/wiki/Igor_Krutoj",
+            "sentence_id": "e007ad1a",
+            "retrieved_at": "2026-01-20T18:32:45+00:00",
+            "korp_query": "[word=\"undervisa\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_3",
+      "cxn_name_linguistic_sv": "X undervisar (Y)",
+      "cxn_name_user_friendly_en": "Teaching (general)",
+      "pattern": "SUBJ V (OBJ)",
+      "meaning_en": "Someone teaches, without stating the subject; the learner may be expressed as a direct object.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_teacher"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_learner"
+        }
+      ],
+      "usage_notes_en": [
+        "Used when the subject is not mentioned (e.g. “undervisa andra”).",
+        "Also occurs as an infinitive (“att undervisa”) when talking about teaching as an activity or right."
+      ],
+      "examples": [
+        {
+          "ex_id": "10800c3b1b014c91106e6cd4192368627ca0533f",
+          "sv": "År 1987 lärde han att spela alboka och gaita och började undervisa andra.",
+          "en": "In 1987 he learned to play alboka and gaita and began to teach others.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_time",
+              "span_sv": "År 1987"
+            },
+            {
+              "fe_id": "fe_teacher",
+              "span_sv": "han"
+            },
+            {
+              "fe_id": "fe_learner",
+              "span_sv": "andra"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Ibon Koteron",
+            "text_url": "https://sv.wikipedia.org/wiki/Ibon_Koteron",
+            "sentence_id": "d88f1e08",
+            "retrieved_at": "2026-01-20T18:32:45+00:00",
+            "korp_query": "[word=\"undervisa\"]"
+          }
+        },
+        {
+          "ex_id": "15bada172042db3587d5e68efe80e072e55e0931",
+          "sv": "Rätten att undervisa var inte alltid automatiskt knuten till en läraranställning.",
+          "en": "The right to teach was not always automatically linked to a teaching job.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_lesson",
+              "span_sv": "Rätten att undervisa"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Docent",
+            "text_url": "https://sv.wikipedia.org/wiki/Docent",
+            "sentence_id": "efa75484",
+            "retrieved_at": "2026-01-20T18:32:45+00:00",
+            "korp_query": "[word=\"undervisa\"]"
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_examples": 5,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true
+  }
+}

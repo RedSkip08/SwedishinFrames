@@ -57,49 +57,60 @@
       {
         "word": "kuggning",
         "type_en": "noun",
-        "meaning_en": "failing someone (in an exam); a fail decision"
+        "meaning_en": "a failing (being failed) in an exam/test"
       },
       {
         "word": "kuggad",
         "type_en": "adjective",
-        "meaning_en": "failed (in an exam)"
+        "meaning_en": "failed (not approved), especially in an exam"
       },
       {
         "word": "kuggfråga",
         "type_en": "noun",
-        "meaning_en": "trick question that makes people fail"
+        "meaning_en": "a tricky question that can make people fail"
       },
       {
-        "word": "kuggprov",
+        "word": "kuggkurs",
         "type_en": "noun",
-        "meaning_en": "test designed to make people fail"
+        "meaning_en": "a course many people fail"
       }
     ],
-    "synonyms_sv": [],
-    "antonyms_sv": [],
+    "synonyms_sv": [
+      "underkänna",
+      "bli underkänd"
+    ],
+    "antonyms_sv": [
+      "klara",
+      "bli godkänd"
+    ],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_passing_&_failing",
+        "frame_name_en": "Passing & Failing",
+        "frame_slug": "passing_&_failing",
         "sense_id": "lu_durchfallen:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_durchfallen:1",
-        "frame_id": "frame_education",
-        "meaning_en": "not pass an exam or course requirement",
+        "frame_id": "frame_passing_&_failing",
+        "meaning_en": "fail someone in an exam, test, or course; not give a passing result.",
         "how_to_use_en": [
-          "Use about exams, tests, or course assessments.",
-          "Often with an object: someone is failed in a subject/test."
+          "Often used when an examiner/teacher fails a candidate: X kuggar Y.",
+          "Can also be used about the candidate failing: Y kuggar (på provet/tentan)."
         ],
         "patterns": [],
         "common_errors_en": [
           {
-            "error": "Using kugga for general failure (e.g., a project).",
-            "fix": "Use misslyckas for general failure.",
-            "explain_en": "kugga is mainly used in education/testing contexts."
+            "error": "Using *kugga* for general life failure (e.g., a plan or project).",
+            "fix": "Use misslyckas instead.",
+            "explain_en": "Kugga is mainly about exams/tests/courses and being (not) approved."
+          },
+          {
+            "error": "Mixing up who is the subject: *Jag kuggade honom* when you mean you failed.",
+            "fix": "Say Jag kuggade (på tentan) or Läraren kuggade mig.",
+            "explain_en": "As a transitive verb, the subject is the evaluator who fails someone."
           }
         ],
         "required_example_count": 10,
@@ -108,7 +119,7 @@
     ],
     "pronunciation": {
       "ipa": "ˈkɵɡːa",
-      "stress_hint": "Stress is on the first syllable.",
+      "stress_hint": "Stress on the first syllable: KUG-ga.",
       "audio": {
         "file": "audio/lu_durchfallen.mp3",
         "model": "gpt-4o-mini-tts",

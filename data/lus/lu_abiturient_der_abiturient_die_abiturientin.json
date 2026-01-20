@@ -1,0 +1,148 @@
+{
+  "lexical_unit": {
+    "id": "lu_abiturient_der_abiturient_die_abiturientin",
+    "source_de": {
+      "lu_de_raw": "Abiturient: der Abiturient / die Abiturientin",
+      "lu_de_normalized": "Abiturient",
+      "gender_variants_de": [
+        "Abiturient",
+        "Abiturientin"
+      ],
+      "pos_de": "noun"
+    },
+    "lu_type": "single",
+    "lemma_sv": "avgångselev",
+    "display_sv": "avgångselev",
+    "name_sv": "avgångselev",
+    "pos": "noun",
+    "cefr": "B1",
+    "multiword": {
+      "mwe_type": null,
+      "components_sv": [],
+      "spacing_notes_en": ""
+    },
+    "forms": [
+      "avgångselev",
+      "avgångseleven",
+      "avgångselever",
+      "avgångseleverna"
+    ],
+    "english_equivalent_en": "graduating student",
+    "morphology_sv": {
+      "noun": {
+        "gender": "en",
+        "indef_sg": "avgångselev",
+        "def_sg": "avgångseleven",
+        "indef_pl": "avgångselever",
+        "def_pl": "avgångseleverna",
+        "note_en": "A person who is finishing a school program (often upper secondary school)."
+      },
+      "verb": {
+        "infinitive": null,
+        "present": null,
+        "past": null,
+        "supine": null,
+        "imperative": null,
+        "present_participle": null,
+        "past_participle": null,
+        "alternatives": []
+      },
+      "adjective": {
+        "base": null,
+        "comparative": null,
+        "superlative": null,
+        "neuter": null,
+        "plural_def": null
+      },
+      "note_en": ""
+    },
+    "derived_words_sv": [
+      {
+        "word": "avgångsklass",
+        "type_en": "noun",
+        "meaning_en": "a class that is graduating"
+      },
+      {
+        "word": "avgångsår",
+        "type_en": "noun",
+        "meaning_en": "the year a group graduates"
+      },
+      {
+        "word": "avgångsbetyg",
+        "type_en": "noun",
+        "meaning_en": "final grades/certificate when leaving school"
+      },
+      {
+        "word": "avgångstal",
+        "type_en": "noun",
+        "meaning_en": "farewell/graduation speech"
+      }
+    ],
+    "synonyms_sv": [
+      "student",
+      "elev",
+      "avgångsstudent",
+      "examenselev"
+    ],
+    "antonyms_sv": [
+      "nybörjare",
+      "ny elev"
+    ],
+    "linked_frames": [
+      {
+        "frame_id": "frame_people",
+        "frame_name_en": "People",
+        "frame_slug": "people",
+        "sense_id": "lu_abiturient_der_abiturient_die_abiturientin:1"
+      }
+    ],
+    "senses": [
+      {
+        "sense_id": "lu_abiturient_der_abiturient_die_abiturientin:1",
+        "frame_id": "frame_people",
+        "meaning_en": "a student who is finishing school and leaving their program",
+        "how_to_use_en": [
+          "Use about someone in their final year/term at a school.",
+          "Often used with a specific school or class context."
+        ],
+        "patterns": [],
+        "common_errors_en": [
+          {
+            "error": "Using avgångselev for any student who leaves a school.",
+            "fix": "Use it mainly for someone graduating/finishing a program; otherwise say elev som slutar.",
+            "explain_en": "Avgångselev usually implies completing the program, not just quitting or transferring."
+          }
+        ],
+        "required_example_count": 10,
+        "examples": []
+      }
+    ],
+    "pronunciation": {
+      "ipa": "ˈavːɡɔŋsɛˌleːv",
+      "stress_hint": "Main stress on AVGÅNG-, secondary stress on -ELEV.",
+      "audio": {
+        "file": "audio/lu_abiturient_der_abiturient_die_abiturientin.mp3",
+        "model": "gpt-4o-mini-tts",
+        "voice": "alloy",
+        "format": "mp3"
+      }
+    },
+    "morphology": {
+      "principal_parts": [
+        "avgångselev",
+        "avgångseleven",
+        "avgångselever",
+        "avgångseleverna"
+      ],
+      "particle_or_reflexive": null
+    }
+  },
+  "constraints": {
+    "min_examples_per_sense": 10,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true,
+    "linked_frames_must_cover_all_senses": true,
+    "sv_examples_must_come_from_korp": true
+  }
+}

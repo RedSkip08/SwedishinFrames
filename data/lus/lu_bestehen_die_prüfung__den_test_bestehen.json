@@ -3,7 +3,7 @@
     "id": "lu_bestehen_die_prüfung__den_test_bestehen",
     "source_de": {
       "lu_de_raw": "bestehen: die Prüfung / den Test bestehen",
-      "lu_de_normalized": "bestehen",
+      "lu_de_normalized": "bestehen: die Prüfung / den Test bestehen",
       "gender_variants_de": [],
       "pos_de": "verb"
     },
@@ -12,7 +12,7 @@
     "display_sv": "klara",
     "name_sv": "klara",
     "pos": "verb",
-    "cefr": "B1",
+    "cefr": "A2",
     "multiword": {
       "mwe_type": null,
       "components_sv": [],
@@ -24,7 +24,7 @@
       "klarade",
       "klarat"
     ],
-    "english_equivalent_en": "handle",
+    "english_equivalent_en": "pass",
     "morphology_sv": {
       "noun": {
         "gender": null,
@@ -57,115 +57,110 @@
       {
         "word": "klara av",
         "type_en": "verb",
-        "meaning_en": "cope with; manage"
+        "meaning_en": "manage; get through (a task or challenge)"
       },
       {
-        "word": "klarar",
-        "type_en": "other",
-        "meaning_en": "present tense form: manages/handles"
+        "word": "avklara",
+        "type_en": "verb",
+        "meaning_en": "finish/complete (often formal)"
       },
       {
-        "word": "klarade",
-        "type_en": "other",
-        "meaning_en": "past tense form: managed/handled"
-      },
-      {
-        "word": "klarat",
-        "type_en": "other",
-        "meaning_en": "supine form: has managed/handled"
+        "word": "klar",
+        "type_en": "adjective",
+        "meaning_en": "ready; finished"
       },
       {
         "word": "klarhet",
         "type_en": "noun",
         "meaning_en": "clarity"
+      },
+      {
+        "word": "förklara",
+        "type_en": "verb",
+        "meaning_en": "explain"
       }
     ],
     "synonyms_sv": [
-      "hantera",
       "klara av",
-      "stå ut med",
-      "tåla",
-      "uppfylla"
+      "fixa",
+      "greja",
+      "genomföra",
+      "avklara"
     ],
     "antonyms_sv": [
-      "misslyckas"
+      "misslyckas med",
+      "underkännas"
     ],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_passing_&_failing",
+        "frame_name_en": "Passing & Failing",
+        "frame_slug": "passing_&_failing",
         "sense_id": "lu_bestehen_die_prüfung__den_test_bestehen:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_bestehen_die_prüfung__den_test_bestehen:1",
-        "frame_id": "frame_education",
-        "meaning_en": "to manage, cope with, or meet something difficult, heavy, or demanding",
+        "frame_id": "frame_passing_&_failing",
+        "meaning_en": "succeed in an exam, course, level, or required result.",
         "how_to_use_en": [
-          "Use with a direct object for what is handled (heat, weight, requirements).",
-          "Often with “inte” to say something cannot handle something.",
-          "Use “klara av” when you want to emphasize coping/being able to manage."
+          "Use with a direct object: klara + test/prov/skolan/banor.",
+          "Often means “pass/complete successfully”, not just “finish”.",
+          "Can be used for school, tests, and game levels."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "klara + [Fact]",
-            "meaning_en": "handle/withstand something",
-            "note_en": "Used for loads, heat, disease, trips, transports, challenges."
+            "pattern": "klara + prov/test",
+            "meaning_en": "pass an exam/test",
+            "note_en": "Used for formal tests and practical tests."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "inte kunna klara + [Fact]",
-            "meaning_en": "not be able to handle",
-            "note_en": "Common with capacity limits (e.g., weight, heavy transports)."
+            "pattern": "klara + skolan",
+            "meaning_en": "pass school requirements",
+            "note_en": "Means to get through school successfully."
           },
           {
             "pattern_id": "pat_3",
-            "pattern": "klara + [Fact] (krav/standard)",
-            "meaning_en": "meet requirements/standards",
-            "note_en": "Used for rules, standards, and requirements (e.g., Euro 6, avgaskrav)."
+            "pattern": "klara + (ett antal) banor",
+            "meaning_en": "clear/complete levels",
+            "note_en": "Common in games for finishing levels successfully."
           },
           {
             "pattern_id": "pat_4",
-            "pattern": "vara byggd/utformad för att klara + [Fact]",
-            "meaning_en": "be designed to handle",
-            "note_en": "Often about technical systems, vehicles, or structures."
-          },
-          {
-            "pattern_id": "pat_5",
-            "pattern": "klara av + [Fact]",
-            "meaning_en": "cope with something",
-            "note_en": "Particle verb; often sounds more personal/effort-focused."
+            "pattern": "klara + resultat (t.ex. par)",
+            "meaning_en": "achieve a required result",
+            "note_en": "Used when a specific score/result is expected."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using *klara* for “finish/complete” in general.",
-            "fix": "Use *bli klar (med)* for “be finished (with)”.",
-            "explain_en": "In these examples, *klara* means handle/withstand/meet demands, not simply finish."
+            "error": "Using klara without an object when you mean “pass something”.",
+            "fix": "Add what is passed: klara provet / klara skolan.",
+            "explain_en": "In these examples, klara normally takes an Assessment as object."
           },
           {
-            "error": "Forgetting the object after *klara*.",
-            "fix": "Add what is handled: *klara hettan / klara tyngden*.",
-            "explain_en": "*Klara* typically needs the thing you manage/withstand/meet."
+            "error": "Confusing klara (pass/complete) with vara klar (be finished/ready).",
+            "fix": "Use vara klar for “be done”, and klara for “pass/complete successfully”.",
+            "explain_en": "Klara focuses on succeeding; vara klar focuses on being finished."
           }
         ],
         "required_example_count": 10,
         "examples": [
           {
-            "ex_id": "4eead0b96533d4bf6464117d8f828a4c5e40cece",
-            "sv": "Space Shuttle hade keramiska beläggningar på undersidan för att klara hettan.",
-            "en": "The Space Shuttle had ceramic coatings on the underside to handle the heat.",
-            "frame_id": "frame_education",
+            "ex_id": "0cc5a710548e8e037c0a980f7625c138e17dbc9c",
+            "sv": "Om man enbart vill söka licens för hagelvapen så räcker det att klara det teoretiska provet och hagelgevärsprovet.",
+            "en": "If you only want to apply for a license for a shotgun, it is enough to pass the theory test and the shotgun test.",
+            "frame_id": "frame_passing_&_failing",
             "fe_tags": [
               {
-                "fe_id": "fe_fact",
-                "span_sv": "hettan"
+                "fe_id": "fe_assessment",
+                "span_sv": "det teoretiska provet och hagelgevärsprovet"
               }
             ],
-            "gloss": "klara = manage/withstand",
+            "gloss": "pass (an exam/test)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -173,237 +168,29 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Deltavinge",
-              "text_url": "https://sv.wikipedia.org/wiki/Deltavinge",
-              "sentence_id": "8cbf8a1d",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "text_title": "Jägarexamen",
+              "text_url": "https://sv.wikipedia.org/wiki/J%C3%A4garexamen",
+              "sentence_id": "efa65359",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
               "korp_query": "[word=\"klara\"]"
             }
           },
           {
-            "ex_id": "4306587cd1194d449ee9494e3af1e9d3e67196a1",
-            "sv": "Planerna skrinlades dock sedan studier visat att läktaren inte skulle klara tyngden.",
-            "en": "The plans were shelved after studies showed that the stand would not handle the weight.",
-            "frame_id": "frame_education",
+            "ex_id": "38ad33dbd9be65d6fd3566908c3d1ed705fadd54",
+            "sv": "Efter att ha följt skoldebatten ville han göra något konkret för att hjälpa fler unga att klara skolan.",
+            "en": "After following the school debate, he wanted to do something concrete to help more young people pass school.",
+            "frame_id": "frame_passing_&_failing",
             "fe_tags": [
               {
-                "fe_id": "fe_fact",
-                "span_sv": "tyngden"
-              }
-            ],
-            "gloss": "klara = manage/withstand",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Shea Stadium",
-              "text_url": "https://sv.wikipedia.org/wiki/Shea_Stadium",
-              "sentence_id": "30ceb8cd",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "6ff046091aac46615418d1271254c7f21bd21735",
-            "sv": "Under 1980-talet diskuterades det om man skulle riva bron då den inte kunde klara tunga transporter.",
-            "en": "During the 1980s it was discussed whether to tear down the bridge because it could not handle heavy transports.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "tunga transporter"
-              }
-            ],
-            "gloss": "klara = manage/withstand",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Humla socken",
-              "text_url": "https://sv.wikipedia.org/wiki/Humla_socken",
-              "sentence_id": "c0c24e1d",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "a2a4243bcd3437b7400ae4142d5309d1e5c45c8e",
-            "sv": "Bilen fick en betydligt rundare front och motorn uppgraderades för att klara avgaskraven.",
-            "en": "The car got a much rounder front and the engine was upgraded to meet the exhaust requirements.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "avgaskraven"
-              }
-            ],
-            "gloss": "klara = meet (requirements)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Ford Escort",
-              "text_url": "https://sv.wikipedia.org/wiki/Ford_Escort",
-              "sentence_id": "57dd86f0",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "ce28b5de4275e7813ca81deea38b4572f3f4bc07",
-            "sv": "Dieselpersonbilar måste klara Euro 6 från 1 juli 2022 i miljözoner.",
-            "en": "Diesel passenger cars must meet Euro 6 from 1 July 2022 in environmental zones.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "Euro 6"
-              }
-            ],
-            "gloss": "klara = meet (a standard)",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Miljözon",
-              "text_url": "https://sv.wikipedia.org/wiki/Milj%C3%B6zon",
-              "sentence_id": "0cd59025",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "d2da19dd89070f33eaa30aeb60abea004cde7292",
-            "sv": "De livsuppehållande systemen och förnödenheterna för Lajka utformades för att klara en 7-dagars resa.",
-            "en": "The life-support systems and supplies for Laika were designed to handle a 7-day trip.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "en 7-dagars resa"
-              }
-            ],
-            "gloss": "klara = manage/withstand",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Sputnik 2",
-              "text_url": "https://sv.wikipedia.org/wiki/Sputnik_2",
-              "sentence_id": "63e1c4e1",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "d029d6138cebd047fbdccb0e4d92600e32e4c611",
-            "sv": "Den fylldes med 840 flyktingar, vilket fiskebåten inte var byggd för att klara av.",
-            "en": "It was filled with 840 refugees, which the fishing boat was not built to handle.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "840 flyktingar"
-              }
-            ],
-            "gloss": "klara av = cope with/handle",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Lista över skeppsbrott under 2011",
-              "text_url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_skeppsbrott_under_2011",
-              "sentence_id": "b43dcb0a",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "74aa1e1cd245ed2186f2868dec9178a4d0dee5af",
-            "sv": "Små barn verkar klara sjukdomen bättre än ungdomar och unga vuxna, och deras symtom är lindrigare.",
-            "en": "Small children seem to cope with the disease better than teenagers and young adults, and their symptoms are milder.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "sjukdomen"
-              }
-            ],
-            "gloss": "klara = cope with",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Mykoplasmapneumoni",
-              "text_url": "https://sv.wikipedia.org/wiki/Mykoplasmapneumoni",
-              "sentence_id": "70bd779c",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "05ddc02b4dac550b1f1d571526abc32d72f3d556",
-            "sv": "Algoritmer som emulerar neuronnät kan ofta klara problem som är svåra att lösa med konventionella datalogiska metoder.",
-            "en": "Algorithms that emulate neural networks can often handle problems that are hard to solve with conventional computer-science methods.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_fact",
-                "span_sv": "problem"
-              }
-            ],
-            "gloss": "klara = handle/solve",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Artificiellt neuronnät",
-              "text_url": "https://sv.wikipedia.org/wiki/Artificiellt_neuronn%C3%A4t",
-              "sentence_id": "2b8c4bcb",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"klara\"]"
-            }
-          },
-          {
-            "ex_id": "fdcfeeeb905e853572f09a4d5d251275244100a0",
-            "sv": "Hon ställs inför enorma prövningar och visar sig ha förmåga att klara de allra största utmaningarna.",
-            "en": "She faces enormous trials and turns out to have the ability to handle the very biggest challenges.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_skill",
-                "span_sv": "förmåga"
+                "fe_id": "fe_candidate",
+                "span_sv": "fler unga"
               },
               {
-                "fe_id": "fe_fact",
-                "span_sv": "de allra största utmaningarna"
+                "fe_id": "fe_assessment",
+                "span_sv": "skolan"
               }
             ],
-            "gloss": "klara = manage/cope with",
+            "gloss": "pass (school/course requirements)",
             "level": "B1",
             "origin": "korp",
             "source": {
@@ -411,10 +198,88 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Anne McCaffrey",
-              "text_url": "https://sv.wikipedia.org/wiki/Anne_McCaffrey",
-              "sentence_id": "2b8444ab",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "text_title": "Stiftelsen Läxhjälpen",
+              "text_url": "https://sv.wikipedia.org/wiki/Stiftelsen_L%C3%A4xhj%C3%A4lpen",
+              "sentence_id": "5dc3cf86",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "36017e27eaa10cf0c75577a06f27b142aeebc3db",
+            "sv": "Spelläget går ut på att klara ett antal banor för att få pengar och tillgång till nästa bana.",
+            "en": "The game mode is about clearing a number of levels to get money and access to the next level.",
+            "frame_id": "frame_passing_&_failing",
+            "fe_tags": [
+              {
+                "fe_id": "fe_assessment",
+                "span_sv": "ett antal banor"
+              }
+            ],
+            "gloss": "clear/complete (a level/task)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Tony Hawk's Pro Skater 2",
+              "text_url": "https://sv.wikipedia.org/wiki/Tony_Hawk%27s_Pro_Skater_2",
+              "sentence_id": "44ad522e",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "fb4a8b0348c4855eced3239168c340fde629f119",
+            "sv": "Man kan även få Secret Coins från att klara Map Packs.",
+            "en": "You can also get Secret Coins from clearing Map Packs.",
+            "frame_id": "frame_passing_&_failing",
+            "fe_tags": [
+              {
+                "fe_id": "fe_assessment",
+                "span_sv": "Map Packs"
+              }
+            ],
+            "gloss": "clear/complete (a level/task)",
+            "level": "A2",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Geometry Dash",
+              "text_url": "https://sv.wikipedia.org/wiki/Geometry_Dash",
+              "sentence_id": "7540729a",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
+              "korp_query": "[word=\"klara\"]"
+            }
+          },
+          {
+            "ex_id": "33d5079f2144a743c90c5bf58eed7d6ef9e295c8",
+            "sv": "Par är det resultat en scratchspelare (elitspelare) förväntas klara på hålet.",
+            "en": "Par is the result that a scratch player (elite player) is expected to achieve on the hole.",
+            "frame_id": "frame_passing_&_failing",
+            "fe_tags": [
+              {
+                "fe_id": "fe_result",
+                "span_sv": "Par"
+              }
+            ],
+            "gloss": "meet/achieve (a required result)",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Lista över golftermer",
+              "text_url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_golftermer",
+              "sentence_id": "d7b5aba2",
+              "retrieved_at": "2026-01-20T18:52:51+00:00",
               "korp_query": "[word=\"klara\"]"
             }
           }
@@ -423,7 +288,7 @@
     ],
     "pronunciation": {
       "ipa": "ˈklɑːra",
-      "stress_hint": "Stress is on the first syllable: KLA-ra.",
+      "stress_hint": "Stress on the first syllable: KLA-ra.",
       "audio": {
         "file": "audio/lu_bestehen_die_prüfung__den_test_bestehen.mp3",
         "model": "gpt-4o-mini-tts",

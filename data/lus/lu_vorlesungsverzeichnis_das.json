@@ -12,14 +12,14 @@
     "display_sv": "kurskatalog",
     "name_sv": "kurskatalog",
     "pos": "noun",
-    "cefr": "A2",
+    "cefr": "B1",
     "multiword": {
       "mwe_type": null,
       "components_sv": [],
       "spacing_notes_en": ""
     },
     "forms": [
-      "en kurskatalog",
+      "kurskatalog",
       "kurskatalogen",
       "kurskataloger",
       "kurskatalogerna"
@@ -28,11 +28,11 @@
     "morphology_sv": {
       "noun": {
         "gender": "en",
-        "indef_sg": "en kurskatalog",
+        "indef_sg": "kurskatalog",
         "def_sg": "kurskatalogen",
         "indef_pl": "kurskataloger",
         "def_pl": "kurskatalogerna",
-        "note_en": ""
+        "note_en": "A common compound noun: kurs + katalog."
       },
       "verb": {
         "infinitive": null,
@@ -55,62 +55,67 @@
     },
     "derived_words_sv": [
       {
-        "word": "kurskatalogen",
-        "type_en": "other",
-        "meaning_en": "the course catalogue (definite form)"
-      },
-      {
-        "word": "kurskataloger",
-        "type_en": "other",
-        "meaning_en": "course catalogues (plural)"
-      },
-      {
-        "word": "kursutbud",
+        "word": "katalog",
         "type_en": "noun",
-        "meaning_en": "range of courses offered"
+        "meaning_en": "catalogue; list of items"
+      },
+      {
+        "word": "kurs",
+        "type_en": "noun",
+        "meaning_en": "course (a unit of teaching)"
+      },
+      {
+        "word": "kursplan",
+        "type_en": "noun",
+        "meaning_en": "course syllabus/plan"
+      },
+      {
+        "word": "kursanmälan",
+        "type_en": "noun",
+        "meaning_en": "course registration"
       },
       {
         "word": "utbildningskatalog",
         "type_en": "noun",
-        "meaning_en": "catalogue of education/training"
+        "meaning_en": "education/training catalogue"
       }
     ],
     "synonyms_sv": [
       "kursutbud",
-      "utbildningskatalog",
-      "kursförteckning"
+      "kursförteckning",
+      "kurslista"
     ],
     "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_classes_&_courses",
+        "frame_name_en": "Classes & Courses",
+        "frame_slug": "classes_&_courses",
         "sense_id": "lu_vorlesungsverzeichnis_das:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_vorlesungsverzeichnis_das:1",
-        "frame_id": "frame_education",
-        "meaning_en": "a list or catalogue of courses and study programmes offered by an education provider",
+        "frame_id": "frame_classes_&_courses",
+        "meaning_en": "a catalogue listing an education provider’s courses and programmes",
         "how_to_use_en": [
-          "Use it for a document or web page that shows an institution’s course offerings.",
-          "Often followed by information about who offers the courses and what courses are included."
+          "Use it for a document/webpage that lists available courses.",
+          "Often linked to a school, university, or training provider."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
-            "pattern": "en kurskatalog är en katalog över [Institution]s utbud av [Course]",
-            "meaning_en": "a course catalogue lists an institution’s courses",
-            "note_en": "Common in definitions and explanations."
+            "pattern": "En kurskatalog är en katalog över [Institution]s utbud av [Course].",
+            "meaning_en": "defines what a course catalogue is",
+            "note_en": "Used in explanatory/definition style."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using kurskatalog for one single course.",
-            "fix": "Use kurs (or utbildning) for one course/programme.",
-            "explain_en": "A kurskatalog is a catalogue with many courses, not one course."
+            "error": "Using it for one single course description.",
+            "fix": "Use kursplan or kursbeskrivning for one course.",
+            "explain_en": "A kurskatalog is a list/collection of many courses, not one course."
           }
         ],
         "required_example_count": 10,
@@ -119,23 +124,19 @@
             "ex_id": "46a259f2a867b5ffd81089d5cfb4fabce6cd8367",
             "sv": "En kurskatalog är en katalog över en utbildningsleverantörs utbud av kurser och utbildningar.",
             "en": "A course catalogue is a catalogue of an education provider's range of courses and educations.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_classes_&_courses",
             "fe_tags": [
-              {
-                "fe_id": "fe_material",
-                "span_sv": "En kurskatalog"
-              },
               {
                 "fe_id": "fe_institution",
                 "span_sv": "en utbildningsleverantörs"
               },
               {
                 "fe_id": "fe_course",
-                "span_sv": "kurser och utbildningar"
+                "span_sv": "kurser"
               }
             ],
             "gloss": "course catalogue",
-            "level": "A2",
+            "level": "B1",
             "origin": "korp",
             "source": {
               "provider": "Språkbanken Korp",
@@ -145,7 +146,7 @@
               "text_title": "Kurskatalog",
               "text_url": "https://sv.wikipedia.org/wiki/Kurskatalog",
               "sentence_id": "6214123a",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:57:50+00:00",
               "korp_query": "[word=\"kurskatalog\"]"
             }
           }
@@ -153,8 +154,8 @@
       }
     ],
     "pronunciation": {
-      "ipa": "ˈkɵːʂkɑˌtɑlɔɡ",
-      "stress_hint": "Main stress is on the first part: KURS-.",
+      "ipa": "ˈkɵːʂkaˌtɑlɔɡ",
+      "stress_hint": "Main stress on KURS-, secondary stress on -TA-.",
       "audio": {
         "file": "audio/lu_vorlesungsverzeichnis_das.mp3",
         "model": "gpt-4o-mini-tts",
@@ -164,7 +165,7 @@
     },
     "morphology": {
       "principal_parts": [
-        "en kurskatalog",
+        "kurskatalog (en)",
         "kurskatalogen",
         "kurskataloger",
         "kurskatalogerna"

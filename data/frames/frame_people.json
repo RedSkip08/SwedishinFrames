@@ -1,0 +1,756 @@
+{
+  "frame": {
+    "id": "frame_people",
+    "name_en": "People",
+    "slug": "people",
+    "frame_description_en": "This frame is about describing a Person by saying what Role they have in a situation, what Group they belong to, what Institution they are connected to, what Activity they typically do in that context, and what Field (subject area) is involved.",
+    "frame_description_html": "This frame is about describing a <span class=\"Person\">Person</span> by saying what <span class=\"Role\">Role</span> they have in a situation, what <span class=\"Group\">Group</span> they belong to, what <span class=\"Institution\">Institution</span> they are connected to, what <span class=\"Activity\">Activity</span> they typically do in that context, and what <span class=\"Field\">Field</span> (subject area) is involved.",
+    "frame_description_fe_mentions": [
+      {
+        "fe_id": "fe_person",
+        "span_en": "Person"
+      },
+      {
+        "fe_id": "fe_role",
+        "span_en": "Role"
+      },
+      {
+        "fe_id": "fe_group",
+        "span_en": "Group"
+      },
+      {
+        "fe_id": "fe_institution",
+        "span_en": "Institution"
+      },
+      {
+        "fe_id": "fe_activity",
+        "span_en": "Activity"
+      },
+      {
+        "fe_id": "fe_field",
+        "span_en": "Field"
+      }
+    ],
+    "elements": [
+      {
+        "id": "fe_person",
+        "name": "Person",
+        "published": 1,
+        "description_en": "The individual human being being talked about.",
+        "description_html": "The individual human being being talked about (<span class=\"Person\">Person</span>)."
+      },
+      {
+        "id": "fe_role",
+        "name": "Role",
+        "published": 1,
+        "description_en": "The title, job, or status the person has in the situation (for example teacher, student, professor).",
+        "description_html": "The title, job, or status the person has in the situation (for example teacher, student, professor) (<span class=\"Role\">Role</span>)."
+      },
+      {
+        "id": "fe_group",
+        "name": "Group",
+        "published": 1,
+        "description_en": "A group, set, or category that the person is part of (for example a class, staff, a cohort, or “70 teachers”).",
+        "description_html": "A group, set, or category that the person is part of (for example a class, staff, a cohort, or “70 teachers”) (<span class=\"Group\">Group</span>)."
+      },
+      {
+        "id": "fe_institution",
+        "name": "Institution",
+        "published": 1,
+        "description_en": "The organization or place the person is connected to, such as a school, university, academy, or workplace.",
+        "description_html": "The organization or place the person is connected to, such as a school, university, academy, or workplace (<span class=\"Institution\">Institution</span>)."
+      },
+      {
+        "id": "fe_activity",
+        "name": "Activity",
+        "published": 1,
+        "description_en": "What the person does in this context, especially typical actions linked to the role (for example studying, teaching, researching).",
+        "description_html": "What the person does in this context, especially typical actions linked to the role (for example studying, teaching, researching) (<span class=\"Activity\">Activity</span>)."
+      },
+      {
+        "id": "fe_field",
+        "name": "Field",
+        "published": 1,
+        "description_en": "The subject area or specialization connected to the person (for example history, law, English).",
+        "description_html": "The subject area or specialization connected to the person (for example history, law, English) (<span class=\"Field\">Field</span>)."
+      }
+    ],
+    "note_on_roles_en": "A frame can have one role or many roles. A sentence can mention only some roles.",
+    "examples": [
+      {
+        "ex_id": "7b971b4586b3a1a5b1f10a8cc2f785d9f02da077",
+        "sv": "En av Griegs lärare, Wenzel, hade varit Schumanns vän.",
+        "en": "One of Grieg's teachers, Wenzel, had been Schumann's friend.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_role",
+            "span_sv": "lärare"
+          },
+          {
+            "fe_id": "fe_person",
+            "span_sv": "Wenzel"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Pianokonsert (Grieg)",
+          "text_url": "https://sv.wikipedia.org/wiki/Pianokonsert_(Grieg)",
+          "sentence_id": "8765ca9f",
+          "retrieved_at": "2026-01-20T18:43:23+00:00",
+          "korp_query": "[word=\"lärare\"]"
+        }
+      },
+      {
+        "ex_id": "80a6316cb6ef05516e80ad668a4c4b8ce102ade9",
+        "sv": "Svensson utbildade sig till lärare i Göteborg och avlade 1910 folkskollärarexamen.",
+        "en": "Svensson trained to become a teacher in Gothenburg and in 1910 took a primary school teacher exam.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_person",
+            "span_sv": "Svensson"
+          },
+          {
+            "fe_id": "fe_role",
+            "span_sv": "lärare"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "Göteborg"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Hilding Svensson",
+          "text_url": "https://sv.wikipedia.org/wiki/Hilding_Svensson",
+          "sentence_id": "2f730e31",
+          "retrieved_at": "2026-01-20T18:43:23+00:00",
+          "korp_query": "[word=\"lärare\"]"
+        }
+      },
+      {
+        "ex_id": "76bcf4d982a9284174f392737cab5b5cb64ad3a9",
+        "sv": "Det sammanlagda antalet elever var året 2014 713 stycken som undervisades av 70 lärare.",
+        "en": "The total number of pupils in the year 2014 was 713, who were taught by 70 teachers.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_group",
+            "span_sv": "70"
+          },
+          {
+            "fe_id": "fe_role",
+            "span_sv": "lärare"
+          },
+          {
+            "fe_id": "fe_activity",
+            "span_sv": "undervisades"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Matteusskolan, Stockholm",
+          "text_url": "https://sv.wikipedia.org/wiki/Matteusskolan,_Stockholm",
+          "sentence_id": "d8012cbf",
+          "retrieved_at": "2026-01-20T18:43:23+00:00",
+          "korp_query": "[word=\"lärare\"]"
+        }
+      },
+      {
+        "ex_id": "248a7502f7b4223fc74f5fa41f4726b23ca5a829",
+        "sv": "Båda hennes föräldrar var lärare, hennes far i engelsk litteratur och hennes mor i historia.",
+        "en": "Both her parents were teachers, her father in English literature and her mother in history.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_group",
+            "span_sv": "Båda hennes föräldrar"
+          },
+          {
+            "fe_id": "fe_role",
+            "span_sv": "lärare"
+          },
+          {
+            "fe_id": "fe_field",
+            "span_sv": "engelsk litteratur"
+          },
+          {
+            "fe_id": "fe_field",
+            "span_sv": "historia"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Lauren Holly",
+          "text_url": "https://sv.wikipedia.org/wiki/Lauren_Holly",
+          "sentence_id": "b6dd7d6a",
+          "retrieved_at": "2026-01-20T18:43:23+00:00",
+          "korp_query": "[word=\"lärare\"]"
+        }
+      },
+      {
+        "ex_id": "6f9b251546d6428b2da1e52d84864399f765bfe1",
+        "sv": "Hon har doktorerat i historia vid Oxford University och varit universitetslärare.",
+        "en": "She has done a doctorate in history at Oxford University and been a university teacher.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_person",
+            "span_sv": "Hon"
+          },
+          {
+            "fe_id": "fe_field",
+            "span_sv": "historia"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "Oxford University"
+          },
+          {
+            "fe_id": "fe_role",
+            "span_sv": "universitetslärare"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Caroline Jackson",
+          "text_url": "https://sv.wikipedia.org/wiki/Caroline_Jackson",
+          "sentence_id": "ae837cd7",
+          "retrieved_at": "2026-01-20T18:43:23+00:00",
+          "korp_query": "[word=\"universitetslärare\"]"
+        }
+      },
+      {
+        "ex_id": "645da7823568f66057ad99bc960f9647b7d4bb5a",
+        "sv": "Dan Egonsson, född 1956, är professor i praktisk filosofi vid Lunds universitet.",
+        "en": "Dan Egonsson, born in 1956, is a professor of practical philosophy at Lund University.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_person",
+            "span_sv": "Dan Egonsson"
+          },
+          {
+            "fe_id": "fe_role",
+            "span_sv": "professor"
+          },
+          {
+            "fe_id": "fe_field",
+            "span_sv": "praktisk filosofi"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "Lunds universitet"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Dan Egonsson",
+          "text_url": "https://sv.wikipedia.org/wiki/Dan_Egonsson",
+          "sentence_id": "8eab09ea",
+          "retrieved_at": "2026-01-20T18:43:23+00:00",
+          "korp_query": "[word=\"professor\"]"
+        }
+      },
+      {
+        "ex_id": "aadd36cdd90286dcd2a98e2c4ebdbb48113df719",
+        "sv": "Wallman studerade i Linköping och blev 1730 student vid Uppsala universitet.",
+        "en": "Wallman studied in Linköping and in 1730 became a student at Uppsala University.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_person",
+            "span_sv": "Wallman"
+          },
+          {
+            "fe_id": "fe_activity",
+            "span_sv": "studerade"
+          },
+          {
+            "fe_id": "fe_role",
+            "span_sv": "student"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "Uppsala universitet"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Daniel Wallman",
+          "text_url": "https://sv.wikipedia.org/wiki/Daniel_Wallman",
+          "sentence_id": "3dae0b82",
+          "retrieved_at": "2026-01-20T18:43:23+00:00",
+          "korp_query": "[word=\"student\"]"
+        }
+      },
+      {
+        "ex_id": "ecd682d523b5e7844467d4a4c80b513490162f5e",
+        "sv": "Sidney är en elev på Enriched Learning Center for Gifted Children och pratar baklänges.",
+        "en": "Sidney is a student at Enriched Learning Center for Gifted Children and speaks backwards.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_person",
+            "span_sv": "Sidney"
+          },
+          {
+            "fe_id": "fe_role",
+            "span_sv": "en elev"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "Enriched Learning Center for Gifted Children"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Lista över engångsfigurer i Simpsons",
+          "text_url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_eng%C3%A5ngsfigurer_i_Simpsons",
+          "sentence_id": "b1ea386a",
+          "retrieved_at": "2026-01-20T18:43:23+00:00",
+          "korp_query": "[word=\"elev\"]"
+        }
+      },
+      {
+        "ex_id": "2f3711011353adabc150cf0d9a1b988205621bb7",
+        "sv": "Som doktorand i idéhistoria vid Lunds universitet forskar han i skapelsemyters tankemönster.",
+        "en": "As a PhD student in intellectual history at Lund University, he does research on thought patterns in creation myths.",
+        "fe_tags": [
+          {
+            "fe_id": "fe_role",
+            "span_sv": "doktorand"
+          },
+          {
+            "fe_id": "fe_field",
+            "span_sv": "idéhistoria"
+          },
+          {
+            "fe_id": "fe_institution",
+            "span_sv": "Lunds universitet"
+          },
+          {
+            "fe_id": "fe_activity",
+            "span_sv": "forskar"
+          },
+          {
+            "fe_id": "fe_person",
+            "span_sv": "han"
+          }
+        ],
+        "origin": "korp",
+        "source": {
+          "provider": "Språkbanken Korp",
+          "corpus": "WIKIPEDIA-SV",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "text_title": "Stefan Stenudd",
+          "text_url": "https://sv.wikipedia.org/wiki/Stefan_Stenudd",
+          "sentence_id": "13c7edd5",
+          "retrieved_at": "2026-01-20T18:43:23+00:00",
+          "korp_query": "[word=\"doktorand\"]"
+        }
+      }
+    ],
+    "linked_lexical_units": [
+      {
+        "lu_id": "lu_lehrer_der_lehrer__die_lehrerin",
+        "display_sv": "lärare",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_lehrer_der_lehrer__die_lehrerin:1"
+      },
+      {
+        "lu_id": "lu_dozent_der_dozent__die_dozentin",
+        "display_sv": "universitetslärare",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_dozent_der_dozent__die_dozentin:1"
+      },
+      {
+        "lu_id": "lu_professor_der_professor__die_professorin",
+        "display_sv": "professor",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_professor_der_professor__die_professorin:1"
+      },
+      {
+        "lu_id": "lu_student_der_student__die_studentin",
+        "display_sv": "student",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_student_der_student__die_studentin:1"
+      },
+      {
+        "lu_id": "lu_schüler_der_schüler__die_schülerin",
+        "display_sv": "elev",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_schüler_der_schüler__die_schülerin:1"
+      },
+      {
+        "lu_id": "lu_studierende_der_studierende_ein_studierender_die_eine_studierende",
+        "display_sv": "student",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_studierende_der_studierende_ein_studierender_die_eine_studierende:1"
+      },
+      {
+        "lu_id": "lu_kommilitone_der_kommilitone_die_kommilitonin",
+        "display_sv": "kurskamrat",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_kommilitone_der_kommilitone_die_kommilitonin:1"
+      },
+      {
+        "lu_id": "lu_abiturient_der_abiturient_die_abiturientin",
+        "display_sv": "avgångselev",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_abiturient_der_abiturient_die_abiturientin:1"
+      },
+      {
+        "lu_id": "lu_absolvent_der_absolvent_die_absolventin",
+        "display_sv": "utexaminerad",
+        "lu_type": "single",
+        "pos": "adjective",
+        "sense_id": "lu_absolvent_der_absolvent_die_absolventin:1"
+      },
+      {
+        "lu_id": "lu_doktorand_der_doktorand_die_doktorandin",
+        "display_sv": "doktorand",
+        "lu_type": "single",
+        "pos": "noun",
+        "sense_id": "lu_doktorand_der_doktorand_die_doktorandin:1"
+      }
+    ],
+    "confusable_with": []
+  },
+  "constructions": [
+    {
+      "cxn_id": "cxn_1",
+      "cxn_name_linguistic_sv": "SUBJ vara X (vid Y)",
+      "cxn_name_user_friendly_en": "Being a teacher or student",
+      "pattern": "SUBJ + vara + ROLE-NP (+ PP-vid INSTITUTION)",
+      "meaning_en": "Says that a person (or group) has a role (e.g. teacher, student, professor), sometimes with the institution introduced by vid.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_person"
+        },
+        {
+          "slot": "ROLE-NP",
+          "maps_to_fe_id": "fe_role"
+        },
+        {
+          "slot": "PP-vid INSTITUTION",
+          "maps_to_fe_id": "fe_institution"
+        }
+      ],
+      "usage_notes_en": [
+        "Often uses vara + role noun (lärare, student, professor).",
+        "The institution can be added with vid + institution (e.g. vid Lunds universitet)."
+      ],
+      "examples": [
+        {
+          "ex_id": "6d3fcbf37a6db3eebed4b2878f556cc159af562b",
+          "sv": "Malmström, som fick smeknamnet Kulan, var en uppskattad lärare.",
+          "en": "Malmström, who got the nickname Kulan, was an appreciated teacher.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_person",
+              "span_sv": "Malmström"
+            },
+            {
+              "fe_id": "fe_role",
+              "span_sv": "lärare"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "August Malmström",
+            "text_url": "https://sv.wikipedia.org/wiki/August_Malmstr%C3%B6m",
+            "sentence_id": "fd2f8672",
+            "retrieved_at": "2026-01-20T18:43:23+00:00",
+            "korp_query": "[word=\"lärare\"]"
+          }
+        },
+        {
+          "ex_id": "d9e6aa8c60bb6fa737b51ae9b86602908071ce8f",
+          "sv": "(ordagrant: denne mans hans son student är) Denne mans son är student.",
+          "en": "(word for word: this man's his son student is) This man's son is a student.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_person",
+              "span_sv": "Denne mans son"
+            },
+            {
+              "fe_id": "fe_role",
+              "span_sv": "student"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Hindi",
+            "text_url": "https://sv.wikipedia.org/wiki/Hindi",
+            "sentence_id": "1b9b02fd",
+            "retrieved_at": "2026-01-20T18:43:23+00:00",
+            "korp_query": "[word=\"student\"]"
+          }
+        },
+        {
+          "ex_id": "645da7823568f66057ad99bc960f9647b7d4bb5a",
+          "sv": "Dan Egonsson, född 1956, är professor i praktisk filosofi vid Lunds universitet.",
+          "en": "Dan Egonsson, born in 1956, is a professor of practical philosophy at Lund University.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_person",
+              "span_sv": "Dan Egonsson"
+            },
+            {
+              "fe_id": "fe_role",
+              "span_sv": "professor"
+            },
+            {
+              "fe_id": "fe_field",
+              "span_sv": "praktisk filosofi"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "Lunds universitet"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Dan Egonsson",
+            "text_url": "https://sv.wikipedia.org/wiki/Dan_Egonsson",
+            "sentence_id": "8eab09ea",
+            "retrieved_at": "2026-01-20T18:43:23+00:00",
+            "korp_query": "[word=\"professor\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_2",
+      "cxn_name_linguistic_sv": "SUBJ bli X (vid Y)",
+      "cxn_name_user_friendly_en": "Becoming a student",
+      "pattern": "SUBJ + bli + ROLE-NP (+ PP-vid INSTITUTION)",
+      "meaning_en": "Says that someone becomes a student (or similar role), often with the institution introduced by vid.",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_person"
+        },
+        {
+          "slot": "ROLE-NP",
+          "maps_to_fe_id": "fe_role"
+        },
+        {
+          "slot": "PP-vid INSTITUTION",
+          "maps_to_fe_id": "fe_institution"
+        }
+      ],
+      "usage_notes_en": [
+        "Common with student: bli student vid + university/school.",
+        "The time expression can appear in the sentence, but the core construction is bli + role."
+      ],
+      "examples": [
+        {
+          "ex_id": "2d74d08197df5cbf18b403582cb88b1150d114c2",
+          "sv": "Han blev student vid Lunds universitet 1854 och avlade officersexamen 1855.",
+          "en": "He became a student at Lund University in 1854 and took an officer exam in 1855.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_person",
+              "span_sv": "Han"
+            },
+            {
+              "fe_id": "fe_role",
+              "span_sv": "student"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "Lunds universitet"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Henrik Rappe",
+            "text_url": "https://sv.wikipedia.org/wiki/Henrik_Rappe",
+            "sentence_id": "4bb6ba23",
+            "retrieved_at": "2026-01-20T18:43:23+00:00",
+            "korp_query": "[word=\"student\"]"
+          }
+        },
+        {
+          "ex_id": "aadd36cdd90286dcd2a98e2c4ebdbb48113df719",
+          "sv": "Wallman studerade i Linköping och blev 1730 student vid Uppsala universitet.",
+          "en": "Wallman studied in Linköping and in 1730 became a student at Uppsala University.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_person",
+              "span_sv": "Wallman"
+            },
+            {
+              "fe_id": "fe_activity",
+              "span_sv": "studerade"
+            },
+            {
+              "fe_id": "fe_role",
+              "span_sv": "student"
+            },
+            {
+              "fe_id": "fe_institution",
+              "span_sv": "Uppsala universitet"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Daniel Wallman",
+            "text_url": "https://sv.wikipedia.org/wiki/Daniel_Wallman",
+            "sentence_id": "3dae0b82",
+            "retrieved_at": "2026-01-20T18:43:23+00:00",
+            "korp_query": "[word=\"student\"]"
+          }
+        }
+      ]
+    },
+    {
+      "cxn_id": "cxn_3",
+      "cxn_name_linguistic_sv": "SUBJ vara kurskamrat med X",
+      "cxn_name_user_friendly_en": "Being course mates",
+      "pattern": "SUBJ + vara + kurskamrat + med + OBJ",
+      "meaning_en": "Says that two people were course mates (in the same course).",
+      "frame_mapping": [
+        {
+          "slot": "SUBJ",
+          "maps_to_fe_id": "fe_person"
+        },
+        {
+          "slot": "OBJ",
+          "maps_to_fe_id": "fe_person"
+        }
+      ],
+      "usage_notes_en": [
+        "Uses med to introduce the other person.",
+        "The word kurskamrat is tagged as Group in the examples, but in this construction it functions as a relationship label between two persons."
+      ],
+      "examples": [
+        {
+          "ex_id": "b5d2b03d20b39ea2b5806227c264698a8a820225",
+          "sv": "Hägglöf var kurskamrat med Dag Hammarskjöld och de diskuterade ofta Hägerström.",
+          "en": "Hägglöf was a course mate with Dag Hammarskjöld and they often discussed Hägerström.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_person",
+              "span_sv": "Hägglöf"
+            },
+            {
+              "fe_id": "fe_group",
+              "span_sv": "kurskamrat"
+            },
+            {
+              "fe_id": "fe_person",
+              "span_sv": "Dag Hammarskjöld"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Vilhelm Lundstedt",
+            "text_url": "https://sv.wikipedia.org/wiki/Vilhelm_Lundstedt",
+            "sentence_id": "ed508ab3",
+            "retrieved_at": "2026-01-20T18:43:23+00:00",
+            "korp_query": "[word=\"kurskamrat\"]"
+          }
+        },
+        {
+          "ex_id": "1e5cbca3003be57c7f4f41df5e8e6d8c4a0547ae",
+          "sv": "Där blev hon kurskamrat med Sten Ljunggren, som hon senare kom att gifta sig med.",
+          "en": "There she became a course mate with Sten Ljunggren, whom she later came to marry.",
+          "fe_tags": [
+            {
+              "fe_id": "fe_person",
+              "span_sv": "hon"
+            },
+            {
+              "fe_id": "fe_group",
+              "span_sv": "kurskamrat"
+            },
+            {
+              "fe_id": "fe_person",
+              "span_sv": "Sten Ljunggren"
+            }
+          ],
+          "origin": "korp",
+          "source": {
+            "provider": "Språkbanken Korp",
+            "corpus": "WIKIPEDIA-SV",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "text_title": "Barbro Oborg",
+            "text_url": "https://sv.wikipedia.org/wiki/Barbro_Oborg",
+            "sentence_id": "d8840108",
+            "retrieved_at": "2026-01-20T18:43:23+00:00",
+            "korp_query": "[word=\"kurskamrat\"]"
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_examples": 5,
+    "all_examples_must_have_fe_tags": true,
+    "all_fe_tags_must_match_frame_elements": true,
+    "fe_tag_spans_must_be_exact_substrings": true
+  }
+}

@@ -24,7 +24,7 @@
     "forms": [
       "universitetslärare",
       "universitetsläraren",
-      "universitetslärare",
+      "universitetslärare (plural)",
       "universitetslärarna"
     ],
     "english_equivalent_en": "university teacher",
@@ -35,7 +35,7 @@
         "def_sg": "universitetsläraren",
         "indef_pl": "universitetslärare",
         "def_pl": "universitetslärarna",
-        "note_en": "Same form in singular and plural indefinite."
+        "note_en": "Often the same form in singular and plural (like many -are nouns)."
       },
       "verb": {
         "infinitive": null,
@@ -68,14 +68,19 @@
         "meaning_en": "teacher"
       },
       {
-        "word": "universitetsutbildning",
+        "word": "universitetslektor",
         "type_en": "noun",
-        "meaning_en": "university education"
+        "meaning_en": "university lecturer (job title)"
       },
       {
-        "word": "universitetskurs",
+        "word": "universitetsprofessor",
         "type_en": "noun",
-        "meaning_en": "university course"
+        "meaning_en": "university professor"
+      },
+      {
+        "word": "universitetsundervisning",
+        "type_en": "noun",
+        "meaning_en": "teaching at university level"
       }
     ],
     "synonyms_sv": [
@@ -87,64 +92,64 @@
     "antonyms_sv": [],
     "linked_frames": [
       {
-        "frame_id": "frame_education",
-        "frame_name_en": "Education",
-        "frame_slug": "education",
+        "frame_id": "frame_people",
+        "frame_name_en": "People",
+        "frame_slug": "people",
         "sense_id": "lu_dozent_der_dozent__die_dozentin:1"
       }
     ],
     "senses": [
       {
         "sense_id": "lu_dozent_der_dozent__die_dozentin:1",
-        "frame_id": "frame_education",
+        "frame_id": "frame_people",
         "meaning_en": "a person who teaches at a university",
         "how_to_use_en": [
-          "Use for someone’s job/role at a university.",
-          "Often used after som (“as”) or in phrases like tjänst som (“a job as”).",
-          "Can be followed by i + subject to say what they teach."
+          "Use it for someone’s role or job at a university.",
+          "Often used after som (“as”) or with arbeta/jobba (“work”).",
+          "You can add a subject with i (“in”), e.g. a language."
         ],
         "patterns": [
           {
             "pattern_id": "pat_1",
             "pattern": "arbeta/jobba som universitetslärare",
             "meaning_en": "work as a university teacher",
-            "note_en": "Common when describing someone’s career."
+            "note_en": "Common for describing someone’s occupation."
           },
           {
             "pattern_id": "pat_2",
-            "pattern": "vara (pensionerad) universitetslärare",
-            "meaning_en": "be a (retired) university teacher",
-            "note_en": ""
+            "pattern": "vara universitetslärare",
+            "meaning_en": "be a university teacher",
+            "note_en": "Used for background information about a person."
           },
           {
             "pattern_id": "pat_3",
             "pattern": "tjänst/anställning som universitetslärare",
-            "meaning_en": "job/employment as university teacher",
-            "note_en": ""
+            "meaning_en": "a job as a university teacher",
+            "note_en": "Often used when talking about getting or leaving a position."
           },
           {
             "pattern_id": "pat_4",
             "pattern": "universitetslärare i + ämne",
             "meaning_en": "university teacher in a subject",
-            "note_en": "Used for what someone teaches (e.g., i engelska, i språk)."
+            "note_en": "The subject can be a language or field (e.g. engelska, språk)."
           },
           {
             "pattern_id": "pat_5",
             "pattern": "under handledning av universitetslärare",
             "meaning_en": "under supervision of university teachers",
-            "note_en": "Often in formal/academic contexts."
+            "note_en": "Often plural when referring to staff supervising students."
           }
         ],
         "common_errors_en": [
           {
-            "error": "Using universitetslärare for any school teacher.",
-            "fix": "Use lärare for general teachers; use universitetslärare for university level.",
+            "error": "Using universitetslärare for a school teacher.",
+            "fix": "Use lärare or skol-/gymnasielärare for schools.",
             "explain_en": "Universitetslärare is specifically connected to a university."
           },
           {
-            "error": "Forgetting i before the subject (e.g., *universitetslärare engelska).",
-            "fix": "Say universitetslärare i engelska.",
-            "explain_en": "In the examples, the subject is introduced with i."
+            "error": "Forgetting the article/en-forms in definite form.",
+            "fix": "Use universitetsläraren / universitetslärarna when definite.",
+            "explain_en": "It is an en-noun and takes -n in the singular definite."
           }
         ],
         "required_example_count": 10,
@@ -153,10 +158,14 @@
             "ex_id": "57115d1644d697e7f9542a4323dce0ccbe87cf2d",
             "sv": "Han har arbetat som tecknare, reklamman, tidskriftsredaktör och universitetslärare.",
             "en": "He has worked as an illustrator, an advertising man, a magazine editor, and a university teacher.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_role",
                 "span_sv": "universitetslärare"
               }
             ],
@@ -171,7 +180,37 @@
               "text_title": "Lloyd Alexander",
               "text_url": "https://sv.wikipedia.org/wiki/Lloyd_Alexander",
               "sentence_id": "1eacc2e6",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
+              "korp_query": "[word=\"universitetslärare\"]"
+            }
+          },
+          {
+            "ex_id": "93ec4817708e0d07a8480c382590a8bf20385e6a",
+            "sv": "Han var synnerligen framstående som universitetslärare och därjämte en utmärkt predikant.",
+            "en": "He was very outstanding as a university teacher and also an excellent preacher.",
+            "frame_id": "frame_people",
+            "fe_tags": [
+              {
+                "fe_id": "fe_person",
+                "span_sv": "Han"
+              },
+              {
+                "fe_id": "fe_role",
+                "span_sv": "universitetslärare"
+              }
+            ],
+            "gloss": "university teacher",
+            "level": "B1",
+            "origin": "korp",
+            "source": {
+              "provider": "Språkbanken Korp",
+              "corpus": "WIKIPEDIA-SV",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "text_title": "Friedrich Ehrenfeuchter",
+              "text_url": "https://sv.wikipedia.org/wiki/Friedrich_Ehrenfeuchter",
+              "sentence_id": "45771291",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"universitetslärare\"]"
             }
           },
@@ -179,10 +218,14 @@
             "ex_id": "65ccd74c1b4c94a896e14efd468b08805a33de73",
             "sv": "1987 lämnade han tjänsten som universitetslärare för att ägna sig åt skådespeleri på heltid.",
             "en": "In 1987 he left the job as a university teacher to devote himself to acting full time.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_role",
                 "span_sv": "universitetslärare"
               }
             ],
@@ -197,18 +240,22 @@
               "text_title": "Don S. Davis",
               "text_url": "https://sv.wikipedia.org/wiki/Don_S._Davis",
               "sentence_id": "457ac1a8",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"universitetslärare\"]"
             }
           },
           {
             "ex_id": "6f9b251546d6428b2da1e52d84864399f765bfe1",
             "sv": "Hon har doktorerat i historia vid Oxford University och varit universitetslärare.",
-            "en": "She has done a PhD in history at Oxford University and been a university teacher.",
-            "frame_id": "frame_education",
+            "en": "She has done a doctorate in history at Oxford University and been a university teacher.",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_subject",
+                "fe_id": "fe_person",
+                "span_sv": "Hon"
+              },
+              {
+                "fe_id": "fe_field",
                 "span_sv": "historia"
               },
               {
@@ -216,7 +263,7 @@
                 "span_sv": "Oxford University"
               },
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_role",
                 "span_sv": "universitetslärare"
               }
             ],
@@ -231,18 +278,22 @@
               "text_title": "Caroline Jackson",
               "text_url": "https://sv.wikipedia.org/wiki/Caroline_Jackson",
               "sentence_id": "ae837cd7",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"universitetslärare\"]"
             }
           },
           {
-            "ex_id": "635c91863e13da95c4903b750076863fd23c4444",
-            "sv": "Morris har sedan arbetat som universitetslärare, men är mest känd för sitt författarskap.",
-            "en": "Morris has since worked as a university teacher, but is best known for his writing.",
-            "frame_id": "frame_education",
+            "ex_id": "fb7f6304ae123a5e0ac4057f1cbe28fc5bc9fdc7",
+            "sv": "Cremer hade stort inflytande både som universitetslärare och som teologisk författare.",
+            "en": "Cremer had great influence both as a university teacher and as a theological author.",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
+                "span_sv": "Cremer"
+              },
+              {
+                "fe_id": "fe_role",
                 "span_sv": "universitetslärare"
               }
             ],
@@ -254,10 +305,10 @@
               "corpus": "WIKIPEDIA-SV",
               "license": "CC BY-SA 4.0",
               "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Roger Morris (amerikansk författare)",
-              "text_url": "https://sv.wikipedia.org/wiki/Roger_Morris_(amerikansk_f%C3%B6rfattare)",
-              "sentence_id": "532bf3d1",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "text_title": "Hermann Cremer",
+              "text_url": "https://sv.wikipedia.org/wiki/Hermann_Cremer",
+              "sentence_id": "72ed4316",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"universitetslärare\"]"
             }
           },
@@ -265,14 +316,18 @@
             "ex_id": "541d269d8dce6839f183fdfe56fab0e1f86d3123",
             "sv": "Efter kriget fick Gustavsson tjänst som universitetslärare i språk i Leningrad.",
             "en": "After the war Gustavsson got a job as a university teacher in languages in Leningrad.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
+                "span_sv": "Gustavsson"
+              },
+              {
+                "fe_id": "fe_role",
                 "span_sv": "universitetslärare"
               },
               {
-                "fe_id": "fe_subject",
+                "fe_id": "fe_field",
                 "span_sv": "språk"
               }
             ],
@@ -287,7 +342,7 @@
               "text_title": "Anders Gustavsson (frivilligsoldat)",
               "text_url": "https://sv.wikipedia.org/wiki/Anders_Gustavsson_(frivilligsoldat)",
               "sentence_id": "d87a31bb",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"universitetslärare\"]"
             }
           },
@@ -295,10 +350,14 @@
             "ex_id": "dc0f7bb71ff17a474c5831b7504e774c79b2111f",
             "sv": "År 1982 började han jobba som universitetslärare och genomförde 1983 sitt första forskningsprojekt.",
             "en": "In 1982 he started working as a university teacher and in 1983 he carried out his first research project.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_role",
                 "span_sv": "universitetslärare"
               }
             ],
@@ -313,7 +372,7 @@
               "text_title": "Mats Trondman",
               "text_url": "https://sv.wikipedia.org/wiki/Mats_Trondman",
               "sentence_id": "fe97f666",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"universitetslärare\"]"
             }
           },
@@ -321,10 +380,14 @@
             "ex_id": "e066d7649c2ac3918ff986b1d869dc798a58dcbc",
             "sv": "Eftersom hans önskan att få anställning som universitetslärare inte kunde uppfyllas blev han präst.",
             "en": "Because his wish to get employment as a university teacher could not be fulfilled, he became a priest.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_role",
                 "span_sv": "universitetslärare"
               }
             ],
@@ -339,41 +402,7 @@
               "text_title": "Carolus Carlsson",
               "text_url": "https://sv.wikipedia.org/wiki/Carolus_Carlsson",
               "sentence_id": "a26a5d2b",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
-              "korp_query": "[word=\"universitetslärare\"]"
-            }
-          },
-          {
-            "ex_id": "4434aba655c38d06249845b6bdac5578a45bf8b4",
-            "sv": "Joan Veny är pensionerad universitetslärare i katalansk filologi vid Barcelonas universitet.",
-            "en": "Joan Veny is a retired university teacher in Catalan philology at the University of Barcelona.",
-            "frame_id": "frame_education",
-            "fe_tags": [
-              {
-                "fe_id": "fe_teacher",
-                "span_sv": "universitetslärare"
-              },
-              {
-                "fe_id": "fe_subject",
-                "span_sv": "katalansk filologi"
-              },
-              {
-                "fe_id": "fe_institution",
-                "span_sv": "Barcelonas universitet"
-              }
-            ],
-            "gloss": "university teacher",
-            "level": "B1",
-            "origin": "korp",
-            "source": {
-              "provider": "Språkbanken Korp",
-              "corpus": "WIKIPEDIA-SV",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-              "text_title": "Joan Veny",
-              "text_url": "https://sv.wikipedia.org/wiki/Joan_Veny",
-              "sentence_id": "c20626d3",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"universitetslärare\"]"
             }
           },
@@ -381,14 +410,22 @@
             "ex_id": "d7436a3d85c19f97c846c6a143c5fca1d7be9d62",
             "sv": "Sedan 1985 är han bosatt i USA och arbetar som universitetslärare i engelska.",
             "en": "Since 1985 he has lived in the USA and works as a university teacher in English.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_person",
+                "span_sv": "han"
+              },
+              {
+                "fe_id": "fe_group",
+                "span_sv": "USA"
+              },
+              {
+                "fe_id": "fe_role",
                 "span_sv": "universitetslärare"
               },
               {
-                "fe_id": "fe_subject",
+                "fe_id": "fe_field",
                 "span_sv": "engelska"
               }
             ],
@@ -403,7 +440,7 @@
               "text_title": "Ha Jin",
               "text_url": "https://sv.wikipedia.org/wiki/Ha_Jin",
               "sentence_id": "2206e10f",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"universitetslärare\"]"
             }
           },
@@ -411,14 +448,14 @@
             "ex_id": "e153bff1e55de23b3b7fb717d9a53fed3f526130",
             "sv": "Grundidén är att juriststudenter ger fri juridisk rådgivning under handledning av universitetslärare.",
             "en": "The basic idea is that law students give free legal advice under the supervision of university teachers.",
-            "frame_id": "frame_education",
+            "frame_id": "frame_people",
             "fe_tags": [
               {
-                "fe_id": "fe_student",
+                "fe_id": "fe_group",
                 "span_sv": "juriststudenter"
               },
               {
-                "fe_id": "fe_teacher",
+                "fe_id": "fe_role",
                 "span_sv": "universitetslärare"
               }
             ],
@@ -433,7 +470,7 @@
               "text_title": "Rättspraktik",
               "text_url": "https://sv.wikipedia.org/wiki/R%C3%A4ttspraktik",
               "sentence_id": "9627b1e6",
-              "retrieved_at": "2026-01-20T15:24:35+00:00",
+              "retrieved_at": "2026-01-20T18:43:23+00:00",
               "korp_query": "[word=\"universitetslärare\"]"
             }
           }
@@ -442,7 +479,7 @@
     ],
     "pronunciation": {
       "ipa": "ʉnɪvɛrˈsɪteːtsˌlɛːrarɛ",
-      "stress_hint": "Main stress is on -si- in universitets- and on LÄ- in lärare.",
+      "stress_hint": "Main stress is on -te- in universitets- and on -lä- in lärare.",
       "audio": {
         "file": "audio/lu_dozent_der_dozent__die_dozentin.mp3",
         "model": "gpt-4o-mini-tts",
@@ -452,10 +489,10 @@
     },
     "morphology": {
       "principal_parts": [
-        "universitetslärare (indefinite singular)",
-        "universitetsläraren (definite singular)",
-        "universitetslärare (indefinite plural)",
-        "universitetslärarna (definite plural)"
+        "universitetslärare (en)",
+        "universitetsläraren",
+        "universitetslärare",
+        "universitetslärarna"
       ],
       "particle_or_reflexive": null
     }
