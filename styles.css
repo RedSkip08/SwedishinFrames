@@ -87,9 +87,9 @@ body{
   align-items: center;
   padding: 2px 8px;
   border-radius: 999px;
-  border: 1px solid hsla(var(--fe-h), 50%, 60%, 0.55);
-  background: hsla(var(--fe-h), 70%, 88%, 1);
-  color: hsl(var(--fe-h), 55%, 25%);
+  border: 1px solid hsla(var(--fe-h), 75%, 45%, 0.80);
+  background: hsla(var(--fe-h), 85%, 80%, 1);
+  color: hsl(var(--fe-h), 70%, 18%);
   font-weight: 650;
   font-size: 12px;
   letter-spacing: 0.02em;
@@ -480,8 +480,23 @@ body{
 .fe-span{
   padding: 0 4px;
   border-radius: 8px;
-  background: hsl(var(--fe-h) 60% 88%);
-  border: 1px solid hsl(var(--fe-h) 60% 70%);
+  background: hsl(var(--fe-h) 85% 82%);
+  border: 1px solid hsl(var(--fe-h) 80% 52%);
+}
+
+/* Global toggle */
+body.fe-off .fe-chip{
+  border-color: var(--line);
+  background: var(--surface-2);
+  color: var(--text);
+}
+body.fe-off .fe-span{
+  background: transparent;
+  border-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
 }
 
 /* panel */

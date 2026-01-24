@@ -24,6 +24,7 @@ const state = {
     sort: /** @type {SortMode} */ ("relevance"),
     lastQuery: "",
     exampleMode: /** @type {ExampleMode} */ ("simple"),
+    feColor: true,
     adv: { pos: "", frame: "" },
     browse: { type: "lu", letter: "A" },
   },
@@ -42,30 +43,81 @@ function hash32(str) {
   return h >>> 0;
 }
 
-const FE_HUES = [
-  0, 25, 45, 60, 80, 100, 130, 160, 190, 210, 235, 260, 285, 310, 330
-];
+// --- FE colors ---
+const FE_SAT = 70;  
+const FE_LIGHT = 86;   
+const _feHueMapByFrame = new Map();
 
-const FE_LIGHTNESS = [86, 80, 74]; // %
-const FE_SAT = 70; // %
-
-function feStyleVars(feId) {
-  const h = hash32(`fe:${String(feId ?? "").trim()}`);
-  const hue = FE_HUES[h % FE_HUES.length];
-  const l = FE_LIGHTNESS[(h >>> 8) % FE_LIGHTNESS.length];
-  return `--fe-h:${hue};--fe-s:${FE_SAT}%;--fe-l:${l}%`;
+function uniq(arr) {
+  return Array.from(
+    new Set(
+      (Array.isArray(arr) ? arr : [])
+        .filter(Boolean)
+        .map((x) => String(x).trim())
+        .filter(Boolean)
+    )
+  );
 }
 
-function feChipHtml(label, feId) {
-  return `<span class="fe-chip" style="${feStyleVars(feId)}" data-fe="${esc(feId)}">${esc(label)}</span>`;
+function buildFrameHueMap(frameId, frameFeIds) {
+  const ids = uniq(frameFeIds).sort(); 
+  const seed = hash32(`frame:${String(frameId ?? "")}`) % 360;
+  const golden = 137.507764; 
+  const minDist = 18;
+
+  const used = [];
+  const map = new Map();
+
+  for (let i = 0; i < ids.length; i++) {
+    let h = (seed + i * golden) % 360;
+
+    let guard = 0;
+    while (
+      used.some((u) => {
+        const d = Math.abs(u - h);
+        return Math.min(d, 360 - d) < minDist;
+      }) &&
+      guard++ < 20
+    ) {
+      h = (h + 29) % 360;
+    }
+
+    used.push(h);
+    map.set(ids[i], h);
+  }
+
+  _feHueMapByFrame.set(String(frameId ?? ""), map);
+  return map;
+}
+
+function feHueFor(feId, frameId, frameFeIds) {
+  const fid = String(frameId ?? "");
+  const id = String(feId ?? "").trim();
+
+
+  if (fid && Array.isArray(frameFeIds) && frameFeIds.length) {
+    const cached = _feHueMapByFrame.get(fid) || buildFrameHueMap(fid, frameFeIds);
+    if (cached.has(id)) return cached.get(id);
+  }
+
+
+  return hash32(`fe:${id}`) % 360;
+}
+
+function feStyleVars(feId, frameId, frameFeIds) {
+  const hue = feHueFor(feId, frameId, frameFeIds);
+  return `--fe-h:${hue};--fe-s:${FE_SAT}%;--fe-l:${FE_LIGHT}%`;
+}
+
+function feChipHtml(label, feId, frameId, frameFeIds) {
+  return `<span class="fe-chip" style="${feStyleVars(feId, frameId, frameFeIds)}" data-fe="${esc(feId)}">${esc(label)}</span>`;
 }
 
 function escapeRegExp(s) {
   return String(s ?? "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-
-function decorateFeHtml(html, feMentions) {
+function decorateFeHtml(html, feMentions, frameId, frameFeIds) {
   const src = String(html ?? "");
   const mentions = Array.isArray(feMentions) ? feMentions : [];
   if (!src.trim() || !mentions.length) return src;
@@ -86,7 +138,7 @@ function decorateFeHtml(html, feMentions) {
 
     out = out.replace(
       re,
-      `<span class="fe-chip" style="${feStyleVars(feId)}" data-fe="${esc(feId)}">`
+      `<span class="fe-chip" style="${feStyleVars(feId, frameId, frameFeIds)}" data-fe="${esc(feId)}">`
     );
   }
 
@@ -138,6 +190,7 @@ function loadPrefs() {
     if (p?.exampleMode) state.ui.exampleMode = p.exampleMode;
     if (p?.adv) state.ui.adv = { ...state.ui.adv, ...p.adv };
     if (p?.browse) state.ui.browse = { ...state.ui.browse, ...p.browse };
+    if (typeof p?.feColor === "boolean") state.ui.feColor = p.feColor;
   } catch {
    
   }
@@ -153,6 +206,7 @@ function savePrefs() {
         exampleMode: state.ui.exampleMode,
         adv: state.ui.adv,
         browse: state.ui.browse,
+        feColor: state.ui.feColor,
       })
     );
   } catch {
@@ -404,6 +458,18 @@ function applyPrefsToUI() {
   if (frameSel) frameSel.value = state.ui.adv.frame || "";
 
   $$("[data-browse-type]").forEach((b) => b.classList.toggle("on", b.getAttribute("data-browse-type") === state.ui.browse.type));
+  applyFeColorPref();
+}
+
+
+function applyFeColorPref() {
+  document.body.classList.toggle("fe-off", !state.ui.feColor);
+
+  const btn = $("#toggleFeColor");
+  if (btn) {
+    btn.textContent = state.ui.feColor ? "FE colors: On" : "FE colors: Off";
+    btn.setAttribute("aria-pressed", state.ui.feColor ? "true" : "false");
+  }
 }
 
 function populateAdvancedFilterOptions() {
@@ -696,6 +762,8 @@ function getExampleSourceLabel(ex) {
 }
 
 function renderSentenceWithSpans(sentence, fe_tags, frame) {
+  const frameId = frame?.id || frame?.frame_id || "";
+  const frameFeIds = (frame?.elements || []).map((fe) => fe?.id || fe?.name).filter(Boolean);
   const text = String(sentence || "");
   const tags = Array.isArray(fe_tags) ? fe_tags : [];
   if (!text || !tags.length) return esc(text);
@@ -731,7 +799,7 @@ function renderSentenceWithSpans(sentence, fe_tags, frame) {
   for (const r of used) {
     out += esc(text.slice(pos, r.start));
     const label = feLabel(frame, r.fe_id);
-    out += `<span class="fe-span" title="${esc(label)}" data-fe="${esc(r.fe_id)}" style="${feStyleVars(r.fe_id)}">${esc(text.slice(r.start, r.end))}</span>`;
+    out += `<span class="fe-span" title="${esc(label)}" data-fe="${esc(r.fe_id)}" style="${feStyleVars(r.fe_id, frameId, frameFeIds)}">${esc(text.slice(r.start, r.end))}</span>`;
     pos = r.end;
   }
   out += esc(text.slice(pos));
@@ -823,9 +891,12 @@ function wireTabs(root, onTab) {
 function renderFrameHeader(frame) {
 
   const baseDesc = frame.description_html?.trim() ? frame.description_html : `<p>${esc(frame.description_en || "")}</p>`;
-  const descHtml = decorateFeHtml(baseDesc, frame.fe_mentions);
 
   const elements = frame.elements || [];
+  const frameId = frame?.id || frame?.frame_id || "";
+  const frameFeIds = elements.map((fe) => fe?.id || fe?.name).filter(Boolean);
+  const descHtml = decorateFeHtml(baseDesc, frame.fe_mentions, frameId, frameFeIds);
+
   const feList = elements.length
     ? `
       <div class="section" style="margin-top:12px">
@@ -836,9 +907,9 @@ function renderFrameHeader(frame) {
               const htmlRaw = (fe?.description_html ?? "").trim();
               const text = String(fe?.description_en ?? "").trim();
               const vRaw = htmlRaw ? htmlRaw : esc(text);
-              const v = decorateFeHtml(vRaw, frame.fe_mentions);
+              const v = decorateFeHtml(vRaw, frame.fe_mentions, frameId, frameFeIds);
               const label = fe.name || fe.id;
-              return `<div class="k">${feChipHtml(label, fe.id || label)}</div><div class="v">${v || '<span class="muted">(no description)</span>'}</div>`;
+              return `<div class="k">${feChipHtml(label, fe.id || label, frameId, frameFeIds)}</div><div class="v">${v || '<span class="muted">(no description)</span>'}</div>`;
             })
             .join("")}
         </div>
@@ -1178,7 +1249,7 @@ function renderLu(lu) {
     const entries = Object.entries(block).filter(([k, v]) => {
       if (skip.has(k)) return false;
       if (k === "alternatives" && Array.isArray(v) && v.length === 0) return false;
-      if (k === "note_en") return false; // render as note below
+      if (k === "note_en") return false;
       return hasValue(v);
     });
 
@@ -1242,11 +1313,13 @@ function renderLu(lu) {
           const htmlRaw = (primaryFrame.description_html ?? "").trim();
           const text = String(primaryFrame.description_en ?? "").trim();
           if (!htmlRaw && !text) return "";
-          const html = htmlRaw ? decorateFeHtml(htmlRaw, primaryFrame.fe_mentions) : "";
+          const html = htmlRaw ? decorateFeHtml(htmlRaw, primaryFrame.fe_mentions, primaryFrame?.id || primaryFrame?.frame_id || "", (Array.isArray(primaryFrame.elements)? primaryFrame.elements: []).map((fe)=>fe?.id||fe?.name).filter(Boolean)) : "";
           return `<div class="small muted" style="margin-top:6px">${html ? html : esc(text)}</div>`;
         })()}
         ${(() => {
           const els = Array.isArray(primaryFrame.elements) ? primaryFrame.elements : [];
+          const primaryFrameId = primaryFrame?.id || primaryFrame?.frame_id || "";
+          const frameFeIds = els.map((fe) => fe?.id || fe?.name).filter(Boolean);
           if (!els.length) return "";
           return `
             <div class="section" style="margin-top:12px">
@@ -1258,8 +1331,8 @@ function renderLu(lu) {
                     const htmlRaw = String(fe?.description_html ?? "").trim();
                     const text = String(fe?.description_en ?? "").trim();
                     const vRaw = htmlRaw ? htmlRaw : esc(text);
-                    const v = decorateFeHtml(vRaw, primaryFrame.fe_mentions);
-                    return `<div class="k">${feChipHtml(label, fe.id || label)}</div><div class="v">${v || '<span class="muted">(no description)</span>'}</div>`;
+                    const v = decorateFeHtml(vRaw, primaryFrame.fe_mentions, primaryFrameId, frameFeIds);
+                    return `<div class="k">${feChipHtml(label, fe.id || label, primaryFrameId, frameFeIds)}</div><div class="v">${v || '<span class="muted">(no description)</span>'}</div>`;
                   })
                   .join("")}
               </div>
@@ -1393,11 +1466,13 @@ function renderConstruction(cx) {
               const htmlRaw = (primaryFrame.description_html ?? "").trim();
               const text = String(primaryFrame.description_en ?? "").trim();
               if (!htmlRaw && !text) return "";
-              const html = htmlRaw ? decorateFeHtml(htmlRaw, primaryFrame.fe_mentions) : "";
+              const html = htmlRaw ? decorateFeHtml(htmlRaw, primaryFrame.fe_mentions, primaryFrame?.id || primaryFrame?.frame_id || "", (Array.isArray(primaryFrame.elements)? primaryFrame.elements: []).map((fe)=>fe?.id||fe?.name).filter(Boolean)) : "";
               return `<div class="small muted" style="margin-top:6px">${html ? html : esc(text)}</div>`;
             })()}
             ${(() => {
               const els = Array.isArray(primaryFrame.elements) ? primaryFrame.elements : [];
+          const primaryFrameId = primaryFrame?.id || primaryFrame?.frame_id || "";
+          const frameFeIds = els.map((fe) => fe?.id || fe?.name).filter(Boolean);
               if (!els.length) return "";
               return `
                 <div class="section" style="margin-top:12px">
@@ -1409,8 +1484,8 @@ function renderConstruction(cx) {
                         const htmlRaw = String(fe?.description_html ?? "").trim();
                         const text = String(fe?.description_en ?? "").trim();
                         const vRaw = htmlRaw ? htmlRaw : esc(text);
-                        const v = decorateFeHtml(vRaw, primaryFrame.fe_mentions);
-                        return `<div class="k">${feChipHtml(label, fe.id || label)}</div><div class="v">${v || '<span class="muted">(no description)</span>'}</div>`;
+                        const v = decorateFeHtml(vRaw, primaryFrame.fe_mentions, primaryFrameId, frameFeIds);
+                        return `<div class="k">${feChipHtml(label, fe.id || label, primaryFrameId, frameFeIds)}</div><div class="v">${v || '<span class="muted">(no description)</span>'}</div>`;
                       })
                       .join("")}
                   </div>
@@ -1593,7 +1668,7 @@ function renderSuggestThanks() {
   `;
 
   entry.querySelector("#thanksBack")?.addEventListener("click", () => {
-    location.hash = "#"; // or whatever your home route is
+    location.hash = "#";
   });
 }
 
@@ -1800,6 +1875,13 @@ function wirePanel() {
   const panel = $("#searchPanel");
 
   openBtn?.addEventListener("click", () => openPanel("search"));
+
+  const feBtn = $("#toggleFeColor");
+  feBtn?.addEventListener("click", () => {
+    state.ui.feColor = !state.ui.feColor;
+    savePrefs();
+    applyFeColorPref();
+  });
   closeBtn?.addEventListener("click", () => closePanel());
 
   panel?.addEventListener("click", (e) => {
