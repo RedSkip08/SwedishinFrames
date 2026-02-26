@@ -1632,7 +1632,7 @@ function renderAboutEntry() {
         <p>
 
           <b>Swedish in Frames</b> is a frame semantics and construction grammar based dictionary for the learners of Swedish.
-          It provides information on <span class="kbd">lexical units</span>, <span class="kbd">frames</span>, and <span class="kbd">constructions</span>. Currently all the data on the website has been generated using AI tools and has not been verified by human lexicographers. Please use the data presented here with caution.        </p>
+          It provides information on <span class="kbd">lexical units</span>, <span class="kbd">frames</span>, and <span class="kbd">constructions</span>. Currently, all the data on the website has been generated using AI tools and has not been verified by human lexicographers. Please use the data presented here with caution.        </p>
       </div>
     </div>
 
@@ -1765,7 +1765,7 @@ function route() {
     entry.innerHTML = `
       <div class="hero">
         <div>
-        <p>This is a frame semantics and construction based dictionary for Swedish learners. One can find here information about <span class="kbd">lexical units</span>, <span class="kbd">frames</span>, and <span class="kbd">constructions</span>. </p>  
+        <p>This is a frame semantics and construction based dictionary for Swedish learners. One can find here information about <span class="kbd">lexical units</span>, <span class="kbd">frames</span>, and <span class="kbd">constructions</span>. Currently, all the data on the website has been generated using AI tools and has not been verified by human lexicographers. Please use the data presented here with caution.</p>  
         <p>Search from the bar above, or open <span class="kbd">Browse / Filters</span> for advanced search and A–Z browsing.</p>
         </div>
       </div>
