@@ -1769,10 +1769,7 @@ function route() {
         <p>Search from the bar above, or open <span class="kbd">Browse / Filters</span> for advanced search and A–Z browsing.</p>
         </div>
       </div>
-      <div class="section">
-        <h4>Deep links</h4>
-        <div class="small muted">Use <span class="kbd">#lu:ID</span>, <span class="kbd">#frame:ID</span>, or <span class="kbd">#construction:ID</span></div>
-      </div>
+
     `;
   }
 }
