@@ -1630,9 +1630,9 @@ function renderAboutEntry() {
     <div class="hero">
       <div>
         <p>
-          <b>Swedish in Frames</b> is a frame semantics and construction grammar based dictionary for Swedish learners.
-          It provides information on <span class="kbd">lexical units</span>, <span class="kbd">frames</span>, and <span class="kbd">constructions</span>.
-        </p>
+
+          <b>Swedish in Frames</b> is a frame semantics and construction grammar based dictionary for the learners of Swedish.
+          It provides information on <span class="kbd">lexical units</span>, <span class="kbd">frames</span>, and <span class="kbd">constructions</span>. Currently all the data on the website has been generated using AI tools and has not been verified by human lexicographers. Please use the data presented here with caution.        </p>
       </div>
     </div>
 
